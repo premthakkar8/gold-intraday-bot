@@ -189,7 +189,7 @@ def _run_connected(
         gold,
         brief.chart,
         shown,
-        heading=f"{STYLES[shown.style]} | {shown.bias}",
+        heading=f"{settings.gold_symbol} 5m | {STYLES[shown.style]}",
     )
     if settings.notify:
         _notify_brief(brief, blackout, notify_plan=settings.alerts_only or broker is None)

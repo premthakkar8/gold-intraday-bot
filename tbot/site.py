@@ -50,7 +50,8 @@ def build_site(
   <h1>Gold intraday bot</h1>
   <p class="muted">{html.escape(lead)}</p>
   {widget}
-  <h2>Plan levels</h2>
+  <h2>Strategy on VANTAGE:XAUUSD</h2>
+  <p class="muted">These lines are the plan. A gold band is the entry, red is the stop, green is the target. "No trade" means there is nothing to follow.</p>
   {image}
   <h2>{html.escape(section_title)}</h2>
   <pre>{html.escape(account)}</pre>

@@ -8,7 +8,7 @@ from pathlib import Path
 import pandas as pd
 
 from tbot.chart import ChartRead
-from tbot.strategy import STYLES, Plan
+from tbot.strategy import Plan
 
 
 def save_chart(
@@ -37,26 +37,32 @@ def save_chart(
     ax.set_facecolor("#fbf8f2")
     ax.plot(view["ts"], view["close"], color="#1d1a16", linewidth=1.15, label="Gold")
     ax.axhline(chart.vwap, color="#8a6a2f", linestyle="--", linewidth=0.9, label=f"VWAP {chart.vwap:.2f}")
-    ax.axhline(chart.day_high, color="#b7b1a6", linewidth=0.7)
-    ax.axhline(chart.day_low, color="#b7b1a6", linewidth=0.7)
+    last_x = view["ts"].iloc[-1]
+    ax.scatter([last_x], [chart.last_price], color="#1d1a16", s=18, zorder=5)
+    ax.annotate(
+        f"{chart.last_price:.2f}",
+        (last_x, chart.last_price),
+        textcoords="offset points",
+        xytext=(6, 6),
+        fontsize=8,
+        color="#1d1a16",
+    )
 
-    if plan.entry_low is not None and plan.entry_high is not None:
-        ax.axhspan(plan.entry_low, plan.entry_high, color="#e2c56b", alpha=0.35, label="Entry zone")
+    if plan.bias != "flat" and plan.entry_low is not None and plan.entry_high is not None:
+        side = "SELL" if plan.bias == "short" else "BUY"
+        ax.axhspan(plan.entry_low, plan.entry_high, color="#e2c56b", alpha=0.45, label=f"{side} entry {plan.entry_low:.2f}-{plan.entry_high:.2f}")
         if plan.invalidation is not None:
-            ax.axhline(plan.invalidation, color="#8d2f2f", linestyle=":", linewidth=1.1, label=f"Invalidation {plan.invalidation:.2f}")
+            ax.axhline(plan.invalidation, color="#8d2f2f", linestyle="-", linewidth=1.2, label=f"Stop {plan.invalidation:.2f}")
         if plan.target is not None:
-            ax.axhline(plan.target, color="#1f6b45", linestyle=":", linewidth=1.1, label=f"Target {plan.target:.2f}")
-    elif plan.shadow_entry_low is not None and plan.shadow_entry_high is not None:
-        label = "Rejected zone"
-        if plan.shadow_style:
-            label = f"Rejected: {STYLES[plan.shadow_style]}"
-        ax.axhspan(plan.shadow_entry_low, plan.shadow_entry_high, color="#b7b1a6", alpha=0.35, label=label)
-        if plan.shadow_invalidation is not None:
-            ax.axhline(plan.shadow_invalidation, color="#8d2f2f", linestyle=":", linewidth=1.0, label="Rejected invalidation")
+            ax.axhline(plan.target, color="#1f6b45", linestyle="-", linewidth=1.2, label=f"Target {plan.target:.2f}")
+        if plan.target_far is not None:
+            ax.axhline(plan.target_far, color="#1f6b45", linestyle=":", linewidth=1.0, label=f"Next target {plan.target_far:.2f}")
+        title = f"{heading}  |  follow this {side}"
+    else:
+        title = f"{heading}  |  no trade"
 
-    title = heading
     if sketch:
-        title = f"{heading}  |  sketch, not a live chart"
+        title = f"{title}  |  sketch"
     ax.set_title(title, loc="left", fontsize=12, color="#1d1a16")
     ax.tick_params(colors="#1d1a16")
     ax.grid(True, axis="y", color="#e4ddd0", linewidth=0.6)
