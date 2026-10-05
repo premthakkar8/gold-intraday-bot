@@ -19,25 +19,44 @@
 <main>
   <h1>Gold intraday bot</h1>
   <p class="muted">Alerts only. No orders are sent. A phone alert fires when a trade plan opens. This page reloads every 5 minutes.</p>
-  <img src="chart.png?v=1791227957" alt="Gold chart with the current plan levels">
+  
+<div class="tradingview-widget-container">
+  <div id="tv_gold" style="height:460px"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/chart/?symbol=VANTAGE%3AXAUUSD" rel="noopener nofollow" target="_blank">VANTAGE:XAUUSD chart</a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget({
+    "autosize": true,
+    "symbol": "VANTAGE:XAUUSD",
+    "interval": "5",
+    "timezone": "Etc/UTC",
+    "theme": "light",
+    "style": "1",
+    "locale": "en",
+    "allow_symbol_change": false,
+    "hide_side_toolbar": false,
+    "container_id": "tv_gold"
+  });
+  </script>
+</div>
+
+  <h2>Plan levels</h2>
+  <img src="chart.png?v=1791228493" alt="Gold chart with the current plan levels">
   <h2>Current alert</h2>
-  <pre>No trade. Gold 4167.40. Stand aside.</pre>
+  <pre>No trade. Gold 4141.46. Stand aside.</pre>
   <h2>Latest brief</h2>
   <pre>GOLD INTRADAY BRIEF
-2026-10-05 19:19 UTC
-Gold: GC=F    Dollar index: DX-Y.NYB    WTI: CL=F
+2026-10-05 19:27 UTC
+Gold: VANTAGE:XAUUSD    Dollar index: DX-Y.NYB    WTI: CL=F
 This plan is rebuilt on every run. The journal changes which approach is trusted. It does not freeze a strategy.
-Prices are COMEX gold futures, not spot XAUUSD. Use the structure and the dollar relationship. Do not copy a futures price onto a spot ticket.
+Gold prices are the VANTAGE:XAUUSD chart on TradingView (https://www.tradingview.com/chart/?symbol=VANTAGE%3AXAUUSD). That is the Vantage XAUUSD gold CFD, so these levels match that chart rather than COMEX futures.
 
-RUNNING PLAN
-Standing aside since 18:11 UTC (plan 03b588d4). It keeps running because the new read is also no trade.
-
-NEW READ (not opened)
-Stand aside  |  FLAT  |  confidence 0.56  |  id f0a55cc5
+PLAN
+Stand aside  |  FLAT  |  confidence 0.54  |  id c5413331
 Standing aside. The headline shock is larger than the lead of the best trade.
-Fresh headline shock is in the tape. Trade with the dollar leads standing aside by only 0.04, which is not enough to take a trade while that headline is live. No position. Run a new brief when the price has absorbed the headline, or when the dollar move fades.
+Fresh headline shock is in the tape. Trade with the dollar leads standing aside by only 0.05, which is not enough to take a trade while that headline is live. No position. Run a new brief when the price has absorbed the headline, or when the dollar move fades.
 No position. Nothing is risked on this plan.
-The rejected zone was 4189.20 to 4198.90 (Trade with the dollar), invalidation 4200.60, target 4175.36. It is not an order.
+The rejected zone was 4160.96 to 4170.40 (Trade with the dollar), invalidation 4171.87, target 4148.15. It is not an order.
 
 WHAT WOULD CHANGE IT
 - This plan is graded after 120 minutes, or sooner if price hits the invalidation or the target.
@@ -47,37 +66,38 @@ WHAT WOULD CHANGE IT
 - A headline that flips the dollar or oil story means you run a new brief before entering.
 
 CHART
-Gold 4167.40 in New York (17:00-21:00 UTC). 5-minute structure is sideways. 1-hour structure is sideways.
-UTC-day range 4150.40 to 4198.90. Price is 35% of the way up that range, below VWAP 4175.36. ATR 3.09. Short-range volatility over longer-range volatility is 0.95.
+Gold 4141.46 in New York (17:00-21:00 UTC). 5-minute structure is up. 1-hour structure is sideways.
+UTC-day range 4123.22 to 4170.40. Price is 39% of the way up that range, below VWAP 4148.15. ATR 2.67. Short-range volatility over longer-range volatility is 0.80.
 
 DOLLAR
-DXY 102.18 (+0.27% this UTC day, up). Correlation of recent 5-minute returns with gold is -0.60. Gold is responding the usual way to a firmer dollar.
+DXY 102.17 (+0.26% this UTC day, up). Correlation of recent 5-minute returns with gold is -0.60. Gold is responding the usual way to a firmer dollar.
 
 OIL
-WTI 89.08 (-1.93% this UTC day, down). Correlation of recent 5-minute returns with gold is -0.23. Falling oil is not automatically a gold short. It matters when gold is actually following it.
+WTI 89.03 (-1.98% this UTC day, down). Correlation of recent 5-minute returns with gold is -0.21. Falling oil is not automatically a gold short. It matters when gold is actually following it.
 
 HEADLINES
-Dollar-headline score +1.00 (wording supports a stronger dollar, usually a headwind for gold). Oil-headline score -0.20 (no clear oil impulse in the wording). Fresh shock wording: yes.
+Dollar-headline score +1.00 (wording supports a stronger dollar, usually a headwind for gold). Oil-headline score +0.12 (no clear oil impulse in the wording). Fresh shock wording: yes.
 Dollar headlines:
 - Nasdaq hits record as dollar and Treasury yields climb, oil prices ease - The Spokesman-Review
-- U.S. Treasury Yields Jump Most in 32 Years - 조선일보
+- U.S. Treasury Yields Jump Most in 32 Years - chosun.com
 - Nasdaq Poised to Hit New High as Treasury Yields Climb - WSJ
 Oil headlines:
 - Iraq seeks to buy crude oil tankers to handle shipments beyond Strait of Hormuz: INA - S&amp;P Global
-- Treasury Yields Dip As Oil Slips And Central Banks Stay Patient - Finimize
-- US oil inventories rise but fuel tightness and OPEC+ discipline keep prices supported. - Pluang
+- UKMTO reports fresh attacks in Red Sea, Strait of Hormuz - Quantum Commodity Intelligence
+- Treasury Yields Dip As Oil Slips And Central Banks Stay Patient - finimize.com
 
 WHY THIS APPROACH
 Adjusted score = how the setup looks now, times the journal. A trade needs at least 0.50. Journal half-life is 5 days, so a lesson from a month ago barely counts.
-  Trade with the dollar            0.60 x 1.00 = 0.60  short
-&gt; Stand aside                      0.56 x 1.00 = 0.56  flat
+  Trade with the dollar            0.58 x 1.00 = 0.58  short
+&gt; Stand aside                      0.76 x 0.71 = 0.54  flat
   Trade the oil shock              0.12 x 1.00 = 0.12  flat
-  Trade with the intraday trend    0.10 x 1.00 = 0.10  flat
+  Trade with the intraday trend    0.10 x 1.00 = 0.10  long
   Fade the session range           0.10 x 1.00 = 0.10  flat
+0 wins, 1 losses, 0 scratches on similar days (effective weight 0.8). Trust multiplier 0.71.
 No similar graded sessions yet. This choice is provisional.
 
 GRADED THIS RUN
-Nothing finished its stop, target, or time window on this run.
+03b588d4 stand aside -&gt; loss (-1.00R)
 
 The next run reads the chart, the dollar, and oil again from scratch. Only the graded results carry forward, and they decay.
 
@@ -87,7 +107,7 @@ US CALENDAR
 Refreshed 2026-10-05 18:44 UTC. Refreshes hourly.
 No high or medium impact USD releases in the next 24 hours.</pre>
   <h2>Recent runs</h2>
-  <pre>2026-10-05 19:19 UTC  gold 4167.40 | holding flat stand_aside 03b588d4 | new read flat stand_aside not opened
+  <pre>2026-10-05 19:27 UTC  gold 4141.46 | graded: 03b588d4 stand aside -&gt; loss (-1.00R) | opened stand aside c5413331
 2026-10-05 19:04 UTC  auto: gold 4168.90 | holding flat stand_aside 03b588d4 | new read flat stand_aside not opened | broker: Bot exposure: none
 2026-10-05 18:57 UTC  auto: gold 4167.00 | holding flat stand_aside 03b588d4 | new read flat stand_aside not opened | broker: Bot exposure: none
 2026-10-05 18:53 UTC  manual: gold 4165.10 | holding flat stand_aside 03b588d4 | new read flat stand_aside not opened | broker: Bot exposure: none

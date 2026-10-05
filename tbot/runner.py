@@ -221,6 +221,7 @@ def _run_connected(
         [*_log_tail(settings, 19), f"{stamp}  {summary}"],
         lead=lead,
         section_title=section,
+        tv_symbol=settings.gold_symbol if ":" in settings.gold_symbol else None,
     )
     return RunResult(0, summary, text=text, brief=brief)
 

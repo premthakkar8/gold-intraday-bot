@@ -18,3 +18,4 @@ NameError: name 'load_calendar' is not defined
 2026-10-05 18:57 UTC  auto: gold 4167.00 | holding flat stand_aside 03b588d4 | new read flat stand_aside not opened | broker: Bot exposure: none
 2026-10-05 19:04 UTC  auto: gold 4168.90 | holding flat stand_aside 03b588d4 | new read flat stand_aside not opened | broker: Bot exposure: none
 2026-10-05 19:19 UTC  auto: gold 4167.40 | holding flat stand_aside 03b588d4 | new read flat stand_aside not opened
+2026-10-05 19:28 UTC  manual: gold 4141.46 | graded: 03b588d4 stand aside -> loss (-1.00R) | opened stand aside c5413331

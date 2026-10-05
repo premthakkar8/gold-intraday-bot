@@ -2,7 +2,7 @@
 # Every run rebuilds the plan. Nothing here is a permanent entry rule.
 
 symbols:
-  gold: "XAUUSD=X" # spot-style quote; the loader falls back to GC=F futures
+  gold: "VANTAGE:XAUUSD" # TradingView chart: https://www.tradingview.com/chart/?symbol=VANTAGE%3AXAUUSD
   dxy: "DX-Y.NYB" # US dollar index; falls back to DX=F
   oil: "CL=F" # WTI crude
 

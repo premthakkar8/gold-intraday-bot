@@ -17,6 +17,7 @@ def build_site(
     *,
     lead: str = "Updated every 15 minutes while the gold market is open. This page reloads every 5 minutes.",
     section_title: str = "Status",
+    tv_symbol: str | None = None,
 ) -> Path:
     site_dir.mkdir(parents=True, exist_ok=True)
     image = ""
@@ -24,6 +25,7 @@ def build_site(
         shutil.copyfile(chart, site_dir / "chart.png")
         stamp = int(datetime.now(timezone.utc).timestamp())
         image = f'<img src="chart.png?v={stamp}" alt="Gold chart with the current plan levels">'
+    widget = _tradingview_widget(tv_symbol) if tv_symbol else ""
     account = "\n".join(account_lines)
     recent = "\n".join(reversed(log_tail))
     page = f"""<!DOCTYPE html>
@@ -47,6 +49,8 @@ def build_site(
 <main>
   <h1>Gold intraday bot</h1>
   <p class="muted">{html.escape(lead)}</p>
+  {widget}
+  <h2>Plan levels</h2>
   {image}
   <h2>{html.escape(section_title)}</h2>
   <pre>{html.escape(account)}</pre>
@@ -62,3 +66,30 @@ def build_site(
     (site_dir / "index.html").write_text(page, encoding="utf-8")
     (site_dir / ".nojekyll").write_text("", encoding="utf-8")
     return site_dir / "index.html"
+
+
+def _tradingview_widget(symbol: str) -> str:
+    link = "https://www.tradingview.com/chart/?symbol=" + symbol.replace(":", "%3A")
+    container = "tv_gold"
+    script = """
+<div class="tradingview-widget-container">
+  <div id="{container}" style="height:460px"></div>
+  <div class="tradingview-widget-copyright"><a href="{link}" rel="noopener nofollow" target="_blank">{symbol} chart</a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget({{
+    "autosize": true,
+    "symbol": "{symbol}",
+    "interval": "5",
+    "timezone": "Etc/UTC",
+    "theme": "light",
+    "style": "1",
+    "locale": "en",
+    "allow_symbol_change": false,
+    "hide_side_toolbar": false,
+    "container_id": "{container}"
+  }});
+  </script>
+</div>
+""".format(container=container, link=html.escape(link), symbol=html.escape(symbol))
+    return script

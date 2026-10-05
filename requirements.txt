@@ -3,3 +3,4 @@ pandas>=2.0
 numpy>=1.26
 PyYAML>=6.0
 matplotlib>=3.8
+websocket-client>=1.8

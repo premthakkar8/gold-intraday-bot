@@ -20,12 +20,7 @@ class MarketDataError(RuntimeError):
 
 def load_market(settings: Settings) -> tuple[str, pd.DataFrame, str | None, pd.DataFrame | None, str | None, pd.DataFrame | None, list[str]]:
     warnings: list[str] = []
-    gold_symbol, gold = _first_available(settings.gold_symbol, GOLD_FALLBACKS, settings)
-    if gold_symbol is None or gold is None:
-        raise MarketDataError(
-            "Gold prices did not load. Check the connection, then try again. "
-            "python main.py demo still runs without a feed."
-        )
+    gold_symbol, gold = _load_gold(settings, warnings)
     dxy_symbol, dxy = _first_available(settings.dxy_symbol, DXY_FALLBACKS, settings)
     if dxy is None:
         warnings.append("Dollar index price did not load. The brief will use dollar headlines only.")
@@ -68,12 +63,36 @@ def fetch_bars(symbol: str, interval: str, period: str) -> pd.DataFrame:
 
 
 def price_note_for(symbol: str) -> str:
+    if ":" in symbol:
+        link = "https://www.tradingview.com/chart/?symbol=" + symbol.replace(":", "%3A")
+        return (
+            f"Gold prices are the {symbol} chart on TradingView ({link}). "
+            "That is the Vantage XAUUSD gold CFD, so these levels match that chart rather than COMEX futures."
+        )
     if symbol.upper() in {"GC=F", "MGC=F"}:
         return (
             "Prices are COMEX gold futures, not spot XAUUSD. "
             "Use the structure and the dollar relationship. Do not copy a futures price onto a spot ticket."
         )
     return ""
+
+
+def _load_gold(settings: Settings, warnings: list[str]) -> tuple[str, pd.DataFrame]:
+    symbol = settings.gold_symbol
+    if ":" in symbol:
+        try:
+            from tbot.tradingview_feed import fetch_chart
+
+            return symbol, fetch_chart(symbol, "5", 1200)
+        except MarketDataError as exc:
+            warnings.append(f"TradingView chart {symbol} did not load ({exc}). Using the fallback gold price.")
+    gold_symbol, gold = _first_available(symbol if ":" not in symbol else "XAUUSD=X", GOLD_FALLBACKS, settings)
+    if gold_symbol is None or gold is None:
+        raise MarketDataError(
+            "Gold prices did not load. Check the connection, then try again. "
+            "python main.py demo still runs without a feed."
+        )
+    return gold_symbol, gold
 
 
 def _first_available(
