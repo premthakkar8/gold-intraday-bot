@@ -7,6 +7,9 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+  actions: write
 
 concurrency:
   group: gold-bot
@@ -15,7 +18,9 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
+    environment:
+      name: github-pages
     steps:
       - uses: actions/checkout@v4
 
@@ -33,7 +38,7 @@ jobs:
           TBOT_NTFY_TOPIC: ${{ secrets.TBOT_NTFY_TOPIC }}
         run: python main.py live --minutes 14 --every 60
 
-      - name: Save journal, demo account, and status page
+      - name: Save journal and signals
         run: |
           git config user.name "gold-bot"
           git config user.email "gold-bot@users.noreply.github.com"
@@ -48,3 +53,21 @@ jobs:
             sleep 5
           done
           exit 1
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Publish the dashboard
+        uses: actions/deploy-pages@v4
+
+      - name: Start the next watch while the market is open
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if python -c "from datetime import datetime, timezone; from tbot.runner import market_open; raise SystemExit(0 if market_open(datetime.now(timezone.utc)) else 1)"; then
+            gh workflow run bot.yml --ref "${GITHUB_REF_NAME}"
+          else
+            echo "market closed; the schedule restarts it"
+          fi
