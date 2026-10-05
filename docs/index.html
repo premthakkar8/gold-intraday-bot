@@ -19,14 +19,14 @@
 <main>
   <h1>Gold intraday bot</h1>
   <p class="muted">Paper demo account. Updated every 15 minutes while the gold market is open. This page reloads every 5 minutes.</p>
-  <img src="chart.png?v=1791226668" alt="Gold chart with the current plan levels">
+  <img src="chart.png?v=1791227051" alt="Gold chart with the current plan levels">
   <h2>Demo account</h2>
   <pre>PAPER DEMO ACCOUNT
 Started with 100.00 USD. Balance 100.00, equity 100.00 (+0.00).
 No closed trades yet.</pre>
   <h2>Latest brief</h2>
   <pre>GOLD INTRADAY BRIEF
-2026-10-05 18:57 UTC
+2026-10-05 19:04 UTC
 Gold: GC=F    Dollar index: DX-Y.NYB    WTI: CL=F
 This plan is rebuilt on every run. The journal changes which approach is trusted. It does not freeze a strategy.
 Prices are COMEX gold futures, not spot XAUUSD. Use the structure and the dollar relationship. Do not copy a futures price onto a spot ticket.
@@ -35,11 +35,11 @@ RUNNING PLAN
 Standing aside since 18:11 UTC (plan 03b588d4). It keeps running because the new read is also no trade.
 
 NEW READ (not opened)
-Stand aside  |  FLAT  |  confidence 0.56  |  id b016922c
-No approach cleared the bar, so the plan is to stand aside.
-The closest idea was Trade with the dollar (short), adjusted score 0.32, below the 0.50 line required for a trade. Price is already near the low of the UTC-day range (34% of the way up), so the short would be chasing a move that has happened. Standing aside is the plan until the chart, the dollar, oil, or the journal changes.
+Stand aside  |  FLAT  |  confidence 0.56  |  id 765dcfd4
+Standing aside. The headline shock is larger than the lead of the best trade.
+Fresh headline shock is in the tape. Trade with the dollar leads standing aside by only 0.01, which is not enough to take a trade while that headline is live. No position. Run a new brief when the price has absorbed the headline, or when the dollar move fades.
 No position. Nothing is risked on this plan.
-The rejected zone was 4189.20 to 4198.90 (Trade with the dollar), invalidation 4200.59, target 4175.43. It is not an order.
+The rejected zone was 4189.20 to 4198.90 (Trade with the dollar), invalidation 4200.58, target 4175.41. It is not an order.
 
 WHAT WOULD CHANGE IT
 - This plan is graded after 120 minutes, or sooner if price hits the invalidation or the target.
@@ -49,30 +49,30 @@ WHAT WOULD CHANGE IT
 - A headline that flips the dollar or oil story means you run a new brief before entering.
 
 CHART
-Gold 4167.00 in New York (17:00-21:00 UTC). 5-minute structure is sideways. 1-hour structure is sideways.
-UTC-day range 4150.40 to 4198.90. Price is 34% of the way up that range, below VWAP 4175.43. ATR 3.08. Short-range volatility over longer-range volatility is 1.00.
+Gold 4168.90 in New York (17:00-21:00 UTC). 5-minute structure is sideways. 1-hour structure is sideways.
+UTC-day range 4150.40 to 4198.90. Price is 38% of the way up that range, below VWAP 4175.41. ATR 3.05. Short-range volatility over longer-range volatility is 0.99.
 
 DOLLAR
-DXY 102.18 (+0.27% this UTC day, up). Correlation of recent 5-minute returns with gold is -0.54. Gold is responding the usual way to a firmer dollar.
+DXY 102.18 (+0.27% this UTC day, up). Correlation of recent 5-minute returns with gold is -0.49. Gold is responding the usual way to a firmer dollar.
 
 OIL
-WTI 89.01 (-2.00% this UTC day, down). Correlation of recent 5-minute returns with gold is -0.21. Falling oil is not automatically a gold short. It matters when gold is actually following it.
+WTI 88.97 (-2.05% this UTC day, down). Correlation of recent 5-minute returns with gold is -0.27. Falling oil is not automatically a gold short. It matters when gold is actually following it.
 
 HEADLINES
 Dollar-headline score +1.00 (wording supports a stronger dollar, usually a headwind for gold). Oil-headline score +0.12 (no clear oil impulse in the wording). Fresh shock wording: yes.
 Dollar headlines:
-- U.S. Treasury Yields Jump Most in 32 Years - chosun.com
+- Nasdaq hits record as dollar and Treasury yields climb, oil prices ease - spokesman.com
+- U.S. Treasury Yields Jump Most in 32 Years - 조선일보
 - Nasdaq hits record as dollar and Treasury yields climb, oil prices ease - TradingView
-- U.S. Treasury Yields Surge to 32-Year High as Allies Turn Net Sellers - chosun.com
 Oil headlines:
 - Iraq seeks to buy crude oil tankers to handle shipments beyond Strait of Hormuz: INA - S&amp;P Global
 - UKMTO reports fresh attacks in Red Sea, Strait of Hormuz - Quantum Commodity Intelligence
-- Treasury Yields Dip As Oil Slips And Central Banks Stay Patient - finimize.com
+- Treasury Yields Dip As Oil Slips And Central Banks Stay Patient - Finimize
 
 WHY THIS APPROACH
 Adjusted score = how the setup looks now, times the journal. A trade needs at least 0.50. Journal half-life is 5 days, so a lesson from a month ago barely counts.
+  Trade with the dollar            0.57 x 1.00 = 0.57  short
 &gt; Stand aside                      0.56 x 1.00 = 0.56  flat
-  Trade with the dollar            0.32 x 1.00 = 0.32  short
   Trade the oil shock              0.12 x 1.00 = 0.12  flat
   Trade with the intraday trend    0.10 x 1.00 = 0.10  flat
   Fade the session range           0.10 x 1.00 = 0.10  flat
@@ -97,7 +97,8 @@ PAPER DEMO ACCOUNT
 Started with 100.00 USD. Balance 100.00, equity 100.00 (+0.00).
 No closed trades yet.</pre>
   <h2>Recent runs</h2>
-  <pre>2026-10-05 18:57 UTC  gold 4167.00 | holding flat stand_aside 03b588d4 | new read flat stand_aside not opened | broker: Bot exposure: none
+  <pre>2026-10-05 19:04 UTC  gold 4168.90 | holding flat stand_aside 03b588d4 | new read flat stand_aside not opened | broker: Bot exposure: none
+2026-10-05 18:57 UTC  auto: gold 4167.00 | holding flat stand_aside 03b588d4 | new read flat stand_aside not opened | broker: Bot exposure: none
 2026-10-05 18:53 UTC  manual: gold 4165.10 | holding flat stand_aside 03b588d4 | new read flat stand_aside not opened | broker: Bot exposure: none
 2026-10-05 18:44 UTC  auto: gold 4163.90 | holding flat stand_aside 03b588d4 | new read flat stand_aside not opened | mt5: Not connected: MetaTrader 5 did not connect: (-10003, &#x27;IPC initialize failed, MetaTrader 5 x64 not found&#x27;). Open MT5 and log in to the demo account.
 NameError: name &#x27;load_calendar&#x27; is not defined
