@@ -56,6 +56,14 @@ def market_open(now: datetime) -> bool:
     return True
 
 
+def seconds_until_open(now: datetime, limit_minutes: int = 75) -> int | None:
+    """Seconds until the gold market reopens, if that is within the limit."""
+    for minute in range(limit_minutes + 1):
+        if market_open(now + timedelta(minutes=minute)):
+            return minute * 60
+    return None
+
+
 def run_live(settings: Settings, *, keep_running_plan: bool, scheduled: bool) -> RunResult:
     now = datetime.now(timezone.utc)
     if scheduled and not market_open(now):

@@ -18,7 +18,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 110
     environment:
       name: github-pages
     steps:
@@ -63,11 +63,17 @@ jobs:
 
       - name: Start the next watch while the market is open
         if: always()
+        timeout-minutes: 80
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if python -c "from datetime import datetime, timezone; from tbot.runner import market_open; raise SystemExit(0 if market_open(datetime.now(timezone.utc)) else 1)"; then
-            gh workflow run bot.yml --ref "${GITHUB_REF_NAME}"
-          else
-            echo "market closed; the schedule restarts it"
+          wait=$(python -c "from datetime import datetime, timezone; from tbot.runner import seconds_until_open; s = seconds_until_open(datetime.now(timezone.utc)); print(-1 if s is None else s)")
+          if [ "$wait" -lt 0 ]; then
+            echo "market closed for the weekend; the schedule restarts it"
+            exit 0
           fi
+          if [ "$wait" -gt 0 ]; then
+            echo "daily pause, waiting ${wait}s for gold to reopen"
+            sleep "$wait"
+          fi
+          gh workflow run bot.yml --ref "${GITHUB_REF_NAME}"

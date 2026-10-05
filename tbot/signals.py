@@ -1,4 +1,4 @@
-"""Buy and sell setups for gold, sent to ntfy with the data behind them.
+﻿"""Buy and sell setups for gold, sent to ntfy with the data behind them.
 
 Every analysis builds both sides from the same chart: where a buy would make
 sense, where a sell would make sense, each with entry, SL, and TP sized to the
@@ -37,6 +37,91 @@ class Setup:
     style: str
     favored: bool
     ready: bool
+    status: str = "valid"
+    reason: str = ""
+    created_at: str = ""
+    checked_at: str = ""
+
+
+VALID = "valid"
+FAR = "far"
+WEAK = "weak"
+PAUSED = "paused"
+INVALID = "invalid"
+EXPIRED = "expired"
+TRADABLE = (VALID, FAR, WEAK)
+
+STATUS_LABEL = {
+    VALID: "Valid",
+    FAR: "Valid, price far",
+    WEAK: "Weak",
+    PAUSED: "Paused",
+    INVALID: "Invalid",
+    EXPIRED: "Expired",
+}
+
+
+def research_check(setup: Setup, brief, blackout) -> tuple[str, str]:
+    """Does this side still make sense against the dollar, oil, news, and trend right now?"""
+    chart, macro, news = brief.chart, brief.macro, brief.news
+    if blackout is not None:
+        return PAUSED, f"{blackout.title} at {blackout.when:%H:%M UTC} is a high-impact US release. Wait until it passes."
+    corr = macro.gold_dxy_corr if macro.dxy_overlap >= 12 else 0.0
+    follows_dollar = corr <= -0.3
+    if setup.side == "BUY":
+        if macro.dxy_session_pct >= 0.25 and follows_dollar and news.usd_score >= 0.35:
+            return INVALID, (
+                f"Dollar is up {macro.dxy_session_pct:+.2f}% with hawkish news ({news.usd_score:+.2f}) "
+                f"and gold is moving against it (corr {corr:+.2f}). Buying fights the dollar."
+            )
+        if chart.structure == "down" and brief.htf_structure == "down":
+            return INVALID, "Gold is trending down on both the 5-minute and 1-hour charts."
+    else:
+        if macro.dxy_session_pct <= -0.25 and follows_dollar and news.usd_score <= -0.35:
+            return INVALID, (
+                f"Dollar is down {macro.dxy_session_pct:+.2f}% with dovish news ({news.usd_score:+.2f}) "
+                f"and gold is moving against it (corr {corr:+.2f}). Selling fights the dollar."
+            )
+        if chart.structure == "up" and brief.htf_structure == "up":
+            return INVALID, "Gold is trending up on both the 5-minute and 1-hour charts."
+    if setup.score < 0.30:
+        return WEAK, f"Strategy score is only {setup.score:.2f}. Take it only with a clear reaction at the entry."
+    return VALID, _support_reason(setup, brief)
+
+
+def price_check(item: dict, price: float, atr: float, now: datetime) -> tuple[str, str] | None:
+    """Minute check on price alone. None means the research status stands."""
+    created = datetime.fromisoformat(item["created_at"]) if item.get("created_at") else now
+    if now - created >= timedelta(minutes=ACTIVE_MINUTES):
+        return EXPIRED, f"Signal is {ACTIVE_MINUTES} minutes old without an entry. Waiting for a fresh one."
+    if item["side"] == "BUY" and price <= item["sl"]:
+        return INVALID, f"Price {price:.2f} broke below the SL {item['sl']:.2f} before the entry triggered."
+    if item["side"] == "SELL" and price >= item["sl"]:
+        return INVALID, f"Price {price:.2f} broke above the SL {item['sl']:.2f} before the entry triggered."
+    gap = item["entry_low"] - price if price < item["entry_low"] else price - item["entry_high"] if price > item["entry_high"] else 0.0
+    if gap > 6 * atr:
+        return FAR, f"Price is {gap:.2f} away from the entry ({gap / atr:.1f} ATR). Unlikely to fill soon."
+    return None
+
+
+def _support_reason(setup: Setup, brief) -> str:
+    macro, news = brief.macro, brief.news
+    parts = [f"Score {setup.score:.2f} ({STYLES.get(setup.style, setup.style)})"]
+    if setup.side == "BUY":
+        if macro.dxy_state == "down":
+            parts.append(f"dollar softer {macro.dxy_session_pct:+.2f}%")
+        if news.oil_score >= 0.35:
+            parts.append(f"oil supply news {news.oil_score:+.2f}")
+        if brief.chart.last_price < brief.chart.vwap:
+            parts.append("price below VWAP")
+    else:
+        if macro.dxy_state == "up":
+            parts.append(f"dollar firmer {macro.dxy_session_pct:+.2f}%")
+        if news.usd_score >= 0.35:
+            parts.append(f"hawkish dollar news {news.usd_score:+.2f}")
+        if brief.chart.last_price > brief.chart.vwap:
+            parts.append("price above VWAP")
+    return ", ".join(parts) + "."
 
 
 def build_setups(brief, rules: RiskRules) -> list[Setup]:
@@ -128,10 +213,12 @@ def setup_text(setup: Setup) -> str:
     if setup.ready:
         tag = "strategy says trade"
     tp2 = f" | TP2 {setup.tp2:.2f}" if setup.tp2 is not None else ""
+    status = STATUS_LABEL.get(setup.status, setup.status).upper()
     return (
-        f"{setup.side} XAUUSD ({tag}, score {setup.score:.2f}, {STYLES.get(setup.style, setup.style)})\n"
+        f"{setup.side} XAUUSD [{status}] ({tag}, score {setup.score:.2f})\n"
         f"Entry {setup.entry_low:.2f}-{setup.entry_high:.2f} | SL {setup.sl:.2f} | TP1 {setup.tp1:.2f}{tp2}\n"
-        f"R:R 1:{setup.rr:.1f}, {setup.units:g} oz, about ${setup.risk_usd:.2f} at SL"
+        f"R:R 1:{setup.rr:.1f}, {setup.units:g} oz, about ${setup.risk_usd:.2f} at SL\n"
+        f"Check: {setup.reason}"
     )
 
 
@@ -143,7 +230,23 @@ def update(settings, brief, calendar, blackout, now: datetime, send) -> list[str
     atr = max(brief.chart.atr, 0.5)
     stance = _stance(brief)
     previous = [Setup(**item) for item in state.get("setups", [])]
+    by_side = {item.side: item for item in previous}
+    for item in setups:
+        item.status, item.reason = research_check(item, brief, blackout)
+        prior = by_side.get(item.side)
+        same_levels = prior is not None and abs(prior.entry_low - item.entry_low) <= 0.5 * atr and abs(prior.sl - item.sl) <= 0.5 * atr
+        item.created_at = prior.created_at if same_levels and prior.created_at else now.isoformat()
+        item.checked_at = now.isoformat()
+        moved = price_check(asdict(item), brief.chart.last_price, atr, now)
+        if moved is not None and item.status in TRADABLE:
+            item.status, item.reason = moved
+    _pick_favored(setups)
     changed = _changed(previous, setups, atr) or state.get("stance") != stance
+    if not changed:
+        for item in setups:
+            prior = by_side.get(item.side)
+            if prior is not None and prior.status != item.status:
+                _send_status(send, item, brief.chart.last_price)
     if changed and setups:
         favored = next((item for item in setups if item.favored), setups[0])
         title = f"Gold signals: {favored.side} favored"
@@ -183,11 +286,27 @@ def tick(settings, bars: pd.DataFrame, now: datetime, send) -> list[str]:
     price = float(bars["close"].iloc[-1])
     notes: list[str] = []
     active = state.get("active", [])
-    taken = {item["side"] for item in active}
+    taken = {item["side"] for item in active if not item.get("closed")}
+    used = {(item["side"], item["entry_low"]) for item in active if item.get("closed")}
+    atr = float(state.get("atr") or 1.0)
 
     for item in state.get("setups", []):
-        if item["side"] in taken:
+        item["checked_at"] = now.isoformat()
+        if item["side"] in taken or (item["side"], item["entry_low"]) in used:
             continue
+        if item.get("status") in (INVALID, EXPIRED, PAUSED):
+            continue
+        moved = price_check(item, price, atr, now)
+        if moved is not None and moved[0] != item.get("status"):
+            item["status"], item["reason"] = moved
+            _send_status(send, Setup(**item), price)
+            notes.append(f"{item['side']} now {item['status']}: {item['reason']}")
+            if item["status"] in (INVALID, EXPIRED):
+                continue
+        elif moved is None and item.get("status") == FAR:
+            item["status"], item["reason"] = VALID, f"Price {price:.2f} is back within reach of the entry."
+            _send_status(send, Setup(**item), price)
+            notes.append(f"{item['side']} valid again")
         if item["side"] == "BUY":
             entered = low <= item["entry_high"]
             stopped = low <= item["sl"]
@@ -264,6 +383,33 @@ def page_lines(state: dict) -> list[str]:
     return lines or ["No setups yet."]
 
 
+def _status_alert(setup: Setup, price: float) -> tuple:
+    label = STATUS_LABEL.get(setup.status, setup.status)
+    if setup.status in (INVALID, EXPIRED, PAUSED):
+        title = f"{setup.side} XAUUSD signal {label.lower()}"
+        body = f"{setup.reason}\nGold {price:.2f}. Do not take the {setup.side} at {setup.entry_low:.2f}-{setup.entry_high:.2f}."
+        return title, body, {"priority": "high"}
+    title = f"{setup.side} XAUUSD signal {label.lower()}"
+    body = (
+        f"{setup.reason}\nGold {price:.2f}.\n"
+        f"Entry {setup.entry_low:.2f}-{setup.entry_high:.2f} | SL {setup.sl:.2f} | TP1 {setup.tp1:.2f}"
+    )
+    return title, body, {"priority": "default"}
+
+
+def _send_status(send, setup: Setup, price: float) -> None:
+    title, body, options = _status_alert(setup, price)
+    send(title, body, **options)
+
+
+def _pick_favored(setups: list[Setup]) -> None:
+    for item in setups:
+        item.favored = False
+    live = [item for item in setups if item.status in TRADABLE] or setups
+    if live:
+        max(live, key=lambda item: item.score).favored = True
+
+
 def _stance(brief) -> str:
     from tbot.report import DECISION
 
@@ -321,3 +467,4 @@ def _save(settings, state: dict) -> None:
     path = _path(settings)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(state, indent=2), encoding="utf-8")
+

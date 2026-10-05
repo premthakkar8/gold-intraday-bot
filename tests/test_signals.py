@@ -68,6 +68,43 @@ class SignalTests(unittest.TestCase):
         signals.update(self.settings, _brief(), Calendar([], NOW), None, NOW + timedelta(minutes=15), self.send)
         self.assertEqual(len(self.sent), 1)
 
+    def test_buy_is_invalid_when_the_dollar_is_running_against_gold(self):
+        signals.update(self.settings, _brief(), Calendar([], NOW), None, NOW, self.send)
+        state = signals._load(self.settings)
+        buy = next(item for item in state["setups"] if item["side"] == "BUY")
+        sell = next(item for item in state["setups"] if item["side"] == "SELL")
+        self.assertEqual(buy["status"], "invalid")
+        self.assertIn("Dollar is up", buy["reason"])
+        self.assertIn(sell["status"], ("valid", "far", "weak"))
+        self.assertTrue(sell["favored"])
+
+    def test_minute_check_invalidates_a_signal_when_price_breaks_the_stop(self):
+        signals.update(self.settings, _brief(), Calendar([], NOW), None, NOW, self.send)
+        state = signals._load(self.settings)
+        sell = next(item for item in state["setups"] if item["side"] == "SELL")
+        spike = pd.DataFrame(
+            [{"ts": NOW + timedelta(minutes=1), "open": sell["sl"] + 0.5, "high": sell["sl"] + 0.6, "low": sell["sl"] + 0.4, "close": sell["sl"] + 0.5, "volume": 1}]
+        )
+        self.sent.clear()
+        signals.tick(self.settings, spike, NOW + timedelta(minutes=1), self.send)
+        state = signals._load(self.settings)
+        sell = next(item for item in state["setups"] if item["side"] == "SELL")
+        self.assertEqual(sell["status"], "invalid")
+        self.assertTrue(any("signal invalid" in title for title, _, _ in self.sent))
+        self.assertFalse(any(title.startswith("ENTRY NOW") for title, _, _ in self.sent))
+
+    def test_signal_expires_after_two_hours_without_entry(self):
+        signals.update(self.settings, _brief(), Calendar([], NOW), None, NOW, self.send)
+        state = signals._load(self.settings)
+        sell = next(item for item in state["setups"] if item["side"] == "SELL")
+        quiet = pd.DataFrame(
+            [{"ts": NOW + timedelta(minutes=121), "open": sell["tp1"] - 5, "high": sell["tp1"] - 4.8, "low": sell["tp1"] - 5.2, "close": sell["tp1"] - 5, "volume": 1}]
+        )
+        signals.tick(self.settings, quiet, NOW + timedelta(minutes=121), self.send)
+        state = signals._load(self.settings)
+        sell = next(item for item in state["setups"] if item["side"] == "SELL")
+        self.assertEqual(sell["status"], "expired")
+
     def test_entry_then_take_profit_alerts(self):
         signals.update(self.settings, _brief(), Calendar([], NOW), None, NOW, self.send)
         state = signals._load(self.settings)

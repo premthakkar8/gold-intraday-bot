@@ -129,12 +129,21 @@ def _setup_card(item: dict) -> str:
     if item.get("tp2") is not None:
         tp2 = f'<div class="lvl"><span>TP2</span><b class="tp">{item["tp2"]:.2f}</b></div>'
     score = max(0.0, min(1.0, float(item.get("score", 0))))
+    status = item.get("status", "valid")
+    labels = {"valid": "Valid", "far": "Valid · far", "weak": "Weak", "paused": "Paused", "invalid": "Invalid", "expired": "Expired"}
+    checked = item.get("checked_at", "")[11:16]
+    check_line = (
+        f'<div class="check st-{_e(status)}"><b>{_e(labels.get(status, status))}</b>'
+        f'<span>{_e(item.get("reason", ""))}</span><small>checked {_e(checked)} UTC</small></div>'
+    )
+    dim = " dim" if status in ("invalid", "expired", "paused") else ""
     return f"""
-<article class="setup {side.lower()}">
+<article class="setup {side.lower()}{dim}">
   <header>
     <div class="side">{_e(side)} <small>XAUUSD</small></div>
     {''.join(tags)}
   </header>
+  {check_line}
   <div class="levels">
     <div class="lvl"><span>Entry</span><b>{item['entry_low']:.2f} – {item['entry_high']:.2f}</b></div>
     <div class="lvl"><span>Stop loss</span><b class="sl">{item['sl']:.2f}</b></div>
@@ -159,7 +168,8 @@ def _page(data: dict, plan_image: str, brief_text: str, tv_symbol: str | None) -
     chart = data["chart"]
     dxy, oil, news, record = data["dxy"], data["oil"], data["news"], data["record"]
     setups = sorted(data["setups"], key=lambda item: (not item.get("ready"), not item.get("favored")))
-    favored = next((item for item in setups if item.get("ready") or item.get("favored")), None)
+    live = [item for item in setups if item.get("status", "valid") in ("valid", "far", "weak")]
+    favored = next((item for item in live if item.get("ready") or item.get("favored")), live[0] if live else None)
 
     if favored is not None:
         head_side = favored["side"]
@@ -169,7 +179,8 @@ def _page(data: dict, plan_image: str, brief_text: str, tv_symbol: str | None) -
             f"SL {favored['sl']:.2f} · TP {favored['tp1']:.2f}"
         )
     else:
-        head_side, head_class, head_line = "WAIT", "flat", "No setup fits the risk rules right now."
+        head_side, head_class = "WAIT", "flat"
+        head_line = "No signal is valid right now. Both setups failed their latest check." if setups else "No setup fits the risk rules right now."
 
     in_zone = ""
     if favored is not None:
@@ -327,6 +338,13 @@ main {{ max-width:1180px; margin:0 auto; padding:28px 20px 72px; }}
 .meter i {{ position:absolute; inset:0 auto 0 0; background:linear-gradient(90deg, rgba(227,179,65,.35), rgba(227,179,65,.75)); }}
 .meter em {{ position:relative; font-style:normal; font-size:11px; padding-left:8px; line-height:18px; color:var(--text); }}
 .why {{ margin:10px 0 0; color:var(--muted); font-size:12px; }}
+.setup.dim .levels, .setup.dim footer {{ opacity:.45; }}
+.check {{ display:grid; grid-template-columns:auto 1fr; gap:2px 10px; padding:9px 11px; margin-bottom:10px; border-radius:10px; font-size:13px; background:#0d1117; border-left:3px solid var(--muted); }}
+.check b {{ grid-row:span 2; align-self:center; font-size:12px; text-transform:uppercase; letter-spacing:.06em; }}
+.check small {{ color:var(--muted); font-size:11px; }}
+.st-valid {{ border-left-color:var(--buy); }} .st-valid b {{ color:var(--buy); }}
+.st-far, .st-weak, .st-paused {{ border-left-color:var(--warn); }} .st-far b, .st-weak b, .st-paused b {{ color:var(--warn); }}
+.st-invalid, .st-expired {{ border-left-color:var(--sell); }} .st-invalid b, .st-expired b {{ color:var(--sell); }}
 h2 {{ font-size:13px; text-transform:uppercase; letter-spacing:.12em; color:var(--muted); margin:30px 0 12px; font-weight:700; }}
 .tiles {{ display:grid; grid-template-columns:repeat(4, 1fr); gap:12px; }}
 .tile {{ background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:14px 16px; min-height:96px; }}

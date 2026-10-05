@@ -84,6 +84,13 @@ class RiskTests(unittest.TestCase):
         self.assertEqual(plan.tier, HIGH)
         self.assertLessEqual(plan.risk_usd, 15.0 + 1e-9)
 
+    def test_waits_out_the_daily_pause_but_not_the_weekend(self):
+        from tbot.runner import seconds_until_open
+
+        self.assertEqual(seconds_until_open(datetime(2026, 10, 5, 21, 10, tzinfo=timezone.utc)), 50 * 60)
+        self.assertEqual(seconds_until_open(datetime(2026, 10, 5, 13, 0, tzinfo=timezone.utc)), 0)
+        self.assertIsNone(seconds_until_open(datetime(2026, 10, 9, 21, 10, tzinfo=timezone.utc)))
+
     def test_market_hours(self):
         self.assertFalse(market_open(datetime(2026, 10, 3, 12, 0, tzinfo=timezone.utc)))  # Saturday
         self.assertFalse(market_open(datetime(2026, 10, 4, 20, 0, tzinfo=timezone.utc)))  # Sunday before open

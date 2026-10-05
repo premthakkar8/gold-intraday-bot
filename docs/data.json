@@ -1,15 +1,15 @@
 {
-  "updated": "2026-10-05 20:40 UTC",
+  "updated": "2026-10-05 20:59 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4139.28,
+  "price": 4140.59,
   "stance": "Strategy: the BUY plan from 20:19 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4123.22,
-      "entry_high": 4127.22,
-      "sl": 4122.22,
-      "tp1": 4137.22,
+      "entry_high": 4127.12,
+      "sl": 4122.12,
+      "tp1": 4137.37,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -17,56 +17,64 @@
       "score": 0.63,
       "style": "oil_shock",
       "favored": true,
-      "ready": true
+      "ready": false,
+      "status": "far",
+      "reason": "Price is 13.47 away from the entry (6.7 ATR). Unlikely to fill soon.",
+      "created_at": "2026-10-05T20:59:52.120691+00:00",
+      "checked_at": "2026-10-05T20:59:52.120691+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4166.4,
+      "entry_low": 4166.5,
       "entry_high": 4170.4,
-      "sl": 4171.4,
-      "tp1": 4156.4,
+      "sl": 4171.5,
+      "tp1": 4156.25,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.29,
+      "score": 0.51,
       "style": "dollar_lead",
       "favored": false,
-      "ready": false
+      "ready": false,
+      "status": "far",
+      "reason": "Price is 25.91 away from the entry (12.9 ATR). Unlikely to fill soon.",
+      "created_at": "2026-10-05T20:59:52.120691+00:00",
+      "checked_at": "2026-10-05T20:59:52.120691+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "up",
     "htf": "sideways",
     "session": "newyork",
-    "vwap": 4147.873512403969,
-    "atr": 1.8149999999999895,
+    "vwap": 4147.828234595052,
+    "atr": 2.002142857142774,
     "day_low": 4123.22,
     "day_high": 4170.4,
-    "range_pos": 0.34039847392962486
+    "range_pos": 0.3681644764730843
   },
   "dxy": {
     "ok": true,
-    "last": 102.1520004272461,
-    "pct": 0.24435055848668416,
+    "last": 102.12799835205078,
+    "pct": 0.22079671294330977,
     "state": "up",
-    "corr": -0.5297160209412262
+    "corr": -0.513262063846881
   },
   "oil": {
     "ok": true,
-    "last": 89.19000244140625,
-    "pct": -1.8055701382664986,
+    "last": 89.19999694824219,
+    "pct": -1.794566607897175,
     "state": "down",
-    "corr": -0.2423111696038409
+    "corr": -0.24406062768288728
   },
   "news": {
-    "usd": 0.8694649113458617,
-    "oil": 0.7199314575808646,
+    "usd": 0.8818226927792697,
+    "oil": 0.7136302853795105,
     "shock": true,
     "usd_headlines": [
-      "U.S. Treasury Yields Surge to 32-Year High as Allies Turn Net Sellers - \uc870\uc120\uc77c\ubcf4",
+      "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease - CNA",
       "U.S., European Bond Yields Rise - WSJ",
       "U.S. Treasury Yields Jump Most in 32 Years - \uc870\uc120\uc77c\ubcf4"
     ],
@@ -87,19 +95,19 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.43765758118888465,
-      "trust": 0.7815313949801511
+      "score": 0.5942800240603271,
+      "trust": 0.7819474000793778
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.29430166976396815,
+      "score": 0.5099158117291741,
       "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.10543250688695709,
+      "bias": "long",
+      "score": 0.1,
       "trust": 1.0
     },
     {
