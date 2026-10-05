@@ -1,0 +1,49 @@
+{
+  "updated_at": "2026-10-05T20:31:12.427215+00:00",
+  "atr": 1.9514285714286157,
+  "price": 4140.3,
+  "stance": "Strategy: the BUY plan from 20:19 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 4123.22,
+      "entry_high": 4127.15,
+      "sl": 4122.15,
+      "tp1": 4137.33,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.63,
+      "style": "oil_shock",
+      "favored": true,
+      "ready": false
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4166.47,
+      "entry_high": 4170.4,
+      "sl": 4171.47,
+      "tp1": 4156.29,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.54,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false
+    }
+  ],
+  "research": [
+    "Gold 4140.78 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 4147.90, ATR 1.95, day range 4123.22-4170.40.",
+    "DXY 102.15 (+0.24% today, up), gold-dollar corr -0.55.",
+    "WTI 89.27 (-1.72% today, down), gold-oil corr -0.20.",
+    "Headlines: dollar +0.87, oil +0.72, fresh shock.",
+    "Dollar: U.S., European Bond Yields Rise - WSJ",
+    "Oil: Middle East Crude Oil Exports Increase Despite Strait of Hormuz Attacks - Ratopati",
+    "No high-impact US release in the next 24 hours."
+  ],
+  "active": [],
+  "last_check": "2026-10-05T20:31:57.658234+00:00"
+}

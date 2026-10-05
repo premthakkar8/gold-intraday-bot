@@ -11,7 +11,7 @@ from tbot.broker_mt5 import MT5Broker
 from tbot.config import load_settings
 from tbot.demo import run_demo
 from tbot.memory import Memory
-from tbot.runner import log, make_broker, run_live
+from tbot.runner import log, make_broker, run_live, run_realtime
 from tbot import schedule
 
 
@@ -34,6 +34,9 @@ def main(argv: list[str] | None = None) -> int:
     brief = sub.add_parser("brief", help="Read live gold, the dollar index, WTI, and headlines once")
     brief.add_argument("--fresh", action="store_true", help="Replace a running plan instead of keeping it")
     sub.add_parser("auto", help="One scheduled pass. Skips when the market is closed. Used by Task Scheduler")
+    live = sub.add_parser("live", help="Analyse, then check price every minute for entries, SL, and TP")
+    live.add_argument("--minutes", type=int, default=14, help="How long to keep watching (default 14)")
+    live.add_argument("--every", type=int, default=60, help="Seconds between price checks (default 60)")
     watch = sub.add_parser("watch", help="Keep running in this window, one pass every N minutes")
     watch.add_argument("--every", type=int, default=15, help="Minutes between passes (default 15)")
     sched = sub.add_parser("schedule", help="Run automatically with Windows Task Scheduler")
@@ -50,6 +53,11 @@ def main(argv: list[str] | None = None) -> int:
         return run_brief(fresh=args.fresh)
     if args.command == "auto":
         return run_auto()
+    if args.command == "live":
+        settings = load_settings()
+        for line in run_realtime(settings, max(args.minutes, 1), max(args.every, 20)):
+            emit(line)
+        return 0
     if args.command == "watch":
         return run_watch(max(args.every, 5))
     if args.command == "schedule":

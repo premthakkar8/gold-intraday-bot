@@ -15,7 +15,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
@@ -27,11 +27,11 @@ jobs:
       - name: Install
         run: pip install -r requirements.txt
 
-      - name: Run one pass
+      - name: Analyse and watch price every minute
         env:
           TBOT_MODE: alert
           TBOT_NTFY_TOPIC: ${{ secrets.TBOT_NTFY_TOPIC }}
-        run: python main.py auto
+        run: python main.py live --minutes 14 --every 60
 
       - name: Save journal, demo account, and status page
         run: |

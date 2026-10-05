@@ -6,6 +6,7 @@ import os
 import subprocess
 import sys
 import time
+import traceback
 import urllib.request
 from dataclasses import dataclass
 from dataclasses import replace as dc_replace
@@ -13,6 +14,7 @@ from datetime import datetime, timedelta, timezone
 from xml.sax.saxutils import escape
 
 from tbot.broker_mt5 import MT5Broker
+from tbot import signals
 from tbot.paper import PaperBroker
 from tbot.site import build_site
 from tbot.config import Settings
@@ -191,8 +193,12 @@ def _run_connected(
         shown,
         heading=f"{settings.gold_symbol} 5m | {STYLES[shown.style]}",
     )
-    if settings.notify:
-        _notify_brief(brief, blackout, notify_plan=settings.alerts_only or broker is None)
+    signal_lines = None
+    if settings.alerts_only:
+        send = notify if settings.notify else (lambda *args, **kwargs: None)
+        signal_lines = signals.update(settings, brief, calendar, blackout, now, send)
+    elif settings.notify:
+        _notify_brief(brief, blackout, notify_plan=broker is None)
     summary = _summary(brief)
     if blackout is not None:
         summary += f" | blackout {blackout.title}"
@@ -201,9 +207,12 @@ def _run_connected(
     if settings.broker.enabled and broker is None and broker_lines:
         summary += f" | broker: {broker_lines[0]}"
     if settings.alerts_only:
-        account_lines = [alert_text(brief, blackout)]
-        lead = "Alerts only. No orders are sent. A phone alert fires when a trade plan opens. This page reloads every 5 minutes."
-        section = "Current alert"
+        account_lines = signal_lines or [alert_text(brief, blackout)]
+        lead = (
+            "Alerts only. No orders are sent. Buy and sell setups go to ntfy with the data behind them, "
+            "and price is checked every minute for entry, SL, and TP. This page reloads every 5 minutes."
+        )
+        section = "Signals"
     elif broker is not None:
         account_lines = broker.deals_summary()
         lead = "Paper demo account. Updated every 15 minutes while the gold market is open. This page reloads every 5 minutes."
@@ -231,6 +240,47 @@ def _log_tail(settings: Settings, count: int) -> list[str]:
         return []
     lines = settings.log_path.read_text(encoding="utf-8").splitlines()
     return [line for line in lines if line.strip()][-count:]
+
+
+def run_realtime(settings: Settings, minutes: int, every_seconds: int, analyze_every: int = 15) -> list[str]:
+    """Full analysis, then a light price check every few seconds until the window ends."""
+    start = datetime.now(timezone.utc)
+    end = start + timedelta(minutes=minutes)
+    events: list[str] = []
+    next_analysis = start
+    send = notify if settings.notify else (lambda *args, **kwargs: None)
+    while True:
+        now = datetime.now(timezone.utc)
+        if now >= end:
+            break
+        if not market_open(now):
+            events.append(f"{now:%H:%M} market closed")
+            break
+        if now >= next_analysis:
+            try:
+                result = run_live(settings, keep_running_plan=True, scheduled=True)
+                events.append(f"{now:%H:%M} {result.summary}")
+                log(settings, "live: " + result.summary)
+            except Exception as exc:
+                events.append(f"{now:%H:%M} analysis failed: {exc.__class__.__name__}")
+                log(settings, "live analysis failed:\n" + traceback.format_exc())
+            next_analysis = now + timedelta(minutes=analyze_every)
+        else:
+            try:
+                from tbot.tradingview_feed import fetch_chart
+
+                bars = fetch_chart(settings.gold_symbol, "1", 60) if ":" in settings.gold_symbol else None
+                if bars is not None:
+                    for note in signals.tick(settings, bars, now, send):
+                        events.append(f"{now:%H:%M} {note}")
+                        log(settings, "live: " + note)
+            except Exception as exc:
+                events.append(f"{now:%H:%M} price check failed: {exc.__class__.__name__}")
+        remaining = (end - datetime.now(timezone.utc)).total_seconds()
+        if remaining <= 0:
+            break
+        time.sleep(min(every_seconds, remaining))
+    return events
 
 
 def make_broker(settings: Settings):

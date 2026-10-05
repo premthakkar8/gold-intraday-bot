@@ -18,7 +18,7 @@
 <body>
 <main>
   <h1>Gold intraday bot</h1>
-  <p class="muted">Alerts only. No orders are sent. A phone alert fires when a trade plan opens. This page reloads every 5 minutes.</p>
+  <p class="muted">Alerts only. No orders are sent. Buy and sell setups go to ntfy with the data behind them, and price is checked every minute for entry, SL, and TP. This page reloads every 5 minutes.</p>
   
 <div class="tradingview-widget-container">
   <div id="tv_gold" style="height:460px"></div>
@@ -42,16 +42,29 @@
 
   <h2>Strategy on VANTAGE:XAUUSD</h2>
   <p class="muted">These lines are the plan. A gold band is the entry, red is the stop, green is the target. "No trade" means there is nothing to follow.</p>
-  <img src="chart.png?v=1791231624" alt="Gold chart with the current plan levels">
-  <h2>Current alert</h2>
-  <pre>BUY XAUUSD
-Entry: 4123.22 - 4127.19
-SL: 4122.19
-TP1: 4137.26
-Entry is active. Gold 4138.74. Alert only. No order was sent.</pre>
+  <img src="chart.png?v=1791232287" alt="Gold chart with the current plan levels">
+  <h2>Signals</h2>
+  <pre>BUY XAUUSD (favored, score 0.63, Trade the oil shock)
+Entry 4123.22-4127.15 | SL 4122.15 | TP1 4137.33
+R:R 1:4.0, 1 oz, about $5.00 at SL
+
+SELL XAUUSD (other side, score 0.54, Trade with the dollar)
+Entry 4166.47-4170.40 | SL 4171.47 | TP1 4156.29
+R:R 1:4.0, 1 oz, about $5.00 at SL
+
+Strategy: the BUY plan from 20:19 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.
+
+Why:
+- Gold 4140.78 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 4147.90, ATR 1.95, day range 4123.22-4170.40.
+- DXY 102.15 (+0.24% today, up), gold-dollar corr -0.55.
+- WTI 89.27 (-1.72% today, down), gold-oil corr -0.20.
+- Headlines: dollar +0.87, oil +0.72, fresh shock.
+- Dollar: U.S., European Bond Yields Rise - WSJ
+- Oil: Middle East Crude Oil Exports Increase Despite Strait of Hormuz Attacks - Ratopati
+- No high-impact US release in the next 24 hours.</pre>
   <h2>Latest brief</h2>
   <pre>GOLD INTRADAY BRIEF
-2026-10-05 20:20 UTC
+2026-10-05 20:31 UTC
 Gold: VANTAGE:XAUUSD    Dollar index: DX-Y.NYB    WTI: CL=F
 This plan is rebuilt on every run. The journal changes which approach is trusted. It does not freeze a strategy.
 Gold prices are the VANTAGE:XAUUSD chart on TradingView (https://www.tradingview.com/chart/?symbol=VANTAGE%3AXAUUSD). That is the Vantage XAUUSD gold CFD, so these levels match that chart rather than COMEX futures.
@@ -63,41 +76,39 @@ Size 1 units, 5.00 USD at risk, normal tier.
 It stays in charge until its invalidation, its target, or 120 minutes from 20:19 UTC. The read below is shown for information and was not opened.
 
 NEW READ (not opened)
-Trade the oil shock  |  LONG  |  confidence 0.58  |  id 74383d80
-Chosen because it cleared the bar and led the other approaches.
-Oil is the story this session. WTI is down (-1.61%) and oil headlines score +0.73. A supply-led rise in oil is treated as support for gold. The plan is to buy dips in 4123.22 to 4127.19, invalid through 4122.19. The dollar is up. If the dollar takes over, run a new brief. The entry zone was tightened toward the invalidation so the smallest size fits the risk limit.
+Stand aside  |  FLAT  |  confidence 0.44  |  id a85b7e3b
+Two approaches want opposite trades and neither has a clear lead.
+The drivers disagree. Trade the oil shock wants to be long (adjusted 0.63) and Trade with the dollar wants to be short (adjusted 0.54). The gap is too small to force a trade. Stand aside until one of them gives way. The 1-hour structure is sideways. The dollar is up and oil is down.
+No position at the current price.
 BUY XAUUSD
-Entry: 4123.22 - 4127.19
-SL: 4122.19
-TP1: 4137.26
-Normal tier: risk budget 5.00 USD, targets capped at 1:4.
-Size 1 units (0.01 lot of XAUUSD at 1 unit = 1 oz). Loss at invalidation from the worst fill in the zone: 5.00 USD (5.0% of 100 USD). Stop distance 5.00. This is not an order.
-Price is 4138.74, outside the entry zone. Wait for that zone. This is not a market order.
-There is not enough graded history for this kind of session. Treat the plan as a draft.
+Entry: 4123.22 - 4127.15
+SL: 4122.15
+TP1: 4137.33
+This is the order only if price trades into the entry. Do not enter at the current price.
 
 WHAT WOULD CHANGE IT
 - This plan is graded after 120 minutes, or sooner if price hits the invalidation or the target.
 - Running the brief again before that replaces this plan and does not grade it.
-- Price through 4122.19 kills the idea.
-- If oil gives back the session move, or the headline is walked back, cancel the idea.
+- Run a new brief if price moves back toward the middle of the day range. Do not trade this extreme only because the dollar has already moved.
+- If the dollar gives its session move back and is flat again, that dollar idea is finished for this session.
 - A headline that flips the dollar or oil story means you run a new brief before entering.
 
 CHART
-Gold 4138.74 in New York (17:00-21:00 UTC). 5-minute structure is sideways. 1-hour structure is sideways.
-UTC-day range 4123.22 to 4170.40. Price is 33% of the way up that range, below VWAP 4147.92. ATR 1.87. Short-range volatility over longer-range volatility is 0.69.
+Gold 4140.78 in New York (17:00-21:00 UTC). 5-minute structure is down. 1-hour structure is sideways.
+UTC-day range 4123.22 to 4170.40. Price is 37% of the way up that range, below VWAP 4147.90. ATR 1.95. Short-range volatility over longer-range volatility is 0.75.
 
 DOLLAR
-DXY 102.14 (+0.23% this UTC day, up). Correlation of recent 5-minute returns with gold is -0.56. Gold is responding the usual way to a firmer dollar.
+DXY 102.15 (+0.24% this UTC day, up). Correlation of recent 5-minute returns with gold is -0.55. Gold is responding the usual way to a firmer dollar.
 
 OIL
-WTI 89.37 (-1.61% this UTC day, down). Correlation of recent 5-minute returns with gold is -0.20. Falling oil is not automatically a gold short. It matters when gold is actually following it.
+WTI 89.27 (-1.72% this UTC day, down). Correlation of recent 5-minute returns with gold is -0.20. Falling oil is not automatically a gold short. It matters when gold is actually following it.
 
 HEADLINES
-Dollar-headline score +0.87 (wording supports a stronger dollar, usually a headwind for gold). Oil-headline score +0.73 (wording supports higher crude). Fresh shock wording: yes.
+Dollar-headline score +0.87 (wording supports a stronger dollar, usually a headwind for gold). Oil-headline score +0.72 (wording supports higher crude). Fresh shock wording: yes.
 Dollar headlines:
+- U.S., European Bond Yields Rise - WSJ
 - U.S. Treasury Yields Jump Most in 32 Years - 조선일보
 - Nasdaq hits record as dollar and Treasury yields climb, oil prices ease - The Spokesman-Review
-- Nasdaq Poised to Hit New High as Treasury Yields Climb - WSJ
 Oil headlines:
 - Middle East Crude Oil Exports Increase Despite Strait of Hormuz Attacks - Ratopati
 - UKMTO reports fresh attacks in Red Sea, Strait of Hormuz - Quantum Commodity Intelligence
@@ -105,12 +116,12 @@ Oil headlines:
 
 WHY THIS APPROACH
 Adjusted score = how the setup looks now, times the journal. A trade needs at least 0.50. Journal half-life is 5 days, so a lesson from a month ago barely counts.
-&gt; Trade the oil shock              0.63 x 1.00 = 0.63  long
-  Stand aside                      0.56 x 0.71 = 0.40  flat
-  Trade with the dollar            0.29 x 1.00 = 0.29  short
-  Trade with the intraday trend    0.10 x 1.00 = 0.10  flat
+  Trade the oil shock              0.63 x 1.00 = 0.63  long
+  Trade with the dollar            0.54 x 1.00 = 0.54  short
+&gt; Stand aside                      0.56 x 0.78 = 0.44  flat
+  Trade with the intraday trend    0.18 x 1.00 = 0.18  short
   Fade the session range           0.10 x 1.00 = 0.10  flat
-0 wins, 1 losses, 0 scratches on similar days (effective weight 0.8). Trust multiplier 0.71.
+0 wins, 1 losses, 0 scratches on similar days (effective weight 0.6). Trust multiplier 0.78.
 No similar graded sessions yet. This choice is provisional.
 
 GRADED THIS RUN
@@ -124,7 +135,9 @@ US CALENDAR
 Refreshed 2026-10-05 20:19 UTC. Refreshes hourly.
 No high or medium impact USD releases in the next 24 hours.</pre>
   <h2>Recent runs</h2>
-  <pre>2026-10-05 20:20 UTC  gold 4138.74 | holding long oil_shock b5bc5950 | new read long oil_shock not opened
+  <pre>2026-10-05 20:31 UTC  gold 4140.78 | holding long oil_shock b5bc5950 | new read flat stand_aside not opened
+2026-10-05 20:28 UTC  live: gold 4140.44 | holding long oil_shock b5bc5950 | new read flat stand_aside not opened
+2026-10-05 20:20 UTC  manual: gold 4138.74 | holding long oil_shock b5bc5950 | new read long oil_shock not opened
 2026-10-05 20:19 UTC  manual: gold 4139.00 | opened long oil_shock b5bc5950 zone 4123.22-4127.12 stop 4122.12 target 4137.38 units 1 risk 5.00 USD tier normal conf 0.58
 2026-10-05 19:36 UTC  manual: gold 4142.48 | holding flat stand_aside c5413331 | new read flat stand_aside not opened
 2026-10-05 19:28 UTC  manual: gold 4141.46 | graded: 03b588d4 stand aside -&gt; loss (-1.00R) | opened stand aside c5413331
@@ -141,9 +154,7 @@ NameError: name &#x27;load_calendar&#x27; is not defined
     return _run(settings, now, keep_running_plan=keep_running_plan, scheduled=scheduled)
   File &quot;C:\Users\91951\Desktop\tBOT\tbot\runner.py&quot;, line 59, in run_live
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    result = run_live(settings, keep_running_plan=True, scheduled=True)
-  File &quot;C:\Users\91951\Desktop\tBOT\main.py&quot;, line 76, in run_auto
-Traceback (most recent call last):</pre>
+    result = run_live(settings, keep_running_plan=True, scheduled=True)</pre>
   <p class="muted">Research and paper trading only. Not financial advice.</p>
 </main>
 </body>

@@ -22,3 +22,5 @@ NameError: name 'load_calendar' is not defined
 2026-10-05 19:36 UTC  manual: gold 4142.48 | holding flat stand_aside c5413331 | new read flat stand_aside not opened
 2026-10-05 20:19 UTC  manual: gold 4139.00 | opened long oil_shock b5bc5950 zone 4123.22-4127.12 stop 4122.12 target 4137.38 units 1 risk 5.00 USD tier normal conf 0.58
 2026-10-05 20:20 UTC  manual: gold 4138.74 | holding long oil_shock b5bc5950 | new read long oil_shock not opened
+2026-10-05 20:28 UTC  live: gold 4140.44 | holding long oil_shock b5bc5950 | new read flat stand_aside not opened
+2026-10-05 20:31 UTC  live: gold 4140.78 | holding long oil_shock b5bc5950 | new read flat stand_aside not opened
