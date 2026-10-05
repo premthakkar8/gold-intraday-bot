@@ -75,7 +75,7 @@ def _run(settings: Settings, now: datetime, *, keep_running_plan: bool, schedule
     blackout = calendar.blackout(now, settings.blackout_before_minutes, settings.blackout_after_minutes)
     broker_lines: list[str] = []
     broker = None
-    if settings.broker.enabled:
+    if settings.broker.enabled and not settings.alerts_only:
         broker = make_broker(settings)
         problem = broker.connect()
         if problem is not None:
@@ -192,7 +192,7 @@ def _run_connected(
         heading=f"{STYLES[shown.style]} | {shown.bias}",
     )
     if settings.notify:
-        _notify_brief(brief, memory, notify_plan=broker is None)
+        _notify_brief(brief, blackout, notify_plan=settings.alerts_only or broker is None)
     summary = _summary(brief)
     if blackout is not None:
         summary += f" | blackout {blackout.title}"
@@ -200,9 +200,28 @@ def _run_connected(
         summary += f" | broker: {line}"
     if settings.broker.enabled and broker is None and broker_lines:
         summary += f" | broker: {broker_lines[0]}"
-    account_lines = broker.deals_summary() if broker is not None else broker_lines or ["No demo account connected."]
+    if settings.alerts_only:
+        account_lines = [alert_text(brief, blackout)]
+        lead = "Alerts only. No orders are sent. A phone alert fires when a trade plan opens. This page reloads every 5 minutes."
+        section = "Current alert"
+    elif broker is not None:
+        account_lines = broker.deals_summary()
+        lead = "Paper demo account. Updated every 15 minutes while the gold market is open. This page reloads every 5 minutes."
+        section = "Demo account"
+    else:
+        account_lines = broker_lines or ["No demo account connected."]
+        lead = "Updated every 15 minutes while the gold market is open. This page reloads every 5 minutes."
+        section = "Status"
     stamp = now.strftime("%Y-%m-%d %H:%M UTC")
-    build_site(settings.site_dir, text, chart_path, account_lines, [*_log_tail(settings, 19), f"{stamp}  {summary}"])
+    build_site(
+        settings.site_dir,
+        text,
+        chart_path,
+        account_lines,
+        [*_log_tail(settings, 19), f"{stamp}  {summary}"],
+        lead=lead,
+        section_title=section,
+    )
     return RunResult(0, summary, text=text, brief=brief)
 
 
@@ -248,31 +267,54 @@ def _summary(brief: Brief) -> str:
     return " | ".join(parts)
 
 
-def _notify_brief(brief: Brief, memory: Memory, notify_plan: bool = True) -> None:
+def alert_text(brief: Brief, blackout=None) -> str:
+    plan = brief.plan
+    price = f"Gold {brief.chart.last_price:.2f}."
+    if plan.bias == "flat" or plan.entry_low is None:
+        return f"No trade. {price} {STYLES[plan.style]}."
+    side = "SELL" if plan.bias == "short" else "BUY"
+    tier = " High-confidence size." if plan.tier == HIGH else ""
+    lines = [
+        f"{side} gold. {STYLES[plan.style]}. Confidence {plan.confidence:.0%}.{tier}",
+        f"Entry {plan.entry_low:.2f} to {plan.entry_high:.2f}.",
+        f"Stop {plan.invalidation:.2f}. Target {plan.target:.2f} (1:{plan.reward_ratio:.1f}), then {plan.target_far:.2f}.",
+        f"Size {plan.units:g} oz, about {plan.risk_usd:.2f} USD at the stop.",
+        "Alert only. Place this yourself. No order was sent.",
+    ]
+    if blackout is not None:
+        lines.append(f"Wait: {blackout.title} is a high-impact US release at {blackout.when:%H:%M UTC}.")
+    return " ".join(lines)
+
+
+def _notify_brief(brief: Brief, blackout, notify_plan: bool = True) -> None:
     for line in brief.graded:
-        notify("Gold plan graded", line)
+        notify("Gold plan graded", line, priority="default")
     plan = brief.plan
     if notify_plan and brief.opened and plan.bias != "flat":
         tier = "HIGH-CONFIDENCE " if plan.tier == HIGH else ""
         notify(
-            f"Gold {tier}{plan.bias.upper()} plan",
-            (
-                f"Zone {plan.entry_low:.2f}-{plan.entry_high:.2f}, stop {plan.invalidation:.2f}, "
-                f"target {plan.target:.2f} (1:{plan.reward_ratio:.1f}). "
-                f"{plan.units:g} units, {plan.risk_usd:.2f} USD at risk. Not an order."
-            ),
+            f"Gold {tier}{plan.bias.upper()} alert",
+            alert_text(brief, blackout),
+            priority="high",
         )
 
 
-def notify(title: str, body: str) -> None:
+def notify(title: str, body: str, *, priority: str | None = None) -> None:
     """Best-effort phone push (ntfy.sh) and Windows notification. Never raises."""
     topic = os.environ.get("TBOT_NTFY_TOPIC", "").strip()
     if topic:
+        headers = {
+            "Title": title.encode("ascii", "replace").decode("ascii"),
+            "Tags": "chart_with_upwards_trend",
+            "Click": "https://premthakkar8.github.io/gold-intraday-bot/",
+        }
+        if priority:
+            headers["Priority"] = priority
         try:
             request = urllib.request.Request(
                 f"https://ntfy.sh/{topic}",
                 data=body.encode("utf-8"),
-                headers={"Title": title.encode("ascii", "replace").decode("ascii"), "Tags": "chart_with_upwards_trend"},
+                headers=headers,
                 method="POST",
             )
             urllib.request.urlopen(request, timeout=10).close()

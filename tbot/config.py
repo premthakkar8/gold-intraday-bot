@@ -30,6 +30,7 @@ class Settings:
     report_dir: Path = ROOT / "reports"
     log_path: Path = ROOT / "reports" / "auto.log"
     notify: bool = True
+    alerts_only: bool = False
     broker: BrokerSettings = field(default_factory=BrokerSettings)
     paper: PaperSettings = field(default_factory=PaperSettings)
     site_dir: Path = ROOT / "docs"
@@ -102,6 +103,7 @@ def load_settings(path: Path | None = None) -> Settings:
         report_dir=report_dir,
         log_path=_resolve(auto.get("log", report_dir / "auto.log")),
         notify=bool(auto.get("notify", defaults.notify)),
+        alerts_only=(os.environ.get("TBOT_MODE") or str(auto.get("mode", ""))).strip().lower() == "alert",
         broker=broker_settings,
         paper=PaperSettings(
             start_balance=float(paper.get("start_balance", 100.0)),

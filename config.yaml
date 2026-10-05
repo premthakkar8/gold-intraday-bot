@@ -43,9 +43,10 @@ reports:
   dir: "reports"
 
 broker:
-  enabled: true
-  # paper = built-in demo account filled against live prices (works on any server, free)
-  # mt5   = MetaTrader 5 terminal on Windows; gold prices then come from MT5
+  # Orders are off. The bot sends an alert and you place the trade yourself.
+  enabled: false
+  # paper = built-in demo account filled against live prices
+  # mt5   = MetaTrader 5 terminal on Windows
   platform: "paper"
   symbol: "XAUUSD" # some brokers use XAUUSDm or GOLD; the bot searches for XAU*USD if this is missing
   terminal_path: "" # empty = the installed MT5 terminal
@@ -71,6 +72,7 @@ calendar:
   blackout_after_minutes: 15
 
 auto:
+  # alert = phone notification only, no order is sent
+  mode: alert
   log: "reports/auto.log"
-  # Windows notification when a new trade plan opens or a plan is graded.
   notify: true

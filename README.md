@@ -88,6 +88,12 @@ Only orders with the bot's magic number are touched. Manual trades in the same a
 
 It runs on this PC because MetaTrader 5 needs Windows, and there is no free Windows cloud host. Keep the PC awake and logged in during trading hours. To move it to a Windows VPS later, copy this folder there, install MT5 and Python, and run `python main.py schedule on`.
 
+## Alerts
+
+`config.yaml` is set to `mode: alert`. A run still reads gold, the dollar, oil, and US news, and it still grades the journal. It does not send an order. When a trade plan opens, a phone alert includes the direction, entry zone, stop, target, and size. Stand-aside runs stay on the page and do not buzz the phone.
+
+Subscribe with the free ntfy app to the topic given when alerts were turned on. Tapping the alert opens the live page.
+
 ## Running automatically
 
 ```powershell

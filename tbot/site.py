@@ -8,7 +8,16 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 
-def build_site(site_dir: Path, text: str, chart: Path | None, account_lines: list[str], log_tail: list[str]) -> Path:
+def build_site(
+    site_dir: Path,
+    text: str,
+    chart: Path | None,
+    account_lines: list[str],
+    log_tail: list[str],
+    *,
+    lead: str = "Updated every 15 minutes while the gold market is open. This page reloads every 5 minutes.",
+    section_title: str = "Status",
+) -> Path:
     site_dir.mkdir(parents=True, exist_ok=True)
     image = ""
     if chart is not None and chart.exists():
@@ -37,9 +46,9 @@ def build_site(site_dir: Path, text: str, chart: Path | None, account_lines: lis
 <body>
 <main>
   <h1>Gold intraday bot</h1>
-  <p class="muted">Paper demo account. Updated every 15 minutes while the gold market is open. This page reloads every 5 minutes.</p>
+  <p class="muted">{html.escape(lead)}</p>
   {image}
-  <h2>Demo account</h2>
+  <h2>{html.escape(section_title)}</h2>
   <pre>{html.escape(account)}</pre>
   <h2>Latest brief</h2>
   <pre>{html.escape(text)}</pre>

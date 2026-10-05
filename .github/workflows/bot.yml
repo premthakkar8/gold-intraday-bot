@@ -29,7 +29,7 @@ jobs:
 
       - name: Run one pass
         env:
-          TBOT_BROKER: paper
+          TBOT_MODE: alert
           TBOT_NTFY_TOPIC: ${{ secrets.TBOT_NTFY_TOPIC }}
         run: python main.py auto
 
