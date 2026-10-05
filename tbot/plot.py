@@ -19,6 +19,7 @@ def save_chart(
     *,
     heading: str,
     sketch: bool = False,
+    setups: list[dict] | None = None,
 ) -> Path | None:
     try:
         import matplotlib
@@ -32,21 +33,41 @@ def save_chart(
     if view.empty:
         return None
     path.parent.mkdir(parents=True, exist_ok=True)
-    fig, ax = plt.subplots(figsize=(11.5, 6.2), dpi=120)
-    fig.patch.set_facecolor("#f4f0e6")
-    ax.set_facecolor("#fbf8f2")
-    ax.plot(view["ts"], view["close"], color="#1d1a16", linewidth=1.15, label="Gold")
-    ax.axhline(chart.vwap, color="#8a6a2f", linestyle="--", linewidth=0.9, label=f"VWAP {chart.vwap:.2f}")
+    fig, ax = plt.subplots(figsize=(11.5, 6.6), dpi=120)
+    fig.patch.set_facecolor("#11151c")
+    ax.set_facecolor("#11151c")
+    for spine in ax.spines.values():
+        spine.set_color("#1e2530")
+    ax.plot(view["ts"], view["close"], color="#e8ebf0", linewidth=1.2, label="Gold")
+    ax.axhline(chart.vwap, color="#e3b341", linestyle="--", linewidth=0.9, alpha=0.8, label=f"VWAP {chart.vwap:.2f}")
     last_x = view["ts"].iloc[-1]
-    ax.scatter([last_x], [chart.last_price], color="#1d1a16", s=18, zorder=5)
+    ax.scatter([last_x], [chart.last_price], color="#e3b341", s=26, zorder=5)
     ax.annotate(
         f"{chart.last_price:.2f}",
         (last_x, chart.last_price),
         textcoords="offset points",
-        xytext=(6, 6),
-        fontsize=8,
-        color="#1d1a16",
+        xytext=(8, 6),
+        fontsize=9,
+        color="#e3b341",
+        fontweight="bold",
     )
+
+    if setups:
+        colors = {"BUY": "#2fbf71", "SELL": "#ef5350"}
+        for item in setups:
+            color = colors.get(item["side"], "#8a94a6")
+            alpha = 0.28 if item.get("favored") or item.get("ready") else 0.14
+            ax.axhspan(item["entry_low"], item["entry_high"], color=color, alpha=alpha,
+                       label=f"{item['side']} entry {item['entry_low']:.2f}-{item['entry_high']:.2f}")
+            ax.axhline(item["sl"], color="#ef5350", linestyle="-", linewidth=1.0, alpha=0.9)
+            ax.axhline(item["tp1"], color="#2fbf71", linestyle="--", linewidth=1.0, alpha=0.9)
+            ax.annotate(f"{item['side']} SL {item['sl']:.2f}", (view["ts"].iloc[0], item["sl"]), textcoords="offset points",
+                        xytext=(4, 3), fontsize=8, color="#ef5350")
+            ax.annotate(f"{item['side']} TP {item['tp1']:.2f}", (view["ts"].iloc[0], item["tp1"]), textcoords="offset points",
+                        xytext=(4, 3), fontsize=8, color="#2fbf71")
+        ax.set_title(f"{heading}  |  buy and sell setups", loc="left", fontsize=12, color="#e8ebf0")
+        _finish(ax, fig, path, plt)
+        return path
 
     levels = None
     if plan.bias != "flat" and plan.entry_low is not None:
@@ -79,15 +100,21 @@ def save_chart(
 
     if sketch:
         title = f"{title}  |  sketch"
-    ax.set_title(title, loc="left", fontsize=12, color="#1d1a16")
-    ax.tick_params(colors="#1d1a16")
-    ax.grid(True, axis="y", color="#e4ddd0", linewidth=0.6)
-    ax.legend(frameon=False, fontsize=8, loc="lower right")
+    ax.set_title(title, loc="left", fontsize=12, color="#e8ebf0")
+    _finish(ax, fig, path, plt)
+    return path
+
+
+def _finish(ax, fig, path: Path, plt) -> None:
+    ax.tick_params(colors="#8a94a6")
+    ax.grid(True, axis="y", color="#1e2530", linewidth=0.6)
+    legend = ax.legend(frameon=False, fontsize=8, loc="lower right")
+    for text in legend.get_texts():
+        text.set_color("#c7cdd8")
     fig.autofmt_xdate()
     fig.tight_layout()
-    fig.savefig(path)
+    fig.savefig(path, facecolor=fig.get_facecolor())
     plt.close(fig)
-    return path
 
 
 def schematic_bars(chart: ChartRead, n: int = 180) -> pd.DataFrame:

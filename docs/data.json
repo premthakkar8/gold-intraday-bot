@@ -1,0 +1,119 @@
+{
+  "updated": "2026-10-05 20:40 UTC",
+  "symbol": "VANTAGE:XAUUSD",
+  "price": 4139.28,
+  "stance": "Strategy: the BUY plan from 20:19 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 4123.22,
+      "entry_high": 4127.22,
+      "sl": 4122.22,
+      "tp1": 4137.22,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.63,
+      "style": "oil_shock",
+      "favored": true,
+      "ready": true
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4166.4,
+      "entry_high": 4170.4,
+      "sl": 4171.4,
+      "tp1": 4156.4,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.29,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false
+    }
+  ],
+  "active": [],
+  "blackout": null,
+  "chart": {
+    "structure": "down",
+    "htf": "sideways",
+    "session": "newyork",
+    "vwap": 4147.873512403969,
+    "atr": 1.8149999999999895,
+    "day_low": 4123.22,
+    "day_high": 4170.4,
+    "range_pos": 0.34039847392962486
+  },
+  "dxy": {
+    "ok": true,
+    "last": 102.1520004272461,
+    "pct": 0.24435055848668416,
+    "state": "up",
+    "corr": -0.5297160209412262
+  },
+  "oil": {
+    "ok": true,
+    "last": 89.19000244140625,
+    "pct": -1.8055701382664986,
+    "state": "down",
+    "corr": -0.2423111696038409
+  },
+  "news": {
+    "usd": 0.8694649113458617,
+    "oil": 0.7199314575808646,
+    "shock": true,
+    "usd_headlines": [
+      "U.S. Treasury Yields Surge to 32-Year High as Allies Turn Net Sellers - \uc870\uc120\uc77c\ubcf4",
+      "U.S., European Bond Yields Rise - WSJ",
+      "U.S. Treasury Yields Jump Most in 32 Years - \uc870\uc120\uc77c\ubcf4"
+    ],
+    "oil_headlines": [
+      "Middle East Crude Oil Exports Increase Despite Strait of Hormuz Attacks - Ratopati",
+      "UKMTO reports fresh attacks in Red Sea, Strait of Hormuz - Quantum Commodity Intelligence",
+      "Iraq seeks to buy crude oil tankers to handle shipments beyond Strait of Hormuz: INA - S&P Global"
+    ]
+  },
+  "events": [],
+  "scorecard": [
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.63,
+      "trust": 1.0
+    },
+    {
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.43765758118888465,
+      "trust": 0.7815313949801511
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.29430166976396815,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.10543250688695709,
+      "trust": 1.0
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
+    }
+  ],
+  "record": {
+    "graded": 1,
+    "wins": 0,
+    "losses": 1,
+    "scratches": 0,
+    "avg_r": -1.0
+  }
+}

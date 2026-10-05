@@ -16,7 +16,7 @@ from xml.sax.saxutils import escape
 from tbot.broker_mt5 import MT5Broker
 from tbot import signals
 from tbot.paper import PaperBroker
-from tbot.site import build_site
+from tbot.site import build_site, page_data
 from tbot.config import Settings
 from tbot.econ_calendar import describe, load_calendar
 from tbot.engine import analyze
@@ -185,20 +185,20 @@ def _run_connected(
     (settings.report_dir / "latest.txt").write_text(text, encoding="utf-8")
     (settings.report_dir / "latest.html").write_text(render_html(text), encoding="utf-8")
     (settings.report_dir / "latest.json").write_text(dump_json(brief), encoding="utf-8")
+    if settings.alerts_only:
+        send = notify if settings.notify else (lambda *args, **kwargs: None)
+        signals.update(settings, brief, calendar, blackout, now, send)
+    elif settings.notify:
+        _notify_brief(brief, blackout, notify_plan=broker is None)
     shown = brief.plan
     chart_path = save_chart(
         settings.report_dir / "latest.png",
         gold,
         brief.chart,
         shown,
-        heading=f"{settings.gold_symbol} 5m | {STYLES[shown.style]}",
+        heading=f"{settings.gold_symbol} 5m",
+        setups=signals._load(settings).get("setups") if settings.alerts_only else None,
     )
-    signal_lines = None
-    if settings.alerts_only:
-        send = notify if settings.notify else (lambda *args, **kwargs: None)
-        signal_lines = signals.update(settings, brief, calendar, blackout, now, send)
-    elif settings.notify:
-        _notify_brief(brief, blackout, notify_plan=broker is None)
     summary = _summary(brief)
     if blackout is not None:
         summary += f" | blackout {blackout.title}"
@@ -206,30 +206,12 @@ def _run_connected(
         summary += f" | broker: {line}"
     if settings.broker.enabled and broker is None and broker_lines:
         summary += f" | broker: {broker_lines[0]}"
-    if settings.alerts_only:
-        account_lines = signal_lines or [alert_text(brief, blackout)]
-        lead = (
-            "Alerts only. No orders are sent. Buy and sell setups go to ntfy with the data behind them, "
-            "and price is checked every minute for entry, SL, and TP. This page reloads every 5 minutes."
-        )
-        section = "Signals"
-    elif broker is not None:
-        account_lines = broker.deals_summary()
-        lead = "Paper demo account. Updated every 15 minutes while the gold market is open. This page reloads every 5 minutes."
-        section = "Demo account"
-    else:
-        account_lines = broker_lines or ["No demo account connected."]
-        lead = "Updated every 15 minutes while the gold market is open. This page reloads every 5 minutes."
-        section = "Status"
-    stamp = now.strftime("%Y-%m-%d %H:%M UTC")
+    data = page_data(brief, calendar, blackout, now, signals._load(settings), memory, settings.gold_symbol)
     build_site(
         settings.site_dir,
-        text,
+        data,
         chart_path,
-        account_lines,
-        [*_log_tail(settings, 19), f"{stamp}  {summary}"],
-        lead=lead,
-        section_title=section,
+        text,
         tv_symbol=settings.gold_symbol if ":" in settings.gold_symbol else None,
     )
     return RunResult(0, summary, text=text, brief=brief)
