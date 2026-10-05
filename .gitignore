@@ -1,0 +1,14 @@
+.env
+data/run.lock
+data/mt5_warned
+data/broker_state.json
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+data/*.json
+reports/*.txt
+reports/*.json
+reports/*.html
+reports/*.png
+.pytest_cache/

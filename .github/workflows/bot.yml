@@ -1,0 +1,50 @@
+name: gold-bot
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gold-bot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Run one pass
+        env:
+          TBOT_BROKER: paper
+          TBOT_NTFY_TOPIC: ${{ secrets.TBOT_NTFY_TOPIC }}
+        run: python main.py auto
+
+      - name: Save journal, demo account, and status page
+        run: |
+          git config user.name "gold-bot"
+          git config user.email "gold-bot@users.noreply.github.com"
+          git add -f data/*.json reports/auto.log docs 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "nothing to save"
+            exit 0
+          fi
+          git commit -m "bot run $(date -u +'%Y-%m-%d %H:%M UTC')"
+          for attempt in 1 2 3; do
+            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && exit 0
+            sleep 5
+          done
+          exit 1

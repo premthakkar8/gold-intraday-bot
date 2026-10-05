@@ -1,0 +1,76 @@
+# Gold intraday brief.
+# Every run rebuilds the plan. Nothing here is a permanent entry rule.
+
+symbols:
+  gold: "XAUUSD=X" # spot-style quote; the loader falls back to GC=F futures
+  dxy: "DX-Y.NYB" # US dollar index; falls back to DX=F
+  oil: "CL=F" # WTI crude
+
+market:
+  interval: "5m"
+  period: "5d"
+
+session:
+  # Grade a plan after this many minutes, or earlier if price hits the stop or target.
+  horizon_minutes: 120
+
+risk:
+  account_usd: 100
+  # Normal trades never lose more than this at the invalidation.
+  max_risk_usd: 5
+  # Normal trades: the target is never farther than 4x the risk (1:4).
+  max_reward_ratio: 4
+  # Above this confidence the high tier applies: risk a percent of the account
+  # and let the target follow structure instead of the 1:4 cap.
+  # Confidence above 0.88 needs a proven journal record on similar sessions.
+  high_confidence: 0.90
+  high_confidence_risk_percent: 15
+  # Dollars lost per 1.0 move in gold, per unit. 1 unit = 1 oz = 0.01 lot of XAUUSD on most brokers.
+  point_value_usd: 1.0
+  # Smallest tradable size and its step, in units. 0.01 lot = 1 unit.
+  min_units: 1
+  unit_step: 1
+
+news:
+  lookback_hours: 18
+
+journal:
+  # A graded lesson loses half its pull after this many days.
+  half_life_days: 5
+  path: "data/memory.json"
+
+reports:
+  dir: "reports"
+
+broker:
+  enabled: true
+  # paper = built-in demo account filled against live prices (works on any server, free)
+  # mt5   = MetaTrader 5 terminal on Windows; gold prices then come from MT5
+  platform: "paper"
+  symbol: "XAUUSD" # some brokers use XAUUSDm or GOLD; the bot searches for XAU*USD if this is missing
+  terminal_path: "" # empty = the installed MT5 terminal
+  # Refuse to send orders to a real-money account.
+  demo_only: true
+  deviation_points: 50
+  # Optional login for unattended restarts goes in .env (never in this file):
+  # TBOT_MT5_LOGIN=12345678
+  # TBOT_MT5_PASSWORD=...
+  # TBOT_MT5_SERVER=MetaQuotes-Demo
+
+paper:
+  start_balance: 100
+  # Charged on every round trip, in USD per oz, so paper results are not flattered.
+  spread: 0.30
+
+calendar:
+  # US economic calendar (CPI, payrolls, FOMC...), fetched at most once an hour.
+  refresh_minutes: 60
+  # No new orders, and pending orders cancelled, from this long before a high-impact USD release...
+  blackout_before_minutes: 30
+  # ...until this long after it.
+  blackout_after_minutes: 15
+
+auto:
+  log: "reports/auto.log"
+  # Windows notification when a new trade plan opens or a plan is graded.
+  notify: true

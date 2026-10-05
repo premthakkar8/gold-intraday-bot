@@ -1,0 +1,32 @@
+{
+  "half_life_days": 5.0,
+  "observations": [
+    {
+      "id": "03b588d4",
+      "opened_at": "2026-10-05T18:11:16.045816+00:00",
+      "resolved_at": null,
+      "horizon_minutes": 120,
+      "regime": {
+        "dxy": "up",
+        "oil": "down",
+        "structure": "sideways",
+        "news": "usd",
+        "session": "newyork"
+      },
+      "style": "stand_aside",
+      "bias": "flat",
+      "entry_low": null,
+      "entry_high": null,
+      "invalidation": null,
+      "target": null,
+      "price_at_plan": 4165.7001953125,
+      "atr": 3.100062779017857,
+      "outcome": null,
+      "r_multiple": null,
+      "tier": null,
+      "units": null,
+      "risk_usd": null,
+      "confidence": null
+    }
+  ]
+}
