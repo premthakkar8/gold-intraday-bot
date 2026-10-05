@@ -82,6 +82,7 @@ class Plan:
     shadow_entry_high: float | None = None
     shadow_invalidation: float | None = None
     shadow_target: float | None = None
+    shadow_target_far: float | None = None
 
 
 @dataclass
@@ -209,7 +210,7 @@ def generate(
     reward_ratio = far_ratio = None
     proven = False
     entry_low = entry_high = invalidation = target = target_far = None
-    shadow_style = shadow_low = shadow_high = shadow_stop = shadow_target = None
+    shadow_style = shadow_low = shadow_high = shadow_stop = shadow_target = shadow_far = None
     sizing_problem = None
 
     if decision == "selected":
@@ -261,12 +262,29 @@ def generate(
         memory_note = rejected.note if rejected is not None else aside.note
         sample_weight = rejected.sample_weight if rejected is not None else aside.sample_weight
         confidence = min(0.80, max(0.30, aside.adjusted))
-        if rejected is not None and rejected.bias != "flat":
+        if rejected is not None and rejected.bias != "flat" and rejected.entry_low is not None:
             shadow_style = rejected.style
             shadow_low = rejected.entry_low
             shadow_high = rejected.entry_high
             shadow_stop = rejected.invalidation
             shadow_target = rejected.target
+            shadow_far = rejected.target_far
+            pending = size_plan(
+                bias=rejected.bias,
+                entry_low=rejected.entry_low,
+                entry_high=rejected.entry_high,
+                invalidation=rejected.invalidation,
+                target=rejected.target,
+                target_far=rejected.target_far,
+                atr=chart.atr,
+                confidence=min(0.8, max(0.35, rejected.adjusted)),
+                rules=rules,
+            )
+            if not isinstance(pending, str):
+                shadow_low = pending.entry_low
+                shadow_high = pending.entry_high
+                shadow_target = pending.target
+                shadow_far = pending.target_far
 
     return Plan(
         id=uuid.uuid4().hex[:8],
@@ -311,6 +329,7 @@ def generate(
         shadow_entry_high=shadow_high,
         shadow_invalidation=shadow_stop,
         shadow_target=shadow_target,
+        shadow_target_far=shadow_far,
     )
 
 
@@ -321,6 +340,37 @@ def _is_proven(candidate: _Candidate) -> bool:
         and candidate.multiplier >= PROVEN_MULTIPLIER
         and candidate.setup >= PROVEN_SETUP
     )
+
+
+def signal_levels(plan: Plan) -> dict | None:
+    """Entry, SL, and TP for an active order or for the order that is waiting on price."""
+    if plan.bias != "flat" and plan.entry_low is not None and plan.invalidation is not None and plan.target is not None:
+        return {
+            "side": "SELL" if plan.bias == "short" else "BUY",
+            "pending": False,
+            "entry_low": plan.entry_low,
+            "entry_high": plan.entry_high,
+            "sl": plan.invalidation,
+            "tp": plan.target,
+            "tp2": plan.target_far,
+        }
+    if (
+        plan.shadow_entry_low is not None
+        and plan.shadow_entry_high is not None
+        and plan.shadow_invalidation is not None
+        and plan.shadow_target is not None
+    ):
+        side = "SELL" if plan.shadow_invalidation > plan.shadow_entry_high else "BUY"
+        return {
+            "side": side,
+            "pending": True,
+            "entry_low": plan.shadow_entry_low,
+            "entry_high": plan.shadow_entry_high,
+            "sl": plan.shadow_invalidation,
+            "tp": plan.shadow_target,
+            "tp2": plan.shadow_target_far,
+        }
+    return None
 
 
 def _no_chase(bias: str, chart: ChartRead) -> float:

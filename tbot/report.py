@@ -81,20 +81,18 @@ def render(brief: Brief) -> str:
     lines.append(DECISION.get(plan.decision, plan.decision))
     lines.append(plan.thesis)
     if plan.bias == "flat":
-        lines.append("No position. Nothing is risked on this plan.")
-        if plan.shadow_style and plan.shadow_entry_low is not None:
+        lines.append("No position at the current price.")
+        signal = _signal_lines(plan)
+        if signal:
+            lines.extend(signal)
+        elif plan.shadow_style and plan.shadow_entry_low is not None:
             lines.append(
                 f"The rejected zone was {plan.shadow_entry_low:.2f} to {plan.shadow_entry_high:.2f} "
-                f"({STYLES[plan.shadow_style]}), invalidation {plan.shadow_invalidation:.2f}, "
-                f"target {plan.shadow_target:.2f}. It is not an order."
+                f"({STYLES[plan.shadow_style]}). It is not an order."
             )
     else:
         rules = brief.rules
-        lines.append(
-            f"Entry zone {plan.entry_low:.2f} to {plan.entry_high:.2f}. "
-            f"Invalidation {plan.invalidation:.2f}. "
-            f"Target {plan.target:.2f} (1:{plan.reward_ratio:.1f}), then {plan.target_far:.2f} (1:{plan.far_ratio:.1f})."
-        )
+        lines.extend(_signal_lines(plan))
         if plan.tier == HIGH:
             lines.append(
                 f"HIGH-CONFIDENCE TIER: confidence {plan.confidence:.0%} is above {rules.high_confidence:.0%}, "
@@ -187,6 +185,25 @@ def render(brief: Brief) -> str:
         ]
     )
     return "\n".join(lines)
+
+
+def _signal_lines(plan: Plan) -> list[str]:
+    from tbot.strategy import signal_levels
+
+    levels = signal_levels(plan)
+    if levels is None:
+        return []
+    lines = [
+        f"{levels['side']} XAUUSD",
+        f"Entry: {levels['entry_low']:.2f} - {levels['entry_high']:.2f}",
+        f"SL: {levels['sl']:.2f}",
+        f"TP1: {levels['tp']:.2f}",
+    ]
+    if levels["tp2"] is not None and abs(levels["tp2"] - levels["tp"]) >= 0.5:
+        lines.append(f"TP2: {levels['tp2']:.2f}")
+    if levels["pending"]:
+        lines.append("This is the order only if price trades into the entry. Do not enter at the current price.")
+    return lines
 
 
 def _held_text(obs: Observation, horizon_minutes: int) -> list[str]:

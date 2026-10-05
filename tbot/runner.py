@@ -269,29 +269,33 @@ def _summary(brief: Brief) -> str:
 
 
 def alert_text(brief: Brief, blackout=None) -> str:
+    from tbot.strategy import signal_levels
+
     plan = brief.plan
+    levels = signal_levels(plan)
     price = f"Gold {brief.chart.last_price:.2f}."
-    if plan.bias == "flat" or plan.entry_low is None:
-        return f"No trade. {price} {STYLES[plan.style]}."
-    side = "SELL" if plan.bias == "short" else "BUY"
-    tier = " High-confidence size." if plan.tier == HIGH else ""
-    lines = [
-        f"{side} gold. {STYLES[plan.style]}. Confidence {plan.confidence:.0%}.{tier}",
-        f"Entry {plan.entry_low:.2f} to {plan.entry_high:.2f}.",
-        f"Stop {plan.invalidation:.2f}. Target {plan.target:.2f} (1:{plan.reward_ratio:.1f}), then {plan.target_far:.2f}.",
-        f"Size {plan.units:g} oz, about {plan.risk_usd:.2f} USD at the stop.",
-        "Alert only. Place this yourself. No order was sent.",
-    ]
+    if levels is None:
+        return f"No entry. {price} Stand aside."
+    side = levels["side"]
+    tp2 = f"\nTP2: {levels['tp2']:.2f}" if levels["tp2"] is not None and abs(levels["tp2"] - levels["tp"]) >= 0.5 else ""
+    status = "Wait for this price. Do not enter at market." if levels["pending"] else "Entry is active."
+    text = (
+        f"{side} XAUUSD\n"
+        f"Entry: {levels['entry_low']:.2f} - {levels['entry_high']:.2f}\n"
+        f"SL: {levels['sl']:.2f}\n"
+        f"TP1: {levels['tp']:.2f}{tp2}\n"
+        f"{status} {price} Alert only. No order was sent."
+    )
     if blackout is not None:
-        lines.append(f"Wait: {blackout.title} is a high-impact US release at {blackout.when:%H:%M UTC}.")
-    return " ".join(lines)
+        text += f"\nWait: {blackout.title} is a high-impact US release at {blackout.when:%H:%M UTC}."
+    return text
 
 
 def _notify_brief(brief: Brief, blackout, notify_plan: bool = True) -> None:
     for line in brief.graded:
         notify("Gold plan graded", line, priority="default")
     plan = brief.plan
-    if notify_plan and brief.opened and plan.bias != "flat":
+    if notify_plan and brief.opened and "XAUUSD" in alert_text(brief, blackout):
         tier = "HIGH-CONFIDENCE " if plan.tier == HIGH else ""
         notify(
             f"Gold {tier}{plan.bias.upper()} alert",

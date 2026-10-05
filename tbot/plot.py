@@ -48,18 +48,34 @@ def save_chart(
         color="#1d1a16",
     )
 
-    if plan.bias != "flat" and plan.entry_low is not None and plan.entry_high is not None:
+    levels = None
+    if plan.bias != "flat" and plan.entry_low is not None:
+        levels = (plan.entry_low, plan.entry_high, plan.invalidation, plan.target, plan.target_far, False)
         side = "SELL" if plan.bias == "short" else "BUY"
-        ax.axhspan(plan.entry_low, plan.entry_high, color="#e2c56b", alpha=0.45, label=f"{side} entry {plan.entry_low:.2f}-{plan.entry_high:.2f}")
-        if plan.invalidation is not None:
-            ax.axhline(plan.invalidation, color="#8d2f2f", linestyle="-", linewidth=1.2, label=f"Stop {plan.invalidation:.2f}")
-        if plan.target is not None:
-            ax.axhline(plan.target, color="#1f6b45", linestyle="-", linewidth=1.2, label=f"Target {plan.target:.2f}")
-        if plan.target_far is not None:
-            ax.axhline(plan.target_far, color="#1f6b45", linestyle=":", linewidth=1.0, label=f"Next target {plan.target_far:.2f}")
-        title = f"{heading}  |  follow this {side}"
+    elif plan.shadow_entry_low is not None and plan.shadow_invalidation is not None and plan.shadow_target is not None:
+        levels = (
+            plan.shadow_entry_low,
+            plan.shadow_entry_high,
+            plan.shadow_invalidation,
+            plan.shadow_target,
+            plan.shadow_target_far,
+            True,
+        )
+        side = "SELL" if plan.shadow_invalidation > plan.shadow_entry_high else "BUY"
     else:
-        title = f"{heading}  |  no trade"
+        side = ""
+
+    if levels is not None:
+        entry_low, entry_high, sl, tp, tp2, pending = levels
+        name = f"Pending {side} entry" if pending else f"{side} entry"
+        ax.axhspan(entry_low, entry_high, color="#e2c56b", alpha=0.45, label=f"{name} {entry_low:.2f}-{entry_high:.2f}")
+        ax.axhline(sl, color="#8d2f2f", linestyle="-", linewidth=1.2, label=f"SL {sl:.2f}")
+        ax.axhline(tp, color="#1f6b45", linestyle="-", linewidth=1.2, label=f"TP1 {tp:.2f}")
+        if tp2 is not None and abs(tp2 - tp) >= 0.5:
+            ax.axhline(tp2, color="#1f6b45", linestyle=":", linewidth=1.0, label=f"TP2 {tp2:.2f}")
+        title = f"{heading}  |  {side} if entry" if pending else f"{heading}  |  {side}"
+    else:
+        title = f"{heading}  |  no entry"
 
     if sketch:
         title = f"{title}  |  sketch"

@@ -51,17 +51,17 @@ def _brief(plan: Plan):
 class AlertTests(unittest.TestCase):
     def test_trade_alert_has_the_order_and_says_to_place_it_yourself(self):
         text = alert_text(_brief(_plan()))
-        self.assertIn("SELL gold", text)
-        self.assertIn("4189.20 to 4198.90", text)
-        self.assertIn("Stop 4200.60", text)
-        self.assertIn("Target 4175.70", text)
-        self.assertIn("1:4.0", text)
+        self.assertIn("SELL XAUUSD", text)
+        self.assertIn("Entry: 4189.20 - 4198.90", text)
+        self.assertIn("SL: 4200.60", text)
+        self.assertIn("TP1: 4175.70", text)
+        self.assertIn("TP2: 4150.40", text)
         self.assertIn("No order was sent", text)
 
     def test_stand_aside_is_not_a_trade_alert(self):
         text = alert_text(_brief(_plan(bias="flat", style="stand_aside", entry_low=None, decision="none_cleared")))
-        self.assertIn("No trade", text)
-        self.assertNotIn("SELL", text)
+        self.assertIn("No entry", text)
+        self.assertNotIn("SELL XAUUSD", text)
 
     def test_blackout_is_named_on_the_alert(self):
         event = SimpleNamespace(title="CPI", when=datetime(2026, 10, 6, 12, 30, tzinfo=timezone.utc))
