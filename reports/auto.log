@@ -31,3 +31,6 @@ NameError: name 'load_calendar' is not defined
 2026-10-06 00:49 UTC  live: SELL TP hit
 2026-10-06 01:02 UTC  live: gold 4148.21 | graded: b987a55b stand aside -> loss (-1.00R) | opened short dollar_lead b1cefaa3 zone 4149.56-4152.26 stop 4154.56 target 4140.69 units 1 risk 5.00 USD tier normal conf 0.57
 2026-10-06 01:03 UTC  live: SELL entry reached at 4146.87
+2026-10-06 01:17 UTC  live: gold 4145.15 | holding short dollar_lead b1cefaa3 | new read flat stand_aside not opened
+2026-10-06 01:21 UTC  live: SELL TP hit
+2026-10-06 01:26 UTC  live: BUY entry reached at 4135.91
