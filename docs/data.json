@@ -1,46 +1,46 @@
 {
-  "updated": "2026-10-06 01:32 UTC",
+  "updated": "2026-10-06 01:46 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4136.17,
-  "stance": "Strategy: BUY is the trade (Trade with the intraday trend, confidence 58%).",
+  "price": 4131.95,
+  "stance": "Strategy: the BUY plan from 01:32 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4133.16,
-      "entry_high": 4135.49,
-      "sl": 4130.49,
-      "tp1": 4141.76,
-      "tp2": 4149.66,
-      "rr": 1.9,
+      "entry_low": 4131.06,
+      "entry_high": 4133.51,
+      "sl": 4128.51,
+      "tp1": 4140.7,
+      "tp2": 4147.39,
+      "rr": 2.2,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.62,
+      "score": 0.74,
       "style": "trend_align",
       "favored": true,
       "ready": true,
       "status": "valid",
-      "reason": "Score 0.62 (Trade with the intraday trend), oil supply news +0.47, price below VWAP.",
+      "reason": "Score 0.74 (Trade with the intraday trend), dollar softer -0.08%, oil supply news +0.47, price below VWAP.",
       "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T01:32:08.311664+00:00"
+      "checked_at": "2026-10-06T01:46:48.828287+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4149.93,
+      "entry_low": 4149.81,
       "entry_high": 4152.26,
-      "sl": 4154.93,
-      "tp1": 4141.76,
-      "tp2": 4135.76,
-      "rr": 2.4,
+      "sl": 4154.81,
+      "tp1": 4140.7,
+      "tp2": 4135.93,
+      "rr": 2.7,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.43,
-      "style": "dollar_lead",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "valid",
-      "reason": "Score 0.43 (Trade with the dollar), hawkish dollar news +0.93.",
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T01:32:08.311664+00:00"
+      "checked_at": "2026-10-06T01:46:48.828287+00:00"
     }
   ],
   "active": [
@@ -72,29 +72,29 @@
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 4141.759484541219,
-    "atr": 4.849999999999909,
-    "day_low": 4133.16,
+    "vwap": 4140.703233734151,
+    "atr": 4.643571428571249,
+    "day_low": 4131.06,
     "day_high": 4152.26,
-    "range_pos": 0.15759162303665764
+    "range_pos": 0.0419811320754446
   },
   "dxy": {
     "ok": true,
-    "last": 102.08599853515625,
-    "pct": -0.07537315611891797,
-    "state": "flat",
-    "corr": -0.43890368856341394
+    "last": 102.08000183105469,
+    "pct": -0.08124289759414531,
+    "state": "down",
+    "corr": -0.3751603893780178
   },
   "oil": {
     "ok": true,
-    "last": 89.55999755859375,
-    "pct": 0.3923309917195284,
+    "last": 89.5,
+    "pct": 0.3250766937602396,
     "state": "flat",
-    "corr": -0.13874249796474805
+    "corr": -0.11826678861002733
   },
   "news": {
-    "usd": 0.9255684830216587,
-    "oil": 0.4730709048739661,
+    "usd": 0.9242552088522585,
+    "oil": 0.4676254523388931,
     "shock": true,
     "usd_headlines": [
       "U.S. Treasury Yields Surge to 32-Year High as Allies Turn Net Sellers - \uc870\uc120\uc77c\ubcf4",
@@ -112,26 +112,26 @@
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.6240000000000001,
+      "score": 0.7360000000000001,
       "trust": 1.0
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4669442836031851,
-      "trust": 0.7074913387927046
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.4257641850469177,
-      "trust": 1.3666666666666667
+      "score": 0.4373198067980439,
+      "trust": 0.7809282264250783
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.3401889976806814,
+      "score": 0.3371939987863912,
       "trust": 1.0
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "long",
+      "score": 0.2139222411175398,
+      "trust": 1.2929192059555754
     },
     {
       "style": "Fade the session range",

@@ -35,3 +35,6 @@ NameError: name 'load_calendar' is not defined
 2026-10-06 01:21 UTC  live: SELL TP hit
 2026-10-06 01:26 UTC  live: BUY entry reached at 4135.91
 2026-10-06 01:32 UTC  live: gold 4136.17 | graded: b1cefaa3 short dollar_lead -> win (+2.80R) target hit | opened long trend_align d385c0b4 zone 4133.16-4135.49 stop 4130.49 target 4141.76 units 1 risk 5.00 USD tier normal conf 0.58
+2026-10-06 01:46 UTC  live: gold 4131.95 | holding long trend_align d385c0b4 | new read long trend_align not opened
+2026-10-06 01:53 UTC  live: BUY SL hit
+2026-10-06 01:54 UTC  live: BUY entry reached at 4130.16
