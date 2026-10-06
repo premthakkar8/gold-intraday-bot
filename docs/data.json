@@ -1,15 +1,15 @@
 {
-  "updated": "2026-10-06 07:37 UTC",
+  "updated": "2026-10-06 07:52 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4137.31,
-  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 58%).",
+  "price": 4137.84,
+  "stance": "Strategy: the SELL plan from 07:37 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4106.92,
-      "sl": 4101.92,
-      "tp1": 4120.45,
+      "entry_high": 4106.9,
+      "sl": 4101.9,
+      "tp1": 4120.47,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T07:37:38.422695+00:00"
+      "checked_at": "2026-10-06T07:52:21.734498+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4149.67,
+      "entry_low": 4149.69,
       "entry_high": 4152.26,
-      "sl": 4154.67,
-      "tp1": 4136.14,
+      "sl": 4154.69,
+      "tp1": 4136.12,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T07:37:38.422695+00:00"
+      "checked_at": "2026-10-06T07:52:21.734498+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "down",
     "session": "london",
-    "vwap": 4131.075204055913,
-    "atr": 4.382142857142883,
+    "vwap": 4131.316952829837,
+    "atr": 4.41285714285719,
     "day_low": 4104.33,
     "day_high": 4152.26,
-    "range_pos": 0.6880867932401475
+    "range_pos": 0.6991445858543712
   },
   "dxy": {
     "ok": true,
-    "last": 102.18499755859375,
-    "pct": 0.021529853273639207,
+    "last": 102.10399627685547,
+    "pct": -0.05775646382876366,
     "state": "flat",
-    "corr": -0.3645580669136812
+    "corr": -0.350296584843484
   },
   "oil": {
     "ok": true,
-    "last": 88.31999969482422,
-    "pct": -0.9976453298757463,
+    "last": 88.54000091552734,
+    "pct": -0.7510348344594123,
     "state": "down",
-    "corr": -0.20377164515568286
+    "corr": -0.23189432841309426
   },
   "news": {
     "usd": 1.0,
-    "oil": 0.05340641327898504,
+    "oil": 0.0542644318019085,
     "shock": true,
     "usd_headlines": [
       "U.S. Treasury Yields Surge Past 5.3% to 24-Year High; UBS: A New Regime Shaped by High Inflation and Heavy Fiscal Burden - finance.biggo.com",
@@ -96,7 +96,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5831964925648412,
+      "score": 0.5794528535214146,
       "trust": 1.0
     },
     {
