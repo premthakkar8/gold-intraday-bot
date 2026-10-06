@@ -1,82 +1,82 @@
 {
-  "updated": "2026-10-06 04:12 UTC",
+  "updated": "2026-10-06 04:27 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4126.47,
+  "price": 4126.93,
   "stance": "Strategy: the SELL plan from 02:45 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4107.09,
-      "sl": 4102.09,
-      "tp1": 4120.19,
+      "entry_high": 4107.23,
+      "sl": 4102.23,
+      "tp1": 4119.98,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.4,
+      "score": 0.45,
       "style": "oil_shock",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.40 (Trade the oil shock), oil supply news +1.00, price below VWAP.",
+      "reason": "Score 0.45 (Trade the oil shock), oil supply news +1.00, price below VWAP.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T04:12:42.987709+00:00"
+      "checked_at": "2026-10-06T04:27:11.811752+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4149.5,
+      "entry_low": 4149.36,
       "entry_high": 4152.26,
-      "sl": 4154.5,
-      "tp1": 4136.4,
+      "sl": 4154.36,
+      "tp1": 4136.61,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.66,
+      "score": 0.73,
       "style": "dollar_lead",
       "favored": false,
-      "ready": false,
+      "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T04:12:42.987709+00:00"
+      "checked_at": "2026-10-06T04:27:11.811752+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "down",
     "session": "asia",
-    "vwap": 4133.769523638596,
-    "atr": 4.07071428571427,
+    "vwap": 4133.51450143485,
+    "atr": 3.8207142857142053,
     "day_low": 4104.33,
     "day_high": 4152.26,
-    "range_pos": 0.4619236386396869
+    "range_pos": 0.47152096807845245
   },
   "dxy": {
     "ok": true,
-    "last": 102.13200378417969,
-    "pct": -0.030341933350952515,
+    "last": 102.16200256347656,
+    "pct": -0.000978290245871223,
     "state": "flat",
-    "corr": -0.4069182225698987
+    "corr": -0.41552855018701434
   },
   "oil": {
     "ok": true,
-    "last": 89.70999908447266,
-    "pct": 0.5604752887919566,
+    "last": 89.5999984741211,
+    "pct": 0.43717004108378965,
     "state": "up",
-    "corr": -0.09575694233705886
+    "corr": -0.09750683932429806
   },
   "news": {
-    "usd": 0.8372649227860359,
+    "usd": 1.0,
     "oil": 1.0,
     "shock": true,
     "usd_headlines": [
+      "Long Treasury Yields Climb to Early-2000s Highs as Bond Slide Deepens - Briefs Finance",
       "U.S. Treasury Yields Surge to 32-Year High - \uc870\uc120\uc77c\ubcf4",
-      "Silver Price Forecast: XAG/USD falls to near $60.50 as US Treasury yields rise - FXStreet",
-      "US Dollar Index Rises 0.4% as Euro Hits 17-Month Low - Investing.com"
+      "Silver Price Forecast: XAG/USD falls to near $60.50 as US Treasury yields rise - FXStreet"
     ],
     "oil_headlines": [
       "Iraq seeks to buy crude oil tankers to handle shipments beyond Strait of Hormuz: INA - S&P Global"
@@ -87,20 +87,20 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.6637269806372833,
-      "trust": 1.2888335902992158
+      "score": 0.7256296579718063,
+      "trust": 1.216323420105837
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6115073823275446,
-      "trust": 0.7839838234968521
+      "score": 0.47017057799117495,
+      "trust": 0.7123796636229923
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.40094091753962535,
-      "trust": 0.6364141548248021
+      "score": 0.4470080090835189,
+      "trust": 0.7095365223547919
     },
     {
       "style": "Fade the session range",
@@ -110,9 +110,9 @@
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.07202977917608468,
-      "trust": 0.7103528518351545
+      "bias": "flat",
+      "score": 0.07830672614981805,
+      "trust": 0.7830672614981805
     }
   ],
   "record": {
