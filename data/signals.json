@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-10-06T01:17:31.998361+00:00",
-  "atr": 4.7721428571427555,
-  "price": 4135.17,
-  "stance": "Strategy: the SELL plan from 01:02 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
+  "updated_at": "2026-10-06T01:32:08.311664+00:00",
+  "atr": 4.849999999999909,
+  "price": 4133.03,
+  "stance": "Strategy: BUY is the trade (Trade with the intraday trend, confidence 58%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4133.16,
-      "entry_high": 4135.54,
-      "sl": 4130.54,
-      "tp1": 4142.42,
-      "tp2": 4149.6,
-      "rr": 2.1,
+      "entry_high": 4135.49,
+      "sl": 4130.49,
+      "tp1": 4141.76,
+      "tp2": 4149.66,
+      "rr": 1.9,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.62,
       "style": "trend_align",
       "favored": true,
-      "ready": false,
+      "ready": true,
       "status": "valid",
-      "reason": "Score 0.62 (Trade with the intraday trend), oil supply news +0.48.",
+      "reason": "Score 0.62 (Trade with the intraday trend), oil supply news +0.47, price below VWAP.",
       "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T01:30:38.564635+00:00"
+      "checked_at": "2026-10-06T01:45:15.980157+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4149.88,
+      "entry_low": 4149.93,
       "entry_high": 4152.26,
-      "sl": 4154.88,
-      "tp1": 4142.42,
-      "tp2": 4135.82,
-      "rr": 2.3,
+      "sl": 4154.93,
+      "tp1": 4141.76,
+      "tp2": 4135.76,
+      "rr": 2.4,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.57,
+      "score": 0.43,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.57 (Trade with the dollar), hawkish dollar news +0.92, price above VWAP.",
+      "reason": "Score 0.43 (Trade with the dollar), hawkish dollar news +0.93.",
       "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T01:30:38.564635+00:00"
+      "checked_at": "2026-10-06T01:45:15.980157+00:00"
     }
   ],
   "research": [
-    "Gold 4145.15 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 4142.42, ATR 4.77, day range 4133.16-4152.26.",
-    "DXY 102.09 (-0.07% today, flat), gold-dollar corr -0.46.",
-    "WTI 89.38 (+0.19% today, flat), gold-oil corr -0.20.",
-    "Headlines: dollar +0.92, oil +0.48, fresh shock.",
+    "Gold 4136.17 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 4141.76, ATR 4.85, day range 4133.16-4152.26.",
+    "DXY 102.09 (-0.08% today, flat), gold-dollar corr -0.44.",
+    "WTI 89.56 (+0.39% today, flat), gold-oil corr -0.14.",
+    "Headlines: dollar +0.93, oil +0.47, fresh shock.",
     "Dollar: U.S. Treasury Yields Surge to 32-Year High as Allies Turn Net Sellers - \uc870\uc120\uc77c\ubcf4",
     "Oil: Middle East Crude Oil Exports Increase Despite Strait of Hormuz Attacks - Ratopati",
     "No high-impact US release in the next 24 hours."
@@ -120,5 +120,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-10-06T01:30:38.564635+00:00"
+  "last_check": "2026-10-06T01:45:15.980157+00:00"
 }
