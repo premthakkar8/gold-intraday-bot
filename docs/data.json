@@ -1,15 +1,15 @@
 {
-  "updated": "2026-10-06 11:18 UTC",
+  "updated": "2026-10-06 11:33 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4163.69,
+  "price": 4167.94,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4107.77,
-      "sl": 4102.77,
-      "tp1": 4119.17,
+      "entry_high": 4107.66,
+      "sl": 4102.66,
+      "tp1": 4119.33,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T11:18:17.644524+00:00"
+      "checked_at": "2026-10-06T11:33:13.282368+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4160.25,
-      "entry_high": 4163.69,
-      "sl": 4165.25,
-      "tp1": 4148.85,
+      "entry_low": 4164.65,
+      "entry_high": 4167.98,
+      "sl": 4169.65,
+      "tp1": 4152.98,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -39,70 +39,47 @@
       "ready": false,
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-10-06T11:18:17.644524+00:00",
-      "checked_at": "2026-10-06T11:18:17.644524+00:00"
+      "created_at": "2026-10-06T11:33:13.282368+00:00",
+      "checked_at": "2026-10-06T11:33:13.282368+00:00"
     }
   ],
-  "active": [
-    {
-      "side": "SELL",
-      "entry_low": 4157.29,
-      "entry_high": 4160.82,
-      "sl": 4162.29,
-      "tp1": 4146.12,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-10-06T10:48:52.001457+00:00",
-      "checked_at": "2026-10-06T10:49:55.090195+00:00",
-      "entry": 4157.29,
-      "entered_at": "2026-10-06T10:49:55.090195+00:00",
-      "closed": null
-    }
-  ],
+  "active": [],
   "blackout": null,
   "chart": {
     "structure": "up",
     "htf": "sideways",
     "session": "london",
-    "vwap": 4137.66796636648,
-    "atr": 2.8321428571427014,
+    "vwap": 4138.34009893359,
+    "atr": 3.0349999999999193,
     "day_low": 4104.33,
-    "day_high": 4163.69,
-    "range_pos": 1.0
+    "day_high": 4167.98,
+    "range_pos": 0.9993715632364499
   },
   "dxy": {
     "ok": true,
-    "last": 102.01399993896484,
-    "pct": -0.14584739314400752,
+    "last": 101.88500213623047,
+    "pct": -0.272114045641646,
     "state": "down",
-    "corr": -0.4740730235092493
+    "corr": -0.4044932875383598
   },
   "oil": {
     "ok": true,
-    "last": 87.83000183105469,
-    "pct": -1.546908718283086,
+    "last": 87.58000183105469,
+    "pct": -1.8271463626790643,
     "state": "down",
-    "corr": -0.3438852772464463
+    "corr": -0.3660896449804073
   },
   "news": {
-    "usd": 0.4251466678300487,
-    "oil": 0.4551104039818001,
+    "usd": 0.4020979377022148,
+    "oil": 0.45735506417122934,
     "shock": true,
     "usd_headlines": [
       "US Dollar Gains as Capital Flees Europe. Forecast as of 06.10.2026 - LiteFinance",
       "U.S. Treasury Yields Turn Lower, Eurozone Bond Yields Slide - WSJ",
-      "Gold Slips as Dollar Gains, Treasury Yields Hit 24-Year Highs - fananews.com"
+      "Gold Slips as Dollar Gains, Treasury Yields Hit 24-Year Highs - Fana News -"
     ],
     "oil_headlines": [
-      "Goldman Sachs Analyst Predicts Strait of Hormuz Oil Flow Normalizing by Late 2027, Crude Oil Prices to Hi - Benzinga",
+      "Goldman Sachs Analyst Predicts Strait of Hormuz Oil Flow Normalizing by Late 2027, Crude Oil Prices to Hit $80/Barrel - Benzinga",
       "WTI Slips as G7 Reserve Release Adds to Supply Risk - TradingPedia",
       "Crude Oil Falls As Rising Global Supply Signals Outweigh Geopolitical Risk Fears By Kedia Advisory - Investing.com India"
     ]
@@ -120,8 +97,8 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.7242666666666668,
-      "trust": 1.2933333333333334
+      "score": 0.7240307755540543,
+      "trust": 1.2929120992036682
     },
     {
       "style": "Trade with the intraday trend",
@@ -138,7 +115,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.12983639959213295,
+      "score": 0.17537307693292184,
       "trust": 1.0
     },
     {
