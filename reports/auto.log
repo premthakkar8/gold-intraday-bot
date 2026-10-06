@@ -77,3 +77,6 @@ NameError: name 'load_calendar' is not defined
 2026-10-06 08:07 UTC  live: gold 4142.30 | holding short dollar_lead 14cfe2ae | new read flat stand_aside not opened
 2026-10-06 08:21 UTC  live: gold 4143.16 | holding short dollar_lead 14cfe2ae | new read short dollar_lead not opened
 2026-10-06 08:36 UTC  live: gold 4147.65 | holding short dollar_lead 14cfe2ae | new read short dollar_lead not opened
+2026-10-06 08:51 UTC  live: gold 4153.05 | holding short dollar_lead 14cfe2ae | new read flat stand_aside not opened
+2026-10-06 08:52 UTC  live: SELL entry reached at 4152.76
+2026-10-06 09:03 UTC  live: SELL SL hit
