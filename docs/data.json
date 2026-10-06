@@ -1,28 +1,49 @@
 {
-  "updated": "2026-10-06 12:17 UTC",
+  "updated": "2026-10-06 12:32 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4175.6,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.35). Take an entry only if price reaches it.",
+  "price": 4173.81,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.27). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4107.27,
-      "sl": 4102.27,
-      "tp1": 4119.92,
+      "entry_high": 4107.21,
+      "sl": 4102.21,
+      "tp1": 4120.02,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.35,
-      "style": "trend_align",
+      "score": 0.27,
+      "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T12:17:27.996985+00:00"
+      "checked_at": "2026-10-06T12:32:14.128137+00:00"
     },
+    {
+      "side": "SELL",
+      "entry_low": 4176.78,
+      "entry_high": 4179.66,
+      "sl": 4181.78,
+      "tp1": 4163.97,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-10-06T12:17:27.996985+00:00",
+      "checked_at": "2026-10-06T12:32:14.128137+00:00"
+    }
+  ],
+  "active": [
     {
       "side": "SELL",
       "entry_low": 4176.72,
@@ -40,48 +61,50 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-10-06T12:17:27.996985+00:00",
-      "checked_at": "2026-10-06T12:17:27.996985+00:00"
+      "checked_at": "2026-10-06T12:18:31.580726+00:00",
+      "entry": 4176.72,
+      "entered_at": "2026-10-06T12:18:31.580726+00:00",
+      "closed": null
     }
   ],
-  "active": [],
   "blackout": null,
   "chart": {
     "structure": "up",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 4140.798842799641,
-    "atr": 3.7400000000000415,
+    "vwap": 4141.673262796222,
+    "atr": 3.8635714285715688,
     "day_low": 4104.33,
     "day_high": 4179.66,
-    "range_pos": 0.9461038099030997
+    "range_pos": 0.9223416965352521
   },
   "dxy": {
     "ok": true,
-    "last": 101.80899810791016,
-    "pct": -0.34650891151469276,
+    "last": 101.78399658203125,
+    "pct": -0.37098110339041795,
     "state": "down",
-    "corr": -0.44398337884000494
+    "corr": -0.48842864087383725
   },
   "oil": {
     "ok": true,
-    "last": 87.20999908447266,
-    "pct": -2.2419011551678265,
+    "last": 86.91999816894531,
+    "pct": -2.566977848928066,
     "state": "down",
-    "corr": -0.3225438531817247
+    "corr": -0.19600341140151756
   },
   "news": {
-    "usd": 0.33645422771747524,
-    "oil": -0.0002377791286007768,
+    "usd": 0.17657429549979986,
+    "oil": -0.24177158139199617,
     "shock": true,
     "usd_headlines": [
+      "Dollar Index Falls on Tuesday - TradingView",
       "US Dollar Falls Early Tuesday Ahead of Trade, Redbook, Consumer Sentiment - marketscreener.com",
-      "US Dollar Gains as Capital Flees Europe. Forecast as of 06.10.2026 - LiteFinance",
-      "U.S. Treasury Yields Turn Lower, Eurozone Bond Yields Slide - WSJ"
+      "US Dollar Gains as Capital Flees Europe. Forecast as of 06.10.2026 - LiteFinance"
     ],
     "oil_headlines": [
-      "Wall St futures rise as Treasury yields cool, oil slips - Yahoo Finance",
-      "Goldman Sachs Analyst Predicts Strait of Hormuz Oil Flow Normalizing by Late 2027, Crude Oil Prices to Hit $80/Barrel - Benzinga",
-      "WTI Slips as G7 Reserve Release Adds to Supply Risk - TradingPedia"
+      "Wall St futures rise as Treasury yields cool, oil slips - finance.yahoo.com",
+      "Wall St futures rise as Treasury yields cool, oil slips - TradingView",
+      "Goldman Sachs Analyst Predicts Strait of Hormuz Oil Flow Normalizing by Late 2027, Crude Oil Prices to Hit $80/Barrel - Benzinga"
     ]
   },
   "events": [
@@ -97,25 +120,25 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.7233335708939705,
-      "trust": 1.2916670908820902
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.345368983957237,
-      "trust": 1.0
+      "score": 0.6823261306923845,
+      "trust": 1.2184395190935435
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.2643735766054967,
+      "score": 0.27264188502616027,
       "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
       "score": 0.12,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.10120000000000003,
       "trust": 1.0
     },
     {
