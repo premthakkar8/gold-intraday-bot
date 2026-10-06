@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-06T14:30:52.094017+00:00",
-  "atr": 4.5200000000001115,
-  "price": 4152.67,
+  "updated_at": "2026-10-06T14:45:36.797029+00:00",
+  "atr": 4.493571428571613,
+  "price": 4154.45,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4106.84,
-      "sl": 4101.84,
-      "tp1": 4120.56,
+      "entry_high": 4106.86,
+      "sl": 4101.86,
+      "tp1": 4120.54,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,35 +21,35 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T14:43:58.411131+00:00"
+      "checked_at": "2026-10-06T14:59:01.518499+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4177.15,
+      "entry_low": 4177.13,
       "entry_high": 4179.66,
-      "sl": 4182.15,
-      "tp1": 4163.43,
+      "sl": 4182.13,
+      "tp1": 4163.45,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.26,
+      "score": 0.11,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T12:17:27.996985+00:00",
-      "checked_at": "2026-10-06T14:43:58.411131+00:00"
+      "checked_at": "2026-10-06T14:59:01.518499+00:00"
     }
   ],
   "research": [
-    "Gold 4144.58 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 4145.08, ATR 4.52, day range 4104.33-4179.66.",
-    "DXY 101.93 (-0.23% today, down), gold-dollar corr -0.63.",
-    "WTI 88.08 (-1.27% today, down), gold-oil corr -0.35.",
+    "Gold 4152.68 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 4145.19, ATR 4.49, day range 4104.33-4179.66.",
+    "DXY 101.93 (-0.23% today, down), gold-dollar corr -0.62.",
+    "WTI 88.01 (-1.35% today, down), gold-oil corr -0.30.",
     "Headlines: dollar -0.09, oil -0.70, fresh shock.",
     "Dollar: Canadian Dollar firms vs US Dollar as Oil supply weighs on prices - FXStreet",
-    "Oil: S&P 500, Nasdaq touch new peaks as Treasury yields cool, oil slips - The Edge Malaysia",
+    "Oil: S&P 500, Nasdaq touch new peaks as Treasury yields cool, oil slips - The Detroit News",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -252,5 +252,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-10-06T14:43:58.411131+00:00"
+  "last_check": "2026-10-06T14:59:01.518499+00:00"
 }
