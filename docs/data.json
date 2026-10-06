@@ -1,9 +1,49 @@
 {
-  "updated": "2026-10-06 02:01 UTC",
+  "updated": "2026-10-06 02:15 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4129.37,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.41). Take an entry only if price reaches it.",
+  "price": 4130.7,
+  "stance": "Strategy: BUY is the trade (Trade the oil shock, confidence 58%).",
   "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 4127.98,
+      "entry_high": 4131.03,
+      "sl": 4126.03,
+      "tp1": 4138.67,
+      "tp2": 4143.41,
+      "rr": 2.6,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.63,
+      "style": "oil_shock",
+      "favored": true,
+      "ready": true,
+      "status": "valid",
+      "reason": "Score 0.63 (Trade the oil shock), oil supply news +1.00, price below VWAP.",
+      "created_at": "2026-10-06T01:02:53.666175+00:00",
+      "checked_at": "2026-10-06T02:15:56.676557+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4149.21,
+      "entry_high": 4152.26,
+      "sl": 4154.21,
+      "tp1": 4138.67,
+      "tp2": 4136.83,
+      "rr": 3.5,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.39,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.39 (Trade with the dollar), hawkish dollar news +0.92.",
+      "created_at": "2026-10-06T01:02:53.666175+00:00",
+      "checked_at": "2026-10-06T02:15:56.676557+00:00"
+    }
+  ],
+  "active": [
     {
       "side": "BUY",
       "entry_low": 4128.97,
@@ -21,49 +61,9 @@
       "status": "valid",
       "reason": "Score 0.40 (Trade with the intraday trend), oil supply news +0.46, price below VWAP.",
       "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T02:01:21.336678+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4149.67,
-      "entry_high": 4152.26,
-      "sl": 4154.67,
-      "tp1": 4139.52,
-      "tp2": 4136.14,
-      "rr": 3.1,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.41,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.41 (Trade with the dollar), hawkish dollar news +0.91.",
-      "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T02:01:21.336678+00:00"
-    }
-  ],
-  "active": [
-    {
-      "side": "BUY",
-      "entry_low": 4131.06,
-      "entry_high": 4133.51,
-      "sl": 4128.51,
-      "tp1": 4140.7,
-      "tp2": 4147.39,
-      "rr": 2.2,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.74,
-      "style": "trend_align",
-      "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.74 (Trade with the intraday trend), dollar softer -0.08%, oil supply news +0.47, price below VWAP.",
-      "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T01:54:55.300734+00:00",
-      "entry": 4133.51,
-      "entered_at": "2026-10-06T01:54:55.300734+00:00",
+      "checked_at": "2026-10-06T02:06:27.255361+00:00",
+      "entry": 4131.56,
+      "entered_at": "2026-10-06T02:06:27.255361+00:00",
       "closed": null
     }
   ],
@@ -72,66 +72,65 @@
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 4139.521257933676,
-    "atr": 4.3871428571427975,
-    "day_low": 4128.97,
+    "vwap": 4138.672334499754,
+    "atr": 3.5514285714284597,
+    "day_low": 4127.98,
     "day_high": 4152.26,
-    "range_pos": 0.01717475311290841
+    "range_pos": 0.11202635914333531
   },
   "dxy": {
     "ok": true,
-    "last": 102.10199737548828,
-    "pct": -0.05971304432050611,
+    "last": 102.15699768066406,
+    "pct": -0.005877209339699638,
     "state": "flat",
-    "corr": -0.38837968115250504
+    "corr": -0.3764658298299813
   },
   "oil": {
     "ok": true,
-    "last": 89.5199966430664,
-    "pct": 0.3474919423552671,
-    "state": "flat",
-    "corr": -0.13097611525358174
+    "last": 89.62999725341797,
+    "pct": 0.47079719006343407,
+    "state": "up",
+    "corr": -0.12845035233575774
   },
   "news": {
-    "usd": 0.9069991796603076,
-    "oil": 0.4621173578725239,
+    "usd": 0.92150604310595,
+    "oil": 1.0,
     "shock": true,
     "usd_headlines": [
+      "U.S. Treasury Yields Surge to 32-Year High as Allies Turn Net Sellers - \uc870\uc120\uc77c\ubcf4",
       "US Dollar Index Rises 0.4% as Euro Hits 17-Month Low - Investing.com",
-      "The Pound flatlines as Treasury yields climb to another high - FXStreet",
-      "Stock Market Today, Oct. 5: Tech Momentum Lifts Nasdaq as Treasury Yields Surge - The Globe and Mail"
+      "The Pound flatlines as Treasury yields climb to another high - FXStreet"
     ],
     "oil_headlines": [
       "Middle East Crude Oil Exports Increase Despite Strait of Hormuz Attacks - Ratopati",
-      "Iraq seeks to buy crude oil tankers to handle shipments beyond Strait of Hormuz: INA - S&P Global",
-      "US oil inventories rise but fuel tightness and OPEC+ discipline keep prices supported. - Pluang"
+      "Iraq seeks to buy crude oil tankers to handle shipments beyond Strait of Hormuz: INA - S&P Global"
     ]
   },
   "events": [],
   "scorecard": [
     {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.63,
+      "trust": 1.0
+    },
+    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.46748653647042204,
-      "trust": 0.708312934046094
+      "score": 0.5158175473350568,
+      "trust": 0.7815417383864497
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.40868247149297604,
-      "trust": 1.3656367771869296
+      "score": 0.38947873872957134,
+      "trust": 1.2920988837678442
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.39520000000000005,
-      "trust": 0.6333333333333333
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.33416454682988816,
-      "trust": 1.0
+      "score": 0.2812261581010739,
+      "trust": 0.707078361011114
     },
     {
       "style": "Fade the session range",
