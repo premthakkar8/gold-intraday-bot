@@ -1,17 +1,17 @@
 {
-  "updated": "2026-10-06 02:15 UTC",
+  "updated": "2026-10-06 02:30 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4130.7,
-  "stance": "Strategy: BUY is the trade (Trade the oil shock, confidence 58%).",
+  "price": 4126.38,
+  "stance": "Strategy: the BUY plan from 02:15 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4127.98,
-      "entry_high": 4131.03,
-      "sl": 4126.03,
-      "tp1": 4138.67,
-      "tp2": 4143.41,
-      "rr": 2.6,
+      "entry_low": 4126.38,
+      "entry_high": 4129.69,
+      "sl": 4124.69,
+      "tp1": 4137.86,
+      "tp2": 4141.42,
+      "rr": 2.9,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.63,
@@ -20,27 +20,27 @@
       "ready": true,
       "status": "valid",
       "reason": "Score 0.63 (Trade the oil shock), oil supply news +1.00, price below VWAP.",
-      "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T02:15:56.676557+00:00"
+      "created_at": "2026-10-06T02:30:28.539736+00:00",
+      "checked_at": "2026-10-06T02:30:28.539736+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4149.21,
+      "entry_low": 4148.95,
       "entry_high": 4152.26,
-      "sl": 4154.21,
-      "tp1": 4138.67,
-      "tp2": 4136.83,
-      "rr": 3.5,
+      "sl": 4153.95,
+      "tp1": 4137.86,
+      "tp2": 4137.22,
+      "rr": 3.8,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.39,
+      "score": 0.36,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
-      "status": "valid",
-      "reason": "Score 0.39 (Trade with the dollar), hawkish dollar news +0.92.",
+      "status": "far",
+      "reason": "Price is 22.57 away from the entry (7.3 ATR). Unlikely to fill soon.",
       "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T02:15:56.676557+00:00"
+      "checked_at": "2026-10-06T02:30:28.539736+00:00"
     }
   ],
   "active": [
@@ -69,37 +69,37 @@
   ],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 4138.672334499754,
-    "atr": 3.5514285714284597,
-    "day_low": 4127.98,
+    "vwap": 4137.856059377515,
+    "atr": 3.0764285714285506,
+    "day_low": 4126.38,
     "day_high": 4152.26,
-    "range_pos": 0.11202635914333531
+    "range_pos": 0.0
   },
   "dxy": {
     "ok": true,
-    "last": 102.15699768066406,
-    "pct": -0.005877209339699638,
+    "last": 102.16999816894531,
+    "pct": 0.006848031721098562,
     "state": "flat",
-    "corr": -0.3764658298299813
+    "corr": -0.36168435731577947
   },
   "oil": {
     "ok": true,
-    "last": 89.62999725341797,
-    "pct": 0.47079719006343407,
+    "last": 89.68000030517578,
+    "pct": 0.5268481398123123,
     "state": "up",
-    "corr": -0.12845035233575774
+    "corr": -0.13614652421717055
   },
   "news": {
-    "usd": 0.92150604310595,
+    "usd": 0.9118587661717458,
     "oil": 1.0,
     "shock": true,
     "usd_headlines": [
-      "U.S. Treasury Yields Surge to 32-Year High as Allies Turn Net Sellers - \uc870\uc120\uc77c\ubcf4",
       "US Dollar Index Rises 0.4% as Euro Hits 17-Month Low - Investing.com",
-      "The Pound flatlines as Treasury yields climb to another high - FXStreet"
+      "The Pound flatlines as Treasury yields climb to another high - FXStreet",
+      "Stock Market Today, Oct. 5: Tech Momentum Lifts Nasdaq as Treasury Yields Surge - The Globe and Mail"
     ],
     "oil_headlines": [
       "Middle East Crude Oil Exports Increase Despite Strait of Hormuz Attacks - Ratopati",
@@ -117,26 +117,26 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5158175473350568,
-      "trust": 0.7815417383864497
+      "score": 0.4680254729665497,
+      "trust": 0.7091295044947723
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.38947873872957134,
-      "trust": 1.2920988837678442
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.2812261581010739,
-      "trust": 0.707078361011114
+      "score": 0.3616210058789865,
+      "trust": 1.2187679118527042
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.07806158843489401,
+      "trust": 0.78061588434894
     }
   ],
   "record": {
