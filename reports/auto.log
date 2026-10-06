@@ -62,3 +62,4 @@ NameError: name 'load_calendar' is not defined
 2026-10-06 04:41 UTC  live: gold 4123.16 | holding short dollar_lead 85fc5a97 | new read short dollar_lead not opened
 2026-10-06 04:45 UTC  live: BUY now expired: Signal is 120 minutes old without an entry. Waiting for a fresh one.
 2026-10-06 04:56 UTC  live: gold 4122.94 | graded: 85fc5a97 short dollar_lead -> scratch (price never reached the entry zone) | opened short dollar_lead a723dd78 zone 4149.05-4152.26 stop 4154.05 target 4137.08 units 1 risk 5.00 USD tier normal conf 0.58
+2026-10-06 05:11 UTC  live: gold 4120.94 | holding short dollar_lead a723dd78 | new read flat stand_aside not opened
