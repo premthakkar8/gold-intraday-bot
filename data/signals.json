@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-10-06T13:01:43.243633+00:00",
-  "atr": 4.72785714285718,
-  "price": 4172.41,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.26). Take an entry only if price reaches it.",
+  "updated_at": "2026-10-06T13:16:24.937793+00:00",
+  "atr": 4.9178571428571685,
+  "price": 4162.2,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.27). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4106.73,
-      "sl": 4101.73,
-      "tp1": 4120.73,
+      "entry_high": 4106.63,
+      "sl": 4101.63,
+      "tp1": 4120.89,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.26,
+      "score": 0.27,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T13:14:50.911554+00:00"
+      "checked_at": "2026-10-06T13:29:32.800373+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4177.26,
+      "entry_low": 4177.36,
       "entry_high": 4179.66,
-      "sl": 4182.26,
-      "tp1": 4163.26,
+      "sl": 4182.36,
+      "tp1": 4163.1,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,41 +40,19 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-10-06T12:17:27.996985+00:00",
-      "checked_at": "2026-10-06T13:14:50.911554+00:00"
+      "checked_at": "2026-10-06T13:29:32.800373+00:00"
     }
   ],
   "research": [
-    "Gold 4170.00 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4143.04, ATR 4.73, day range 4104.33-4179.66.",
-    "DXY 101.85 (-0.31% today, down), gold-dollar corr -0.51.",
-    "WTI 87.06 (-2.41% today, down), gold-oil corr -0.23.",
-    "Headlines: dollar +0.14, oil -0.24, fresh shock.",
+    "Gold 4170.07 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4143.67, ATR 4.92, day range 4104.33-4179.66.",
+    "DXY 101.82 (-0.34% today, down), gold-dollar corr -0.50.",
+    "WTI 87.40 (-2.03% today, down), gold-oil corr -0.28.",
+    "Headlines: dollar +0.05, oil -0.26, fresh shock.",
     "Dollar: Dollar Index Falls on Tuesday - TradingView",
-    "Oil: Wall St futures rise as Treasury yields cool, oil slips - The Lufkin Daily News",
+    "Oil: S&P 500 set to open near record highs as Treasury yields cool, oil slips - marketscreener.com",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
-    {
-      "side": "BUY",
-      "entry_low": 4133.16,
-      "entry_high": 4135.54,
-      "sl": 4130.54,
-      "tp1": 4142.42,
-      "tp2": 4149.6,
-      "rr": 2.1,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.62,
-      "style": "trend_align",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.62 (Trade with the intraday trend), oil supply news +0.48.",
-      "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T01:26:37.479183+00:00",
-      "entry": 4135.54,
-      "entered_at": "2026-10-06T01:26:37.479183+00:00",
-      "closed": "sl"
-    },
     {
       "side": "BUY",
       "entry_low": 4131.06,
@@ -337,8 +315,8 @@
       "checked_at": "2026-10-06T12:18:31.580726+00:00",
       "entry": 4176.72,
       "entered_at": "2026-10-06T12:18:31.580726+00:00",
-      "closed": null
+      "closed": "tp"
     }
   ],
-  "last_check": "2026-10-06T13:14:50.911554+00:00"
+  "last_check": "2026-10-06T13:29:32.800373+00:00"
 }
