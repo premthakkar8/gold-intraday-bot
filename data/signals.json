@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-06T05:54:58.828258+00:00",
-  "atr": 2.988571428571634,
-  "price": 4118.28,
+  "updated_at": "2026-10-06T06:09:37.095306+00:00",
+  "atr": 3.3792857142858077,
+  "price": 4129.05,
   "stance": "Strategy: the SELL plan from 04:56 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4107.69,
-      "sl": 4102.69,
-      "tp1": 4119.3,
+      "entry_high": 4107.47,
+      "sl": 4102.47,
+      "tp1": 4119.62,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,35 +21,35 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T06:08:09.152503+00:00"
+      "checked_at": "2026-10-06T06:22:44.654387+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4148.9,
+      "entry_low": 4149.12,
       "entry_high": 4152.26,
-      "sl": 4153.9,
-      "tp1": 4137.29,
+      "sl": 4154.12,
+      "tp1": 4136.97,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.4,
+      "score": 0.34,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T06:08:09.152503+00:00"
+      "checked_at": "2026-10-06T06:22:44.654387+00:00"
     }
   ],
   "research": [
-    "Gold 4120.41 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4131.25, ATR 2.99, day range 4104.33-4152.26.",
-    "DXY 102.20 (+0.04% today, flat), gold-dollar corr -0.44.",
-    "WTI 89.66 (+0.50% today, up), gold-oil corr -0.16.",
-    "Headlines: dollar +1.00, oil -1.00, fresh shock.",
-    "Dollar: Rupee Nears Record Low as Dollar Gains - TradingView",
-    "Oil: Crude Oil Falls As Rising Global Supply Signals Outweigh Geopolitical Risk Fears By Kedia Advisory - Investing.com India",
+    "Gold 4119.34 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4130.62, ATR 3.38, day range 4104.33-4152.26.",
+    "DXY 102.19 (+0.03% today, flat), gold-dollar corr -0.36.",
+    "WTI 89.46 (+0.28% today, flat), gold-oil corr -0.04.",
+    "Headlines: dollar +0.86, oil +0.21, fresh shock.",
+    "Dollar: U.S. Treasury Yields Surge Past 5.3% to 24-Year High; UBS: A New Regime Shaped by High Inflation and Heavy Fiscal Burden - finance.biggo.com",
+    "Oil: WTI Slips as G7 Reserve Release Adds to Supply Risk - TradingPedia",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -186,5 +186,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-10-06T06:08:09.152503+00:00"
+  "last_check": "2026-10-06T06:22:44.654387+00:00"
 }
