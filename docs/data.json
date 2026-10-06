@@ -1,9 +1,49 @@
 {
-  "updated": "2026-10-06 01:46 UTC",
+  "updated": "2026-10-06 02:01 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4131.95,
-  "stance": "Strategy: the BUY plan from 01:32 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 4129.37,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.41). Take an entry only if price reaches it.",
   "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 4128.97,
+      "entry_high": 4131.56,
+      "sl": 4126.56,
+      "tp1": 4139.52,
+      "tp2": 4145.09,
+      "rr": 2.5,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.4,
+      "style": "trend_align",
+      "favored": false,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.40 (Trade with the intraday trend), oil supply news +0.46, price below VWAP.",
+      "created_at": "2026-10-06T01:02:53.666175+00:00",
+      "checked_at": "2026-10-06T02:01:21.336678+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4149.67,
+      "entry_high": 4152.26,
+      "sl": 4154.67,
+      "tp1": 4139.52,
+      "tp2": 4136.14,
+      "rr": 3.1,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.41,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.41 (Trade with the dollar), hawkish dollar news +0.91.",
+      "created_at": "2026-10-06T01:02:53.666175+00:00",
+      "checked_at": "2026-10-06T02:01:21.336678+00:00"
+    }
+  ],
+  "active": [
     {
       "side": "BUY",
       "entry_low": 4131.06,
@@ -21,49 +61,9 @@
       "status": "valid",
       "reason": "Score 0.74 (Trade with the intraday trend), dollar softer -0.08%, oil supply news +0.47, price below VWAP.",
       "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T01:46:48.828287+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4149.81,
-      "entry_high": 4152.26,
-      "sl": 4154.81,
-      "tp1": 4140.7,
-      "tp2": 4135.93,
-      "rr": 2.7,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T01:46:48.828287+00:00"
-    }
-  ],
-  "active": [
-    {
-      "side": "BUY",
-      "entry_low": 4133.16,
-      "entry_high": 4135.54,
-      "sl": 4130.54,
-      "tp1": 4142.42,
-      "tp2": 4149.6,
-      "rr": 2.1,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.62,
-      "style": "trend_align",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.62 (Trade with the intraday trend), oil supply news +0.48.",
-      "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T01:26:37.479183+00:00",
-      "entry": 4135.54,
-      "entered_at": "2026-10-06T01:26:37.479183+00:00",
+      "checked_at": "2026-10-06T01:54:55.300734+00:00",
+      "entry": 4133.51,
+      "entered_at": "2026-10-06T01:54:55.300734+00:00",
       "closed": null
     }
   ],
@@ -72,34 +72,34 @@
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 4140.703233734151,
-    "atr": 4.643571428571249,
-    "day_low": 4131.06,
+    "vwap": 4139.521257933676,
+    "atr": 4.3871428571427975,
+    "day_low": 4128.97,
     "day_high": 4152.26,
-    "range_pos": 0.0419811320754446
+    "range_pos": 0.01717475311290841
   },
   "dxy": {
     "ok": true,
-    "last": 102.08000183105469,
-    "pct": -0.08124289759414531,
-    "state": "down",
-    "corr": -0.3751603893780178
+    "last": 102.10199737548828,
+    "pct": -0.05971304432050611,
+    "state": "flat",
+    "corr": -0.38837968115250504
   },
   "oil": {
     "ok": true,
-    "last": 89.5,
-    "pct": 0.3250766937602396,
+    "last": 89.5199966430664,
+    "pct": 0.3474919423552671,
     "state": "flat",
-    "corr": -0.11826678861002733
+    "corr": -0.13097611525358174
   },
   "news": {
-    "usd": 0.9242552088522585,
-    "oil": 0.4676254523388931,
+    "usd": 0.9069991796603076,
+    "oil": 0.4621173578725239,
     "shock": true,
     "usd_headlines": [
-      "U.S. Treasury Yields Surge to 32-Year High as Allies Turn Net Sellers - \uc870\uc120\uc77c\ubcf4",
       "US Dollar Index Rises 0.4% as Euro Hits 17-Month Low - Investing.com",
-      "The Pound flatlines as Treasury yields climb to another high - FXStreet"
+      "The Pound flatlines as Treasury yields climb to another high - FXStreet",
+      "Stock Market Today, Oct. 5: Tech Momentum Lifts Nasdaq as Treasury Yields Surge - The Globe and Mail"
     ],
     "oil_headlines": [
       "Middle East Crude Oil Exports Increase Despite Strait of Hormuz Attacks - Ratopati",
@@ -110,28 +110,28 @@
   "events": [],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.7360000000000001,
-      "trust": 1.0
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4373198067980439,
-      "trust": 0.7809282264250783
+      "score": 0.46748653647042204,
+      "trust": 0.708312934046094
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.40868247149297604,
+      "trust": 1.3656367771869296
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.39520000000000005,
+      "trust": 0.6333333333333333
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.3371939987863912,
+      "score": 0.33416454682988816,
       "trust": 1.0
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.2139222411175398,
-      "trust": 1.2929192059555754
     },
     {
       "style": "Fade the session range",
@@ -141,10 +141,10 @@
     }
   ],
   "record": {
-    "graded": 4,
+    "graded": 5,
     "wins": 1,
-    "losses": 2,
+    "losses": 3,
     "scratches": 1,
-    "avg_r": 0.200215413912325
+    "avg_r": -0.03982766887014
   }
 }

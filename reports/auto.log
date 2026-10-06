@@ -38,3 +38,6 @@ NameError: name 'load_calendar' is not defined
 2026-10-06 01:46 UTC  live: gold 4131.95 | holding long trend_align d385c0b4 | new read long trend_align not opened
 2026-10-06 01:53 UTC  live: BUY SL hit
 2026-10-06 01:54 UTC  live: BUY entry reached at 4130.16
+2026-10-06 02:01 UTC  live: gold 4129.37 | graded: d385c0b4 long trend_align -> loss (-1.00R) invalidation hit | opened stand aside ce83a6dd
+2026-10-06 02:05 UTC  live: BUY SL hit
+2026-10-06 02:06 UTC  live: BUY entry reached at 4129.41
