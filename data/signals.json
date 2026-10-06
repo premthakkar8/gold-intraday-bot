@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-06T02:59:38.640263+00:00",
-  "atr": 5.791428571428502,
-  "price": 4129.68,
+  "updated_at": "2026-10-06T03:14:13.015538+00:00",
+  "atr": 5.795714285714179,
+  "price": 4127.99,
   "stance": "Strategy: the SELL plan from 02:45 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
@@ -16,37 +16,37 @@
       "units": 1.0,
       "score": 0.45,
       "style": "oil_shock",
-      "favored": false,
+      "favored": true,
       "ready": false,
       "status": "valid",
       "reason": "Score 0.45 (Trade the oil shock), oil supply news +1.00, price below VWAP.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T03:12:45.997381+00:00"
+      "checked_at": "2026-10-06T03:27:20.970924+00:00"
     },
     {
       "side": "SELL",
       "entry_low": 4150.45,
       "entry_high": 4152.26,
       "sl": 4155.45,
-      "tp1": 4135.5,
-      "tp2": 4134.98,
+      "tp1": 4135.19,
+      "tp2": null,
       "rr": 3.9,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.72,
+      "score": 0.7,
       "style": "dollar_lead",
-      "favored": true,
+      "favored": false,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T03:12:45.997381+00:00"
+      "checked_at": "2026-10-06T03:27:20.970924+00:00"
     }
   ],
   "research": [
-    "Gold 4129.16 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 4135.50, ATR 5.79, day range 4104.33-4152.26.",
-    "DXY 102.18 (+0.02% today, flat), gold-dollar corr -0.39.",
-    "WTI 89.72 (+0.57% today, up), gold-oil corr -0.07.",
+    "Gold 4129.31 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4135.19, ATR 5.80, day range 4104.33-4152.26.",
+    "DXY 102.20 (+0.04% today, flat), gold-dollar corr -0.34.",
+    "WTI 89.73 (+0.58% today, up), gold-oil corr -0.02.",
     "Headlines: dollar +1.00, oil +1.00, fresh shock.",
     "Dollar: US Dollar Index Rises 0.4% as Euro Hits 17-Month Low - Investing.com",
     "Oil: Middle East Crude Oil Exports Increase Despite Strait of Hormuz Attacks - Ratopati",
@@ -186,5 +186,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-10-06T03:12:45.997381+00:00"
+  "last_check": "2026-10-06T03:27:20.970924+00:00"
 }

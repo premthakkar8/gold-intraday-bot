@@ -53,3 +53,4 @@ NameError: name 'load_calendar' is not defined
 2026-10-06 02:58 UTC  live: BUY valid again
 2026-10-06 02:59 UTC  live: gold 4129.16 | holding short dollar_lead 85fc5a97 | new read short dollar_lead not opened
 2026-10-06 03:03 UTC  live: SELL now expired: Signal is 120 minutes old without an entry. Waiting for a fresh one.
+2026-10-06 03:14 UTC  live: gold 4129.31 | holding short dollar_lead 85fc5a97 | new read short dollar_lead not opened
