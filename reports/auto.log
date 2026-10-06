@@ -70,3 +70,4 @@ NameError: name 'load_calendar' is not defined
 2026-10-06 06:24 UTC  live: gold 4129.46 | holding short dollar_lead a723dd78 | new read short trend_align not opened
 2026-10-06 06:39 UTC  live: gold 4131.45 | holding short dollar_lead a723dd78 | new read short trend_align not opened
 2026-10-06 06:53 UTC  live: gold 4131.41 | holding short dollar_lead a723dd78 | new read flat stand_aside not opened
+2026-10-06 07:08 UTC  live: gold 4129.89 | graded: a723dd78 short dollar_lead -> scratch (price never reached the entry zone) | opened stand aside 8bf9c10b
