@@ -1,34 +1,34 @@
 {
-  "updated": "2026-10-06 11:03 UTC",
+  "updated": "2026-10-06 11:18 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4158.22,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.35). Take an entry only if price reaches it.",
+  "price": 4163.69,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4107.93,
-      "sl": 4102.93,
-      "tp1": 4118.93,
+      "entry_high": 4107.77,
+      "sl": 4102.77,
+      "tp1": 4119.17,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.35,
-      "style": "oil_shock",
+      "score": 0.4,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T11:03:31.288596+00:00"
+      "checked_at": "2026-10-06T11:18:17.644524+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4157.22,
-      "entry_high": 4160.82,
-      "sl": 4162.22,
-      "tp1": 4146.22,
+      "entry_low": 4160.25,
+      "entry_high": 4163.69,
+      "sl": 4165.25,
+      "tp1": 4148.85,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -39,8 +39,8 @@
       "ready": false,
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-10-06T10:48:52.001457+00:00",
-      "checked_at": "2026-10-06T11:03:31.288596+00:00"
+      "created_at": "2026-10-06T11:18:17.644524+00:00",
+      "checked_at": "2026-10-06T11:18:17.644524+00:00"
     }
   ],
   "active": [
@@ -69,37 +69,37 @@
   ],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "sideways",
     "session": "london",
-    "vwap": 4137.205874113613,
-    "atr": 2.5464285714284807,
+    "vwap": 4137.66796636648,
+    "atr": 2.8321428571427014,
     "day_low": 4104.33,
-    "day_high": 4160.82,
-    "range_pos": 0.9539741547176587
+    "day_high": 4163.69,
+    "range_pos": 1.0
   },
   "dxy": {
     "ok": true,
-    "last": 102.00199890136719,
-    "pct": -0.1575943439589345,
+    "last": 102.01399993896484,
+    "pct": -0.14584739314400752,
     "state": "down",
-    "corr": -0.4727970680861019
+    "corr": -0.4740730235092493
   },
   "oil": {
     "ok": true,
-    "last": 87.45999908447266,
-    "pct": -1.9616635107718483,
+    "last": 87.83000183105469,
+    "pct": -1.546908718283086,
     "state": "down",
-    "corr": -0.2929844924777371
+    "corr": -0.3438852772464463
   },
   "news": {
-    "usd": 0.503471610105378,
-    "oil": 0.4529675918520446,
+    "usd": 0.4251466678300487,
+    "oil": 0.4551104039818001,
     "shock": true,
     "usd_headlines": [
+      "US Dollar Gains as Capital Flees Europe. Forecast as of 06.10.2026 - LiteFinance",
       "U.S. Treasury Yields Turn Lower, Eurozone Bond Yields Slide - WSJ",
-      "Gold Slips as Dollar Gains, Treasury Yields Hit 24-Year Highs - fananews.com",
-      "Treasury yields fall as investors anticipate FOMC minutes - CNBC"
+      "Gold Slips as Dollar Gains, Treasury Yields Hit 24-Year Highs - fananews.com"
     ],
     "oil_headlines": [
       "Goldman Sachs Analyst Predicts Strait of Hormuz Oil Flow Normalizing by Late 2027, Crude Oil Prices to Hi - Benzinga",
@@ -120,8 +120,14 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.43938832676317585,
-      "trust": 0.7846220120770997
+      "score": 0.7242666666666668,
+      "trust": 1.2933333333333334
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.4048000000000001,
+      "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
@@ -132,13 +138,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.10537850002047428,
-      "trust": 0.7824762905260602
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
+      "score": 0.12983639959213295,
       "trust": 1.0
     },
     {
@@ -149,10 +149,10 @@
     }
   ],
   "record": {
-    "graded": 10,
-    "wins": 1,
+    "graded": 11,
+    "wins": 2,
     "losses": 6,
     "scratches": 3,
-    "avg_r": -0.31991383443507
+    "avg_r": -0.19992166766824546
   }
 }
