@@ -1,15 +1,15 @@
 {
-  "updated": "2026-10-06 05:11 UTC",
+  "updated": "2026-10-06 05:25 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4120.94,
+  "price": 4123.71,
   "stance": "Strategy: the SELL plan from 04:56 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4107.77,
-      "sl": 4102.77,
-      "tp1": 4119.17,
+      "entry_high": 4107.78,
+      "sl": 4102.78,
+      "tp1": 4119.16,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -18,60 +18,60 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T05:11:09.577298+00:00"
+      "checked_at": "2026-10-06T05:25:45.013312+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4148.82,
+      "entry_low": 4148.81,
       "entry_high": 4152.26,
-      "sl": 4153.82,
-      "tp1": 4137.42,
+      "sl": 4153.81,
+      "tp1": 4137.43,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.4,
+      "score": 0.72,
       "style": "dollar_lead",
       "favored": true,
-      "ready": false,
+      "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T05:11:09.577298+00:00"
+      "checked_at": "2026-10-06T05:25:45.013312+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "down",
     "session": "asia",
-    "vwap": 4132.28928449835,
-    "atr": 2.832142857142831,
+    "vwap": 4131.952234529589,
+    "atr": 2.8199999999999688,
     "day_low": 4104.33,
     "day_high": 4152.26,
-    "range_pos": 0.34654704777800066
+    "range_pos": 0.4043396620070935
   },
   "dxy": {
     "ok": true,
-    "last": 102.18399810791016,
-    "pct": 0.020551563027767984,
+    "last": 102.17400360107422,
+    "pct": 0.010768660569055753,
     "state": "flat",
-    "corr": -0.469893829168419
+    "corr": -0.4049775605615317
   },
   "oil": {
     "ok": true,
-    "last": 89.93000030517578,
-    "pct": 0.8070857842082906,
+    "last": 89.88999938964844,
+    "pct": 0.7622467348440293,
     "state": "up",
-    "corr": -0.19652264908725461
+    "corr": -0.1548873713369984
   },
   "news": {
     "usd": 1.0,
-    "oil": -0.462236983408252,
+    "oil": -0.45659717715961406,
     "shock": true,
     "usd_headlines": [
       "U.S. Treasury Yields Surge Past 5.3% to 24-Year High; UBS: A New Regime Shaped by High Inflation and Heavy Fiscal Burden - finance.biggo.com",
@@ -80,28 +80,22 @@
     ],
     "oil_headlines": [
       "Crude Oil Falls As Rising Global Supply Signals Outweigh Geopolitical Risk Fears By Kedia Advisory - Investing.com India",
-      "Iraq seeks to buy crude oil tankers to handle shipments beyond Strait of Hormuz: INA - S&P Global"
+      "Iraq seeks to buy crude oil tankers to handle shipments beyond Strait of Hormuz: INA - spglobal.com"
     ]
   },
   "events": [],
   "scorecard": [
     {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.5182292234960039,
-      "trust": 0.7851957931757634
-    },
-    {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.40440859276591457,
-      "trust": 1.2037190881044921
+      "score": 0.7215388320017588,
+      "trust": 1.2151074445436083
     },
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.2504325883763785,
-      "trust": 0.783983448852226
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.4712376281424798,
+      "trust": 0.7139964062764845
     },
     {
       "style": "Fade the session range",
@@ -112,8 +106,14 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.08529159087265377,
-      "trust": 0.7107632572721148
+      "score": 0.08534030959073709,
+      "trust": 0.7111692465894758
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.07842866621000039,
+      "trust": 0.7842866621000038
     }
   ],
   "record": {
