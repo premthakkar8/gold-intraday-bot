@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-06T03:28:53.239457+00:00",
-  "atr": 5.874285714285699,
-  "price": 4128.07,
+  "updated_at": "2026-10-06T03:43:30.494242+00:00",
+  "atr": 6.009999999999893,
+  "price": 4126.73,
   "stance": "Strategy: the SELL plan from 02:45 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4106.1,
-      "sl": 4101.1,
-      "tp1": 4121.68,
+      "entry_high": 4106.02,
+      "sl": 4101.02,
+      "tp1": 4121.79,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "valid",
       "reason": "Score 0.45 (Trade the oil shock), oil supply news +1.00, price below VWAP.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T03:42:02.070902+00:00"
+      "checked_at": "2026-10-06T03:56:38.065453+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4150.49,
+      "entry_low": 4150.57,
       "entry_high": 4152.26,
-      "sl": 4155.49,
-      "tp1": 4134.91,
+      "sl": 4155.57,
+      "tp1": 4134.8,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,16 +40,16 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T03:42:02.070902+00:00"
+      "checked_at": "2026-10-06T03:56:38.065453+00:00"
     }
   ],
   "research": [
-    "Gold 4126.50 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4134.80, ATR 5.87, day range 4104.33-4152.26.",
-    "DXY 102.17 (+0.00% today, flat), gold-dollar corr -0.31.",
-    "WTI 89.73 (+0.58% today, up), gold-oil corr -0.04.",
+    "Gold 4130.84 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 4134.33, ATR 6.01, day range 4104.33-4152.26.",
+    "DXY 102.15 (-0.02% today, flat), gold-dollar corr -0.30.",
+    "WTI 89.75 (+0.61% today, up), gold-oil corr -0.03.",
     "Headlines: dollar +1.00, oil +1.00, fresh shock.",
     "Dollar: U.S. Treasury Yields Surge to 32-Year High - \uc870\uc120\uc77c\ubcf4",
-    "Oil: Iraq seeks to buy crude oil tankers to handle shipments beyond Strait of Hormuz: INA - S&P Global",
+    "Oil: Middle East Crude Oil Exports Increase Despite Strait of Hormuz Attacks - Ratopati",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -186,5 +186,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-10-06T03:42:02.070902+00:00"
+  "last_check": "2026-10-06T03:56:38.065453+00:00"
 }
