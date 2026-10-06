@@ -1,34 +1,34 @@
 {
-  "updated": "2026-10-06 10:34 UTC",
+  "updated": "2026-10-06 10:48 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4157.02,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.10). Take an entry only if price reaches it.",
+  "price": 4158.68,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.35). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4107.91,
-      "sl": 4102.91,
-      "tp1": 4118.96,
+      "entry_high": 4107.86,
+      "sl": 4102.86,
+      "tp1": 4119.03,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.1,
-      "style": "dollar_lead",
+      "score": 0.35,
+      "style": "oil_shock",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T10:34:14.186074+00:00"
+      "checked_at": "2026-10-06T10:48:52.001457+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4154.7,
-      "entry_high": 4158.28,
-      "sl": 4159.7,
-      "tp1": 4143.65,
+      "entry_low": 4157.29,
+      "entry_high": 4160.82,
+      "sl": 4162.29,
+      "tp1": 4146.12,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -39,69 +39,47 @@
       "ready": false,
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-10-06T09:05:56.355129+00:00",
-      "checked_at": "2026-10-06T10:34:14.186074+00:00"
+      "created_at": "2026-10-06T10:48:52.001457+00:00",
+      "checked_at": "2026-10-06T10:48:52.001457+00:00"
     }
   ],
-  "active": [
-    {
-      "side": "SELL",
-      "entry_low": 4153.97,
-      "entry_high": 4156.77,
-      "sl": 4158.97,
-      "tp1": 4140.97,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-10-06T09:05:56.355129+00:00",
-      "checked_at": "2026-10-06T09:07:02.153018+00:00",
-      "entry": 4153.97,
-      "entered_at": "2026-10-06T09:07:02.153018+00:00",
-      "closed": null
-    }
-  ],
+  "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
     "htf": "sideways",
     "session": "london",
-    "vwap": 4136.3073221203995,
-    "atr": 2.5814285714285297,
+    "vwap": 4136.780053784025,
+    "atr": 2.667857142857104,
     "day_low": 4104.33,
-    "day_high": 4158.28,
-    "range_pos": 0.9766450417052954
+    "day_high": 4160.82,
+    "range_pos": 0.9621171888829982
   },
   "dxy": {
     "ok": true,
-    "last": 102.00399780273438,
-    "pct": -0.15563776346719205,
+    "last": 102.00199890136719,
+    "pct": -0.1575943439589345,
     "state": "down",
-    "corr": -0.4952598180952296
+    "corr": -0.501943202932514
   },
   "oil": {
     "ok": true,
-    "last": 87.75,
-    "pct": -1.6365868170116087,
+    "last": 87.45999908447266,
+    "pct": -1.9616635107718483,
     "state": "down",
-    "corr": -0.2207933888829573
+    "corr": -0.2874492871540331
   },
   "news": {
-    "usd": 0.5405614501146545,
-    "oil": 0.05651311588582522,
+    "usd": 0.3147887399242342,
+    "oil": 0.4509151014864648,
     "shock": true,
     "usd_headlines": [
       "U.S. Treasury Yields Turn Lower, Eurozone Bond Yields Slide - WSJ",
-      "Gold Slips as Dollar Gains, Treasury Yields Hit 24-Year Highs - fananews.com",
+      "Gold Slips as Dollar Gains, Treasury Yields Hit 24-Year Highs - Fana News -",
       "U.S. Treasury Yields Ease From 24-Year Highs Ahead of Fed Minutes - tokenpost.com"
     ],
     "oil_headlines": [
+      "Goldman Sachs Analyst Predicts Strait of Hormuz Oil Flow Normalizing by Late 2027, Crude Oil Prices to Hi - Benzinga",
       "WTI Slips as G7 Reserve Release Adds to Supply Risk - TradingPedia",
       "Crude Oil Falls As Rising Global Supply Signals Outweigh Geopolitical Risk Fears By Kedia Advisory - Investing.com India"
     ]
@@ -119,14 +97,20 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.28582862653675434,
-      "trust": 0.5104082616727755
+      "score": 0.43921804498766037,
+      "trust": 0.7843179374779649
     },
     {
       "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.12,
+      "bias": "long",
+      "score": 0.34650000000000003,
       "trust": 1.0
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "long",
+      "score": 0.1349627737144239,
+      "trust": 0.7821691865578297
     },
     {
       "style": "Trade with the intraday trend",
@@ -139,12 +123,6 @@
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.09675451304941035,
-      "trust": 0.7091495521804317
     }
   ],
   "record": {
