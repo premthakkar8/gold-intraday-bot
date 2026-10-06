@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-10-06T09:50:01.751082+00:00",
-  "atr": 2.9771428571428777,
-  "price": 4153.58,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.22). Take an entry only if price reaches it.",
+  "updated_at": "2026-10-06T10:04:42.347171+00:00",
+  "atr": 2.9421428571428287,
+  "price": 4150.49,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4107.69,
-      "sl": 4102.69,
-      "tp1": 4119.29,
+      "entry_high": 4107.71,
+      "sl": 4102.71,
+      "tp1": 4119.26,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.22,
+      "score": 0.4,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T10:03:07.412737+00:00"
+      "checked_at": "2026-10-06T10:17:50.378337+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4154.92,
+      "entry_low": 4154.9,
       "entry_high": 4158.28,
-      "sl": 4159.92,
-      "tp1": 4143.32,
+      "sl": 4159.9,
+      "tp1": 4143.35,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,16 +40,16 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-10-06T09:05:56.355129+00:00",
-      "checked_at": "2026-10-06T10:03:07.412737+00:00"
+      "checked_at": "2026-10-06T10:17:50.378337+00:00"
     }
   ],
   "research": [
-    "Gold 4153.95 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 4135.18, ATR 2.98, day range 4104.33-4158.28.",
-    "DXY 102.02 (-0.14% today, down), gold-dollar corr -0.44.",
-    "WTI 87.16 (-2.30% today, down), gold-oil corr -0.22.",
-    "Headlines: dollar +0.71, oil +0.06, fresh shock.",
+    "Gold 4152.50 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 4135.58, ATR 2.94, day range 4104.33-4158.28.",
+    "DXY 102.03 (-0.13% today, down), gold-dollar corr -0.44.",
+    "WTI 87.50 (-1.92% today, down), gold-oil corr -0.27.",
+    "Headlines: dollar +0.52, oil +0.06, fresh shock.",
     "Dollar: U.S. Treasury Yields Turn Lower, Eurozone Bond Yields Slide - WSJ",
-    "Oil: WTI Slips as G7 Reserve Release Adds to Supply Risk - TradingPedia",
+    "Oil: WTI Slips as G7 Reserve Release Adds to Supply Risk - tradingpedia.com",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -230,5 +230,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-10-06T10:03:07.412737+00:00"
+  "last_check": "2026-10-06T10:17:50.378337+00:00"
 }
