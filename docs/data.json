@@ -1,100 +1,77 @@
 {
-  "updated": "2026-10-06 13:16 UTC",
+  "updated": "2026-10-06 13:31 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4170.07,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.27). Take an entry only if price reaches it.",
+  "price": 4164.1,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4106.63,
-      "sl": 4101.63,
-      "tp1": 4120.89,
+      "entry_high": 4106.45,
+      "sl": 4101.45,
+      "tp1": 4121.15,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.27,
+      "score": 0.26,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T13:16:24.937793+00:00"
+      "checked_at": "2026-10-06T13:31:03.505432+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4177.36,
+      "entry_low": 4177.54,
       "entry_high": 4179.66,
-      "sl": 4182.36,
-      "tp1": 4163.1,
+      "sl": 4182.54,
+      "tp1": 4162.84,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.4,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "status": "valid",
+      "reason": "Score 0.40 (Trade with the intraday trend), price above VWAP.",
       "created_at": "2026-10-06T12:17:27.996985+00:00",
-      "checked_at": "2026-10-06T13:16:24.937793+00:00"
+      "checked_at": "2026-10-06T13:31:03.505432+00:00"
     }
   ],
-  "active": [
-    {
-      "side": "SELL",
-      "entry_low": 4176.72,
-      "entry_high": 4179.66,
-      "sl": 4181.72,
-      "tp1": 4164.07,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-10-06T12:17:27.996985+00:00",
-      "checked_at": "2026-10-06T12:18:31.580726+00:00",
-      "entry": 4176.72,
-      "entered_at": "2026-10-06T12:18:31.580726+00:00",
-      "closed": null
-    }
-  ],
+  "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 4143.670513317654,
-    "atr": 4.9178571428571685,
+    "vwap": 4144.135375517919,
+    "atr": 5.238571428571439,
     "day_low": 4104.33,
     "day_high": 4179.66,
-    "range_pos": 0.8726934820124763
+    "range_pos": 0.7934421877074272
   },
   "dxy": {
     "ok": true,
-    "last": 101.81900024414062,
-    "pct": -0.33671854119150824,
+    "last": 101.85199737548828,
+    "pct": -0.3044200273488133,
     "state": "down",
-    "corr": -0.5028296118651601
+    "corr": -0.5546939225201306
   },
   "oil": {
     "ok": true,
-    "last": 87.4000015258789,
-    "pct": -2.028917808731137,
+    "last": 87.93000030517578,
+    "pct": -1.4348153709595362,
     "state": "down",
-    "corr": -0.2754744336815115
+    "corr": -0.2701255857630683
   },
   "news": {
-    "usd": 0.05491478538550987,
-    "oil": -0.2552963695776488,
+    "usd": 0.10030392393473934,
+    "oil": -0.2562773544109256,
     "shock": true,
     "usd_headlines": [
       "Dollar Index Falls on Tuesday - TradingView",
@@ -103,8 +80,8 @@
     ],
     "oil_headlines": [
       "S&P 500 set to open near record highs as Treasury yields cool, oil slips - marketscreener.com",
-      "Wall St futures rise as Treasury yields cool, oil slips - The Lufkin Daily News",
-      "Goldman Sachs Analyst Predicts Strait of Hormuz Oil Flow Normalizing by Late 2027, Crude Oil Prices to Hit $80/Barrel - Benzinga"
+      "Wall St futures rise as Treasury yields cool, oil slips - lufkindailynews.com",
+      "Goldman Sachs Analyst Predicts Strait of Hormuz Oil Flow Normalizing by Late 2027, Crude Oil Prices to Hit $80/Barrel - benzinga.com"
     ]
   },
   "events": [
@@ -120,25 +97,25 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.56,
+      "score": 0.76,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.4,
       "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.267677108666386,
+      "score": 0.2580352709970538,
       "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
       "score": 0.12,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
       "trust": 1.0
     },
     {
@@ -149,10 +126,10 @@
     }
   ],
   "record": {
-    "graded": 11,
-    "wins": 2,
+    "graded": 12,
+    "wins": 3,
     "losses": 6,
     "scratches": 3,
-    "avg_r": -0.19992166766824546
+    "avg_r": -0.09992819536255833
   }
 }
