@@ -47,3 +47,7 @@ NameError: name 'load_calendar' is not defined
 2026-10-06 02:31 UTC  live: BUY SL hit
 2026-10-06 02:32 UTC  live: BUY entry reached at 4127.85
 2026-10-06 02:35 UTC  live: BUY SL hit
+2026-10-06 02:45 UTC  live: gold 4121.18 | graded: 065f8b7f long oil_shock -> loss (-1.00R) invalidation hit | opened short dollar_lead 85fc5a97 zone 4149.59-4152.26 stop 4154.59 target 4136.27 units 1 risk 5.00 USD tier normal conf 0.58
+2026-10-06 02:49 UTC  live: SELL valid again
+2026-10-06 02:52 UTC  live: BUY now far: Price is 28.09 away from the entry (6.6 ATR). Unlikely to fill soon.
+2026-10-06 02:58 UTC  live: BUY valid again
