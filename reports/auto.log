@@ -26,3 +26,6 @@ NameError: name 'load_calendar' is not defined
 2026-10-05 20:31 UTC  live: gold 4140.78 | holding long oil_shock b5bc5950 | new read flat stand_aside not opened
 2026-10-05 20:33 UTC  live: gold 4139.52 | holding long oil_shock b5bc5950 | new read long oil_shock not opened
 2026-10-05 21:00 UTC  live: gold 4140.59 | holding long oil_shock b5bc5950 | new read flat stand_aside not opened
+2026-10-06 00:48 UTC  live: gold 4142.32 | graded: b5bc5950 long oil_shock -> scratch (price never reached the entry zone) | opened stand aside b987a55b
+2026-10-06 00:49 UTC  live: SELL entry reached at 4143.80
+2026-10-06 00:49 UTC  live: SELL TP hit

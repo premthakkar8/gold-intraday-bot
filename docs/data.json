@@ -1,112 +1,112 @@
 {
-  "updated": "2026-10-05 20:59 UTC",
+  "updated": "2026-10-06 00:48 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4140.59,
-  "stance": "Strategy: the BUY plan from 20:19 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 4142.32,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4123.22,
-      "entry_high": 4127.12,
-      "sl": 4122.12,
-      "tp1": 4137.37,
-      "tp2": null,
-      "rr": 4.0,
+      "entry_low": 4127.36,
+      "entry_high": 4130.47,
+      "sl": 4125.47,
+      "tp1": 4138.71,
+      "tp2": 4142.7,
+      "rr": 2.8,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.63,
+      "score": 0.19,
       "style": "oil_shock",
-      "favored": true,
+      "favored": false,
       "ready": false,
-      "status": "far",
-      "reason": "Price is 13.47 away from the entry (6.7 ATR). Unlikely to fill soon.",
-      "created_at": "2026-10-05T20:59:52.120691+00:00",
-      "checked_at": "2026-10-05T20:59:52.120691+00:00"
+      "status": "weak",
+      "reason": "Strategy score is only 0.19. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-10-06T00:48:17.343205+00:00",
+      "checked_at": "2026-10-06T00:48:17.343205+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4166.5,
-      "entry_high": 4170.4,
-      "sl": 4171.5,
-      "tp1": 4156.25,
-      "tp2": null,
-      "rr": 4.0,
+      "entry_low": 4142.25,
+      "entry_high": 4145.36,
+      "sl": 4147.25,
+      "tp1": 4138.71,
+      "tp2": 4130.02,
+      "rr": 1.5,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.51,
+      "score": 0.58,
       "style": "dollar_lead",
-      "favored": false,
+      "favored": true,
       "ready": false,
-      "status": "far",
-      "reason": "Price is 25.91 away from the entry (12.9 ATR). Unlikely to fill soon.",
-      "created_at": "2026-10-05T20:59:52.120691+00:00",
-      "checked_at": "2026-10-05T20:59:52.120691+00:00"
+      "status": "valid",
+      "reason": "Score 0.58 (Trade with the dollar), hawkish dollar news +0.91, price above VWAP.",
+      "created_at": "2026-10-06T00:48:17.343205+00:00",
+      "checked_at": "2026-10-06T00:48:17.343205+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "sideways",
-    "session": "newyork",
-    "vwap": 4147.828234595052,
-    "atr": 2.002142857142774,
-    "day_low": 4123.22,
-    "day_high": 4170.4,
-    "range_pos": 0.3681644764730843
+    "session": "asia",
+    "vwap": 4138.7145625558105,
+    "atr": 3.4442857142856025,
+    "day_low": 4127.36,
+    "day_high": 4145.36,
+    "range_pos": 0.8311111111111131
   },
   "dxy": {
     "ok": true,
-    "last": 102.12799835205078,
-    "pct": 0.22079671294330977,
-    "state": "up",
-    "corr": -0.513262063846881
+    "last": 102.16400146484375,
+    "pct": 0.000978290245871223,
+    "state": "flat",
+    "corr": -0.5269553336620589
   },
   "oil": {
     "ok": true,
-    "last": 89.19999694824219,
-    "pct": -1.794566607897175,
-    "state": "down",
-    "corr": -0.24406062768288728
+    "last": 89.47000122070312,
+    "pct": 0.29144954478059526,
+    "state": "flat",
+    "corr": -0.14238892633773376
   },
   "news": {
-    "usd": 0.8818226927792697,
-    "oil": 0.7136302853795105,
+    "usd": 0.9058719579290471,
+    "oil": 0.4886977908868323,
     "shock": true,
     "usd_headlines": [
-      "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease - CNA",
-      "U.S., European Bond Yields Rise - WSJ",
-      "U.S. Treasury Yields Jump Most in 32 Years - \uc870\uc120\uc77c\ubcf4"
+      "US Dollar Index Rises 0.4% as Euro Hits 17-Month Low - Investing.com",
+      "The Pound flatlines as Treasury yields climb to another high - FXStreet",
+      "Stock Market Today, Oct. 5: Tech Momentum Lifts Nasdaq as Treasury Yields Surge - The Globe and Mail"
     ],
     "oil_headlines": [
       "Middle East Crude Oil Exports Increase Despite Strait of Hormuz Attacks - Ratopati",
-      "UKMTO reports fresh attacks in Red Sea, Strait of Hormuz - Quantum Commodity Intelligence",
-      "Iraq seeks to buy crude oil tankers to handle shipments beyond Strait of Hormuz: INA - S&P Global"
+      "Iraq seeks to buy crude oil tankers to handle shipments beyond Strait of Hormuz: INA - S&P Global",
+      "US oil inventories rise but fuel tightness and OPEC+ discipline keep prices supported. - Pluang"
     ]
   },
   "events": [],
   "scorecard": [
     {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.63,
-      "trust": 1.0
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5942800240603271,
-      "trust": 0.7819474000793778
+      "score": 0.66,
+      "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5099158117291741,
+      "score": 0.579938354576701,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.1918310817432668,
       "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "long",
+      "bias": "flat",
       "score": 0.1,
       "trust": 1.0
     },
@@ -118,10 +118,10 @@
     }
   ],
   "record": {
-    "graded": 1,
+    "graded": 2,
     "wins": 0,
     "losses": 1,
-    "scratches": 0,
-    "avg_r": -1.0
+    "scratches": 1,
+    "avg_r": -0.5
   }
 }
