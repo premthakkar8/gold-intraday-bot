@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-06T10:48:52.001457+00:00",
-  "atr": 2.667857142857104,
-  "price": 4158.18,
+  "updated_at": "2026-10-06T11:03:31.288596+00:00",
+  "atr": 2.5464285714284807,
+  "price": 4161.91,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.35). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4107.86,
-      "sl": 4102.86,
-      "tp1": 4119.03,
+      "entry_high": 4107.93,
+      "sl": 4102.93,
+      "tp1": 4118.93,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T11:01:58.856529+00:00"
+      "checked_at": "2026-10-06T11:16:38.821300+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4157.29,
+      "entry_low": 4157.22,
       "entry_high": 4160.82,
-      "sl": 4162.29,
-      "tp1": 4146.12,
+      "sl": 4162.22,
+      "tp1": 4146.22,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,14 +40,14 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-10-06T10:48:52.001457+00:00",
-      "checked_at": "2026-10-06T11:01:58.856529+00:00"
+      "checked_at": "2026-10-06T11:16:38.821300+00:00"
     }
   ],
   "research": [
-    "Gold 4158.68 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4136.78, ATR 2.67, day range 4104.33-4160.82.",
-    "DXY 102.00 (-0.16% today, down), gold-dollar corr -0.50.",
+    "Gold 4158.22 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4137.21, ATR 2.55, day range 4104.33-4160.82.",
+    "DXY 102.00 (-0.16% today, down), gold-dollar corr -0.47.",
     "WTI 87.46 (-1.96% today, down), gold-oil corr -0.29.",
-    "Headlines: dollar +0.31, oil +0.45, fresh shock.",
+    "Headlines: dollar +0.50, oil +0.45, fresh shock.",
     "Dollar: U.S. Treasury Yields Turn Lower, Eurozone Bond Yields Slide - WSJ",
     "Oil: Goldman Sachs Analyst Predicts Strait of Hormuz Oil Flow Normalizing by Late 2027, Crude Oil Prices to Hi - Benzinga",
     "No high-impact US release in the next 24 hours."
@@ -274,5 +274,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-10-06T11:01:58.856529+00:00"
+  "last_check": "2026-10-06T11:16:38.821300+00:00"
 }
