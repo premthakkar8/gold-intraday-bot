@@ -1,34 +1,34 @@
 {
-  "updated": "2026-10-06 13:31 UTC",
+  "updated": "2026-10-06 13:46 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4164.1,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
+  "price": 4155.61,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.46). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4106.45,
-      "sl": 4101.45,
-      "tp1": 4121.15,
+      "entry_high": 4106.59,
+      "sl": 4101.59,
+      "tp1": 4120.94,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.26,
+      "score": 0.46,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T13:31:03.505432+00:00"
+      "checked_at": "2026-10-06T13:46:20.694280+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4177.54,
+      "entry_low": 4177.4,
       "entry_high": 4179.66,
-      "sl": 4182.54,
-      "tp1": 4162.84,
+      "sl": 4182.4,
+      "tp1": 4163.05,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "valid",
       "reason": "Score 0.40 (Trade with the intraday trend), price above VWAP.",
       "created_at": "2026-10-06T12:17:27.996985+00:00",
-      "checked_at": "2026-10-06T13:31:03.505432+00:00"
+      "checked_at": "2026-10-06T13:46:20.694280+00:00"
     }
   ],
   "active": [],
@@ -49,39 +49,39 @@
     "structure": "down",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 4144.135375517919,
-    "atr": 5.238571428571439,
+    "vwap": 4144.555306227936,
+    "atr": 4.980714285714255,
     "day_low": 4104.33,
     "day_high": 4179.66,
-    "range_pos": 0.7934421877074272
+    "range_pos": 0.6807380857560041
   },
   "dxy": {
     "ok": true,
-    "last": 101.85199737548828,
-    "pct": -0.3044200273488133,
+    "last": 101.88099670410156,
+    "pct": -0.27603467448960317,
     "state": "down",
-    "corr": -0.5546939225201306
+    "corr": -0.542512981835934
   },
   "oil": {
     "ok": true,
     "last": 87.93000030517578,
     "pct": -1.4348153709595362,
     "state": "down",
-    "corr": -0.2701255857630683
+    "corr": -0.3062613949584108
   },
   "news": {
-    "usd": 0.10030392393473934,
-    "oil": -0.2562773544109256,
+    "usd": -0.12226133448645997,
+    "oil": -0.40911902527627403,
     "shock": true,
     "usd_headlines": [
+      "S&P 500 hovers near record highs as Treasury yields ease: AlphaCheck - Yahoo Finance",
       "Dollar Index Falls on Tuesday - TradingView",
-      "US Dollar Falls Early Tuesday Ahead of Trade, Redbook, Consumer Sentiment - marketscreener.com",
-      "US Dollar Gains as Capital Flees Europe. Forecast as of 06.10.2026 - LiteFinance"
+      "US Dollar Falls Early Tuesday Ahead of Trade, Redbook, Consumer Sentiment - marketscreener.com"
     ],
     "oil_headlines": [
       "S&P 500 set to open near record highs as Treasury yields cool, oil slips - marketscreener.com",
-      "Wall St futures rise as Treasury yields cool, oil slips - lufkindailynews.com",
-      "Goldman Sachs Analyst Predicts Strait of Hormuz Oil Flow Normalizing by Late 2027, Crude Oil Prices to Hit $80/Barrel - benzinga.com"
+      "S&P 500 set to open near record highs as Treasury yields cool, oil slips - reuters.com",
+      "Wall St futures rise as Treasury yields cool, oil slips - The Lufkin Daily News"
     ]
   },
   "events": [
@@ -97,19 +97,19 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.76,
+      "score": 0.48133333333333334,
+      "trust": 0.6333333333333333
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "long",
+      "score": 0.4569251511627333,
       "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
       "score": 0.4,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.2580352709970538,
       "trust": 1.0
     },
     {
@@ -126,10 +126,10 @@
     }
   ],
   "record": {
-    "graded": 12,
+    "graded": 13,
     "wins": 3,
-    "losses": 6,
+    "losses": 7,
     "scratches": 3,
-    "avg_r": -0.09992819536255833
+    "avg_r": -0.16916448802697692
   }
 }
