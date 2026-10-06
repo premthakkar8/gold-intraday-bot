@@ -1,34 +1,34 @@
 {
-  "updated": "2026-10-06 14:01 UTC",
+  "updated": "2026-10-06 14:16 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4155.74,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
+  "price": 4152.55,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.48). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4106.86,
-      "sl": 4101.86,
-      "tp1": 4120.54,
+      "entry_high": 4106.82,
+      "sl": 4101.82,
+      "tp1": 4120.6,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.43,
+      "score": 0.48,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T14:01:26.305859+00:00"
+      "checked_at": "2026-10-06T14:16:08.566704+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4177.13,
+      "entry_low": 4177.17,
       "entry_high": 4179.66,
-      "sl": 4182.13,
-      "tp1": 4163.45,
+      "sl": 4182.17,
+      "tp1": 4163.39,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "weak",
       "reason": "Strategy score is only 0.26. Take it only with a clear reaction at the entry.",
       "created_at": "2026-10-06T12:17:27.996985+00:00",
-      "checked_at": "2026-10-06T14:01:26.305859+00:00"
+      "checked_at": "2026-10-06T14:16:08.566704+00:00"
     }
   ],
   "active": [],
@@ -49,39 +49,39 @@
     "structure": "down",
     "htf": "up",
     "session": "overlap",
-    "vwap": 4144.7971665995765,
-    "atr": 4.49428571428585,
+    "vwap": 4145.03669743329,
+    "atr": 4.565714285714486,
     "day_low": 4104.33,
     "day_high": 4179.66,
-    "range_pos": 0.6824638258330001
+    "range_pos": 0.6401168193282929
   },
   "dxy": {
     "ok": true,
-    "last": 101.927001953125,
-    "pct": -0.23100345172163772,
+    "last": 101.89600372314453,
+    "pct": -0.26134538507259025,
     "state": "down",
-    "corr": -0.5582860541602425
+    "corr": -0.5865887499530766
   },
   "oil": {
     "ok": true,
-    "last": 87.79000091552734,
-    "pct": -1.5917477676473473,
+    "last": 87.87000274658203,
+    "pct": -1.5020696689188247,
     "state": "down",
-    "corr": -0.2841345745559767
+    "corr": -0.32078347491575315
   },
   "news": {
-    "usd": -0.2226583644088574,
-    "oil": -0.5431296680710564,
+    "usd": -0.3077480055873417,
+    "oil": -0.6616928318544717,
     "shock": true,
     "usd_headlines": [
+      "S&P 500 hits record high as oil prices and yields fall - qz.com",
       "S&P 500 hovers near record highs as Treasury yields ease: AlphaCheck - Yahoo Finance",
-      "US Dollar Falls Early Tuesday Ahead of Trade, Redbook, Consumer Sentiment - Moomoo",
-      "Dollar Index Falls on Tuesday - TradingView"
+      "US Dollar Falls Early Tuesday Ahead of Trade, Redbook, Consumer Sentiment - Moomoo"
     ],
     "oil_headlines": [
-      "WTI crude oil falls below $88 amid G7 supply re... - Pluang",
-      "S&P 500 set to open near record highs as Treasury yields cool, oil slips - marketscreener.com",
-      "S&P 500 set to open near record highs as Treasury yields cool, oil slips - Reuters"
+      "S&P 500, Nasdaq touch new peaks as Treasury yields cool, oil slips - The Edge Malaysia",
+      "S&P 500, Nasdaq touch new peaks as Treasury yields cool, oil slips - Reuters",
+      "S&P 500, Nasdaq touch new peaks as Treasury yields cool, oil slips - marketscreener.com"
     ]
   },
   "events": [
@@ -97,13 +97,13 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5578018470321086,
-      "trust": 0.6338657352637598
+      "score": 0.5582576261359464,
+      "trust": 0.6343836660635754
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.4327021723242573,
+      "score": 0.48215336902078165,
       "trust": 1.0
     },
     {
