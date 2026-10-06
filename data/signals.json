@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-10-06T06:39:09.150788+00:00",
-  "atr": 4.050714285714354,
-  "price": 4131.64,
+  "updated_at": "2026-10-06T06:53:41.380458+00:00",
+  "atr": 4.122142857142925,
+  "price": 4133.03,
   "stance": "Strategy: the SELL plan from 04:56 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4107.1,
-      "sl": 4102.1,
-      "tp1": 4120.17,
+      "entry_high": 4107.06,
+      "sl": 4102.06,
+      "tp1": 4120.23,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.18,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T06:52:16.924889+00:00"
+      "checked_at": "2026-10-06T07:06:48.067697+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4149.49,
+      "entry_low": 4149.53,
       "entry_high": 4152.26,
-      "sl": 4154.49,
-      "tp1": 4136.42,
+      "sl": 4154.53,
+      "tp1": 4136.36,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.78,
-      "style": "trend_align",
+      "score": 0.33,
+      "style": "dollar_lead",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T06:52:16.924889+00:00"
+      "checked_at": "2026-10-06T07:06:48.067697+00:00"
     }
   ],
   "research": [
-    "Gold 4131.45 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 4130.48, ATR 4.05, day range 4104.33-4152.26.",
-    "DXY 102.27 (+0.10% today, up), gold-dollar corr -0.21.",
-    "WTI 88.77 (-0.49% today, down), gold-oil corr -0.23.",
-    "Headlines: dollar +1.00, oil +0.20, fresh shock.",
+    "Gold 4131.41 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 4130.52, ATR 4.12, day range 4104.33-4152.26.",
+    "DXY 102.27 (+0.10% today, up), gold-dollar corr -0.22.",
+    "WTI 88.63 (-0.65% today, down), gold-oil corr -0.15.",
+    "Headlines: dollar +1.00, oil +0.21, fresh shock.",
     "Dollar: Rupee Nears Record Low as Dollar Gains - TradingView",
     "Oil: WTI Slips as G7 Reserve Release Adds to Supply Risk - TradingPedia",
     "No high-impact US release in the next 24 hours."
@@ -186,5 +186,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-10-06T06:52:16.924889+00:00"
+  "last_check": "2026-10-06T07:06:48.067697+00:00"
 }
