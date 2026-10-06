@@ -1,15 +1,15 @@
 {
-  "updated": "2026-10-06 06:24 UTC",
+  "updated": "2026-10-06 06:39 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4129.46,
+  "price": 4131.45,
   "stance": "Strategy: the SELL plan from 04:56 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4107.23,
-      "sl": 4102.23,
-      "tp1": 4119.98,
+      "entry_high": 4107.1,
+      "sl": 4102.1,
+      "tp1": 4120.17,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "invalid",
       "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T06:24:27.957196+00:00"
+      "checked_at": "2026-10-06T06:39:09.150788+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4149.36,
+      "entry_low": 4149.49,
       "entry_high": 4152.26,
-      "sl": 4154.36,
-      "tp1": 4136.61,
+      "sl": 4154.49,
+      "tp1": 4136.42,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T01:02:53.666175+00:00",
-      "checked_at": "2026-10-06T06:24:27.957196+00:00"
+      "checked_at": "2026-10-06T06:39:09.150788+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "down",
     "htf": "down",
     "session": "asia",
-    "vwap": 4130.393486075415,
-    "atr": 3.817857142857195,
+    "vwap": 4130.477107943769,
+    "atr": 4.050714285714354,
     "day_low": 4104.33,
     "day_high": 4152.26,
-    "range_pos": 0.5243062799916536
+    "range_pos": 0.5658251616941316
   },
   "dxy": {
     "ok": true,
-    "last": 102.27200317382812,
-    "pct": 0.1066933797157417,
+    "last": 102.26799774169922,
+    "pct": 0.10277275086778452,
     "state": "up",
-    "corr": -0.2705066312888962
+    "corr": -0.21255962124326688
   },
   "oil": {
     "ok": true,
-    "last": 89.27999877929688,
-    "pct": 0.07846619834390567,
-    "state": "flat",
-    "corr": -0.0781417545708
+    "last": 88.7699966430664,
+    "pct": -0.49322099083266796,
+    "state": "down",
+    "corr": -0.22588014264496128
   },
   "news": {
     "usd": 1.0,
-    "oil": 0.04951493881058772,
+    "oil": 0.20255722801444276,
     "shock": true,
     "usd_headlines": [
       "Rupee Nears Record Low as Dollar Gains - TradingView",
@@ -80,7 +80,8 @@
     ],
     "oil_headlines": [
       "WTI Slips as G7 Reserve Release Adds to Supply Risk - TradingPedia",
-      "Crude Oil Falls As Rising Global Supply Signals Outweigh Geopolitical Risk Fears By Kedia Advisory - Investing.com India"
+      "Crude Oil Falls As Rising Global Supply Signals Outweigh Geopolitical Risk Fears By Kedia Advisory - Investing.com India",
+      "Middle East Crude Oil Exports Increase Despite Strait of Hormuz Attacks - Ratopati"
     ]
   },
   "events": [
@@ -102,13 +103,13 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.56,
-      "trust": 1.0
+      "score": 0.4445139305592308,
+      "trust": 0.7937748759986263
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.35389089258208617,
+      "score": 0.33489919605600693,
       "trust": 1.0
     },
     {
