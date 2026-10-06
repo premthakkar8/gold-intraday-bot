@@ -1,15 +1,15 @@
 {
-  "updated": "2026-10-06 11:33 UTC",
+  "updated": "2026-10-06 11:48 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4167.94,
+  "price": 4173.43,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4107.66,
-      "sl": 4102.66,
-      "tp1": 4119.33,
+      "entry_high": 4107.49,
+      "sl": 4102.49,
+      "tp1": 4119.59,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T11:33:13.282368+00:00"
+      "checked_at": "2026-10-06T11:48:06.676584+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4164.65,
-      "entry_high": 4167.98,
-      "sl": 4169.65,
-      "tp1": 4152.98,
+      "entry_low": 4170.88,
+      "entry_high": 4174.04,
+      "sl": 4175.88,
+      "tp1": 4158.78,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -39,8 +39,8 @@
       "ready": false,
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-10-06T11:33:13.282368+00:00",
-      "checked_at": "2026-10-06T11:33:13.282368+00:00"
+      "created_at": "2026-10-06T11:48:06.676584+00:00",
+      "checked_at": "2026-10-06T11:48:06.676584+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "up",
     "htf": "sideways",
     "session": "london",
-    "vwap": 4138.34009893359,
-    "atr": 3.0349999999999193,
+    "vwap": 4139.1264295378505,
+    "atr": 3.347857142857135,
     "day_low": 4104.33,
-    "day_high": 4167.98,
-    "range_pos": 0.9993715632364499
+    "day_high": 4174.04,
+    "range_pos": 0.9912494620570984
   },
   "dxy": {
     "ok": true,
-    "last": 101.88500213623047,
-    "pct": -0.272114045641646,
+    "last": 101.875,
+    "pct": -0.28190441596483057,
     "state": "down",
-    "corr": -0.4044932875383598
+    "corr": -0.3555147500633392
   },
   "oil": {
     "ok": true,
-    "last": 87.58000183105469,
-    "pct": -1.8271463626790643,
+    "last": 87.61000061035156,
+    "pct": -1.79351921369942,
     "state": "down",
-    "corr": -0.3660896449804073
+    "corr": -0.3336520763264161
   },
   "news": {
-    "usd": 0.4020979377022148,
-    "oil": 0.45735506417122934,
+    "usd": 0.36095425410054394,
+    "oil": 0.4596780843688754,
     "shock": true,
     "usd_headlines": [
+      "US Dollar Falls Early Tuesday Ahead of Trade, Redbook, Consumer Sentiment - marketscreener.com",
       "US Dollar Gains as Capital Flees Europe. Forecast as of 06.10.2026 - LiteFinance",
-      "U.S. Treasury Yields Turn Lower, Eurozone Bond Yields Slide - WSJ",
-      "Gold Slips as Dollar Gains, Treasury Yields Hit 24-Year Highs - Fana News -"
+      "U.S. Treasury Yields Turn Lower, Eurozone Bond Yields Slide - WSJ"
     ],
     "oil_headlines": [
       "Goldman Sachs Analyst Predicts Strait of Hormuz Oil Flow Normalizing by Late 2027, Crude Oil Prices to Hit $80/Barrel - Benzinga",
@@ -97,8 +97,8 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.7240307755540543,
-      "trust": 1.2929120992036682
+      "score": 0.7237958128374565,
+      "trust": 1.2924925229240294
     },
     {
       "style": "Trade with the intraday trend",
@@ -115,7 +115,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.17537307693292184,
+      "score": 0.17386997012025096,
       "trust": 1.0
     },
     {
