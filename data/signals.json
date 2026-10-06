@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-06T11:48:06.676584+00:00",
-  "atr": 3.347857142857135,
-  "price": 4174.36,
+  "updated_at": "2026-10-06T12:02:51.756605+00:00",
+  "atr": 3.397857142857187,
+  "price": 4176.69,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4104.33,
-      "entry_high": 4107.49,
-      "sl": 4102.49,
-      "tp1": 4119.59,
+      "entry_high": 4107.46,
+      "sl": 4102.46,
+      "tp1": 4119.63,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T12:01:16.382781+00:00"
+      "checked_at": "2026-10-06T12:16:00.091834+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4170.88,
-      "entry_high": 4174.04,
-      "sl": 4175.88,
-      "tp1": 4158.78,
+      "entry_low": 4173.26,
+      "entry_high": 4176.39,
+      "sl": 4178.26,
+      "tp1": 4161.09,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -39,14 +39,14 @@
       "ready": false,
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-10-06T11:48:06.676584+00:00",
-      "checked_at": "2026-10-06T12:01:16.382781+00:00"
+      "created_at": "2026-10-06T12:02:51.756605+00:00",
+      "checked_at": "2026-10-06T12:16:00.091834+00:00"
     }
   ],
   "research": [
-    "Gold 4173.43 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 4139.13, ATR 3.35, day range 4104.33-4174.04.",
-    "DXY 101.88 (-0.28% today, down), gold-dollar corr -0.36.",
-    "WTI 87.61 (-1.79% today, down), gold-oil corr -0.33.",
+    "Gold 4176.26 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 4139.91, ATR 3.40, day range 4104.33-4176.39.",
+    "DXY 101.78 (-0.38% today, down), gold-dollar corr -0.37.",
+    "WTI 87.39 (-2.04% today, down), gold-oil corr -0.36.",
     "Headlines: dollar +0.36, oil +0.46, fresh shock.",
     "Dollar: US Dollar Falls Early Tuesday Ahead of Trade, Redbook, Consumer Sentiment - marketscreener.com",
     "Oil: Goldman Sachs Analyst Predicts Strait of Hormuz Oil Flow Normalizing by Late 2027, Crude Oil Prices to Hit $80/Barrel - Benzinga",
@@ -337,8 +337,30 @@
       "checked_at": "2026-10-06T11:49:10.946310+00:00",
       "entry": 4170.88,
       "entered_at": "2026-10-06T11:49:10.946310+00:00",
-      "closed": null
+      "closed": "sl"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4173.26,
+      "entry_high": 4176.39,
+      "sl": 4178.26,
+      "tp1": 4161.09,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-10-06T12:02:51.756605+00:00",
+      "checked_at": "2026-10-06T12:04:56.941100+00:00",
+      "entry": 4173.26,
+      "entered_at": "2026-10-06T12:04:56.941100+00:00",
+      "closed": "sl"
     }
   ],
-  "last_check": "2026-10-06T12:01:16.382781+00:00"
+  "last_check": "2026-10-06T12:16:00.091834+00:00"
 }
