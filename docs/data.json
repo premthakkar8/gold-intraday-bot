@@ -1,77 +1,77 @@
 {
-  "updated": "2026-10-06 00:48 UTC",
+  "updated": "2026-10-06 01:02 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4142.32,
-  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
+  "price": 4148.21,
+  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 57%).",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4127.36,
-      "entry_high": 4130.47,
-      "sl": 4125.47,
-      "tp1": 4138.71,
-      "tp2": 4142.7,
-      "rr": 2.8,
+      "entry_low": 4133.16,
+      "entry_high": 4135.86,
+      "sl": 4130.86,
+      "tp1": 4140.69,
+      "tp2": 4149.11,
+      "rr": 1.7,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.19,
-      "style": "oil_shock",
+      "score": 0.34,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.19. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-10-06T00:48:17.343205+00:00",
-      "checked_at": "2026-10-06T00:48:17.343205+00:00"
+      "status": "valid",
+      "reason": "Score 0.34 (Trade with the intraday trend), oil supply news +0.48.",
+      "created_at": "2026-10-06T01:02:53.666175+00:00",
+      "checked_at": "2026-10-06T01:02:53.666175+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4142.25,
-      "entry_high": 4145.36,
-      "sl": 4147.25,
-      "tp1": 4138.71,
-      "tp2": 4130.02,
-      "rr": 1.5,
+      "entry_low": 4149.56,
+      "entry_high": 4152.26,
+      "sl": 4154.56,
+      "tp1": 4140.69,
+      "tp2": 4136.31,
+      "rr": 2.8,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.58,
+      "score": 0.57,
       "style": "dollar_lead",
       "favored": true,
-      "ready": false,
+      "ready": true,
       "status": "valid",
-      "reason": "Score 0.58 (Trade with the dollar), hawkish dollar news +0.91, price above VWAP.",
-      "created_at": "2026-10-06T00:48:17.343205+00:00",
-      "checked_at": "2026-10-06T00:48:17.343205+00:00"
+      "reason": "Score 0.57 (Trade with the dollar), hawkish dollar news +0.91, price above VWAP.",
+      "created_at": "2026-10-06T01:02:53.666175+00:00",
+      "checked_at": "2026-10-06T01:02:53.666175+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 4138.7145625558105,
-    "atr": 3.4442857142856025,
-    "day_low": 4127.36,
-    "day_high": 4145.36,
-    "range_pos": 0.8311111111111131
+    "vwap": 4140.689170350438,
+    "atr": 4.177142857142761,
+    "day_low": 4133.16,
+    "day_high": 4152.26,
+    "range_pos": 0.7879581151832405
   },
   "dxy": {
     "ok": true,
-    "last": 102.16400146484375,
-    "pct": 0.000978290245871223,
+    "last": 102.13999938964844,
+    "pct": -0.02251561138398273,
     "state": "flat",
-    "corr": -0.5269553336620589
+    "corr": -0.47893563232901953
   },
   "oil": {
     "ok": true,
-    "last": 89.47000122070312,
-    "pct": 0.29144954478059526,
+    "last": 89.25,
+    "pct": 0.0448390493642613,
     "state": "flat",
-    "corr": -0.14238892633773376
+    "corr": -0.22754678433711475
   },
   "news": {
-    "usd": 0.9058719579290471,
-    "oil": 0.4886977908868323,
+    "usd": 0.9074839090063559,
+    "oil": 0.4835967620882864,
     "shock": true,
     "usd_headlines": [
       "US Dollar Index Rises 0.4% as Euro Hits 17-Month Low - Investing.com",
@@ -87,27 +87,27 @@
   "events": [],
   "scorecard": [
     {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.66,
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.5681190091269661,
       "trust": 1.0
     },
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.579938354576701,
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.46640000000000004,
+      "trust": 0.7066666666666667
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.34320000000000006,
       "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.1918310817432668,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
+      "score": 0.19028802053170665,
       "trust": 1.0
     },
     {
@@ -118,10 +118,10 @@
     }
   ],
   "record": {
-    "graded": 2,
+    "graded": 3,
     "wins": 0,
-    "losses": 1,
+    "losses": 2,
     "scratches": 1,
-    "avg_r": -0.5
+    "avg_r": -0.6666666666666666
   }
 }
