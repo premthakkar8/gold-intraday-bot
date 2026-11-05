@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T22:01:09.935942+00:00",
+  "updated_at": "2026-11-05T22:16:04.884102+00:00",
   "atr": 4.640000000000133,
   "price": 4088.49,
   "stance": "Strategy: the SELL plan from 20:54 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
@@ -21,7 +21,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-05T17:08:00.618173+00:00",
-      "checked_at": "2026-11-05T22:02:13.792515+00:00"
+      "checked_at": "2026-11-05T22:16:04.884102+00:00"
     },
     {
       "side": "SELL",
@@ -33,20 +33,20 @@
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.09,
+      "score": 0.08,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-05T17:08:00.618173+00:00",
-      "checked_at": "2026-11-05T22:02:13.792515+00:00"
+      "checked_at": "2026-11-05T22:16:04.884102+00:00"
     }
   ],
   "research": [
     "Gold 4088.49 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4115.79, ATR 4.64, day range 4061.35-4146.96.",
-    "DXY 101.60 (+0.13% today, up), gold-dollar corr -0.20.",
-    "WTI 91.06 (+3.14% today, up), gold-oil corr -0.01.",
+    "DXY 101.59 (+0.11% today, up), gold-dollar corr -0.20.",
+    "WTI 91.20 (+3.31% today, up), gold-oil corr -0.01.",
     "Headlines: dollar -1.00, oil +0.30, fresh shock.",
     "Dollar: US Dollar Nudges Higher Against The Loonie As Bond Yields Fall, Oil Prices Jump - Moomoo",
     "Oil: US Equity Markets End Lower After Crude Oil Rises, Mega-Cap Tech Stocks Fall - Yahoo! Finance Canada",
