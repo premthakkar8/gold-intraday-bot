@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-05 17:52 UTC",
+  "updated": "2026-11-05 18:07 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4102.96,
+  "price": 4097.86,
   "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4061.35,
-      "entry_high": 4063.07,
-      "sl": 4058.07,
-      "tp1": 4078.77,
+      "entry_high": 4063.33,
+      "sl": 4058.33,
+      "tp1": 4078.37,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.62,
-      "style": "trend_align",
+      "score": 0.53,
+      "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 39.89 away from the entry (6.7 ATR). Unlikely to fill soon.",
+      "reason": "Price is 34.53 away from the entry (6.3 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-05T17:08:00.618173+00:00",
-      "checked_at": "2026-11-05T17:52:34.970342+00:00"
+      "checked_at": "2026-11-05T18:07:15.977317+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4145.24,
+      "entry_low": 4144.98,
       "entry_high": 4146.96,
-      "sl": 4150.24,
-      "tp1": 4129.54,
+      "sl": 4149.98,
+      "tp1": 4129.94,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -38,45 +38,45 @@
       "favored": false,
       "ready": false,
       "status": "far",
-      "reason": "Price is 42.28 away from the entry (7.1 ATR). Unlikely to fill soon.",
+      "reason": "Price is 47.12 away from the entry (8.6 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-05T17:08:00.618173+00:00",
-      "checked_at": "2026-11-05T17:52:34.970342+00:00"
+      "checked_at": "2026-11-05T18:07:15.977317+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "newyork",
-    "vwap": 4119.506114108984,
-    "atr": 5.958571428571369,
+    "vwap": 4119.210859233639,
+    "atr": 5.482142857142857,
     "day_low": 4061.35,
     "day_high": 4146.96,
-    "range_pos": 0.48604135030954404
+    "range_pos": 0.4264688704590551
   },
   "dxy": {
     "ok": true,
-    "last": 101.4280014038086,
-    "pct": -0.04532946377552555,
+    "last": 101.41600036621094,
+    "pct": -0.05715617575411266,
     "state": "flat",
-    "corr": -0.15843419129531933
+    "corr": -0.151349076487644
   },
   "oil": {
     "ok": true,
-    "last": 90.45999908447266,
-    "pct": 2.469415875985521,
+    "last": 90.31999969482422,
+    "pct": 2.299239730713225,
     "state": "up",
-    "corr": -0.44319143101450004
+    "corr": -0.44286072643714064
   },
   "news": {
     "usd": -1.0,
-    "oil": -0.2294271164449452,
+    "oil": -0.23787328440313485,
     "shock": true,
     "usd_headlines": [
-      "Australian and New Zealand dollars rise as US dollar weakens following midterm elections - Economies.com",
       "Dollar slides as US election drives oil and Treasury yields lower; sterling gains - The Lufkin Daily News",
-      "Dollar slides as US election drives oil and Treasury yields lower; sterling gains - TradingView"
+      "Dollar slides as US election drives oil and Treasury yields lower; sterling gains - TradingView",
+      "Gold futures jump 3% as Treasury yields slide and dollar retreats. - CME Group"
     ],
     "oil_headlines": [
       "Brent crude oil drops below $95 per barrel - The New Arab",
@@ -125,26 +125,26 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.66,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.6240000000000001,
-      "trust": 1.0
+      "score": 0.6558773198599184,
+      "trust": 0.9937535149392702
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.5290889752150214,
-      "trust": 1.0
+      "score": 0.5255088120416558,
+      "trust": 0.996737053341611
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11962200930865886,
-      "trust": 0.9968500775721573
+      "score": 0.12,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
