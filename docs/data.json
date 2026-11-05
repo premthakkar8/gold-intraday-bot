@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-05 17:23 UTC",
+  "updated": "2026-11-05 17:37 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4116.52,
+  "price": 4109.0,
   "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4061.35,
-      "entry_high": 4062.41,
-      "sl": 4057.41,
-      "tp1": 4079.76,
+      "entry_high": 4062.88,
+      "sl": 4057.88,
+      "tp1": 4079.06,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.53,
-      "style": "dollar_lead",
+      "score": 0.62,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 54.11 away from the entry (7.6 ATR). Unlikely to fill soon.",
+      "reason": "Price is 46.12 away from the entry (7.3 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-05T17:08:00.618173+00:00",
-      "checked_at": "2026-11-05T17:23:00.821597+00:00"
+      "checked_at": "2026-11-05T17:37:48.786497+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4145.9,
+      "entry_low": 4145.43,
       "entry_high": 4146.96,
-      "sl": 4150.9,
-      "tp1": 4128.55,
+      "sl": 4150.43,
+      "tp1": 4129.25,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-05T17:08:00.618173+00:00",
-      "checked_at": "2026-11-05T17:23:00.821597+00:00"
+      "checked_at": "2026-11-05T17:37:48.786497+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "up",
     "htf": "sideways",
     "session": "newyork",
-    "vwap": 4119.88250235715,
-    "atr": 7.16285714285719,
+    "vwap": 4119.7440024134485,
+    "atr": 6.310000000000075,
     "day_low": 4061.35,
     "day_high": 4146.96,
-    "range_pos": 0.6444340614414256
+    "range_pos": 0.5565938558579607
   },
   "dxy": {
     "ok": true,
-    "last": 101.4219970703125,
-    "pct": -0.05124657905025413,
+    "last": 101.46299743652344,
+    "pct": -0.010841779194610688,
     "state": "flat",
-    "corr": -0.15519605849193643
+    "corr": -0.1548632745909255
   },
   "oil": {
     "ok": true,
-    "last": 90.13999938964844,
-    "pct": 2.106933208055009,
+    "last": 90.48999786376953,
+    "pct": 2.5033972757495526,
     "state": "up",
-    "corr": -0.430890449779645
+    "corr": -0.4492124183965624
   },
   "news": {
     "usd": -1.0,
-    "oil": -0.21315449002156034,
+    "oil": -0.3349325140686993,
     "shock": true,
     "usd_headlines": [
       "Australian and New Zealand dollars rise as US dollar weakens following midterm elections - Economies.com",
@@ -81,7 +81,7 @@
     "oil_headlines": [
       "Brent crude oil drops below $95 per barrel - The New Arab",
       "Iran Reports More Tanker Fires in Strait of Hormuz - Crude Oil Prices Today | OilPrice.com",
-      "US: oil inventories fall, catching analysts off guard - marketscreener.com"
+      "Crude oil falls to $94, easing pressure on RBI ahead of December policy - Moneycontrol.com"
     ]
   },
   "events": [
@@ -129,22 +129,22 @@
       "trust": 1.0
     },
     {
-      "style": "Trade with the dollar",
+      "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.5282389653541334,
+      "score": 0.6240000000000001,
       "trust": 1.0
     },
     {
-      "style": "Trade with the intraday trend",
+      "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.2835232258766287,
+      "score": 0.528151609580118,
       "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11962093177428605,
-      "trust": 0.9968410981190504
+      "score": 0.11962147146575461,
+      "trust": 0.9968455955479552
     },
     {
       "style": "Fade the session range",

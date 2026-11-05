@@ -130,3 +130,7 @@ NameError: name 'load_calendar' is not defined
 2026-11-05 16:53 UTC  live: gold 4123.85 | holding flat stand_aside 2d291041 | new read flat stand_aside not opened
 2026-11-05 17:08 UTC  live: gold 4119.63 | graded: 2d291041 stand aside -> win (+1.00R) | opened stand aside 80e1a3c2
 2026-11-05 17:23 UTC  live: gold 4116.52 | holding flat stand_aside 80e1a3c2 | new read flat stand_aside not opened
+2026-11-05 17:37 UTC  live: gold 4109.00 | holding flat stand_aside 80e1a3c2 | new read flat stand_aside not opened
+2026-11-05 17:39 UTC  live: SELL now far: Price is 40.10 away from the entry (6.4 ATR). Unlikely to fill soon.
+2026-11-05 17:49 UTC  live: SELL valid again
+2026-11-05 17:50 UTC  live: SELL now far: Price is 38.56 away from the entry (6.1 ATR). Unlikely to fill soon.
