@@ -121,3 +121,4 @@ NameError: name 'load_calendar' is not defined
 2026-10-06 14:18 UTC  live: SELL now expired: Signal is 120 minutes old without an entry. Waiting for a fresh one.
 2026-10-06 14:30 UTC  live: gold 4144.58 | holding flat stand_aside 413d5fd7 | new read flat stand_aside not opened
 2026-10-06 14:45 UTC  live: gold 4152.68 | holding flat stand_aside 413d5fd7 | new read flat stand_aside not opened
+2026-11-05 15:00 UTC  live: gold 4110.36 | graded: 413d5fd7 stand_aside -> scratch (no bars in the window) | opened stand aside 2d291041

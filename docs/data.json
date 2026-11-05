@@ -1,109 +1,98 @@
 {
-  "updated": "2026-10-06 14:45 UTC",
+  "updated": "2026-11-05 15:00 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4152.68,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 4104.33,
-      "entry_high": 4106.86,
-      "sl": 4101.86,
-      "tp1": 4120.54,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.43,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-10-06T02:45:04.215807+00:00",
-      "checked_at": "2026-10-06T14:45:36.797029+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4177.13,
-      "entry_high": 4179.66,
-      "sl": 4182.13,
-      "tp1": 4163.45,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.11,
-      "style": "trend_align",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-10-06T12:17:27.996985+00:00",
-      "checked_at": "2026-10-06T14:45:36.797029+00:00"
-    }
-  ],
+  "price": 4110.36,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.18). Take an entry only if price reaches it.",
+  "setups": [],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
-    "htf": "up",
+    "structure": "sideways",
+    "htf": "sideways",
     "session": "overlap",
-    "vwap": 4145.1923787112055,
-    "atr": 4.493571428571613,
-    "day_low": 4104.33,
-    "day_high": 4179.66,
-    "range_pos": 0.6418425594052889
+    "vwap": 4122.573267954781,
+    "atr": 9.124999999999934,
+    "day_low": 4061.35,
+    "day_high": 4146.96,
+    "range_pos": 0.5724798504847528
   },
   "dxy": {
     "ok": true,
-    "last": 101.93199920654297,
-    "pct": -0.2261120004922816,
-    "state": "down",
-    "corr": -0.6215912025746146
+    "last": 101.6240005493164,
+    "pct": 0.1478226218760338,
+    "state": "up",
+    "corr": -0.1883702653803619
   },
   "oil": {
     "ok": true,
-    "last": 88.01000213623047,
-    "pct": -1.3451372722310133,
-    "state": "down",
-    "corr": -0.2993962903652093
+    "last": 89.58999633789062,
+    "pct": 1.47241523262308,
+    "state": "up",
+    "corr": -0.5425106044081497
   },
   "news": {
-    "usd": -0.09356189176234544,
-    "oil": -0.7004815234084492,
+    "usd": -1.0,
+    "oil": -0.38327119485139466,
     "shock": true,
     "usd_headlines": [
-      "Canadian Dollar firms vs US Dollar as Oil supply weighs on prices - FXStreet",
-      "S&P 500 hits record high as oil prices and yields fall - qz.com",
-      "S&P 500 hovers near record highs as Treasury yields ease: AlphaCheck - Yahoo Finance"
+      "Oil, Treasury Yields Fall After Democratic Sweep - Seoul Economic Daily",
+      "Australian and New Zealand dollars rise as US dollar weakens following midterm elections - Economies.com",
+      "Dollar slides as US election drives oil and Treasury yields lower; sterling gains - The Lufkin Daily News"
     ],
     "oil_headlines": [
-      "S&P 500, Nasdaq touch new peaks as Treasury yields cool, oil slips - The Detroit News",
-      "S&P 500, Nasdaq touch new peaks as Treasury yields cool, oil slips - Reuters",
-      "S&P 500, Nasdaq touch new peaks as Treasury yields cool, oil slips - TradingView"
+      "Gold hits 2-week high as dollar yields, oil falls after US midterms - Bangkok Post",
+      "Brent crude oil drops below $95 per barrel - The New Arab",
+      "Iran Reports More Tanker Fires in Strait of Hormuz - Crude Oil Prices Today | OilPrice.com"
     ]
   },
   "events": [
     {
-      "title": "FOMC Meeting Minutes",
-      "when": "Wed 18:00 UTC",
+      "title": "Average Hourly Earnings m/m",
+      "when": "Fri 13:30 UTC",
       "impact": "High",
+      "forecast": "0.3%",
+      "previous": "0.1%"
+    },
+    {
+      "title": "Non-Farm Employment Change",
+      "when": "Fri 13:30 UTC",
+      "impact": "High",
+      "forecast": "65K",
+      "previous": "29K"
+    },
+    {
+      "title": "Unemployment Rate",
+      "when": "Fri 13:30 UTC",
+      "impact": "High",
+      "forecast": "4.2%",
+      "previous": "4.2%"
+    },
+    {
+      "title": "Prelim UoM Consumer Sentiment",
+      "when": "Fri 15:00 UTC",
+      "impact": "Medium",
+      "forecast": "48.1",
+      "previous": "46.3"
+    },
+    {
+      "title": "Prelim UoM Inflation Expectations",
+      "when": "Fri 15:00 UTC",
+      "impact": "Medium",
       "forecast": "",
-      "previous": ""
+      "previous": "4.7%"
     }
   ],
   "scorecard": [
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5591691601504184,
-      "trust": 0.63541950017093
+      "score": 0.56,
+      "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.42523854634345976,
+      "bias": "short",
+      "score": 0.17759234974853066,
       "trust": 1.0
     },
     {
@@ -114,8 +103,8 @@
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.11256484732876058,
+      "bias": "flat",
+      "score": 0.1,
       "trust": 1.0
     },
     {
@@ -126,10 +115,10 @@
     }
   ],
   "record": {
-    "graded": 13,
+    "graded": 14,
     "wins": 3,
     "losses": 7,
-    "scratches": 3,
-    "avg_r": -0.16916448802697692
+    "scratches": 4,
+    "avg_r": -0.15708131031076428
   }
 }
