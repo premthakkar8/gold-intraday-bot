@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-05T15:37:34.021734+00:00",
-  "atr": 12.242142857142978,
-  "price": 4105.69,
-  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
+  "updated_at": "2026-11-05T16:02:14.572291+00:00",
+  "atr": 11.670000000000073,
+  "price": 4091.21,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.49). Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 4105.69 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4121.76, ATR 12.24, day range 4061.35-4146.96.",
-    "DXY 101.49 (+0.02% today, flat), gold-dollar corr -0.12.",
-    "WTI 90.09 (+2.05% today, up), gold-oil corr -0.55.",
-    "Headlines: dollar -1.00, oil -0.21, fresh shock.",
+    "Gold 4091.21 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4120.74, ATR 11.67, day range 4061.35-4146.96.",
+    "DXY 101.45 (-0.03% today, flat), gold-dollar corr -0.00.",
+    "WTI 90.02 (+1.97% today, up), gold-oil corr -0.40.",
+    "Headlines: dollar -1.00, oil -0.08, fresh shock.",
     "Dollar: Oil, Treasury Yields Fall After Democratic Sweep - Seoul Economic Daily",
     "Oil: Brent crude oil drops below $95 per barrel - The New Arab",
     "Next high-impact US release: Average Hourly Earnings m/m Fri 13:30 UTC."
