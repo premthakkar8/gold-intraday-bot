@@ -1,15 +1,34 @@
 {
-  "updated_at": "2026-11-05T19:46:16.001579+00:00",
-  "atr": 5.079999999999927,
-  "price": 4114.93,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.15). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-05T20:01:02.832916+00:00",
+  "atr": 4.6450000000001115,
+  "price": 4104.87,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4061.35,
-      "entry_high": 4063.56,
-      "sl": 4058.56,
-      "tp1": 4078.04,
+      "entry_high": 4063.8,
+      "sl": 4058.8,
+      "tp1": 4077.68,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.53,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-05T17:08:00.618173+00:00",
+      "checked_at": "2026-11-05T20:14:21.466540+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4144.51,
+      "entry_high": 4146.96,
+      "sl": 4149.51,
+      "tp1": 4130.63,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,37 +40,18 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-05T17:08:00.618173+00:00",
-      "checked_at": "2026-11-05T19:59:24.224429+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4144.75,
-      "entry_high": 4146.96,
-      "sl": 4149.75,
-      "tp1": 4130.27,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.15,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-05T17:08:00.618173+00:00",
-      "checked_at": "2026-11-05T19:59:24.224429+00:00"
+      "checked_at": "2026-11-05T20:14:21.466540+00:00"
     }
   ],
   "research": [
-    "Gold 4115.07 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4117.68, ATR 5.08, day range 4061.35-4146.96.",
-    "DXY 101.57 (+0.09% today, up), gold-dollar corr -0.27.",
-    "WTI 90.88 (+2.95% today, up), gold-oil corr -0.15.",
-    "Headlines: dollar -1.00, oil -0.01, fresh shock.",
+    "Gold 4112.34 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4117.64, ATR 4.65, day range 4061.35-4146.96.",
+    "DXY 101.55 (+0.07% today, flat), gold-dollar corr -0.15.",
+    "WTI 90.57 (+2.58% today, up), gold-oil corr -0.31.",
+    "Headlines: dollar -1.00, oil -0.13, fresh shock.",
     "Dollar: US Dollar Nudges Higher Against The Loonie As Bond Yields Fall, Oil Prices Jump - Moomoo",
     "Oil: Brent crude oil drops below $95 per barrel - The New Arab",
     "Next high-impact US release: Average Hourly Earnings m/m Fri 13:30 UTC."
   ],
   "active": [],
-  "last_check": "2026-11-05T19:59:24.224429+00:00"
+  "last_check": "2026-11-05T20:14:21.466540+00:00"
 }
