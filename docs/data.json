@@ -1,38 +1,38 @@
 {
-  "updated": "2026-11-05 15:00 UTC",
+  "updated": "2026-11-05 15:22 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4110.36,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.18). Take an entry only if price reaches it.",
+  "price": 4109.45,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.46). Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 4122.573267954781,
-    "atr": 9.124999999999934,
+    "vwap": 4122.167758814406,
+    "atr": 11.294285714285772,
     "day_low": 4061.35,
     "day_high": 4146.96,
-    "range_pos": 0.5724798504847528
+    "range_pos": 0.5618502511388838
   },
   "dxy": {
     "ok": true,
-    "last": 101.6240005493164,
-    "pct": 0.1478226218760338,
+    "last": 101.5979995727539,
+    "pct": 0.12219933235090674,
     "state": "up",
-    "corr": -0.1883702653803619
+    "corr": -0.18986645027849627
   },
   "oil": {
     "ok": true,
-    "last": 89.58999633789062,
-    "pct": 1.47241523262308,
+    "last": 89.97000122070312,
+    "pct": 1.9028205773642979,
     "state": "up",
-    "corr": -0.5425106044081497
+    "corr": -0.5555855586010542
   },
   "news": {
     "usd": -1.0,
-    "oil": -0.38327119485139466,
+    "oil": -0.3199875407961757,
     "shock": true,
     "usd_headlines": [
       "Oil, Treasury Yields Fall After Democratic Sweep - Seoul Economic Daily",
@@ -40,9 +40,9 @@
       "Dollar slides as US election drives oil and Treasury yields lower; sterling gains - The Lufkin Daily News"
     ],
     "oil_headlines": [
-      "Gold hits 2-week high as dollar yields, oil falls after US midterms - Bangkok Post",
       "Brent crude oil drops below $95 per barrel - The New Arab",
-      "Iran Reports More Tanker Fires in Strait of Hormuz - Crude Oil Prices Today | OilPrice.com"
+      "Iran Reports More Tanker Fires in Strait of Hormuz - Crude Oil Prices Today | OilPrice.com",
+      "Crude oil falls to $94, easing pressure on RBI ahead of December policy - Moneycontrol.com"
     ]
   },
   "events": [
@@ -90,21 +90,21 @@
       "trust": 1.0
     },
     {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.4638612791205692,
+      "trust": 1.0
+    },
+    {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.17759234974853066,
+      "score": 0.15814001094346944,
       "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
       "score": 0.12,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
       "trust": 1.0
     },
     {
