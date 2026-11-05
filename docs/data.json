@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-05 16:23 UTC",
+  "updated": "2026-11-05 16:38 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4112.46,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.46). Take an entry only if price reaches it.",
+  "price": 4117.29,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
   "blackout": null,
@@ -10,29 +10,29 @@
     "structure": "down",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 4119.995807864935,
-    "atr": 10.872142857142892,
+    "vwap": 4119.842979910051,
+    "atr": 10.459285714285736,
     "day_low": 4061.35,
     "day_high": 4146.96,
-    "range_pos": 0.5970096951290743
+    "range_pos": 0.6534283378110031
   },
   "dxy": {
     "ok": true,
-    "last": 101.59600067138672,
-    "pct": 0.12022946678295389,
-    "state": "up",
-    "corr": -0.08767075416814182
+    "last": 101.53500366210938,
+    "pct": 0.06011849267691197,
+    "state": "flat",
+    "corr": -0.12433242270603681
   },
   "oil": {
     "ok": true,
-    "last": 90.83000183105469,
-    "pct": 2.8885399717017557,
+    "last": 90.31999969482422,
+    "pct": 2.299239730713225,
     "state": "up",
-    "corr": -0.36583920969773626
+    "corr": -0.4092364618120255
   },
   "news": {
     "usd": -1.0,
-    "oil": -0.0737453763883901,
+    "oil": -0.07224689979482857,
     "shock": true,
     "usd_headlines": [
       "Australian and New Zealand dollars rise as US dollar weakens following midterm elections - Economies.com",
@@ -86,19 +86,19 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.56,
+      "score": 0.66,
       "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.4603324354510493,
+      "score": 0.6240000000000001,
       "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.13515930417930283,
+      "bias": "long",
+      "score": 0.5201372609603347,
       "trust": 1.0
     },
     {
