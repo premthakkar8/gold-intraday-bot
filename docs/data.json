@@ -1,38 +1,38 @@
 {
-  "updated": "2026-11-05 15:22 UTC",
+  "updated": "2026-11-05 15:37 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4109.45,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.46). Take an entry only if price reaches it.",
+  "price": 4105.69,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 4122.167758814406,
-    "atr": 11.294285714285772,
+    "vwap": 4121.761141289342,
+    "atr": 12.242142857142978,
     "day_low": 4061.35,
     "day_high": 4146.96,
-    "range_pos": 0.5618502511388838
+    "range_pos": 0.5179301483471513
   },
   "dxy": {
     "ok": true,
-    "last": 101.5979995727539,
-    "pct": 0.12219933235090674,
-    "state": "up",
-    "corr": -0.18986645027849627
+    "last": 101.48999786376953,
+    "pct": 0.015766443114492795,
+    "state": "flat",
+    "corr": -0.12038755213470972
   },
   "oil": {
     "ok": true,
-    "last": 89.97000122070312,
-    "pct": 1.9028205773642979,
+    "last": 90.08999633789062,
+    "pct": 2.050291780269286,
     "state": "up",
-    "corr": -0.5555855586010542
+    "corr": -0.5521396162319773
   },
   "news": {
     "usd": -1.0,
-    "oil": -0.3199875407961757,
+    "oil": -0.20997442558548038,
     "shock": true,
     "usd_headlines": [
       "Oil, Treasury Yields Fall After Democratic Sweep - Seoul Economic Daily",
@@ -86,25 +86,25 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.56,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.4638612791205692,
-      "trust": 1.0
+      "score": 0.6578367460333178,
+      "trust": 0.9967223424747238
     },
     {
       "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.15814001094346944,
-      "trust": 1.0
+      "bias": "long",
+      "score": 0.5173833440176452,
+      "trust": 0.9966896885324303
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
       "score": 0.12,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.1,
       "trust": 1.0
     },
     {
