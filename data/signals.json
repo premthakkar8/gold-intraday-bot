@@ -1,57 +1,57 @@
 {
-  "updated_at": "2026-11-05T23:14:55.384483+00:00",
-  "atr": 4.127142857143001,
-  "price": 4093.0,
+  "updated_at": "2026-11-05T23:29:56.972296+00:00",
+  "atr": 6.098571428571566,
+  "price": 4092.72,
   "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4061.35,
-      "entry_high": 4064.08,
-      "sl": 4059.08,
-      "tp1": 4077.25,
+      "entry_high": 4063.0,
+      "sl": 4058.0,
+      "tp1": 4078.88,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.64,
+      "score": 0.65,
       "style": "oil_shock",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-05T17:08:00.618173+00:00",
-      "checked_at": "2026-11-05T23:28:36.123467+00:00"
+      "checked_at": "2026-11-05T23:43:06.846934+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4144.23,
+      "entry_low": 4145.31,
       "entry_high": 4146.96,
-      "sl": 4149.23,
-      "tp1": 4131.06,
+      "sl": 4150.31,
+      "tp1": 4129.43,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.07,
+      "score": 0.14,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-05T17:08:00.618173+00:00",
-      "checked_at": "2026-11-05T23:28:36.123467+00:00"
+      "checked_at": "2026-11-05T23:43:06.846934+00:00"
     }
   ],
   "research": [
-    "Gold 4085.93 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4115.52, ATR 4.13, day range 4061.35-4146.96.",
+    "Gold 4097.03 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4115.15, ATR 6.10, day range 4061.35-4146.96.",
     "DXY 101.57 (+0.09% today, up), gold-dollar corr -0.21.",
-    "WTI 91.13 (+3.23% today, up), gold-oil corr +0.04.",
-    "Headlines: dollar -1.00, oil +0.47, fresh shock.",
+    "WTI 91.31 (+3.43% today, up), gold-oil corr +0.11.",
+    "Headlines: dollar -1.00, oil +0.69, fresh shock.",
     "Dollar: US Dollar Nudges Higher Against The Loonie As Bond Yields Fall, Oil Prices Jump - Moomoo",
     "Oil: US Equity Markets End Lower After Crude Oil Rises, Mega-Cap Tech Stocks Fall - Yahoo! Finance Canada",
     "Next high-impact US release: Average Hourly Earnings m/m Fri 13:30 UTC."
   ],
   "active": [],
-  "last_check": "2026-11-05T23:28:36.123467+00:00"
+  "last_check": "2026-11-05T23:43:06.846934+00:00"
 }
