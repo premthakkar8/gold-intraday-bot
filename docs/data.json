@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-05 16:38 UTC",
+  "updated": "2026-11-05 16:53 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4117.29,
+  "price": 4123.85,
   "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
@@ -10,34 +10,34 @@
     "structure": "down",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 4119.842979910051,
-    "atr": 10.459285714285736,
+    "vwap": 4119.815757425669,
+    "atr": 10.208571428571434,
     "day_low": 4061.35,
     "day_high": 4146.96,
-    "range_pos": 0.6534283378110031
+    "range_pos": 0.7300549001284938
   },
   "dxy": {
     "ok": true,
-    "last": 101.53500366210938,
-    "pct": 0.06011849267691197,
+    "last": 101.50499725341797,
+    "pct": 0.03054795344500917,
     "state": "flat",
-    "corr": -0.12433242270603681
+    "corr": -0.12131446358206026
   },
   "oil": {
     "ok": true,
-    "last": 90.31999969482422,
-    "pct": 2.299239730713225,
+    "last": 90.26000213623047,
+    "pct": 2.2428674493796406,
     "state": "up",
-    "corr": -0.4092364618120255
+    "corr": -0.4335434147598149
   },
   "news": {
     "usd": -1.0,
-    "oil": -0.07224689979482857,
+    "oil": -0.0734436486566567,
     "shock": true,
     "usd_headlines": [
+      "Oil, Treasury Yields Fall After Democratic Sweep - Seoul Economic Daily",
       "Australian and New Zealand dollars rise as US dollar weakens following midterm elections - Economies.com",
-      "Dollar slides as US election drives oil and Treasury yields lower; sterling gains - The Lufkin Daily News",
-      "Dollar slides as US election drives oil and Treasury yields lower; sterling gains - TradingView"
+      "Dollar slides as US election drives oil and Treasury yields lower; sterling gains - The Lufkin Daily News"
     ],
     "oil_headlines": [
       "Brent crude oil drops below $95 per barrel - The New Arab",
@@ -98,7 +98,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.5201372609603347,
+      "score": 0.5193450466902909,
       "trust": 1.0
     },
     {
