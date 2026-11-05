@@ -1,34 +1,15 @@
 {
-  "updated": "2026-11-05 20:25 UTC",
+  "updated": "2026-11-05 20:40 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4105.5,
-  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
+  "price": 4103.95,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.18). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4061.35,
-      "entry_high": 4063.82,
-      "sl": 4058.82,
-      "tp1": 4077.65,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.55,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-05T17:08:00.618173+00:00",
-      "checked_at": "2026-11-05T20:25:40.270968+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4144.49,
-      "entry_high": 4146.96,
-      "sl": 4149.49,
-      "tp1": 4130.66,
+      "entry_high": 4063.68,
+      "sl": 4058.68,
+      "tp1": 4077.86,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,38 +21,57 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-05T17:08:00.618173+00:00",
-      "checked_at": "2026-11-05T20:25:40.270968+00:00"
+      "checked_at": "2026-11-05T20:40:18.470120+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4144.63,
+      "entry_high": 4146.96,
+      "sl": 4149.63,
+      "tp1": 4130.45,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.18,
+      "style": "trend_align",
+      "favored": true,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-05T17:08:00.618173+00:00",
+      "checked_at": "2026-11-05T20:40:18.470120+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "sideways",
     "session": "newyork",
-    "vwap": 4117.393954401433,
-    "atr": 4.6085714285715245,
+    "vwap": 4117.204450920627,
+    "atr": 4.858571428571589,
     "day_low": 4061.35,
     "day_high": 4146.96,
-    "range_pos": 0.5157107814507654
+    "range_pos": 0.49760541992757673
   },
   "dxy": {
     "ok": true,
-    "last": 101.552001953125,
-    "pct": 0.07686986857538118,
-    "state": "flat",
-    "corr": -0.24292889313803986
+    "last": 101.56600189208984,
+    "pct": 0.09066644612192114,
+    "state": "up",
+    "corr": -0.2484186594735667
   },
   "oil": {
     "ok": true,
-    "last": 90.80999755859375,
-    "pct": 2.865879943680065,
+    "last": 90.56999969482422,
+    "pct": 2.5823975032895228,
     "state": "up",
-    "corr": -0.32832380626985264
+    "corr": -0.26502767441780345
   },
   "news": {
     "usd": -1.0,
-    "oil": -0.13256738489549802,
+    "oil": -0.00581580865491297,
     "shock": true,
     "usd_headlines": [
       "US Dollar Nudges Higher Against The Loonie As Bond Yields Fall, Oil Prices Jump - Moomoo",
@@ -125,25 +125,25 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5543839611353268,
-      "trust": 0.8399756986898891
+      "score": 0.43575603857227335,
+      "trust": 0.7781357831647737
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.18400000000000002,
+      "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.5494938819101286,
-      "trust": 0.9967802414580866
+      "bias": "short",
+      "score": 0.14611060549778818,
+      "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
       "score": 0.12,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
       "trust": 1.0
     },
     {
