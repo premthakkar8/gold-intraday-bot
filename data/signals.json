@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-11-06T04:55:03.883773+00:00",
-  "atr": 3.6721428571428794,
-  "price": 4049.96,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.46). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-06T05:09:44.861167+00:00",
+  "atr": 4.065000000000055,
+  "price": 4038.72,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4037.43,
-      "entry_high": 4040.41,
-      "sl": 4035.41,
-      "tp1": 4052.96,
+      "entry_high": 4040.19,
+      "sl": 4035.19,
+      "tp1": 4053.28,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.46,
+      "score": 0.51,
       "style": "oil_shock",
       "favored": true,
       "ready": false,
       "status": "invalid",
       "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-06T04:11:04.791852+00:00",
-      "checked_at": "2026-11-06T05:08:11.619114+00:00"
+      "checked_at": "2026-11-06T05:22:53.429739+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4103.98,
+      "entry_low": 4104.2,
       "entry_high": 4106.96,
-      "sl": 4108.98,
-      "tp1": 4091.43,
+      "sl": 4109.2,
+      "tp1": 4091.11,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.38,
+      "score": 0.43,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T05:08:11.619114+00:00"
+      "checked_at": "2026-11-06T05:22:53.429739+00:00"
     }
   ],
   "research": [
-    "Gold 4044.76 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 4067.90, ATR 3.67, day range 4037.43-4106.96.",
-    "DXY 101.76 (+0.27% today, up), gold-dollar corr +0.05.",
-    "WTI 91.72 (+0.52% today, up), gold-oil corr -0.12.",
-    "Headlines: dollar -1.00, oil +0.69, fresh shock.",
+    "Gold 4052.16 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 4067.15, ATR 4.07, day range 4037.43-4106.96.",
+    "DXY 101.69 (+0.19% today, up), gold-dollar corr -0.33.",
+    "WTI 91.35 (+0.11% today, flat), gold-oil corr +0.00.",
+    "Headlines: dollar -1.00, oil +0.78, fresh shock.",
     "Dollar: Australian Dollar drops on dovish RBA outlook, stronger US Dollar - Mitrade",
-    "Oil: Crude oil price gain amid fresh tanker attacks in Strait of Hormuz - BusinessLine",
+    "Oil: Crude Oil Rises As Investors Weigh The Outlook Of US-Israeli Conflict With Iran By Kedia Advisory - Investing.com India",
     "Next high-impact US release: Average Hourly Earnings m/m Fri 13:30 UTC."
   ],
   "active": [
@@ -182,8 +182,8 @@
       "checked_at": "2026-11-06T03:42:49.402223+00:00",
       "entry": 4042.17,
       "entered_at": "2026-11-06T03:42:49.402223+00:00",
-      "closed": null
+      "closed": "sl"
     }
   ],
-  "last_check": "2026-11-06T05:08:11.619114+00:00"
+  "last_check": "2026-11-06T05:22:53.429739+00:00"
 }
