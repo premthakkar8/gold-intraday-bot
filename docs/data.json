@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-06 20:39 UTC",
+  "updated": "2026-11-06 20:54 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4063.47,
+  "price": 4065.74,
   "stance": "Strategy: the SELL plan from 19:11 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
@@ -9,7 +9,7 @@
       "entry_low": 4028.04,
       "entry_high": 4031.13,
       "sl": 4026.13,
-      "tp1": 4043.4,
+      "tp1": 4043.41,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,28 +19,28 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.80% with hawkish news (+0.92) and gold is moving against it (corr -0.37). Buying fights the dollar.",
+      "reason": "Dollar is up +0.80% with hawkish news (+0.92) and gold is moving against it (corr -0.32). Buying fights the dollar.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T20:39:12.096780+00:00"
+      "checked_at": "2026-11-06T20:54:12.474473+00:00"
     },
     {
       "side": "SELL",
       "entry_low": 4103.87,
       "entry_high": 4106.96,
       "sl": 4108.87,
-      "tp1": 4091.6,
+      "tp1": 4091.59,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.6,
+      "score": 0.59,
       "style": "dollar_lead",
       "favored": true,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T20:39:12.096780+00:00"
+      "checked_at": "2026-11-06T20:54:12.474473+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "down",
     "session": "newyork",
-    "vwap": 4060.440337632539,
-    "atr": 3.4650000000000154,
+    "vwap": 4060.4835465151555,
+    "atr": 3.4792857142857168,
     "day_low": 4028.04,
     "day_high": 4106.96,
-    "range_pos": 0.44893563101875067
+    "range_pos": 0.477698935631016
   },
   "dxy": {
     "ok": true,
-    "last": 102.31099700927734,
-    "pct": 0.8049674728042997,
+    "last": 102.30899810791016,
+    "pct": 0.8029979954930541,
     "state": "up",
-    "corr": -0.36994058005446595
+    "corr": -0.3181770628880109
   },
   "oil": {
     "ok": true,
-    "last": 90.81999969482422,
-    "pct": -0.4712332111515411,
+    "last": 90.80999755859375,
+    "pct": -0.4821944563356165,
     "state": "down",
-    "corr": 0.054202477166446494
+    "corr": -0.001815921265943905
   },
   "news": {
-    "usd": 0.9229765224166219,
-    "oil": 0.17221115755875863,
+    "usd": 0.9237530426455249,
+    "oil": 0.13939173510760433,
     "shock": true,
     "usd_headlines": [
       "Dollar index jumps after US payrolls beat forecasts - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
@@ -79,9 +79,9 @@
       "Daly says Fed rate hike likely, despite 'painful' tech-stock dive - Reuters"
     ],
     "oil_headlines": [
-      "PERSPECTIVE: The Strait of Hormuz Constriction Impacts More Than Crude Oil \u2013 Yogi Schulz - EnergyNow",
       "Nifty Rises 9% In November As Oil Falls, But Is The Euphoria Premature? - Outlook Business",
-      "Kuwait\u2019s Crude Oil Drops USD 8.14 per Barrel - Qatar news agency"
+      "Kuwait\u2019s Crude Oil Drops USD 8.14 per Barrel - Qatar news agency",
+      "Indian Bond Market Rally Extends as US Treasury Prices Rise and Crude Oil Falls - KNN India"
     ]
   },
   "events": [],
@@ -89,8 +89,8 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.6013677379147782,
-      "trust": 0.997200686095196
+      "score": 0.5879363860927217,
+      "trust": 0.9972047272396564
     },
     {
       "style": "Stand aside",
