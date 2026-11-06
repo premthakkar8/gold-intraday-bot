@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-06 05:53 UTC",
+  "updated": "2026-11-06 06:08 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4045.25,
+  "price": 4046.96,
   "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4035.93,
-      "entry_high": 4037.82,
-      "sl": 4032.82,
-      "tp1": 4053.1,
+      "entry_high": 4037.29,
+      "sl": 4032.29,
+      "tp1": 4053.9,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "valid",
       "reason": "Score 0.63 (Trade the oil shock), oil supply news +1.00, price below VWAP.",
       "created_at": "2026-11-06T04:11:04.791852+00:00",
-      "checked_at": "2026-11-06T05:53:48.932602+00:00"
+      "checked_at": "2026-11-06T06:08:28.121657+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4105.07,
+      "entry_low": 4105.6,
       "entry_high": 4106.96,
-      "sl": 4110.07,
-      "tp1": 4089.79,
+      "sl": 4110.6,
+      "tp1": 4088.99,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.18,
+      "score": 0.16,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T05:53:48.932602+00:00"
+      "checked_at": "2026-11-06T06:08:28.121657+00:00"
     }
   ],
   "active": [
@@ -69,28 +69,28 @@
   ],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "down",
     "session": "asia",
-    "vwap": 4064.355157703468,
-    "atr": 5.661428571428652,
+    "vwap": 4063.59952399558,
+    "atr": 6.625714285714333,
     "day_low": 4035.93,
     "day_high": 4106.96,
-    "range_pos": 0.1312121638744212
+    "range_pos": 0.15528649866253932
   },
   "dxy": {
     "ok": true,
-    "last": 101.76899719238281,
-    "pct": 0.27094595498676916,
+    "last": 101.76399993896484,
+    "pct": 0.26602226170865534,
     "state": "up",
-    "corr": -0.4246677291548798
+    "corr": -0.3238097452698394
   },
   "oil": {
     "ok": true,
-    "last": 91.43000030517578,
-    "pct": 0.19726060841181509,
-    "state": "flat",
-    "corr": -0.13488603631434168
+    "last": 91.66999816894531,
+    "pct": 0.4602719659674658,
+    "state": "up",
+    "corr": -0.091853848040178
   },
   "news": {
     "usd": -1.0,
@@ -148,32 +148,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.729747522352783,
-      "trust": 1.3031205756299695
+      "score": 1.1490086209562163,
+      "trust": 1.305691614722973
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.63,
-      "trust": 1.0
+      "score": 0.627535028161343,
+      "trust": 0.996087346287846
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.17772472543089451,
-      "trust": 1.0029180724107496
+      "score": 0.16394581422149426,
+      "trust": 1.002913958889306
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.12342595454154533,
+      "trust": 0.9970778333597464
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.09970737082517428,
-      "trust": 0.9970737082517427
     }
   ],
   "record": {
