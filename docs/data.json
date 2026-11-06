@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-06 02:57 UTC",
+  "updated": "2026-11-06 03:12 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4064.68,
+  "price": 4052.93,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.41). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4056.38,
-      "entry_high": 4056.62,
-      "sl": 4051.62,
-      "tp1": 4076.02,
+      "entry_low": 4048.33,
+      "entry_high": 4048.82,
+      "sl": 4043.82,
+      "tp1": 4067.59,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -20,15 +20,15 @@
       "ready": false,
       "status": "valid",
       "reason": "Score 0.41 (Trade the oil shock), oil supply news +0.59, price below VWAP.",
-      "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T02:57:41.754185+00:00"
+      "created_at": "2026-11-06T03:12:20.967472+00:00",
+      "checked_at": "2026-11-06T03:12:20.967472+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4106.72,
+      "entry_low": 4106.47,
       "entry_high": 4106.96,
-      "sl": 4111.72,
-      "tp1": 4087.32,
+      "sl": 4111.47,
+      "tp1": 4087.7,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -37,64 +37,41 @@
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.14. Take it only with a clear reaction at the entry.",
+      "status": "far",
+      "reason": "Price is 53.54 away from the entry (6.5 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T02:57:41.754185+00:00"
+      "checked_at": "2026-11-06T03:12:20.967472+00:00"
     }
   ],
-  "active": [
-    {
-      "side": "BUY",
-      "entry_low": 4056.38,
-      "entry_high": 4056.79,
-      "sl": 4051.79,
-      "tp1": 4075.76,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.42,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.42 (Trade the oil shock), oil supply news +0.60, price below VWAP.",
-      "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T02:47:03.416279+00:00",
-      "entry": 4056.79,
-      "entered_at": "2026-11-06T02:47:03.416279+00:00",
-      "closed": null
-    }
-  ],
+  "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
     "htf": "down",
     "session": "asia",
-    "vwap": 4079.8947955073727,
-    "atr": 8.653571428571468,
-    "day_low": 4056.38,
+    "vwap": 4078.199831664258,
+    "atr": 8.19142857142856,
+    "day_low": 4048.33,
     "day_high": 4106.96,
-    "range_pos": 0.16409648082245432
+    "range_pos": 0.07845812723861334
   },
   "dxy": {
     "ok": true,
-    "last": 101.67900085449219,
-    "pct": 0.18227437344687547,
+    "last": 101.6989974975586,
+    "pct": 0.20197666364830485,
     "state": "up",
-    "corr": -0.3933732544855535
+    "corr": -0.33842469696860605
   },
   "oil": {
     "ok": true,
-    "last": 91.58999633789062,
-    "pct": 0.3725987264554794,
+    "last": 91.4800033569336,
+    "pct": 0.2520584733518836,
     "state": "flat",
-    "corr": -0.00430708316200521
+    "corr": 0.00619481869838438
   },
   "news": {
     "usd": -1.0,
-    "oil": 0.5944795065353677,
+    "oil": 0.5912667786593097,
     "shock": true,
     "usd_headlines": [
       "Gold Rebounds Above $4,100 as Dollar Weakens and Treasury Yields Fall - Businesskorea",
@@ -154,14 +131,14 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.4069637285944523,
+      "score": 0.40612595106737803,
       "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.13637458161179414,
-      "trust": 1.002967970484147
+      "score": 0.13839282022379237,
+      "trust": 1.0029637865076133
     },
     {
       "style": "Fade the session range",
@@ -172,8 +149,8 @@
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.09970236696303916,
-      "trust": 0.9970236696303916
+      "score": 0.09970278653919362,
+      "trust": 0.9970278653919361
     }
   ],
   "record": {
