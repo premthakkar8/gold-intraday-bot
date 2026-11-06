@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-06 04:25 UTC",
+  "updated": "2026-11-06 04:40 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4042.55,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
+  "price": 4044.22,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.46). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4037.43,
-      "entry_high": 4040.0,
-      "sl": 4035.0,
-      "tp1": 4053.57,
+      "entry_high": 4040.06,
+      "sl": 4035.06,
+      "tp1": 4053.48,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.34,
+      "score": 0.46,
       "style": "oil_shock",
       "favored": false,
       "ready": false,
       "status": "invalid",
       "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-06T04:11:04.791852+00:00",
-      "checked_at": "2026-11-06T04:25:41.907548+00:00"
+      "checked_at": "2026-11-06T04:40:25.475060+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4104.39,
+      "entry_low": 4104.33,
       "entry_high": 4106.96,
-      "sl": 4109.39,
-      "tp1": 4090.82,
+      "sl": 4109.33,
+      "tp1": 4090.91,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.17,
-      "style": "dollar_lead",
+      "score": 0.43,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 61.84 away from the entry (14.0 ATR). Unlikely to fill soon.",
+      "reason": "Price is 60.11 away from the entry (14.0 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T04:25:41.907548+00:00"
+      "checked_at": "2026-11-06T04:40:25.475060+00:00"
     }
   ],
   "active": [
@@ -72,29 +72,29 @@
     "structure": "down",
     "htf": "down",
     "session": "asia",
-    "vwap": 4069.9442556924714,
-    "atr": 4.410714285714286,
+    "vwap": 4068.7966000994325,
+    "atr": 4.307857142857172,
     "day_low": 4037.43,
     "day_high": 4106.96,
-    "range_pos": 0.07363727887243393
+    "range_pos": 0.09765568819214647
   },
   "dxy": {
     "ok": true,
-    "last": 101.802001953125,
-    "pct": 0.3034648818892429,
+    "last": 101.81300354003906,
+    "pct": 0.3143045241900675,
     "state": "up",
-    "corr": -0.2659093240141011
+    "corr": -0.25909937089815127
   },
   "oil": {
     "ok": true,
-    "last": 91.81999969482422,
-    "pct": 0.624657199807363,
+    "last": 92.08000183105469,
+    "pct": 0.9095910477311644,
     "state": "up",
-    "corr": -0.08788041433159038
+    "corr": -0.05053806007029758
   },
   "news": {
     "usd": -1.0,
-    "oil": 0.4593311955982682,
+    "oil": 0.45357643279992493,
     "shock": true,
     "usd_headlines": [
       "Australian Dollar drops on dovish RBA outlook, stronger US Dollar - Mitrade",
@@ -154,19 +154,19 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.3432577204321791,
-      "trust": 0.9970363325463036
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.1726683410966361,
-      "trust": 1.0
+      "score": 0.46345134075138034,
+      "trust": 0.997040531132878
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.12760000000000002,
+      "score": 0.4312,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.17648089688795085,
       "trust": 1.0
     },
     {
