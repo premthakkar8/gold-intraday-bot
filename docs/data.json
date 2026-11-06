@@ -1,38 +1,77 @@
 {
-  "updated": "2026-11-06 02:28 UTC",
+  "updated": "2026-11-06 02:42 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4070.07,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.41). Take an entry only if price reaches it.",
-  "setups": [],
+  "price": 4065.18,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.42). Take an entry only if price reaches it.",
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 4056.38,
+      "entry_high": 4056.79,
+      "sl": 4051.79,
+      "tp1": 4075.76,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.42,
+      "style": "oil_shock",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.42 (Trade the oil shock), oil supply news +0.60, price below VWAP.",
+      "created_at": "2026-11-06T02:42:59.071596+00:00",
+      "checked_at": "2026-11-06T02:42:59.071596+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4106.55,
+      "entry_high": 4106.96,
+      "sl": 4111.55,
+      "tp1": 4087.58,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.14,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.14. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-06T02:42:59.071596+00:00",
+      "checked_at": "2026-11-06T02:42:59.071596+00:00"
+    }
+  ],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
     "htf": "down",
     "session": "asia",
-    "vwap": 4082.81338862938,
-    "atr": 10.277142857142897,
+    "vwap": 4081.4063696123976,
+    "atr": 8.338571428571479,
     "day_low": 4056.38,
     "day_high": 4106.96,
-    "range_pos": 0.2706603400553593
+    "range_pos": 0.173981810992482
   },
   "dxy": {
     "ok": true,
-    "last": 101.6760025024414,
-    "pct": 0.17932015748000718,
+    "last": 101.66799926757812,
+    "pct": 0.17143473114605087,
     "state": "up",
-    "corr": -0.4477663664829115
+    "corr": -0.44829607945080324
   },
   "oil": {
     "ok": true,
-    "last": 91.4000015258789,
-    "pct": 0.16438523383989725,
+    "last": 91.55999755859375,
+    "pct": 0.3397233518835616,
     "state": "flat",
-    "corr": 0.016512532304261793
+    "corr": 0.0511274405323558
   },
   "news": {
     "usd": -1.0,
-    "oil": 0.6007691942018947,
+    "oil": 0.5976545045962082,
     "shock": true,
     "usd_headlines": [
       "Gold Rebounds Above $4,100 as Dollar Weakens and Treasury Yields Fall - Businesskorea",
@@ -92,14 +131,14 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.4128999366566814,
+      "score": 0.4163790936077679,
       "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.14141966520807042,
-      "trust": 1.0029763743807456
+      "score": 0.13812481937722806,
+      "trust": 1.002972176911837
     },
     {
       "style": "Fade the session range",
@@ -110,8 +149,8 @@
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.09970152420625289,
-      "trust": 0.9970152420625289
+      "score": 0.09970194513544525,
+      "trust": 0.9970194513544525
     }
   ],
   "record": {
