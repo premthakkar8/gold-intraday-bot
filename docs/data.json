@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-06 19:26 UTC",
+  "updated": "2026-11-06 19:40 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4068.34,
+  "price": 4063.75,
   "stance": "Strategy: the SELL plan from 19:11 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4028.04,
-      "entry_high": 4031.3,
-      "sl": 4026.3,
-      "tp1": 4043.15,
+      "entry_high": 4031.25,
+      "sl": 4026.25,
+      "tp1": 4043.23,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T19:26:22.949850+00:00"
+      "checked_at": "2026-11-06T19:40:57.216565+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4103.7,
+      "entry_low": 4103.75,
       "entry_high": 4106.96,
-      "sl": 4108.7,
-      "tp1": 4091.85,
+      "sl": 4108.75,
+      "tp1": 4091.77,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.56,
+      "score": 0.58,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T19:26:22.949850+00:00"
+      "checked_at": "2026-11-06T19:40:57.216565+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "up",
     "htf": "down",
     "session": "newyork",
-    "vwap": 4060.2961123756904,
-    "atr": 3.1642857142856946,
+    "vwap": 4060.326958891906,
+    "atr": 3.254999999999979,
     "day_low": 4028.04,
     "day_high": 4106.96,
-    "range_pos": 0.5106436898124701
+    "range_pos": 0.45248352762290933
   },
   "dxy": {
     "ok": true,
-    "last": 102.2699966430664,
-    "pct": 0.7645706366568439,
+    "last": 102.28500366210938,
+    "pct": 0.7793567506691337,
     "state": "up",
-    "corr": -0.28328282877578653
+    "corr": -0.2753605454294275
   },
   "oil": {
     "ok": true,
-    "last": 90.70999908447266,
-    "pct": -0.5917818252354452,
-    "state": "down",
-    "corr": 0.1148536532667991
+    "last": 90.9000015258789,
+    "pct": -0.3835599716395548,
+    "state": "flat",
+    "corr": 0.02020392243419303
   },
   "news": {
-    "usd": 0.8147078031916736,
-    "oil": 0.12516508863648876,
+    "usd": 0.9231149199113732,
+    "oil": -0.042091796475603654,
     "shock": true,
     "usd_headlines": [
       "Daily summary: Wall Street rebounds after the sell-off \ud83d\udd3c US dollar strengthens on solid NFP data, oil prices fall - XTB.com",
@@ -79,24 +79,24 @@
       "Treasury Yields Rise on Strong Jobs Data - WSJ"
     ],
     "oil_headlines": [
-      "PERSPECTIVE: The Strait of Hormuz Constriction Impacts More Than Crude Oil \u2013 Yogi Schulz - EnergyNow",
       "Nifty Rises 9% In November As Oil Falls, But Is The Euphoria Premature? - Outlook Business",
-      "Kuwait\u2019s Crude Oil Drops USD 8.14 per Barrel - Qatar news agency"
+      "Kuwait\u2019s Crude Oil Drops USD 8.14 per Barrel - Qatar news agency",
+      "Indian Bond Market Rally Extends as US Treasury Prices Rise and Crude Oil Falls - KNN India"
     ]
   },
   "events": [],
   "scorecard": [
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.5640679130323951,
-      "trust": 1.0
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5210913055930089,
-      "trust": 0.5921492109011465
+      "score": 0.7235294829829123,
+      "trust": 0.822192594298764
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.5782493811619307,
+      "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
@@ -105,15 +105,15 @@
       "trust": 1.0
     },
     {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.12,
-      "trust": 1.0
-    },
-    {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.08,
       "trust": 1.0
     }
   ],
