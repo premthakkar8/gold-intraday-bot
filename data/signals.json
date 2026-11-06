@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-06T03:12:20.967472+00:00",
-  "atr": 8.19142857142856,
-  "price": 4047.96,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.41). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-06T03:27:04.606023+00:00",
+  "atr": 7.450714285714249,
+  "price": 4042.63,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4048.33,
-      "entry_high": 4048.82,
-      "sl": 4043.82,
-      "tp1": 4067.59,
+      "entry_low": 4046.64,
+      "entry_high": 4047.54,
+      "sl": 4042.54,
+      "tp1": 4065.29,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.41,
+      "score": 0.4,
       "style": "oil_shock",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.41 (Trade the oil shock), oil supply news +0.59, price below VWAP.",
+      "reason": "Score 0.40 (Trade the oil shock), oil supply news +0.59, price below VWAP.",
       "created_at": "2026-11-06T03:12:20.967472+00:00",
-      "checked_at": "2026-11-06T03:25:30.428120+00:00"
+      "checked_at": "2026-11-06T03:40:12.682271+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4106.47,
+      "entry_low": 4106.06,
       "entry_high": 4106.96,
-      "sl": 4111.47,
-      "tp1": 4087.7,
+      "sl": 4111.06,
+      "tp1": 4088.31,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -38,15 +38,15 @@
       "favored": false,
       "ready": false,
       "status": "far",
-      "reason": "Price is 53.54 away from the entry (6.5 ATR). Unlikely to fill soon.",
+      "reason": "Price is 56.40 away from the entry (7.6 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T03:25:30.428120+00:00"
+      "checked_at": "2026-11-06T03:40:12.682271+00:00"
     }
   ],
   "research": [
-    "Gold 4052.93 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4078.20, ATR 8.19, day range 4048.33-4106.96.",
-    "DXY 101.70 (+0.20% today, up), gold-dollar corr -0.34.",
-    "WTI 91.48 (+0.25% today, flat), gold-oil corr +0.01.",
+    "Gold 4049.66 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4076.33, ATR 7.45, day range 4046.64-4106.96.",
+    "DXY 101.70 (+0.20% today, up), gold-dollar corr -0.33.",
+    "WTI 91.31 (+0.07% today, flat), gold-oil corr -0.06.",
     "Headlines: dollar -1.00, oil +0.59, fresh shock.",
     "Dollar: Gold Rebounds Above $4,100 as Dollar Weakens and Treasury Yields Fall - Businesskorea",
     "Oil: US Equity Markets End Lower After Crude Oil Rises, Mega-Cap Tech Stocks Fall - Yahoo! Finance Canada",
@@ -139,8 +139,29 @@
       "checked_at": "2026-11-06T03:13:26.625388+00:00",
       "entry": 4048.82,
       "entered_at": "2026-11-06T03:13:26.625388+00:00",
-      "closed": null
+      "closed": "sl"
+    },
+    {
+      "side": "BUY",
+      "entry_low": 4046.64,
+      "entry_high": 4047.54,
+      "sl": 4042.54,
+      "tp1": 4065.29,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.4,
+      "style": "oil_shock",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.40 (Trade the oil shock), oil supply news +0.59, price below VWAP.",
+      "created_at": "2026-11-06T03:12:20.967472+00:00",
+      "checked_at": "2026-11-06T03:40:12.682271+00:00",
+      "entered_at": "2026-11-06T03:40:12.682271+00:00",
+      "closed": "skipped"
     }
   ],
-  "last_check": "2026-11-06T03:25:30.428120+00:00"
+  "last_check": "2026-11-06T03:40:12.682271+00:00"
 }
