@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-06 13:26 UTC",
+  "updated": "2026-11-06 13:42 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4062.41,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
+  "price": 4047.55,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.28). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4035.93,
-      "entry_high": 4038.25,
-      "sl": 4033.25,
-      "tp1": 4052.45,
+      "entry_low": 4028.04,
+      "entry_high": 4028.77,
+      "sl": 4023.77,
+      "tp1": 4046.95,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -20,58 +20,58 @@
       "ready": false,
       "status": "paused",
       "reason": "Average Hourly Earnings m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
-      "created_at": "2026-11-06T04:11:04.791852+00:00",
-      "checked_at": "2026-11-06T13:26:25.060423+00:00"
+      "created_at": "2026-11-06T13:42:18.666568+00:00",
+      "checked_at": "2026-11-06T13:42:18.666568+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4104.64,
+      "entry_low": 4106.23,
       "entry_high": 4106.96,
-      "sl": 4109.64,
-      "tp1": 4090.44,
+      "sl": 4111.23,
+      "tp1": 4088.05,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.43,
+      "score": 0.28,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "paused",
       "reason": "Average Hourly Earnings m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T13:26:25.060423+00:00"
+      "checked_at": "2026-11-06T13:42:18.666568+00:00"
     }
   ],
   "active": [],
   "blackout": "Average Hourly Earnings m/m at 13:30 UTC",
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 4062.893197626692,
-    "atr": 4.8671428571428805,
-    "day_low": 4035.93,
+    "vwap": 4062.5797088677123,
+    "atr": 7.772142857142853,
+    "day_low": 4028.04,
     "day_high": 4106.96,
-    "range_pos": 0.3728002252569329
+    "range_pos": 0.24721236695387988
   },
   "dxy": {
     "ok": true,
-    "last": 102.0479965209961,
-    "pct": 0.5458383816850036,
+    "last": 102.17900085449219,
+    "pct": 0.6749143164613274,
     "state": "up",
-    "corr": -0.16335591710862898
+    "corr": -0.4838096907384886
   },
   "oil": {
     "ok": true,
-    "last": 90.87999725341797,
-    "pct": -0.4054824620077055,
-    "state": "down",
-    "corr": -0.3395016561454276
+    "last": 91.12000274658203,
+    "pct": -0.14246274347174656,
+    "state": "flat",
+    "corr": -0.39327107928396277
   },
   "news": {
-    "usd": 0.14214555159849088,
-    "oil": 0.02843003372407677,
+    "usd": 0.14106222782866418,
+    "oil": 0.02615379596265545,
     "shock": true,
     "usd_headlines": [
       "Treasury Yields Turn Higher, Eurozone Bond Yields Drop - WSJ",
@@ -125,19 +125,19 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5583209722008042,
-      "trust": 0.9970017360728646
+      "score": 0.8680000000000001,
+      "trust": 1.55
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.43170276098078875,
+      "score": 0.2836126578962342,
       "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.23200000000000004,
+      "bias": "flat",
+      "score": 0.1,
       "trust": 1.0
     },
     {
