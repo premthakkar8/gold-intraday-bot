@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-06 11:50 UTC",
+  "updated": "2026-11-06 12:05 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4067.96,
+  "price": 4064.67,
   "stance": "Strategy: the SELL plan from 11:05 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4035.93,
-      "entry_high": 4039.26,
-      "sl": 4034.26,
-      "tp1": 4050.94,
+      "entry_high": 4039.08,
+      "sl": 4034.08,
+      "tp1": 4051.21,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T04:11:04.791852+00:00",
-      "checked_at": "2026-11-06T11:50:43.800914+00:00"
+      "checked_at": "2026-11-06T12:05:56.784474+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4103.63,
+      "entry_low": 4103.81,
       "entry_high": 4106.96,
-      "sl": 4108.63,
-      "tp1": 4091.95,
+      "sl": 4108.81,
+      "tp1": 4091.68,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T11:50:43.800914+00:00"
+      "checked_at": "2026-11-06T12:05:56.784474+00:00"
     }
   ],
   "active": [],
@@ -48,30 +48,30 @@
   "chart": {
     "structure": "sideways",
     "htf": "down",
-    "session": "london",
-    "vwap": 4062.7737837095124,
-    "atr": 3.0435714285714375,
+    "session": "overlap",
+    "vwap": 4062.796135126177,
+    "atr": 3.3671428571428805,
     "day_low": 4035.93,
     "day_high": 4106.96,
-    "range_pos": 0.45093622413065054
+    "range_pos": 0.404617767140647
   },
   "dxy": {
     "ok": true,
-    "last": 101.95700073242188,
-    "pct": 0.45618206148948715,
+    "last": 101.9800033569336,
+    "pct": 0.47884608474675905,
     "state": "up",
-    "corr": 0.047110677568646266
+    "corr": 0.05450198559287644
   },
   "oil": {
     "ok": true,
-    "last": 91.0199966430664,
-    "pct": -0.2520584733518836,
+    "last": 90.94000244140625,
+    "pct": -0.3397233518835616,
     "state": "flat",
-    "corr": -0.44807875041506384
+    "corr": -0.3642699500570301
   },
   "news": {
-    "usd": 0.05864216602644796,
-    "oil": 0.2530431586754032,
+    "usd": 0.059688792056275856,
+    "oil": 0.2516337914059161,
     "shock": true,
     "usd_headlines": [
       "Treasury Yields Turn Higher, Eurozone Bond Yields Drop -- Update - marketscreener.com",
@@ -125,13 +125,13 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.8434069205628411,
-      "trust": 1.5060837867193588
+      "score": 0.8680000000000001,
+      "trust": 1.55
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3762963249039672,
+      "score": 0.3764533188084414,
       "trust": 1.0
     },
     {

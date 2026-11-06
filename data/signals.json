@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-06T11:50:43.800914+00:00",
-  "atr": 3.0435714285714375,
-  "price": 4064.07,
+  "updated_at": "2026-11-06T12:05:56.784474+00:00",
+  "atr": 3.3671428571428805,
+  "price": 4068.15,
   "stance": "Strategy: the SELL plan from 11:05 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4035.93,
-      "entry_high": 4039.26,
-      "sl": 4034.26,
-      "tp1": 4050.94,
+      "entry_high": 4039.08,
+      "sl": 4034.08,
+      "tp1": 4051.21,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T04:11:04.791852+00:00",
-      "checked_at": "2026-11-06T12:03:55.500935+00:00"
+      "checked_at": "2026-11-06T12:19:24.727267+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4103.63,
+      "entry_low": 4103.81,
       "entry_high": 4106.96,
-      "sl": 4108.63,
-      "tp1": 4091.95,
+      "sl": 4108.81,
+      "tp1": 4091.68,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,13 +40,13 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T12:03:55.500935+00:00"
+      "checked_at": "2026-11-06T12:19:24.727267+00:00"
     }
   ],
   "research": [
-    "Gold 4067.96 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4062.77, ATR 3.04, day range 4035.93-4106.96.",
-    "DXY 101.96 (+0.46% today, up), gold-dollar corr +0.05.",
-    "WTI 91.02 (-0.25% today, flat), gold-oil corr -0.45.",
+    "Gold 4064.67 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4062.80, ATR 3.37, day range 4035.93-4106.96.",
+    "DXY 101.98 (+0.48% today, up), gold-dollar corr +0.05.",
+    "WTI 90.94 (-0.34% today, flat), gold-oil corr -0.36.",
     "Headlines: dollar +0.06, oil +0.25, fresh shock.",
     "Dollar: Treasury Yields Turn Higher, Eurozone Bond Yields Drop -- Update - marketscreener.com",
     "Oil: Kuwait\u2019s Crude Oil Drops USD 8.14 per Barrel - Qatar news agency",
@@ -207,5 +207,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-06T12:03:55.500935+00:00"
+  "last_check": "2026-11-06T12:19:24.727267+00:00"
 }
