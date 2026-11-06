@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-06T10:05:11.369725+00:00",
-  "atr": 2.916428571428501,
-  "price": 4070.06,
+  "updated_at": "2026-11-06T10:19:54.744933+00:00",
+  "atr": 3.075714285714217,
+  "price": 4068.83,
   "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4035.93,
-      "entry_high": 4039.33,
-      "sl": 4034.33,
-      "tp1": 4050.84,
+      "entry_high": 4039.24,
+      "sl": 4034.24,
+      "tp1": 4050.97,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,32 +21,32 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T04:11:04.791852+00:00",
-      "checked_at": "2026-11-06T10:18:16.604958+00:00"
+      "checked_at": "2026-11-06T10:33:02.258817+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4103.56,
+      "entry_low": 4103.65,
       "entry_high": 4106.96,
-      "sl": 4108.56,
-      "tp1": 4092.05,
+      "sl": 4108.65,
+      "tp1": 4091.92,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.33,
+      "score": 0.32,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T10:18:16.604958+00:00"
+      "checked_at": "2026-11-06T10:33:02.258817+00:00"
     }
   ],
   "research": [
-    "Gold 4070.09 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4062.08, ATR 2.92, day range 4035.93-4106.96.",
-    "DXY 102.02 (+0.52% today, up), gold-dollar corr -0.18.",
-    "WTI 89.18 (-2.27% today, down), gold-oil corr -0.39.",
+    "Gold 4067.93 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4062.22, ATR 3.08, day range 4035.93-4106.96.",
+    "DXY 102.01 (+0.51% today, up), gold-dollar corr -0.14.",
+    "WTI 89.83 (-1.56% today, down), gold-oil corr -0.41.",
     "Headlines: dollar -0.36, oil +1.00, fresh shock.",
     "Dollar: New Zealand Dollar depreciates as US Dollar gains ahead of Nonfarm Payrolls - FXStreet",
     "Oil: Tanker Fires in Strait of Hormuz: Impact on Crude Oil Prices - CMB News",
@@ -207,5 +207,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-06T10:18:16.604958+00:00"
+  "last_check": "2026-11-06T10:33:02.258817+00:00"
 }
