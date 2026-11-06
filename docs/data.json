@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-06 11:20 UTC",
+  "updated": "2026-11-06 11:34 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4065.68,
+  "price": 4072.99,
   "stance": "Strategy: the SELL plan from 11:05 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4035.93,
-      "entry_high": 4039.38,
-      "sl": 4034.38,
-      "tp1": 4050.76,
+      "entry_high": 4039.19,
+      "sl": 4034.19,
+      "tp1": 4051.04,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.39,
-      "style": "oil_shock",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "invalid",
       "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-06T04:11:04.791852+00:00",
-      "checked_at": "2026-11-06T11:20:04.664352+00:00"
+      "checked_at": "2026-11-06T11:34:55.390185+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4103.51,
+      "entry_low": 4103.7,
       "entry_high": 4106.96,
-      "sl": 4108.51,
-      "tp1": 4092.13,
+      "sl": 4108.7,
+      "tp1": 4091.85,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.5,
+      "score": 0.78,
       "style": "trend_align",
       "favored": true,
-      "ready": false,
+      "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T11:20:04.664352+00:00"
+      "checked_at": "2026-11-06T11:34:55.390185+00:00"
     }
   ],
   "active": [],
@@ -49,39 +49,39 @@
     "structure": "down",
     "htf": "down",
     "session": "london",
-    "vwap": 4062.516196200816,
-    "atr": 2.8214285714285716,
+    "vwap": 4062.645177158682,
+    "atr": 3.1692857142857065,
     "day_low": 4035.93,
     "day_high": 4106.96,
-    "range_pos": 0.41883711107982424
+    "range_pos": 0.5217513726594374
   },
   "dxy": {
     "ok": true,
-    "last": 101.99099731445312,
-    "pct": 0.48967820995860944,
+    "last": 101.95899963378906,
+    "pct": 0.4581515388007326,
     "state": "up",
-    "corr": -0.04814656781966475
+    "corr": -0.09651946029977272
   },
   "oil": {
     "ok": true,
-    "last": 90.80999755859375,
-    "pct": -0.4821944563356165,
+    "last": 90.86000061035156,
+    "pct": -0.4273965913955479,
     "state": "down",
-    "corr": -0.40671279182104736
+    "corr": -0.4367695141675203
   },
   "news": {
-    "usd": 0.024317896278228474,
-    "oil": 0.5623800158102564,
+    "usd": 0.2180998523122675,
+    "oil": 0.25445662939094876,
     "shock": true,
     "usd_headlines": [
       "GBP/USD Forecast: BoE Rate Hike and Weaker US Dollar - Equiti Global",
-      "New Zealand Dollar depreciates as US Dollar gains ahead of Nonfarm Payrolls - FXStreet",
-      "Australian Dollar drops on dovish RBA outlook, stronger US Dollar - Mitrade"
+      "Shafaq News..Dollar firms amid AI selloff, falling Treasury yields - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
+      "New Zealand Dollar depreciates as US Dollar gains ahead of Nonfarm Payrolls - FXStreet"
     ],
     "oil_headlines": [
+      "Kuwait\u2019s Crude Oil Drops USD 8.14 per Barrel - Qatar news agency",
       "Indian Bond Market Rally Extends as US Treasury Prices Rise and Crude Oil Falls - KNN India",
-      "Tanker Fires in Strait of Hormuz: Impact on Crude Oil Prices - CMB News",
-      "Crude Oil Gains 2% as Iran Conflict Outlook Meets Rising Supply - Kalkine"
+      "Tanker Fires in Strait of Hormuz: Impact on Crude Oil Prices - CMB News"
     ]
   },
   "events": [
@@ -123,33 +123,33 @@
   ],
   "scorecard": [
     {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.5583004258218243,
-      "trust": 0.9969650461104004
-    },
-    {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.5009491369390837,
+      "score": 0.784,
       "trust": 1.0
     },
     {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.38930900869564106,
-      "trust": 1.0
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.5583028530778154,
+      "trust": 0.9969693804960987
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.38378615849439623,
+      "score": 0.4255513361755305,
       "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.08,
       "trust": 1.0
     }
   ],
