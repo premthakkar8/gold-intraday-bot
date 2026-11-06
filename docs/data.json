@@ -1,9 +1,49 @@
 {
-  "updated": "2026-11-06 03:41 UTC",
+  "updated": "2026-11-06 03:56 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4041.44,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
+  "price": 4044.9,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 4040.24,
+      "entry_high": 4041.78,
+      "sl": 4036.78,
+      "tp1": 4057.93,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.5,
+      "style": "oil_shock",
+      "favored": false,
+      "ready": false,
+      "status": "invalid",
+      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
+      "created_at": "2026-11-06T03:41:45.394869+00:00",
+      "checked_at": "2026-11-06T03:56:21.527798+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4105.42,
+      "entry_high": 4106.96,
+      "sl": 4110.42,
+      "tp1": 4089.27,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.24,
+      "style": "trend_align",
+      "favored": true,
+      "ready": false,
+      "status": "far",
+      "reason": "Price is 60.52 away from the entry (9.6 ATR). Unlikely to fill soon.",
+      "created_at": "2026-11-06T02:42:59.071596+00:00",
+      "checked_at": "2026-11-06T03:56:21.527798+00:00"
+    }
+  ],
+  "active": [
     {
       "side": "BUY",
       "entry_low": 4041.02,
@@ -21,57 +61,40 @@
       "status": "valid",
       "reason": "Score 0.40 (Trade the oil shock), oil supply news +0.58, price below VWAP.",
       "created_at": "2026-11-06T03:41:45.394869+00:00",
-      "checked_at": "2026-11-06T03:41:45.394869+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4105.81,
-      "entry_high": 4106.96,
-      "sl": 4110.81,
-      "tp1": 4088.68,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.14,
-      "style": "dollar_lead",
-      "favored": false,
-      "ready": false,
-      "status": "far",
-      "reason": "Price is 64.37 away from the entry (9.2 ATR). Unlikely to fill soon.",
-      "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T03:41:45.394869+00:00"
+      "checked_at": "2026-11-06T03:42:49.402223+00:00",
+      "entry": 4042.17,
+      "entered_at": "2026-11-06T03:42:49.402223+00:00",
+      "closed": null
     }
   ],
-  "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "down",
     "session": "asia",
-    "vwap": 4074.4552103059773,
-    "atr": 7.006428571428517,
-    "day_low": 4041.02,
+    "vwap": 4072.744872195388,
+    "atr": 6.293571428571373,
+    "day_low": 4040.24,
     "day_high": 4106.96,
-    "range_pos": 0.006369426751593455
+    "range_pos": 0.06984412470024418
   },
   "dxy": {
     "ok": true,
-    "last": 101.71499633789062,
-    "pct": 0.21773999922724327,
+    "last": 101.74700164794922,
+    "pct": 0.24927418747409422,
     "state": "up",
-    "corr": -0.3191382900654123
+    "corr": -0.29977618783911364
   },
   "oil": {
     "ok": true,
-    "last": 91.88999938964844,
-    "pct": 0.701369194135274,
+    "last": 92.16000366210938,
+    "pct": 0.9972642872431507,
     "state": "up",
-    "corr": -0.1497042844309142
+    "corr": -0.1457490745137892
   },
   "news": {
     "usd": -1.0,
-    "oil": 0.5846633275930843,
+    "oil": 0.47044281845942193,
     "shock": true,
     "usd_headlines": [
       "Australian Dollar drops on dovish RBA outlook, stronger US Dollar - Mitrade",
@@ -125,25 +148,25 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6499227384770362,
-      "trust": 1.160576318708993
+      "score": 0.7126212948761953,
+      "trust": 1.2725380265646344
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.4003696803903502,
-      "trust": 0.9970237687764594
+      "score": 0.5004277761270682,
+      "trust": 0.997027949709042
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.23982412892975408,
+      "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.1424444436032569,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
+      "score": 0.1535876263808548,
       "trust": 1.0
     },
     {

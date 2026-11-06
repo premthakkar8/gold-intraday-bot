@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-11-06T03:41:45.394869+00:00",
-  "atr": 7.006428571428517,
-  "price": 4042.63,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-06T03:56:21.527798+00:00",
+  "atr": 6.293571428571373,
+  "price": 4038.62,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4041.02,
-      "entry_high": 4042.17,
-      "sl": 4037.17,
-      "tp1": 4059.3,
+      "entry_low": 4040.24,
+      "entry_high": 4041.78,
+      "sl": 4036.78,
+      "tp1": 4057.93,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.4,
+      "score": 0.5,
       "style": "oil_shock",
-      "favored": true,
+      "favored": false,
       "ready": false,
-      "status": "valid",
-      "reason": "Score 0.40 (Trade the oil shock), oil supply news +0.58, price below VWAP.",
+      "status": "invalid",
+      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-06T03:41:45.394869+00:00",
-      "checked_at": "2026-11-06T03:54:52.724203+00:00"
+      "checked_at": "2026-11-06T04:09:28.371045+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4105.81,
+      "entry_low": 4105.42,
       "entry_high": 4106.96,
-      "sl": 4110.81,
-      "tp1": 4088.68,
+      "sl": 4110.42,
+      "tp1": 4089.27,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.14,
-      "style": "dollar_lead",
-      "favored": false,
+      "score": 0.24,
+      "style": "trend_align",
+      "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 64.37 away from the entry (9.2 ATR). Unlikely to fill soon.",
+      "reason": "Price is 60.52 away from the entry (9.6 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T03:54:52.724203+00:00"
+      "checked_at": "2026-11-06T04:09:28.371045+00:00"
     }
   ],
   "research": [
-    "Gold 4041.44 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4074.46, ATR 7.01, day range 4041.02-4106.96.",
-    "DXY 101.71 (+0.22% today, up), gold-dollar corr -0.32.",
-    "WTI 91.89 (+0.70% today, up), gold-oil corr -0.15.",
-    "Headlines: dollar -1.00, oil +0.58, fresh shock.",
+    "Gold 4044.90 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 4072.74, ATR 6.29, day range 4040.24-4106.96.",
+    "DXY 101.75 (+0.25% today, up), gold-dollar corr -0.30.",
+    "WTI 92.16 (+1.00% today, up), gold-oil corr -0.15.",
+    "Headlines: dollar -1.00, oil +0.47, fresh shock.",
     "Dollar: Australian Dollar drops on dovish RBA outlook, stronger US Dollar - Mitrade",
     "Oil: US Equity Markets End Lower After Crude Oil Rises, Mega-Cap Tech Stocks Fall - Yahoo! Finance Canada",
     "Next high-impact US release: Average Hourly Earnings m/m Fri 13:30 UTC."
@@ -185,5 +185,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-06T03:54:52.724203+00:00"
+  "last_check": "2026-11-06T04:09:28.371045+00:00"
 }
