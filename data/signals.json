@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-06T11:34:55.390185+00:00",
-  "atr": 3.1692857142857065,
-  "price": 4069.05,
+  "updated_at": "2026-11-06T11:50:43.800914+00:00",
+  "atr": 3.0435714285714375,
+  "price": 4064.07,
   "stance": "Strategy: the SELL plan from 11:05 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4035.93,
-      "entry_high": 4039.19,
-      "sl": 4034.19,
-      "tp1": 4051.04,
+      "entry_high": 4039.26,
+      "sl": 4034.26,
+      "tp1": 4050.94,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -18,37 +18,37 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T04:11:04.791852+00:00",
-      "checked_at": "2026-11-06T11:48:03.183420+00:00"
+      "checked_at": "2026-11-06T12:03:55.500935+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4103.7,
+      "entry_low": 4103.63,
       "entry_high": 4106.96,
-      "sl": 4108.7,
-      "tp1": 4091.85,
+      "sl": 4108.63,
+      "tp1": 4091.95,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.78,
-      "style": "trend_align",
+      "score": 0.38,
+      "style": "dollar_lead",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T11:48:03.183420+00:00"
+      "checked_at": "2026-11-06T12:03:55.500935+00:00"
     }
   ],
   "research": [
-    "Gold 4072.99 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 4062.65, ATR 3.17, day range 4035.93-4106.96.",
-    "DXY 101.96 (+0.46% today, up), gold-dollar corr -0.10.",
-    "WTI 90.86 (-0.43% today, down), gold-oil corr -0.44.",
-    "Headlines: dollar +0.22, oil +0.25, fresh shock.",
-    "Dollar: GBP/USD Forecast: BoE Rate Hike and Weaker US Dollar - Equiti Global",
+    "Gold 4067.96 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4062.77, ATR 3.04, day range 4035.93-4106.96.",
+    "DXY 101.96 (+0.46% today, up), gold-dollar corr +0.05.",
+    "WTI 91.02 (-0.25% today, flat), gold-oil corr -0.45.",
+    "Headlines: dollar +0.06, oil +0.25, fresh shock.",
+    "Dollar: Treasury Yields Turn Higher, Eurozone Bond Yields Drop -- Update - marketscreener.com",
     "Oil: Kuwait\u2019s Crude Oil Drops USD 8.14 per Barrel - Qatar news agency",
     "Next high-impact US release: Average Hourly Earnings m/m Fri 13:30 UTC."
   ],
@@ -207,5 +207,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-06T11:48:03.183420+00:00"
+  "last_check": "2026-11-06T12:03:55.500935+00:00"
 }
