@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-06T02:13:13.099417+00:00",
-  "atr": 11.042142857142867,
-  "price": 4070.01,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.14). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-06T02:28:19.513297+00:00",
+  "atr": 10.277142857142897,
+  "price": 4063.67,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.41). Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 4071.50 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4084.35, ATR 11.04, day range 4056.38-4106.96.",
-    "DXY 101.68 (+0.18% today, up), gold-dollar corr -0.40.",
-    "WTI 91.39 (+0.15% today, flat), gold-oil corr +0.06.",
-    "Headlines: dollar -1.00, oil +0.34, fresh shock.",
+    "Gold 4070.07 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4082.81, ATR 10.28, day range 4056.38-4106.96.",
+    "DXY 101.68 (+0.18% today, up), gold-dollar corr -0.45.",
+    "WTI 91.40 (+0.16% today, flat), gold-oil corr +0.02.",
+    "Headlines: dollar -1.00, oil +0.60, fresh shock.",
     "Dollar: Gold Rebounds Above $4,100 as Dollar Weakens and Treasury Yields Fall - Businesskorea",
     "Oil: US Equity Markets End Lower After Crude Oil Rises, Mega-Cap Tech Stocks Fall - Yahoo! Finance Canada",
     "Next high-impact US release: Average Hourly Earnings m/m Fri 13:30 UTC."
@@ -59,5 +59,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-06T02:26:22.557488+00:00"
+  "last_check": "2026-11-06T02:41:27.980859+00:00"
 }
