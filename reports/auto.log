@@ -175,3 +175,6 @@ NameError: name 'load_calendar' is not defined
 2026-11-06 02:28 UTC  live: gold 4070.07 | holding flat stand_aside fddaa114 | new read flat stand_aside not opened
 2026-11-06 02:43 UTC  live: gold 4065.18 | holding flat stand_aside fddaa114 | new read flat stand_aside not opened
 2026-11-06 02:47 UTC  live: BUY entry reached at 4060.54
+2026-11-06 02:57 UTC  live: gold 4064.68 | holding flat stand_aside fddaa114 | new read flat stand_aside not opened
+2026-11-06 03:08 UTC  live: BUY SL hit
+2026-11-06 03:09 UTC  live: SELL now far: Price is 52.72 away from the entry (6.1 ATR). Unlikely to fill soon.
