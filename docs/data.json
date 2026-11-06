@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-06 12:05 UTC",
+  "updated": "2026-11-06 12:21 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4064.67,
+  "price": 4068.92,
   "stance": "Strategy: the SELL plan from 11:05 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4035.93,
-      "entry_high": 4039.08,
-      "sl": 4034.08,
-      "tp1": 4051.21,
+      "entry_high": 4038.83,
+      "sl": 4033.83,
+      "tp1": 4051.58,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T04:11:04.791852+00:00",
-      "checked_at": "2026-11-06T12:05:56.784474+00:00"
+      "checked_at": "2026-11-06T12:21:42.325984+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4103.81,
+      "entry_low": 4104.06,
       "entry_high": 4106.96,
-      "sl": 4108.81,
-      "tp1": 4091.68,
+      "sl": 4109.06,
+      "tp1": 4091.31,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T12:05:56.784474+00:00"
+      "checked_at": "2026-11-06T12:21:42.325984+00:00"
     }
   ],
   "active": [],
@@ -49,32 +49,32 @@
     "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 4062.796135126177,
-    "atr": 3.3671428571428805,
+    "vwap": 4062.8567263236055,
+    "atr": 3.8171428571428936,
     "day_low": 4035.93,
     "day_high": 4106.96,
-    "range_pos": 0.404617767140647
+    "range_pos": 0.4644516401520504
   },
   "dxy": {
     "ok": true,
-    "last": 101.9800033569336,
-    "pct": 0.47884608474675905,
+    "last": 101.98300170898438,
+    "pct": 0.4818003007136273,
     "state": "up",
-    "corr": 0.05450198559287644
+    "corr": 0.041443843659425425
   },
   "oil": {
     "ok": true,
     "last": 90.94000244140625,
     "pct": -0.3397233518835616,
     "state": "flat",
-    "corr": -0.3642699500570301
+    "corr": -0.3679093145592611
   },
   "news": {
-    "usd": 0.059688792056275856,
-    "oil": 0.2516337914059161,
+    "usd": 0.05507260886430516,
+    "oil": 0.2501210423165452,
     "shock": true,
     "usd_headlines": [
-      "Treasury Yields Turn Higher, Eurozone Bond Yields Drop -- Update - marketscreener.com",
+      "Treasury Yields Turn Higher, Eurozone Bond Yields Drop - WSJ",
       "GBP/USD Forecast: BoE Rate Hike and Weaker US Dollar - Equiti Global",
       "Shafaq News..Dollar firms amid AI selloff, falling Treasury yields - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632"
     ],
@@ -131,7 +131,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3764533188084414,
+      "score": 0.37576089132964585,
       "trust": 1.0
     },
     {
