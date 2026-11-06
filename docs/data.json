@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-06 16:19 UTC",
+  "updated": "2026-11-06 16:44 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4061.38,
+  "price": 4058.21,
   "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4028.04,
-      "entry_high": 4030.3,
-      "sl": 4025.3,
-      "tp1": 4044.65,
+      "entry_high": 4030.81,
+      "sl": 4025.81,
+      "tp1": 4043.89,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,16 +19,16 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.66% with hawkish news (+0.70) and gold is moving against it (corr -0.44). Buying fights the dollar.",
+      "reason": "Dollar is up +0.69% with hawkish news (+0.72) and gold is moving against it (corr -0.45). Buying fights the dollar.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T16:19:28.773718+00:00"
+      "checked_at": "2026-11-06T16:44:04.985701+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4104.7,
+      "entry_low": 4104.19,
       "entry_high": 4106.96,
-      "sl": 4109.7,
-      "tp1": 4090.35,
+      "sl": 4109.19,
+      "tp1": 4091.11,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -38,9 +38,9 @@
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 43.32 away from the entry (8.7 ATR). Unlikely to fill soon.",
+      "reason": "Price is 45.98 away from the entry (11.3 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T16:19:28.773718+00:00"
+      "checked_at": "2026-11-06T16:44:04.985701+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "up",
     "htf": "down",
     "session": "overlap",
-    "vwap": 4059.7069316657817,
-    "atr": 4.982857142857191,
+    "vwap": 4059.729422047403,
+    "atr": 4.062857142857118,
     "day_low": 4028.04,
     "day_high": 4106.96,
-    "range_pos": 0.4224531170805894
+    "range_pos": 0.38228585909782115
   },
   "dxy": {
     "ok": true,
-    "last": 102.16000366210938,
-    "pct": 0.6561967649155207,
+    "last": 102.19000244140625,
+    "pct": 0.685753958762152,
     "state": "up",
-    "corr": -0.4421563819416002
+    "corr": -0.4461481540193752
   },
   "oil": {
     "ok": true,
-    "last": 90.16000366210938,
-    "pct": -1.1945165346746576,
+    "last": 90.58000183105469,
+    "pct": -0.7342445687071918,
     "state": "down",
-    "corr": -0.25049301326557216
+    "corr": -0.21672674870549985
   },
   "news": {
-    "usd": 0.701528233517768,
-    "oil": -0.09020289420761729,
+    "usd": 0.72459788676544,
+    "oil": -0.09280060739854228,
     "shock": true,
     "usd_headlines": [
+      "U.S. Dollar Rallies As Non Farm Payrolls Jump To 165,000: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
       "Fed seen sticking to December rate hike after jobs data - Reuters",
-      "Dollar index jumps after US payrolls beat forecasts - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
-      "FOREX-Dollar index jumps after US payrolls beat forecasts - Devdiscourse"
+      "Dollar index jumps after US payrolls beat forecasts - Central Oregon Daily"
     ],
     "oil_headlines": [
       "Nifty Rises 9% In November As Oil Falls, But Is The Euphoria Premature? - Outlook Business",
@@ -89,13 +89,13 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.8155239244169246,
-      "trust": 0.9267317322919597
+      "score": 0.8156764612777244,
+      "trust": 0.9269050696337777
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5887952852873353,
+      "score": 0.593303573444902,
       "trust": 1.0
     },
     {
