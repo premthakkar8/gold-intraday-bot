@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-06T12:53:20.579484+00:00",
-  "atr": 4.220714285714329,
-  "price": 4059.54,
-  "stance": "Strategy: the SELL plan from 11:05 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
+  "updated_at": "2026-11-06T13:09:24.335179+00:00",
+  "atr": 4.630000000000044,
+  "price": 4065.34,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4035.93,
-      "entry_high": 4038.61,
-      "sl": 4033.61,
-      "tp1": 4051.91,
+      "entry_high": 4038.38,
+      "sl": 4033.38,
+      "tp1": 4052.25,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -18,63 +18,41 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
+      "status": "paused",
+      "reason": "Average Hourly Earnings m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-06T04:11:04.791852+00:00",
-      "checked_at": "2026-11-06T13:06:28.556725+00:00"
+      "checked_at": "2026-11-06T13:22:32.287358+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4104.28,
+      "entry_low": 4104.51,
       "entry_high": 4106.96,
-      "sl": 4109.28,
-      "tp1": 4090.98,
+      "sl": 4109.51,
+      "tp1": 4090.64,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.78,
+      "score": 0.43,
       "style": "trend_align",
       "favored": true,
-      "ready": true,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "ready": false,
+      "status": "paused",
+      "reason": "Average Hourly Earnings m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T13:06:28.556725+00:00"
+      "checked_at": "2026-11-06T13:22:32.287358+00:00"
     }
   ],
   "research": [
-    "Gold 4062.68 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 4063.01, ATR 4.22, day range 4035.93-4106.96.",
-    "DXY 101.99 (+0.48% today, up), gold-dollar corr -0.01.",
-    "WTI 90.20 (-1.15% today, down), gold-oil corr -0.30.",
-    "Headlines: dollar +0.06, oil +0.25, fresh shock.",
+    "Gold 4059.38 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 4062.97, ATR 4.63, day range 4035.93-4106.96.",
+    "DXY 102.04 (+0.54% today, up), gold-dollar corr -0.20.",
+    "WTI 90.32 (-1.02% today, down), gold-oil corr -0.31.",
+    "Headlines: dollar +0.05, oil +0.03, fresh shock.",
     "Dollar: Treasury Yields Turn Higher, Eurozone Bond Yields Drop - WSJ",
-    "Oil: Kuwait\u2019s Crude Oil Drops USD 8.14 per Barrel - Qatar news agency",
-    "Next high-impact US release: Average Hourly Earnings m/m Fri 13:30 UTC."
+    "Oil: Nifty Rises 9% In November As Oil Falls, But Is The Euphoria Premature? - Outlook Business",
+    "US event blackout: Average Hourly Earnings m/m at 13:30 UTC. Do not enter until it passes."
   ],
   "active": [
-    {
-      "side": "BUY",
-      "entry_low": 4083.45,
-      "entry_high": 4084.44,
-      "sl": 4079.44,
-      "tp1": 4097.3,
-      "tp2": 4101.97,
-      "rr": 3.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.35,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.35 (Trade the oil shock), oil supply news +0.44, price below VWAP.",
-      "created_at": "2026-11-06T00:58:49.259864+00:00",
-      "checked_at": "2026-11-06T01:19:47.716020+00:00",
-      "entry": 4084.44,
-      "entered_at": "2026-11-06T01:19:47.716020+00:00",
-      "closed": "sl"
-    },
     {
       "side": "BUY",
       "entry_low": 4066.81,
@@ -207,5 +185,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-06T13:06:28.556725+00:00"
+  "last_check": "2026-11-06T13:22:32.287358+00:00"
 }
