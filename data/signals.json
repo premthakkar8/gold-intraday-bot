@@ -1,54 +1,15 @@
 {
-  "updated_at": "2026-11-06T14:00:13.027061+00:00",
-  "atr": 8.465714285714284,
-  "price": 4036.52,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.29). Take an entry only if price reaches it.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 4028.04,
-      "entry_high": 4028.38,
-      "sl": 4023.38,
-      "tp1": 4047.52,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-06T13:42:18.666568+00:00",
-      "checked_at": "2026-11-06T14:13:19.470636+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4106.62,
-      "entry_high": 4106.96,
-      "sl": 4111.62,
-      "tp1": 4087.48,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.29,
-      "style": "dollar_lead",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T14:13:19.470636+00:00"
-    }
-  ],
+  "updated_at": "2026-11-06T14:22:32.560756+00:00",
+  "atr": 9.234999999999966,
+  "price": 4038.66,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
+  "setups": [],
   "research": [
-    "Gold 4048.03 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4062.21, ATR 8.47, day range 4028.04-4106.96.",
-    "DXY 102.20 (+0.70% today, up), gold-dollar corr -0.43.",
-    "WTI 91.10 (-0.16% today, flat), gold-oil corr -0.41.",
-    "Headlines: dollar +0.32, oil +0.02, fresh shock.",
-    "Dollar: US Treasury yields rise after strong October jobs report - Breakingthenews.net",
+    "Gold 4035.54 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4061.51, ATR 9.23, day range 4028.04-4106.96.",
+    "DXY 102.30 (+0.79% today, up), gold-dollar corr -0.43.",
+    "WTI 90.76 (-0.54% today, down), gold-oil corr -0.38.",
+    "Headlines: dollar +0.52, oil +0.02, fresh shock.",
+    "Dollar: BREAKING: US NFP much stronger than expected \ud83d\udcc8 US Dollar and treasuries yields surge - XTB.com",
     "Oil: Nifty Rises 9% In November As Oil Falls, But Is The Euphoria Premature? - Outlook Business",
     "No high-impact US release in the next 24 hours."
   ],
@@ -163,5 +124,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-06T14:13:19.470636+00:00"
+  "last_check": "2026-11-06T14:35:39.110738+00:00"
 }

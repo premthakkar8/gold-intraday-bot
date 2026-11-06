@@ -1,82 +1,43 @@
 {
-  "updated": "2026-11-06 14:00 UTC",
+  "updated": "2026-11-06 14:22 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4048.03,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.29). Take an entry only if price reaches it.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 4028.04,
-      "entry_high": 4028.38,
-      "sl": 4023.38,
-      "tp1": 4047.52,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-06T13:42:18.666568+00:00",
-      "checked_at": "2026-11-06T14:00:13.027061+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4106.62,
-      "entry_high": 4106.96,
-      "sl": 4111.62,
-      "tp1": 4087.48,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.29,
-      "style": "dollar_lead",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T14:00:13.027061+00:00"
-    }
-  ],
+  "price": 4035.54,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
+  "setups": [],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 4062.2104295604895,
-    "atr": 8.465714285714284,
+    "vwap": 4061.509976198022,
+    "atr": 9.234999999999966,
     "day_low": 4028.04,
     "day_high": 4106.96,
-    "range_pos": 0.2532944754181477
+    "range_pos": 0.09503294475418136
   },
   "dxy": {
     "ok": true,
-    "last": 102.2020034790039,
-    "pct": 0.6975783397185993,
+    "last": 102.30000305175781,
+    "pct": 0.7941353475924493,
     "state": "up",
-    "corr": -0.43301130271492855
+    "corr": -0.43497896966930855
   },
   "oil": {
     "ok": true,
-    "last": 91.0999984741211,
-    "pct": -0.16438523383989725,
-    "state": "flat",
-    "corr": -0.40853362743952065
+    "last": 90.76000213623047,
+    "pct": -0.5369839602953768,
+    "state": "down",
+    "corr": -0.3791646673704998
   },
   "news": {
-    "usd": 0.31528659450686,
-    "oil": 0.023478345678449353,
+    "usd": 0.515134383703999,
+    "oil": 0.019965662654369477,
     "shock": true,
     "usd_headlines": [
-      "US Treasury yields rise after strong October jobs report - Breakingthenews.net",
-      "Treasury Yields Turn Higher, Eurozone Bond Yields Drop - WSJ",
-      "GBP/USD Forecast: BoE Rate Hike and Weaker US Dollar - Equiti Global"
+      "BREAKING: US NFP much stronger than expected \ud83d\udcc8 US Dollar and treasuries yields surge - XTB.com",
+      "Traders raise bets of Fed rate hike after jobs report - Reuters",
+      "US Treasury yields rise after strong October jobs report - Breakingthenews.net"
     ],
     "oil_headlines": [
       "Nifty Rises 9% In November As Oil Falls, But Is The Euphoria Premature? - Outlook Business",
@@ -104,14 +65,14 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.7179152556629204,
-      "trust": 1.2819915279695004
+      "score": 0.5547144309182189,
+      "trust": 0.9905614837825337
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2906521508762838,
-      "trust": 1.0
+      "score": 0.3065313219310934,
+      "trust": 0.9970973170191683
     },
     {
       "style": "Trade with the intraday trend",
