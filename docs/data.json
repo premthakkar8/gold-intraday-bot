@@ -1,9 +1,49 @@
 {
-  "updated": "2026-11-06 05:24 UTC",
+  "updated": "2026-11-06 05:39 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4039.95,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.49). Take an entry only if price reaches it.",
+  "price": 4041.26,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 4035.93,
+      "entry_high": 4037.95,
+      "sl": 4032.95,
+      "tp1": 4052.9,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.63,
+      "style": "oil_shock",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.63 (Trade the oil shock), oil supply news +1.00, price below VWAP.",
+      "created_at": "2026-11-06T04:11:04.791852+00:00",
+      "checked_at": "2026-11-06T05:39:13.981607+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4104.94,
+      "entry_high": 4106.96,
+      "sl": 4109.94,
+      "tp1": 4089.99,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.17,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-06T02:42:59.071596+00:00",
+      "checked_at": "2026-11-06T05:39:13.981607+00:00"
+    }
+  ],
+  "active": [
     {
       "side": "BUY",
       "entry_low": 4036.36,
@@ -21,57 +61,40 @@
       "status": "valid",
       "reason": "Score 0.49 (Trade the oil shock), oil supply news +0.75, price below VWAP.",
       "created_at": "2026-11-06T04:11:04.791852+00:00",
-      "checked_at": "2026-11-06T05:24:28.329509+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4104.49,
-      "entry_high": 4106.96,
-      "sl": 4109.49,
-      "tp1": 4090.67,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.17,
-      "style": "dollar_lead",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T05:24:28.329509+00:00"
+      "checked_at": "2026-11-06T05:25:32.598648+00:00",
+      "entry": 4038.83,
+      "entered_at": "2026-11-06T05:25:32.598648+00:00",
+      "closed": null
     }
   ],
-  "active": [],
   "blackout": null,
   "chart": {
     "structure": "up",
     "htf": "down",
     "session": "asia",
-    "vwap": 4066.2655460094816,
-    "atr": 4.593571428571457,
-    "day_low": 4036.36,
+    "vwap": 4065.1458141630424,
+    "atr": 5.415000000000093,
+    "day_low": 4035.93,
     "day_high": 4106.96,
-    "range_pos": 0.050849858356936194
+    "range_pos": 0.07503871603548314
   },
   "dxy": {
     "ok": true,
-    "last": 101.76399993896484,
-    "pct": 0.26602226170865534,
+    "last": 101.76599884033203,
+    "pct": 0.2679917390199009,
     "state": "up",
-    "corr": -0.3387586911223131
+    "corr": -0.3270007676459479
   },
   "oil": {
     "ok": true,
     "last": 91.25,
     "pct": 0.0,
     "state": "flat",
-    "corr": -0.1303211757347697
+    "corr": -0.10452850488709199
   },
   "news": {
     "usd": -1.0,
-    "oil": 0.75075144301312,
+    "oil": 1.0,
     "shock": true,
     "usd_headlines": [
       "Australian Dollar drops on dovish RBA outlook, stronger US Dollar - Mitrade",
@@ -131,20 +154,20 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.49146070486180427,
-      "trust": 0.9970530541291873
+      "score": 0.6281460604876563,
+      "trust": 0.9970572388692956
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.23166797393387878,
-      "trust": 0.996087240108473
+      "score": 0.2589841270457265,
+      "trust": 0.9960927963297171
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.16584063119826517,
-      "trust": 1.003901769772666
+      "score": 0.16531526137224423,
+      "trust": 1.0038962291576776
     },
     {
       "style": "Fade the session range",
