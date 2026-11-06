@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-06 11:05 UTC",
+  "updated": "2026-11-06 11:20 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4064.68,
-  "stance": "Strategy: SELL is the trade (Trade with the intraday trend, confidence 58%).",
+  "price": 4065.68,
+  "stance": "Strategy: the SELL plan from 11:05 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4035.93,
-      "entry_high": 4039.33,
-      "sl": 4034.33,
-      "tp1": 4050.83,
+      "entry_high": 4039.38,
+      "sl": 4034.38,
+      "tp1": 4050.76,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "invalid",
       "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-06T04:11:04.791852+00:00",
-      "checked_at": "2026-11-06T11:05:09.709962+00:00"
+      "checked_at": "2026-11-06T11:20:04.664352+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4103.56,
+      "entry_low": 4103.51,
       "entry_high": 4106.96,
-      "sl": 4108.56,
-      "tp1": 4092.06,
+      "sl": 4108.51,
+      "tp1": 4092.13,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.78,
+      "score": 0.5,
       "style": "trend_align",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T11:05:09.709962+00:00"
+      "checked_at": "2026-11-06T11:20:04.664352+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "down",
     "htf": "down",
     "session": "london",
-    "vwap": 4062.4684298068705,
-    "atr": 2.9092857142857156,
+    "vwap": 4062.516196200816,
+    "atr": 2.8214285714285716,
     "day_low": 4035.93,
     "day_high": 4106.96,
-    "range_pos": 0.4047585527241999
+    "range_pos": 0.41883711107982424
   },
   "dxy": {
     "ok": true,
-    "last": 102.00499725341797,
-    "pct": 0.5034720682263022,
+    "last": 101.99099731445312,
+    "pct": 0.48967820995860944,
     "state": "up",
-    "corr": -0.09928791980759934
+    "corr": -0.04814656781966475
   },
   "oil": {
     "ok": true,
-    "last": 90.66999816894531,
-    "pct": -0.6356184449914384,
+    "last": 90.80999755859375,
+    "pct": -0.4821944563356165,
     "state": "down",
-    "corr": -0.39862727518459395
+    "corr": -0.40671279182104736
   },
   "news": {
-    "usd": -0.3601642338706318,
-    "oil": 0.5630068237986581,
+    "usd": 0.024317896278228474,
+    "oil": 0.5623800158102564,
     "shock": true,
     "usd_headlines": [
+      "GBP/USD Forecast: BoE Rate Hike and Weaker US Dollar - Equiti Global",
       "New Zealand Dollar depreciates as US Dollar gains ahead of Nonfarm Payrolls - FXStreet",
-      "Australian Dollar drops on dovish RBA outlook, stronger US Dollar - Mitrade",
-      "Gold Rebounds Above $4,100 as Dollar Weakens and Treasury Yields Fall - Businesskorea"
+      "Australian Dollar drops on dovish RBA outlook, stronger US Dollar - Mitrade"
     ],
     "oil_headlines": [
       "Indian Bond Market Rally Extends as US Treasury Prices Rise and Crude Oil Falls - KNN India",
@@ -123,27 +123,27 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.784,
-      "trust": 1.0
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6843639992461688,
-      "trust": 1.2220785700824441
+      "score": 0.5583004258218243,
+      "trust": 0.9969650461104004
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.5009491369390837,
+      "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.389653753089262,
+      "score": 0.38930900869564106,
       "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3148504631595959,
+      "score": 0.38378615849439623,
       "trust": 1.0
     },
     {
