@@ -239,3 +239,4 @@ NameError: name 'load_calendar' is not defined
 2026-11-06 16:19 UTC  live: gold 4061.38 | holding flat stand_aside 0c751689 | new read flat stand_aside not opened
 2026-11-06 16:44 UTC  live: gold 4058.21 | holding flat stand_aside 0c751689 | new read flat stand_aside not opened
 2026-11-06 16:48 UTC  live: SELL now expired: Signal is 120 minutes old without an entry. Waiting for a fresh one.
+2026-11-06 17:02 UTC  live: gold 4062.76 | opened short dollar_lead 3d2214e1 zone 4104.30-4106.96 stop 4109.30 target 4090.94 units 1 risk 5.00 USD tier normal conf 0.58
