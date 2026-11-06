@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-06 17:58 UTC",
+  "updated": "2026-11-06 18:13 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4059.37,
+  "price": 4060.44,
   "stance": "Strategy: the SELL plan from 17:02 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4028.04,
-      "entry_high": 4030.98,
-      "sl": 4025.98,
-      "tp1": 4043.63,
+      "entry_high": 4031.18,
+      "sl": 4026.18,
+      "tp1": 4043.33,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,64 +19,64 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.70% with hawkish news (+0.71) and gold is moving against it (corr -0.38). Buying fights the dollar.",
+      "reason": "Dollar is up +0.72% with hawkish news (+0.74) and gold is moving against it (corr -0.35). Buying fights the dollar.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T17:58:09.783334+00:00"
+      "checked_at": "2026-11-06T18:13:01.887058+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4104.02,
+      "entry_low": 4103.82,
       "entry_high": 4106.96,
-      "sl": 4109.02,
-      "tp1": 4091.37,
+      "sl": 4108.82,
+      "tp1": 4091.67,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.58,
+      "score": 0.57,
       "style": "dollar_lead",
       "favored": true,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T17:58:09.783334+00:00"
+      "checked_at": "2026-11-06T18:13:01.887058+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "down",
     "session": "newyork",
-    "vwap": 4059.7721958472507,
-    "atr": 3.7435714285714505,
+    "vwap": 4059.7846304519358,
+    "atr": 3.3864285714285933,
     "day_low": 4028.04,
     "day_high": 4106.96,
-    "range_pos": 0.396984287886466
+    "range_pos": 0.4105423213380646
   },
   "dxy": {
     "ok": true,
-    "last": 102.20700073242188,
-    "pct": 0.7025020329967131,
+    "last": 102.2229995727539,
+    "pct": 0.7182653685756515,
     "state": "up",
-    "corr": -0.3839343930071967
+    "corr": -0.3517665288379659
   },
   "oil": {
     "ok": true,
-    "last": 90.06999969482422,
-    "pct": -1.2931510193707192,
+    "last": 89.63999938964844,
+    "pct": -1.7643842305222603,
     "state": "down",
-    "corr": -0.08034643846139557
+    "corr": -0.09885649383131935
   },
   "news": {
-    "usd": 0.7144639420418021,
-    "oil": 0.1008071854733559,
+    "usd": 0.7363588524443153,
+    "oil": 0.10291789335582747,
     "shock": true,
     "usd_headlines": [
+      "Treasury Yields Rise on Strong Jobs Data - WSJ",
       "US Equity Indexes Rebound, Treasury Yields Rise Following Blowout Jobs Report - marketscreener.com",
-      "U.S. Dollar Rallies As Non Farm Payrolls Jump To 165,000: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
-      "Fed seen sticking to December rate hike after jobs data - Reuters"
+      "U.S. Dollar Rallies As Non Farm Payrolls Jump To 165,000: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire"
     ],
     "oil_headlines": [
       "PERSPECTIVE: The Strait of Hormuz Constriction Impacts More Than Crude Oil \u2013 Yogi Schulz - EnergyNow",
@@ -89,25 +89,25 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5754523694706595,
-      "trust": 1.0
+      "score": 0.5686734903218129,
+      "trust": 0.9971610160637693
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.46360921916324416,
-      "trust": 0.8278736056486502
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.34469285875350647,
-      "trust": 1.0
+      "score": 0.3783170966780102,
+      "trust": 0.6755662440678754
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
       "score": 0.12,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.1,
       "trust": 1.0
     },
     {
