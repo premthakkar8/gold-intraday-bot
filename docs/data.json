@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-06 15:23 UTC",
+  "updated": "2026-11-06 15:44 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4053.29,
+  "price": 4051.83,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4028.04,
-      "entry_high": 4028.54,
-      "sl": 4023.54,
-      "tp1": 4047.3,
+      "entry_high": 4029.14,
+      "sl": 4024.14,
+      "tp1": 4046.39,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,16 +19,16 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.64% with hawkish news (+0.55) and gold is moving against it (corr -0.44). Buying fights the dollar.",
+      "reason": "Dollar is up +0.63% with hawkish news (+0.55) and gold is moving against it (corr -0.44). Buying fights the dollar.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T15:23:24.972826+00:00"
+      "checked_at": "2026-11-06T15:44:11.125717+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4106.46,
+      "entry_low": 4105.86,
       "entry_high": 4106.96,
-      "sl": 4111.46,
-      "tp1": 4087.7,
+      "sl": 4110.86,
+      "tp1": 4088.61,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -38,9 +38,9 @@
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 53.17 away from the entry (6.5 ATR). Unlikely to fill soon.",
+      "reason": "Price is 54.03 away from the entry (7.6 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T15:23:24.972826+00:00"
+      "checked_at": "2026-11-06T15:44:11.125717+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 4060.065541870218,
-    "atr": 8.188571428571388,
+    "vwap": 4059.7885961177835,
+    "atr": 7.090000000000016,
     "day_low": 4028.04,
     "day_high": 4106.96,
-    "range_pos": 0.3199442473390772
+    "range_pos": 0.3014445007602628
   },
   "dxy": {
     "ok": true,
-    "last": 102.14299774169922,
-    "pct": 0.6394411735919854,
+    "last": 102.12999725341797,
+    "pct": 0.6266320539799152,
     "state": "up",
-    "corr": -0.4372353347637827
+    "corr": -0.4399980332457119
   },
   "oil": {
     "ok": true,
-    "last": 90.75,
-    "pct": -0.547945205479452,
+    "last": 90.23999786376953,
+    "pct": -1.1068516561429793,
     "state": "down",
-    "corr": -0.3394540543271781
+    "corr": -0.2801401114521762
   },
   "news": {
-    "usd": 0.5480686644816893,
-    "oil": -0.07384738955742223,
+    "usd": 0.5461309741722173,
+    "oil": -0.08107068040022583,
     "shock": true,
     "usd_headlines": [
       "Treasury Yields Jump After Hot Jobs Report - Briefs Finance",
@@ -84,34 +84,25 @@
       "Indian Bond Market Rally Extends as US Treasury Prices Rise and Crude Oil Falls - KNN India"
     ]
   },
-  "events": [
-    {
-      "title": "Prelim UoM Consumer Sentiment",
-      "when": "Fri 15:00 UTC",
-      "impact": "Medium",
-      "forecast": "48.1",
-      "previous": "46.3"
-    },
-    {
-      "title": "Prelim UoM Inflation Expectations",
-      "when": "Fri 15:00 UTC",
-      "impact": "Medium",
-      "forecast": "",
-      "previous": "4.7%"
-    }
-  ],
+  "events": [],
   "scorecard": [
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6652567020221142,
-      "trust": 1.187958396468061
+      "score": 0.5109105280416099,
+      "trust": 0.9123402286457318
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3095705961980987,
-      "trust": 0.9971142779295251
+      "score": 0.30981070258414645,
+      "trust": 0.997120042055177
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.12,
+      "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
@@ -124,19 +115,13 @@
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.08,
-      "trust": 1.0
     }
   ],
   "record": {
-    "graded": 27,
+    "graded": 28,
     "wins": 11,
-    "losses": 10,
+    "losses": 11,
     "scratches": 6,
-    "avg_r": 0.1037356168759
+    "avg_r": 0.06431648770176071
   }
 }
