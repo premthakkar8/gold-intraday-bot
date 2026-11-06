@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-06T08:06:36.050236+00:00",
-  "atr": 4.6185714285714505,
-  "price": 4066.15,
+  "updated_at": "2026-11-06T08:21:16.563658+00:00",
+  "atr": 5.044285714285739,
+  "price": 4068.42,
   "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4035.93,
-      "entry_high": 4038.39,
-      "sl": 4033.39,
-      "tp1": 4052.24,
+      "entry_high": 4038.16,
+      "sl": 4033.16,
+      "tp1": 4052.59,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,32 +21,32 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T04:11:04.791852+00:00",
-      "checked_at": "2026-11-06T08:19:43.367975+00:00"
+      "checked_at": "2026-11-06T08:34:22.832317+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4104.5,
+      "entry_low": 4104.73,
       "entry_high": 4106.96,
-      "sl": 4109.5,
-      "tp1": 4090.65,
+      "sl": 4109.73,
+      "tp1": 4090.3,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.19,
+      "score": 0.36,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T08:19:43.367975+00:00"
+      "checked_at": "2026-11-06T08:34:22.832317+00:00"
     }
   ],
   "research": [
-    "Gold 4056.44 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4060.14, ATR 4.62, day range 4035.93-4106.96.",
-    "DXY 101.92 (+0.42% today, up), gold-dollar corr -0.23.",
-    "WTI 91.09 (-0.18% today, flat), gold-oil corr -0.35.",
+    "Gold 4068.64 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4060.11, ATR 5.04, day range 4035.93-4106.96.",
+    "DXY 101.88 (+0.38% today, up), gold-dollar corr -0.30.",
+    "WTI 90.65 (-0.66% today, down), gold-oil corr -0.44.",
     "Headlines: dollar -1.00, oil +1.00, fresh shock.",
     "Dollar: Australian Dollar drops on dovish RBA outlook, stronger US Dollar - Mitrade",
     "Oil: Crude Oil Rises As Investors Weigh The Outlook Of US-Israeli Conflict With Iran By Kedia Advisory - Investing.com India",
@@ -207,5 +207,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-06T08:19:43.367975+00:00"
+  "last_check": "2026-11-06T08:34:22.832317+00:00"
 }
