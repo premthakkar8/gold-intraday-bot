@@ -1,77 +1,77 @@
 {
-  "updated": "2026-11-06 18:13 UTC",
+  "updated": "2026-11-06 18:27 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4060.44,
+  "price": 4064.36,
   "stance": "Strategy: the SELL plan from 17:02 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4028.04,
-      "entry_high": 4031.18,
-      "sl": 4026.18,
-      "tp1": 4043.33,
+      "entry_high": 4031.2,
+      "sl": 4026.2,
+      "tp1": 4043.29,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.26,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.72% with hawkish news (+0.74) and gold is moving against it (corr -0.35). Buying fights the dollar.",
+      "reason": "Dollar is up +0.73% with hawkish news (+0.81) and gold is moving against it (corr -0.34). Buying fights the dollar.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T18:13:01.887058+00:00"
+      "checked_at": "2026-11-06T18:27:41.406341+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4103.82,
+      "entry_low": 4103.8,
       "entry_high": 4106.96,
-      "sl": 4108.82,
-      "tp1": 4091.67,
+      "sl": 4108.8,
+      "tp1": 4091.71,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.57,
+      "score": 0.58,
       "style": "dollar_lead",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T18:13:01.887058+00:00"
+      "checked_at": "2026-11-06T18:27:41.406341+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "down",
     "session": "newyork",
-    "vwap": 4059.7846304519358,
-    "atr": 3.3864285714285933,
+    "vwap": 4059.82109282125,
+    "atr": 3.338571428571478,
     "day_low": 4028.04,
     "day_high": 4106.96,
-    "range_pos": 0.4105423213380646
+    "range_pos": 0.46021287379625103
   },
   "dxy": {
     "ok": true,
-    "last": 102.2229995727539,
-    "pct": 0.7182653685756515,
+    "last": 102.23200225830078,
+    "pct": 0.7271355335652305,
     "state": "up",
-    "corr": -0.3517665288379659
+    "corr": -0.3435246445436693
   },
   "oil": {
     "ok": true,
-    "last": 89.63999938964844,
-    "pct": -1.7643842305222603,
+    "last": 89.81999969482422,
+    "pct": -1.5671236221104452,
     "state": "down",
-    "corr": -0.09885649383131935
+    "corr": -0.06075019179156676
   },
   "news": {
-    "usd": 0.7363588524443153,
-    "oil": 0.10291789335582747,
+    "usd": 0.8057548414155336,
+    "oil": 0.10508717720206426,
     "shock": true,
     "usd_headlines": [
       "Treasury Yields Rise on Strong Jobs Data - WSJ",
@@ -89,25 +89,25 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5686734903218129,
-      "trust": 0.9971610160637693
+      "score": 0.5785384454050433,
+      "trust": 1.0
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.3783170966780102,
-      "trust": 0.6755662440678754
+      "score": 0.5190576084158938,
+      "trust": 0.5898381913816975
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.26,
+      "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
       "score": 0.12,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
       "trust": 1.0
     },
     {

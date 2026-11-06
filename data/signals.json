@@ -1,57 +1,57 @@
 {
-  "updated_at": "2026-11-06T18:13:01.887058+00:00",
-  "atr": 3.3864285714285933,
-  "price": 4063.78,
+  "updated_at": "2026-11-06T18:27:41.406341+00:00",
+  "atr": 3.338571428571478,
+  "price": 4068.89,
   "stance": "Strategy: the SELL plan from 17:02 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4028.04,
-      "entry_high": 4031.18,
-      "sl": 4026.18,
-      "tp1": 4043.33,
+      "entry_high": 4031.2,
+      "sl": 4026.2,
+      "tp1": 4043.29,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.26,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.72% with hawkish news (+0.74) and gold is moving against it (corr -0.35). Buying fights the dollar.",
+      "reason": "Dollar is up +0.73% with hawkish news (+0.81) and gold is moving against it (corr -0.34). Buying fights the dollar.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T18:26:14.962535+00:00"
+      "checked_at": "2026-11-06T18:40:48.291649+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4103.82,
+      "entry_low": 4103.8,
       "entry_high": 4106.96,
-      "sl": 4108.82,
-      "tp1": 4091.67,
+      "sl": 4108.8,
+      "tp1": 4091.71,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.57,
+      "score": 0.58,
       "style": "dollar_lead",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T18:26:14.962535+00:00"
+      "checked_at": "2026-11-06T18:40:48.291649+00:00"
     }
   ],
   "research": [
-    "Gold 4060.44 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4059.78, ATR 3.39, day range 4028.04-4106.96.",
-    "DXY 102.22 (+0.72% today, up), gold-dollar corr -0.35.",
-    "WTI 89.64 (-1.76% today, down), gold-oil corr -0.10.",
-    "Headlines: dollar +0.74, oil +0.10, fresh shock.",
+    "Gold 4064.36 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 4059.82, ATR 3.34, day range 4028.04-4106.96.",
+    "DXY 102.23 (+0.73% today, up), gold-dollar corr -0.34.",
+    "WTI 89.82 (-1.57% today, down), gold-oil corr -0.06.",
+    "Headlines: dollar +0.81, oil +0.11, fresh shock.",
     "Dollar: Treasury Yields Rise on Strong Jobs Data - WSJ",
     "Oil: PERSPECTIVE: The Strait of Hormuz Constriction Impacts More Than Crude Oil \u2013 Yogi Schulz - EnergyNow",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [],
-  "last_check": "2026-11-06T18:26:14.962535+00:00"
+  "last_check": "2026-11-06T18:40:48.291649+00:00"
 }
