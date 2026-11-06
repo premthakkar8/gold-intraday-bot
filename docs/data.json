@@ -1,20 +1,59 @@
 {
-  "updated": "2026-11-06 00:14 UTC",
+  "updated": "2026-11-06 00:29 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4096.29,
+  "price": 4102.24,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.46). Take an entry only if price reaches it.",
-  "setups": [],
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 4071.13,
+      "entry_high": 4071.32,
+      "sl": 4066.32,
+      "tp1": 4090.85,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.46,
+      "style": "oil_shock",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.46 (Trade the oil shock), oil supply news +0.68.",
+      "created_at": "2026-11-06T00:29:02.310138+00:00",
+      "checked_at": "2026-11-06T00:29:02.310138+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4127.27,
+      "entry_high": 4127.46,
+      "sl": 4132.27,
+      "tp1": 4107.74,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.14,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.14. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-06T00:29:02.310138+00:00",
+      "checked_at": "2026-11-06T00:29:02.310138+00:00"
+    }
+  ],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 4101.8313199207505,
-    "atr": 9.365000000000009,
+    "vwap": 4100.9392893573795,
+    "atr": 8.747142857142828,
     "day_low": 4071.13,
-    "day_high": 4128.06,
-    "range_pos": 0.4419462497804273
+    "day_high": 4127.46,
+    "range_pos": 0.552281200071005
   },
   "dxy": {
     "ok": true,
@@ -25,14 +64,14 @@
   },
   "oil": {
     "ok": true,
-    "last": 91.08000183105469,
-    "pct": 0.5076131875200217,
-    "state": "up",
-    "corr": 0.05573529335378936
+    "last": 90.9800033569336,
+    "pct": -0.2958867321275685,
+    "state": "flat",
+    "corr": 0.03484525934690971
   },
   "news": {
     "usd": -1.0,
-    "oil": 0.6857283393334506,
+    "oil": 0.6838048038133939,
     "shock": true,
     "usd_headlines": [
       "US Dollar Nudges Higher Against The Loonie As Bond Yields Fall, Oil Prices Jump - Moomoo",
@@ -86,26 +125,26 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.9204755408891658,
-      "trust": 1.2111520274857446
+      "score": 0.7577182618320271,
+      "trust": 0.9969977129368777
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.4636263440550201,
-      "trust": 0.995951680916954
+      "score": 0.45992072671409995,
+      "trust": 0.9969680351805839
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.3131792449305506,
-      "trust": 0.9969765116353559
+      "score": 0.3983897430277997,
+      "trust": 0.9959743575694993
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.13758919393467245,
-      "trust": 1.0030149960223018
+      "score": 0.1377262789026187,
+      "trust": 1.0040143352483506
     },
     {
       "style": "Fade the session range",
