@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-06 00:29 UTC",
+  "updated": "2026-11-06 00:44 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4102.24,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.46). Take an entry only if price reaches it.",
+  "price": 4099.39,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4071.13,
-      "entry_high": 4071.32,
-      "sl": 4066.32,
-      "tp1": 4090.85,
+      "entry_high": 4072.01,
+      "sl": 4067.01,
+      "tp1": 4089.81,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.46,
-      "style": "oil_shock",
+      "score": 0.61,
+      "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.46 (Trade the oil shock), oil supply news +0.68.",
+      "reason": "Score 0.61 (Trade with the dollar), oil supply news +0.45, price below VWAP.",
       "created_at": "2026-11-06T00:29:02.310138+00:00",
-      "checked_at": "2026-11-06T00:29:02.310138+00:00"
+      "checked_at": "2026-11-06T00:44:11.817533+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4127.27,
-      "entry_high": 4127.46,
-      "sl": 4132.27,
-      "tp1": 4107.74,
+      "entry_low": 4120.82,
+      "entry_high": 4121.7,
+      "sl": 4125.82,
+      "tp1": 4103.02,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.14,
-      "style": "dollar_lead",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "weak",
-      "reason": "Strategy score is only 0.14. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-06T00:29:02.310138+00:00",
-      "checked_at": "2026-11-06T00:29:02.310138+00:00"
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-06T00:44:11.817533+00:00",
+      "checked_at": "2026-11-06T00:44:11.817533+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,33 @@
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 4100.9392893573795,
-    "atr": 8.747142857142828,
+    "vwap": 4100.049893745846,
+    "atr": 7.488571428571341,
     "day_low": 4071.13,
-    "day_high": 4127.46,
-    "range_pos": 0.552281200071005
+    "day_high": 4121.7,
+    "range_pos": 0.5588293454617438
   },
   "dxy": {
     "ok": true,
-    "last": 101.56600189208984,
-    "pct": 0.09066644612192114,
-    "state": "up",
-    "corr": -0.20587106194179927
+    "last": 101.49400329589844,
+    "pct": -0.05612864978028988,
+    "state": "flat",
+    "corr": -0.446379290559156
   },
   "oil": {
     "ok": true,
-    "last": 90.9800033569336,
-    "pct": -0.2958867321275685,
+    "last": 91.16999816894531,
+    "pct": -0.0876732395119863,
     "state": "flat",
-    "corr": 0.03484525934690971
+    "corr": 0.023807906318492753
   },
   "news": {
     "usd": -1.0,
-    "oil": 0.6838048038133939,
+    "oil": 0.4509344787523662,
     "shock": true,
     "usd_headlines": [
       "US Dollar Nudges Higher Against The Loonie As Bond Yields Fall, Oil Prices Jump - Moomoo",
-      "US Dollar Nudges Higher Against The Loonie As Bond Yields Fall, Oil Prices Jump - marketscreener.com",
-      "Dollar slides as US election drives oil and Treasury yields lower; sterling gains - TradingView"
+      "US Dollar Nudges Higher Against The Loonie As Bond Yields Fall, Oil Prices Jump - marketscreener.com"
     ],
     "oil_headlines": [
       "US Equity Markets End Lower After Crude Oil Rises, Mega-Cap Tech Stocks Fall - Yahoo! Finance Canada",
@@ -125,26 +124,26 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.7577182618320271,
-      "trust": 0.9969977129368777
+      "score": 0.657361840091514,
+      "trust": 0.9960027880174454
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "long",
+      "score": 0.6077043471658456,
+      "trust": 1.0050106016948492
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.45992072671409995,
-      "trust": 0.9969680351805839
+      "score": 0.330246631325611,
+      "trust": 0.9959632753790537
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.3983897430277997,
-      "trust": 0.9959743575694993
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.1377262789026187,
-      "trust": 1.0040143352483506
+      "score": 0.2193300865356037,
+      "trust": 0.9949752849382942
     },
     {
       "style": "Fade the session range",
