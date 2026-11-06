@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-06 03:27 UTC",
+  "updated": "2026-11-06 03:41 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4049.66,
+  "price": 4041.44,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4046.64,
-      "entry_high": 4047.54,
-      "sl": 4042.54,
-      "tp1": 4065.29,
+      "entry_low": 4041.02,
+      "entry_high": 4042.17,
+      "sl": 4037.17,
+      "tp1": 4059.3,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,16 +19,16 @@
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.40 (Trade the oil shock), oil supply news +0.59, price below VWAP.",
-      "created_at": "2026-11-06T03:12:20.967472+00:00",
-      "checked_at": "2026-11-06T03:27:04.606023+00:00"
+      "reason": "Score 0.40 (Trade the oil shock), oil supply news +0.58, price below VWAP.",
+      "created_at": "2026-11-06T03:41:45.394869+00:00",
+      "checked_at": "2026-11-06T03:41:45.394869+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4106.06,
+      "entry_low": 4105.81,
       "entry_high": 4106.96,
-      "sl": 4111.06,
-      "tp1": 4088.31,
+      "sl": 4110.81,
+      "tp1": 4088.68,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -38,68 +38,45 @@
       "favored": false,
       "ready": false,
       "status": "far",
-      "reason": "Price is 56.40 away from the entry (7.6 ATR). Unlikely to fill soon.",
+      "reason": "Price is 64.37 away from the entry (9.2 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-06T02:42:59.071596+00:00",
-      "checked_at": "2026-11-06T03:27:04.606023+00:00"
+      "checked_at": "2026-11-06T03:41:45.394869+00:00"
     }
   ],
-  "active": [
-    {
-      "side": "BUY",
-      "entry_low": 4048.33,
-      "entry_high": 4048.82,
-      "sl": 4043.82,
-      "tp1": 4067.59,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.41,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.41 (Trade the oil shock), oil supply news +0.59, price below VWAP.",
-      "created_at": "2026-11-06T03:12:20.967472+00:00",
-      "checked_at": "2026-11-06T03:13:26.625388+00:00",
-      "entry": 4048.82,
-      "entered_at": "2026-11-06T03:13:26.625388+00:00",
-      "closed": null
-    }
-  ],
+  "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
     "htf": "down",
     "session": "asia",
-    "vwap": 4076.328607711808,
-    "atr": 7.450714285714249,
-    "day_low": 4046.64,
+    "vwap": 4074.4552103059773,
+    "atr": 7.006428571428517,
+    "day_low": 4041.02,
     "day_high": 4106.96,
-    "range_pos": 0.05006631299734704
+    "range_pos": 0.006369426751593455
   },
   "dxy": {
     "ok": true,
-    "last": 101.7020034790039,
-    "pct": 0.2049383967041474,
+    "last": 101.71499633789062,
+    "pct": 0.21773999922724327,
     "state": "up",
-    "corr": -0.33087336145443824
+    "corr": -0.3191382900654123
   },
   "oil": {
     "ok": true,
-    "last": 91.30999755859375,
-    "pct": 0.06575074914383562,
-    "state": "flat",
-    "corr": -0.06388119995882989
+    "last": 91.88999938964844,
+    "pct": 0.701369194135274,
+    "state": "up",
+    "corr": -0.1497042844309142
   },
   "news": {
     "usd": -1.0,
-    "oil": 0.5879861782671872,
+    "oil": 0.5846633275930843,
     "shock": true,
     "usd_headlines": [
+      "Australian Dollar drops on dovish RBA outlook, stronger US Dollar - Mitrade",
       "Gold Rebounds Above $4,100 as Dollar Weakens and Treasury Yields Fall - Businesskorea",
-      "US Dollar Nudges Higher Against The Loonie As Bond Yields Fall, Oil Prices Jump - Moomoo",
-      "US Dollar Nudges Higher Against The Loonie As Bond Yields Fall, Oil Prices Jump - marketscreener.com"
+      "US Dollar Nudges Higher Against The Loonie As Bond Yields Fall, Oil Prices Jump - Moomoo"
     ],
     "oil_headlines": [
       "US Equity Markets End Lower After Crude Oil Rises, Mega-Cap Tech Stocks Fall - Yahoo! Finance Canada",
@@ -148,39 +125,39 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.61596304098316,
-      "trust": 1.0999340017556427
+      "score": 0.6499227384770362,
+      "trust": 1.160576318708993
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.40339239804695304,
-      "trust": 1.0
+      "score": 0.4003696803903502,
+      "trust": 0.9970237687764594
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.13877782037903613,
-      "trust": 1.0029595874150354
+      "score": 0.1424444436032569,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.09970320763121024,
-      "trust": 0.9970320763121023
     }
   ],
   "record": {
-    "graded": 21,
-    "wins": 6,
+    "graded": 22,
+    "wins": 7,
     "losses": 10,
     "scratches": 5,
-    "avg_r": -0.10472087354050952
+    "avg_r": -0.05450628837957727
   }
 }
