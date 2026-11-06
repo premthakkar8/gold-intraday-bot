@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-06 15:03 UTC",
+  "updated": "2026-11-06 15:23 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4050.47,
+  "price": 4053.29,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4028.04,
-      "entry_high": 4028.46,
-      "sl": 4023.46,
-      "tp1": 4047.42,
+      "entry_high": 4028.54,
+      "sl": 4023.54,
+      "tp1": 4047.3,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,16 +19,16 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.71% with hawkish news (+0.58) and gold is moving against it (corr -0.43). Buying fights the dollar.",
+      "reason": "Dollar is up +0.64% with hawkish news (+0.55) and gold is moving against it (corr -0.44). Buying fights the dollar.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T15:03:01.325902+00:00"
+      "checked_at": "2026-11-06T15:23:24.972826+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4106.54,
+      "entry_low": 4106.46,
       "entry_high": 4106.96,
-      "sl": 4111.54,
-      "tp1": 4087.58,
+      "sl": 4111.46,
+      "tp1": 4087.7,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -38,9 +38,9 @@
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 56.07 away from the entry (6.7 ATR). Unlikely to fill soon.",
+      "reason": "Price is 53.17 away from the entry (6.5 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T15:03:01.325902+00:00"
+      "checked_at": "2026-11-06T15:23:24.972826+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 4060.2963994086435,
-    "atr": 8.335714285714273,
+    "vwap": 4060.065541870218,
+    "atr": 8.188571428571388,
     "day_low": 4028.04,
     "day_high": 4106.96,
-    "range_pos": 0.284211860111503
+    "range_pos": 0.3199442473390772
   },
   "dxy": {
     "ok": true,
-    "last": 102.20999908447266,
-    "pct": 0.7054562489635814,
+    "last": 102.14299774169922,
+    "pct": 0.6394411735919854,
     "state": "up",
-    "corr": -0.4270100607667663
+    "corr": -0.4372353347637827
   },
   "oil": {
     "ok": true,
-    "last": 91.0,
-    "pct": -0.273972602739726,
-    "state": "flat",
-    "corr": -0.33325613657154873
+    "last": 90.75,
+    "pct": -0.547945205479452,
+    "state": "down",
+    "corr": -0.3394540543271781
   },
   "news": {
-    "usd": 0.5803623519581619,
-    "oil": 0.013039758165488316,
+    "usd": 0.5480686644816893,
+    "oil": -0.07384738955742223,
     "shock": true,
     "usd_headlines": [
-      "Goldman Sachs Lowers Gold Price Forecasts Amid Federal Reserve\u2019s Hawkish Stance - \u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644",
-      "BREAKING: US NFP much stronger than expected \ud83d\udcc8 US Dollar and treasuries yields surge - XTB.com",
-      "Traders raise bets of Fed rate hike after jobs report - Reuters"
+      "Treasury Yields Jump After Hot Jobs Report - Briefs Finance",
+      "Strong jobs report has DXY threatening a bull flag breakout [Video] - FXStreet",
+      "Goldman Sachs Lowers Gold Price Forecasts Amid Federal Reserve\u2019s Hawkish Stance - \u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644"
     ],
     "oil_headlines": [
       "Nifty Rises 9% In November As Oil Falls, But Is The Euphoria Premature? - Outlook Business",
@@ -104,14 +104,14 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.7179152556629204,
-      "trust": 1.2819915279695004
+      "score": 0.6652567020221142,
+      "trust": 1.187958396468061
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3116544715597503,
-      "trust": 1.0
+      "score": 0.3095705961980987,
+      "trust": 0.9971142779295251
     },
     {
       "style": "Trade with the intraday trend",
@@ -133,10 +133,10 @@
     }
   ],
   "record": {
-    "graded": 26,
-    "wins": 10,
+    "graded": 27,
+    "wins": 11,
     "losses": 10,
     "scratches": 6,
-    "avg_r": 0.06926390983266538
+    "avg_r": 0.1037356168759
   }
 }
