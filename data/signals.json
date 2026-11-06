@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-06T14:47:08.676946+00:00",
-  "atr": 8.713571428571381,
-  "price": 4050.52,
+  "updated_at": "2026-11-06T15:03:01.325902+00:00",
+  "atr": 8.335714285714273,
+  "price": 4056.26,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4028.04,
-      "entry_high": 4028.25,
-      "sl": 4023.25,
-      "tp1": 4047.73,
+      "entry_high": 4028.46,
+      "sl": 4023.46,
+      "tp1": 4047.42,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,16 +19,16 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.76% with hawkish news (+0.58) and gold is moving against it (corr -0.41). Buying fights the dollar.",
+      "reason": "Dollar is up +0.71% with hawkish news (+0.58) and gold is moving against it (corr -0.43). Buying fights the dollar.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T15:00:27.288942+00:00"
+      "checked_at": "2026-11-06T15:16:05.275542+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4106.75,
+      "entry_low": 4106.54,
       "entry_high": 4106.96,
-      "sl": 4111.75,
-      "tp1": 4087.27,
+      "sl": 4111.54,
+      "tp1": 4087.58,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -38,43 +38,21 @@
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 61.21 away from the entry (7.0 ATR). Unlikely to fill soon.",
+      "reason": "Price is 56.07 away from the entry (6.7 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T15:00:27.288942+00:00"
+      "checked_at": "2026-11-06T15:16:05.275542+00:00"
     }
   ],
   "research": [
-    "Gold 4045.54 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4060.62, ATR 8.71, day range 4028.04-4106.96.",
-    "DXY 102.26 (+0.76% today, up), gold-dollar corr -0.41.",
-    "WTI 90.75 (-0.55% today, down), gold-oil corr -0.38.",
-    "Headlines: dollar +0.58, oil +0.02, fresh shock.",
+    "Gold 4050.47 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4060.30, ATR 8.34, day range 4028.04-4106.96.",
+    "DXY 102.21 (+0.71% today, up), gold-dollar corr -0.43.",
+    "WTI 91.00 (-0.27% today, flat), gold-oil corr -0.33.",
+    "Headlines: dollar +0.58, oil +0.01, fresh shock.",
     "Dollar: Goldman Sachs Lowers Gold Price Forecasts Amid Federal Reserve\u2019s Hawkish Stance - \u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644",
     "Oil: Nifty Rises 9% In November As Oil Falls, But Is The Euphoria Premature? - Outlook Business",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
-    {
-      "side": "BUY",
-      "entry_low": 4048.33,
-      "entry_high": 4048.82,
-      "sl": 4043.82,
-      "tp1": 4067.59,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.41,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.41 (Trade the oil shock), oil supply news +0.59, price below VWAP.",
-      "created_at": "2026-11-06T03:12:20.967472+00:00",
-      "checked_at": "2026-11-06T03:13:26.625388+00:00",
-      "entry": 4048.82,
-      "entered_at": "2026-11-06T03:13:26.625388+00:00",
-      "closed": "sl"
-    },
     {
       "side": "BUY",
       "entry_low": 4046.64,
@@ -141,5 +119,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-06T15:00:27.288942+00:00"
+  "last_check": "2026-11-06T15:16:05.275542+00:00"
 }

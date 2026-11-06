@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-06 14:47 UTC",
+  "updated": "2026-11-06 15:03 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4045.54,
+  "price": 4050.47,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4028.04,
-      "entry_high": 4028.25,
-      "sl": 4023.25,
-      "tp1": 4047.73,
+      "entry_high": 4028.46,
+      "sl": 4023.46,
+      "tp1": 4047.42,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,16 +19,16 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.76% with hawkish news (+0.58) and gold is moving against it (corr -0.41). Buying fights the dollar.",
+      "reason": "Dollar is up +0.71% with hawkish news (+0.58) and gold is moving against it (corr -0.43). Buying fights the dollar.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T14:47:08.676946+00:00"
+      "checked_at": "2026-11-06T15:03:01.325902+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4106.75,
+      "entry_low": 4106.54,
       "entry_high": 4106.96,
-      "sl": 4111.75,
-      "tp1": 4087.27,
+      "sl": 4111.54,
+      "tp1": 4087.58,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -38,9 +38,9 @@
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 61.21 away from the entry (7.0 ATR). Unlikely to fill soon.",
+      "reason": "Price is 56.07 away from the entry (6.7 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T14:47:08.676946+00:00"
+      "checked_at": "2026-11-06T15:03:01.325902+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 4060.6167565652613,
-    "atr": 8.713571428571381,
+    "vwap": 4060.2963994086435,
+    "atr": 8.335714285714273,
     "day_low": 4028.04,
     "day_high": 4106.96,
-    "range_pos": 0.2217435377597565
+    "range_pos": 0.284211860111503
   },
   "dxy": {
     "ok": true,
-    "last": 102.26200103759766,
-    "pct": 0.7566927274118618,
+    "last": 102.20999908447266,
+    "pct": 0.7054562489635814,
     "state": "up",
-    "corr": -0.41206723361580433
+    "corr": -0.4270100607667663
   },
   "oil": {
     "ok": true,
-    "last": 90.75,
-    "pct": -0.547945205479452,
-    "state": "down",
-    "corr": -0.38394535073602254
+    "last": 91.0,
+    "pct": -0.273972602739726,
+    "state": "flat",
+    "corr": -0.33325613657154873
   },
   "news": {
-    "usd": 0.5799225599774939,
-    "oil": 0.01584738373671105,
+    "usd": 0.5803623519581619,
+    "oil": 0.013039758165488316,
     "shock": true,
     "usd_headlines": [
       "Goldman Sachs Lowers Gold Price Forecasts Amid Federal Reserve\u2019s Hawkish Stance - \u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644",
@@ -104,14 +104,14 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5547269346547112,
-      "trust": 0.9905838118834128
+      "score": 0.7179152556629204,
+      "trust": 1.2819915279695004
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3085646763742357,
-      "trust": 0.9971041837127166
+      "score": 0.3116544715597503,
+      "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
