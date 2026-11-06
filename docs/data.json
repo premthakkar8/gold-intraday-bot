@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-06 18:57 UTC",
+  "updated": "2026-11-06 19:11 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4075.18,
-  "stance": "Strategy: the SELL plan from 17:02 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 4073.05,
+  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 58%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4028.04,
-      "entry_high": 4031.26,
-      "sl": 4026.26,
-      "tp1": 4043.21,
+      "entry_high": 4031.29,
+      "sl": 4026.29,
+      "tp1": 4043.16,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -18,29 +18,29 @@
       "style": "trend_align",
       "favored": false,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "status": "invalid",
+      "reason": "Dollar is up +0.75% with hawkish news (+0.88) and gold is moving against it (corr -0.33). Buying fights the dollar.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T18:57:01.062896+00:00"
+      "checked_at": "2026-11-06T19:11:39.792279+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4103.74,
+      "entry_low": 4103.71,
       "entry_high": 4106.96,
-      "sl": 4108.74,
-      "tp1": 4091.79,
+      "sl": 4108.71,
+      "tp1": 4091.84,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.57,
+      "score": 0.59,
       "style": "dollar_lead",
       "favored": true,
-      "ready": false,
+      "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T18:57:01.062896+00:00"
+      "checked_at": "2026-11-06T19:11:39.792279+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "up",
     "htf": "down",
     "session": "newyork",
-    "vwap": 4060.0400243513795,
-    "atr": 3.234999999999997,
+    "vwap": 4060.2004428894434,
+    "atr": 3.1799999999999335,
     "day_low": 4028.04,
     "day_high": 4106.96,
-    "range_pos": 0.5973137354282796
+    "range_pos": 0.5703243791180965
   },
   "dxy": {
     "ok": true,
-    "last": 102.23799896240234,
-    "pct": 0.733043965498967,
+    "last": 102.25199890136719,
+    "pct": 0.74683782376666,
     "state": "up",
-    "corr": -0.28024868684329746
+    "corr": -0.32704315038530085
   },
   "oil": {
     "ok": true,
-    "last": 90.08000183105469,
-    "pct": -1.282189774186644,
+    "last": 90.38999938964844,
+    "pct": -0.9424664223030822,
     "state": "down",
-    "corr": -0.0443443644028468
+    "corr": 0.1540164087235506
   },
   "news": {
-    "usd": 0.8784539698596714,
-    "oil": 0.1132675928029696,
+    "usd": 0.8781773859453101,
+    "oil": 0.11909053775816099,
     "shock": true,
     "usd_headlines": [
       "Daly says Fed rate hike likely, despite 'painful' tech-stock dive - Reuters",
@@ -89,14 +89,14 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5728333757753163,
+      "score": 0.585075434867938,
       "trust": 1.0
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.520075249359924,
-      "trust": 0.5909946015453682
+      "score": 0.5205823596805462,
+      "trust": 0.591570863273348
     },
     {
       "style": "Trade with the intraday trend",
@@ -118,10 +118,10 @@
     }
   ],
   "record": {
-    "graded": 28,
+    "graded": 29,
     "wins": 11,
     "losses": 11,
-    "scratches": 6,
-    "avg_r": 0.06431648770176071
+    "scratches": 7,
+    "avg_r": 0.062098677781010345
   }
 }
