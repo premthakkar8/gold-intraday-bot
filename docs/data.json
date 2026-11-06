@@ -1,40 +1,41 @@
 {
-  "updated": "2026-11-06 01:58 UTC",
+  "updated": "2026-11-06 02:13 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4063.6,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
+  "price": 4071.5,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.14). Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
-    "htf": "sideways",
+    "structure": "sideways",
+    "htf": "down",
     "session": "asia",
-    "vwap": 4087.089931816666,
-    "atr": 10.510000000000023,
+    "vwap": 4084.3470618023944,
+    "atr": 11.042142857142867,
     "day_low": 4056.38,
     "day_high": 4106.96,
-    "range_pos": 0.14274416765519593
+    "range_pos": 0.29893238434163527
   },
   "dxy": {
     "ok": true,
-    "last": 101.63200378417969,
-    "pct": 0.13596910536568307,
+    "last": 101.6760025024414,
+    "pct": 0.17932015748000718,
     "state": "up",
-    "corr": -0.4342167977260272
+    "corr": -0.4010709282334077
   },
   "oil": {
     "ok": true,
-    "last": 90.9800033569336,
-    "pct": -0.2958867321275685,
+    "last": 91.38999938964844,
+    "pct": 0.1534239886558219,
     "state": "flat",
-    "corr": 0.10839732390926814
+    "corr": 0.06320411996491071
   },
   "news": {
     "usd": -1.0,
-    "oil": 0.34310216583534997,
+    "oil": 0.3387991273305844,
     "shock": true,
     "usd_headlines": [
+      "Gold Rebounds Above $4,100 as Dollar Weakens and Treasury Yields Fall - Businesskorea",
       "US Dollar Nudges Higher Against The Loonie As Bond Yields Fall, Oil Prices Jump - Moomoo",
       "US Dollar Nudges Higher Against The Loonie As Bond Yields Fall, Oil Prices Jump - marketscreener.com"
     ],
@@ -85,20 +86,20 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5377086694764474,
-      "trust": 0.7075114072058517
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.39880263376033137,
-      "trust": 0.9970065844008283
+      "score": 0.3153607099785545,
+      "trust": 0.5631441249617044
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.12140309980380763,
-      "trust": 1.002985007724897
+      "score": 0.1356066733131902,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
