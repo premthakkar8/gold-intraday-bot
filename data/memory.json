@@ -787,7 +787,7 @@
     {
       "id": "cacbc795",
       "opened_at": "2026-11-06T10:19:54.744933+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-11-06T11:05:09.709962+00:00",
       "horizon_minutes": 120,
       "regime": {
         "dxy": "up",
@@ -804,12 +804,39 @@
       "target": null,
       "price_at_plan": 4067.93,
       "atr": 3.075714285714217,
-      "outcome": null,
+      "outcome": "replaced",
       "r_multiple": null,
       "tier": null,
       "units": null,
       "risk_usd": null,
       "confidence": 0.8
+    },
+    {
+      "id": "0558675c",
+      "opened_at": "2026-11-06T11:05:09.709962+00:00",
+      "resolved_at": null,
+      "horizon_minutes": 120,
+      "regime": {
+        "dxy": "up",
+        "oil": "down",
+        "structure": "down",
+        "news": "mixed",
+        "session": "london"
+      },
+      "style": "trend_align",
+      "bias": "short",
+      "entry_low": 4103.560107142857,
+      "entry_high": 4106.96,
+      "invalidation": 4108.560107142857,
+      "target": 4092.059839285712,
+      "price_at_plan": 4064.68,
+      "atr": 2.9092857142857156,
+      "outcome": null,
+      "r_multiple": null,
+      "tier": "normal",
+      "units": 1.0,
+      "risk_usd": 5.0,
+      "confidence": 0.58
     }
   ]
 }
