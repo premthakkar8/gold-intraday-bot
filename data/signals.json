@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-11-06T20:54:12.474473+00:00",
   "atr": 3.4792857142857168,
-  "price": 4065.14,
+  "price": 4071.51,
   "stance": "Strategy: the SELL plan from 19:11 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
@@ -21,7 +21,7 @@
       "status": "invalid",
       "reason": "Dollar is up +0.80% with hawkish news (+0.92) and gold is moving against it (corr -0.32). Buying fights the dollar.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T20:59:17.559305+00:00"
+      "checked_at": "2026-11-08T22:02:17.534205+00:00"
     },
     {
       "side": "SELL",
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-06T14:47:08.676946+00:00",
-      "checked_at": "2026-11-06T20:59:17.559305+00:00"
+      "checked_at": "2026-11-08T22:02:17.534205+00:00"
     }
   ],
   "research": [
@@ -53,5 +53,5 @@
     "No high-impact US release in the next 24 hours."
   ],
   "active": [],
-  "last_check": "2026-11-06T20:59:17.559305+00:00"
+  "last_check": "2026-11-08T22:02:17.534205+00:00"
 }
