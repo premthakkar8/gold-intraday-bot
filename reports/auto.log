@@ -262,3 +262,5 @@ NameError: name 'load_calendar' is not defined
 2026-11-08 22:59 UTC  live: latest gold bar is 2945 minutes old, skipped
 2026-11-08 23:14 UTC  live: gold 4066.71 | graded: 9d8e569f short dollar_lead -> scratch (price never reached the entry zone) | opened long oil_shock cb697e4a zone 4047.76-4050.66 stop 4045.66 target 4063.32 units 1 risk 5.00 USD tier normal conf 0.55
 2026-11-08 23:29 UTC  live: gold 4068.29 | holding long oil_shock cb697e4a | new read long oil_shock not opened
+2026-11-08 23:43 UTC  live: gold 4064.70 | holding long oil_shock cb697e4a | new read long oil_shock not opened
+2026-11-08 23:56 UTC  live: BUY entry reached at 4056.21
