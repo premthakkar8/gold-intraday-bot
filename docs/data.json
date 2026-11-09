@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-09 10:11 UTC",
+  "updated": "2026-11-09 10:26 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4098.37,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
+  "price": 4099.71,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4058.35,
-      "sl": 4053.35,
-      "tp1": 4069.91,
+      "entry_high": 4058.49,
+      "sl": 4053.49,
+      "tp1": 4069.68,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.34,
-      "style": "dollar_lead",
+      "score": 0.7,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T10:11:43.404973+00:00"
+      "checked_at": "2026-11-09T10:26:22.412308+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4130.77,
+      "entry_low": 4130.63,
       "entry_high": 4134.15,
-      "sl": 4135.77,
-      "tp1": 4119.21,
+      "sl": 4135.63,
+      "tp1": 4119.44,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -37,41 +37,41 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "status": "invalid",
+      "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T10:11:43.404973+00:00"
+      "checked_at": "2026-11-09T10:26:22.412308+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "up",
     "session": "london",
-    "vwap": 4108.172075814159,
-    "atr": 2.9521428571428197,
+    "vwap": 4108.017583958069,
+    "atr": 2.68357142857131,
     "day_low": 4054.97,
     "day_high": 4134.15,
-    "range_pos": 0.5481182116696158
+    "range_pos": 0.565041677191214
   },
   "dxy": {
     "ok": true,
-    "last": 101.84300231933594,
-    "pct": -0.3678371380788352,
+    "last": 101.822998046875,
+    "pct": -0.3874071515934895,
     "state": "down",
-    "corr": -0.22937416288479984
+    "corr": -0.2589666101242276
   },
   "oil": {
     "ok": true,
-    "last": 90.41000366210938,
-    "pct": -0.033169812568625744,
+    "last": 90.38999938964844,
+    "pct": -0.05528864485624953,
     "state": "flat",
-    "corr": -0.27481316501448955
+    "corr": -0.2990519054589599
   },
   "news": {
-    "usd": 0.4549780226705368,
-    "oil": -0.06059311664241269,
+    "usd": 0.4525553648038965,
+    "oil": -0.05782180350792806,
     "shock": true,
     "usd_headlines": [
       "Federal Reserve: December rate hike view reinforced \u2013 Commerzbank - FXStreet",
@@ -109,21 +109,21 @@
   ],
   "scorecard": [
     {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.6962541679774706,
+      "trust": 1.0
+    },
+    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5198911190812323,
-      "trust": 0.9283769983593434
+      "score": 0.6635856101959497,
+      "trust": 1.1849743039213387
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.34149728693372067,
-      "trust": 0.9980381387342616
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
+      "score": 0.34838298812608787,
       "trust": 1.0
     },
     {
@@ -140,10 +140,10 @@
     }
   ],
   "record": {
-    "graded": 41,
-    "wins": 13,
+    "graded": 42,
+    "wins": 14,
     "losses": 19,
     "scratches": 9,
-    "avg_r": -0.10241800839879757
+    "avg_r": -0.07616996057977858
   }
 }
