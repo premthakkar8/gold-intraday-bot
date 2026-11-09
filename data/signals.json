@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-09T17:36:56.817671+00:00",
-  "atr": 3.3157142857142907,
-  "price": 4103.27,
+  "updated_at": "2026-11-09T17:51:43.508636+00:00",
+  "atr": 3.2200000000000597,
+  "price": 4103.51,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.49). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4058.15,
-      "sl": 4053.15,
-      "tp1": 4070.21,
+      "entry_high": 4058.2,
+      "sl": 4053.2,
+      "tp1": 4070.13,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,37 +21,37 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T17:50:05.234317+00:00"
+      "checked_at": "2026-11-09T18:04:50.310951+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4130.97,
+      "entry_low": 4130.92,
       "entry_high": 4134.15,
-      "sl": 4135.97,
-      "tp1": 4118.91,
+      "sl": 4135.92,
+      "tp1": 4118.99,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.26,
+      "score": 0.19,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T17:50:05.234317+00:00"
+      "checked_at": "2026-11-09T18:04:50.310951+00:00"
     }
   ],
   "research": [
-    "Gold 4105.05 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 4111.32, ATR 3.32, day range 4054.97-4134.15.",
-    "DXY 101.79 (-0.42% today, down), gold-dollar corr -0.38.",
-    "WTI 87.70 (-3.03% today, down), gold-oil corr -0.37.",
-    "Headlines: dollar -0.18, oil -0.33, fresh shock.",
+    "Gold 4101.86 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 4111.24, ATR 3.22, day range 4054.97-4134.15.",
+    "DXY 101.82 (-0.39% today, down), gold-dollar corr -0.35.",
+    "WTI 87.69 (-3.04% today, down), gold-oil corr -0.36.",
+    "Headlines: dollar -0.17, oil -0.45, fresh shock.",
     "Dollar: US Dollar Falls Early Monday, Focus on Consumer, Producer Prices This Week - www.marketscreener.com",
-    "Oil: Crude Oil Falls Over 3%; NRG Energy Shares Jump After Strong Q3 Results - Benzinga",
+    "Oil: Crude Oil Price Forecast: Oil Falls 4% as US, Iran Signal Talks, Technicals Point to Brent Testing $88 - TradingKey",
     "Next high-impact US release: Core CPI m/m Tue 13:30 UTC."
   ],
   "active": [],
-  "last_check": "2026-11-09T17:50:05.234317+00:00"
+  "last_check": "2026-11-09T18:04:50.310951+00:00"
 }
