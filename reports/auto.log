@@ -316,3 +316,4 @@ NameError: name 'load_calendar' is not defined
 2026-11-09 03:57 UTC  live: SELL TP hit
 2026-11-09 04:06 UTC  live: gold 4118.49 | graded: 24c498c3 stand aside -> loss (-1.00R) | opened stand aside a5185239
 2026-11-09 04:10 UTC  live: SELL now expired: Signal is 120 minutes old without an entry. Waiting for a fresh one.
+2026-11-09 04:21 UTC  live: gold 4120.70 | holding flat stand_aside a5185239 | new read flat stand_aside not opened
