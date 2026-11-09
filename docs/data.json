@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-09 08:00 UTC",
+  "updated": "2026-11-09 08:14 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4088.38,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.26). Take an entry only if price reaches it.",
+  "price": 4091.94,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.24). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4057.69,
-      "sl": 4052.69,
-      "tp1": 4070.89,
+      "entry_high": 4057.57,
+      "sl": 4052.57,
+      "tp1": 4071.07,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.26,
+      "score": 0.24,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T08:00:12.834713+00:00"
+      "checked_at": "2026-11-09T08:14:46.867843+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4131.43,
+      "entry_low": 4131.55,
       "entry_high": 4134.15,
-      "sl": 4136.43,
-      "tp1": 4118.23,
+      "sl": 4136.55,
+      "tp1": 4118.05,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.26,
+      "score": 0.22,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T08:00:12.834713+00:00"
+      "checked_at": "2026-11-09T08:14:46.867843+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "down",
     "htf": "up",
     "session": "london",
-    "vwap": 4111.186070082723,
-    "atr": 4.146428571428585,
+    "vwap": 4110.580242238232,
+    "atr": 4.359285714285696,
     "day_low": 4054.97,
     "day_high": 4134.15,
-    "range_pos": 0.4219499873705529
+    "range_pos": 0.4669108360697188
   },
   "dxy": {
     "ok": true,
-    "last": 102.00800323486328,
-    "pct": -0.20641811356265377,
+    "last": 101.96700286865234,
+    "pct": -0.24652843111709774,
     "state": "down",
-    "corr": -0.12556655910192305
+    "corr": -0.13215585753557696
   },
   "oil": {
     "ok": true,
-    "last": 89.75,
-    "pct": -0.7629394325296318,
-    "state": "down",
-    "corr": -0.30100091992764466
+    "last": 90.13999938964844,
+    "pct": -0.33171499741187727,
+    "state": "flat",
+    "corr": -0.29013206106728584
   },
   "news": {
-    "usd": 0.3317177573335339,
-    "oil": -0.46611408307671864,
+    "usd": 0.4717933043493223,
+    "oil": -0.4654967627332607,
     "shock": true,
     "usd_headlines": [
+      "Federal Reserve: December rate hike view reinforced \u2013 Commerzbank - FXStreet",
       "US dollar holds gains as Fed rate hike bets rise - Profit by Pakistan Today",
-      "Oil price decline eases inflation concerns, dollar index falls - KuCoin",
-      "Euro advances on ECB rate hike expectations, weaker US Dollar - FXStreet"
+      "Oil price decline eases inflation concerns, dollar index falls - KuCoin"
     ],
     "oil_headlines": [
       "Rupee Stages A Strong Comeback Against The US Dollar, Jumps 24 Paise To 93.74 As Crude Slips Below $100 And - Free Press Journal",
@@ -111,19 +111,19 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4743409502330736,
-      "trust": 0.5390238070830382
+      "score": 0.5189278221751109,
+      "trust": 0.5896907070171715
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.2620072598425281,
+      "score": 0.24193180551566085,
       "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.26,
+      "score": 0.22447380572892017,
       "trust": 1.0
     },
     {
@@ -140,10 +140,10 @@
     }
   ],
   "record": {
-    "graded": 40,
+    "graded": 41,
     "wins": 13,
-    "losses": 18,
+    "losses": 19,
     "scratches": 9,
-    "avg_r": -0.0799784586087675
+    "avg_r": -0.10241800839879757
   }
 }
