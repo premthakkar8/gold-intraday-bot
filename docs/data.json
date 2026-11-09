@@ -1,34 +1,15 @@
 {
-  "updated": "2026-11-09 01:26 UTC",
+  "updated": "2026-11-09 01:40 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4111.94,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
+  "price": 4115.67,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.27). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4055.2,
-      "sl": 4050.2,
-      "tp1": 4074.63,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.34,
-      "style": "trend_align",
-      "favored": true,
-      "ready": false,
-      "status": "far",
-      "reason": "Price is 56.74 away from the entry (6.5 ATR). Unlikely to fill soon.",
-      "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T01:26:00.245190+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4112.06,
-      "entry_high": 4112.29,
-      "sl": 4117.06,
-      "tp1": 4092.63,
+      "entry_high": 4055.44,
+      "sl": 4050.44,
+      "tp1": 4074.26,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -37,10 +18,29 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-08T23:29:00.355340+00:00",
+      "checked_at": "2026-11-09T01:40:40.022017+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4115.49,
+      "entry_high": 4115.96,
+      "sl": 4120.49,
+      "tp1": 4096.67,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.27,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
       "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "reason": "Strategy score is only 0.27. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-09T01:11:21.794383+00:00",
-      "checked_at": "2026-11-09T01:26:00.245190+00:00"
+      "checked_at": "2026-11-09T01:40:40.022017+00:00"
     }
   ],
   "active": [
@@ -69,37 +69,37 @@
   ],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 4091.037954163966,
-    "atr": 8.679999999999902,
+    "vwap": 4093.458836178642,
+    "atr": 8.230714285714287,
     "day_low": 4054.97,
-    "day_high": 4112.29,
-    "range_pos": 0.9938939288206496
+    "day_high": 4115.96,
+    "range_pos": 0.9952451221511729
   },
   "dxy": {
     "ok": true,
-    "last": 102.16400146484375,
-    "pct": -0.053806341505393804,
+    "last": 102.14099884033203,
+    "pct": -0.07630961791526512,
     "state": "flat",
-    "corr": -0.21780432916239742
+    "corr": -0.241947677918156
   },
   "oil": {
     "ok": true,
-    "last": 90.51000213623047,
-    "pct": 0.07739904128106338,
+    "last": 90.54000091552734,
+    "pct": 0.11056885384968912,
     "state": "flat",
-    "corr": -0.08878455906879201
+    "corr": -0.12069270166026687
   },
   "news": {
-    "usd": 0.2104863833656467,
+    "usd": 0.42345600464690536,
     "oil": 0.0,
     "shock": true,
     "usd_headlines": [
+      "Euro advances on ECB rate hike expectations, weaker US Dollar - FXStreet",
       "Gold Price Today: Yellow metal holds near $4,100 as weak US dollar counters Fed rate hike bets - ET Now",
-      "Foreign Investors Pivot Into US Dollar Bonds, Yields Ease - MarketForces Africa",
-      "US Dollar Strengthens After Jobs Report Beats Major Bank Forecasts - Exchange Rates UK"
+      "Foreign Investors Pivot Into US Dollar Bonds, Yields Ease - MarketForces Africa"
     ],
     "oil_headlines": [
       "Iraq's 5 Million Bpd Oil Claim Complicates Its OPEC Quota Push - Crude Oil Prices Today | OilPrice.com",
@@ -113,26 +113,34 @@
       "impact": "Medium",
       "forecast": "",
       "previous": ""
+    },
+    {
+      "title": "Core CPI m/m",
+      "when": "Tue 13:30 UTC",
+      "impact": "High",
+      "forecast": "0.2%",
+      "previous": "0.3%"
+    },
+    {
+      "title": "CPI m/m",
+      "when": "Tue 13:30 UTC",
+      "impact": "High",
+      "forecast": "0.3%",
+      "previous": "0.6%"
     }
   ],
   "scorecard": [
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5599482455900106,
-      "trust": 0.999907581410733
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.34229346878384115,
-      "trust": 0.997358592027509
+      "score": 0.6416347377277637,
+      "trust": 1.1457763173710065
     },
     {
       "style": "Trade with the dollar",
-      "bias": "flat",
-      "score": 0.12031607865762461,
-      "trust": 1.0026339888135385
+      "bias": "short",
+      "score": 0.26992228735648915,
+      "trust": 0.9999119069872212
     },
     {
       "style": "Fade the session range",
@@ -141,10 +149,16 @@
       "trust": 1.0
     },
     {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.099802173852305,
+      "trust": 0.99802173852305
+    },
+    {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07984084714557578,
-      "trust": 0.9980105893196972
+      "score": 0.08,
+      "trust": 1.0
     }
   ],
   "record": {

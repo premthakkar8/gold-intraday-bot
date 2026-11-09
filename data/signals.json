@@ -1,34 +1,15 @@
 {
-  "updated_at": "2026-11-09T01:26:00.245190+00:00",
-  "atr": 8.679999999999902,
-  "price": 4108.63,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-09T01:40:40.022017+00:00",
+  "atr": 8.230714285714287,
+  "price": 4125.36,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.27). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4055.2,
-      "sl": 4050.2,
-      "tp1": 4074.63,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.34,
-      "style": "trend_align",
-      "favored": true,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T01:39:07.463488+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4112.06,
-      "entry_high": 4112.29,
-      "sl": 4117.06,
-      "tp1": 4092.63,
+      "entry_high": 4055.44,
+      "sl": 4050.44,
+      "tp1": 4074.26,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -37,18 +18,37 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-08T23:29:00.355340+00:00",
+      "checked_at": "2026-11-09T01:53:46.621541+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4115.49,
+      "entry_high": 4115.96,
+      "sl": 4120.49,
+      "tp1": 4096.67,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.27,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "invalid",
+      "reason": "Price 4124.42 broke above the SL 4120.49 before the entry triggered.",
       "created_at": "2026-11-09T01:11:21.794383+00:00",
-      "checked_at": "2026-11-09T01:39:07.463488+00:00"
+      "checked_at": "2026-11-09T01:53:46.621541+00:00"
     }
   ],
   "research": [
-    "Gold 4111.94 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 4091.04, ATR 8.68, day range 4054.97-4112.29.",
-    "DXY 102.16 (-0.05% today, flat), gold-dollar corr -0.22.",
-    "WTI 90.51 (+0.08% today, flat), gold-oil corr -0.09.",
-    "Headlines: dollar +0.21, oil +0.00, fresh shock.",
-    "Dollar: Gold Price Today: Yellow metal holds near $4,100 as weak US dollar counters Fed rate hike bets - ET Now",
+    "Gold 4115.67 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4093.46, ATR 8.23, day range 4054.97-4115.96.",
+    "DXY 102.14 (-0.08% today, flat), gold-dollar corr -0.24.",
+    "WTI 90.54 (+0.11% today, flat), gold-oil corr -0.12.",
+    "Headlines: dollar +0.42, oil +0.00, fresh shock.",
+    "Dollar: Euro advances on ECB rate hike expectations, weaker US Dollar - FXStreet",
     "Oil: Iraq's 5 Million Bpd Oil Claim Complicates Its OPEC Quota Push - Crude Oil Prices Today | OilPrice.com",
     "No high-impact US release in the next 24 hours."
   ],
@@ -205,8 +205,8 @@
       "checked_at": "2026-11-09T01:12:25.698477+00:00",
       "entry": 4110.86,
       "entered_at": "2026-11-09T01:12:25.698477+00:00",
-      "closed": null
+      "closed": "sl"
     }
   ],
-  "last_check": "2026-11-09T01:39:07.463488+00:00"
+  "last_check": "2026-11-09T01:53:46.621541+00:00"
 }

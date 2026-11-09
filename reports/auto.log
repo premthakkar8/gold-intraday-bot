@@ -298,3 +298,6 @@ NameError: name 'load_calendar' is not defined
 2026-11-09 01:23 UTC  live: BUY valid again
 2026-11-09 01:26 UTC  live: gold 4111.94 | graded: cb697e4a long oil_shock -> scratch (price never reached the entry zone) | opened stand aside 595ea2db
 2026-11-09 01:29 UTC  live: BUY now expired: Signal is 120 minutes old without an entry. Waiting for a fresh one.
+2026-11-09 01:40 UTC  live: gold 4115.67 | holding flat stand_aside 595ea2db | new read flat stand_aside not opened
+2026-11-09 01:41 UTC  live: SELL SL hit
+2026-11-09 01:42 UTC  live: SELL now invalid: Price 4124.42 broke above the SL 4120.49 before the entry triggered.
