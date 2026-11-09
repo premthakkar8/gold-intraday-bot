@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-09 12:38 UTC",
+  "updated": "2026-11-09 12:53 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4118.15,
+  "price": 4117.53,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4058.36,
-      "sl": 4053.36,
-      "tp1": 4069.88,
+      "entry_high": 4058.14,
+      "sl": 4053.14,
+      "tp1": 4070.22,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T12:38:23.140350+00:00"
+      "checked_at": "2026-11-09T12:53:03.350215+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4130.76,
+      "entry_low": 4130.98,
       "entry_high": 4134.15,
-      "sl": 4135.76,
-      "tp1": 4119.24,
+      "sl": 4135.98,
+      "tp1": 4118.9,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "invalid",
       "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T12:38:23.140350+00:00"
+      "checked_at": "2026-11-09T12:53:03.350215+00:00"
     }
   ],
   "active": [],
@@ -49,39 +49,39 @@
     "structure": "up",
     "htf": "up",
     "session": "overlap",
-    "vwap": 4107.665801909528,
-    "atr": 2.9192857142856417,
+    "vwap": 4107.862987165291,
+    "atr": 3.329285714285756,
     "day_low": 4054.97,
     "day_high": 4134.15,
-    "range_pos": 0.7979287698913863
+    "range_pos": 0.7900985097246789
   },
   "dxy": {
     "ok": true,
-    "last": 101.8759994506836,
-    "pct": -0.33555631868490704,
+    "last": 101.87999725341797,
+    "pct": -0.3316453014912843,
     "state": "down",
-    "corr": -0.42417048366861587
+    "corr": -0.39918322772986026
   },
   "oil": {
     "ok": true,
-    "last": 88.25,
-    "pct": -2.421497547863398,
+    "last": 88.37000274658203,
+    "pct": -2.2888098617260857,
     "state": "down",
-    "corr": -0.6229640262149171
+    "corr": -0.6037976684881456
   },
   "news": {
-    "usd": 0.4149507412191805,
-    "oil": 0.032880824514559065,
+    "usd": 0.3142524278699146,
+    "oil": -0.1502593334884998,
     "shock": true,
     "usd_headlines": [
       "Treasury Yields Rise on Strong Jobs Data - WSJ",
-      "Federal Reserve: December rate hike view reinforced \u2013 Commerzbank - FXStreet",
-      "Oil price decline eases inflation concerns, dollar index falls - KuCoin"
+      "Federal Reserve: Expectations of December rate hike strengthen \u2013 Commerzbank - www.tmgm.com",
+      "Federal Reserve: December rate hike view reinforced \u2013 Commerzbank - FXStreet"
     ],
     "oil_headlines": [
+      "Crude Oil Falls 16% as Middle East Attacks Raise Fresh Risks - Analytics Insight",
       "Oil prices today: Brent crude, WTI fall as Trump rules out fresh Iran strikes amid Strait of Hormuz concerns | Hindustan Times - Hindustan Times",
-      "Indian shares inch higher to close at 8-month high as crude oil drops - TradingView",
-      "Iran De-escalation Cut Brent-WTI Spread to $7.06, Underpricing Supply Risk - Crux Investor"
+      "Indian shares inch higher to close at 8-month high as crude oil drops - TradingView"
     ]
   },
   "events": [
@@ -117,13 +117,13 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.35689802146522476,
-      "trust": 0.6373178954736156
+      "score": 0.3571846605829174,
+      "trust": 0.6378297510409239
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.20456344322003575,
+      "score": 0.2500225330444119,
       "trust": 1.0
     },
     {
@@ -140,10 +140,10 @@
     }
   ],
   "record": {
-    "graded": 43,
-    "wins": 14,
+    "graded": 44,
+    "wins": 15,
     "losses": 20,
     "scratches": 9,
-    "avg_r": -0.09765438010117908
+    "avg_r": -0.0727076896443341
   }
 }

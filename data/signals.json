@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-09T12:38:23.140350+00:00",
-  "atr": 2.9192857142856417,
-  "price": 4119.72,
+  "updated_at": "2026-11-09T12:53:03.350215+00:00",
+  "atr": 3.329285714285756,
+  "price": 4124.87,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4058.36,
-      "sl": 4053.36,
-      "tp1": 4069.88,
+      "entry_high": 4058.14,
+      "sl": 4053.14,
+      "tp1": 4070.22,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T12:51:31.640556+00:00"
+      "checked_at": "2026-11-09T13:06:08.895655+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4130.76,
+      "entry_low": 4130.98,
       "entry_high": 4134.15,
-      "sl": 4135.76,
-      "tp1": 4119.24,
+      "sl": 4135.98,
+      "tp1": 4118.9,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,41 +40,19 @@
       "status": "invalid",
       "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T12:51:31.640556+00:00"
+      "checked_at": "2026-11-09T13:06:08.895655+00:00"
     }
   ],
   "research": [
-    "Gold 4118.15 (VANTAGE:XAUUSD). 5m up, 1h up. VWAP 4107.67, ATR 2.92, day range 4054.97-4134.15.",
-    "DXY 101.88 (-0.34% today, down), gold-dollar corr -0.42.",
-    "WTI 88.25 (-2.42% today, down), gold-oil corr -0.62.",
-    "Headlines: dollar +0.41, oil +0.03, fresh shock.",
+    "Gold 4117.53 (VANTAGE:XAUUSD). 5m up, 1h up. VWAP 4107.86, ATR 3.33, day range 4054.97-4134.15.",
+    "DXY 101.88 (-0.33% today, down), gold-dollar corr -0.40.",
+    "WTI 88.37 (-2.29% today, down), gold-oil corr -0.60.",
+    "Headlines: dollar +0.31, oil -0.15, fresh shock.",
     "Dollar: Treasury Yields Rise on Strong Jobs Data - WSJ",
-    "Oil: Oil prices today: Brent crude, WTI fall as Trump rules out fresh Iran strikes amid Strait of Hormuz concerns | Hindustan Times - Hindustan Times",
+    "Oil: Crude Oil Falls 16% as Middle East Attacks Raise Fresh Risks - Analytics Insight",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
-    {
-      "side": "SELL",
-      "entry_low": 4102.34,
-      "entry_high": 4102.94,
-      "sl": 4107.34,
-      "tp1": 4083.84,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-09T00:56:44.007468+00:00",
-      "checked_at": "2026-11-09T00:58:47.207281+00:00",
-      "entry": 4102.34,
-      "entered_at": "2026-11-09T00:58:47.207281+00:00",
-      "closed": "sl"
-    },
     {
       "side": "SELL",
       "entry_low": 4110.86,
@@ -142,5 +120,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-09T12:51:31.640556+00:00"
+  "last_check": "2026-11-09T13:06:08.895655+00:00"
 }
