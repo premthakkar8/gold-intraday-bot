@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-09 03:37 UTC",
+  "updated": "2026-11-09 03:52 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4118.33,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.33). Take an entry only if price reaches it.",
+  "price": 4121.67,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4057.76,
-      "sl": 4052.76,
-      "tp1": 4070.78,
+      "entry_high": 4057.9,
+      "sl": 4052.9,
+      "tp1": 4070.57,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T03:37:35.480795+00:00"
+      "checked_at": "2026-11-09T03:52:13.553672+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4131.36,
+      "entry_low": 4131.22,
       "entry_high": 4134.15,
-      "sl": 4136.36,
-      "tp1": 4118.34,
+      "sl": 4136.22,
+      "tp1": 4118.55,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.33,
+      "score": 0.34,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.33 (Trade with the dollar), hawkish dollar news +0.59, price above VWAP.",
+      "reason": "Score 0.34 (Trade with the dollar), hawkish dollar news +0.59, price above VWAP.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T03:37:35.480795+00:00"
+      "checked_at": "2026-11-09T03:52:13.553672+00:00"
     }
   ],
   "active": [
@@ -69,31 +69,31 @@
   ],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 4108.242509189145,
-    "atr": 4.012142857142602,
+    "vwap": 4108.719103066819,
+    "atr": 3.7549999999997192,
     "day_low": 4054.97,
     "day_high": 4134.15,
-    "range_pos": 0.8002020712301119
+    "range_pos": 0.8423844405152868
   },
   "dxy": {
     "ok": true,
-    "last": 102.177001953125,
-    "pct": -0.04108807185284962,
+    "last": 102.1729965209961,
+    "pct": -0.04500655281974264,
     "state": "flat",
-    "corr": -0.1546469966099626
+    "corr": -0.18379120879464242
   },
   "oil": {
     "ok": true,
-    "last": 91.19999694824219,
-    "pct": 0.8403300379478852,
+    "last": 91.11000061035156,
+    "pct": 0.740820600242008,
     "state": "up",
-    "corr": -0.19093676823054873
+    "corr": -0.1831875171997902
   },
   "news": {
-    "usd": 0.5857017137463826,
+    "usd": 0.58735351698532,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
@@ -133,39 +133,39 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.7557770630276269,
-      "trust": 1.1451167621630711
+      "score": 0.7594682289870852,
+      "trust": 1.15070943785922
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3267605681854167,
-      "trust": 1.0019506239977947
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.3062138901424293,
-      "trust": 0.9980438816776199
+      "score": 0.3352317528380829,
+      "trust": 1.0019478777486024
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.1196857011433896,
-      "trust": 0.99738084286158
+      "score": 0.11968614363921762,
+      "trust": 0.9973845303268135
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.09980466356621749,
+      "trust": 0.9980466356621749
     }
   ],
   "record": {
-    "graded": 32,
+    "graded": 33,
     "wins": 12,
-    "losses": 11,
+    "losses": 12,
     "scratches": 9,
-    "avg_r": 0.08752692673904063
+    "avg_r": 0.05457156532270606
   }
 }
