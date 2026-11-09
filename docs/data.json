@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-09 11:53 UTC",
+  "updated": "2026-11-09 12:08 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4110.32,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.45). Take an entry only if price reaches it.",
+  "price": 4107.92,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.39). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
@@ -14,14 +14,14 @@
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.45,
+      "score": 0.39,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T11:53:55.749462+00:00"
+      "checked_at": "2026-11-09T12:08:34.084399+00:00"
     },
     {
       "side": "SELL",
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T11:53:55.749462+00:00"
+      "checked_at": "2026-11-09T12:08:34.084399+00:00"
     }
   ],
   "active": [],
@@ -48,35 +48,35 @@
   "chart": {
     "structure": "sideways",
     "htf": "up",
-    "session": "london",
-    "vwap": 4107.480444610692,
-    "atr": 3.61142857142847,
+    "session": "overlap",
+    "vwap": 4107.49227773534,
+    "atr": 3.617857142857052,
     "day_low": 4054.97,
     "day_high": 4134.15,
-    "range_pos": 0.6990401616569843
+    "range_pos": 0.668729477140697
   },
   "dxy": {
     "ok": true,
-    "last": 101.81900024414062,
-    "pct": -0.3913181687871122,
+    "last": 101.86000061035156,
+    "pct": -0.3512078512326683,
     "state": "down",
-    "corr": -0.33730257954976894
+    "corr": -0.4490485046675096
   },
   "oil": {
     "ok": true,
-    "last": 88.12000274658203,
-    "pct": -2.565236214281713,
+    "last": 88.30999755859375,
+    "pct": -2.3551579227261468,
     "state": "down",
-    "corr": -0.6032761236278782
+    "corr": -0.6119685349036968
   },
   "news": {
-    "usd": 0.3028633060834148,
-    "oil": -0.24087978930821988,
+    "usd": 0.47132816166656333,
+    "oil": -0.23886183898132565,
     "shock": true,
     "usd_headlines": [
+      "Treasury Yields Rise on Strong Jobs Data - WSJ",
       "Federal Reserve: December rate hike view reinforced \u2013 Commerzbank - FXStreet",
-      "Oil price decline eases inflation concerns, dollar index falls - KuCoin",
-      "Euro advances on ECB rate hike expectations, weaker US Dollar - FXStreet"
+      "Oil price decline eases inflation concerns, dollar index falls - KuCoin"
     ],
     "oil_headlines": [
       "Indian shares inch higher to close at 8-month high as crude oil drops - TradingView",
@@ -109,16 +109,16 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.4548606858724121,
-      "trust": 0.9974097967990981
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.2547863775684072,
-      "trust": 0.4549756742292985
+      "score": 0.44725581568141487,
+      "trust": 0.7986710994310979
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "long",
+      "score": 0.3875469160195838,
+      "trust": 0.9980600834411353
     },
     {
       "style": "Trade the oil shock",

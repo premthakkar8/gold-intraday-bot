@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-09T11:53:55.749462+00:00",
-  "atr": 3.61142857142847,
-  "price": 4108.03,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.45). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-09T12:08:34.084399+00:00",
+  "atr": 3.617857142857052,
+  "price": 4113.05,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.39). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
@@ -14,14 +14,14 @@
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.45,
+      "score": 0.39,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T12:07:02.467559+00:00"
+      "checked_at": "2026-11-09T12:21:41.591026+00:00"
     },
     {
       "side": "SELL",
@@ -40,63 +40,19 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T12:07:02.467559+00:00"
+      "checked_at": "2026-11-09T12:21:41.591026+00:00"
     }
   ],
   "research": [
-    "Gold 4110.32 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 4107.48, ATR 3.61, day range 4054.97-4134.15.",
-    "DXY 101.82 (-0.39% today, down), gold-dollar corr -0.34.",
-    "WTI 88.12 (-2.57% today, down), gold-oil corr -0.60.",
-    "Headlines: dollar +0.30, oil -0.24, fresh shock.",
-    "Dollar: Federal Reserve: December rate hike view reinforced \u2013 Commerzbank - FXStreet",
+    "Gold 4107.92 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 4107.49, ATR 3.62, day range 4054.97-4134.15.",
+    "DXY 101.86 (-0.35% today, down), gold-dollar corr -0.45.",
+    "WTI 88.31 (-2.36% today, down), gold-oil corr -0.61.",
+    "Headlines: dollar +0.47, oil -0.24, fresh shock.",
+    "Dollar: Treasury Yields Rise on Strong Jobs Data - WSJ",
     "Oil: Indian shares inch higher to close at 8-month high as crude oil drops - TradingView",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
-    {
-      "side": "SELL",
-      "entry_low": 4071.29,
-      "entry_high": 4073.32,
-      "sl": 4076.29,
-      "tp1": 4065.24,
-      "tp2": 4056.37,
-      "rr": 1.8,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-08T23:58:14.750487+00:00",
-      "checked_at": "2026-11-09T00:11:21.209167+00:00",
-      "entry": 4071.29,
-      "entered_at": "2026-11-09T00:11:21.209167+00:00",
-      "closed": "tp"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4076.61,
-      "entry_high": 4078.54,
-      "sl": 4081.61,
-      "tp1": 4064.49,
-      "tp2": 4061.43,
-      "rr": 3.2,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.24,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.24. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-09T00:12:51.502389+00:00",
-      "checked_at": "2026-11-09T00:16:54.793393+00:00",
-      "entry": 4076.61,
-      "entered_at": "2026-11-09T00:16:54.793393+00:00",
-      "closed": "sl"
-    },
     {
       "side": "SELL",
       "entry_low": 4096.88,
@@ -208,5 +164,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-09T12:07:02.467559+00:00"
+  "last_check": "2026-11-09T12:21:41.591026+00:00"
 }
