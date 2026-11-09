@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-09 16:37 UTC",
+  "updated": "2026-11-09 16:52 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4116.88,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.28). Take an entry only if price reaches it.",
+  "price": 4106.67,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4057.58,
-      "sl": 4052.58,
-      "tp1": 4071.06,
+      "entry_high": 4057.51,
+      "sl": 4052.51,
+      "tp1": 4071.16,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.28,
+      "score": 0.51,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T16:37:56.568418+00:00"
+      "checked_at": "2026-11-09T16:52:35.886100+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4131.54,
+      "entry_low": 4131.61,
       "entry_high": 4134.15,
-      "sl": 4136.54,
-      "tp1": 4118.06,
+      "sl": 4136.61,
+      "tp1": 4117.96,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T16:37:56.568418+00:00"
+      "checked_at": "2026-11-09T16:52:35.886100+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "up",
     "session": "overlap",
-    "vwap": 4111.467462211171,
-    "atr": 4.352857142857114,
+    "vwap": 4111.477738823642,
+    "atr": 4.469999999999994,
     "day_low": 4054.97,
     "day_high": 4134.15,
-    "range_pos": 0.781889366001521
+    "range_pos": 0.6529426622884614
   },
   "dxy": {
     "ok": true,
-    "last": 101.83599853515625,
-    "pct": -0.3746888819409453,
+    "last": 101.84300231933594,
+    "pct": -0.3678371380788352,
     "state": "down",
-    "corr": -0.530253549735177
+    "corr": -0.5241057612677369
   },
   "oil": {
     "ok": true,
-    "last": 87.80999755859375,
-    "pct": -2.9080106278374025,
+    "last": 87.75,
+    "pct": -2.974350252974654,
     "state": "down",
-    "corr": -0.459576376158227
+    "corr": -0.4417456809505021
   },
   "news": {
-    "usd": -0.05642733930780104,
-    "oil": -0.22162590750536124,
+    "usd": -0.054634419568606235,
+    "oil": -0.2244046075194748,
     "shock": true,
     "usd_headlines": [
       "US Dollar Falls Early Monday, Focus on Consumer, Producer Prices This Week - www.marketscreener.com",
@@ -109,16 +109,16 @@
   ],
   "scorecard": [
     {
+      "style": "Trade with the dollar",
+      "bias": "long",
+      "score": 0.5132729252680719,
+      "trust": 1.0
+    },
+    {
       "style": "Stand aside",
       "bias": "flat",
       "score": 0.4704243191116725,
       "trust": 0.8400434269851293
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.2833356117359098,
-      "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
