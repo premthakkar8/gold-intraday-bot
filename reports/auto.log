@@ -333,3 +333,4 @@ NameError: name 'load_calendar' is not defined
 2026-11-09 07:45 UTC  live: gold 4090.98 | graded: add55f8c stand aside -> loss (-1.00R) | opened stand aside ae64dbdb
 2026-11-09 08:00 UTC  live: gold 4088.38 | graded: ae64dbdb stand aside -> loss (-1.00R) | opened stand aside c3c12b93
 2026-11-09 08:14 UTC  live: gold 4091.94 | graded: c3c12b93 stand aside -> loss (-1.00R) | opened stand aside 38aa4282
+2026-11-09 08:29 UTC  live: gold 4094.97 | holding flat stand_aside 38aa4282 | new read flat stand_aside not opened
