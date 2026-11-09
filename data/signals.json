@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-09T00:56:44.007468+00:00",
-  "atr": 8.001428571428505,
-  "price": 4103.71,
+  "updated_at": "2026-11-09T01:11:21.794383+00:00",
+  "atr": 8.907857142857049,
+  "price": 4107.7,
   "stance": "Strategy: the BUY plan from 23:14 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4055.57,
-      "sl": 4050.57,
-      "tp1": 4074.07,
+      "entry_high": 4055.07,
+      "sl": 4050.07,
+      "tp1": 4074.82,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -18,17 +18,17 @@
       "style": "trend_align",
       "favored": true,
       "ready": false,
-      "status": "far",
-      "reason": "Price is 48.14 away from the entry (6.0 ATR). Unlikely to fill soon.",
+      "status": "valid",
+      "reason": "Price 4106.48 is back within reach of the entry.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T01:09:51.186109+00:00"
+      "checked_at": "2026-11-09T01:24:30.542979+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4102.34,
-      "entry_high": 4102.94,
-      "sl": 4107.34,
-      "tp1": 4083.84,
+      "entry_low": 4110.86,
+      "entry_high": 4110.96,
+      "sl": 4115.86,
+      "tp1": 4091.11,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -39,16 +39,16 @@
       "ready": false,
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-09T00:56:44.007468+00:00",
-      "checked_at": "2026-11-09T01:09:51.186109+00:00"
+      "created_at": "2026-11-09T01:11:21.794383+00:00",
+      "checked_at": "2026-11-09T01:24:30.542979+00:00"
     }
   ],
   "research": [
-    "Gold 4100.98 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 4081.65, ATR 8.00, day range 4054.97-4102.94.",
-    "DXY 102.19 (-0.02% today, flat), gold-dollar corr -0.25.",
-    "WTI 90.70 (+0.29% today, flat), gold-oil corr -0.10.",
-    "Headlines: dollar -0.21, oil +0.00.",
-    "Dollar: Foreign Investors Pivot Into US Dollar Bonds, Yields Ease - MarketForces Africa",
+    "Gold 4107.64 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 4087.23, ATR 8.91, day range 4054.97-4110.96.",
+    "DXY 102.21 (-0.01% today, flat), gold-dollar corr -0.28.",
+    "WTI 90.62 (+0.20% today, flat), gold-oil corr -0.10.",
+    "Headlines: dollar +0.21, oil +0.00.",
+    "Dollar: Gold Price Today: Yellow metal holds near $4,100 as weak US dollar counters Fed rate hike bets - ET Now",
     "Oil: Iraq's 5 Million Bpd Oil Claim Complicates Its OPEC Quota Push - Crude Oil Prices Today | OilPrice.com",
     "No high-impact US release in the next 24 hours."
   ],
@@ -184,7 +184,29 @@
       "entry": 4102.34,
       "entered_at": "2026-11-09T00:58:47.207281+00:00",
       "closed": "sl"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4110.86,
+      "entry_high": 4110.96,
+      "sl": 4115.86,
+      "tp1": 4091.11,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-09T01:11:21.794383+00:00",
+      "checked_at": "2026-11-09T01:12:25.698477+00:00",
+      "entry": 4110.86,
+      "entered_at": "2026-11-09T01:12:25.698477+00:00",
+      "closed": null
     }
   ],
-  "last_check": "2026-11-09T01:09:51.186109+00:00"
+  "last_check": "2026-11-09T01:24:30.542979+00:00"
 }
