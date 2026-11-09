@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-09T10:26:22.412308+00:00",
-  "atr": 2.68357142857131,
-  "price": 4097.06,
-  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
+  "updated_at": "2026-11-09T10:40:54.598411+00:00",
+  "atr": 2.447142857142743,
+  "price": 4096.37,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.35). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4058.49,
-      "sl": 4053.49,
-      "tp1": 4069.68,
+      "entry_high": 4058.62,
+      "sl": 4053.62,
+      "tp1": 4069.49,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.7,
-      "style": "trend_align",
+      "score": 0.35,
+      "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T10:39:30.122877+00:00"
+      "checked_at": "2026-11-09T10:54:05.219437+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4130.63,
+      "entry_low": 4130.5,
       "entry_high": 4134.15,
-      "sl": 4135.63,
-      "tp1": 4119.44,
+      "sl": 4135.5,
+      "tp1": 4119.63,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -37,19 +37,19 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T10:39:30.122877+00:00"
+      "checked_at": "2026-11-09T10:54:05.219437+00:00"
     }
   ],
   "research": [
-    "Gold 4099.71 (VANTAGE:XAUUSD). 5m up, 1h up. VWAP 4108.02, ATR 2.68, day range 4054.97-4134.15.",
-    "DXY 101.82 (-0.39% today, down), gold-dollar corr -0.26.",
-    "WTI 90.39 (-0.06% today, flat), gold-oil corr -0.30.",
-    "Headlines: dollar +0.45, oil -0.06, fresh shock.",
+    "Gold 4097.18 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 4107.82, ATR 2.45, day range 4054.97-4134.15.",
+    "DXY 101.83 (-0.38% today, down), gold-dollar corr -0.25.",
+    "WTI 89.97 (-0.52% today, down), gold-oil corr -0.31.",
+    "Headlines: dollar +0.45, oil -0.40, fresh shock.",
     "Dollar: Federal Reserve: December rate hike view reinforced \u2013 Commerzbank - FXStreet",
-    "Oil: Iran De-escalation Cut Brent-WTI Spread to $7.06, Underpricing Supply Risk - Crux Investor",
+    "Oil: Indian shares inch higher to close at 8-month high as crude oil drops - Business Recorder",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -252,5 +252,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-09T10:39:30.122877+00:00"
+  "last_check": "2026-11-09T10:54:05.219437+00:00"
 }
