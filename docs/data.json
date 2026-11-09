@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-09 02:53 UTC",
+  "updated": "2026-11-09 03:08 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4121.84,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
+  "price": 4117.81,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.35). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4056.87,
-      "sl": 4051.87,
-      "tp1": 4072.12,
+      "entry_high": 4057.06,
+      "sl": 4052.06,
+      "tp1": 4071.83,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T02:53:45.014226+00:00"
+      "checked_at": "2026-11-09T03:08:25.964932+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4132.25,
+      "entry_low": 4132.06,
       "entry_high": 4134.15,
-      "sl": 4137.25,
-      "tp1": 4117.0,
+      "sl": 4137.06,
+      "tp1": 4117.29,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.34,
+      "score": 0.35,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.34 (Trade with the dollar), hawkish dollar news +0.58, price above VWAP.",
+      "reason": "Score 0.35 (Trade with the dollar), hawkish dollar news +0.58, price above VWAP.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T02:53:45.014226+00:00"
+      "checked_at": "2026-11-09T03:08:25.964932+00:00"
     }
   ],
   "active": [
@@ -72,28 +72,28 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 4106.315876688949,
-    "atr": 5.6335714285712255,
+    "vwap": 4107.107856584031,
+    "atr": 5.2892857142855325,
     "day_low": 4054.97,
     "day_high": 4134.15,
-    "range_pos": 0.8445314473351918
+    "range_pos": 0.7936347562515879
   },
   "dxy": {
     "ok": true,
-    "last": 102.16000366210938,
-    "pct": -0.05771735869901655,
+    "last": 102.16100311279297,
+    "pct": -0.05673960440061086,
     "state": "flat",
-    "corr": -0.20318053674152828
+    "corr": -0.24974744462310886
   },
   "oil": {
     "ok": true,
-    "last": 90.81999969482422,
-    "pct": 0.4201650189739426,
+    "last": 91.0,
+    "pct": 0.6191923302485071,
     "state": "up",
-    "corr": -0.057316459937148505
+    "corr": -0.06069819560785026
   },
   "news": {
-    "usd": 0.5811072000373175,
+    "usd": 0.5825900478617875,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
@@ -102,6 +102,7 @@
       "Foreign Investors Pivot Into US Dollar Bonds, Yields Ease - MarketForces Africa"
     ],
     "oil_headlines": [
+      "GIFT Nifty up 55 pts, signals firm start for Sensex, Nifty as Asian markets rebound, crude oil falls - Moneycontrol.com",
       "Oil Price Today (November 9): Crude oil falls below $100 again as Trump says fresh attacks \u2018highly unlikel - The Economic Times"
     ]
   },
@@ -138,14 +139,14 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3372840562584265,
-      "trust": 1.0019588742054242
+      "score": 0.350255151623769,
+      "trust": 1.0019561073085679
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11968437180937767,
-      "trust": 0.9973697650781473
+      "score": 0.1196848176321089,
+      "trust": 0.9973734802675742
     },
     {
       "style": "Fade the session range",
@@ -156,8 +157,8 @@
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.09980356082316222,
-      "trust": 0.9980356082316222
+      "score": 0.09980383829219998,
+      "trust": 0.9980383829219998
     }
   ],
   "record": {
