@@ -301,3 +301,6 @@ NameError: name 'load_calendar' is not defined
 2026-11-09 01:40 UTC  live: gold 4115.67 | holding flat stand_aside 595ea2db | new read flat stand_aside not opened
 2026-11-09 01:41 UTC  live: SELL SL hit
 2026-11-09 01:42 UTC  live: SELL now invalid: Price 4124.42 broke above the SL 4120.49 before the entry triggered.
+2026-11-09 01:55 UTC  live: gold 4125.55 | holding flat stand_aside 595ea2db | new read flat stand_aside not opened
+2026-11-09 01:56 UTC  live: SELL entry reached at 4126.79
+2026-11-09 02:06 UTC  live: SELL SL hit
