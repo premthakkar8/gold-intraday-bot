@@ -1,17 +1,17 @@
 {
-  "updated": "2026-11-09 00:42 UTC",
+  "updated": "2026-11-09 00:56 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4095.63,
+  "price": 4100.98,
   "stance": "Strategy: the BUY plan from 23:14 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4053.86,
-      "entry_high": 4055.05,
-      "sl": 4050.05,
-      "tp1": 4066.28,
-      "tp2": 4072.08,
-      "rr": 2.7,
+      "entry_low": 4054.97,
+      "entry_high": 4055.57,
+      "sl": 4050.57,
+      "tp1": 4074.07,
+      "tp2": null,
+      "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.43,
@@ -19,16 +19,16 @@
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.43 (Trade with the intraday trend), oil supply news +1.00.",
+      "reason": "Score 0.43 (Trade with the intraday trend).",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T00:42:07.977362+00:00"
+      "checked_at": "2026-11-09T00:56:44.007468+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4096.88,
-      "entry_high": 4098.07,
-      "sl": 4101.88,
-      "tp1": 4079.85,
+      "entry_low": 4102.34,
+      "entry_high": 4102.94,
+      "sl": 4107.34,
+      "tp1": 4083.84,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -39,8 +39,8 @@
       "ready": false,
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-09T00:42:07.977362+00:00",
-      "checked_at": "2026-11-09T00:42:07.977362+00:00"
+      "created_at": "2026-11-09T00:56:44.007468+00:00",
+      "checked_at": "2026-11-09T00:56:44.007468+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 4066.2813849793256,
-    "atr": 6.935714285714312,
-    "day_low": 4053.86,
-    "day_high": 4098.07,
-    "range_pos": 0.944808866772232
+    "vwap": 4081.647049168761,
+    "atr": 8.001428571428505,
+    "day_low": 4054.97,
+    "day_high": 4102.94,
+    "range_pos": 0.9591411298728363
   },
   "dxy": {
     "ok": true,
-    "last": 102.19300079345703,
-    "pct": -0.025436539305088376,
+    "last": 102.19499969482422,
+    "pct": -0.023481030708277003,
     "state": "flat",
-    "corr": -0.3092533495948257
+    "corr": -0.2463460119057419
   },
   "oil": {
     "ok": true,
-    "last": 90.4800033569336,
-    "pct": 0.04422922871243764,
+    "last": 90.69999694824219,
+    "pct": 0.28747733283662974,
     "state": "flat",
-    "corr": -0.08592506882072083
+    "corr": -0.10330024275256379
   },
   "news": {
-    "usd": -0.20826583207386218,
-    "oil": 1.0,
+    "usd": -0.21138714806403927,
+    "oil": 0.0,
     "shock": false,
     "usd_headlines": [
       "Foreign Investors Pivot Into US Dollar Bonds, Yields Ease - MarketForces Africa",
@@ -79,7 +79,8 @@
       "EXCLUSIVE: CD Rates Climb as Treasury Yields Fall, Squeezing Companies - Seoul Economic Daily"
     ],
     "oil_headlines": [
-      "IOC plans to buy crude oil, LPG ships amid Strait of Hormuz disruptions - The Federal"
+      "Iraq's 5 Million Bpd Oil Claim Complicates Its OPEC Quota Push - Crude Oil Prices Today | OilPrice.com",
+      "WTI oil price outlook: After a 17.5% slide, can buyers reclaim $92.53? - investingLive"
     ]
   },
   "events": [
@@ -95,32 +96,32 @@
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.4278620399484965,
-      "trust": 0.9973474124673576
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.3018956562099049,
-      "trust": 0.9980021692889417
+      "score": 0.4278636383378433,
+      "trust": 0.9973511383166509
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.21997958185632435,
-      "trust": 0.9999071902560198
+      "score": 0.21997961053584023,
+      "trust": 0.9999073206174556
     },
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.12031741643671907,
-      "trust": 1.002645136972659
+      "score": 0.12031697059061904,
+      "trust": 1.002641421588492
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.07984039803685367,
+      "trust": 0.9980049754606708
     }
   ],
   "record": {

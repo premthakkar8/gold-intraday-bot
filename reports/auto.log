@@ -278,3 +278,13 @@ NameError: name 'load_calendar' is not defined
 2026-11-09 00:42 UTC  live: gold 4095.63 | holding long oil_shock cb697e4a | new read flat stand_aside not opened
 2026-11-09 00:43 UTC  live: SELL entry reached at 4098.48
 2026-11-09 00:45 UTC  live: SELL SL hit
+2026-11-09 00:56 UTC  live: gold 4100.98 | holding long oil_shock cb697e4a | new read flat stand_aside not opened
+2026-11-09 00:58 UTC  live: BUY now far: Price is 48.37 away from the entry (6.0 ATR). Unlikely to fill soon.
+2026-11-09 00:58 UTC  live: SELL entry reached at 4103.94
+2026-11-09 01:00 UTC  live: BUY valid again
+2026-11-09 01:00 UTC  live: SELL SL hit
+2026-11-09 01:01 UTC  live: BUY now far: Price is 52.12 away from the entry (6.5 ATR). Unlikely to fill soon.
+2026-11-09 01:02 UTC  live: BUY valid again
+2026-11-09 01:03 UTC  live: BUY now far: Price is 51.42 away from the entry (6.4 ATR). Unlikely to fill soon.
+2026-11-09 01:07 UTC  live: BUY valid again
+2026-11-09 01:09 UTC  live: BUY now far: Price is 48.14 away from the entry (6.0 ATR). Unlikely to fill soon.
