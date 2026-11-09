@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-09T09:57:06.078005+00:00",
-  "atr": 2.8778571428571076,
-  "price": 4100.15,
+  "updated_at": "2026-11-09T10:11:43.404973+00:00",
+  "atr": 2.9521428571428197,
+  "price": 4099.41,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4058.39,
-      "sl": 4053.39,
-      "tp1": 4069.84,
+      "entry_high": 4058.35,
+      "sl": 4053.35,
+      "tp1": 4069.91,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T10:10:12.649322+00:00"
+      "checked_at": "2026-11-09T10:24:50.201315+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4130.73,
+      "entry_low": 4130.77,
       "entry_high": 4134.15,
-      "sl": 4135.73,
-      "tp1": 4119.28,
+      "sl": 4135.77,
+      "tp1": 4119.21,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,14 +40,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T10:10:12.649322+00:00"
+      "checked_at": "2026-11-09T10:24:50.201315+00:00"
     }
   ],
   "research": [
-    "Gold 4096.67 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 4108.35, ATR 2.88, day range 4054.97-4134.15.",
-    "DXY 101.87 (-0.35% today, down), gold-dollar corr -0.24.",
-    "WTI 90.41 (-0.03% today, flat), gold-oil corr -0.36.",
-    "Headlines: dollar +0.46, oil -0.06, fresh shock.",
+    "Gold 4098.37 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 4108.17, ATR 2.95, day range 4054.97-4134.15.",
+    "DXY 101.84 (-0.37% today, down), gold-dollar corr -0.23.",
+    "WTI 90.41 (-0.03% today, flat), gold-oil corr -0.27.",
+    "Headlines: dollar +0.45, oil -0.06, fresh shock.",
     "Dollar: Federal Reserve: December rate hike view reinforced \u2013 Commerzbank - FXStreet",
     "Oil: Iran De-escalation Cut Brent-WTI Spread to $7.06, Underpricing Supply Risk - Crux Investor",
     "No high-impact US release in the next 24 hours."
@@ -252,5 +252,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-09T10:10:12.649322+00:00"
+  "last_check": "2026-11-09T10:24:50.201315+00:00"
 }
