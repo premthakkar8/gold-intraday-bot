@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-09 11:10 UTC",
+  "updated": "2026-11-09 11:24 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4099.66,
+  "price": 4102.72,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4058.79,
-      "sl": 4053.79,
-      "tp1": 4069.24,
+      "entry_high": 4058.2,
+      "sl": 4053.2,
+      "tp1": 4070.12,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T11:10:03.766858+00:00"
+      "checked_at": "2026-11-09T11:24:36.415779+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4130.33,
+      "entry_low": 4130.92,
       "entry_high": 4134.15,
-      "sl": 4135.33,
-      "tp1": 4119.88,
+      "sl": 4135.92,
+      "tp1": 4119.0,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T11:10:03.766858+00:00"
+      "checked_at": "2026-11-09T11:24:36.415779+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "up",
     "session": "london",
-    "vwap": 4107.517861386822,
-    "atr": 2.142857142857013,
+    "vwap": 4107.419970637063,
+    "atr": 3.211428571428509,
     "day_low": 4054.97,
     "day_high": 4134.15,
-    "range_pos": 0.5644102045971223
+    "range_pos": 0.6030563273553997
   },
   "dxy": {
     "ok": true,
-    "last": 101.84100341796875,
-    "pct": -0.3697926466756466,
+    "last": 101.80899810791016,
+    "pct": -0.40110317554443936,
     "state": "down",
-    "corr": -0.2344751974901938
+    "corr": -0.20117936774546308
   },
   "oil": {
     "ok": true,
-    "last": 89.43000030517578,
-    "pct": -1.1167648263663228,
+    "last": 88.94000244140625,
+    "pct": -1.6585581153337667,
     "state": "down",
-    "corr": -0.2502409448881586
+    "corr": -0.2827876747375431
   },
   "news": {
-    "usd": 0.4448247509394259,
-    "oil": -0.3486406860999355,
+    "usd": 0.4420681847568172,
+    "oil": -0.24467316869285802,
     "shock": true,
     "usd_headlines": [
       "Federal Reserve: December rate hike view reinforced \u2013 Commerzbank - FXStreet",
@@ -81,7 +81,7 @@
     "oil_headlines": [
       "Indian shares inch higher to close at 8-month high as crude oil drops - TradingView",
       "Iran De-escalation Cut Brent-WTI Spread to $7.06, Underpricing Supply Risk - Crux Investor",
-      "Rupee Stages A Strong Comeback Against The US Dollar, Jumps 24 Paise To 93.74 As Crude Slips Below $100 And - Free Press Journal"
+      "Crude Oil Gains As Investors Weigh Renewed US-Iran Escalation Against Diplomacy By Kedia Advisory - Investing.com India"
     ]
   },
   "events": [
@@ -111,8 +111,8 @@
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.3423469681921339,
-      "trust": 0.9973988351496907
+      "score": 0.33537425539656796,
+      "trust": 0.9974024746783123
     },
     {
       "style": "Stand aside",
