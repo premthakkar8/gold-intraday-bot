@@ -275,3 +275,6 @@ NameError: name 'load_calendar' is not defined
 2026-11-09 00:27 UTC  live: gold 4072.29 | holding long oil_shock cb697e4a | new read long oil_shock not opened
 2026-11-09 00:33 UTC  live: SELL SL hit
 2026-11-09 00:34 UTC  live: SELL now invalid: Price 4088.83 broke above the SL 4081.59 before the entry triggered.
+2026-11-09 00:42 UTC  live: gold 4095.63 | holding long oil_shock cb697e4a | new read flat stand_aside not opened
+2026-11-09 00:43 UTC  live: SELL entry reached at 4098.48
+2026-11-09 00:45 UTC  live: SELL SL hit
