@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-09 02:24 UTC",
+  "updated": "2026-11-09 02:39 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4130.19,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.28). Take an entry only if price reaches it.",
+  "price": 4128.75,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.26). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4056.1,
-      "sl": 4051.1,
-      "tp1": 4073.27,
+      "entry_high": 4056.34,
+      "sl": 4051.34,
+      "tp1": 4072.91,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.28,
+      "score": 0.12,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T02:24:34.809643+00:00"
+      "checked_at": "2026-11-09T02:39:10.611152+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4133.02,
+      "entry_low": 4132.78,
       "entry_high": 4134.15,
-      "sl": 4138.02,
-      "tp1": 4115.85,
+      "sl": 4137.78,
+      "tp1": 4116.21,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.25,
+      "score": 0.26,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "weak",
-      "reason": "Strategy score is only 0.25. Take it only with a clear reaction at the entry.",
+      "reason": "Strategy score is only 0.26. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T02:24:34.809643+00:00"
+      "checked_at": "2026-11-09T02:39:10.611152+00:00"
     }
   ],
   "active": [
@@ -72,28 +72,28 @@
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 4102.606814657201,
-    "atr": 7.034999999999919,
+    "vwap": 4104.617427389404,
+    "atr": 6.5978571428570705,
     "day_low": 4054.97,
     "day_high": 4134.15,
-    "range_pos": 0.9499873705481177
+    "range_pos": 0.9318009598383474
   },
   "dxy": {
     "ok": true,
-    "last": 102.15399932861328,
-    "pct": -0.06359134826272093,
+    "last": 102.16699981689453,
+    "pct": -0.05087307861017675,
     "state": "flat",
-    "corr": -0.18788578748382082
+    "corr": -0.19907271684005595
   },
   "oil": {
     "ok": true,
-    "last": 90.75,
-    "pct": 0.34276597769287925,
+    "last": 90.7300033569336,
+    "pct": 0.32065558126806537,
     "state": "flat",
-    "corr": -0.05657120343957151
+    "corr": -0.05319167523163678
   },
   "news": {
-    "usd": 0.4198856403165225,
+    "usd": 0.4186239343092396,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
@@ -132,26 +132,26 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6439339379430299,
-      "trust": 1.1498820320411247
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.2802538139402325,
-      "trust": 0.9967168067367097
+      "score": 0.6438160742901633,
+      "trust": 1.1496715612324344
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2548459043366747,
-      "trust": 1.003273971464558
+      "score": 0.2571738136059479,
+      "trust": 1.003269374012733
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.12160325005037917,
+      "trust": 0.9967214171381822
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11968348421149876,
-      "trust": 0.9973623684291564
+      "score": 0.1196839286766095,
+      "trust": 0.9973660723050792
     },
     {
       "style": "Fade the session range",
