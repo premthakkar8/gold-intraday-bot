@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-09 02:39 UTC",
+  "updated": "2026-11-09 02:53 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4128.75,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.26). Take an entry only if price reaches it.",
+  "price": 4121.84,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4056.34,
-      "sl": 4051.34,
-      "tp1": 4072.91,
+      "entry_high": 4056.87,
+      "sl": 4051.87,
+      "tp1": 4072.12,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.12,
-      "style": "trend_align",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T02:39:10.611152+00:00"
+      "checked_at": "2026-11-09T02:53:45.014226+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4132.78,
+      "entry_low": 4132.25,
       "entry_high": 4134.15,
-      "sl": 4137.78,
-      "tp1": 4116.21,
+      "sl": 4137.25,
+      "tp1": 4117.0,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.26,
+      "score": 0.34,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.26. Take it only with a clear reaction at the entry.",
+      "status": "valid",
+      "reason": "Score 0.34 (Trade with the dollar), hawkish dollar news +0.58, price above VWAP.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T02:39:10.611152+00:00"
+      "checked_at": "2026-11-09T02:53:45.014226+00:00"
     }
   ],
   "active": [
@@ -69,31 +69,31 @@
   ],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 4104.617427389404,
-    "atr": 6.5978571428570705,
+    "vwap": 4106.315876688949,
+    "atr": 5.6335714285712255,
     "day_low": 4054.97,
     "day_high": 4134.15,
-    "range_pos": 0.9318009598383474
+    "range_pos": 0.8445314473351918
   },
   "dxy": {
     "ok": true,
-    "last": 102.16699981689453,
-    "pct": -0.05087307861017675,
+    "last": 102.16000366210938,
+    "pct": -0.05771735869901655,
     "state": "flat",
-    "corr": -0.19907271684005595
+    "corr": -0.20318053674152828
   },
   "oil": {
     "ok": true,
-    "last": 90.7300033569336,
-    "pct": 0.32065558126806537,
-    "state": "flat",
-    "corr": -0.05319167523163678
+    "last": 90.81999969482422,
+    "pct": 0.4201650189739426,
+    "state": "up",
+    "corr": -0.057316459937148505
   },
   "news": {
-    "usd": 0.4186239343092396,
+    "usd": 0.5811072000373175,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
@@ -132,32 +132,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6438160742901633,
-      "trust": 1.1496715612324344
+      "score": 0.90971091068783,
+      "trust": 1.3783498646785304
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2571738136059479,
-      "trust": 1.003269374012733
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.12160325005037917,
-      "trust": 0.9967214171381822
+      "score": 0.3372840562584265,
+      "trust": 1.0019588742054242
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.1196839286766095,
-      "trust": 0.9973660723050792
+      "score": 0.11968437180937767,
+      "trust": 0.9973697650781473
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.09980356082316222,
+      "trust": 0.9980356082316222
     }
   ],
   "record": {
