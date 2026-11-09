@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-09 05:05 UTC",
+  "updated": "2026-11-09 05:19 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4124.28,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
+  "price": 4124.63,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.14). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4058.11,
-      "sl": 4053.11,
-      "tp1": 4070.25,
+      "entry_high": 4058.08,
+      "sl": 4053.08,
+      "tp1": 4070.31,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.43,
+      "score": 0.14,
       "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T05:05:10.666054+00:00"
+      "checked_at": "2026-11-09T05:19:45.752749+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4131.01,
+      "entry_low": 4131.04,
       "entry_high": 4134.15,
-      "sl": 4136.01,
-      "tp1": 4118.87,
+      "sl": 4136.04,
+      "tp1": 4118.81,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "invalid",
       "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T05:05:10.666054+00:00"
+      "checked_at": "2026-11-09T05:19:45.752749+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "up",
     "htf": "up",
     "session": "asia",
-    "vwap": 4111.114376057897,
-    "atr": 3.3742857142858935,
+    "vwap": 4111.533581926893,
+    "atr": 3.4378571428573457,
     "day_low": 4054.97,
     "day_high": 4134.15,
-    "range_pos": 0.8753473099267502
+    "range_pos": 0.8797676180853808
   },
   "dxy": {
     "ok": true,
-    "last": 102.125,
-    "pct": -0.09196115046302636,
+    "last": 102.10800170898438,
+    "pct": -0.1085904373091933,
     "state": "down",
-    "corr": -0.14025886822700215
+    "corr": -0.13800004674712035
   },
   "oil": {
     "ok": true,
-    "last": 91.25,
-    "pct": 0.8956186828041348,
+    "last": 90.94999694824219,
+    "pct": 0.5639036853922575,
     "state": "up",
-    "corr": -0.12071112192895768
+    "corr": -0.08179410274021255
   },
   "news": {
-    "usd": 0.7043098229244039,
-    "oil": -0.4721099402943205,
+    "usd": 0.7063812809397375,
+    "oil": -0.47169258654348045,
     "shock": true,
     "usd_headlines": [
       "Gold jumps as soft US Dollar counters Fed rate hike expectations - FXStreet",
@@ -109,22 +109,22 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.4303636040729245,
-      "trust": 0.9980603062915688
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4168580092648463,
-      "trust": 0.744389302258654
+      "score": 0.41685800926484634,
+      "trust": 0.7443893022586541
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.13532166954526445,
+      "trust": 0.9980630278715079
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11968834016441679,
-      "trust": 0.9974028347034732
+      "score": 0.11968877745364066,
+      "trust": 0.997406478780339
     },
     {
       "style": "Fade the session range",
@@ -135,8 +135,8 @@
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.06855003832374794,
-      "trust": 1.0019342455171287
+      "score": 0.07535765173845806,
+      "trust": 1.001931531581535
     }
   ],
   "record": {
