@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-09 05:48 UTC",
+  "updated": "2026-11-09 06:03 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4122.78,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.08). Take an entry only if price reaches it.",
+  "price": 4119.88,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.23). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4057.98,
-      "sl": 4052.98,
-      "tp1": 4070.46,
+      "entry_high": 4057.97,
+      "sl": 4052.97,
+      "tp1": 4070.48,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.08,
       "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T05:48:58.505931+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4131.14,
-      "entry_high": 4134.15,
-      "sl": 4136.14,
-      "tp1": 4118.66,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.06,
-      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-08T23:29:00.355340+00:00",
+      "checked_at": "2026-11-09T06:03:34.287726+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4131.15,
+      "entry_high": 4134.15,
+      "sl": 4136.15,
+      "tp1": 4118.64,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.23,
+      "style": "trend_align",
+      "favored": true,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T05:48:58.505931+00:00"
+      "checked_at": "2026-11-09T06:03:34.287726+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "down",
     "htf": "up",
     "session": "asia",
-    "vwap": 4112.462789480528,
-    "atr": 3.618571428571613,
+    "vwap": 4112.8741208514675,
+    "atr": 3.642857142857143,
     "day_low": 4054.97,
     "day_high": 4134.15,
-    "range_pos": 0.8564031321040677
+    "range_pos": 0.8197777216468861
   },
   "dxy": {
     "ok": true,
-    "last": 102.11599731445312,
-    "pct": -0.10076840292194782,
+    "last": 102.11199951171875,
+    "pct": -0.10467942011557056,
     "state": "down",
-    "corr": -0.1954359097499362
+    "corr": -0.2224607877190196
   },
   "oil": {
     "ok": true,
-    "last": 90.38999938964844,
-    "pct": -0.05528864485624953,
+    "last": 90.26000213623047,
+    "pct": -0.19902731127456438,
     "state": "flat",
-    "corr": -0.11303681496128236
+    "corr": -0.12131453964087431
   },
   "news": {
-    "usd": 0.7107879785380699,
-    "oil": -0.5872141678942541,
+    "usd": 0.713129504995486,
+    "oil": -0.587018751111791,
     "shock": true,
     "usd_headlines": [
       "Gold jumps as soft US Dollar counters Fed rate hike expectations - FXStreet",
@@ -115,6 +115,12 @@
       "trust": 0.9404390570050026
     },
     {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.2305419888956348,
+      "trust": 0.9980711798560749
+    },
+    {
       "style": "Trade the oil shock",
       "bias": "flat",
       "score": 0.12,
@@ -129,14 +135,8 @@
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.07867869365408635,
-      "trust": 1.0019261071560126
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.06487445039244098,
-      "trust": 0.9980684675760151
+      "score": 0.0834684387227246,
+      "trust": 1.0019234024941763
     }
   ],
   "record": {
