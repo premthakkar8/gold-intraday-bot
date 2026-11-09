@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-09 13:52 UTC",
+  "updated": "2026-11-09 14:07 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4126.73,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.30). Take an entry only if price reaches it.",
+  "price": 4121.33,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4056.86,
-      "sl": 4051.86,
-      "tp1": 4072.13,
+      "entry_high": 4057.23,
+      "sl": 4052.23,
+      "tp1": 4071.58,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.3,
+      "score": 0.31,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T13:52:07.375241+00:00"
+      "checked_at": "2026-11-09T14:07:18.883640+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4132.26,
+      "entry_low": 4131.89,
       "entry_high": 4134.15,
-      "sl": 4137.26,
-      "tp1": 4116.99,
+      "sl": 4136.89,
+      "tp1": 4117.54,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -37,41 +37,41 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T13:52:07.375241+00:00"
+      "checked_at": "2026-11-09T14:07:18.883640+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "up",
     "session": "overlap",
-    "vwap": 4109.149440441185,
-    "atr": 5.651428571428629,
+    "vwap": 4109.460008504305,
+    "atr": 4.984285714285696,
     "day_low": 4054.97,
     "day_high": 4134.15,
-    "range_pos": 0.9062894670371294
+    "range_pos": 0.838090426875477
   },
   "dxy": {
     "ok": true,
-    "last": 101.85399627685547,
-    "pct": -0.3570818407963727,
+    "last": 101.79199981689453,
+    "pct": -0.4177324623906063,
     "state": "down",
-    "corr": -0.628776727950144
+    "corr": -0.7010886410455381
   },
   "oil": {
     "ok": true,
-    "last": 87.27999877929688,
-    "pct": -3.4940331455172835,
+    "last": 86.7300033569336,
+    "pct": -4.102166059621979,
     "state": "down",
-    "corr": -0.5838903646888763
+    "corr": -0.6358700359315252
   },
   "news": {
-    "usd": -0.12580896660385593,
-    "oil": -0.1415150196844136,
+    "usd": -0.12552920418795588,
+    "oil": -0.14131295968047874,
     "shock": true,
     "usd_headlines": [
       "US Dollar Falls Early Monday, Focus on Consumer, Producer Prices This Week - www.marketscreener.com",
@@ -111,25 +111,25 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6430869524661242,
-      "trust": 1.1483695579752218
+      "score": 0.6640109273263052,
+      "trust": 1.1857337987969734
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.3032838798426202,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.13253953488372697,
+      "score": 0.313700831896456,
       "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
       "score": 0.12,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.1,
       "trust": 1.0
     },
     {
