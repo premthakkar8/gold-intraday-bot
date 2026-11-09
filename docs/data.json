@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-09 06:03 UTC",
+  "updated": "2026-11-09 06:18 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4119.88,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.23). Take an entry only if price reaches it.",
+  "price": 4118.32,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.20). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4057.97,
-      "sl": 4052.97,
-      "tp1": 4070.48,
+      "entry_high": 4057.82,
+      "sl": 4052.82,
+      "tp1": 4070.69,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.08,
+      "score": 0.1,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T06:03:34.287726+00:00"
+      "checked_at": "2026-11-09T06:18:07.749141+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4131.15,
+      "entry_low": 4131.3,
       "entry_high": 4134.15,
-      "sl": 4136.15,
-      "tp1": 4118.64,
+      "sl": 4136.3,
+      "tp1": 4118.43,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.23,
+      "score": 0.2,
       "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T06:03:34.287726+00:00"
+      "checked_at": "2026-11-09T06:18:07.749141+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "down",
     "htf": "up",
     "session": "asia",
-    "vwap": 4112.8741208514675,
-    "atr": 3.642857142857143,
+    "vwap": 4113.125206815774,
+    "atr": 3.900000000000026,
     "day_low": 4054.97,
     "day_high": 4134.15,
-    "range_pos": 0.8197777216468861
+    "range_pos": 0.8000757767112913
   },
   "dxy": {
     "ok": true,
-    "last": 102.11199951171875,
-    "pct": -0.10467942011557056,
+    "last": 102.09100341796875,
+    "pct": -0.12521972415536023,
     "state": "down",
-    "corr": -0.2224607877190196
+    "corr": -0.133359951793995
   },
   "oil": {
     "ok": true,
-    "last": 90.26000213623047,
-    "pct": -0.19902731127456438,
+    "last": 90.18000030517578,
+    "pct": -0.28748576869943965,
     "state": "flat",
-    "corr": -0.12131453964087431
+    "corr": -0.21934883861168747
   },
   "news": {
-    "usd": 0.713129504995486,
-    "oil": -0.587018751111791,
+    "usd": 0.3029491124452119,
+    "oil": -0.5868178102636473,
     "shock": true,
     "usd_headlines": [
+      "Oil price decline eases inflation concerns, dollar index falls - KuCoin",
       "Gold jumps as soft US Dollar counters Fed rate hike expectations - FXStreet",
-      "Euro advances on ECB rate hike expectations, weaker US Dollar - FXStreet",
-      "Gold Price Today: Yellow metal holds near $4,100 as weak US dollar counters Fed rate hike bets - ET Now"
+      "Euro advances on ECB rate hike expectations, weaker US Dollar - FXStreet"
     ],
     "oil_headlines": [
       "Rupee rises 24 paise to 93.74 against US dollar as crude slips below $100 - Mathrubhumi English",
@@ -111,14 +111,14 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.8275863701644023,
-      "trust": 0.9404390570050026
+      "score": 0.8781859838121286,
+      "trust": 0.9979386179683281
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.2305419888956348,
-      "trust": 0.9980711798560749
+      "score": 0.19818181818184333,
+      "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
@@ -127,16 +127,16 @@
       "trust": 1.0
     },
     {
+      "style": "Trade with the dollar",
+      "bias": "long",
+      "score": 0.10216501817265444,
+      "trust": 1.0
+    },
+    {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.0834684387227246,
-      "trust": 1.0019234024941763
     }
   ],
   "record": {
