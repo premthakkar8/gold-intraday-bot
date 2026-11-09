@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-09T03:08:25.964932+00:00",
-  "atr": 5.2892857142855325,
-  "price": 4118.5,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.35). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-09T03:22:59.802599+00:00",
+  "atr": 4.3749999999998055,
+  "price": 4116.49,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4057.06,
-      "sl": 4052.06,
-      "tp1": 4071.83,
+      "entry_high": 4057.56,
+      "sl": 4052.56,
+      "tp1": 4071.08,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,32 +21,32 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T03:21:34.651636+00:00"
+      "checked_at": "2026-11-09T03:36:06.181392+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4132.06,
+      "entry_low": 4131.56,
       "entry_high": 4134.15,
-      "sl": 4137.06,
-      "tp1": 4117.29,
+      "sl": 4136.56,
+      "tp1": 4118.04,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.35,
-      "style": "dollar_lead",
+      "score": 0.62,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.35 (Trade with the dollar), hawkish dollar news +0.58, price above VWAP.",
+      "reason": "Score 0.62 (Trade with the intraday trend), hawkish dollar news +0.58, price above VWAP.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T03:21:34.651636+00:00"
+      "checked_at": "2026-11-09T03:36:06.181392+00:00"
     }
   ],
   "research": [
-    "Gold 4117.81 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4107.11, ATR 5.29, day range 4054.97-4134.15.",
-    "DXY 102.16 (-0.06% today, flat), gold-dollar corr -0.25.",
-    "WTI 91.00 (+0.62% today, up), gold-oil corr -0.06.",
+    "Gold 4119.56 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 4107.73, ATR 4.37, day range 4054.97-4134.15.",
+    "DXY 102.18 (-0.04% today, flat), gold-dollar corr -0.17.",
+    "WTI 91.33 (+0.98% today, up), gold-oil corr -0.21.",
     "Headlines: dollar +0.58, oil -1.00, fresh shock.",
     "Dollar: Euro advances on ECB rate hike expectations, weaker US Dollar - FXStreet",
     "Oil: GIFT Nifty up 55 pts, signals firm start for Sensex, Nifty as Asian markets rebound, crude oil falls - Moneycontrol.com",
@@ -252,5 +252,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-09T03:21:34.651636+00:00"
+  "last_check": "2026-11-09T03:36:06.181392+00:00"
 }
