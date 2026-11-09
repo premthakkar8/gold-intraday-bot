@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-09 06:32 UTC",
+  "updated": "2026-11-09 06:47 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4113.22,
+  "price": 4113.85,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.26). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4057.71,
-      "sl": 4052.71,
-      "tp1": 4070.86,
+      "entry_high": 4057.81,
+      "sl": 4052.81,
+      "tp1": 4070.71,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.13,
+      "score": 0.16,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T06:32:43.258502+00:00"
+      "checked_at": "2026-11-09T06:47:23.353713+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4131.41,
+      "entry_low": 4131.31,
       "entry_high": 4134.15,
-      "sl": 4136.41,
-      "tp1": 4118.26,
+      "sl": 4136.31,
+      "tp1": 4118.41,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T06:32:43.258502+00:00"
+      "checked_at": "2026-11-09T06:47:23.353713+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "down",
     "htf": "up",
     "session": "asia",
-    "vwap": 4113.236348671613,
-    "atr": 4.113571428571569,
+    "vwap": 4113.154250877084,
+    "atr": 3.927857142857257,
     "day_low": 4054.97,
     "day_high": 4134.15,
-    "range_pos": 0.7356655721141775
+    "range_pos": 0.7436221267997055
   },
   "dxy": {
     "ok": true,
-    "last": 102.08100128173828,
-    "pct": -0.13500473091268736,
+    "last": 102.07099914550781,
+    "pct": -0.1447897376700145,
     "state": "down",
-    "corr": 0.01979896747336956
+    "corr": -0.12889973272097097
   },
   "oil": {
     "ok": true,
-    "last": 89.80000305175781,
-    "pct": -0.7076507876733823,
+    "last": 89.81999969482422,
+    "pct": -0.6855403912485685,
     "state": "down",
-    "corr": -0.12633951143693176
+    "corr": -0.18603379582921734
   },
   "news": {
-    "usd": 0.43994167895665115,
-    "oil": -0.46940213193576685,
+    "usd": 0.44016061175509524,
+    "oil": -0.4688961457718939,
     "shock": true,
     "usd_headlines": [
       "US dollar holds gains as Fed rate hike bets rise - Profit by Pakistan Today",
@@ -111,8 +111,8 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6893656459993781,
-      "trust": 0.7833700522720206
+      "score": 0.6896346544588347,
+      "trust": 0.7836757437032211
     },
     {
       "style": "Trade with the intraday trend",
@@ -123,7 +123,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.12814650670407313,
+      "score": 0.16276388435970082,
       "trust": 1.0
     },
     {
