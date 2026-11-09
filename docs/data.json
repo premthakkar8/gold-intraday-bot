@@ -1,28 +1,49 @@
 {
-  "updated": "2026-11-09 01:11 UTC",
+  "updated": "2026-11-09 01:26 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4107.64,
-  "stance": "Strategy: the BUY plan from 23:14 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 4111.94,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4055.07,
-      "sl": 4050.07,
-      "tp1": 4074.82,
+      "entry_high": 4055.2,
+      "sl": 4050.2,
+      "tp1": 4074.63,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.43,
+      "score": 0.34,
       "style": "trend_align",
       "favored": true,
       "ready": false,
-      "status": "valid",
-      "reason": "Score 0.43 (Trade with the intraday trend).",
+      "status": "far",
+      "reason": "Price is 56.74 away from the entry (6.5 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T01:11:21.794383+00:00"
+      "checked_at": "2026-11-09T01:26:00.245190+00:00"
     },
+    {
+      "side": "SELL",
+      "entry_low": 4112.06,
+      "entry_high": 4112.29,
+      "sl": 4117.06,
+      "tp1": 4092.63,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-09T01:11:21.794383+00:00",
+      "checked_at": "2026-11-09T01:26:00.245190+00:00"
+    }
+  ],
+  "active": [
     {
       "side": "SELL",
       "entry_low": 4110.86,
@@ -40,39 +61,41 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-09T01:11:21.794383+00:00",
-      "checked_at": "2026-11-09T01:11:21.794383+00:00"
+      "checked_at": "2026-11-09T01:12:25.698477+00:00",
+      "entry": 4110.86,
+      "entered_at": "2026-11-09T01:12:25.698477+00:00",
+      "closed": null
     }
   ],
-  "active": [],
   "blackout": null,
   "chart": {
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 4087.234744428639,
-    "atr": 8.907857142857049,
+    "vwap": 4091.037954163966,
+    "atr": 8.679999999999902,
     "day_low": 4054.97,
-    "day_high": 4110.96,
-    "range_pos": 0.9407036970887713
+    "day_high": 4112.29,
+    "range_pos": 0.9938939288206496
   },
   "dxy": {
     "ok": true,
-    "last": 102.20999908447266,
-    "pct": -0.008807252458921444,
+    "last": 102.16400146484375,
+    "pct": -0.053806341505393804,
     "state": "flat",
-    "corr": -0.28113704149483604
+    "corr": -0.21780432916239742
   },
   "oil": {
     "ok": true,
-    "last": 90.62000274658203,
-    "pct": 0.19902731127456438,
+    "last": 90.51000213623047,
+    "pct": 0.07739904128106338,
     "state": "flat",
-    "corr": -0.10371475414462066
+    "corr": -0.08878455906879201
   },
   "news": {
-    "usd": 0.21230970704362487,
+    "usd": 0.2104863833656467,
     "oil": 0.0,
-    "shock": false,
+    "shock": true,
     "usd_headlines": [
       "Gold Price Today: Yellow metal holds near $4,100 as weak US dollar counters Fed rate hike bets - ET Now",
       "Foreign Investors Pivot Into US Dollar Bonds, Yields Ease - MarketForces Africa",
@@ -94,22 +117,22 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.4278652376807648,
-      "trust": 0.997354866388729
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.21997963923246583,
-      "trust": 0.9999074510566629
+      "score": 0.5599482455900106,
+      "trust": 0.999907581410733
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.34229346878384115,
+      "trust": 0.997358592027509
     },
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.12031652447853403,
-      "trust": 1.0026377039877836
+      "score": 0.12031607865762461,
+      "trust": 1.0026339888135385
     },
     {
       "style": "Fade the session range",
@@ -120,15 +143,15 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07984062266452152,
-      "trust": 0.998007783306519
+      "score": 0.07984084714557578,
+      "trust": 0.9980105893196972
     }
   ],
   "record": {
-    "graded": 30,
+    "graded": 31,
     "wins": 11,
     "losses": 11,
-    "scratches": 8,
-    "avg_r": 0.060028721854976666
+    "scratches": 9,
+    "avg_r": 0.05809231147255806
   }
 }
