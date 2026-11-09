@@ -1,77 +1,77 @@
 {
-  "updated": "2026-11-09 05:34 UTC",
+  "updated": "2026-11-09 05:48 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4125.55,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.07). Take an entry only if price reaches it.",
+  "price": 4122.78,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.08). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4058.01,
-      "sl": 4053.01,
-      "tp1": 4070.41,
+      "entry_high": 4057.98,
+      "sl": 4052.98,
+      "tp1": 4070.46,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.07,
+      "score": 0.08,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T05:34:23.111819+00:00"
+      "checked_at": "2026-11-09T05:48:58.505931+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4131.11,
+      "entry_low": 4131.14,
       "entry_high": 4134.15,
-      "sl": 4136.11,
-      "tp1": 4118.71,
+      "sl": 4136.14,
+      "tp1": 4118.66,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.06,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T05:34:23.111819+00:00"
+      "checked_at": "2026-11-09T05:48:58.505931+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "up",
     "session": "asia",
-    "vwap": 4112.0275984476275,
-    "atr": 3.561428571428678,
+    "vwap": 4112.462789480528,
+    "atr": 3.618571428571613,
     "day_low": 4054.97,
     "day_high": 4134.15,
-    "range_pos": 0.891386713816627
+    "range_pos": 0.8564031321040677
   },
   "dxy": {
     "ok": true,
-    "last": 102.12699890136719,
-    "pct": -0.090005641866215,
+    "last": 102.11599731445312,
+    "pct": -0.10076840292194782,
     "state": "down",
-    "corr": -0.195790511932809
+    "corr": -0.1954359097499362
   },
   "oil": {
     "ok": true,
-    "last": 90.55000305175781,
-    "pct": 0.12162826999350101,
+    "last": 90.38999938964844,
+    "pct": -0.05528864485624953,
     "state": "flat",
-    "corr": -0.12476332674131366
+    "corr": -0.11303681496128236
   },
   "news": {
-    "usd": 0.7085423895560256,
-    "oil": -0.47126141857130815,
+    "usd": 0.7107879785380699,
+    "oil": -0.5872141678942541,
     "shock": true,
     "usd_headlines": [
       "Gold jumps as soft US Dollar counters Fed rate hike expectations - FXStreet",
@@ -79,9 +79,9 @@
       "Gold Price Today: Yellow metal holds near $4,100 as weak US dollar counters Fed rate hike bets - ET Now"
     ],
     "oil_headlines": [
+      "Rupee rises 24 paise to 93.74 against US dollar as crude slips below $100 - Mathrubhumi English",
       "Rupee Stages A Strong Comeback Against The US Dollar, Jumps 24 Paise To 93.74 As Crude Slips Below $100 And - Free Press Journal",
-      "Crude Oil Gains As Investors Weigh Renewed US-Iran Escalation Against Diplomacy By Kedia Advisory - Investing.com India",
-      "GIFT Nifty up 55 pts, signals firm start for Sensex, Nifty as Asian markets rebound, crude oil falls - Moneycontrol.com"
+      "Crude Oil Gains As Investors Weigh Renewed US-Iran Escalation Against Diplomacy By Kedia Advisory - Investing.com India"
     ]
   },
   "events": [
@@ -111,8 +111,8 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5735131118019607,
-      "trust": 1.0241305567892156
+      "score": 0.8275863701644023,
+      "trust": 0.9404390570050026
     },
     {
       "style": "Trade the oil shock",
@@ -127,16 +127,16 @@
       "trust": 1.0
     },
     {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.09980657526851648,
-      "trust": 0.9980657526851647
-    },
-    {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.07414464813260224,
-      "trust": 1.0019288144213059
+      "score": 0.07867869365408635,
+      "trust": 1.0019261071560126
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.06487445039244098,
+      "trust": 0.9980684675760151
     }
   ],
   "record": {
