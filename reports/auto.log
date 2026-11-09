@@ -270,3 +270,5 @@ NameError: name 'load_calendar' is not defined
 2026-11-09 00:05 UTC  live: BUY TP hit
 2026-11-09 00:11 UTC  live: SELL entry reached at 4072.13
 2026-11-09 00:11 UTC  live: SELL TP hit
+2026-11-09 00:12 UTC  live: gold 4071.74 | holding long oil_shock cb697e4a | new read long oil_shock not opened
+2026-11-09 00:16 UTC  live: SELL entry reached at 4073.94
