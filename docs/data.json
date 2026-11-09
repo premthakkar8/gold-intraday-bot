@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-09 11:24 UTC",
+  "updated": "2026-11-09 11:39 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4102.72,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
+  "price": 4109.1,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.35). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4054.97,
-      "entry_high": 4058.2,
-      "sl": 4053.2,
-      "tp1": 4070.12,
+      "entry_high": 4058.11,
+      "sl": 4053.11,
+      "tp1": 4070.27,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.34,
+      "score": 0.35,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T11:24:36.415779+00:00"
+      "checked_at": "2026-11-09T11:39:14.836948+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4130.92,
+      "entry_low": 4131.01,
       "entry_high": 4134.15,
-      "sl": 4135.92,
-      "tp1": 4119.0,
+      "sl": 4136.01,
+      "tp1": 4118.85,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T11:24:36.415779+00:00"
+      "checked_at": "2026-11-09T11:39:14.836948+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "up",
     "session": "london",
-    "vwap": 4107.419970637063,
-    "atr": 3.211428571428509,
+    "vwap": 4107.404768643881,
+    "atr": 3.3892857142857014,
     "day_low": 4054.97,
     "day_high": 4134.15,
-    "range_pos": 0.6030563273553997
+    "range_pos": 0.6836322303612109
   },
   "dxy": {
     "ok": true,
-    "last": 101.80899810791016,
-    "pct": -0.40110317554443936,
+    "last": 101.83000183105469,
+    "pct": -0.3805554077313794,
     "state": "down",
-    "corr": -0.20117936774546308
+    "corr": -0.28545667120483914
   },
   "oil": {
     "ok": true,
-    "last": 88.94000244140625,
-    "pct": -1.6585581153337667,
+    "last": 88.30999755859375,
+    "pct": -2.3551579227261468,
     "state": "down",
-    "corr": -0.2827876747375431
+    "corr": -0.5426579991143204
   },
   "news": {
-    "usd": 0.4420681847568172,
-    "oil": -0.24467316869285802,
+    "usd": 0.4386155290307613,
+    "oil": -0.24281888926467862,
     "shock": true,
     "usd_headlines": [
       "Federal Reserve: December rate hike view reinforced \u2013 Commerzbank - FXStreet",
@@ -111,8 +111,8 @@
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.33537425539656796,
-      "trust": 0.9974024746783123
+      "score": 0.3530278124096081,
+      "trust": 0.9974061331380412
     },
     {
       "style": "Stand aside",
