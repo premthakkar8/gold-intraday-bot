@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-11-10T22:30:33.063705+00:00",
   "atr": 2.0900000000000483,
-  "price": 4033.15,
+  "price": 4033.33,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
   "setups": [
     {
@@ -21,7 +21,7 @@
       "status": "invalid",
       "reason": "Dollar is up +0.52% with hawkish news (+0.88) and gold is moving against it (corr -0.50). Buying fights the dollar.",
       "created_at": "2026-11-10T17:01:28.506409+00:00",
-      "checked_at": "2026-11-10T22:30:33.063705+00:00"
+      "checked_at": "2026-11-10T23:13:02.529552+00:00"
     },
     {
       "side": "SELL",
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T22:30:33.063705+00:00"
+      "checked_at": "2026-11-10T23:13:02.529552+00:00"
     }
   ],
   "research": [
@@ -52,95 +52,6 @@
     "Oil: FCCPC expects petrol prices to fall as crude oil drops - Punch Newspapers",
     "No high-impact US release in the next 24 hours."
   ],
-  "active": [
-    {
-      "side": "BUY",
-      "entry_low": 4080.71,
-      "entry_high": 4081.89,
-      "sl": 4076.89,
-      "tp1": 4098.93,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-10T09:39:44.112616+00:00",
-      "checked_at": "2026-11-10T10:21:32.953218+00:00",
-      "entry": 4081.89,
-      "entered_at": "2026-11-10T10:21:32.953218+00:00",
-      "closed": "sl"
-    },
-    {
-      "side": "BUY",
-      "entry_low": 4077.35,
-      "entry_high": 4079.8,
-      "sl": 4074.8,
-      "tp1": 4093.67,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-10T10:24:17.833033+00:00",
-      "checked_at": "2026-11-10T10:28:22.733814+00:00",
-      "entry": 4079.8,
-      "entered_at": "2026-11-10T10:28:22.733814+00:00",
-      "closed": "sl"
-    },
-    {
-      "side": "BUY",
-      "entry_low": 4073.31,
-      "entry_high": 4076.01,
-      "sl": 4071.01,
-      "tp1": 4089.26,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-10T10:38:54.803837+00:00",
-      "checked_at": "2026-11-10T10:39:57.672925+00:00",
-      "entry": 4076.01,
-      "entered_at": "2026-11-10T10:39:57.672925+00:00",
-      "closed": "sl"
-    },
-    {
-      "side": "BUY",
-      "entry_low": 4068.87,
-      "entry_high": 4071.82,
-      "sl": 4066.82,
-      "tp1": 4084.44,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-10T11:08:39.067714+00:00",
-      "checked_at": "2026-11-10T11:09:42.291358+00:00",
-      "entry": 4071.82,
-      "entered_at": "2026-11-10T11:09:42.291358+00:00",
-      "closed": "time"
-    }
-  ],
-  "last_check": "2026-11-10T22:02:21.164391+00:00"
+  "active": [],
+  "last_check": "2026-11-10T23:13:02.529552+00:00"
 }
