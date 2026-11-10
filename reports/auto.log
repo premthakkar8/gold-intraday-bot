@@ -383,3 +383,6 @@ NameError: name 'load_calendar' is not defined
 2026-11-10 02:47 UTC  live: gold 4113.62 | graded: 9a123ed0 long trend_align -> loss (-1.00R) invalidation hit | opened stand aside c92ee985
 2026-11-10 02:48 UTC  live: BUY entry reached at 4113.60
 2026-11-10 03:02 UTC  live: gold 4111.92 | holding flat stand_aside c92ee985 | new read flat stand_aside not opened
+2026-11-10 03:17 UTC  live: gold 4113.88 | holding flat stand_aside c92ee985 | new read flat stand_aside not opened
+2026-11-10 03:18 UTC  live: SELL now far: Price is 25.23 away from the entry (6.0 ATR). Unlikely to fill soon.
+2026-11-10 03:19 UTC  live: SELL valid again
