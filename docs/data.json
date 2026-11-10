@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-10 14:25 UTC",
+  "updated": "2026-11-10 14:41 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4057.15,
+  "price": 4044.11,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.38). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4039.65,
-      "entry_high": 4039.71,
-      "sl": 4034.71,
-      "tp1": 4059.56,
+      "entry_high": 4040.53,
+      "sl": 4035.53,
+      "tp1": 4058.32,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,16 +19,16 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.30% with hawkish news (+0.41) and gold is moving against it (corr -0.82). Buying fights the dollar.",
+      "reason": "Dollar is up +0.29% with hawkish news (+0.40) and gold is moving against it (corr -0.83). Buying fights the dollar.",
       "created_at": "2026-11-10T13:36:54.656675+00:00",
-      "checked_at": "2026-11-10T14:25:31.316839+00:00"
+      "checked_at": "2026-11-10T14:41:26.303111+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4141.34,
+      "entry_low": 4140.52,
       "entry_high": 4141.4,
-      "sl": 4146.34,
-      "tp1": 4121.49,
+      "sl": 4145.52,
+      "tp1": 4122.73,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T14:25:31.316839+00:00"
+      "checked_at": "2026-11-10T14:41:26.303111+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 4101.478059685476,
-    "atr": 8.980000000000018,
+    "vwap": 4100.010229795511,
+    "atr": 7.482857142857191,
     "day_low": 4039.65,
     "day_high": 4141.4,
-    "range_pos": 0.17199017199017275
+    "range_pos": 0.043832923832924385
   },
   "dxy": {
     "ok": true,
-    "last": 102.0199966430664,
-    "pct": 0.2978791803424643,
+    "last": 102.00800323486328,
+    "pct": 0.2860882232115192,
     "state": "up",
-    "corr": -0.815937142760617
+    "corr": -0.8255038749264704
   },
   "oil": {
     "ok": true,
-    "last": 84.41999816894531,
-    "pct": -2.3142791510943264,
+    "last": 84.5199966430664,
+    "pct": -2.1985669591944803,
     "state": "down",
-    "corr": 0.3581636881909109
+    "corr": 0.3813026282608581
   },
   "news": {
-    "usd": 0.40851363636536525,
+    "usd": 0.4011306382676441,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
-      "Yields jump as consumer price inflation in October beats economists' expectations - The Standard (HK)",
       "Treasury yields climb across the curve after the latest inflation print - TradingView",
-      "Treasury yields climb across the curve after the latest inflation print - Seeking Alpha"
+      "Treasury yields climb across the curve after the latest inflation print - Seeking Alpha",
+      "US Treasury yields rise after US inflation report - Breakingthenews.net"
     ],
     "oil_headlines": [
       "Crude Oil Slides as China\u2019s Import Rebound Meets Refinery Caution - Kalkine",
@@ -95,13 +95,13 @@
     {
       "style": "Trade the oil shock",
       "bias": "short",
-      "score": 0.3760485042757502,
+      "score": 0.3779574668315208,
       "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3259856509892637,
+      "score": 0.3205043322671277,
       "trust": 1.0
     },
     {
