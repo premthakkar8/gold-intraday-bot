@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-10T09:39:44.112616+00:00",
-  "atr": 6.235714285714299,
-  "price": 4083.07,
+  "updated_at": "2026-11-10T09:54:21.945245+00:00",
+  "atr": 6.459285714285768,
+  "price": 4081.84,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4082.02,
-      "entry_high": 4083.59,
-      "sl": 4078.59,
-      "tp1": 4099.66,
+      "entry_low": 4081.24,
+      "entry_high": 4082.69,
+      "sl": 4077.69,
+      "tp1": 4099.07,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-10T09:39:44.112616+00:00",
-      "checked_at": "2026-11-10T09:52:50.445528+00:00"
+      "checked_at": "2026-11-10T10:07:28.510286+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4139.83,
+      "entry_low": 4139.95,
       "entry_high": 4141.4,
-      "sl": 4144.83,
-      "tp1": 4123.76,
+      "sl": 4144.95,
+      "tp1": 4123.57,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,16 +40,16 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T09:52:50.445528+00:00"
+      "checked_at": "2026-11-10T10:07:28.510286+00:00"
     }
   ],
   "research": [
-    "Gold 4084.13 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 4118.42, ATR 6.24, day range 4082.02-4141.40.",
-    "DXY 101.65 (-0.07% today, flat), gold-dollar corr -0.64.",
-    "WTI 84.75 (-1.93% today, down), gold-oil corr -0.27.",
-    "Headlines: dollar +0.05, oil -1.00, fresh shock.",
-    "Dollar: Eurozone Bond Yields Slide, Treasury Yields Seek Direction Ahead of CPI Data -- Update - marketscreener.com",
-    "Oil: Crude Oil Falls as Trump Signals No Immediate Military Action Against Iran - CMB News",
+    "Gold 4083.44 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 4117.42, ATR 6.46, day range 4081.24-4141.40.",
+    "DXY 101.70 (-0.01% today, flat), gold-dollar corr -0.70.",
+    "WTI 84.41 (-2.33% today, down), gold-oil corr -0.27.",
+    "Headlines: dollar +0.11, oil -1.00, fresh shock.",
+    "Dollar: Fed's Waller plans to support at least a quarter-point rate hike in December - Reuters",
+    "Oil: Oil Price Today (November 10): Brent crude falls below $90 for first time in 3 months as Trump says Iran w - The Economic Times",
     "Next high-impact US release: Core CPI m/m Tue 13:30 UTC."
   ],
   "active": [
@@ -208,5 +208,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-10T09:52:50.445528+00:00"
+  "last_check": "2026-11-10T10:07:28.510286+00:00"
 }
