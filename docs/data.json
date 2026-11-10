@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-10 07:56 UTC",
+  "updated": "2026-11-10 08:11 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4114.18,
-  "stance": "Strategy: the BUY plan from 05:59 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 4117.54,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.30). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4108.21,
-      "entry_high": 4111.25,
-      "sl": 4106.25,
-      "tp1": 4121.62,
-      "tp2": 4123.65,
+      "entry_high": 4111.22,
+      "sl": 4106.22,
+      "tp1": 4121.43,
+      "tp2": 4123.7,
       "rr": 3.4,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.27,
+      "score": 0.3,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T03:02:55.525071+00:00",
-      "checked_at": "2026-11-10T07:56:55.252928+00:00"
+      "checked_at": "2026-11-10T08:11:33.087391+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4138.36,
+      "entry_low": 4138.39,
       "entry_high": 4141.4,
-      "sl": 4143.36,
-      "tp1": 4125.96,
+      "sl": 4143.39,
+      "tp1": 4125.91,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.18,
+      "score": 0.06,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T07:56:55.252928+00:00"
+      "checked_at": "2026-11-10T08:11:33.087391+00:00"
     }
   ],
   "active": [],
@@ -49,28 +49,28 @@
     "structure": "down",
     "htf": "sideways",
     "session": "london",
-    "vwap": 4121.618814653006,
-    "atr": 3.5621428571427196,
+    "vwap": 4121.425868861119,
+    "atr": 3.6192857142856547,
     "day_low": 4108.21,
     "day_high": 4141.4,
-    "range_pos": 0.1798734558602087
+    "range_pos": 0.281108767701116
   },
   "dxy": {
     "ok": true,
-    "last": 101.5510025024414,
-    "pct": -0.16319824761775037,
+    "last": 101.53199768066406,
+    "pct": -0.18188226429280396,
     "state": "down",
-    "corr": -0.3316907606503284
+    "corr": -0.3445359231781129
   },
   "oil": {
     "ok": true,
-    "last": 85.16000366210938,
-    "pct": -1.457989508831894,
+    "last": 85.30000305175781,
+    "pct": -1.2959906745172391,
     "state": "down",
-    "corr": -0.30181486193485374
+    "corr": -0.16815634386773945
   },
   "news": {
-    "usd": 0.047961303927746696,
+    "usd": -0.01873196966951045,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
@@ -79,9 +79,9 @@
       "Euro weakens as US Dollar gains despite rising US-Iran deal bets - FXStreet"
     ],
     "oil_headlines": [
-      "Indian stock markets closed for Diwali-Balipratipada; Asian markets rally, crude oil falls - TradingView",
       "Oil Price Today (November 10): Crude oil falls below $92 as Trump says Iran war is effectively over. What - The Economic Times",
-      "WTI Crude Falls to 8-Month Low Amid U.S.-Iran Diplomatic Optimism - KuCoin"
+      "WTI Crude Falls to 8-Month Low Amid U.S.-Iran Diplomatic Optimism - KuCoin",
+      "Oil falls as Trump downplays prospect of escalation with Iran - Reuters"
     ]
   },
   "events": [
@@ -117,13 +117,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.2744385634449705,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.18135151393621668,
+      "score": 0.2986369444241707,
       "trust": 1.0
     },
     {
@@ -137,13 +131,19 @@
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.05500000000000001,
+      "trust": 1.0
     }
   ],
   "record": {
-    "graded": 53,
+    "graded": 54,
     "wins": 18,
     "losses": 25,
-    "scratches": 10,
-    "avg_r": -0.04387314444177851
+    "scratches": 11,
+    "avg_r": -0.0430606788039678
   }
 }
