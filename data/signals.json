@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-10T03:47:22.850198+00:00",
-  "atr": 3.4014285714283687,
-  "price": 4110.25,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.10). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-10T04:02:10.623740+00:00",
+  "atr": 3.1657142857140053,
+  "price": 4111.1,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.17). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4108.65,
-      "entry_high": 4111.78,
-      "sl": 4106.78,
-      "tp1": 4123.96,
+      "entry_low": 4108.21,
+      "entry_high": 4111.47,
+      "sl": 4106.47,
+      "tp1": 4123.32,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,32 +21,32 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-10T03:02:55.525071+00:00",
-      "checked_at": "2026-11-10T04:00:29.203000+00:00"
+      "checked_at": "2026-11-10T04:15:17.547522+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4138.27,
+      "entry_low": 4138.14,
       "entry_high": 4141.4,
-      "sl": 4143.27,
-      "tp1": 4126.09,
+      "sl": 4143.14,
+      "tp1": 4126.29,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.1,
+      "score": 0.17,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T04:00:29.203000+00:00"
+      "checked_at": "2026-11-10T04:15:17.547522+00:00"
     }
   ],
   "research": [
-    "Gold 4110.63 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 4124.67, ATR 3.40, day range 4108.65-4141.40.",
-    "DXY 101.68 (-0.04% today, flat), gold-dollar corr -0.47.",
-    "WTI 85.78 (-0.74% today, down), gold-oil corr -0.44.",
+    "Gold 4111.10 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 4123.98, ATR 3.17, day range 4108.21-4141.40.",
+    "DXY 101.67 (-0.05% today, flat), gold-dollar corr -0.46.",
+    "WTI 85.61 (-0.94% today, down), gold-oil corr -0.42.",
     "Headlines: dollar -0.16, oil -0.86, fresh shock.",
     "Dollar: Treasury yields fall across all maturities in October on foreign futures buying and safe-haven demand - \uba38\ub2c8\ud22c\ub370\uc774",
     "Oil: Oil Price Today (November 10): Crude oil falls below $92 as Trump says Iran war is effectively over. What - The Economic Times",
@@ -142,5 +142,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-10T04:00:29.203000+00:00"
+  "last_check": "2026-11-10T04:15:17.547522+00:00"
 }
