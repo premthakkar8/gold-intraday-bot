@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-10T12:22:46.619929+00:00",
-  "atr": 3.0021428571428714,
-  "price": 4075.06,
+  "updated_at": "2026-11-10T12:37:28.478456+00:00",
+  "atr": 3.0064285714286143,
+  "price": 4079.07,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.00). Take an entry only if price reaches it.",
   "setups": [
     {
@@ -21,7 +21,7 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-10T11:08:39.067714+00:00",
-      "checked_at": "2026-11-10T12:35:53.547429+00:00"
+      "checked_at": "2026-11-10T12:50:35.847513+00:00"
     },
     {
       "side": "SELL",
@@ -40,15 +40,15 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T12:35:53.547429+00:00"
+      "checked_at": "2026-11-10T12:50:35.847513+00:00"
     }
   ],
   "research": [
-    "Gold 4077.40 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4109.75, ATR 3.00, day range 4068.75-4141.40.",
-    "DXY 101.74 (+0.03% today, flat), gold-dollar corr -0.64.",
-    "WTI 85.12 (-1.50% today, down), gold-oil corr -0.15.",
-    "Headlines: dollar +0.08, oil -1.00, fresh shock.",
-    "Dollar: What will flip the US Dollar's trajectory as inflation cools toward the Fed's 2% target in 2027? - FXStreet",
+    "Gold 4076.40 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4109.10, ATR 3.01, day range 4068.75-4141.40.",
+    "DXY 101.75 (+0.03% today, flat), gold-dollar corr -0.66.",
+    "WTI 85.22 (-1.39% today, down), gold-oil corr -0.15.",
+    "Headlines: dollar +0.17, oil -1.00, fresh shock.",
+    "Dollar: US dollar steadies as Fed governor calls for more rate hikes - The Business Times",
     "Oil: Crude Oil Slides as China\u2019s Import Rebound Meets Refinery Caution - Kalkine",
     "Next high-impact US release: Core CPI m/m Tue 13:30 UTC."
   ],
@@ -296,5 +296,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-10T12:35:53.547429+00:00"
+  "last_check": "2026-11-10T12:50:35.847513+00:00"
 }

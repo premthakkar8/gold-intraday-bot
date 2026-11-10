@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-10 12:22 UTC",
+  "updated": "2026-11-10 12:37 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4077.4,
+  "price": 4076.4,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.00). Take an entry only if price reaches it.",
   "setups": [
     {
@@ -21,7 +21,7 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-10T11:08:39.067714+00:00",
-      "checked_at": "2026-11-10T12:22:46.619929+00:00"
+      "checked_at": "2026-11-10T12:37:28.478456+00:00"
     },
     {
       "side": "SELL",
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T12:22:46.619929+00:00"
+      "checked_at": "2026-11-10T12:37:28.478456+00:00"
     }
   ],
   "active": [
@@ -72,39 +72,39 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 4109.751068488376,
-    "atr": 3.0021428571428714,
+    "vwap": 4109.102751763457,
+    "atr": 3.0064285714286143,
     "day_low": 4068.75,
     "day_high": 4141.4,
-    "range_pos": 0.11906400550585182
+    "range_pos": 0.10529938059188065
   },
   "dxy": {
     "ok": true,
-    "last": 101.74299621582031,
-    "pct": 0.025554574392576315,
+    "last": 101.75199890136719,
+    "pct": 0.03440529284964707,
     "state": "flat",
-    "corr": -0.6407976747098603
+    "corr": -0.6649740115773843
   },
   "oil": {
     "ok": true,
-    "last": 85.12000274658203,
-    "pct": -1.5042761512467024,
+    "last": 85.22000122070312,
+    "pct": -1.3885639593468562,
     "state": "down",
-    "corr": -0.14917360924698578
+    "corr": -0.14577272197236144
   },
   "news": {
-    "usd": 0.07867333103790687,
+    "usd": 0.17306468832885358,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
+      "US dollar steadies as Fed governor calls for more rate hikes - The Business Times",
       "What will flip the US Dollar's trajectory as inflation cools toward the Fed's 2% target in 2027? - FXStreet",
-      "Fed's Waller plans to support at least a quarter-point rate hike in December - Reuters",
-      "US Treasury yields rise as Fed's Waller presses rate hike case - The Economic Times"
+      "Fed's Waller plans to support at least a quarter-point rate hike in December - Reuters"
     ],
     "oil_headlines": [
       "Crude Oil Slides as China\u2019s Import Rebound Meets Refinery Caution - Kalkine",
       "Oil Price Today (November 10): Brent crude falls below $90 for first time in 3 months as Trump says Iran w - The Economic Times",
-      "Crude Oil Falls as Trump Signals No Immediate Military Action Against Iran - CMB News"
+      "Brent oil falls below $90 per barrel for first time since August - Crypto Briefing"
     ]
   },
   "events": [
@@ -133,8 +133,8 @@
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.12114399753747498,
-      "trust": 1.2114399753747498
+      "score": 0.12111410102589285,
+      "trust": 1.2111410102589284
     },
     {
       "style": "Trade the oil shock",
@@ -145,8 +145,8 @@
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.11979762156842079,
-      "trust": 0.9983135130701732
+      "score": 0.11979790772098549,
+      "trust": 0.9983158976748792
     },
     {
       "style": "Trade with the intraday trend",
