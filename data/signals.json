@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-11-10T03:32:44.876076+00:00",
-  "atr": 3.934285714285449,
-  "price": 4111.18,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.11). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-10T03:47:22.850198+00:00",
+  "atr": 3.4014285714283687,
+  "price": 4110.25,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.10). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4110.11,
-      "entry_high": 4112.95,
-      "sl": 4107.95,
-      "tp1": 4125.35,
-      "tp2": 4125.86,
-      "rr": 3.9,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-10T03:02:55.525071+00:00",
-      "checked_at": "2026-11-10T03:45:52.460855+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4138.56,
-      "entry_high": 4141.4,
-      "sl": 4143.56,
-      "tp1": 4125.65,
+      "entry_low": 4108.65,
+      "entry_high": 4111.78,
+      "sl": 4106.78,
+      "tp1": 4123.96,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.11,
-      "style": "trend_align",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-10T03:02:55.525071+00:00",
+      "checked_at": "2026-11-10T04:00:29.203000+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4138.27,
+      "entry_high": 4141.4,
+      "sl": 4143.27,
+      "tp1": 4126.09,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.1,
+      "style": "trend_align",
+      "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T03:45:52.460855+00:00"
+      "checked_at": "2026-11-10T04:00:29.203000+00:00"
     }
   ],
   "research": [
-    "Gold 4114.40 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 4125.35, ATR 3.93, day range 4110.11-4141.40.",
-    "DXY 101.69 (-0.03% today, flat), gold-dollar corr -0.47.",
-    "WTI 85.82 (-0.69% today, down), gold-oil corr -0.43.",
-    "Headlines: dollar -0.04, oil -0.86, fresh shock.",
+    "Gold 4110.63 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 4124.67, ATR 3.40, day range 4108.65-4141.40.",
+    "DXY 101.68 (-0.04% today, flat), gold-dollar corr -0.47.",
+    "WTI 85.78 (-0.74% today, down), gold-oil corr -0.44.",
+    "Headlines: dollar -0.16, oil -0.86, fresh shock.",
     "Dollar: Treasury yields fall across all maturities in October on foreign futures buying and safe-haven demand - \uba38\ub2c8\ud22c\ub370\uc774",
     "Oil: Oil Price Today (November 10): Crude oil falls below $92 as Trump says Iran war is effectively over. What - The Economic Times",
     "Next high-impact US release: Core CPI m/m Tue 13:30 UTC."
@@ -142,5 +142,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-10T03:45:52.460855+00:00"
+  "last_check": "2026-11-10T04:00:29.203000+00:00"
 }
