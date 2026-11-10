@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-10 16:17 UTC",
+  "updated": "2026-11-10 16:31 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4036.32,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
+  "price": 4024.39,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4032.95,
-      "entry_high": 4035.31,
-      "sl": 4030.31,
-      "tp1": 4049.42,
+      "entry_low": 4022.98,
+      "entry_high": 4024.86,
+      "sl": 4019.86,
+      "tp1": 4040.16,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,64 +19,64 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.60% with hawkish news (+0.62) and gold is moving against it (corr -0.74). Buying fights the dollar.",
-      "created_at": "2026-11-10T14:57:54.481365+00:00",
-      "checked_at": "2026-11-10T16:17:16.738231+00:00"
+      "reason": "Dollar is up +0.63% with hawkish news (+0.60) and gold is moving against it (corr -0.73). Buying fights the dollar.",
+      "created_at": "2026-11-10T16:31:58.365863+00:00",
+      "checked_at": "2026-11-10T16:31:58.365863+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4139.04,
+      "entry_low": 4139.52,
       "entry_high": 4141.4,
-      "sl": 4144.04,
-      "tp1": 4124.93,
+      "sl": 4144.52,
+      "tp1": 4124.22,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.43,
+      "score": 0.4,
       "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T16:17:16.738231+00:00"
+      "checked_at": "2026-11-10T16:31:58.365863+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "down",
-    "htf": "down",
+    "htf": "sideways",
     "session": "overlap",
-    "vwap": 4092.5566101096842,
-    "atr": 4.806428571428602,
-    "day_low": 4032.95,
+    "vwap": 4091.2717942532076,
+    "atr": 5.6778571428570945,
+    "day_low": 4022.98,
     "day_high": 4141.4,
-    "range_pos": 0.031074227754728918
+    "range_pos": 0.011906772504643295
   },
   "dxy": {
     "ok": true,
-    "last": 102.32599639892578,
-    "pct": 0.5987136005765268,
+    "last": 102.35800170898438,
+    "pct": 0.6301786547522995,
     "state": "up",
-    "corr": -0.7409051265490229
+    "corr": -0.7251154162239339
   },
   "oil": {
     "ok": true,
-    "last": 85.80000305175781,
-    "pct": -0.7174208867436574,
-    "state": "down",
-    "corr": 0.2348782087328325
+    "last": 86.5999984741211,
+    "pct": 0.20828547672946335,
+    "state": "flat",
+    "corr": 0.17211986565885565
   },
   "news": {
-    "usd": 0.6163439240061742,
+    "usd": 0.6024018426231497,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
-      "Watch Treasury Yields Jump as Inflation Fuels Fed Wagers - Bloomberg.com",
       "Fed's Logan calls for two more rate hikes, possibly rapidly - Yahoo",
-      "US Treasury yields surge as October CPI inflation exceeds forecasts - Beinsure"
+      "US Treasury yields surge as October CPI inflation exceeds forecasts - Beinsure",
+      "US stocks fall and Treasury yields jump at the open after hot October CPI - MLQ.ai"
     ],
     "oil_headlines": [
       "Canadian Dollar and Business Outlook: Loonie drops, crude oil falls - Alberta Farmer Express",
@@ -89,19 +89,19 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5260513372457452,
-      "trust": 0.9393773879388306
+      "score": 0.6832929525136849,
+      "trust": 1.2201659866315802
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.4312,
+      "score": 0.4048000000000001,
       "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.35994155137602457,
+      "score": 0.35651169023374035,
       "trust": 1.0
     },
     {
