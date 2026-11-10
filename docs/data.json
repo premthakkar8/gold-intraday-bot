@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-10 17:30 UTC",
+  "updated": "2026-11-10 17:45 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4021.0,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.37). Take an entry only if price reaches it.",
+  "price": 4020.54,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4013.63,
-      "entry_high": 4016.3,
-      "sl": 4011.3,
-      "tp1": 4029.62,
+      "entry_high": 4016.44,
+      "sl": 4011.44,
+      "tp1": 4029.41,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,28 +19,28 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.62% with hawkish news (+0.73) and gold is moving against it (corr -0.74). Buying fights the dollar.",
+      "reason": "Dollar is up +0.64% with hawkish news (+0.75) and gold is moving against it (corr -0.31). Buying fights the dollar.",
       "created_at": "2026-11-10T17:01:28.506409+00:00",
-      "checked_at": "2026-11-10T17:30:58.694481+00:00"
+      "checked_at": "2026-11-10T17:45:40.467026+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4138.73,
+      "entry_low": 4138.59,
       "entry_high": 4141.4,
-      "sl": 4143.73,
-      "tp1": 4125.41,
+      "sl": 4143.59,
+      "tp1": 4125.62,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.37,
+      "score": 0.31,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T17:30:58.694481+00:00"
+      "checked_at": "2026-11-10T17:45:40.467026+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "newyork",
-    "vwap": 4086.889882783403,
-    "atr": 4.229285714285685,
+    "vwap": 4085.9362718283105,
+    "atr": 3.97285714285707,
     "day_low": 4013.63,
     "day_high": 4141.4,
-    "range_pos": 0.057681771933943166
+    "range_pos": 0.0540815527901689
   },
   "dxy": {
     "ok": true,
-    "last": 102.3499984741211,
-    "pct": 0.6223105160561408,
+    "last": 102.37100219726562,
+    "pct": 0.6429596922530186,
     "state": "up",
-    "corr": -0.7411844074597058
+    "corr": -0.3065240606356304
   },
   "oil": {
     "ok": true,
-    "last": 86.37999725341797,
-    "pct": -0.046286642414808475,
+    "last": 86.36000061035156,
+    "pct": -0.06942554948503793,
     "state": "flat",
-    "corr": 0.19704434213805455
+    "corr": -0.13728215965764873
   },
   "news": {
-    "usd": 0.733895685190606,
+    "usd": 0.753051749783326,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
       "Federal Reserve's Rate Hikes: Insights from Dallas Fed President Lori Logan - GuruFocus",
       "U.S. Dollar Rallies As CPI Exceeds Estimates: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
-      "Midday Need to Know: CPI tops estimates, Treasury yields jump & more - TradingView"
+      "US inflation remains high as Federal Reserve weighs interest rate hike - The News International"
     ],
     "oil_headlines": [
       "FCCPC Warns Fuel Marketers Over High Prices as Global Crude Oil Falls - Nigeria Info FM",
@@ -95,7 +95,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.36967989285522007,
+      "score": 0.30850618061139357,
       "trust": 1.0
     },
     {
