@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-10T18:44:02.649341+00:00",
-  "atr": 3.3557142857141895,
-  "price": 4028.36,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.32). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-10T18:58:39.788614+00:00",
+  "atr": 3.265714285714174,
+  "price": 4029.84,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.33). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4013.63,
-      "entry_high": 4016.78,
-      "sl": 4011.78,
-      "tp1": 4028.9,
+      "entry_high": 4016.83,
+      "sl": 4011.83,
+      "tp1": 4028.82,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.26,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.55% with hawkish news (+0.82) and gold is moving against it (corr -0.36). Buying fights the dollar.",
+      "reason": "Dollar is up +0.54% with hawkish news (+0.82) and gold is moving against it (corr -0.39). Buying fights the dollar.",
       "created_at": "2026-11-10T17:01:28.506409+00:00",
-      "checked_at": "2026-11-10T18:57:09.489338+00:00"
+      "checked_at": "2026-11-10T19:11:47.409383+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4138.25,
+      "entry_low": 4138.2,
       "entry_high": 4141.4,
-      "sl": 4143.25,
-      "tp1": 4126.13,
+      "sl": 4143.2,
+      "tp1": 4126.21,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.32,
+      "score": 0.33,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T18:57:09.489338+00:00"
+      "checked_at": "2026-11-10T19:11:47.409383+00:00"
     }
   ],
   "research": [
-    "Gold 4031.75 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4082.76, ATR 3.36, day range 4013.63-4141.40.",
-    "DXY 102.28 (+0.55% today, up), gold-dollar corr -0.36.",
-    "WTI 86.20 (-0.25% today, flat), gold-oil corr -0.23.",
+    "Gold 4028.01 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 4082.19, ATR 3.27, day range 4013.63-4141.40.",
+    "DXY 102.26 (+0.54% today, up), gold-dollar corr -0.39.",
+    "WTI 86.06 (-0.42% today, down), gold-oil corr -0.25.",
     "Headlines: dollar +0.82, oil -1.00, fresh shock.",
     "Dollar: Treasury Yields Jump After Hot October CPI Report - Oz Arab Media",
     "Oil: FCCPC Warns Fuel Marketers Over High Prices as Global Crude Oil Falls - Nigeria Info FM",
@@ -208,5 +208,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-10T18:57:09.489338+00:00"
+  "last_check": "2026-11-10T19:11:47.409383+00:00"
 }
