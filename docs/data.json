@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10 22:01 UTC",
+  "updated": "2026-11-10 22:15 UTC",
   "symbol": "VANTAGE:XAUUSD",
   "price": 4033.15,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
@@ -19,9 +19,9 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.52% with hawkish news (+0.89) and gold is moving against it (corr -0.48). Buying fights the dollar.",
+      "reason": "Dollar is up +0.52% with hawkish news (+0.89) and gold is moving against it (corr -0.50). Buying fights the dollar.",
       "created_at": "2026-11-10T17:01:28.506409+00:00",
-      "checked_at": "2026-11-10T22:01:17.145513+00:00"
+      "checked_at": "2026-11-10T22:15:54.554427+00:00"
     },
     {
       "side": "SELL",
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T22:01:17.145513+00:00"
+      "checked_at": "2026-11-10T22:15:54.554427+00:00"
     }
   ],
   "active": [],
@@ -57,25 +57,25 @@
   },
   "dxy": {
     "ok": true,
-    "last": 102.24800109863281,
-    "pct": 0.522034876181074,
+    "last": 102.24400329589844,
+    "pct": 0.5181045571374256,
     "state": "up",
-    "corr": -0.4823114092891787
+    "corr": -0.4965260054230372
   },
   "oil": {
     "ok": true,
-    "last": 86.47000122070312,
-    "pct": 0.05786051008709799,
+    "last": 86.44000244140625,
+    "pct": 0.023147735344579024,
     "state": "flat",
-    "corr": -0.12341996544519052
+    "corr": -0.1312828236460389
   },
   "news": {
-    "usd": 0.8911361576324093,
+    "usd": 0.8881929381557143,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
-      "Larger series of interest rate hikes more likely after hot October CPI - WCTI",
       "Trump-appointed Fed member signals big interest rate hike as inflation runs hot - The Washington Post",
+      "Larger series of interest rate hikes more likely after hot October CPI - WGXA",
       "Fed\u2019s Waller opens door to half-point rate hike in December - The Hill"
     ],
     "oil_headlines": [
@@ -101,7 +101,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.34527744272079897,
+      "score": 0.3470868594307974,
       "trust": 1.0
     },
     {
