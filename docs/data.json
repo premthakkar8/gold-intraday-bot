@@ -1,9 +1,49 @@
 {
-  "updated": "2026-11-10 02:12 UTC",
+  "updated": "2026-11-10 02:28 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4122.42,
-  "stance": "Strategy: BUY is the trade (Trade with the intraday trend, confidence 58%).",
+  "price": 4126.71,
+  "stance": "Strategy: the BUY plan from 02:12 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 4120.57,
+      "entry_high": 4122.48,
+      "sl": 4117.48,
+      "tp1": 4129.48,
+      "tp2": 4137.71,
+      "rr": 2.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-10T01:42:09.502171+00:00",
+      "checked_at": "2026-11-10T02:28:49.104688+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4139.49,
+      "entry_high": 4141.4,
+      "sl": 4144.49,
+      "tp1": 4129.48,
+      "tp2": 4124.26,
+      "rr": 2.7,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-10T01:42:09.502171+00:00",
+      "checked_at": "2026-11-10T02:28:49.104688+00:00"
+    }
+  ],
+  "active": [
     {
       "side": "BUY",
       "entry_low": 4120.57,
@@ -21,67 +61,50 @@
       "status": "valid",
       "reason": "Score 0.67 (Trade with the intraday trend), price below VWAP.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T02:12:45.786098+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4139.9,
-      "entry_high": 4141.4,
-      "sl": 4144.9,
-      "tp1": 4129.95,
-      "tp2": 4123.65,
-      "rr": 2.5,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
-      "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T02:12:45.786098+00:00"
+      "checked_at": "2026-11-10T02:13:49.647636+00:00",
+      "entry": 4122.07,
+      "entered_at": "2026-11-10T02:13:49.647636+00:00",
+      "closed": null
     }
   ],
-  "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "up",
     "session": "asia",
-    "vwap": 4129.9501324382145,
-    "atr": 6.361428571428535,
+    "vwap": 4129.477430359817,
+    "atr": 5.625,
     "day_low": 4120.57,
     "day_high": 4141.4,
-    "range_pos": 0.08881421027366156
+    "range_pos": 0.29476716274605613
   },
   "dxy": {
     "ok": true,
-    "last": 101.6719970703125,
-    "pct": -0.04424609167649184,
+    "last": 101.69300079345703,
+    "pct": -0.023596915479614056,
     "state": "flat",
-    "corr": -0.6338248793640516
+    "corr": -0.5090070916541892
   },
   "oil": {
     "ok": true,
-    "last": 86.37999725341797,
-    "pct": -0.046286642414808475,
+    "last": 86.25,
+    "pct": -0.19671160905717386,
     "state": "flat",
-    "corr": -0.40766916383474266
+    "corr": -0.3937124266333424
   },
   "news": {
-    "usd": 0.05301687414023105,
-    "oil": -0.649387333461205,
+    "usd": -0.029473765694601226,
+    "oil": -0.7145728061766535,
     "shock": true,
     "usd_headlines": [
+      "Treasury yields fall across all maturities in October on foreign futures buying and safe-haven demand - \uba38\ub2c8\ud22c\ub370\uc774",
       "Goldman Sachs Treasury Yields Outlook: G4 Yields Fall 25\u201350 Basis Points - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
-      "Euro weakens as US Dollar gains despite rising US-Iran deal bets | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
-      "Euro weakens as US Dollar gains despite rising US-Iran deal bets - FXStreet"
+      "Euro weakens as US Dollar gains despite rising US-Iran deal bets | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629"
     ],
     "oil_headlines": [
+      "WTI Crude Falls to 8-Month Low Amid U.S.-Iran Diplomatic Optimism - KuCoin",
       "Oil falls as Trump downplays prospect of escalation with Iran - Reuters",
-      "Brent oil falls nearly 6% and gold jumps while two-year Treasury yields climb before CPI - MLQ.ai",
-      "Crude Oil Price Forecast: Oil Falls 4% as US, Iran Signal Talks, Technicals Point to Brent Testing $88 - TradingKey"
+      "Brent oil falls nearly 6% and gold jumps while two-year Treasury yields climb before CPI - MLQ.ai"
     ]
   },
   "events": [
@@ -109,34 +132,34 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.6704616903060454,
-      "trust": 0.9977108486697103
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4543255775464223,
-      "trust": 0.8112956741900397
+      "score": 0.4502372077508425,
+      "trust": 0.8039950138407902
     },
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.120273926590331,
-      "trust": 1.0022827215860917
+      "score": 0.1202051276416905,
+      "trust": 1.0017093970140876
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11979310751753294,
-      "trust": 0.9982758959794412
+      "score": 0.12,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.09982857881256157,
+      "trust": 0.9982857881256157
     }
   ],
   "record": {

@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-11-10T02:12:45.786098+00:00",
-  "atr": 6.361428571428535,
-  "price": 4125.05,
-  "stance": "Strategy: BUY is the trade (Trade with the intraday trend, confidence 58%).",
+  "updated_at": "2026-11-10T02:28:49.104688+00:00",
+  "atr": 5.625,
+  "price": 4113.8,
+  "stance": "Strategy: the BUY plan from 02:12 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4120.57,
-      "entry_high": 4122.07,
-      "sl": 4117.07,
-      "tp1": 4129.95,
-      "tp2": 4138.32,
+      "entry_high": 4122.48,
+      "sl": 4117.48,
+      "tp1": 4129.48,
+      "tp2": 4137.71,
       "rr": 2.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.67,
-      "style": "trend_align",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.67 (Trade with the intraday trend), price below VWAP.",
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T02:25:54.096217+00:00"
+      "checked_at": "2026-11-10T02:41:56.238120+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4139.9,
+      "entry_low": 4139.49,
       "entry_high": 4141.4,
-      "sl": 4144.9,
-      "tp1": 4129.95,
-      "tp2": 4123.65,
-      "rr": 2.5,
+      "sl": 4144.49,
+      "tp1": 4129.48,
+      "tp2": 4124.26,
+      "rr": 2.7,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T02:25:54.096217+00:00"
+      "checked_at": "2026-11-10T02:41:56.238120+00:00"
     }
   ],
   "research": [
-    "Gold 4122.42 (VANTAGE:XAUUSD). 5m up, 1h up. VWAP 4129.95, ATR 6.36, day range 4120.57-4141.40.",
-    "DXY 101.67 (-0.04% today, flat), gold-dollar corr -0.63.",
-    "WTI 86.38 (-0.05% today, flat), gold-oil corr -0.41.",
-    "Headlines: dollar +0.05, oil -0.65, fresh shock.",
-    "Dollar: Goldman Sachs Treasury Yields Outlook: G4 Yields Fall 25\u201350 Basis Points - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
-    "Oil: Oil falls as Trump downplays prospect of escalation with Iran - Reuters",
+    "Gold 4126.71 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 4129.48, ATR 5.62, day range 4120.57-4141.40.",
+    "DXY 101.69 (-0.02% today, flat), gold-dollar corr -0.51.",
+    "WTI 86.25 (-0.20% today, flat), gold-oil corr -0.39.",
+    "Headlines: dollar -0.03, oil -0.71, fresh shock.",
+    "Dollar: Treasury yields fall across all maturities in October on foreign futures buying and safe-haven demand - \uba38\ub2c8\ud22c\ub370\uc774",
+    "Oil: WTI Crude Falls to 8-Month Low Amid U.S.-Iran Diplomatic Optimism - KuCoin",
     "Next high-impact US release: Core CPI m/m Tue 13:30 UTC."
   ],
   "active": [
@@ -95,8 +95,8 @@
       "checked_at": "2026-11-10T02:13:49.647636+00:00",
       "entry": 4122.07,
       "entered_at": "2026-11-10T02:13:49.647636+00:00",
-      "closed": null
+      "closed": "sl"
     }
   ],
-  "last_check": "2026-11-10T02:25:54.096217+00:00"
+  "last_check": "2026-11-10T02:41:56.238120+00:00"
 }
