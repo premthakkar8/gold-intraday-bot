@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-10 19:27 UTC",
+  "updated": "2026-11-10 19:43 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4032.02,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
+  "price": 4027.4,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.32). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4013.63,
-      "entry_high": 4016.97,
-      "sl": 4011.97,
-      "tp1": 4028.61,
+      "entry_high": 4016.95,
+      "sl": 4011.95,
+      "tp1": 4028.64,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.26,
-      "style": "trend_align",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.52% with hawkish news (+0.73) and gold is moving against it (corr -0.32). Buying fights the dollar.",
+      "reason": "Dollar is up +0.53% with hawkish news (+0.75) and gold is moving against it (corr -0.42). Buying fights the dollar.",
       "created_at": "2026-11-10T17:01:28.506409+00:00",
-      "checked_at": "2026-11-10T19:27:53.432590+00:00"
+      "checked_at": "2026-11-10T19:43:02.807892+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4138.06,
+      "entry_low": 4138.08,
       "entry_high": 4141.4,
-      "sl": 4143.06,
-      "tp1": 4126.42,
+      "sl": 4143.08,
+      "tp1": 4126.39,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.31,
+      "score": 0.32,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T19:27:53.432590+00:00"
+      "checked_at": "2026-11-10T19:43:02.807892+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "down",
     "session": "newyork",
-    "vwap": 4081.0736262315713,
-    "atr": 3.0114285714284312,
+    "vwap": 4080.4756526833153,
+    "atr": 3.0464285714284807,
     "day_low": 4013.63,
     "day_high": 4141.4,
-    "range_pos": 0.143930500117398
+    "range_pos": 0.1077717774125384
   },
   "dxy": {
     "ok": true,
-    "last": 102.24800109863281,
-    "pct": 0.522034876181074,
+    "last": 102.25599670410156,
+    "pct": 0.5298955142683707,
     "state": "up",
-    "corr": -0.3156727650213036
+    "corr": -0.4228951094628927
   },
   "oil": {
     "ok": true,
-    "last": 85.8499984741211,
-    "pct": -0.659569204930909,
-    "state": "down",
-    "corr": -0.2867015931497882
+    "last": 86.16999816894531,
+    "pct": -0.2892848938867908,
+    "state": "flat",
+    "corr": -0.24008848974708275
   },
   "news": {
-    "usd": 0.7348476073612435,
+    "usd": 0.7485851285735782,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
+      "Treasury yields jump after hot October CPI, with a December Fed hike now priced in - Startup Fortune",
       "Sri Lanka rupee closes at 332.33/40 to US dollar spot, bond yields drop - EconomyNext",
-      "Treasury Yields Jump After Hot October CPI Report - Oz Arab Media",
-      "Federal Reserve's Rate Hikes: Insights from Dallas Fed President Lori Logan - GuruFocus"
+      "Treasury Yields Jump After Hot October CPI Report - Oz Arab Media"
     ],
     "oil_headlines": [
       "FCCPC Warns Fuel Marketers Over High Prices as Global Crude Oil Falls - Nigeria Info FM",
       "Crude Oil slips to six-week low - FXStreet",
-      "Canadian Dollar and Business Outlook: Loonie drops, crude oil falls - Canadian Cattlemen"
+      "Canadian Dollar and Business Outlook: Loonie drops, crude oil falls - Country Guide"
     ]
   },
   "events": [],
@@ -89,25 +89,25 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.8837854862067254,
-      "trust": 1.0043016888712788
+      "score": 0.6318879884034055,
+      "trust": 1.128371407863224
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3083251830572533,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.2550888390546953,
+      "score": 0.3249387545360254,
       "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
       "score": 0.12,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.1,
       "trust": 1.0
     },
     {
@@ -118,10 +118,10 @@
     }
   ],
   "record": {
-    "graded": 61,
+    "graded": 62,
     "wins": 22,
-    "losses": 27,
+    "losses": 28,
     "scratches": 12,
-    "avg_r": -0.005332404187119036
+    "avg_r": -0.02137542992603647
   }
 }
