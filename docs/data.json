@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-10 04:46 UTC",
+  "updated": "2026-11-10 05:01 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4113.76,
-  "stance": "Strategy: BUY is the trade (Fade the session range, confidence 58%).",
+  "price": 4113.62,
+  "stance": "Strategy: the BUY plan from 04:46 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4108.21,
-      "entry_high": 4111.54,
-      "sl": 4106.54,
-      "tp1": 4122.79,
-      "tp2": null,
-      "rr": 3.9,
+      "entry_high": 4111.64,
+      "sl": 4106.64,
+      "tp1": 4122.47,
+      "tp2": 4123.07,
+      "rr": 3.8,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.6,
+      "score": 0.0,
       "style": "range_fade",
       "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.60 (Fade the session range), price below VWAP.",
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-10T03:02:55.525071+00:00",
-      "checked_at": "2026-11-10T04:46:27.738831+00:00"
+      "checked_at": "2026-11-10T05:01:08.582129+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4138.07,
+      "entry_low": 4137.97,
       "entry_high": 4141.4,
-      "sl": 4143.07,
-      "tp1": 4126.39,
+      "sl": 4142.97,
+      "tp1": 4126.54,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T04:46:27.738831+00:00"
+      "checked_at": "2026-11-10T05:01:08.582129+00:00"
     }
   ],
   "active": [
@@ -72,32 +72,40 @@
     "structure": "sideways",
     "htf": "up",
     "session": "asia",
-    "vwap": 4122.794380051561,
-    "atr": 3.036428571428522,
+    "vwap": 4122.47364527109,
+    "atr": 2.8564285714286206,
     "day_low": 4108.21,
     "day_high": 4141.4,
-    "range_pos": 0.16721904188009187
+    "range_pos": 0.16300090388671046
   },
   "dxy": {
     "ok": true,
-    "last": 101.66799926757812,
-    "pct": -0.04817641072014021,
+    "last": 101.65299987792969,
+    "pct": -0.06292260774268352,
     "state": "flat",
-    "corr": -0.3726613441229046
+    "corr": -0.4602208844653275
   },
   "oil": {
     "ok": true,
-    "last": 85.83999633789062,
-    "pct": -0.6711430726031985,
+    "last": 85.79000091552734,
+    "pct": -0.728994754415947,
     "state": "down",
-    "corr": -0.32951696890481375
+    "corr": -0.39042792858650816
   },
   "news": {
-    "usd": 0.0,
-    "oil": 0.0,
-    "shock": false,
-    "usd_headlines": [],
-    "oil_headlines": []
+    "usd": -0.22178684375218777,
+    "oil": -0.8747845123257124,
+    "shock": true,
+    "usd_headlines": [
+      "Treasury yields fall across all maturities in October on foreign futures buying and safe-haven demand - \uba38\ub2c8\ud22c\ub370\uc774",
+      "Goldman Sachs Treasury Yields Outlook: G4 Yields Fall 25\u201350 Basis Points - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+      "Euro weakens as US Dollar gains despite rising US-Iran deal bets - FXStreet"
+    ],
+    "oil_headlines": [
+      "Indian stock markets closed for Diwali-Balipratipada; Asian markets rally, crude oil falls - TradingView",
+      "Oil Price Today (November 10): Crude oil falls below $92 as Trump says Iran war is effectively over. What - The Economic Times",
+      "WTI Crude Falls to 8-Month Low Amid U.S.-Iran Diplomatic Optimism - KuCoin"
+    ]
   },
   "events": [
     {
@@ -124,16 +132,10 @@
   ],
   "scorecard": [
     {
-      "style": "Fade the session range",
-      "bias": "long",
-      "score": 0.5963896164638686,
-      "trust": 1.0
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.1384134707138095,
-      "trust": 0.6291521396082249
+      "score": 0.3456249713221928,
+      "trust": 0.6171874487896299
     },
     {
       "style": "Trade the oil shock",
@@ -144,14 +146,20 @@
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.11978853299434461,
-      "trust": 0.9982377749528718
+      "score": 0.11978883165369905,
+      "trust": 0.9982402637808254
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.07828114753261212,
+      "trust": 0.782811475326121
     }
   ],
   "record": {
