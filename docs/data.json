@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-10 18:14 UTC",
+  "updated": "2026-11-10 18:29 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4018.48,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
+  "price": 4021.94,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.32). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4013.63,
-      "entry_high": 4016.88,
-      "sl": 4011.88,
-      "tp1": 4028.76,
+      "entry_high": 4016.85,
+      "sl": 4011.85,
+      "tp1": 4028.8,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,28 +19,28 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.60% with hawkish news (+0.79) and gold is moving against it (corr -0.32). Buying fights the dollar.",
+      "reason": "Dollar is up +0.59% with hawkish news (+0.79) and gold is moving against it (corr -0.37). Buying fights the dollar.",
       "created_at": "2026-11-10T17:01:28.506409+00:00",
-      "checked_at": "2026-11-10T18:14:50.742913+00:00"
+      "checked_at": "2026-11-10T18:29:27.216564+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4138.15,
+      "entry_low": 4138.18,
       "entry_high": 4141.4,
-      "sl": 4143.15,
-      "tp1": 4126.27,
+      "sl": 4143.18,
+      "tp1": 4126.23,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.31,
+      "score": 0.32,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T18:14:50.742913+00:00"
+      "checked_at": "2026-11-10T18:29:27.216564+00:00"
     }
   ],
   "active": [],
@@ -49,28 +49,28 @@
     "structure": "sideways",
     "htf": "down",
     "session": "newyork",
-    "vwap": 4084.211807402672,
-    "atr": 3.188571428571322,
+    "vwap": 4083.45267498789,
+    "atr": 3.237857142857073,
     "day_low": 4013.63,
     "day_high": 4141.4,
-    "range_pos": 0.03795883227674671
+    "range_pos": 0.06503874148861216
   },
   "dxy": {
     "ok": true,
-    "last": 102.32499694824219,
-    "pct": 0.5977310208156147,
+    "last": 102.31500244140625,
+    "pct": 0.5879052232064937,
     "state": "up",
-    "corr": -0.31777705076976487
+    "corr": -0.36591242545227326
   },
   "oil": {
     "ok": true,
-    "last": 86.26000213623047,
-    "pct": -0.18513774138488434,
+    "last": 86.27999877929688,
+    "pct": -0.1619988343146549,
     "state": "flat",
-    "corr": -0.2239501902001339
+    "corr": -0.2110277950674256
   },
   "news": {
-    "usd": 0.7937205597516749,
+    "usd": 0.7941351115090702,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
@@ -95,7 +95,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.313486007884398,
+      "score": 0.32046975312417036,
       "trust": 1.0
     },
     {
