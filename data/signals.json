@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-10T13:22:14.165450+00:00",
-  "atr": 4.335714285714273,
-  "price": 4044.55,
+  "updated_at": "2026-11-10T13:36:54.656675+00:00",
+  "atr": 7.940000000000022,
+  "price": 4057.23,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.00). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4068.75,
-      "entry_high": 4071.37,
-      "sl": 4066.37,
-      "tp1": 4084.83,
+      "entry_low": 4039.65,
+      "entry_high": 4040.28,
+      "sl": 4035.28,
+      "tp1": 4058.7,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -20,15 +20,15 @@
       "ready": false,
       "status": "paused",
       "reason": "Core CPI m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
-      "created_at": "2026-11-10T11:08:39.067714+00:00",
-      "checked_at": "2026-11-10T13:34:55.085907+00:00"
+      "created_at": "2026-11-10T13:36:54.656675+00:00",
+      "checked_at": "2026-11-10T13:48:28.464076+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4138.78,
+      "entry_low": 4140.77,
       "entry_high": 4141.4,
-      "sl": 4143.78,
-      "tp1": 4125.32,
+      "sl": 4145.77,
+      "tp1": 4122.35,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,41 +40,19 @@
       "status": "paused",
       "reason": "Core CPI m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T13:34:55.085907+00:00"
+      "checked_at": "2026-11-10T13:48:28.464076+00:00"
     }
   ],
   "research": [
-    "Gold 4072.64 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4107.00, ATR 4.34, day range 4068.75-4141.40.",
-    "DXY 101.78 (+0.07% today, flat), gold-dollar corr -0.28.",
-    "WTI 84.74 (-1.94% today, down), gold-oil corr -0.14.",
-    "Headlines: dollar +0.02, oil -1.00, fresh shock.",
+    "Gold 4054.43 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4105.61, ATR 7.94, day range 4039.65-4141.40.",
+    "DXY 101.79 (+0.07% today, flat), gold-dollar corr -0.27.",
+    "WTI 85.03 (-1.61% today, down), gold-oil corr -0.13.",
+    "Headlines: dollar +0.10, oil -1.00, fresh shock.",
     "Dollar: Sri Lanka rupee closes at 332.33/40 to US dollar spot, bond yields drop - EconomyNext",
     "Oil: Crude Oil Slides as China\u2019s Import Rebound Meets Refinery Caution - Kalkine",
     "US event blackout: Core CPI m/m at 13:30 UTC. Do not enter until it passes."
   ],
   "active": [
-    {
-      "side": "BUY",
-      "entry_low": 4121.71,
-      "entry_high": 4123.48,
-      "sl": 4118.48,
-      "tp1": 4131.08,
-      "tp2": 4139.05,
-      "rr": 2.1,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.2,
-      "style": "trend_align",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.20. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T01:43:12.852694+00:00",
-      "entry": 4123.48,
-      "entered_at": "2026-11-10T01:43:12.852694+00:00",
-      "closed": "tp"
-    },
     {
       "side": "BUY",
       "entry_low": 4120.57,
@@ -296,5 +274,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-10T13:34:55.085907+00:00"
+  "last_check": "2026-11-10T13:48:28.464076+00:00"
 }
