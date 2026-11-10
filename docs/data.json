@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-10 12:08 UTC",
+  "updated": "2026-11-10 12:22 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4077.58,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
+  "price": 4077.4,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.00). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4068.75,
-      "entry_high": 4071.91,
-      "sl": 4066.91,
-      "tp1": 4084.01,
+      "entry_high": 4072.1,
+      "sl": 4067.1,
+      "tp1": 4083.73,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-10T11:08:39.067714+00:00",
-      "checked_at": "2026-11-10T12:08:06.280335+00:00"
+      "checked_at": "2026-11-10T12:22:46.619929+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4138.24,
+      "entry_low": 4138.05,
       "entry_high": 4141.4,
-      "sl": 4143.24,
-      "tp1": 4126.14,
+      "sl": 4143.05,
+      "tp1": 4126.42,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.34,
-      "style": "trend_align",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T12:08:06.280335+00:00"
+      "checked_at": "2026-11-10T12:22:46.619929+00:00"
     }
   ],
   "active": [
@@ -69,37 +69,37 @@
   ],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 4110.343629197146,
-    "atr": 3.343571428571425,
+    "vwap": 4109.751068488376,
+    "atr": 3.0021428571428714,
     "day_low": 4068.75,
     "day_high": 4141.4,
-    "range_pos": 0.12154163799036437
+    "range_pos": 0.11906400550585182
   },
   "dxy": {
     "ok": true,
-    "last": 101.74400329589844,
-    "pct": 0.02654465476235033,
+    "last": 101.74299621582031,
+    "pct": 0.025554574392576315,
     "state": "flat",
-    "corr": -0.630772433841745
+    "corr": -0.6407976747098603
   },
   "oil": {
     "ok": true,
-    "last": 85.43000030517578,
-    "pct": -1.1455657078748738,
+    "last": 85.12000274658203,
+    "pct": -1.5042761512467024,
     "state": "down",
-    "corr": -0.14005981730535752
+    "corr": -0.14917360924698578
   },
   "news": {
-    "usd": 0.250765611030978,
+    "usd": 0.07867333103790687,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
-      "US Treasury yields rise as Fed's Waller presses rate hike case - The Economic Times",
-      "Treasury Yields Turn Higher on Fed\u2019s Waller Comments; Eurozone Bond Yields Fall - WSJ",
-      "US Treasury yields rise as Fed's Waller presses rate hike case - TradingView"
+      "What will flip the US Dollar's trajectory as inflation cools toward the Fed's 2% target in 2027? - FXStreet",
+      "Fed's Waller plans to support at least a quarter-point rate hike in December - Reuters",
+      "US Treasury yields rise as Fed's Waller presses rate hike case - The Economic Times"
     ],
     "oil_headlines": [
       "Crude Oil Slides as China\u2019s Import Rebound Meets Refinery Caution - Kalkine",
@@ -127,20 +127,14 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4774102093906608,
-      "trust": 0.8525182310547513
+      "score": 0.2918190530833644,
+      "trust": 0.5211054519345792
     },
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.34320000000000006,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the dollar",
+      "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.12,
-      "trust": 1.0
+      "score": 0.12114399753747498,
+      "trust": 1.2114399753747498
     },
     {
       "style": "Trade the oil shock",
@@ -149,7 +143,13 @@
       "trust": 1.0
     },
     {
-      "style": "Fade the session range",
+      "style": "Trade with the dollar",
+      "bias": "flat",
+      "score": 0.11979762156842079,
+      "trust": 0.9983135130701732
+    },
+    {
+      "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
