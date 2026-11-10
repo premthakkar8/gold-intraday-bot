@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-11-10T01:42:09.502171+00:00",
-  "atr": 5.870714285714192,
-  "price": 4126.45,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.20). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-10T01:56:53.965732+00:00",
+  "atr": 6.469285714285628,
+  "price": 4125.36,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.49). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4121.71,
-      "entry_high": 4123.48,
-      "sl": 4118.48,
-      "tp1": 4131.08,
-      "tp2": 4139.05,
-      "rr": 2.1,
+      "entry_high": 4123.15,
+      "sl": 4118.15,
+      "tp1": 4130.69,
+      "tp2": 4139.55,
+      "rr": 1.9,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.2,
+      "score": 0.49,
       "style": "trend_align",
       "favored": true,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.20. Take it only with a clear reaction at the entry.",
+      "status": "valid",
+      "reason": "Score 0.49 (Trade with the intraday trend), price below VWAP.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T01:55:15.935157+00:00"
+      "checked_at": "2026-11-10T02:09:59.477291+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4139.63,
+      "entry_low": 4139.96,
       "entry_high": 4141.4,
-      "sl": 4144.63,
-      "tp1": 4131.08,
-      "tp2": 4124.06,
+      "sl": 4144.96,
+      "tp1": 4130.69,
+      "tp2": 4123.56,
       "rr": 2.3,
       "risk_usd": 5.0,
       "units": 1.0,
@@ -40,14 +40,14 @@
       "status": "invalid",
       "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T01:55:15.935157+00:00"
+      "checked_at": "2026-11-10T02:09:59.477291+00:00"
     }
   ],
   "research": [
-    "Gold 4133.33 (VANTAGE:XAUUSD). 5m up, 1h up. VWAP 4131.08, ATR 5.87, day range 4121.71-4141.40.",
-    "DXY 101.66 (-0.06% today, flat), gold-dollar corr -0.69.",
-    "WTI 86.21 (-0.24% today, flat), gold-oil corr -0.45.",
-    "Headlines: dollar +0.17, oil -0.60, fresh shock.",
+    "Gold 4128.67 (VANTAGE:XAUUSD). 5m up, 1h up. VWAP 4130.69, ATR 6.47, day range 4121.71-4141.40.",
+    "DXY 101.69 (-0.02% today, flat), gold-dollar corr -0.66.",
+    "WTI 85.90 (-0.60% today, down), gold-oil corr -0.37.",
+    "Headlines: dollar +0.08, oil -0.55, fresh shock.",
     "Dollar: Goldman Sachs Treasury Yields Outlook: G4 Yields Fall 25\u201350 Basis Points - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
     "Oil: Brent oil falls nearly 6% and gold jumps while two-year Treasury yields climb before CPI - MLQ.ai",
     "Next high-impact US release: Core CPI m/m Tue 13:30 UTC."
@@ -76,5 +76,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-10T01:55:15.935157+00:00"
+  "last_check": "2026-11-10T02:09:59.477291+00:00"
 }
