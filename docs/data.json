@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-10 07:42 UTC",
+  "updated": "2026-11-10 07:56 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4117.28,
+  "price": 4114.18,
   "stance": "Strategy: the BUY plan from 05:59 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4108.21,
-      "entry_high": 4111.2,
-      "sl": 4106.2,
-      "tp1": 4121.85,
-      "tp2": 4123.73,
-      "rr": 3.5,
+      "entry_high": 4111.25,
+      "sl": 4106.25,
+      "tp1": 4121.62,
+      "tp2": 4123.65,
+      "rr": 3.4,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.23,
+      "score": 0.27,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T03:02:55.525071+00:00",
-      "checked_at": "2026-11-10T07:42:18.957876+00:00"
+      "checked_at": "2026-11-10T07:56:55.252928+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4138.41,
+      "entry_low": 4138.36,
       "entry_high": 4141.4,
-      "sl": 4143.41,
-      "tp1": 4125.88,
+      "sl": 4143.36,
+      "tp1": 4125.96,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.16,
+      "score": 0.18,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T07:42:18.957876+00:00"
+      "checked_at": "2026-11-10T07:56:55.252928+00:00"
     }
   ],
   "active": [],
@@ -49,28 +49,28 @@
     "structure": "down",
     "htf": "sideways",
     "session": "london",
-    "vwap": 4121.846107360947,
-    "atr": 3.6557142857141116,
+    "vwap": 4121.618814653006,
+    "atr": 3.5621428571427196,
     "day_low": 4108.21,
     "day_high": 4141.4,
-    "range_pos": 0.27327508285627655
+    "range_pos": 0.1798734558602087
   },
   "dxy": {
     "ok": true,
-    "last": 101.58100128173828,
-    "pct": -0.13370585357266376,
+    "last": 101.5510025024414,
+    "pct": -0.16319824761775037,
     "state": "down",
-    "corr": -0.26994083817907566
+    "corr": -0.3316907606503284
   },
   "oil": {
     "ok": true,
-    "last": 85.58999633789062,
-    "pct": -0.9604279664899894,
+    "last": 85.16000366210938,
+    "pct": -1.457989508831894,
     "state": "down",
-    "corr": -0.34398348244727267
+    "corr": -0.30181486193485374
   },
   "news": {
-    "usd": 0.04157226144651049,
+    "usd": 0.047961303927746696,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
@@ -79,9 +79,9 @@
       "Euro weakens as US Dollar gains despite rising US-Iran deal bets - FXStreet"
     ],
     "oil_headlines": [
+      "Indian stock markets closed for Diwali-Balipratipada; Asian markets rally, crude oil falls - TradingView",
       "Oil Price Today (November 10): Crude oil falls below $92 as Trump says Iran war is effectively over. What - The Economic Times",
-      "WTI Crude Falls to 8-Month Low Amid U.S.-Iran Diplomatic Optimism - KuCoin",
-      "Oil falls as Trump downplays prospect of escalation with Iran - Reuters"
+      "WTI Crude Falls to 8-Month Low Amid U.S.-Iran Diplomatic Optimism - KuCoin"
     ]
   },
   "events": [
@@ -117,13 +117,13 @@
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.22979011453850456,
+      "score": 0.2744385634449705,
       "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.1630324345447777,
+      "score": 0.18135151393621668,
       "trust": 1.0
     },
     {
