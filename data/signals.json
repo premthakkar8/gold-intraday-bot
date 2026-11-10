@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-11-10T05:15:51.118321+00:00",
-  "atr": 3.107142857142922,
-  "price": 4121.4,
-  "stance": "Strategy: the BUY plan from 04:46 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
+  "updated_at": "2026-11-10T05:30:32.303683+00:00",
+  "atr": 3.422857142857148,
+  "price": 4124.79,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.00). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4108.21,
-      "entry_high": 4111.5,
-      "sl": 4106.5,
-      "tp1": 4122.15,
-      "tp2": 4123.27,
-      "rr": 3.7,
+      "entry_high": 4111.33,
+      "sl": 4106.33,
+      "tp1": 4122.07,
+      "tp2": 4123.53,
+      "rr": 3.6,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T03:02:55.525071+00:00",
-      "checked_at": "2026-11-10T05:28:58.214384+00:00"
+      "checked_at": "2026-11-10T05:43:38.561561+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4138.11,
+      "entry_low": 4138.28,
       "entry_high": 4141.4,
-      "sl": 4143.11,
-      "tp1": 4126.34,
+      "sl": 4143.28,
+      "tp1": 4126.08,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,15 +40,15 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T05:28:58.214384+00:00"
+      "checked_at": "2026-11-10T05:43:38.561561+00:00"
     }
   ],
   "research": [
-    "Gold 4116.81 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 4122.15, ATR 3.11, day range 4108.21-4141.40.",
-    "DXY 101.64 (-0.07% today, flat), gold-dollar corr -0.45.",
-    "WTI 85.76 (-0.76% today, down), gold-oil corr -0.40.",
-    "Headlines: dollar -0.15, oil -0.87, fresh shock.",
-    "Dollar: Treasury yields fall across all maturities in October on foreign futures buying and safe-haven demand - \uba38\ub2c8\ud22c\ub370\uc774",
+    "Gold 4119.29 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 4122.07, ATR 3.42, day range 4108.21-4141.40.",
+    "DXY 101.65 (-0.07% today, flat), gold-dollar corr -0.38.",
+    "WTI 85.71 (-0.82% today, down), gold-oil corr -0.44.",
+    "Headlines: dollar -0.06, oil -0.87, fresh shock.",
+    "Dollar: US Dollar gains pressure Euro despite growing bets on US-Iran deal - www.tmgm.com",
     "Oil: Indian stock markets closed for Diwali-Balipratipada; Asian markets rally, crude oil falls - TradingView",
     "Next high-impact US release: Core CPI m/m Tue 13:30 UTC."
   ],
@@ -142,5 +142,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-10T05:28:58.214384+00:00"
+  "last_check": "2026-11-10T05:43:38.561561+00:00"
 }

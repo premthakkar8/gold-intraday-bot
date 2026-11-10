@@ -1,17 +1,17 @@
 {
-  "updated": "2026-11-10 05:15 UTC",
+  "updated": "2026-11-10 05:30 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4116.81,
-  "stance": "Strategy: the BUY plan from 04:46 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 4119.29,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.00). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4108.21,
-      "entry_high": 4111.5,
-      "sl": 4106.5,
-      "tp1": 4122.15,
-      "tp2": 4123.27,
-      "rr": 3.7,
+      "entry_high": 4111.33,
+      "sl": 4106.33,
+      "tp1": 4122.07,
+      "tp2": 4123.53,
+      "rr": 3.6,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T03:02:55.525071+00:00",
-      "checked_at": "2026-11-10T05:15:51.118321+00:00"
+      "checked_at": "2026-11-10T05:30:32.303683+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4138.11,
+      "entry_low": 4138.28,
       "entry_high": 4141.4,
-      "sl": 4143.11,
-      "tp1": 4126.34,
+      "sl": 4143.28,
+      "tp1": 4126.08,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T05:15:51.118321+00:00"
+      "checked_at": "2026-11-10T05:30:32.303683+00:00"
     }
   ],
   "active": [
@@ -72,34 +72,34 @@
     "structure": "sideways",
     "htf": "up",
     "session": "asia",
-    "vwap": 4122.1527426453395,
-    "atr": 3.107142857142922,
+    "vwap": 4122.072254717276,
+    "atr": 3.422857142857148,
     "day_low": 4108.21,
     "day_high": 4141.4,
-    "range_pos": 0.2591141910214061
+    "range_pos": 0.33383549261826034
   },
   "dxy": {
     "ok": true,
-    "last": 101.64299774169922,
-    "pct": -0.07275590596066636,
+    "last": 101.6500015258789,
+    "pct": -0.06587034702541979,
     "state": "flat",
-    "corr": -0.4532262894209994
+    "corr": -0.3758201305751503
   },
   "oil": {
     "ok": true,
-    "last": 85.76000213623047,
-    "pct": -0.763707529158466,
+    "last": 85.70999908447266,
+    "pct": -0.8215680392455639,
     "state": "down",
-    "corr": -0.3993873102672019
+    "corr": -0.44167218123642465
   },
   "news": {
-    "usd": -0.15166564293066323,
-    "oil": -0.8729270418550014,
+    "usd": -0.06460595255106069,
+    "oil": -0.871016606183596,
     "shock": true,
     "usd_headlines": [
+      "US Dollar gains pressure Euro despite growing bets on US-Iran deal - www.tmgm.com",
       "Treasury yields fall across all maturities in October on foreign futures buying and safe-haven demand - \uba38\ub2c8\ud22c\ub370\uc774",
-      "Euro weakens as US Dollar gains despite rising US-Iran deal bets - FXStreet",
-      "Dollar falls, crude oil plunges, metals show overseas strength and domestic weakness, stainless steel leads declines, COMEX gold and silver strengthen [Overn..."
+      "Euro weakens as US Dollar gains despite rising US-Iran deal bets - FXStreet"
     ],
     "oil_headlines": [
       "Indian stock markets closed for Diwali-Balipratipada; Asian markets rally, crude oil falls - TradingView",
@@ -134,8 +134,14 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.3456249713221928,
-      "trust": 0.6171874487896299
+      "score": 0.3456249713221929,
+      "trust": 0.61718744878963
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.12933333333333336,
+      "trust": 1.2933333333333334
     },
     {
       "style": "Trade the oil shock",
@@ -146,27 +152,21 @@
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.11978913046402796,
-      "trust": 0.9982427538668998
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.11978942839513429,
+      "trust": 0.9982452366261191
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.07831188044103937,
-      "trust": 0.7831188044103936
+      "score": 0.07834252292063894,
+      "trust": 0.7834252292063894
     }
   ],
   "record": {
-    "graded": 52,
-    "wins": 17,
+    "graded": 53,
+    "wins": 18,
     "losses": 25,
     "scratches": 10,
-    "avg_r": -0.11921419892982116
+    "avg_r": -0.04387314444177851
   }
 }
