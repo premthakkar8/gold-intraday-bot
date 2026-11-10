@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-10 18:58 UTC",
+  "updated": "2026-11-10 19:13 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4028.01,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.33). Take an entry only if price reaches it.",
+  "price": 4030.01,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4013.63,
-      "entry_high": 4016.83,
-      "sl": 4011.83,
-      "tp1": 4028.82,
+      "entry_high": 4016.88,
+      "sl": 4011.88,
+      "tp1": 4028.75,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.26,
+      "score": 0.07,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.54% with hawkish news (+0.82) and gold is moving against it (corr -0.39). Buying fights the dollar.",
+      "reason": "Dollar is up +0.53% with hawkish news (+0.73) and gold is moving against it (corr -0.31). Buying fights the dollar.",
       "created_at": "2026-11-10T17:01:28.506409+00:00",
-      "checked_at": "2026-11-10T18:58:39.788614+00:00"
+      "checked_at": "2026-11-10T19:13:13.595636+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4138.2,
+      "entry_low": 4138.15,
       "entry_high": 4141.4,
-      "sl": 4143.2,
-      "tp1": 4126.21,
+      "sl": 4143.15,
+      "tp1": 4126.28,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.33,
+      "score": 0.31,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T18:58:39.788614+00:00"
+      "checked_at": "2026-11-10T19:13:13.595636+00:00"
     }
   ],
   "active": [],
@@ -49,39 +49,39 @@
     "structure": "up",
     "htf": "down",
     "session": "newyork",
-    "vwap": 4082.1867956940664,
-    "atr": 3.265714285714174,
+    "vwap": 4081.5989278808015,
+    "atr": 3.172857142856986,
     "day_low": 4013.63,
     "day_high": 4141.4,
-    "range_pos": 0.11254598105971796
+    "range_pos": 0.12819910777177873
   },
   "dxy": {
     "ok": true,
-    "last": 102.26300048828125,
-    "pct": 0.5367810732036172,
+    "last": 102.25399780273438,
+    "pct": 0.5279303547465465,
     "state": "up",
-    "corr": -0.3917291732180906
+    "corr": -0.30515790131260334
   },
   "oil": {
     "ok": true,
-    "last": 86.05999755859375,
-    "pct": -0.4165709534589267,
+    "last": 86.0199966430664,
+    "pct": -0.4628575958737352,
     "state": "down",
-    "corr": -0.2503990533867586
+    "corr": -0.2527813247867394
   },
   "news": {
-    "usd": 0.8196144735233538,
+    "usd": 0.7268838175483128,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
+      "Sri Lanka rupee closes at 332.33/40 to US dollar spot, bond yields drop - EconomyNext",
       "Treasury Yields Jump After Hot October CPI Report - Oz Arab Media",
-      "Federal Reserve's Rate Hikes: Insights from Dallas Fed President Lori Logan - GuruFocus",
-      "U.S. Dollar Rallies As CPI Exceeds Estimates: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire"
+      "Federal Reserve's Rate Hikes: Insights from Dallas Fed President Lori Logan - GuruFocus"
     ],
     "oil_headlines": [
       "FCCPC Warns Fuel Marketers Over High Prices as Global Crude Oil Falls - Nigeria Info FM",
       "Crude Oil slips to six-week low - FXStreet",
-      "Canadian Dollar and Business Outlook: Loonie drops, crude oil falls - Canadian Cattlemen"
+      "Canadian Dollar and Business Outlook: Loonie drops, crude oil falls - Country Guide"
     ]
   },
   "events": [],
@@ -95,13 +95,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.32629909344903857,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.26,
+      "score": 0.3061500869497429,
       "trust": 1.0
     },
     {
@@ -114,6 +108,12 @@
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.065,
       "trust": 1.0
     }
   ],
