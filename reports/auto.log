@@ -376,3 +376,5 @@ NameError: name 'load_calendar' is not defined
 2026-11-10 01:43 UTC  live: BUY entry reached at 4131.64
 2026-11-10 01:43 UTC  live: BUY TP hit
 2026-11-10 01:56 UTC  live: gold 4128.67 | graded: ad228c27 stand aside -> loss (-1.00R) | opened stand aside 761bf081
+2026-11-10 02:12 UTC  live: gold 4122.42 | graded: 761bf081 stand aside -> loss (-1.00R) | opened long trend_align 9a123ed0 zone 4120.57-4122.07 stop 4117.07 target 4129.95 units 1 risk 5.00 USD tier normal conf 0.58
+2026-11-10 02:13 UTC  live: BUY entry reached at 4122.72
