@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-10 20:26 UTC",
+  "updated": "2026-11-10 20:41 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4035.2,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.36). Take an entry only if price reaches it.",
+  "price": 4030.63,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.35). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4013.63,
-      "entry_high": 4017.06,
-      "sl": 4012.06,
-      "tp1": 4028.48,
+      "entry_high": 4016.96,
+      "sl": 4011.96,
+      "tp1": 4028.63,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.15,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.52% with hawkish news (+0.76) and gold is moving against it (corr -0.63). Buying fights the dollar.",
+      "reason": "Dollar is up +0.52% with hawkish news (+0.85) and gold is moving against it (corr -0.51). Buying fights the dollar.",
       "created_at": "2026-11-10T17:01:28.506409+00:00",
-      "checked_at": "2026-11-10T20:26:53.912792+00:00"
+      "checked_at": "2026-11-10T20:41:38.644093+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4137.97,
+      "entry_low": 4138.07,
       "entry_high": 4141.4,
-      "sl": 4142.97,
-      "tp1": 4126.55,
+      "sl": 4143.07,
+      "tp1": 4126.4,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.36,
+      "score": 0.35,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T20:26:53.912792+00:00"
+      "checked_at": "2026-11-10T20:41:38.644093+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "down",
     "session": "newyork",
-    "vwap": 4079.024968602287,
-    "atr": 2.8464285714285973,
+    "vwap": 4078.572052295785,
+    "atr": 3.035000000000017,
     "day_low": 4013.63,
     "day_high": 4141.4,
-    "range_pos": 0.16881897158957337
+    "range_pos": 0.13305157705251675
   },
   "dxy": {
     "ok": true,
-    "last": 102.2509994506836,
-    "pct": 0.5249826154638103,
+    "last": 102.24500274658203,
+    "pct": 0.5190871368983377,
     "state": "up",
-    "corr": -0.6268171480748039
+    "corr": -0.5126394548237125
   },
   "oil": {
     "ok": true,
-    "last": 86.41000366210938,
-    "pct": -0.01156503939793994,
+    "last": 86.43000030517578,
+    "pct": 0.011573867672289512,
     "state": "flat",
-    "corr": -0.18937320096280458
+    "corr": -0.09200628506848485
   },
   "news": {
-    "usd": 0.7623234383069936,
+    "usd": 0.8532596055439616,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
-      "US Dollar Technical Forecast: DXY Bulls Target Yearly Highs After Hot CPI - StoneX",
-      "Treasury yields jump after hot October CPI, with a December Fed hike now priced in - Startup Fortune",
-      "Sri Lanka rupee closes at 332.33/40 to US dollar spot, bond yields drop - EconomyNext"
+      "World in Brief: Anthropic aims for a $1trn valuation; Treasury yields rise on inflation report - The Economist",
+      "Trump-appointed Fed member signals big interest rate hike as inflation runs hot - The Washington Post",
+      "US Dollar Technical Forecast: DXY Bulls Target Yearly Highs After Hot CPI - StoneX"
     ],
     "oil_headlines": [
+      "FCCPC expects petrol prices to fall as crude oil drops - Punch Newspapers",
       "FCCPC Warns Fuel Marketers Over High Prices as Global Crude Oil Falls - Nigeria Info FM",
-      "Crude Oil slips to six-week low - FXStreet",
-      "Canadian Dollar and Business Outlook: Loonie drops, crude oil falls - Canadian Cattlemen"
+      "Crude Oil slips to six-week low - FXStreet"
     ]
   },
   "events": [],
@@ -89,25 +89,25 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.48989958057042576,
-      "trust": 0.874820679590046
+      "score": 0.7252819790387475,
+      "trust": 0.8241840670894858
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3555134094136268,
-      "trust": 1.0
+      "score": 0.34706444421695204,
+      "trust": 1.0015386938024082
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.14774232267355986,
+      "trust": 0.9984569721572039
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
       "score": 0.12,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
       "trust": 1.0
     },
     {
