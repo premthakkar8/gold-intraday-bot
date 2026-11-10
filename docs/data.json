@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-10 16:31 UTC",
+  "updated": "2026-11-10 16:46 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4024.39,
+  "price": 4020.54,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4022.98,
-      "entry_high": 4024.86,
-      "sl": 4019.86,
-      "tp1": 4040.16,
+      "entry_low": 4018.52,
+      "entry_high": 4020.39,
+      "sl": 4015.39,
+      "tp1": 4035.71,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,16 +19,16 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.63% with hawkish news (+0.60) and gold is moving against it (corr -0.73). Buying fights the dollar.",
-      "created_at": "2026-11-10T16:31:58.365863+00:00",
-      "checked_at": "2026-11-10T16:31:58.365863+00:00"
+      "reason": "Dollar is up +0.66% with hawkish news (+0.60) and gold is moving against it (corr -0.74). Buying fights the dollar.",
+      "created_at": "2026-11-10T16:46:46.811785+00:00",
+      "checked_at": "2026-11-10T16:46:46.811785+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4139.52,
+      "entry_low": 4139.53,
       "entry_high": 4141.4,
-      "sl": 4144.52,
-      "tp1": 4124.22,
+      "sl": 4144.53,
+      "tp1": 4124.21,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T16:31:58.365863+00:00"
+      "checked_at": "2026-11-10T16:46:46.811785+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "down",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 4091.2717942532076,
-    "atr": 5.6778571428570945,
-    "day_low": 4022.98,
+    "vwap": 4090.0289108296142,
+    "atr": 5.682857142857172,
+    "day_low": 4018.52,
     "day_high": 4141.4,
-    "range_pos": 0.011906772504643295
+    "range_pos": 0.01643880208333323
   },
   "dxy": {
     "ok": true,
-    "last": 102.35800170898438,
-    "pct": 0.6301786547522995,
+    "last": 102.38700103759766,
+    "pct": 0.658688469036474,
     "state": "up",
-    "corr": -0.7251154162239339
+    "corr": -0.7363859983691527
   },
   "oil": {
     "ok": true,
-    "last": 86.5999984741211,
-    "pct": 0.20828547672946335,
+    "last": 86.43000030517578,
+    "pct": 0.011573867672289512,
     "state": "flat",
-    "corr": 0.17211986565885565
+    "corr": 0.1687032500864452
   },
   "news": {
-    "usd": 0.6024018426231497,
+    "usd": 0.603164333575363,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
+      "Fed\u2019s Waller Backs December Rate Hike, Open to Larger Move - Bloomberg.com",
       "Fed's Logan calls for two more rate hikes, possibly rapidly - Yahoo",
-      "US Treasury yields surge as October CPI inflation exceeds forecasts - Beinsure",
-      "US stocks fall and Treasury yields jump at the open after hot October CPI - MLQ.ai"
+      "US Treasury yields surge as October CPI inflation exceeds forecasts - Beinsure"
     ],
     "oil_headlines": [
       "Canadian Dollar and Business Outlook: Loonie drops, crude oil falls - Alberta Farmer Express",
@@ -101,7 +101,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.35651169023374035,
+      "score": 0.35820178603451397,
       "trust": 1.0
     },
     {
