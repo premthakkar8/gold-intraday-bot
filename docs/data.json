@@ -1,9 +1,49 @@
 {
-  "updated": "2026-11-10 11:08 UTC",
+  "updated": "2026-11-10 11:24 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4069.11,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
+  "price": 4073.93,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.09). Take an entry only if price reaches it.",
   "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 4068.75,
+      "entry_high": 4071.74,
+      "sl": 4066.74,
+      "tp1": 4084.27,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-10T11:08:39.067714+00:00",
+      "checked_at": "2026-11-10T11:24:01.865956+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4138.41,
+      "entry_high": 4141.4,
+      "sl": 4143.41,
+      "tp1": 4125.88,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.09,
+      "style": "trend_align",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-10T01:42:09.502171+00:00",
+      "checked_at": "2026-11-10T11:24:01.865956+00:00"
+    }
+  ],
+  "active": [
     {
       "side": "BUY",
       "entry_low": 4068.87,
@@ -21,62 +61,45 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-10T11:08:39.067714+00:00",
-      "checked_at": "2026-11-10T11:08:39.067714+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4138.45,
-      "entry_high": 4141.4,
-      "sl": 4143.45,
-      "tp1": 4125.83,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.34,
-      "style": "trend_align",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T11:08:39.067714+00:00"
+      "checked_at": "2026-11-10T11:09:42.291358+00:00",
+      "entry": 4071.82,
+      "entered_at": "2026-11-10T11:09:42.291358+00:00",
+      "closed": null
     }
   ],
-  "active": [],
   "blackout": null,
   "chart": {
     "structure": "down",
     "htf": "sideways",
     "session": "london",
-    "vwap": 4113.197781720284,
-    "atr": 3.7235714285714363,
-    "day_low": 4068.87,
+    "vwap": 4112.4838500842825,
+    "atr": 3.660714285714253,
+    "day_low": 4068.75,
     "day_high": 4141.4,
-    "range_pos": 0.0033089755963082493
+    "range_pos": 0.07130075705436838
   },
   "dxy": {
     "ok": true,
-    "last": 101.71099853515625,
-    "pct": -0.005902979174334477,
+    "last": 101.6989974975586,
+    "pct": -0.017701436914141506,
     "state": "flat",
-    "corr": -0.6370852327680615
+    "corr": -0.6274486841079633
   },
   "oil": {
     "ok": true,
-    "last": 85.48999786376953,
-    "pct": -1.0761401583898358,
+    "last": 85.77999877929688,
+    "pct": -0.7405686220882365,
     "state": "down",
-    "corr": -0.17736773146147025
+    "corr": -0.14924998299574094
   },
   "news": {
-    "usd": 0.23907867763472074,
+    "usd": 0.29617773280658366,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
       "US Treasury yields rise as Fed's Waller presses rate hike case - The Economic Times",
       "Treasury Yields Turn Higher on Fed\u2019s Waller Comments; Eurozone Bond Yields Fall - WSJ",
-      "TREASURIES-US Treasury yields rise as Fed's Waller presses rate hike case - marketscreener.com"
+      "US Treasury yields rise as Fed's Waller presses rate hike case - TradingView"
     ],
     "oil_headlines": [
       "Crude Oil Slides as China\u2019s Import Rebound Meets Refinery Caution - Kalkine",
@@ -108,12 +131,6 @@
       "trust": 0.6695598939331939
     },
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.34320000000000006,
-      "trust": 1.0
-    },
-    {
       "style": "Trade the oil shock",
       "bias": "flat",
       "score": 0.12,
@@ -122,13 +139,19 @@
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.11979617220429349,
-      "trust": 0.9983014350357792
+      "score": 0.11979647377586844,
+      "trust": 0.998303948132237
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.08580000000000002,
       "trust": 1.0
     }
   ],
