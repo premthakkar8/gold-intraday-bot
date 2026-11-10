@@ -1,34 +1,15 @@
 {
-  "updated": "2026-11-10 15:32 UTC",
+  "updated": "2026-11-10 15:48 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4053.11,
+  "price": 4042.91,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4032.95,
-      "entry_high": 4034.02,
-      "sl": 4029.02,
-      "tp1": 4051.35,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "invalid",
-      "reason": "Dollar is up +0.35% with hawkish news (+0.50) and gold is moving against it (corr -0.77). Buying fights the dollar.",
-      "created_at": "2026-11-10T14:57:54.481365+00:00",
-      "checked_at": "2026-11-10T15:32:25.230291+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4140.33,
-      "entry_high": 4141.4,
-      "sl": 4145.33,
-      "tp1": 4123.0,
+      "entry_high": 4034.49,
+      "sl": 4029.49,
+      "tp1": 4050.63,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -37,40 +18,59 @@
       "style": "trend_align",
       "favored": true,
       "ready": false,
+      "status": "invalid",
+      "reason": "Dollar is up +0.47% with hawkish news (+0.50) and gold is moving against it (corr -0.77). Buying fights the dollar.",
+      "created_at": "2026-11-10T14:57:54.481365+00:00",
+      "checked_at": "2026-11-10T15:48:09.048713+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4139.86,
+      "entry_high": 4141.4,
+      "sl": 4144.86,
+      "tp1": 4123.72,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.35,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T15:32:25.230291+00:00"
+      "checked_at": "2026-11-10T15:48:09.048713+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "up",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 4095.673928026286,
-    "atr": 7.154285714285801,
+    "vwap": 4094.659990371825,
+    "atr": 6.282142857142877,
     "day_low": 4032.95,
     "day_high": 4141.4,
-    "range_pos": 0.18589211618257578
+    "range_pos": 0.09183955739972387
   },
   "dxy": {
     "ok": true,
-    "last": 102.072998046875,
-    "pct": 0.34998591010625285,
+    "last": 102.19200134277344,
+    "pct": 0.46698040713454914,
     "state": "up",
-    "corr": -0.772268319963658
+    "corr": -0.7724969122401517
   },
   "oil": {
     "ok": true,
-    "last": 85.54000091552734,
-    "pct": -1.0182796483027379,
+    "last": 85.18000030517578,
+    "pct": -1.4348506017616645,
     "state": "down",
-    "corr": 0.2569297015052381
+    "corr": 0.2611957892648722
   },
   "news": {
-    "usd": 0.4975340489060313,
+    "usd": 0.5002438317314463,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
@@ -89,19 +89,19 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5260513372457452,
-      "trust": 0.9393773879388305
+      "score": 0.8341813056487588,
+      "trust": 1.097606981116788
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.4048000000000001,
+      "bias": "long",
+      "score": 0.4,
       "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.35466032505370987,
+      "score": 0.3549243578225162,
       "trust": 1.0
     },
     {
