@@ -1,9 +1,49 @@
 {
-  "updated": "2026-11-10 10:09 UTC",
+  "updated": "2026-11-10 10:24 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4083.34,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.21). Take an entry only if price reaches it.",
+  "price": 4078.73,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.24). Take an entry only if price reaches it.",
   "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 4077.35,
+      "entry_high": 4079.8,
+      "sl": 4074.8,
+      "tp1": 4093.67,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-10T10:24:17.833033+00:00",
+      "checked_at": "2026-11-10T10:24:17.833033+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4138.95,
+      "entry_high": 4141.4,
+      "sl": 4143.95,
+      "tp1": 4125.08,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.24,
+      "style": "trend_align",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-10T01:42:09.502171+00:00",
+      "checked_at": "2026-11-10T10:24:17.833033+00:00"
+    }
+  ],
+  "active": [
     {
       "side": "BUY",
       "entry_low": 4080.71,
@@ -21,49 +61,9 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-10T09:39:44.112616+00:00",
-      "checked_at": "2026-11-10T10:09:25.748985+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4140.22,
-      "entry_high": 4141.4,
-      "sl": 4145.22,
-      "tp1": 4123.18,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.21,
-      "style": "trend_align",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T10:09:25.748985+00:00"
-    }
-  ],
-  "active": [
-    {
-      "side": "BUY",
-      "entry_low": 4082.02,
-      "entry_high": 4083.59,
-      "sl": 4078.59,
-      "tp1": 4099.66,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-10T09:39:44.112616+00:00",
-      "checked_at": "2026-11-10T09:41:47.311363+00:00",
-      "entry": 4083.59,
-      "entered_at": "2026-11-10T09:41:47.311363+00:00",
+      "checked_at": "2026-11-10T10:21:32.953218+00:00",
+      "entry": 4081.89,
+      "entered_at": "2026-11-10T10:21:32.953218+00:00",
       "closed": null
     }
   ],
@@ -72,39 +72,39 @@
     "structure": "down",
     "htf": "sideways",
     "session": "london",
-    "vwap": 4116.543580039162,
-    "atr": 6.93857142857142,
-    "day_low": 4080.71,
+    "vwap": 4115.678943580655,
+    "atr": 4.62928571428571,
+    "day_low": 4077.35,
     "day_high": 4141.4,
-    "range_pos": 0.04333498105124611
+    "range_pos": 0.021545667447308587
   },
   "dxy": {
     "ok": true,
-    "last": 101.6969985961914,
-    "pct": -0.01966659643596569,
+    "last": 101.73500061035156,
+    "pct": 0.01769393630527958,
     "state": "flat",
-    "corr": -0.7031409585102367
+    "corr": -0.6745669715263437
   },
   "oil": {
     "ok": true,
-    "last": 84.25,
-    "pct": -2.5109907601515,
+    "last": 84.56999969482422,
+    "pct": -2.140706449107382,
     "state": "down",
-    "corr": -0.17238842521924433
+    "corr": -0.16735427065978145
   },
   "news": {
-    "usd": 0.010137084931166322,
+    "usd": 0.17174221957650743,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
+      "TREASURIES-US Treasury yields rise as Fed's Waller presses rate hike case - marketscreener.com",
       "Eurozone Bond Yields Slide, Treasury Yields Seek Direction Ahead of CPI Data -- Update - Moomoo",
-      "Fed's Waller plans to support at least a quarter-point rate hike in December - Reuters",
-      "US Dollar gains pressure Euro despite growing bets on US-Iran deal - www.tmgm.com"
+      "Fed's Waller plans to support at least a quarter-point rate hike in December - Reuters"
     ],
     "oil_headlines": [
+      "Crude Oil Slides as China\u2019s Import Rebound Meets Refinery Caution - Kalkine",
       "Oil Price Today (November 10): Brent crude falls below $90 for first time in 3 months as Trump says Iran w - The Economic Times",
-      "Crude Oil Falls as Trump Signals No Immediate Military Action Against Iran - CMB News",
-      "WTI Crude Falls to 8-Month Low Amid U.S.-Iran Diplomatic Optimism - KuCoin"
+      "Crude Oil Falls as Trump Signals No Immediate Military Action Against Iran - CMB News"
     ]
   },
   "events": [
@@ -127,13 +127,13 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.3133996452924092,
-      "trust": 0.559642223736445
+      "score": 0.3985967812956049,
+      "trust": 0.7117799665992943
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.20684373069795786,
+      "score": 0.23925937355347648,
       "trust": 1.0
     },
     {
@@ -145,8 +145,8 @@
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.11979500679654177,
-      "trust": 0.9982917233045148
+      "score": 0.11979530000478252,
+      "trust": 0.998294166706521
     },
     {
       "style": "Fade the session range",
@@ -156,10 +156,10 @@
     }
   ],
   "record": {
-    "graded": 54,
-    "wins": 18,
+    "graded": 55,
+    "wins": 19,
     "losses": 25,
     "scratches": 11,
-    "avg_r": -0.0430606788039678
+    "avg_r": -0.024095939189350202
   }
 }
