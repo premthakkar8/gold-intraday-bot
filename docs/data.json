@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-10 19:43 UTC",
+  "updated": "2026-11-10 19:57 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4027.4,
+  "price": 4030.24,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.32). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4013.63,
-      "entry_high": 4016.95,
-      "sl": 4011.95,
-      "tp1": 4028.64,
+      "entry_high": 4017.22,
+      "sl": 4012.22,
+      "tp1": 4028.24,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,16 +19,16 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.53% with hawkish news (+0.75) and gold is moving against it (corr -0.42). Buying fights the dollar.",
+      "reason": "Dollar is up +0.52% with hawkish news (+0.75) and gold is moving against it (corr -0.42). Buying fights the dollar.",
       "created_at": "2026-11-10T17:01:28.506409+00:00",
-      "checked_at": "2026-11-10T19:43:02.807892+00:00"
+      "checked_at": "2026-11-10T19:57:41.195596+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4138.08,
+      "entry_low": 4137.81,
       "entry_high": 4141.4,
-      "sl": 4143.08,
-      "tp1": 4126.39,
+      "sl": 4142.81,
+      "tp1": 4126.79,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,48 +40,48 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T19:43:02.807892+00:00"
+      "checked_at": "2026-11-10T19:57:41.195596+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "down",
     "session": "newyork",
-    "vwap": 4080.4756526833153,
-    "atr": 3.0464285714284807,
+    "vwap": 4079.978533752275,
+    "atr": 2.562857142857086,
     "day_low": 4013.63,
     "day_high": 4141.4,
-    "range_pos": 0.1077717774125384
+    "range_pos": 0.12999921734366232
   },
   "dxy": {
     "ok": true,
-    "last": 102.25599670410156,
-    "pct": 0.5298955142683707,
+    "last": 102.24199676513672,
+    "pct": 0.5161318970067396,
     "state": "up",
-    "corr": -0.4228951094628927
+    "corr": -0.417924760272347
   },
   "oil": {
     "ok": true,
-    "last": 86.16999816894531,
-    "pct": -0.2892848938867908,
+    "last": 86.23999786376953,
+    "pct": -0.20828547672946335,
     "state": "flat",
-    "corr": -0.24008848974708275
+    "corr": -0.23907077584408654
   },
   "news": {
-    "usd": 0.7485851285735782,
+    "usd": 0.7484265274671346,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
       "Treasury yields jump after hot October CPI, with a December Fed hike now priced in - Startup Fortune",
       "Sri Lanka rupee closes at 332.33/40 to US dollar spot, bond yields drop - EconomyNext",
-      "Treasury Yields Jump After Hot October CPI Report - Oz Arab Media"
+      "Federal Reserve's Rate Hikes: Insights from Dallas Fed President Lori Logan - GuruFocus"
     ],
     "oil_headlines": [
       "FCCPC Warns Fuel Marketers Over High Prices as Global Crude Oil Falls - Nigeria Info FM",
       "Crude Oil slips to six-week low - FXStreet",
-      "Canadian Dollar and Business Outlook: Loonie drops, crude oil falls - Country Guide"
+      "Canadian Dollar and Business Outlook: Loonie drops, crude oil falls - Canadian Cattlemen"
     ]
   },
   "events": [],
@@ -89,25 +89,25 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6318879884034055,
-      "trust": 1.128371407863224
+      "score": 0.6082250893993745,
+      "trust": 1.0861162310703114
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3249387545360254,
+      "score": 0.3242080757803587,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.28916923076929146,
       "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
       "score": 0.12,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
       "trust": 1.0
     },
     {
@@ -118,10 +118,10 @@
     }
   ],
   "record": {
-    "graded": 62,
+    "graded": 63,
     "wins": 22,
-    "losses": 28,
+    "losses": 29,
     "scratches": 12,
-    "avg_r": -0.02137542992603647
+    "avg_r": -0.03690915326054383
   }
 }
