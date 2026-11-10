@@ -410,3 +410,4 @@ NameError: name 'load_calendar' is not defined
 2026-11-10 07:42 UTC  live: gold 4117.28 | holding long dollar_lead 8ecaa346 | new read flat stand_aside not opened
 2026-11-10 07:56 UTC  live: gold 4114.18 | holding long dollar_lead 8ecaa346 | new read flat stand_aside not opened
 2026-11-10 08:11 UTC  live: gold 4117.54 | graded: 8ecaa346 long dollar_lead -> scratch (price never reached the entry zone) | opened stand aside 20ffcbb6
+2026-11-10 08:26 UTC  live: gold 4117.42 | holding flat stand_aside 20ffcbb6 | new read flat stand_aside not opened
