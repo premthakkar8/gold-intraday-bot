@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-10 13:36 UTC",
+  "updated": "2026-11-10 13:53 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4054.43,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.00). Take an entry only if price reaches it.",
+  "price": 4050.51,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4039.65,
-      "entry_high": 4040.28,
-      "sl": 4035.28,
-      "tp1": 4058.7,
+      "entry_high": 4039.77,
+      "sl": 4034.77,
+      "tp1": 4059.47,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -18,65 +18,65 @@
       "style": "range_fade",
       "favored": true,
       "ready": false,
-      "status": "paused",
-      "reason": "Core CPI m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-10T13:36:54.656675+00:00",
-      "checked_at": "2026-11-10T13:36:54.656675+00:00"
+      "checked_at": "2026-11-10T13:53:11.456872+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4140.77,
+      "entry_low": 4141.28,
       "entry_high": 4141.4,
-      "sl": 4145.77,
-      "tp1": 4122.35,
+      "sl": 4146.28,
+      "tp1": 4121.58,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.4,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
-      "status": "paused",
-      "reason": "Core CPI m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T13:36:54.656675+00:00"
+      "checked_at": "2026-11-10T13:53:11.456872+00:00"
     }
   ],
   "active": [],
-  "blackout": "Core CPI m/m at 13:30 UTC",
+  "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 4105.608789795769,
-    "atr": 7.940000000000022,
+    "vwap": 4103.688630860965,
+    "atr": 8.877857142857172,
     "day_low": 4039.65,
     "day_high": 4141.4,
-    "range_pos": 0.1452579852579834
+    "range_pos": 0.10673218673218846
   },
   "dxy": {
     "ok": true,
-    "last": 101.79000091552734,
-    "pct": 0.07176582559089234,
-    "state": "flat",
-    "corr": -0.2658198161305334
+    "last": 101.98500061035156,
+    "pct": 0.2634738874928172,
+    "state": "up",
+    "corr": -0.8445904694601268
   },
   "oil": {
     "ok": true,
-    "last": 85.02999877929688,
-    "pct": -1.608423303748609,
+    "last": 84.45999908447266,
+    "pct": -2.267992508679518,
     "state": "down",
-    "corr": -0.1346417774722036
+    "corr": 0.3307715749086456
   },
   "news": {
-    "usd": 0.0991998446523816,
+    "usd": 0.2820561367503688,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
-      "Sri Lanka rupee closes at 332.33/40 to US dollar spot, bond yields drop - EconomyNext",
-      "What will flip the US Dollar's trajectory as inflation cools toward the Fed's 2% target in 2027? - Mitrade",
-      "US dollar recovers as Waller strengthens December rate hike expectations - Economies.com"
+      "Treasury yields climb across the curve after the latest inflation print - Seeking Alpha",
+      "US Treasury yields rise after US inflation report - Breakingthenews.net",
+      "Sri Lanka rupee closes at 332.33/40 to US dollar spot, bond yields drop - EconomyNext"
     ],
     "oil_headlines": [
       "Crude Oil Slides as China\u2019s Import Rebound Meets Refinery Caution - Kalkine",
@@ -104,29 +104,29 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.40903343347379834,
-      "trust": 0.7304168454889255
+      "score": 0.5431867084413458,
+      "trust": 0.9699762650738316
     },
     {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.12099363198925267,
-      "trust": 1.2099363198925266
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.4048000000000001,
+      "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.12,
+      "bias": "short",
+      "score": 0.3737886549299633,
       "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
-      "bias": "flat",
-      "score": 0.11979906078273014,
-      "trust": 0.9983255065227512
+      "bias": "short",
+      "score": 0.30144263849836606,
+      "trust": 1.0
     },
     {
-      "style": "Trade with the intraday trend",
+      "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0

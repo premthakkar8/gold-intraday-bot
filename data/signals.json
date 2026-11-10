@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-10T13:36:54.656675+00:00",
-  "atr": 7.940000000000022,
-  "price": 4057.23,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.00). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-10T13:53:11.456872+00:00",
+  "atr": 8.877857142857172,
+  "price": 4050.51,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4039.65,
-      "entry_high": 4040.28,
-      "sl": 4035.28,
-      "tp1": 4058.7,
+      "entry_high": 4039.77,
+      "sl": 4034.77,
+      "tp1": 4059.47,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -18,39 +18,39 @@
       "style": "range_fade",
       "favored": true,
       "ready": false,
-      "status": "paused",
-      "reason": "Core CPI m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-10T13:36:54.656675+00:00",
-      "checked_at": "2026-11-10T13:48:28.464076+00:00"
+      "checked_at": "2026-11-10T13:53:11.456872+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4140.77,
+      "entry_low": 4141.28,
       "entry_high": 4141.4,
-      "sl": 4145.77,
-      "tp1": 4122.35,
+      "sl": 4146.28,
+      "tp1": 4121.58,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.4,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
-      "status": "paused",
-      "reason": "Core CPI m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T13:48:28.464076+00:00"
+      "checked_at": "2026-11-10T13:53:11.456872+00:00"
     }
   ],
   "research": [
-    "Gold 4054.43 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4105.61, ATR 7.94, day range 4039.65-4141.40.",
-    "DXY 101.79 (+0.07% today, flat), gold-dollar corr -0.27.",
-    "WTI 85.03 (-1.61% today, down), gold-oil corr -0.13.",
-    "Headlines: dollar +0.10, oil -1.00, fresh shock.",
-    "Dollar: Sri Lanka rupee closes at 332.33/40 to US dollar spot, bond yields drop - EconomyNext",
+    "Gold 4050.51 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 4103.69, ATR 8.88, day range 4039.65-4141.40.",
+    "DXY 101.99 (+0.26% today, up), gold-dollar corr -0.84.",
+    "WTI 84.46 (-2.27% today, down), gold-oil corr +0.33.",
+    "Headlines: dollar +0.28, oil -1.00, fresh shock.",
+    "Dollar: Treasury yields climb across the curve after the latest inflation print - Seeking Alpha",
     "Oil: Crude Oil Slides as China\u2019s Import Rebound Meets Refinery Caution - Kalkine",
-    "US event blackout: Core CPI m/m at 13:30 UTC. Do not enter until it passes."
+    "Next high-impact US release: Core CPI m/m Tue 13:30 UTC."
   ],
   "active": [
     {
