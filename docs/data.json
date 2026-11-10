@@ -1,17 +1,17 @@
 {
-  "updated": "2026-11-10 03:17 UTC",
+  "updated": "2026-11-10 03:32 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4113.88,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.09). Take an entry only if price reaches it.",
+  "price": 4114.4,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.11). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4110.11,
-      "entry_high": 4112.81,
-      "sl": 4107.81,
-      "tp1": 4125.97,
-      "tp2": null,
-      "rr": 4.0,
+      "entry_high": 4112.95,
+      "sl": 4107.95,
+      "tp1": 4125.35,
+      "tp2": 4125.86,
+      "rr": 3.9,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
@@ -21,26 +21,26 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-10T03:02:55.525071+00:00",
-      "checked_at": "2026-11-10T03:17:34.109911+00:00"
+      "checked_at": "2026-11-10T03:32:44.876076+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4138.7,
+      "entry_low": 4138.56,
       "entry_high": 4141.4,
-      "sl": 4143.7,
-      "tp1": 4125.97,
-      "tp2": 4125.45,
-      "rr": 3.9,
+      "sl": 4143.56,
+      "tp1": 4125.65,
+      "tp2": null,
+      "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.09,
+      "score": 0.11,
       "style": "trend_align",
       "favored": true,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.09. Take it only with a clear reaction at the entry.",
+      "status": "far",
+      "reason": "Price is 24.16 away from the entry (6.1 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T03:17:34.109911+00:00"
+      "checked_at": "2026-11-10T03:32:44.876076+00:00"
     }
   ],
   "active": [
@@ -72,29 +72,29 @@
     "structure": "down",
     "htf": "up",
     "session": "asia",
-    "vwap": 4125.972709350177,
-    "atr": 4.178571428571298,
+    "vwap": 4125.352345392861,
+    "atr": 3.934285714285449,
     "day_low": 4110.11,
     "day_high": 4141.4,
-    "range_pos": 0.1204857782039131
+    "range_pos": 0.137104506232022
   },
   "dxy": {
     "ok": true,
-    "last": 101.70999908447266,
-    "pct": -0.006885558935246569,
+    "last": 101.69100189208984,
+    "pct": -0.025562075001438242,
     "state": "flat",
-    "corr": -0.4669615031577802
+    "corr": -0.46643933887444156
   },
   "oil": {
     "ok": true,
-    "last": 86.02999877929688,
-    "pct": -0.45128372820144563,
+    "last": 85.81999969482422,
+    "pct": -0.6942819796734281,
     "state": "down",
-    "corr": -0.4394559769314959
+    "corr": -0.4294170304900941
   },
   "news": {
-    "usd": -0.03491352269590989,
-    "oil": -0.7492982386133804,
+    "usd": -0.03673524527130495,
+    "oil": -0.8637055546473339,
     "shock": true,
     "usd_headlines": [
       "Treasury yields fall across all maturities in October on foreign futures buying and safe-haven demand - \uba38\ub2c8\ud22c\ub370\uc774",
@@ -150,16 +150,16 @@
       "trust": 1.0
     },
     {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.11030084058703707,
+      "trust": 0.7809553502701074
+    },
+    {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.08827628970202943,
-      "trust": 0.7806350195316945
     }
   ],
   "record": {

@@ -386,3 +386,7 @@ NameError: name 'load_calendar' is not defined
 2026-11-10 03:17 UTC  live: gold 4113.88 | holding flat stand_aside c92ee985 | new read flat stand_aside not opened
 2026-11-10 03:18 UTC  live: SELL now far: Price is 25.23 away from the entry (6.0 ATR). Unlikely to fill soon.
 2026-11-10 03:19 UTC  live: SELL valid again
+2026-11-10 03:32 UTC  live: gold 4114.40 | holding flat stand_aside c92ee985 | new read flat stand_aside not opened
+2026-11-10 03:42 UTC  live: SELL now expired: Signal is 120 minutes old without an entry. Waiting for a fresh one.
+2026-11-10 03:44 UTC  live: BUY SL hit
+2026-11-10 03:45 UTC  live: BUY entry reached at 4111.18
