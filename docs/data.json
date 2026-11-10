@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10 22:15 UTC",
+  "updated": "2026-11-10 22:30 UTC",
   "symbol": "VANTAGE:XAUUSD",
   "price": 4033.15,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
@@ -19,9 +19,9 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.52% with hawkish news (+0.89) and gold is moving against it (corr -0.50). Buying fights the dollar.",
+      "reason": "Dollar is up +0.52% with hawkish news (+0.88) and gold is moving against it (corr -0.50). Buying fights the dollar.",
       "created_at": "2026-11-10T17:01:28.506409+00:00",
-      "checked_at": "2026-11-10T22:15:54.554427+00:00"
+      "checked_at": "2026-11-10T22:30:33.063705+00:00"
     },
     {
       "side": "SELL",
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T22:15:54.554427+00:00"
+      "checked_at": "2026-11-10T22:30:33.063705+00:00"
     }
   ],
   "active": [],
@@ -57,8 +57,8 @@
   },
   "dxy": {
     "ok": true,
-    "last": 102.24400329589844,
-    "pct": 0.5181045571374256,
+    "last": 102.24299621582031,
+    "pct": 0.5171144767676517,
     "state": "up",
     "corr": -0.4965260054230372
   },
@@ -70,7 +70,7 @@
     "corr": -0.1312828236460389
   },
   "news": {
-    "usd": 0.8881929381557143,
+    "usd": 0.8771266999966745,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
@@ -89,8 +89,8 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5741047589464913,
-      "trust": 1.0251870695473058
+      "score": 0.5726910395164663,
+      "trust": 1.0226625705651182
     },
     {
       "style": "Trade with the intraday trend",
@@ -101,7 +101,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3470868594307974,
+      "score": 0.3461738947826766,
       "trust": 1.0
     },
     {
@@ -118,10 +118,10 @@
     }
   ],
   "record": {
-    "graded": 65,
+    "graded": 66,
     "wins": 22,
     "losses": 31,
-    "scratches": 12,
-    "avg_r": -0.06654271777560401
+    "scratches": 13,
+    "avg_r": -0.06553449477900396
   }
 }

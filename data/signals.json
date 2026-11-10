@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T22:15:54.554427+00:00",
+  "updated_at": "2026-11-10T22:30:33.063705+00:00",
   "atr": 2.0900000000000483,
   "price": 4033.15,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
@@ -19,9 +19,9 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.52% with hawkish news (+0.89) and gold is moving against it (corr -0.50). Buying fights the dollar.",
+      "reason": "Dollar is up +0.52% with hawkish news (+0.88) and gold is moving against it (corr -0.50). Buying fights the dollar.",
       "created_at": "2026-11-10T17:01:28.506409+00:00",
-      "checked_at": "2026-11-10T22:15:54.554427+00:00"
+      "checked_at": "2026-11-10T22:30:33.063705+00:00"
     },
     {
       "side": "SELL",
@@ -40,14 +40,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T22:15:54.554427+00:00"
+      "checked_at": "2026-11-10T22:30:33.063705+00:00"
     }
   ],
   "research": [
     "Gold 4033.15 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 4076.95, ATR 2.09, day range 4013.63-4141.40.",
     "DXY 102.24 (+0.52% today, up), gold-dollar corr -0.50.",
     "WTI 86.44 (+0.02% today, flat), gold-oil corr -0.13.",
-    "Headlines: dollar +0.89, oil -1.00, fresh shock.",
+    "Headlines: dollar +0.88, oil -1.00, fresh shock.",
     "Dollar: Trump-appointed Fed member signals big interest rate hike as inflation runs hot - The Washington Post",
     "Oil: FCCPC expects petrol prices to fall as crude oil drops - Punch Newspapers",
     "No high-impact US release in the next 24 hours."
