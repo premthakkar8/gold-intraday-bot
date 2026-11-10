@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-10 17:01 UTC",
+  "updated": "2026-11-10 17:16 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4022.33,
+  "price": 4021.4,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.36). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4013.63,
-      "entry_high": 4015.61,
-      "sl": 4010.61,
-      "tp1": 4030.66,
+      "entry_high": 4015.79,
+      "sl": 4010.79,
+      "tp1": 4030.39,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,16 +19,16 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.64% with hawkish news (+0.66) and gold is moving against it (corr -0.73). Buying fights the dollar.",
+      "reason": "Dollar is up +0.62% with hawkish news (+0.66) and gold is moving against it (corr -0.74). Buying fights the dollar.",
       "created_at": "2026-11-10T17:01:28.506409+00:00",
-      "checked_at": "2026-11-10T17:01:28.506409+00:00"
+      "checked_at": "2026-11-10T17:16:06.601463+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4139.42,
+      "entry_low": 4139.24,
       "entry_high": 4141.4,
-      "sl": 4144.42,
-      "tp1": 4124.37,
+      "sl": 4144.24,
+      "tp1": 4124.64,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T17:01:28.506409+00:00"
+      "checked_at": "2026-11-10T17:16:06.601463+00:00"
     }
   ],
   "active": [],
@@ -49,39 +49,39 @@
     "structure": "down",
     "htf": "sideways",
     "session": "newyork",
-    "vwap": 4088.834176825424,
-    "atr": 5.484999999999998,
+    "vwap": 4087.8535928226565,
+    "atr": 5.159999999999984,
     "day_low": 4013.63,
     "day_high": 4141.4,
-    "range_pos": 0.06809110119746302
+    "range_pos": 0.06081239727635603
   },
   "dxy": {
     "ok": true,
-    "last": 102.36699676513672,
-    "pct": 0.6390218726005084,
+    "last": 102.3489990234375,
+    "pct": 0.6213279362952288,
     "state": "up",
-    "corr": -0.7268566186878254
+    "corr": -0.7446023733532531
   },
   "oil": {
     "ok": true,
-    "last": 86.68000030517578,
-    "pct": 0.3008587615590803,
+    "last": 86.58000183105469,
+    "pct": 0.1851465696592339,
     "state": "flat",
-    "corr": 0.18542457334907414
+    "corr": 0.22147181114937758
   },
   "news": {
-    "usd": 0.6565502174826264,
+    "usd": 0.657164985573478,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
-      "Midday Need to Know: CPI tops estimates, Treasury yields jump & more (SPY:NYSEARCA) - Seeking Alpha",
-      "Treasury Yields Jump as Inflation Fuels Fed Wagers - marketscreener.com",
-      "Fed\u2019s Waller Backs December Rate Hike, Open to Larger Move - Bloomberg.com"
+      "U.S. Dollar Rallies As CPI Exceeds Estimates: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
+      "Midday Need to Know: CPI tops estimates, Treasury yields jump & more - TradingView",
+      "Treasury Yields Jump as Inflation Fuels Fed Wagers - marketscreener.com"
     ],
     "oil_headlines": [
       "FCCPC Warns Fuel Marketers Over High Prices as Global Crude Oil Falls - Nigeria Info FM",
-      "Canadian Dollar and Business Outlook: Loonie drops, crude oil falls - Alberta Farmer Express",
-      "Crude Oil Slides as China\u2019s Import Rebound Meets Refinery Caution - Kalkine"
+      "Crude Oil slips to six-week low - FXStreet",
+      "Canadian Dollar and Business Outlook: Loonie drops, crude oil falls - Alberta Farmer Express"
     ]
   },
   "events": [],
@@ -89,13 +89,13 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.7599457418973217,
-      "trust": 1.3570459676737885
+      "score": 0.7098180479568489,
+      "trust": 1.2675322284943729
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.36123031726537147,
+      "score": 0.36384307896268786,
       "trust": 1.0
     },
     {
@@ -118,10 +118,10 @@
     }
   ],
   "record": {
-    "graded": 59,
+    "graded": 60,
     "wins": 21,
     "losses": 27,
-    "scratches": 11,
-    "avg_r": -0.022462316193462055
+    "scratches": 12,
+    "avg_r": -0.022087944256904354
   }
 }
