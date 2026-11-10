@@ -400,3 +400,4 @@ NameError: name 'load_calendar' is not defined
 2026-11-10 05:30 UTC  live: gold 4119.29 | graded: 38a66d52 long range_fade -> win (+3.87R) target hit | opened stand aside 936f67bf
 2026-11-10 05:45 UTC  live: gold 4125.37 | holding flat stand_aside 936f67bf | new read flat stand_aside not opened
 2026-11-10 05:46 UTC  live: BUY TP hit
+2026-11-10 06:00 UTC  live: gold 4124.48 | opened long dollar_lead 8ecaa346 zone 4108.21-4110.69 stop 4105.69 target 4122.05 units 1 risk 5.00 USD tier normal conf 0.58
