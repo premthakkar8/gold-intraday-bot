@@ -380,3 +380,5 @@ NameError: name 'load_calendar' is not defined
 2026-11-10 02:13 UTC  live: BUY entry reached at 4122.72
 2026-11-10 02:28 UTC  live: gold 4126.71 | holding long trend_align 9a123ed0 | new read flat stand_aside not opened
 2026-11-10 02:33 UTC  live: BUY SL hit
+2026-11-10 02:47 UTC  live: gold 4113.62 | graded: 9a123ed0 long trend_align -> loss (-1.00R) invalidation hit | opened stand aside c92ee985
+2026-11-10 02:48 UTC  live: BUY entry reached at 4113.60
