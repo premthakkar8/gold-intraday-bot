@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-10T11:24:01.865956+00:00",
-  "atr": 3.660714285714253,
-  "price": 4072.78,
+  "updated_at": "2026-11-10T11:38:44.110592+00:00",
+  "atr": 3.478571428571383,
+  "price": 4071.17,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.09). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4068.75,
-      "entry_high": 4071.74,
-      "sl": 4066.74,
-      "tp1": 4084.27,
+      "entry_high": 4071.84,
+      "sl": 4066.84,
+      "tp1": 4084.12,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-10T11:08:39.067714+00:00",
-      "checked_at": "2026-11-10T11:37:10.474349+00:00"
+      "checked_at": "2026-11-10T11:51:51.316572+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4138.41,
+      "entry_low": 4138.31,
       "entry_high": 4141.4,
-      "sl": 4143.41,
-      "tp1": 4125.88,
+      "sl": 4143.31,
+      "tp1": 4126.03,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,14 +40,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T11:37:10.474349+00:00"
+      "checked_at": "2026-11-10T11:51:51.316572+00:00"
     }
   ],
   "research": [
-    "Gold 4073.93 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 4112.48, ATR 3.66, day range 4068.75-4141.40.",
-    "DXY 101.70 (-0.02% today, flat), gold-dollar corr -0.63.",
-    "WTI 85.78 (-0.74% today, down), gold-oil corr -0.15.",
-    "Headlines: dollar +0.30, oil -1.00, fresh shock.",
+    "Gold 4073.64 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 4111.75, ATR 3.48, day range 4068.75-4141.40.",
+    "DXY 101.74 (+0.02% today, flat), gold-dollar corr -0.63.",
+    "WTI 85.74 (-0.79% today, down), gold-oil corr -0.14.",
+    "Headlines: dollar +0.24, oil -1.00, fresh shock.",
     "Dollar: US Treasury yields rise as Fed's Waller presses rate hike case - The Economic Times",
     "Oil: Crude Oil Slides as China\u2019s Import Rebound Meets Refinery Caution - Kalkine",
     "Next high-impact US release: Core CPI m/m Tue 13:30 UTC."
@@ -296,5 +296,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-10T11:37:10.474349+00:00"
+  "last_check": "2026-11-10T11:51:51.316572+00:00"
 }
