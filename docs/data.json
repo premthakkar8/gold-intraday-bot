@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-10 09:54 UTC",
+  "updated": "2026-11-10 10:09 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4083.44,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
+  "price": 4083.34,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.21). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4081.24,
-      "entry_high": 4082.69,
-      "sl": 4077.69,
-      "tp1": 4099.07,
+      "entry_low": 4080.71,
+      "entry_high": 4081.89,
+      "sl": 4076.89,
+      "tp1": 4098.93,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-10T09:39:44.112616+00:00",
-      "checked_at": "2026-11-10T09:54:21.945245+00:00"
+      "checked_at": "2026-11-10T10:09:25.748985+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4139.95,
+      "entry_low": 4140.22,
       "entry_high": 4141.4,
-      "sl": 4144.95,
-      "tp1": 4123.57,
+      "sl": 4145.22,
+      "tp1": 4123.18,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.34,
+      "score": 0.21,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T09:54:21.945245+00:00"
+      "checked_at": "2026-11-10T10:09:25.748985+00:00"
     }
   ],
   "active": [
@@ -72,34 +72,34 @@
     "structure": "down",
     "htf": "sideways",
     "session": "london",
-    "vwap": 4117.421376863351,
-    "atr": 6.459285714285768,
-    "day_low": 4081.24,
+    "vwap": 4116.543580039162,
+    "atr": 6.93857142857142,
+    "day_low": 4080.71,
     "day_high": 4141.4,
-    "range_pos": 0.036569148936174835
+    "range_pos": 0.04333498105124611
   },
   "dxy": {
     "ok": true,
-    "last": 101.7040023803711,
-    "pct": -0.012781037500719121,
+    "last": 101.6969985961914,
+    "pct": -0.01966659643596569,
     "state": "flat",
-    "corr": -0.698024467341837
+    "corr": -0.7031409585102367
   },
   "oil": {
     "ok": true,
-    "last": 84.41000366210938,
-    "pct": -2.3258441904922664,
+    "last": 84.25,
+    "pct": -2.5109907601515,
     "state": "down",
-    "corr": -0.2658374112919583
+    "corr": -0.17238842521924433
   },
   "news": {
-    "usd": 0.11116451813714014,
+    "usd": 0.010137084931166322,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
+      "Eurozone Bond Yields Slide, Treasury Yields Seek Direction Ahead of CPI Data -- Update - Moomoo",
       "Fed's Waller plans to support at least a quarter-point rate hike in December - Reuters",
-      "Eurozone Bond Yields Slide, Treasury Yields Seek Direction Ahead of CPI Data -- Update - marketscreener.com",
-      "US Dollar Struggles Despite Fed's Hawkish Tone. Forecast as of 10.11.2026 - LiteFinance"
+      "US Dollar gains pressure Euro despite growing bets on US-Iran deal - www.tmgm.com"
     ],
     "oil_headlines": [
       "Oil Price Today (November 10): Brent crude falls below $90 for first time in 3 months as Trump says Iran w - The Economic Times",
@@ -125,16 +125,16 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.34320000000000006,
-      "trust": 1.0
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.31339964529240916,
-      "trust": 0.5596422237364449
+      "score": 0.3133996452924092,
+      "trust": 0.559642223736445
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.20684373069795786,
+      "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
@@ -145,8 +145,8 @@
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.11979470930799724,
-      "trust": 0.9982892442333103
+      "score": 0.11979500679654177,
+      "trust": 0.9982917233045148
     },
     {
       "style": "Fade the session range",
