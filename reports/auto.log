@@ -372,3 +372,6 @@ NameError: name 'load_calendar' is not defined
 2026-11-09 17:37 UTC  live: gold 4105.05 | holding flat stand_aside 0ddba03f | new read flat stand_aside not opened
 2026-11-09 17:51 UTC  live: gold 4101.86 | graded: 0ddba03f stand aside -> loss (-1.00R) | opened stand aside df449433
 2026-11-09 18:06 UTC  live: gold 4103.44 | holding flat stand_aside df449433 | new read flat stand_aside not opened
+2026-11-10 01:42 UTC  live: gold 4133.33 | graded: df449433 stand aside -> scratch (+0.00R) | opened stand aside ad228c27
+2026-11-10 01:43 UTC  live: BUY entry reached at 4131.64
+2026-11-10 01:43 UTC  live: BUY TP hit

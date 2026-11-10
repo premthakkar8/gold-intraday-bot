@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-09 18:06 UTC",
+  "updated": "2026-11-10 01:42 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4103.44,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
+  "price": 4133.33,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.20). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4054.97,
-      "entry_high": 4058.53,
-      "sl": 4053.53,
-      "tp1": 4069.62,
-      "tp2": null,
-      "rr": 4.0,
+      "entry_low": 4121.71,
+      "entry_high": 4123.48,
+      "sl": 4118.48,
+      "tp1": 4131.08,
+      "tp2": 4139.05,
+      "rr": 2.1,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.43,
-      "style": "dollar_lead",
+      "score": 0.2,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-08T23:29:00.355340+00:00",
-      "checked_at": "2026-11-09T18:06:32.493808+00:00"
+      "status": "weak",
+      "reason": "Strategy score is only 0.20. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-10T01:42:09.502171+00:00",
+      "checked_at": "2026-11-10T01:42:09.502171+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4130.59,
-      "entry_high": 4134.15,
-      "sl": 4135.59,
-      "tp1": 4119.5,
-      "tp2": null,
-      "rr": 4.0,
+      "entry_low": 4139.63,
+      "entry_high": 4141.4,
+      "sl": 4144.63,
+      "tp1": 4131.08,
+      "tp2": 4124.06,
+      "rr": 2.3,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.35,
-      "style": "trend_align",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-09T02:09:57.555948+00:00",
-      "checked_at": "2026-11-09T18:06:32.493808+00:00"
+      "status": "invalid",
+      "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
+      "created_at": "2026-11-10T01:42:09.502171+00:00",
+      "checked_at": "2026-11-10T01:42:09.502171+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
-    "htf": "sideways",
-    "session": "newyork",
-    "vwap": 4111.151353530621,
-    "atr": 2.611428571428665,
-    "day_low": 4054.97,
-    "day_high": 4134.15,
-    "range_pos": 0.6121495327102792
+    "structure": "up",
+    "htf": "up",
+    "session": "asia",
+    "vwap": 4131.080643061101,
+    "atr": 5.870714285714192,
+    "day_low": 4121.71,
+    "day_high": 4141.4,
+    "range_pos": 0.5901472828847195
   },
   "dxy": {
     "ok": true,
-    "last": 101.8280029296875,
-    "pct": -0.3825109163281908,
-    "state": "down",
-    "corr": -0.24341917734983903
+    "last": 101.65799713134766,
+    "pct": -0.05800970893812305,
+    "state": "flat",
+    "corr": -0.6854871754982446
   },
   "oil": {
     "ok": true,
-    "last": 87.5999984741211,
-    "pct": -3.1402077516805926,
-    "state": "down",
-    "corr": -0.22554741710844695
+    "last": 86.20999908447266,
+    "pct": -0.24299825147198234,
+    "state": "flat",
+    "corr": -0.4520463216114981
   },
   "news": {
-    "usd": 0.2386357793525382,
-    "oil": -0.45316877065420824,
+    "usd": 0.16657607257387377,
+    "oil": -0.5981537598240915,
     "shock": true,
     "usd_headlines": [
-      "Will a Federal Reserve Interest Rate Hike Trigger a Recession? Here's What History Says. - The Motley Fool",
-      "Treasury yields rise as CPI data tests mortgage rate outlook - www.mpamag.com",
-      "US Dollar Falls Early Monday, Focus on Consumer, Producer Prices This Week - www.marketscreener.com"
+      "Goldman Sachs Treasury Yields Outlook: G4 Yields Fall 25\u201350 Basis Points - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+      "Euro weakens as US Dollar gains despite rising US-Iran deal bets | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+      "Euro weakens as US Dollar gains despite rising US-Iran deal bets - FXStreet"
     ],
     "oil_headlines": [
+      "Brent oil falls nearly 6% and gold jumps while two-year Treasury yields climb before CPI - MLQ.ai",
       "Crude Oil Price Forecast: Oil Falls 4% as US, Iran Signal Talks, Technicals Point to Brent Testing $88 - TradingKey",
-      "Crude Oil Falls Over 3%; NRG Energy Shares Jump After Strong Q3 Results - Benzinga",
-      "Stock Indexes Sharply Higher as Tech Stocks Rally and Crude Oil Falls - Barchart.com"
+      "Crude Oil Falls Over 3%; NRG Energy Shares Jump After Strong Q3 Results - Benzinga"
     ]
   },
   "events": [
@@ -111,26 +111,26 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4886118843311448,
-      "trust": 0.6429103741199274
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.4313975340543328,
-      "trust": 1.0
+      "score": 0.704555472323555,
+      "trust": 1.258134772006348
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.34533518997419316,
-      "trust": 1.0
+      "bias": "long",
+      "score": 0.20353163520177012,
+      "trust": 0.997704094126324
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "flat",
+      "score": 0.12027473485888653,
+      "trust": 1.0022894571573877
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.12,
-      "trust": 1.0
+      "score": 0.11979249704489593,
+      "trust": 0.9982708087074661
     },
     {
       "style": "Fade the session range",
@@ -140,10 +140,10 @@
     }
   ],
   "record": {
-    "graded": 48,
+    "graded": 49,
     "wins": 17,
     "losses": 22,
-    "scratches": 9,
-    "avg_r": -0.06664871550730626
+    "scratches": 10,
+    "avg_r": -0.06528853763981021
   }
 }
