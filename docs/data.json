@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-10 10:53 UTC",
+  "updated": "2026-11-10 11:08 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4074.35,
+  "price": 4069.11,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4073.22,
-      "entry_high": 4076.19,
-      "sl": 4071.19,
-      "tp1": 4088.77,
+      "entry_low": 4068.87,
+      "entry_high": 4071.82,
+      "sl": 4066.82,
+      "tp1": 4084.44,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -20,15 +20,15 @@
       "ready": false,
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-10T10:38:54.803837+00:00",
-      "checked_at": "2026-11-10T10:53:42.125405+00:00"
+      "created_at": "2026-11-10T11:08:39.067714+00:00",
+      "checked_at": "2026-11-10T11:08:39.067714+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4138.43,
+      "entry_low": 4138.45,
       "entry_high": 4141.4,
-      "sl": 4143.43,
-      "tp1": 4125.85,
+      "sl": 4143.45,
+      "tp1": 4125.83,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,66 +40,43 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T10:53:42.125405+00:00"
+      "checked_at": "2026-11-10T11:08:39.067714+00:00"
     }
   ],
-  "active": [
-    {
-      "side": "BUY",
-      "entry_low": 4073.31,
-      "entry_high": 4076.01,
-      "sl": 4071.01,
-      "tp1": 4089.26,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-10T10:38:54.803837+00:00",
-      "checked_at": "2026-11-10T10:39:57.672925+00:00",
-      "entry": 4076.01,
-      "entered_at": "2026-11-10T10:39:57.672925+00:00",
-      "closed": null
-    }
-  ],
+  "active": [],
   "blackout": null,
   "chart": {
     "structure": "down",
     "htf": "sideways",
     "session": "london",
-    "vwap": 4114.026925127439,
-    "atr": 3.6957142857143026,
-    "day_low": 4073.22,
+    "vwap": 4113.197781720284,
+    "atr": 3.7235714285714363,
+    "day_low": 4068.87,
     "day_high": 4141.4,
-    "range_pos": 0.016573775300676327
+    "range_pos": 0.0033089755963082493
   },
   "dxy": {
     "ok": true,
-    "last": 101.70700073242188,
-    "pct": -0.009833298217982844,
+    "last": 101.71099853515625,
+    "pct": -0.005902979174334477,
     "state": "flat",
-    "corr": -0.65449314988811
+    "corr": -0.6370852327680615
   },
   "oil": {
     "ok": true,
-    "last": 85.11000061035156,
-    "pct": -1.5158500189189918,
+    "last": 85.48999786376953,
+    "pct": -1.0761401583898358,
     "state": "down",
-    "corr": -0.17050896053564726
+    "corr": -0.17736773146147025
   },
   "news": {
-    "usd": 0.2237748874751164,
+    "usd": 0.23907867763472074,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
+      "US Treasury yields rise as Fed's Waller presses rate hike case - The Economic Times",
       "Treasury Yields Turn Higher on Fed\u2019s Waller Comments; Eurozone Bond Yields Fall - WSJ",
-      "TREASURIES-US Treasury yields rise as Fed's Waller presses rate hike case - marketscreener.com",
-      "Eurozone Bond Yields Slide, Treasury Yields Seek Direction Ahead of CPI Data -- Update - Moomoo"
+      "TREASURIES-US Treasury yields rise as Fed's Waller presses rate hike case - marketscreener.com"
     ],
     "oil_headlines": [
       "Crude Oil Slides as China\u2019s Import Rebound Meets Refinery Caution - Kalkine",
@@ -127,8 +104,8 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.3749535406025888,
-      "trust": 0.6695598939331942
+      "score": 0.3749535406025886,
+      "trust": 0.6695598939331939
     },
     {
       "style": "Trade with the intraday trend",
@@ -145,8 +122,8 @@
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.11979587865423086,
-      "trust": 0.9982989887852572
+      "score": 0.11979617220429349,
+      "trust": 0.9983014350357792
     },
     {
       "style": "Fade the session range",
