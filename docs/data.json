@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-10 05:30 UTC",
+  "updated": "2026-11-10 05:45 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4119.29,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.00). Take an entry only if price reaches it.",
+  "price": 4125.37,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4108.21,
-      "entry_high": 4111.33,
-      "sl": 4106.33,
-      "tp1": 4122.07,
-      "tp2": 4123.53,
-      "rr": 3.6,
+      "entry_high": 4110.91,
+      "sl": 4105.91,
+      "tp1": 4122.02,
+      "tp2": 4124.15,
+      "rr": 3.4,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.43,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T03:02:55.525071+00:00",
-      "checked_at": "2026-11-10T05:30:32.303683+00:00"
+      "checked_at": "2026-11-10T05:45:12.558444+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4138.28,
+      "entry_low": 4138.7,
       "entry_high": 4141.4,
-      "sl": 4143.28,
-      "tp1": 4126.08,
+      "sl": 4143.7,
+      "tp1": 4125.46,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -37,10 +37,10 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "status": "invalid",
+      "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T05:30:32.303683+00:00"
+      "checked_at": "2026-11-10T05:45:12.558444+00:00"
     }
   ],
   "active": [
@@ -69,32 +69,32 @@
   ],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "up",
     "session": "asia",
-    "vwap": 4122.072254717276,
-    "atr": 3.422857142857148,
+    "vwap": 4122.024085380042,
+    "atr": 4.172857142857148,
     "day_low": 4108.21,
     "day_high": 4141.4,
-    "range_pos": 0.33383549261826034
+    "range_pos": 0.5170231997589654
   },
   "dxy": {
     "ok": true,
-    "last": 101.6500015258789,
-    "pct": -0.06587034702541979,
+    "last": 101.64900207519531,
+    "pct": -0.06685292678633188,
     "state": "flat",
-    "corr": -0.3758201305751503
+    "corr": -0.4540193289381017
   },
   "oil": {
     "ok": true,
-    "last": 85.70999908447266,
-    "pct": -0.8215680392455639,
-    "state": "down",
-    "corr": -0.44167218123642465
+    "last": 86.12999725341797,
+    "pct": -0.33557153630159925,
+    "state": "flat",
+    "corr": -0.35971517121355606
   },
   "news": {
-    "usd": -0.06460595255106069,
-    "oil": -0.871016606183596,
+    "usd": -0.06809897250305967,
+    "oil": -0.8693601846248735,
     "shock": true,
     "usd_headlines": [
       "US Dollar gains pressure Euro despite growing bets on US-Iran deal - www.tmgm.com",
@@ -134,32 +134,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.3456249713221929,
-      "trust": 0.61718744878963
+      "score": 0.4543255775464223,
+      "trust": 0.8112956741900397
     },
     {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.12933333333333336,
-      "trust": 1.2933333333333334
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.12,
-      "trust": 1.0
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.42827143862762573,
+      "trust": 0.6373086884339667
     },
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.11978942839513429,
-      "trust": 0.9982452366261191
+      "score": 0.12026838106687772,
+      "trust": 1.0022365088906477
     },
     {
-      "style": "Trade with the intraday trend",
+      "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07834252292063894,
-      "trust": 0.7834252292063894
+      "score": 0.11979729596492843,
+      "trust": 0.998310799707737
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
     }
   ],
   "record": {

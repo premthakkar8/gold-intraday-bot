@@ -398,3 +398,5 @@ NameError: name 'load_calendar' is not defined
 2026-11-10 05:01 UTC  live: gold 4113.62 | holding long range_fade 38a66d52 | new read flat stand_aside not opened
 2026-11-10 05:15 UTC  live: gold 4116.81 | holding long range_fade 38a66d52 | new read flat stand_aside not opened
 2026-11-10 05:30 UTC  live: gold 4119.29 | graded: 38a66d52 long range_fade -> win (+3.87R) target hit | opened stand aside 936f67bf
+2026-11-10 05:45 UTC  live: gold 4125.37 | holding flat stand_aside 936f67bf | new read flat stand_aside not opened
+2026-11-10 05:46 UTC  live: BUY TP hit
