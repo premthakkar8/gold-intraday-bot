@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-10 14:41 UTC",
+  "updated": "2026-11-10 14:57 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4044.11,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.38). Take an entry only if price reaches it.",
+  "price": 4039.64,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.37). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4039.65,
-      "entry_high": 4040.53,
-      "sl": 4035.53,
-      "tp1": 4058.32,
+      "entry_low": 4032.95,
+      "entry_high": 4033.82,
+      "sl": 4028.82,
+      "tp1": 4051.65,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,28 +19,28 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.29% with hawkish news (+0.40) and gold is moving against it (corr -0.83). Buying fights the dollar.",
-      "created_at": "2026-11-10T13:36:54.656675+00:00",
-      "checked_at": "2026-11-10T14:41:26.303111+00:00"
+      "reason": "Dollar is up +0.38% with hawkish news (+0.47) and gold is moving against it (corr -0.83). Buying fights the dollar.",
+      "created_at": "2026-11-10T14:57:54.481365+00:00",
+      "checked_at": "2026-11-10T14:57:54.481365+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4140.52,
+      "entry_low": 4140.53,
       "entry_high": 4141.4,
-      "sl": 4145.52,
-      "tp1": 4122.73,
+      "sl": 4145.53,
+      "tp1": 4122.7,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.38,
+      "score": 0.37,
       "style": "oil_shock",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T14:41:26.303111+00:00"
+      "checked_at": "2026-11-10T14:57:54.481365+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 4100.010229795511,
-    "atr": 7.482857142857191,
-    "day_low": 4039.65,
+    "vwap": 4098.247046176283,
+    "atr": 7.510714285714292,
+    "day_low": 4032.95,
     "day_high": 4141.4,
-    "range_pos": 0.043832923832924385
+    "range_pos": 0.06168741355463408
   },
   "dxy": {
     "ok": true,
-    "last": 102.00800323486328,
-    "pct": 0.2860882232115192,
+    "last": 102.0989990234375,
+    "pct": 0.3755479851076911,
     "state": "up",
-    "corr": -0.8255038749264704
+    "corr": -0.8275355862595156
   },
   "oil": {
     "ok": true,
-    "last": 84.5199966430664,
-    "pct": -2.1985669591944803,
+    "last": 85.27999877929688,
+    "pct": -1.319138409861818,
     "state": "down",
-    "corr": 0.3813026282608581
+    "corr": 0.3237621164098449
   },
   "news": {
-    "usd": 0.4011306382676441,
+    "usd": 0.4691300333893911,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
-      "Treasury yields climb across the curve after the latest inflation print - TradingView",
-      "Treasury yields climb across the curve after the latest inflation print - Seeking Alpha",
-      "US Treasury yields rise after US inflation report - Breakingthenews.net"
+      "US stocks fall and Treasury yields jump at the open after hot October CPI - MLQ.ai",
+      "US Treasury yields jump after stronger-than-expected inflation, Fed rate hike signals - Anadolu Ajans\u0131",
+      "Treasury yields climb across the curve after the latest inflation print - TradingView"
     ],
     "oil_headlines": [
       "Crude Oil Slides as China\u2019s Import Rebound Meets Refinery Caution - Kalkine",
@@ -89,19 +89,19 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6972600230184978,
-      "trust": 1.245107183961603
+      "score": 0.6972600230184979,
+      "trust": 1.2451071839616032
     },
     {
       "style": "Trade the oil shock",
       "bias": "short",
-      "score": 0.3779574668315208,
+      "score": 0.37321037460381223,
       "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3205043322671277,
+      "score": 0.3603036780208424,
       "trust": 1.0
     },
     {
@@ -118,10 +118,10 @@
     }
   ],
   "record": {
-    "graded": 57,
-    "wins": 20,
+    "graded": 58,
+    "wins": 21,
     "losses": 26,
     "scratches": 11,
-    "avg_r": -0.023250467638846688
+    "avg_r": -0.005608218196797607
   }
 }
