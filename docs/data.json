@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-11 07:33 UTC",
+  "updated": "2026-11-11 07:48 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4062.95,
+  "price": 4061.14,
   "stance": "Strategy: the SELL plan from 07:19 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4029.84,
-      "sl": 4024.84,
-      "tp1": 4041.92,
+      "entry_high": 4029.81,
+      "sl": 4024.81,
+      "tp1": 4041.97,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,85 +21,62 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T07:33:45.729135+00:00"
+      "checked_at": "2026-11-11T07:48:31.091569+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4063.81,
+      "entry_low": 4063.84,
       "entry_high": 4066.98,
-      "sl": 4068.81,
-      "tp1": 4051.73,
+      "sl": 4068.84,
+      "tp1": 4051.68,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.35,
+      "score": 0.38,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "valid",
-      "reason": "Score 0.35 (Trade with the dollar), dollar firmer +0.09%, hawkish dollar news +0.88, price above VWAP.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T07:33:45.729135+00:00"
+      "checked_at": "2026-11-11T07:48:31.091569+00:00"
     }
   ],
-  "active": [
-    {
-      "side": "SELL",
-      "entry_low": 4062.71,
-      "entry_high": 4066.0,
-      "sl": 4067.71,
-      "tp1": 4050.94,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.51,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.51 (Trade with the dollar), hawkish dollar news +0.86, price above VWAP.",
-      "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T05:37:33.067552+00:00",
-      "entry": 4062.71,
-      "entered_at": "2026-11-11T05:37:33.067552+00:00",
-      "closed": null
-    }
-  ],
+  "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
     "htf": "sideways",
     "session": "london",
-    "vwap": 4047.539479772672,
-    "atr": 3.3321428571427987,
+    "vwap": 4047.966998805833,
+    "atr": 3.388571428571335,
     "day_low": 4026.67,
     "day_high": 4066.98,
-    "range_pos": 0.9000248077400098
+    "range_pos": 0.8551227983130699
   },
   "dxy": {
     "ok": true,
-    "last": 102.31199645996094,
-    "pct": 0.08804008704892703,
+    "last": 102.35099792480469,
+    "pct": 0.12619377685853325,
     "state": "up",
-    "corr": -0.4891797580704338
+    "corr": -0.47313075819877504
   },
   "oil": {
     "ok": true,
-    "last": 86.08000183105469,
-    "pct": -0.11603443231258385,
+    "last": 86.26000213623047,
+    "pct": 0.09283108699395394,
     "state": "flat",
-    "corr": -0.392640479411807
+    "corr": -0.42096166180621086
   },
   "news": {
-    "usd": 0.8830317104159048,
+    "usd": 0.8875404321929192,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
+      "US Dollar Price Forecast: Hot CPI Lifts DXY Above 102.20, Can It Break 102.50? - FXEmpire",
       "U.S. Treasury, European Bond Yields Fall as Oil Prices Drop - WSJ",
-      "Goldman expects additional Fed rate hike in March - Reuters",
-      "Gold Falls After Hawkish Federal Reserve Remarks Reinforce Rate Hike Expectations By Kedia Advisory - Investing.com India"
+      "Goldman expects additional Fed rate hike in March - Reuters"
     ],
     "oil_headlines": [
       "Crude Oil Falls As Trump Downplays Need For Further Military Action Against Iran By Kedia Advisory - Investing.com India",
@@ -126,8 +103,8 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.35025726192736,
-      "trust": 0.9321296493016896
+      "score": 0.3812941779257794,
+      "trust": 0.9322259954732167
     },
     {
       "style": "Trade the oil shock",
