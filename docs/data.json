@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-11 08:32 UTC",
+  "updated": "2026-11-11 08:46 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4059.54,
+  "price": 4059.76,
   "stance": "Strategy: the SELL plan from 07:19 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4030.01,
-      "sl": 4025.01,
-      "tp1": 4041.66,
+      "entry_high": 4030.19,
+      "sl": 4025.19,
+      "tp1": 4041.39,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T08:32:18.592083+00:00"
+      "checked_at": "2026-11-11T08:46:56.584620+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4063.64,
+      "entry_low": 4063.46,
       "entry_high": 4066.98,
-      "sl": 4068.64,
-      "tp1": 4051.99,
+      "sl": 4068.46,
+      "tp1": 4052.26,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.45,
+      "score": 0.41,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T08:32:18.592083+00:00"
+      "checked_at": "2026-11-11T08:46:56.584620+00:00"
     }
   ],
   "active": [],
@@ -49,39 +49,39 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "london",
-    "vwap": 4048.9175194497598,
-    "atr": 3.021428571428487,
+    "vwap": 4049.215120390501,
+    "atr": 2.6921428571428287,
     "day_low": 4026.67,
     "day_high": 4066.98,
-    "range_pos": 0.8154304142892567
+    "range_pos": 0.8208881170925376
   },
   "dxy": {
     "ok": true,
-    "last": 102.46199798583984,
-    "pct": 0.23478102901815,
+    "last": 102.40499877929688,
+    "pct": 0.1790208145096273,
     "state": "up",
-    "corr": -0.4213865889097214
+    "corr": -0.4442962542366134
   },
   "oil": {
     "ok": true,
-    "last": 86.2300033569336,
-    "pct": 0.058021642586150494,
+    "last": 86.13999938964844,
+    "pct": -0.04641554349697697,
     "state": "flat",
-    "corr": -0.35708369196850653
+    "corr": -0.3368588747898364
   },
   "news": {
-    "usd": 0.7575061710558328,
-    "oil": -0.6092328519825903,
+    "usd": 0.7725710745265021,
+    "oil": -0.5010336134275608,
     "shock": true,
     "usd_headlines": [
+      "Federal Reserve: December rate hike expectations reinforced \u2013 Commerzbank - FXStreet",
       "\u2018No Christmas cheer\u2019: Hot US inflation puts Federal Reserve rate cuts in doubt - London Business News",
-      "US Treasury yields surge, Wall Street falls on inflation surprise - \u0633\u0627\u0646\u0627",
-      "US Dollar Price Forecast: Hot CPI Lifts DXY Above 102.20, Can It Break 102.50? - FXEmpire"
+      "US Treasury yields surge, Wall Street falls on inflation surprise - \u0633\u0627\u0646\u0627"
     ],
     "oil_headlines": [
-      "IndiGo Shares Jump 5% as Crude Oil Falls to 2-Month Low - Equitypandit",
       "Crude Oil Falls As Trump Downplays Need For Further Military Action Against Iran By Kedia Advisory - Investing.com India",
-      "Oil rises from 2-month low as Hormuz shipping attacks offset truce hopes - Business Standard"
+      "Oil rises from 2-month low as Hormuz shipping attacks offset truce hopes - Business Standard",
+      "India bonds may rally early as oil falls; Treasury yields to cut short gains - TradingView"
     ]
   },
   "events": [
@@ -103,8 +103,8 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.448198318458785,
-      "trust": 0.9325111186583748
+      "score": 0.4058148284794423,
+      "trust": 0.9326061263790121
     },
     {
       "style": "Trade the oil shock",
