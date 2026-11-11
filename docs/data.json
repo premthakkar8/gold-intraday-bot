@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-11 14:24 UTC",
+  "updated": "2026-11-11 14:45 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4030.12,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.45). Take an entry only if price reaches it.",
+  "price": 4016.02,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4026.67,
-      "entry_high": 4029.46,
-      "sl": 4024.46,
-      "tp1": 4042.48,
+      "entry_low": 4010.86,
+      "entry_high": 4013.16,
+      "sl": 4008.16,
+      "tp1": 4027.41,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.45,
+      "score": 0.55,
       "style": "oil_shock",
       "favored": true,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T14:24:16.786840+00:00"
+      "status": "valid",
+      "reason": "Score 0.55 (Trade the oil shock), price below VWAP.",
+      "created_at": "2026-11-11T14:45:03.639259+00:00",
+      "checked_at": "2026-11-11T14:45:03.639259+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4064.19,
+      "entry_low": 4064.68,
       "entry_high": 4066.98,
-      "sl": 4069.19,
-      "tp1": 4051.17,
+      "sl": 4069.68,
+      "tp1": 4050.43,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.31,
+      "score": 0.3,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T14:24:16.786840+00:00"
+      "checked_at": "2026-11-11T14:45:03.639259+00:00"
     }
   ],
   "active": [],
@@ -49,39 +49,39 @@
     "structure": "down",
     "htf": "up",
     "session": "overlap",
-    "vwap": 4047.871250376467,
-    "atr": 4.012857142857164,
-    "day_low": 4026.67,
+    "vwap": 4046.9454378615183,
+    "atr": 4.9107142857143185,
+    "day_low": 4010.86,
     "day_high": 4066.98,
-    "range_pos": 0.08558670305134762
+    "range_pos": 0.09194583036350436
   },
   "dxy": {
     "ok": true,
-    "last": 102.8489990234375,
-    "pct": 0.6133698231480944,
+    "last": 102.90699768066406,
+    "pct": 0.6701077632757599,
     "state": "up",
-    "corr": -0.21555323541612564
+    "corr": -0.158517647785431
   },
   "oil": {
     "ok": true,
-    "last": 87.08999633789062,
-    "pct": 1.0559248427621455,
+    "last": 87.36000061035156,
+    "pct": 1.3692275481518106,
     "state": "up",
-    "corr": -0.5422597846146633
+    "corr": -0.5243930950990012
   },
   "news": {
-    "usd": 0.8739376887080282,
-    "oil": 0.1420417074284124,
+    "usd": 0.8763977213956258,
+    "oil": 0.1373119352147704,
     "shock": true,
     "usd_headlines": [
+      "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem - Reuters",
       "US dollar firms as hot inflation, hawkish Fed talk lift rate-hike bets - The Business Times",
-      "Global Bond Yields Fall Sharply in October Amid Flight to Safety - WSJ",
-      "US Dollar: Rate hike repricing boosts upside risks \u2013 MUFG - FXStreet"
+      "Global Bond Yields Fall Sharply in October Amid Flight to Safety - WSJ"
     ],
     "oil_headlines": [
       "Crude oil price surge after Iran attack ships in Strait of Hormuz | Tap to know more | Inshorts - Inshorts",
       "Crude Oil Falls As Trump Downplays Need For Further Military Action Against Iran By Kedia Advisory - Investing.com India",
-      "West Asia crisis drives India\u2019s crude oil shipping costs up nearly fivefold; Strait of Hormuz remains in focus - India Shipping News"
+      "India bonds may rally early as oil falls; Treasury yields to cut short gains - TradingView"
     ]
   },
   "events": [
@@ -103,19 +103,19 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.44673743347629236,
+      "score": 0.55,
       "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3053453576816155,
+      "score": 0.2973137974141608,
       "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.2569122107511524,
+      "score": 0.2631200000000001,
       "trust": 1.0
     },
     {
