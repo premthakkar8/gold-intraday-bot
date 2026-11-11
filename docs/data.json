@@ -1,77 +1,77 @@
 {
-  "updated": "2026-11-11 10:00 UTC",
+  "updated": "2026-11-11 10:14 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4051.01,
+  "price": 4052.4,
   "stance": "Strategy: the SELL plan from 09:45 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4029.89,
-      "sl": 4024.89,
-      "tp1": 4041.84,
+      "entry_high": 4029.81,
+      "sl": 4024.81,
+      "tp1": 4041.96,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.33,
+      "style": "oil_shock",
       "favored": false,
       "ready": false,
-      "status": "invalid",
-      "reason": "Dollar is up +0.26% with hawkish news (+0.77) and gold is moving against it (corr -0.55). Buying fights the dollar.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T10:00:05.282052+00:00"
+      "checked_at": "2026-11-11T10:14:44.832464+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4063.76,
+      "entry_low": 4063.84,
       "entry_high": 4066.98,
-      "sl": 4068.76,
-      "tp1": 4051.81,
+      "sl": 4068.84,
+      "tp1": 4051.69,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.54,
+      "score": 0.53,
       "style": "dollar_lead",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T10:00:05.282052+00:00"
+      "checked_at": "2026-11-11T10:14:44.832464+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "up",
     "session": "london",
-    "vwap": 4049.6097479534155,
-    "atr": 3.2378571428572025,
+    "vwap": 4049.697557123464,
+    "atr": 3.3828571428571843,
     "day_low": 4026.67,
     "day_high": 4066.98,
-    "range_pos": 0.6038203919622966
+    "range_pos": 0.6383031505829833
   },
   "dxy": {
     "ok": true,
-    "last": 102.48500061035156,
-    "pct": 0.25728364536712556,
+    "last": 102.46099853515625,
+    "pct": 0.23380330339900715,
     "state": "up",
-    "corr": -0.5511894204273032
+    "corr": -0.5530957998119643
   },
   "oil": {
     "ok": true,
-    "last": 86.62999725341797,
-    "pct": 0.5221593718364859,
+    "last": 86.8499984741211,
+    "pct": 0.7774404346400007,
     "state": "up",
-    "corr": -0.38444125332084766
+    "corr": -0.3540760108686268
   },
   "news": {
-    "usd": 0.773614694430382,
-    "oil": 0.15431378588209557,
+    "usd": 0.8680523164156987,
+    "oil": 0.153489295447348,
     "shock": true,
     "usd_headlines": [
       "US Dollar: Hot CPI supports stronger rate hike odds \u2013 BBH - FXStreet",
@@ -97,31 +97,31 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5388243707735955,
-      "trust": 1.0
+      "score": 0.530059637440129,
+      "trust": 0.9985136199399761
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4119168069230834,
-      "trust": 0.605760010181005
+      "score": 0.5082323441509649,
+      "trust": 0.9075577574124372
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.32891710696307724,
+      "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.20013685498268052,
+      "bias": "flat",
+      "score": 0.1,
       "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.08,
       "trust": 1.0
     }
   ],
