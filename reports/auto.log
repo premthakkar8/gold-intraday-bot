@@ -630,3 +630,6 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-11 17:49 UTC  live: BUY closed on time
 2026-11-11 17:50 UTC  live: BUY entry reached at 3998.13
 2026-11-11 17:51 UTC  live: BUY SL hit
+2026-11-11 17:56 UTC  live: gold 3996.47 | graded: 11fb4e3d stand aside -> loss (-1.00R) | opened stand aside 20440278
+2026-11-11 17:57 UTC  live: BUY entry reached at 3995.71
+2026-11-11 17:58 UTC  live: BUY SL hit
