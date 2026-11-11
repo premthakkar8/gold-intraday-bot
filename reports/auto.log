@@ -551,3 +551,4 @@ NameError: name 'load_calendar' is not defined
 2026-11-11 11:42 UTC  live: gold 4050.04 | holding short dollar_lead 88e76dc6 | new read short dollar_lead not opened
 2026-11-11 11:57 UTC  live: gold 4047.45 | graded: 88e76dc6 short dollar_lead -> scratch (price never reached the entry zone) | opened short dollar_lead fb538fd9 zone 4063.41-4066.98 stop 4068.41 target 4052.34 units 1 risk 5.00 USD tier normal conf 0.57
 2026-11-11 12:12 UTC  live: gold 4046.06 | holding short dollar_lead fb538fd9 | new read short dollar_lead not opened
+2026-11-11 12:26 UTC  live: gold 4044.45 | holding short dollar_lead fb538fd9 | new read flat stand_aside not opened
