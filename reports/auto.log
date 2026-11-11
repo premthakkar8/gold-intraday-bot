@@ -506,3 +506,5 @@ NameError: name 'load_calendar' is not defined
 2026-11-11 02:40 UTC  live: gold 4043.64 | holding short dollar_lead 79c44395 | new read flat stand_aside not opened
 2026-11-11 02:54 UTC  live: gold 4041.37 | holding short dollar_lead 79c44395 | new read flat stand_aside not opened
 2026-11-11 03:09 UTC  live: gold 4047.65 | holding short dollar_lead 79c44395 | new read flat stand_aside not opened
+2026-11-11 03:23 UTC  live: gold 4047.67 | holding short dollar_lead 79c44395 | new read flat stand_aside not opened
+2026-11-11 03:26 UTC  live: BUY now expired: Signal is 120 minutes old without an entry. Waiting for a fresh one.
