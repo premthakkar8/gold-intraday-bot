@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-11 06:20 UTC",
+  "updated": "2026-11-11 06:35 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4056.34,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.24). Take an entry only if price reaches it.",
+  "price": 4055.2,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4029.68,
-      "sl": 4024.68,
-      "tp1": 4042.15,
+      "entry_high": 4029.75,
+      "sl": 4024.75,
+      "tp1": 4042.05,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.22,
-      "style": "trend_align",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T06:20:40.398047+00:00"
+      "checked_at": "2026-11-11T06:35:20.120151+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4062.99,
+      "entry_low": 4062.92,
       "entry_high": 4066.0,
-      "sl": 4067.99,
-      "tp1": 4050.52,
+      "sl": 4067.92,
+      "tp1": 4050.62,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.24,
+      "score": 0.31,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.24. Take it only with a clear reaction at the entry.",
+      "status": "valid",
+      "reason": "Score 0.31 (Trade with the dollar), dollar firmer +0.09%, hawkish dollar news +0.89, price above VWAP.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T06:20:40.398047+00:00"
+      "checked_at": "2026-11-11T06:35:20.120151+00:00"
     }
   ],
   "active": [
@@ -69,37 +69,37 @@
   ],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 4045.148026416351,
-    "atr": 3.6128571428571377,
+    "vwap": 4045.557998051006,
+    "atr": 3.4907142857142452,
     "day_low": 4026.67,
     "day_high": 4066.0,
-    "range_pos": 0.7543859649122839
+    "range_pos": 0.7254004576658988
   },
   "dxy": {
     "ok": true,
-    "last": 102.30999755859375,
-    "pct": 0.08608463581064127,
+    "last": 102.31500244140625,
+    "pct": 0.09098072746070028,
     "state": "up",
-    "corr": -0.48501860084408277
+    "corr": -0.5466456362836872
   },
   "oil": {
     "ok": true,
-    "last": 86.62000274658203,
-    "pct": 0.5105621256070295,
+    "last": 86.66000366210938,
+    "pct": 0.5569776691040065,
     "state": "up",
-    "corr": -0.24256168954453153
+    "corr": -0.2539352773137235
   },
   "news": {
-    "usd": 1.0,
+    "usd": 0.8921990671060215,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
       "Goldman expects additional Fed rate hike in March - Reuters",
-      "US Dollar: Hot CPI lifts yields and Fed bets \u2013 Rabobank - FXStreet",
-      "Dollar gains traction as Fed speakers warn of risks from inflation - CNBC"
+      "Sri Lanka rupee at 332.33/38 to US dollar spot, bond yields drop further - EconomyNext",
+      "Gold Falls After Hawkish Federal Reserve Remarks Reinforce Rate Hike Expectations By Kedia Advisory - Investing.com India"
     ],
     "oil_headlines": [
       "Crude Oil Falls As Trump Downplays Need For Further Military Action Against Iran By Kedia Advisory - Investing.com India",
@@ -120,26 +120,26 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6956605307919282,
-      "trust": 0.9153428036735898
+      "score": 0.46370132650715323,
+      "trust": 0.8280380830484878
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.23648779521845475,
-      "trust": 0.605870082102121
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.21967893911945865,
-      "trust": 0.9985406323611756
+      "score": 0.3090113366317868,
+      "trust": 0.7821967720816736
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11976551644396509,
-      "trust": 0.9980459703663758
+      "score": 0.11982438539163867,
+      "trust": 0.9985365449303223
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
