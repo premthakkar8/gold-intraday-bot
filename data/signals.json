@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-11T07:19:04.868353+00:00",
-  "atr": 3.082142857142831,
-  "price": 4062.57,
-  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 58%).",
+  "updated_at": "2026-11-11T07:33:45.729135+00:00",
+  "atr": 3.3321428571427987,
+  "price": 4061.46,
+  "stance": "Strategy: the SELL plan from 07:19 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4029.97,
-      "sl": 4024.97,
-      "tp1": 4041.71,
+      "entry_high": 4029.84,
+      "sl": 4024.84,
+      "tp1": 4041.92,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,32 +21,32 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T07:32:11.572768+00:00"
+      "checked_at": "2026-11-11T07:46:54.028736+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4062.7,
-      "entry_high": 4066.0,
-      "sl": 4067.7,
-      "tp1": 4050.96,
+      "entry_low": 4063.81,
+      "entry_high": 4066.98,
+      "sl": 4068.81,
+      "tp1": 4051.73,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.63,
+      "score": 0.35,
       "style": "dollar_lead",
       "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.63 (Trade with the dollar), hawkish dollar news +0.88, price above VWAP.",
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T07:32:11.572768+00:00"
+      "checked_at": "2026-11-11T07:46:54.028736+00:00"
     }
   ],
   "research": [
-    "Gold 4062.64 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 4046.98, ATR 3.08, day range 4026.67-4066.00.",
-    "DXY 102.30 (+0.08% today, flat), gold-dollar corr -0.59.",
-    "WTI 86.19 (+0.01% today, flat), gold-oil corr -0.24.",
+    "Gold 4062.95 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4047.54, ATR 3.33, day range 4026.67-4066.98.",
+    "DXY 102.31 (+0.09% today, up), gold-dollar corr -0.49.",
+    "WTI 86.08 (-0.12% today, flat), gold-oil corr -0.39.",
     "Headlines: dollar +0.88, oil -1.00, fresh shock.",
     "Dollar: U.S. Treasury, European Bond Yields Fall as Oil Prices Drop - WSJ",
     "Oil: Crude Oil Falls As Trump Downplays Need For Further Military Action Against Iran By Kedia Advisory - Investing.com India",
@@ -205,8 +205,8 @@
       "checked_at": "2026-11-11T05:37:33.067552+00:00",
       "entry": 4062.71,
       "entered_at": "2026-11-11T05:37:33.067552+00:00",
-      "closed": null
+      "closed": "time"
     }
   ],
-  "last_check": "2026-11-11T07:32:11.572768+00:00"
+  "last_check": "2026-11-11T07:46:54.028736+00:00"
 }
