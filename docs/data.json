@@ -1,77 +1,77 @@
 {
-  "updated": "2026-11-11 13:54 UTC",
+  "updated": "2026-11-11 14:09 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4032.6,
-  "stance": "Strategy: the SELL plan from 11:57 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 4029.95,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.41). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4029.65,
-      "sl": 4024.65,
-      "tp1": 4042.2,
+      "entry_high": 4029.36,
+      "sl": 4024.36,
+      "tp1": 4042.63,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.55,
+      "score": 0.41,
       "style": "oil_shock",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T13:54:53.926940+00:00"
+      "checked_at": "2026-11-11T14:09:34.528560+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4064.0,
+      "entry_low": 4064.29,
       "entry_high": 4066.98,
-      "sl": 4069.0,
-      "tp1": 4051.45,
+      "sl": 4069.29,
+      "tp1": 4051.02,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.32,
+      "score": 0.31,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T13:54:53.926940+00:00"
+      "checked_at": "2026-11-11T14:09:34.528560+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "up",
     "session": "overlap",
-    "vwap": 4048.5400904159296,
-    "atr": 3.6728571428571155,
+    "vwap": 4048.2186410436166,
+    "atr": 4.195000000000001,
     "day_low": 4026.67,
     "day_high": 4066.98,
-    "range_pos": 0.14710989828826207
+    "range_pos": 0.08136938724881543
   },
   "dxy": {
     "ok": true,
-    "last": 102.69000244140625,
-    "pct": 0.4578293506065855,
+    "last": 102.78399658203125,
+    "pct": 0.549780340132084,
     "state": "up",
-    "corr": -0.25930651342365846
+    "corr": -0.1975983278180123
   },
   "oil": {
     "ok": true,
-    "last": 87.41000366210938,
-    "pct": 1.427249190737961,
+    "last": 87.01000213623047,
+    "pct": 0.9631026086279085,
     "state": "up",
-    "corr": -0.4131349029644996
+    "corr": -0.462234340338617
   },
   "news": {
     "usd": 1.0,
-    "oil": 0.14989474171016673,
+    "oil": 0.14605419890970428,
     "shock": true,
     "usd_headlines": [
       "US dollar firms as hot inflation, hawkish Fed talk lift rate-hike bets - The Business Times",
@@ -95,27 +95,27 @@
   ],
   "scorecard": [
     {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.55,
-      "trust": 1.0
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4820197439182222,
-      "trust": 0.860749542711111
+      "score": 0.5822994028564994,
+      "trust": 0.8563226512595579
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.4074664882656536,
+      "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3220623778755407,
+      "score": 0.31315325857872556,
       "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
+      "bias": "short",
+      "score": 0.2631200000000001,
       "trust": 1.0
     },
     {
@@ -126,10 +126,10 @@
     }
   ],
   "record": {
-    "graded": 78,
+    "graded": 79,
     "wins": 25,
     "losses": 39,
-    "scratches": 14,
-    "avg_r": -0.07395973166673368
+    "scratches": 15,
+    "avg_r": -0.07302353253171173
   }
 }
