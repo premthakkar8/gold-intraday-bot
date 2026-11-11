@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-11 17:27 UTC",
+  "updated": "2026-11-11 17:41 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4004.06,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
+  "price": 4000.23,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.33). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3998.48,
-      "entry_high": 4001.81,
-      "sl": 3996.81,
-      "tp1": 4013.49,
+      "entry_high": 4001.79,
+      "sl": 3996.79,
+      "tp1": 4013.52,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.43,
+      "score": 0.33,
       "style": "oil_shock",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.43 (Trade the oil shock), oil supply news +0.37, price below VWAP.",
+      "reason": "Score 0.33 (Trade the oil shock), oil supply news +0.62, price below VWAP.",
       "created_at": "2026-11-11T16:43:17.760483+00:00",
-      "checked_at": "2026-11-11T17:27:15.842916+00:00"
+      "checked_at": "2026-11-11T17:41:53.527192+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4063.65,
+      "entry_low": 4063.67,
       "entry_high": 4066.98,
-      "sl": 4068.65,
-      "tp1": 4051.97,
+      "sl": 4068.67,
+      "tp1": 4051.94,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.24,
+      "score": 0.25,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T17:27:15.842916+00:00"
+      "checked_at": "2026-11-11T17:41:53.527192+00:00"
     }
   ],
   "active": [
@@ -72,29 +72,29 @@
     "structure": "sideways",
     "htf": "up",
     "session": "newyork",
-    "vwap": 4039.436417946651,
-    "atr": 3.0392857142856298,
+    "vwap": 4038.9378958939287,
+    "atr": 3.074285714285647,
     "day_low": 3998.48,
     "day_high": 4066.98,
-    "range_pos": 0.08145985401459747
+    "range_pos": 0.025547445255474453
   },
   "dxy": {
     "ok": true,
-    "last": 102.95600128173828,
-    "pct": 0.7180461728311396,
+    "last": 102.91999816894531,
+    "pct": 0.682825659878962,
     "state": "up",
-    "corr": -0.17905095702189494
+    "corr": -0.26836604654981616
   },
   "oil": {
     "ok": true,
-    "last": 87.36000061035156,
-    "pct": 1.3692275481518106,
+    "last": 86.80999755859375,
+    "pct": 0.7310248911430237,
     "state": "up",
-    "corr": -0.48965365783248693
+    "corr": -0.5084190745521827
   },
   "news": {
-    "usd": 0.8640832464562788,
-    "oil": 0.3739705663288671,
+    "usd": 0.8736241598622976,
+    "oil": 0.623499556138049,
     "shock": true,
     "usd_headlines": [
       "U.S. Dollar Rallies As Traders Bet On Hawkish Fed: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
@@ -120,20 +120,20 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4836855413128691,
-      "trust": 0.8637241809158376
+      "score": 0.48866544247937405,
+      "trust": 0.8726168615703107
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.43035719122399396,
-      "trust": 0.7824676204072617
+      "score": 0.33105439499843403,
+      "trust": 0.7827737449721556
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.23915424975172683,
-      "trust": 0.7991457994945648
+      "score": 0.2501766106936419,
+      "trust": 0.7994284535291133
     },
     {
       "style": "Trade with the intraday trend",
@@ -149,10 +149,10 @@
     }
   ],
   "record": {
-    "graded": 80,
+    "graded": 81,
     "wins": 25,
     "losses": 40,
-    "scratches": 15,
-    "avg_r": -0.08461073837506534
+    "scratches": 16,
+    "avg_r": -0.08356616135808922
   }
 }
