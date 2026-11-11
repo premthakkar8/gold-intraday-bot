@@ -524,3 +524,4 @@ NameError: name 'load_calendar' is not defined
 2026-11-11 05:37 UTC  live: SELL entry reached at 4061.08
 2026-11-11 05:51 UTC  live: gold 4061.61 | graded: 0446e9a2 stand aside -> loss (-1.00R) | opened stand aside 27989b04
 2026-11-11 06:06 UTC  live: gold 4055.99 | graded: 27989b04 stand aside -> loss (-1.00R) | opened stand aside 2e5862d9
+2026-11-11 06:20 UTC  live: gold 4056.34 | holding flat stand_aside 2e5862d9 | new read flat stand_aside not opened
