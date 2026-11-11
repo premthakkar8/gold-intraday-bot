@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-11 10:58 UTC",
+  "updated": "2026-11-11 11:13 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4050.36,
+  "price": 4053.27,
   "stance": "Strategy: the SELL plan from 09:45 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4030.06,
-      "sl": 4025.06,
-      "tp1": 4041.59,
+      "entry_high": 4030.14,
+      "sl": 4025.14,
+      "tp1": 4041.46,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.47,
+      "score": 0.33,
       "style": "oil_shock",
       "favored": false,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "status": "invalid",
+      "reason": "Dollar is up +0.26% with hawkish news (+1.00) and gold is moving against it (corr -0.51). Buying fights the dollar.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T10:58:44.237033+00:00"
+      "checked_at": "2026-11-11T11:13:25.151963+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4063.59,
+      "entry_low": 4063.51,
       "entry_high": 4066.98,
-      "sl": 4068.59,
-      "tp1": 4052.06,
+      "sl": 4068.51,
+      "tp1": 4052.19,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.55,
+      "score": 0.57,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T10:58:44.237033+00:00"
+      "checked_at": "2026-11-11T11:13:25.151963+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "up",
     "session": "london",
-    "vwap": 4049.694017023496,
-    "atr": 2.935714285714409,
+    "vwap": 4049.736786203348,
+    "atr": 2.773571428571521,
     "day_low": 4026.67,
     "day_high": 4066.98,
-    "range_pos": 0.5876953609526193
+    "range_pos": 0.6598858843959302
   },
   "dxy": {
     "ok": true,
-    "last": 102.45999908447266,
-    "pct": 0.2328255777798643,
+    "last": 102.49099731445312,
+    "pct": 0.26314999908198283,
     "state": "up",
-    "corr": -0.5505555351508273
+    "corr": -0.5136683301443787
   },
   "oil": {
     "ok": true,
-    "last": 87.13999938964844,
-    "pct": 1.1139464853482959,
+    "last": 86.86000061035156,
+    "pct": 0.7890465337291742,
     "state": "up",
-    "corr": -0.3559214954764898
+    "corr": -0.3662636668535092
   },
   "news": {
     "usd": 1.0,
-    "oil": 0.27642601692623237,
+    "oil": 0.27808096815265515,
     "shock": true,
     "usd_headlines": [
       "US dollar nears two-week high as inflation fuels interest rate hike expectations - Riviera Radio",
@@ -97,8 +97,8 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5482185862118338,
-      "trust": 0.9985199013662547
+      "score": 0.5677493412842337,
+      "trust": 0.9985219919109415
     },
     {
       "style": "Stand aside",
@@ -109,7 +109,7 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.4712850514935098,
+      "score": 0.33382737965465065,
       "trust": 1.0
     },
     {
