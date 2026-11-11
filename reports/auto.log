@@ -539,3 +539,4 @@ NameError: name 'load_calendar' is not defined
 2026-11-11 08:47 UTC  live: gold 4059.76 | holding short dollar_lead 684d13ee | new read flat stand_aside not opened
 2026-11-11 09:01 UTC  live: gold 4059.15 | holding short dollar_lead 684d13ee | new read flat stand_aside not opened
 2026-11-11 09:16 UTC  live: gold 4050.59 | graded: 684d13ee short dollar_lead -> win (+4.00R) target hit | opened stand aside 21392268
+2026-11-11 09:30 UTC  live: gold 4049.13 | holding flat stand_aside 21392268 | new read flat stand_aside not opened

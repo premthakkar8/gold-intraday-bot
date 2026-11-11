@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-11 09:16 UTC",
+  "updated": "2026-11-11 09:30 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4050.59,
+  "price": 4049.13,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.48). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4029.73,
-      "sl": 4024.73,
-      "tp1": 4042.09,
+      "entry_high": 4029.86,
+      "sl": 4024.86,
+      "tp1": 4041.88,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.3,
+      "style": "oil_shock",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T09:16:09.059516+00:00"
+      "checked_at": "2026-11-11T09:30:48.020431+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4063.92,
+      "entry_low": 4063.79,
       "entry_high": 4066.98,
-      "sl": 4068.92,
-      "tp1": 4051.56,
+      "sl": 4068.79,
+      "tp1": 4051.77,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.48,
-      "style": "trend_align",
+      "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T09:16:09.059516+00:00"
+      "checked_at": "2026-11-11T09:30:48.020431+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "down",
     "htf": "up",
     "session": "london",
-    "vwap": 4049.5975443757843,
-    "atr": 3.535714285714318,
+    "vwap": 4049.6129996970294,
+    "atr": 3.285000000000017,
     "day_low": 4026.67,
     "day_high": 4066.98,
-    "range_pos": 0.5934011411560433
+    "range_pos": 0.5571818407343108
   },
   "dxy": {
     "ok": true,
-    "last": 102.43000030517578,
-    "pct": 0.20347888209688858,
+    "last": 102.44999694824219,
+    "pct": 0.22304085803409082,
     "state": "up",
-    "corr": -0.4541588526320543
+    "corr": -0.4477009413919237
   },
   "oil": {
     "ok": true,
-    "last": 86.0,
-    "pct": -0.2088655193065378,
-    "state": "flat",
-    "corr": -0.19899999816867714
+    "last": 86.80000305175781,
+    "pct": 0.7194276449135674,
+    "state": "up",
+    "corr": -0.3592877308113607
   },
   "news": {
-    "usd": 0.7762810959712443,
-    "oil": -0.12427179746232563,
+    "usd": 0.7765598298800513,
+    "oil": 0.15587649586391342,
     "shock": true,
     "usd_headlines": [
       "Federal Reserve: December rate hike expectations reinforced \u2013 Commerzbank - FXStreet",
@@ -79,9 +79,9 @@
       "US Treasury yields surge, Wall Street falls on inflation surprise - \u0633\u0627\u0646\u0627"
     ],
     "oil_headlines": [
+      "Crude oil price surge after Iran attack ships in Strait of Hormuz | Tap to know more | Inshorts - Inshorts",
       "Crude Oil Falls As Trump Downplays Need For Further Military Action Against Iran By Kedia Advisory - Investing.com India",
-      "Oil rises from 2-month low as Hormuz shipping attacks offset truce hopes - Business Standard",
-      "West Asia crisis drives India\u2019s crude oil shipping costs up nearly fivefold; Strait of Hormuz remains in focus - India Shipping News"
+      "Oil rises from 2-month low as Hormuz shipping attacks offset truce hopes - Business Standard"
     ]
   },
   "events": [
@@ -97,8 +97,14 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.7267889232588807,
-      "trust": 1.0688072400865891
+      "score": 0.6109079504839425,
+      "trust": 0.8983940448293272
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.47908058470168957,
+      "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
@@ -107,21 +113,15 @@
       "trust": 1.0
     },
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.46187064237645775,
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.30437323438650926,
       "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.08,
       "trust": 1.0
     }
   ],
