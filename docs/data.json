@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-11 09:01 UTC",
+  "updated": "2026-11-11 09:16 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4059.15,
-  "stance": "Strategy: the SELL plan from 07:19 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 4050.59,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.48). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4030.05,
-      "sl": 4025.05,
-      "tp1": 4041.61,
+      "entry_high": 4029.73,
+      "sl": 4024.73,
+      "tp1": 4042.09,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T09:01:34.284553+00:00"
+      "checked_at": "2026-11-11T09:16:09.059516+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4063.6,
+      "entry_low": 4063.92,
       "entry_high": 4066.98,
-      "sl": 4068.6,
-      "tp1": 4052.04,
+      "sl": 4068.92,
+      "tp1": 4051.56,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.44,
+      "score": 0.48,
       "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T09:01:34.284553+00:00"
+      "checked_at": "2026-11-11T09:16:09.059516+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "down",
     "htf": "up",
     "session": "london",
-    "vwap": 4049.4416968498194,
-    "atr": 2.9542857142857235,
+    "vwap": 4049.5975443757843,
+    "atr": 3.535714285714318,
     "day_low": 4026.67,
     "day_high": 4066.98,
-    "range_pos": 0.8057553956834548
+    "range_pos": 0.5934011411560433
   },
   "dxy": {
     "ok": true,
-    "last": 102.39399719238281,
-    "pct": 0.16825836914471098,
+    "last": 102.43000030517578,
+    "pct": 0.20347888209688858,
     "state": "up",
-    "corr": -0.3888851131588696
+    "corr": -0.4541588526320543
   },
   "oil": {
     "ok": true,
-    "last": 86.16000366210938,
-    "pct": -0.023203345318629914,
+    "last": 86.0,
+    "pct": -0.2088655193065378,
     "state": "flat",
-    "corr": -0.3132308112250249
+    "corr": -0.19899999816867714
   },
   "news": {
-    "usd": 0.7676841191299496,
-    "oil": -0.5034997752850534,
+    "usd": 0.7762810959712443,
+    "oil": -0.12427179746232563,
     "shock": true,
     "usd_headlines": [
       "Federal Reserve: December rate hike expectations reinforced \u2013 Commerzbank - FXStreet",
@@ -81,7 +81,7 @@
     "oil_headlines": [
       "Crude Oil Falls As Trump Downplays Need For Further Military Action Against Iran By Kedia Advisory - Investing.com India",
       "Oil rises from 2-month low as Hormuz shipping attacks offset truce hopes - Business Standard",
-      "India bonds may rally early as oil falls; Treasury yields to cut short gains - TradingView"
+      "West Asia crisis drives India\u2019s crude oil shipping costs up nearly fivefold; Strait of Hormuz remains in focus - India Shipping News"
     ]
   },
   "events": [
@@ -97,25 +97,19 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6097655597999786,
-      "trust": 0.8967140585293802
+      "score": 0.7267889232588807,
+      "trust": 1.0688072400865891
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.44458308422718074,
+      "score": 0.4784000000000001,
       "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.32313440195215865,
-      "trust": 0.7891256353348401
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.12,
+      "score": 0.46187064237645775,
       "trust": 1.0
     },
     {
@@ -123,13 +117,19 @@
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.08,
+      "trust": 1.0
     }
   ],
   "record": {
-    "graded": 75,
-    "wins": 24,
+    "graded": 76,
+    "wins": 25,
     "losses": 38,
     "scratches": 13,
-    "avg_r": -0.11691812093340304
+    "avg_r": -0.06274814565796352
   }
 }
