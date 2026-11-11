@@ -1,77 +1,77 @@
 {
-  "updated": "2026-11-11 10:14 UTC",
+  "updated": "2026-11-11 10:29 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4052.4,
+  "price": 4049.84,
   "stance": "Strategy: the SELL plan from 09:45 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4029.81,
-      "sl": 4024.81,
-      "tp1": 4041.96,
+      "entry_high": 4030.03,
+      "sl": 4025.03,
+      "tp1": 4041.63,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.33,
+      "score": 0.45,
       "style": "oil_shock",
       "favored": false,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "status": "invalid",
+      "reason": "Dollar is up +0.26% with hawkish news (+0.77) and gold is moving against it (corr -0.54). Buying fights the dollar.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T10:14:44.832464+00:00"
+      "checked_at": "2026-11-11T10:29:24.807711+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4063.84,
+      "entry_low": 4063.62,
       "entry_high": 4066.98,
-      "sl": 4068.84,
-      "tp1": 4051.69,
+      "sl": 4068.62,
+      "tp1": 4052.02,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.53,
+      "score": 0.54,
       "style": "dollar_lead",
       "favored": true,
-      "ready": false,
+      "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T10:14:44.832464+00:00"
+      "checked_at": "2026-11-11T10:29:24.807711+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "up",
     "session": "london",
-    "vwap": 4049.697557123464,
-    "atr": 3.3828571428571843,
+    "vwap": 4049.6928831545647,
+    "atr": 2.9828571428572235,
     "day_low": 4026.67,
     "day_high": 4066.98,
-    "range_pos": 0.6383031505829833
+    "range_pos": 0.5747953361448798
   },
   "dxy": {
     "ok": true,
-    "last": 102.46099853515625,
-    "pct": 0.23380330339900715,
+    "last": 102.48500061035156,
+    "pct": 0.25728364536712556,
     "state": "up",
-    "corr": -0.5530957998119643
+    "corr": -0.5400870839286985
   },
   "oil": {
     "ok": true,
-    "last": 86.8499984741211,
-    "pct": 0.7774404346400007,
+    "last": 87.0999984741211,
+    "pct": 1.0675309418513188,
     "state": "up",
-    "corr": -0.3540760108686268
+    "corr": -0.3434883007918707
   },
   "news": {
-    "usd": 0.8680523164156987,
-    "oil": 0.153489295447348,
+    "usd": 0.7749380827981338,
+    "oil": 0.2733220816917946,
     "shock": true,
     "usd_headlines": [
       "US Dollar: Hot CPI supports stronger rate hike odds \u2013 BBH - FXStreet",
@@ -97,25 +97,25 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.530059637440129,
-      "trust": 0.9985136199399761
-    },
-    {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.5082323441509649,
-      "trust": 0.9075577574124372
+      "score": 0.5361085156978745,
+      "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.32891710696307724,
+      "score": 0.4516477061678657,
       "trust": 1.0
     },
     {
-      "style": "Trade with the intraday trend",
+      "style": "Stand aside",
       "bias": "flat",
-      "score": 0.1,
+      "score": 0.41267258450673683,
+      "trust": 0.6068714478040247
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.12393242772558087,
       "trust": 1.0
     },
     {
