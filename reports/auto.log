@@ -568,3 +568,5 @@ NameError: name 'load_calendar' is not defined
 2026-11-11 15:30 UTC  live: gold 4007.36 | graded: c6880928 long oil_shock -> loss (-1.00R) invalidation hit | opened stand aside c1daf75d
 2026-11-11 15:31 UTC  live: BUY entry reached at 4005.56
 2026-11-11 15:32 UTC  live: BUY SL hit
+2026-11-11 15:44 UTC  live: gold 4006.07 | holding flat stand_aside c1daf75d | new read flat stand_aside not opened
+2026-11-11 15:49 UTC  live: BUY entry reached at 4002.47
