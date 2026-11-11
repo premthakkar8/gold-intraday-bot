@@ -1,80 +1,58 @@
 {
-  "updated_at": "2026-11-11T12:56:05.633861+00:00",
-  "atr": 2.5707142857142378,
-  "price": 4040.47,
+  "updated_at": "2026-11-11T13:10:58.466354+00:00",
+  "atr": 2.842857142857091,
+  "price": 4040.88,
   "stance": "Strategy: the SELL plan from 11:57 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4030.26,
-      "sl": 4025.26,
-      "tp1": 4041.29,
+      "entry_high": 4030.11,
+      "sl": 4025.11,
+      "tp1": 4041.52,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.55,
+      "score": 0.54,
       "style": "oil_shock",
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.31% with hawkish news (+1.00) and gold is moving against it (corr -0.40). Buying fights the dollar.",
+      "reason": "Dollar is up +0.33% with hawkish news (+1.00) and gold is moving against it (corr -0.32). Buying fights the dollar.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T13:09:12.624027+00:00"
+      "checked_at": "2026-11-11T13:24:04.442077+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4063.39,
+      "entry_low": 4063.54,
       "entry_high": 4066.98,
-      "sl": 4068.39,
-      "tp1": 4052.36,
+      "sl": 4068.54,
+      "tp1": 4052.13,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.59,
+      "score": 0.58,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T13:09:12.624027+00:00"
+      "checked_at": "2026-11-11T13:24:04.442077+00:00"
     }
   ],
   "research": [
-    "Gold 4040.97 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 4049.39, ATR 2.57, day range 4026.67-4066.98.",
-    "DXY 102.54 (+0.31% today, up), gold-dollar corr -0.40.",
-    "WTI 87.39 (+1.40% today, up), gold-oil corr -0.35.",
+    "Gold 4044.08 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 4049.23, ATR 2.84, day range 4026.67-4066.98.",
+    "DXY 102.56 (+0.33% today, up), gold-dollar corr -0.32.",
+    "WTI 87.27 (+1.26% today, up), gold-oil corr -0.44.",
     "Headlines: dollar +1.00, oil +0.29, fresh shock.",
-    "Dollar: US Dollar: Rate hike repricing boosts upside risks \u2013 MUFG - FXStreet",
+    "Dollar: US dollar firms as hot inflation, hawkish Fed talk lift rate-hike bets - The Business Times",
     "Oil: Crude oil price surge after Iran attack ships in Strait of Hormuz | Tap to know more | Inshorts - Inshorts",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
-    {
-      "side": "BUY",
-      "entry_low": 4029.99,
-      "entry_high": 4032.39,
-      "sl": 4027.8,
-      "tp1": 4036.09,
-      "tp2": 4041.97,
-      "rr": 1.4,
-      "risk_usd": 4.58,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-11T01:12:12.252422+00:00",
-      "checked_at": "2026-11-11T01:13:16.142969+00:00",
-      "entry": 4032.39,
-      "entered_at": "2026-11-11T01:13:16.142969+00:00",
-      "closed": "tp"
-    },
     {
       "side": "SELL",
       "entry_low": 4039.52,
@@ -164,5 +142,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-11T13:09:12.624027+00:00"
+  "last_check": "2026-11-11T13:24:04.442077+00:00"
 }

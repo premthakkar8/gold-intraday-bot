@@ -1,82 +1,82 @@
 {
-  "updated": "2026-11-11 12:56 UTC",
+  "updated": "2026-11-11 13:10 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4040.97,
+  "price": 4044.08,
   "stance": "Strategy: the SELL plan from 11:57 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4030.26,
-      "sl": 4025.26,
-      "tp1": 4041.29,
+      "entry_high": 4030.11,
+      "sl": 4025.11,
+      "tp1": 4041.52,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.55,
+      "score": 0.54,
       "style": "oil_shock",
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.31% with hawkish news (+1.00) and gold is moving against it (corr -0.40). Buying fights the dollar.",
+      "reason": "Dollar is up +0.33% with hawkish news (+1.00) and gold is moving against it (corr -0.32). Buying fights the dollar.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T12:56:05.633861+00:00"
+      "checked_at": "2026-11-11T13:10:58.466354+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4063.39,
+      "entry_low": 4063.54,
       "entry_high": 4066.98,
-      "sl": 4068.39,
-      "tp1": 4052.36,
+      "sl": 4068.54,
+      "tp1": 4052.13,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.59,
+      "score": 0.58,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T12:56:05.633861+00:00"
+      "checked_at": "2026-11-11T13:10:58.466354+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "up",
     "session": "overlap",
-    "vwap": 4049.3876870457857,
-    "atr": 2.5707142857142378,
+    "vwap": 4049.2263442550343,
+    "atr": 2.842857142857091,
     "day_low": 4026.67,
     "day_high": 4066.98,
-    "range_pos": 0.3547506822128441
+    "range_pos": 0.4319027536591386
   },
   "dxy": {
     "ok": true,
-    "last": 102.54299926757812,
-    "pct": 0.3140215854947911,
+    "last": 102.55999755859375,
+    "pct": 0.33065038457456475,
     "state": "up",
-    "corr": -0.40195964781509613
+    "corr": -0.31908819601558536
   },
   "oil": {
     "ok": true,
-    "last": 87.38999938964844,
-    "pct": 1.4040369925596141,
+    "last": 87.2699966430664,
+    "pct": 1.2647903620686831,
     "state": "up",
-    "corr": -0.3460704704105608
+    "corr": -0.43730284576849676
   },
   "news": {
     "usd": 1.0,
-    "oil": 0.29201524651302607,
+    "oil": 0.2944583100693093,
     "shock": true,
     "usd_headlines": [
+      "US dollar firms as hot inflation, hawkish Fed talk lift rate-hike bets - The Business Times",
       "US Dollar: Rate hike repricing boosts upside risks \u2013 MUFG - FXStreet",
-      "Dollar rises toward two-week high on Fed rate hike bets - \u0633\u0627\u0646\u0627",
-      "US dollar holds firm as Fed rate hike expectations deepen after inflation data - Economies.com"
+      "Dollar rises toward two-week high on Fed rate hike bets - \u0633\u0627\u0646\u0627"
     ],
     "oil_headlines": [
       "Crude oil price surge after Iran attack ships in Strait of Hormuz | Tap to know more | Inshorts - Inshorts",
@@ -97,25 +97,25 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5883209364214399,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.55,
+      "score": 0.5826020937224216,
       "trust": 1.0
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.48201974391822217,
-      "trust": 0.8607495427111109
+      "score": 0.5822994028564993,
+      "trust": 0.8563226512595578
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.5351036147213659,
+      "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
+      "bias": "short",
+      "score": 0.30137670169024444,
       "trust": 1.0
     },
     {
