@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-11T19:39:17.098219+00:00",
-  "atr": 2.5528571428571274,
-  "price": 3987.03,
+  "updated_at": "2026-11-11T19:54:02.669855+00:00",
+  "atr": 2.426428571428557,
+  "price": 3983.4,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.44). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3983.15,
-      "entry_high": 3986.75,
-      "sl": 3981.75,
-      "tp1": 3997.76,
+      "entry_high": 3986.82,
+      "sl": 3981.82,
+      "tp1": 3997.65,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,32 +21,32 @@
       "status": "valid",
       "reason": "Score 0.44 (Trade the oil shock), oil supply news +0.80, price below VWAP.",
       "created_at": "2026-11-11T19:24:35.132767+00:00",
-      "checked_at": "2026-11-11T19:52:26.192614+00:00"
+      "checked_at": "2026-11-11T20:07:08.879757+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4063.38,
+      "entry_low": 4063.31,
       "entry_high": 4066.98,
-      "sl": 4068.38,
-      "tp1": 4052.37,
+      "sl": 4068.31,
+      "tp1": 4052.48,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.44,
-      "style": "dollar_lead",
+      "score": 0.33,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T19:52:26.192614+00:00"
+      "checked_at": "2026-11-11T20:07:08.879757+00:00"
     }
   ],
   "research": [
-    "Gold 3989.29 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 4034.27, ATR 2.55, day range 3983.15-4066.98.",
-    "DXY 102.90 (+0.67% today, up), gold-dollar corr -0.17.",
-    "WTI 86.51 (+0.38% today, flat), gold-oil corr -0.33.",
+    "Gold 3987.44 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 4033.74, ATR 2.43, day range 3983.15-4066.98.",
+    "DXY 102.89 (+0.66% today, up), gold-dollar corr -0.20.",
+    "WTI 86.09 (-0.10% today, flat), gold-oil corr -0.35.",
     "Headlines: dollar +0.87, oil +0.80.",
     "Dollar: US Dollar Strengthens Against The Loonie on Rate Hike Expectations - marketscreener.com",
     "Oil: Brent crude oil edges higher as US President Trump pauses further action against Iran, easing Middle East supply risk - Traders Union",
@@ -252,5 +252,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-11T19:52:26.192614+00:00"
+  "last_check": "2026-11-11T20:07:08.879757+00:00"
 }
