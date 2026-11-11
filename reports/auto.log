@@ -491,3 +491,7 @@ NameError: name 'load_calendar' is not defined
 2026-11-11 00:57 UTC  live: gold 4032.29 | holding short dollar_lead 92ef1ac3 | new read flat stand_aside not opened
 2026-11-11 00:58 UTC  live: BUY entry reached at 4032.94
 2026-11-11 01:01 UTC  live: BUY TP hit
+2026-11-11 01:12 UTC  live: gold 4030.91 | holding short dollar_lead 92ef1ac3 | new read flat stand_aside not opened
+2026-11-11 01:13 UTC  live: BUY entry reached at 4029.17
+2026-11-11 01:13 UTC  live: BUY TP hit
+2026-11-11 01:15 UTC  live: SELL TP hit
