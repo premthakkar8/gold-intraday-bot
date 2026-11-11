@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-11 09:45 UTC",
+  "updated": "2026-11-11 10:00 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4049.66,
-  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 51%).",
+  "price": 4051.01,
+  "stance": "Strategy: the SELL plan from 09:45 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4029.91,
-      "sl": 4024.91,
-      "tp1": 4041.81,
+      "entry_high": 4029.89,
+      "sl": 4024.89,
+      "tp1": 4041.84,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.28,
-      "style": "oil_shock",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "status": "invalid",
+      "reason": "Dollar is up +0.26% with hawkish news (+0.77) and gold is moving against it (corr -0.55). Buying fights the dollar.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T09:45:26.695618+00:00"
+      "checked_at": "2026-11-11T10:00:05.282052+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4063.74,
+      "entry_low": 4063.76,
       "entry_high": 4066.98,
-      "sl": 4068.74,
-      "tp1": 4051.84,
+      "sl": 4068.76,
+      "tp1": 4051.81,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.51,
+      "score": 0.54,
       "style": "dollar_lead",
       "favored": true,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T09:45:26.695618+00:00"
+      "checked_at": "2026-11-11T10:00:05.282052+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "down",
     "htf": "up",
     "session": "london",
-    "vwap": 4049.590707484624,
-    "atr": 3.197857142857174,
+    "vwap": 4049.6097479534155,
+    "atr": 3.2378571428572025,
     "day_low": 4026.67,
     "day_high": 4066.98,
-    "range_pos": 0.5703299429421933
+    "range_pos": 0.6038203919622966
   },
   "dxy": {
     "ok": true,
-    "last": 102.47599792480469,
-    "pct": 0.24847665124049498,
+    "last": 102.48500061035156,
+    "pct": 0.25728364536712556,
     "state": "up",
-    "corr": -0.4930880429387179
+    "corr": -0.5511894204273032
   },
   "oil": {
     "ok": true,
-    "last": 86.75,
-    "pct": 0.6614060023274168,
+    "last": 86.62999725341797,
+    "pct": 0.5221593718364859,
     "state": "up",
-    "corr": -0.40205618635083584
+    "corr": -0.38444125332084766
   },
   "news": {
-    "usd": 0.7672638746767608,
-    "oil": 0.15510869718000864,
+    "usd": 0.773614694430382,
+    "oil": 0.15431378588209557,
     "shock": true,
     "usd_headlines": [
+      "US Dollar: Hot CPI supports stronger rate hike odds \u2013 BBH - FXStreet",
       "Federal Reserve: December rate hike expectations reinforced \u2013 Commerzbank - FXStreet",
-      "\u2018No Christmas cheer\u2019: Hot US inflation puts Federal Reserve rate cuts in doubt - London Business News",
-      "US Treasury yields surge, Wall Street falls on inflation surprise - \u0633\u0627\u0646\u0627"
+      "\u2018No Christmas cheer\u2019: Hot US inflation puts Federal Reserve rate cuts in doubt - London Business News"
     ],
     "oil_headlines": [
       "Crude oil price surge after Iran attack ships in Strait of Hormuz | Tap to know more | Inshorts - Inshorts",
@@ -97,31 +97,31 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5141276775976906,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.4784000000000001,
+      "score": 0.5388243707735955,
       "trust": 1.0
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4115386239749161,
-      "trust": 0.6052038587866413
+      "score": 0.4119168069230834,
+      "trust": 0.605760010181005
     },
     {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.2798256163692917,
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.20013685498268052,
       "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.08,
       "trust": 1.0
     }
   ],
