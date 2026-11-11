@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-11T08:46:56.584620+00:00",
-  "atr": 2.6921428571428287,
-  "price": 4059.54,
+  "updated_at": "2026-11-11T09:01:34.284553+00:00",
+  "atr": 2.9542857142857235,
+  "price": 4053.86,
   "stance": "Strategy: the SELL plan from 07:19 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4030.19,
-      "sl": 4025.19,
-      "tp1": 4041.39,
+      "entry_high": 4030.05,
+      "sl": 4025.05,
+      "tp1": 4041.61,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,32 +21,32 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T09:00:05.502168+00:00"
+      "checked_at": "2026-11-11T09:14:41.294143+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4063.46,
+      "entry_low": 4063.6,
       "entry_high": 4066.98,
-      "sl": 4068.46,
-      "tp1": 4052.26,
+      "sl": 4068.6,
+      "tp1": 4052.04,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.41,
-      "style": "dollar_lead",
+      "score": 0.44,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T09:00:05.502168+00:00"
+      "checked_at": "2026-11-11T09:14:41.294143+00:00"
     }
   ],
   "research": [
-    "Gold 4059.76 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 4049.22, ATR 2.69, day range 4026.67-4066.98.",
-    "DXY 102.40 (+0.18% today, up), gold-dollar corr -0.44.",
-    "WTI 86.14 (-0.05% today, flat), gold-oil corr -0.34.",
+    "Gold 4059.15 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 4049.44, ATR 2.95, day range 4026.67-4066.98.",
+    "DXY 102.39 (+0.17% today, up), gold-dollar corr -0.39.",
+    "WTI 86.16 (-0.02% today, flat), gold-oil corr -0.31.",
     "Headlines: dollar +0.77, oil -0.50, fresh shock.",
     "Dollar: Federal Reserve: December rate hike expectations reinforced \u2013 Commerzbank - FXStreet",
     "Oil: Crude Oil Falls As Trump Downplays Need For Further Military Action Against Iran By Kedia Advisory - Investing.com India",
@@ -208,5 +208,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-11T09:00:05.502168+00:00"
+  "last_check": "2026-11-11T09:14:41.294143+00:00"
 }
