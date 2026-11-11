@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-11 16:43 UTC",
+  "updated": "2026-11-11 16:57 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3999.3,
+  "price": 4000.21,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.30). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3998.59,
-      "entry_high": 4001.76,
-      "sl": 3996.76,
-      "tp1": 4013.84,
+      "entry_high": 4001.99,
+      "sl": 3996.99,
+      "tp1": 4013.49,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-11T16:43:17.760483+00:00",
-      "checked_at": "2026-11-11T16:43:17.760483+00:00"
+      "checked_at": "2026-11-11T16:57:59.647266+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4063.81,
+      "entry_low": 4063.58,
       "entry_high": 4066.98,
-      "sl": 4068.81,
-      "tp1": 4051.73,
+      "sl": 4068.58,
+      "tp1": 4052.08,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T16:43:17.760483+00:00"
+      "checked_at": "2026-11-11T16:57:59.647266+00:00"
     }
   ],
   "active": [
@@ -72,29 +72,29 @@
     "structure": "sideways",
     "htf": "up",
     "session": "overlap",
-    "vwap": 4041.157258511008,
-    "atr": 3.334999999999939,
+    "vwap": 4040.5479020524817,
+    "atr": 2.914999999999931,
     "day_low": 3998.59,
     "day_high": 4066.98,
-    "range_pos": 0.010381634741921884
+    "range_pos": 0.023687673636495012
   },
   "dxy": {
     "ok": true,
-    "last": 102.87899780273438,
-    "pct": 0.6427165188310701,
+    "last": 102.88600158691406,
+    "pct": 0.6495680617194148,
     "state": "up",
-    "corr": -0.18217552530149647
+    "corr": -0.19170005214117664
   },
   "oil": {
     "ok": true,
-    "last": 88.23999786376953,
-    "pct": 2.3903429465061525,
+    "last": 87.97000122070312,
+    "pct": 2.0770490939762043,
     "state": "up",
-    "corr": -0.5007537805133369
+    "corr": -0.48131598833575556
   },
   "news": {
-    "usd": 0.8469386462479576,
-    "oil": -0.08249696589234919,
+    "usd": 0.8570095899993712,
+    "oil": -0.094009142175718,
     "shock": true,
     "usd_headlines": [
       "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem - Reuters",
@@ -120,13 +120,13 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.48201974391822217,
-      "trust": 0.8607495427111109
+      "score": 0.4820197439182222,
+      "trust": 0.860749542711111
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2982990297808601,
+      "score": 0.30050498620283056,
       "trust": 1.0
     },
     {
@@ -144,8 +144,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07630897858453504,
-      "trust": 0.6359081548711254
+      "score": 0.07637075739190866,
+      "trust": 0.6364229782659054
     }
   ],
   "record": {
