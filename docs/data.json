@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-11 17:56 UTC",
+  "updated": "2026-11-11 18:11 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3996.47,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.25). Take an entry only if price reaches it.",
+  "price": 3991.64,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.37). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3996.15,
-      "entry_high": 3999.59,
-      "sl": 3994.59,
-      "tp1": 4010.99,
+      "entry_low": 3987.29,
+      "entry_high": 3990.4,
+      "sl": 3985.4,
+      "tp1": 4002.63,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.17,
+      "score": 0.37,
       "style": "oil_shock",
       "favored": true,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.17. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-11T17:56:25.157667+00:00",
-      "checked_at": "2026-11-11T17:56:25.157667+00:00"
+      "status": "valid",
+      "reason": "Score 0.37 (Trade the oil shock), oil supply news +0.35, price below VWAP.",
+      "created_at": "2026-11-11T18:11:04.674542+00:00",
+      "checked_at": "2026-11-11T18:11:04.674542+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4063.54,
+      "entry_low": 4063.87,
       "entry_high": 4066.98,
-      "sl": 4068.54,
-      "tp1": 4052.14,
+      "sl": 4068.87,
+      "tp1": 4051.64,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T17:56:25.157667+00:00"
+      "checked_at": "2026-11-11T18:11:04.674542+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "up",
     "session": "newyork",
-    "vwap": 4038.3949883546793,
-    "atr": 2.832142857142831,
-    "day_low": 3996.15,
+    "vwap": 4037.7105956775354,
+    "atr": 3.4442857142857326,
+    "day_low": 3987.29,
     "day_high": 4066.98,
-    "range_pos": 0.0045178596639800835
+    "range_pos": 0.054586522775754875
   },
   "dxy": {
     "ok": true,
-    "last": 102.90499877929688,
-    "pct": 0.6681523120374743,
+    "last": 102.9020004272461,
+    "pct": 0.6652191351800456,
     "state": "up",
-    "corr": -0.28842739273981266
+    "corr": -0.23061217449914334
   },
   "oil": {
     "ok": true,
-    "last": 86.62000274658203,
-    "pct": 0.5105621256070295,
+    "last": 87.13999938964844,
+    "pct": 1.1139464853482959,
     "state": "up",
-    "corr": -0.49553875649534374
+    "corr": -0.4137751291887633
   },
   "news": {
-    "usd": 0.8737506647535787,
-    "oil": 0.3584824644324113,
+    "usd": 0.8696963581226282,
+    "oil": 0.3504022257247133,
     "shock": true,
     "usd_headlines": [
       "U.S. Dollar Rallies As Traders Bet On Hawkish Fed: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
@@ -97,20 +97,20 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4654215773078988,
-      "trust": 0.8311099594783906
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.25258892060980775,
-      "trust": 0.7997087643029264
+      "score": 0.4463106012566355,
+      "trust": 0.7969832165297062
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.1691502268025344,
-      "trust": 0.7830773317007358
+      "score": 0.3691968083348975,
+      "trust": 0.7833832351883577
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.24573296706335238,
+      "trust": 0.7999912142101684
     },
     {
       "style": "Trade with the intraday trend",
@@ -126,10 +126,10 @@
     }
   ],
   "record": {
-    "graded": 82,
+    "graded": 83,
     "wins": 25,
-    "losses": 41,
+    "losses": 42,
     "scratches": 16,
-    "avg_r": -0.09474218378055155
+    "avg_r": -0.10564890445789431
   }
 }
