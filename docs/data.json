@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-11 13:40 UTC",
+  "updated": "2026-11-11 13:54 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4035.21,
+  "price": 4032.6,
   "stance": "Strategy: the SELL plan from 11:57 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4029.92,
-      "sl": 4024.92,
-      "tp1": 4041.8,
+      "entry_high": 4029.65,
+      "sl": 4024.65,
+      "tp1": 4042.2,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -18,29 +18,29 @@
       "style": "oil_shock",
       "favored": true,
       "ready": true,
-      "status": "invalid",
-      "reason": "Dollar is up +0.45% with hawkish news (+1.00) and gold is moving against it (corr -0.33). Buying fights the dollar.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T13:40:15.487686+00:00"
+      "checked_at": "2026-11-11T13:54:53.926940+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4063.73,
+      "entry_low": 4064.0,
       "entry_high": 4066.98,
-      "sl": 4068.73,
-      "tp1": 4051.85,
+      "sl": 4069.0,
+      "tp1": 4051.45,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.33,
+      "score": 0.32,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T13:40:15.487686+00:00"
+      "checked_at": "2026-11-11T13:54:53.926940+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "up",
     "session": "overlap",
-    "vwap": 4048.844455551315,
-    "atr": 3.188571428571387,
+    "vwap": 4048.5400904159296,
+    "atr": 3.6728571428571155,
     "day_low": 4026.67,
     "day_high": 4066.98,
-    "range_pos": 0.21185809972711425
+    "range_pos": 0.14710989828826207
   },
   "dxy": {
     "ok": true,
-    "last": 102.68599700927734,
-    "pct": 0.45391098457566936,
+    "last": 102.69000244140625,
+    "pct": 0.4578293506065855,
     "state": "up",
-    "corr": -0.33230786224133474
+    "corr": -0.25930651342365846
   },
   "oil": {
     "ok": true,
-    "last": 87.37999725341797,
-    "pct": 1.3924308934704406,
+    "last": 87.41000366210938,
+    "pct": 1.427249190737961,
     "state": "up",
-    "corr": -0.3930094524476104
+    "corr": -0.4131349029644996
   },
   "news": {
     "usd": 1.0,
-    "oil": 0.15213025365185853,
+    "oil": 0.14989474171016673,
     "shock": true,
     "usd_headlines": [
       "US dollar firms as hot inflation, hawkish Fed talk lift rate-hike bets - The Business Times",
@@ -109,7 +109,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3326019476110928,
+      "score": 0.3220623778755407,
       "trust": 1.0
     },
     {
