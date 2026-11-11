@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-11T16:28:37.496976+00:00",
-  "atr": 4.106428571428556,
-  "price": 3999.86,
+  "updated_at": "2026-11-11T16:43:17.760483+00:00",
+  "atr": 3.334999999999939,
+  "price": 3999.62,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.30). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4000.77,
-      "entry_high": 4003.51,
-      "sl": 3998.51,
-      "tp1": 4016.66,
+      "entry_low": 3998.59,
+      "entry_high": 4001.76,
+      "sl": 3996.76,
+      "tp1": 4013.84,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -20,15 +20,15 @@
       "ready": false,
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-11T15:44:42.331386+00:00",
-      "checked_at": "2026-11-11T16:41:46.873361+00:00"
+      "created_at": "2026-11-11T16:43:17.760483+00:00",
+      "checked_at": "2026-11-11T16:56:23.846353+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4064.24,
+      "entry_low": 4063.81,
       "entry_high": 4066.98,
-      "sl": 4069.24,
-      "tp1": 4051.09,
+      "sl": 4068.81,
+      "tp1": 4051.73,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,14 +40,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T16:41:46.873361+00:00"
+      "checked_at": "2026-11-11T16:56:23.846353+00:00"
     }
   ],
   "research": [
-    "Gold 4002.89 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 4041.83, ATR 4.11, day range 4000.77-4066.98.",
-    "DXY 102.86 (+0.63% today, up), gold-dollar corr -0.18.",
-    "WTI 88.10 (+2.23% today, up), gold-oil corr -0.52.",
-    "Headlines: dollar +0.85, oil -0.07, fresh shock.",
+    "Gold 3999.30 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 4041.16, ATR 3.33, day range 3998.59-4066.98.",
+    "DXY 102.88 (+0.64% today, up), gold-dollar corr -0.18.",
+    "WTI 88.24 (+2.39% today, up), gold-oil corr -0.50.",
+    "Headlines: dollar +0.85, oil -0.08, fresh shock.",
     "Dollar: COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem - Reuters",
     "Oil: Crude oil price surge after Iran attack ships in Strait of Hormuz | Tap to know more | Inshorts - Inshorts",
     "No high-impact US release in the next 24 hours."
@@ -164,5 +164,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-11T16:41:46.873361+00:00"
+  "last_check": "2026-11-11T16:56:23.846353+00:00"
 }

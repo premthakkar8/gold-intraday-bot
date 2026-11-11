@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-11 16:28 UTC",
+  "updated": "2026-11-11 16:43 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4002.89,
+  "price": 3999.3,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.30). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 4000.77,
-      "entry_high": 4003.51,
-      "sl": 3998.51,
-      "tp1": 4016.66,
+      "entry_low": 3998.59,
+      "entry_high": 4001.76,
+      "sl": 3996.76,
+      "tp1": 4013.84,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -20,15 +20,15 @@
       "ready": false,
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-11T15:44:42.331386+00:00",
-      "checked_at": "2026-11-11T16:28:37.496976+00:00"
+      "created_at": "2026-11-11T16:43:17.760483+00:00",
+      "checked_at": "2026-11-11T16:43:17.760483+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4064.24,
+      "entry_low": 4063.81,
       "entry_high": 4066.98,
-      "sl": 4069.24,
-      "tp1": 4051.09,
+      "sl": 4068.81,
+      "tp1": 4051.73,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T16:28:37.496976+00:00"
+      "checked_at": "2026-11-11T16:43:17.760483+00:00"
     }
   ],
   "active": [
@@ -72,29 +72,29 @@
     "structure": "sideways",
     "htf": "up",
     "session": "overlap",
-    "vwap": 4041.8297033807194,
-    "atr": 4.106428571428556,
-    "day_low": 4000.77,
+    "vwap": 4041.157258511008,
+    "atr": 3.334999999999939,
+    "day_low": 3998.59,
     "day_high": 4066.98,
-    "range_pos": 0.032019332427124146
+    "range_pos": 0.010381634741921884
   },
   "dxy": {
     "ok": true,
-    "last": 102.86199951171875,
-    "pct": 0.6260877197512965,
+    "last": 102.87899780273438,
+    "pct": 0.6427165188310701,
     "state": "up",
-    "corr": -0.1841199561231125
+    "corr": -0.18217552530149647
   },
   "oil": {
     "ok": true,
-    "last": 88.0999984741211,
-    "pct": 2.2278929706965918,
+    "last": 88.23999786376953,
+    "pct": 2.3903429465061525,
     "state": "up",
-    "corr": -0.5234048826844242
+    "corr": -0.5007537805133369
   },
   "news": {
-    "usd": 0.8521439905254238,
-    "oil": -0.07314399667246173,
+    "usd": 0.8469386462479576,
+    "oil": -0.08249696589234919,
     "shock": true,
     "usd_headlines": [
       "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem - Reuters",
@@ -103,8 +103,8 @@
     ],
     "oil_headlines": [
       "Crude oil price surge after Iran attack ships in Strait of Hormuz | Tap to know more | Inshorts - Inshorts",
-      "Crude Oil Falls As Trump Downplays Need For Further Military Action Against Iran By Kedia Advisory - Investing.com India",
-      "India bonds may rally early as oil falls; Treasury yields to cut short gains - TradingView"
+      "India bonds may rally early as oil falls; Treasury yields to cut short gains - TradingView",
+      "Crude Oil Falls As Trump Downplays Need For Further Military Action Against Iran By Kedia Advisory - Investing.com India"
     ]
   },
   "events": [
@@ -120,13 +120,13 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4820197439182222,
-      "trust": 0.860749542711111
+      "score": 0.48201974391822217,
+      "trust": 0.8607495427111109
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2990091978836219,
+      "score": 0.2982990297808601,
       "trust": 1.0
     },
     {
@@ -144,8 +144,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07624722625545176,
-      "trust": 0.6353935521287647
+      "score": 0.07630897858453504,
+      "trust": 0.6359081548711254
     }
   ],
   "record": {
