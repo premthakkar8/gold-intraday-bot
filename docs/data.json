@@ -1,82 +1,82 @@
 {
-  "updated": "2026-11-11 04:22 UTC",
+  "updated": "2026-11-11 04:37 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4042.38,
-  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 58%).",
+  "price": 4041.74,
+  "stance": "Strategy: the SELL plan from 04:22 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4030.22,
-      "sl": 4025.22,
-      "tp1": 4041.35,
+      "entry_high": 4030.1,
+      "sl": 4025.1,
+      "tp1": 4041.53,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.5,
-      "style": "trend_align",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T04:22:30.026311+00:00"
+      "checked_at": "2026-11-11T04:37:46.855756+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4049.13,
+      "entry_low": 4049.25,
       "entry_high": 4052.68,
-      "sl": 4054.13,
-      "tp1": 4041.69,
-      "tp2": 4038.0,
-      "rr": 2.9,
+      "sl": 4054.25,
+      "tp1": 4041.76,
+      "tp2": 4037.82,
+      "rr": 2.8,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.69,
+      "score": 0.62,
       "style": "dollar_lead",
       "favored": true,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T01:41:30.530146+00:00",
-      "checked_at": "2026-11-11T04:22:30.026311+00:00"
+      "checked_at": "2026-11-11T04:37:46.855756+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 4041.6860234548876,
-    "atr": 2.6385714285714323,
+    "vwap": 4041.7647555076883,
+    "atr": 2.8564285714285558,
     "day_low": 4026.67,
     "day_high": 4052.68,
-    "range_pos": 0.6039984621299569
+    "range_pos": 0.5793925413302516
   },
   "dxy": {
     "ok": true,
-    "last": 102.26399993896484,
-    "pct": 0.04108686666703487,
+    "last": 102.25399780273438,
+    "pct": 0.031302146921261445,
     "state": "flat",
-    "corr": -0.4290145751701952
+    "corr": -0.4354407514983211
   },
   "oil": {
     "ok": true,
-    "last": 86.69999694824219,
-    "pct": 0.6033843597412664,
+    "last": 86.6500015258789,
+    "pct": 0.5453715700148329,
     "state": "up",
-    "corr": -0.2670254307716637
+    "corr": -0.2867796772629377
   },
   "news": {
-    "usd": 0.9218044567103031,
-    "oil": -0.38518885240629575,
+    "usd": 0.9608811798275458,
+    "oil": -0.3859153770525281,
     "shock": true,
     "usd_headlines": [
+      "US Dollar: Hot CPI lifts yields and Fed bets \u2013 Rabobank - FXStreet",
       "Dollar gains traction as Fed speakers warn of risks from inflation - CNBC",
-      "Treasury Yields Jump as Hot Inflation Fuels Fed Rate Bets - JournalArta",
-      "Japanese Yen struggles as Fed rate hike odds lift US Dollar - FXStreet"
+      "Treasury Yields Jump as Hot Inflation Fuels Fed Rate Bets - JournalArta"
     ],
     "oil_headlines": [
       "Oil rises from 2-month low as Hormuz shipping attacks offset truce hopes - Business Standard",
@@ -97,32 +97,32 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.6865641164795724,
-      "trust": 1.2216530333937108
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.5043502655247675,
-      "trust": 0.8082536306486656
+      "score": 0.6177759094281973,
+      "trust": 1.0601358609840568
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.47891480645337564,
-      "trust": 0.7256284946263267
+      "score": 0.5414388283208866,
+      "trust": 0.8203618610922524
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11970354199671357,
-      "trust": 0.9975295166392798
+      "score": 0.11976318222679276,
+      "trust": 0.9980265185566064
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.11924963311806812,
+      "trust": 1.192496331180681
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.09985261047710074,
+      "trust": 0.9985261047710073
     }
   ],
   "record": {
