@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-11 14:45 UTC",
+  "updated": "2026-11-11 14:59 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4016.02,
+  "price": 4014.79,
   "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4010.86,
-      "entry_high": 4013.16,
-      "sl": 4008.16,
-      "tp1": 4027.41,
+      "entry_high": 4012.96,
+      "sl": 4007.96,
+      "tp1": 4027.71,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "valid",
       "reason": "Score 0.55 (Trade the oil shock), price below VWAP.",
       "created_at": "2026-11-11T14:45:03.639259+00:00",
-      "checked_at": "2026-11-11T14:45:03.639259+00:00"
+      "checked_at": "2026-11-11T14:59:44.550343+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4064.68,
+      "entry_low": 4064.88,
       "entry_high": 4066.98,
-      "sl": 4069.68,
-      "tp1": 4050.43,
+      "sl": 4069.88,
+      "tp1": 4050.13,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T14:45:03.639259+00:00"
+      "checked_at": "2026-11-11T14:59:44.550343+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "down",
     "htf": "up",
     "session": "overlap",
-    "vwap": 4046.9454378615183,
-    "atr": 4.9107142857143185,
+    "vwap": 4046.185420031026,
+    "atr": 5.267857142857175,
     "day_low": 4010.86,
     "day_high": 4066.98,
-    "range_pos": 0.09194583036350436
+    "range_pos": 0.07002851033499366
   },
   "dxy": {
     "ok": true,
-    "last": 102.90699768066406,
-    "pct": 0.6701077632757599,
+    "last": 102.92900085449219,
+    "pct": 0.6916326540055926,
     "state": "up",
-    "corr": -0.158517647785431
+    "corr": -0.16534099270346553
   },
   "oil": {
     "ok": true,
-    "last": 87.36000061035156,
-    "pct": 1.3692275481518106,
+    "last": 87.5199966430664,
+    "pct": 1.5548808692800014,
     "state": "up",
-    "corr": -0.5243930950990012
+    "corr": -0.4908618586303576
   },
   "news": {
-    "usd": 0.8763977213956258,
-    "oil": 0.1373119352147704,
+    "usd": 0.8663869032879224,
+    "oil": 0.13935852690601697,
     "shock": true,
     "usd_headlines": [
       "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem - Reuters",
@@ -109,7 +109,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2973137974141608,
+      "score": 0.2974730253428165,
       "trust": 1.0
     },
     {

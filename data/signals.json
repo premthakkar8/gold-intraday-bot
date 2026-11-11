@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-11T14:45:03.639259+00:00",
-  "atr": 4.9107142857143185,
-  "price": 4017.39,
+  "updated_at": "2026-11-11T14:59:44.550343+00:00",
+  "atr": 5.267857142857175,
+  "price": 4018.23,
   "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4010.86,
-      "entry_high": 4013.16,
-      "sl": 4008.16,
-      "tp1": 4027.41,
+      "entry_high": 4012.96,
+      "sl": 4007.96,
+      "tp1": 4027.71,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "valid",
       "reason": "Score 0.55 (Trade the oil shock), price below VWAP.",
       "created_at": "2026-11-11T14:45:03.639259+00:00",
-      "checked_at": "2026-11-11T14:58:12.881498+00:00"
+      "checked_at": "2026-11-11T15:13:16.288517+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4064.68,
+      "entry_low": 4064.88,
       "entry_high": 4066.98,
-      "sl": 4069.68,
-      "tp1": 4050.43,
+      "sl": 4069.88,
+      "tp1": 4050.13,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,14 +40,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T14:58:12.881498+00:00"
+      "checked_at": "2026-11-11T15:13:16.288517+00:00"
     }
   ],
   "research": [
-    "Gold 4016.02 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 4046.95, ATR 4.91, day range 4010.86-4066.98.",
-    "DXY 102.91 (+0.67% today, up), gold-dollar corr -0.16.",
-    "WTI 87.36 (+1.37% today, up), gold-oil corr -0.52.",
-    "Headlines: dollar +0.88, oil +0.14, fresh shock.",
+    "Gold 4014.79 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 4046.19, ATR 5.27, day range 4010.86-4066.98.",
+    "DXY 102.93 (+0.69% today, up), gold-dollar corr -0.17.",
+    "WTI 87.52 (+1.55% today, up), gold-oil corr -0.49.",
+    "Headlines: dollar +0.87, oil +0.14, fresh shock.",
     "Dollar: COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem - Reuters",
     "Oil: Crude oil price surge after Iran attack ships in Strait of Hormuz | Tap to know more | Inshorts - Inshorts",
     "No high-impact US release in the next 24 hours."
@@ -120,5 +120,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-11T14:58:12.881498+00:00"
+  "last_check": "2026-11-11T15:13:16.288517+00:00"
 }
