@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-11 08:17 UTC",
+  "updated": "2026-11-11 08:32 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4060.43,
+  "price": 4059.54,
   "stance": "Strategy: the SELL plan from 07:19 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4030.09,
-      "sl": 4025.09,
-      "tp1": 4041.54,
+      "entry_high": 4030.01,
+      "sl": 4025.01,
+      "tp1": 4041.66,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.09,
-      "style": "trend_align",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T08:17:45.948598+00:00"
+      "checked_at": "2026-11-11T08:32:18.592083+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4063.56,
+      "entry_low": 4063.64,
       "entry_high": 4066.98,
-      "sl": 4068.56,
-      "tp1": 4052.11,
+      "sl": 4068.64,
+      "tp1": 4051.99,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.33,
+      "score": 0.45,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T08:17:45.948598+00:00"
+      "checked_at": "2026-11-11T08:32:18.592083+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "london",
-    "vwap": 4048.6486627949944,
-    "atr": 2.8757142857142037,
+    "vwap": 4048.9175194497598,
+    "atr": 3.021428571428487,
     "day_low": 4026.67,
     "day_high": 4066.98,
-    "range_pos": 0.8375093029025008
+    "range_pos": 0.8154304142892567
   },
   "dxy": {
     "ok": true,
-    "last": 102.3499984741211,
-    "pct": 0.1252160512393904,
+    "last": 102.46199798583984,
+    "pct": 0.23478102901815,
     "state": "up",
-    "corr": -0.51383172974613
+    "corr": -0.4213865889097214
   },
   "oil": {
     "ok": true,
-    "last": 86.30000305175781,
-    "pct": 0.13924663049093092,
+    "last": 86.2300033569336,
+    "pct": 0.058021642586150494,
     "state": "flat",
-    "corr": -0.37283974417014226
+    "corr": -0.35708369196850653
   },
   "news": {
-    "usd": 0.8799631338783341,
-    "oil": -1.0,
+    "usd": 0.7575061710558328,
+    "oil": -0.6092328519825903,
     "shock": true,
     "usd_headlines": [
+      "\u2018No Christmas cheer\u2019: Hot US inflation puts Federal Reserve rate cuts in doubt - London Business News",
       "US Treasury yields surge, Wall Street falls on inflation surprise - \u0633\u0627\u0646\u0627",
-      "US Dollar Price Forecast: Hot CPI Lifts DXY Above 102.20, Can It Break 102.50? - FXEmpire",
-      "U.S. Treasury, European Bond Yields Fall as Oil Prices Drop - WSJ"
+      "US Dollar Price Forecast: Hot CPI Lifts DXY Above 102.20, Can It Break 102.50? - FXEmpire"
     ],
     "oil_headlines": [
+      "IndiGo Shares Jump 5% as Crude Oil Falls to 2-Month Low - Equitypandit",
       "Crude Oil Falls As Trump Downplays Need For Further Military Action Against Iran By Kedia Advisory - Investing.com India",
-      "India bonds may rally early as oil falls; Treasury yields to cut short gains - TradingView",
-      "Crude Oil slips to six-week low - FXStreet"
+      "Oil rises from 2-month low as Hormuz shipping attacks offset truce hopes - Business Standard"
     ]
   },
   "events": [
@@ -97,14 +97,14 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.7341415143716695,
-      "trust": 0.9659756768048283
+      "score": 0.5834179245570359,
+      "trust": 1.0418177224232783
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.32978289821101153,
-      "trust": 0.7896734175665373
+      "score": 0.448198318458785,
+      "trust": 0.9325111186583748
     },
     {
       "style": "Trade the oil shock",
@@ -113,16 +113,16 @@
       "trust": 1.0
     },
     {
-      "style": "Fade the session range",
+      "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
     },
     {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.08889290250747918,
-      "trust": 0.9985569907785854
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
     }
   ],
   "record": {
