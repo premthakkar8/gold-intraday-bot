@@ -1,17 +1,17 @@
 {
-  "updated": "2026-11-11 01:56 UTC",
+  "updated": "2026-11-11 02:10 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4044.65,
-  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 58%).",
+  "price": 4041.69,
+  "stance": "Strategy: the SELL plan from 01:56 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4028.8,
-      "sl": 4023.8,
-      "tp1": 4038.1,
-      "tp2": 4043.48,
-      "rr": 2.6,
+      "entry_high": 4028.84,
+      "sl": 4023.84,
+      "tp1": 4038.84,
+      "tp2": 4043.42,
+      "rr": 2.8,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
@@ -21,26 +21,26 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T01:56:09.823394+00:00"
+      "checked_at": "2026-11-11T02:10:48.165431+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4050.55,
+      "entry_low": 4050.51,
       "entry_high": 4052.68,
-      "sl": 4055.55,
-      "tp1": 4038.1,
-      "tp2": 4035.87,
-      "rr": 3.4,
+      "sl": 4055.51,
+      "tp1": 4038.84,
+      "tp2": 4035.93,
+      "rr": 3.3,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.58,
+      "score": 0.39,
       "style": "dollar_lead",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "valid",
-      "reason": "Score 0.58 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
+      "reason": "Score 0.39 (Trade with the dollar), hawkish dollar news +0.90, price above VWAP.",
       "created_at": "2026-11-11T01:41:30.530146+00:00",
-      "checked_at": "2026-11-11T01:56:09.823394+00:00"
+      "checked_at": "2026-11-11T02:10:48.165431+00:00"
     }
   ],
   "active": [
@@ -72,32 +72,34 @@
     "structure": "sideways",
     "htf": "down",
     "session": "asia",
-    "vwap": 4038.1010549570483,
-    "atr": 5.2214285714285325,
+    "vwap": 4038.8355173800724,
+    "atr": 5.153571428571403,
     "day_low": 4026.67,
     "day_high": 4052.68,
-    "range_pos": 0.6912725874663661
+    "range_pos": 0.5774702037677861
   },
   "dxy": {
     "ok": true,
-    "last": 102.24299621582031,
-    "pct": 0.020539701556345134,
+    "last": 102.22599792480469,
+    "pct": 0.00391090247657153,
     "state": "flat",
-    "corr": -0.4851837362059276
+    "corr": -0.42684116497078284
   },
   "oil": {
     "ok": true,
-    "last": 86.30999755859375,
-    "pct": 0.1508438767203873,
+    "last": 86.16999816894531,
+    "pct": -0.011606099089173528,
     "state": "flat",
-    "corr": -0.3075856752156119
+    "corr": -0.3055251964679541
   },
   "news": {
-    "usd": 1.0,
+    "usd": 0.9039508314943404,
     "oil": -1.0,
-    "shock": false,
+    "shock": true,
     "usd_headlines": [
-      "Dollar Jumps and Gold Falls on Hot US CPI and Hawkish Fed Comments - TradingView"
+      "Fed\u2019s Paulson calls for gradual rate hikes amid ongoing high inflation - The Business Times",
+      "Dollar gains traction as Fed speakers warn of risks from inflation - Free Malaysia Today",
+      "Trump-appointed Fed member signals big interest rate hike as inflation runs hot - The Washington Post"
     ],
     "oil_headlines": [
       "FCCPC expects petrol prices to fall as crude oil drops - Punch Newspapers",
@@ -116,34 +118,34 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.581306240912567,
-      "trust": 0.7090706218134084
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "short",
-      "score": 0.4694492015375487,
-      "trust": 1.1955147950491771
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.2642694942029968,
-      "trust": 0.8258421693843649
+      "score": 0.5450558317936808,
+      "trust": 0.8258421693843648
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.3921452771443072,
+      "trust": 0.7094803416306158
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11981960158107186,
-      "trust": 0.9984966798422655
+      "score": 0.11981985563862936,
+      "trust": 0.998498796988578
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.11952394488927037,
+      "trust": 1.1952394488927036
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.08055332094106019,
-      "trust": 0.8055332094106018
+      "score": 0.08058070796480796,
+      "trust": 0.8058070796480795
     }
   ],
   "record": {
