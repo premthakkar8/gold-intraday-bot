@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-11T00:28:17.119214+00:00",
-  "atr": 2.913571428571426,
-  "price": 4035.97,
-  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
+  "updated_at": "2026-11-11T00:42:56.883327+00:00",
+  "atr": 3.200000000000013,
+  "price": 4033.22,
+  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 58%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4014.71,
-      "entry_high": 4018.11,
-      "sl": 4013.11,
-      "tp1": 4028.43,
-      "tp2": 4029.61,
-      "rr": 3.6,
+      "entry_high": 4017.95,
+      "sl": 4012.95,
+      "tp1": 4029.04,
+      "tp2": 4029.85,
+      "rr": 3.8,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.06,
-      "style": "trend_align",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "invalid",
       "reason": "Dollar is up +0.49% with hawkish news (+0.90) and gold is moving against it (corr -0.49). Buying fights the dollar.",
       "created_at": "2026-11-10T17:01:28.506409+00:00",
-      "checked_at": "2026-11-11T00:41:25.295863+00:00"
+      "checked_at": "2026-11-11T00:56:02.752652+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4038.57,
+      "entry_low": 4038.73,
       "entry_high": 4041.97,
-      "sl": 4043.57,
-      "tp1": 4028.43,
-      "tp2": 4027.07,
-      "rr": 3.6,
+      "sl": 4043.73,
+      "tp1": 4029.04,
+      "tp2": 4026.83,
+      "rr": 3.3,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.63,
       "style": "dollar_lead",
       "favored": true,
-      "ready": false,
+      "ready": true,
       "status": "valid",
       "reason": "Score 0.63 (Trade with the dollar), dollar firmer +0.49%, hawkish dollar news +0.90, price above VWAP.",
       "created_at": "2026-11-11T00:13:36.344409+00:00",
-      "checked_at": "2026-11-11T00:41:25.295863+00:00"
+      "checked_at": "2026-11-11T00:56:02.752652+00:00"
     }
   ],
   "research": [
-    "Gold 4037.89 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 4028.43, ATR 2.91, day range 4014.71-4041.97.",
+    "Gold 4036.07 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 4029.04, ATR 3.20, day range 4014.71-4041.97.",
     "DXY 102.22 (+0.49% today, up), gold-dollar corr -0.49.",
-    "WTI 86.15 (-0.03% today, flat), gold-oil corr -0.19.",
+    "WTI 86.20 (+0.02% today, flat), gold-oil corr -0.20.",
     "Headlines: dollar +0.90, oil -1.00, fresh shock.",
     "Dollar: Wall Street Falls As Hot US Inflation Data Fuels Bigger Fed Rate Hike Bets - BusinessToday Malaysia",
     "Oil: FCCPC expects petrol prices to fall as crude oil drops - Punch Newspapers",
@@ -76,5 +76,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-11T00:41:25.295863+00:00"
+  "last_check": "2026-11-11T00:56:02.752652+00:00"
 }
