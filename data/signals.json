@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-10T23:44:00.944262+00:00",
-  "atr": 2.7128571428572092,
-  "price": 4036.04,
+  "updated_at": "2026-11-10T23:58:55.740595+00:00",
+  "atr": 2.9121428571428885,
+  "price": 4040.64,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.35). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4013.63,
-      "entry_high": 4017.14,
-      "sl": 4012.14,
-      "tp1": 4028.37,
+      "entry_high": 4017.03,
+      "sl": 4012.03,
+      "tp1": 4028.53,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.15,
+      "score": 0.11,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.49% with hawkish news (+0.89) and gold is moving against it (corr -0.49). Buying fights the dollar.",
+      "reason": "Dollar is up +0.49% with hawkish news (+0.90) and gold is moving against it (corr -0.49). Buying fights the dollar.",
       "created_at": "2026-11-10T17:01:28.506409+00:00",
-      "checked_at": "2026-11-10T23:57:09.207567+00:00"
+      "checked_at": "2026-11-11T00:12:02.916493+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4137.89,
+      "entry_low": 4138.0,
       "entry_high": 4141.4,
-      "sl": 4142.89,
-      "tp1": 4126.66,
+      "sl": 4143.0,
+      "tp1": 4126.5,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,18 +40,18 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-10T01:42:09.502171+00:00",
-      "checked_at": "2026-11-10T23:57:09.207567+00:00"
+      "checked_at": "2026-11-11T00:12:02.916493+00:00"
     }
   ],
   "research": [
-    "Gold 4035.64 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 4076.22, ATR 2.71, day range 4013.63-4141.40.",
+    "Gold 4037.97 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 4075.98, ATR 2.91, day range 4013.63-4141.40.",
     "DXY 102.22 (+0.49% today, up), gold-dollar corr -0.49.",
-    "WTI 86.29 (-0.15% today, flat), gold-oil corr -0.20.",
-    "Headlines: dollar +0.89, oil -1.00, fresh shock.",
+    "WTI 86.21 (-0.24% today, flat), gold-oil corr -0.18.",
+    "Headlines: dollar +0.90, oil -1.00, fresh shock.",
     "Dollar: Trump-appointed Fed member signals big interest rate hike as inflation runs hot - The Washington Post",
     "Oil: FCCPC expects petrol prices to fall as crude oil drops - Punch Newspapers",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [],
-  "last_check": "2026-11-10T23:57:09.207567+00:00"
+  "last_check": "2026-11-11T00:12:02.916493+00:00"
 }
