@@ -488,3 +488,6 @@ NameError: name 'load_calendar' is not defined
 2026-11-11 00:14 UTC  live: SELL entry reached at 4040.98
 2026-11-11 00:28 UTC  live: gold 4037.89 | holding flat stand_aside de3bf294 | new read flat stand_aside not opened
 2026-11-11 00:42 UTC  live: gold 4036.07 | graded: de3bf294 stand aside -> win (+1.00R) | opened short dollar_lead 92ef1ac3 zone 4038.73-4041.97 stop 4043.73 target 4029.04 units 1 risk 5.00 USD tier normal conf 0.58
+2026-11-11 00:57 UTC  live: gold 4032.29 | holding short dollar_lead 92ef1ac3 | new read flat stand_aside not opened
+2026-11-11 00:58 UTC  live: BUY entry reached at 4032.94
+2026-11-11 01:01 UTC  live: BUY TP hit
