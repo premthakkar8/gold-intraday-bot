@@ -1,9 +1,49 @@
 {
-  "updated": "2026-11-11 18:55 UTC",
+  "updated": "2026-11-11 19:09 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3988.7,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.35). Take an entry only if price reaches it.",
+  "price": 3985.0,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.49). Take an entry only if price reaches it.",
   "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3984.92,
+      "entry_high": 3988.37,
+      "sl": 3983.37,
+      "tp1": 3999.75,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.49,
+      "style": "oil_shock",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.49 (Trade the oil shock), oil supply news +0.54, price below VWAP.",
+      "created_at": "2026-11-11T19:09:54.466708+00:00",
+      "checked_at": "2026-11-11T19:09:54.466708+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4063.53,
+      "entry_high": 4066.98,
+      "sl": 4068.53,
+      "tp1": 4052.15,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.25,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-11T05:36:28.486626+00:00",
+      "checked_at": "2026-11-11T19:09:54.466708+00:00"
+    }
+  ],
+  "active": [
     {
       "side": "BUY",
       "entry_low": 3986.75,
@@ -21,49 +61,9 @@
       "status": "valid",
       "reason": "Score 0.35 (Trade the oil shock), oil supply news +0.59, price below VWAP.",
       "created_at": "2026-11-11T18:11:04.674542+00:00",
-      "checked_at": "2026-11-11T18:55:18.294405+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4063.62,
-      "entry_high": 4066.98,
-      "sl": 4068.62,
-      "tp1": 4052.02,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.25,
-      "style": "dollar_lead",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T18:55:18.294405+00:00"
-    }
-  ],
-  "active": [
-    {
-      "side": "BUY",
-      "entry_low": 3987.29,
-      "entry_high": 3990.4,
-      "sl": 3985.4,
-      "tp1": 4002.63,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.37,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.37 (Trade the oil shock), oil supply news +0.35, price below VWAP.",
-      "created_at": "2026-11-11T18:11:04.674542+00:00",
-      "checked_at": "2026-11-11T18:12:08.665269+00:00",
-      "entry": 3990.4,
-      "entered_at": "2026-11-11T18:12:08.665269+00:00",
+      "checked_at": "2026-11-11T19:07:24.593810+00:00",
+      "entry": 3990.11,
+      "entered_at": "2026-11-11T19:07:24.593810+00:00",
       "closed": null
     }
   ],
@@ -72,39 +72,39 @@
     "structure": "sideways",
     "htf": "up",
     "session": "newyork",
-    "vwap": 4036.08246667306,
-    "atr": 2.9864285714285352,
-    "day_low": 3986.75,
+    "vwap": 4035.5151872751926,
+    "atr": 2.8235714285713778,
+    "day_low": 3984.92,
     "day_high": 4066.98,
-    "range_pos": 0.02430512277202814
+    "range_pos": 0.0009748964172547806
   },
   "dxy": {
     "ok": true,
-    "last": 102.91500091552734,
-    "pct": 0.6779370317832476,
+    "last": 102.92500305175781,
+    "pct": 0.687721751529021,
     "state": "up",
-    "corr": -0.24003618690808784
+    "corr": -0.25876023142449966
   },
   "oil": {
     "ok": true,
-    "last": 86.93000030517578,
-    "pct": 0.8702715216339547,
+    "last": 87.29000091552734,
+    "pct": 1.2880025602470302,
     "state": "up",
-    "corr": -0.4165189533578228
+    "corr": -0.4059414757054613
   },
   "news": {
-    "usd": 0.885334862262611,
-    "oil": 0.5937973907157905,
+    "usd": 0.8916920688358879,
+    "oil": 0.5393511510274193,
     "shock": true,
     "usd_headlines": [
+      "Inflation spreads across economy, putting pressure on Fed to accelerate rate hikes - WSET",
       "US Dollar Strengthens Against The Loonie on Rate Hike Expectations - marketscreener.com",
-      "U.S. Dollar Rallies As Traders Bet On Hawkish Fed: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
-      "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem - Reuters"
+      "U.S. Dollar Rallies As Traders Bet On Hawkish Fed: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire"
     ],
     "oil_headlines": [
+      "Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Gains Ground As Iran Wants To Keep Nuclear Material Inside The Country - FXEmpire",
       "Crude Oil Gains 2%; CoreWeave Posts Upbeat Q3 Results - Benzinga",
-      "Crude oil price surge after Iran attack ships in Strait of Hormuz | Tap to know more | Inshorts - Inshorts",
-      "India bonds may rally early as oil falls; Treasury yields to cut short gains - TradingView"
+      "Crude oil price surge after Iran attack ships in Strait of Hormuz | Tap to know more | Inshorts - Inshorts"
     ]
   },
   "events": [
@@ -118,22 +118,22 @@
   ],
   "scorecard": [
     {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.49031961643378325,
+      "trust": 0.7846065934653284
+    },
+    {
       "style": "Stand aside",
       "bias": "flat",
       "score": 0.4463106012566355,
       "trust": 0.7969832165297062
     },
     {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.35151842920092286,
-      "trust": 0.784303575103303
-    },
-    {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.24811683686667568,
-      "trust": 0.8008409917842273
+      "score": 0.25078934062810143,
+      "trust": 0.801120777768075
     },
     {
       "style": "Trade with the intraday trend",
