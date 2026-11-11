@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-11-11T01:26:53.972195+00:00",
-  "atr": 4.642857142857175,
-  "price": 4046.86,
-  "stance": "Strategy: the SELL plan from 00:42 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
+  "updated_at": "2026-11-11T01:41:30.530146+00:00",
+  "atr": 5.092857142857123,
+  "price": 4045.18,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4029.12,
-      "sl": 4024.12,
-      "tp1": 4035.02,
-      "tp2": 4041.97,
-      "rr": 1.9,
+      "entry_high": 4028.87,
+      "sl": 4023.87,
+      "tp1": 4036.5,
+      "tp2": 4043.37,
+      "rr": 2.2,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
@@ -21,34 +21,34 @@
       "status": "invalid",
       "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T01:40:04.393447+00:00"
+      "checked_at": "2026-11-11T01:54:37.364780+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4039.52,
-      "entry_high": 4041.97,
-      "sl": 4044.52,
-      "tp1": 4035.02,
-      "tp2": 4026.67,
-      "rr": 1.5,
+      "entry_low": 4048.08,
+      "entry_high": 4050.28,
+      "sl": 4053.08,
+      "tp1": 4036.5,
+      "tp2": 4033.58,
+      "rr": 3.2,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.55,
-      "style": "dollar_lead",
+      "score": 0.54,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.55 (Trade with the dollar), hawkish dollar news +0.90.",
-      "created_at": "2026-11-11T00:13:36.344409+00:00",
-      "checked_at": "2026-11-11T01:40:04.393447+00:00"
+      "reason": "Score 0.54 (Trade with the intraday trend), hawkish dollar news +0.90, price above VWAP.",
+      "created_at": "2026-11-11T01:41:30.530146+00:00",
+      "checked_at": "2026-11-11T01:54:37.364780+00:00"
     }
   ],
   "research": [
-    "Gold 4034.42 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 4035.02, ATR 4.64, day range 4026.67-4041.97.",
-    "DXY 102.28 (+0.06% today, flat), gold-dollar corr -0.40.",
-    "WTI 86.59 (+0.48% today, up), gold-oil corr -0.23.",
+    "Gold 4050.28 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 4036.50, ATR 5.09, day range 4026.67-4050.28.",
+    "DXY 102.27 (+0.04% today, flat), gold-dollar corr -0.34.",
+    "WTI 86.15 (-0.03% today, flat), gold-oil corr -0.38.",
     "Headlines: dollar +0.90, oil -1.00, fresh shock.",
-    "Dollar: Trump-appointed Fed member signals big interest rate hike as inflation runs hot - The Washington Post",
+    "Dollar: Fed\u2019s Paulson calls for gradual rate hikes amid ongoing high inflation - The Business Times",
     "Oil: FCCPC expects petrol prices to fall as crude oil drops - Punch Newspapers",
     "No high-impact US release in the next 24 hours."
   ],
@@ -140,7 +140,29 @@
       "entry": 4039.52,
       "entered_at": "2026-11-11T01:31:01.480473+00:00",
       "closed": "tp"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4048.08,
+      "entry_high": 4050.28,
+      "sl": 4053.08,
+      "tp1": 4036.5,
+      "tp2": 4033.58,
+      "rr": 3.2,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.54,
+      "style": "trend_align",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.54 (Trade with the intraday trend), hawkish dollar news +0.90, price above VWAP.",
+      "created_at": "2026-11-11T01:41:30.530146+00:00",
+      "checked_at": "2026-11-11T01:42:34.250249+00:00",
+      "entry": 4048.08,
+      "entered_at": "2026-11-11T01:42:34.250249+00:00",
+      "closed": null
     }
   ],
-  "last_check": "2026-11-11T01:40:04.393447+00:00"
+  "last_check": "2026-11-11T01:54:37.364780+00:00"
 }

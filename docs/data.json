@@ -1,17 +1,17 @@
 {
-  "updated": "2026-11-11 01:26 UTC",
+  "updated": "2026-11-11 01:41 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4034.42,
-  "stance": "Strategy: the SELL plan from 00:42 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 4050.28,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4029.12,
-      "sl": 4024.12,
-      "tp1": 4035.02,
-      "tp2": 4041.97,
-      "rr": 1.9,
+      "entry_high": 4028.87,
+      "sl": 4023.87,
+      "tp1": 4036.5,
+      "tp2": 4043.37,
+      "rr": 2.2,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
@@ -21,26 +21,26 @@
       "status": "invalid",
       "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T01:26:53.972195+00:00"
+      "checked_at": "2026-11-11T01:41:30.530146+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4039.52,
-      "entry_high": 4041.97,
-      "sl": 4044.52,
-      "tp1": 4035.02,
-      "tp2": 4026.67,
-      "rr": 1.5,
+      "entry_low": 4048.08,
+      "entry_high": 4050.28,
+      "sl": 4053.08,
+      "tp1": 4036.5,
+      "tp2": 4033.58,
+      "rr": 3.2,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.55,
-      "style": "dollar_lead",
+      "score": 0.54,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.55 (Trade with the dollar), hawkish dollar news +0.90.",
-      "created_at": "2026-11-11T00:13:36.344409+00:00",
-      "checked_at": "2026-11-11T01:26:53.972195+00:00"
+      "reason": "Score 0.54 (Trade with the intraday trend), hawkish dollar news +0.90, price above VWAP.",
+      "created_at": "2026-11-11T01:41:30.530146+00:00",
+      "checked_at": "2026-11-11T01:41:30.530146+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "down",
     "htf": "down",
     "session": "asia",
-    "vwap": 4035.0212754509525,
-    "atr": 4.642857142857175,
+    "vwap": 4036.5045992220034,
+    "atr": 5.092857142857123,
     "day_low": 4026.67,
-    "day_high": 4041.97,
-    "range_pos": 0.5065359477124274
+    "day_high": 4050.28,
+    "range_pos": 1.0
   },
   "dxy": {
     "ok": true,
-    "last": 102.28299713134766,
-    "pct": 0.05967111698509423,
+    "last": 102.26799774169922,
+    "pct": 0.0449977691436064,
     "state": "flat",
-    "corr": -0.4049051368999889
+    "corr": -0.3413478466664963
   },
   "oil": {
     "ok": true,
-    "last": 86.58999633789062,
-    "pct": 0.47574382833950896,
-    "state": "up",
-    "corr": -0.2289285296176782
+    "last": 86.1500015258789,
+    "pct": -0.03480944440780344,
+    "state": "flat",
+    "corr": -0.3836957081712073
   },
   "news": {
-    "usd": 0.8992961349482242,
+    "usd": 0.9030174270354521,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
+      "Fed\u2019s Paulson calls for gradual rate hikes amid ongoing high inflation - The Business Times",
       "Trump-appointed Fed member signals big interest rate hike as inflation runs hot - The Washington Post",
-      "US Federal Reserve signals big step (50bp rate hike)?...KOSPI battles around the 5,200 mark - \uba38\ub2c8\ud22c\ub370\uc774",
-      "Federal Reserve Officials Consider 0.5% Rate Hike Amid Rising Inflation - \uc870\uc120\uc77c\ubcf4"
+      "US Federal Reserve signals big step (50bp rate hike)?...KOSPI battles around the 5,200 mark - \uba38\ub2c8\ud22c\ub370\uc774"
     ],
     "oil_headlines": [
       "FCCPC expects petrol prices to fall as crude oil drops - Punch Newspapers",
@@ -84,31 +84,39 @@
       "Crude Oil slips to six-week low - FXStreet"
     ]
   },
-  "events": [],
-  "scorecard": [
+  "events": [
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.5455098792574059,
-      "trust": 1.0014970136240726
-    },
+      "title": "Unemployment Claims",
+      "when": "Thu 13:30 UTC",
+      "impact": "Medium",
+      "forecast": "194K",
+      "previous": "189K"
+    }
+  ],
+  "scorecard": [
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.496229733468045,
-      "trust": 0.7518632325273409
+      "score": 0.6747931209017987,
+      "trust": 1.0224138195481798
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.27606493985663305,
-      "trust": 0.9984987697361398
+      "score": 0.5411338166405407,
+      "trust": 0.8052586557150903
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.41431940184642446,
+      "trust": 0.7819932128515049
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11975879017642138,
-      "trust": 0.9979899181368449
+      "score": 0.11981934688949995,
+      "trust": 0.9984945574124996
     },
     {
       "style": "Fade the session range",
@@ -118,10 +126,10 @@
     }
   ],
   "record": {
-    "graded": 67,
+    "graded": 68,
     "wins": 23,
-    "losses": 31,
+    "losses": 32,
     "scratches": 13,
-    "avg_r": -0.04963099485692927
+    "avg_r": -0.06360700963844501
   }
 }
