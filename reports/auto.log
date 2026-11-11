@@ -620,3 +620,4 @@ Traceback (most recent call last):
     raise WebSocketConnectionClosedException("Connection to remote host was lost.")
 websocket._exceptions.WebSocketConnectionClosedException: Connection to remote host was lost.
 
+2026-11-11 16:14 UTC  live: gold 4004.66 | holding flat stand_aside c1daf75d | new read flat stand_aside not opened
