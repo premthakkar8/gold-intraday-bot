@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-11 16:57 UTC",
+  "updated": "2026-11-11 17:12 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4000.21,
+  "price": 4000.01,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.30). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3998.59,
-      "entry_high": 4001.99,
-      "sl": 3996.99,
-      "tp1": 4013.49,
+      "entry_low": 3998.48,
+      "entry_high": 4002.02,
+      "sl": 3997.02,
+      "tp1": 4013.18,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-11T16:43:17.760483+00:00",
-      "checked_at": "2026-11-11T16:57:59.647266+00:00"
+      "checked_at": "2026-11-11T17:12:37.532210+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4063.58,
+      "entry_low": 4063.44,
       "entry_high": 4066.98,
-      "sl": 4068.58,
-      "tp1": 4052.08,
+      "sl": 4068.44,
+      "tp1": 4052.28,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T16:57:59.647266+00:00"
+      "checked_at": "2026-11-11T17:12:37.532210+00:00"
     }
   ],
   "active": [
@@ -71,35 +71,35 @@
   "chart": {
     "structure": "sideways",
     "htf": "up",
-    "session": "overlap",
-    "vwap": 4040.5479020524817,
-    "atr": 2.914999999999931,
-    "day_low": 3998.59,
+    "session": "newyork",
+    "vwap": 4039.976563224682,
+    "atr": 2.6621428571427583,
+    "day_low": 3998.48,
     "day_high": 4066.98,
-    "range_pos": 0.023687673636495012
+    "range_pos": 0.022335766423360586
   },
   "dxy": {
     "ok": true,
-    "last": 102.88600158691406,
-    "pct": 0.6495680617194148,
+    "last": 102.90699768066406,
+    "pct": 0.6701077632757599,
     "state": "up",
-    "corr": -0.19170005214117664
+    "corr": -0.1946354473407567
   },
   "oil": {
     "ok": true,
-    "last": 87.97000122070312,
-    "pct": 2.0770490939762043,
+    "last": 87.69999694824219,
+    "pct": 1.763746388586539,
     "state": "up",
-    "corr": -0.48131598833575556
+    "corr": -0.4886209089771279
   },
   "news": {
-    "usd": 0.8570095899993712,
-    "oil": -0.094009142175718,
+    "usd": 0.869479746044469,
+    "oil": -0.10571487650388706,
     "shock": true,
     "usd_headlines": [
+      "U.S. Dollar Rallies As Traders Bet On Hawkish Fed: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
       "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem - Reuters",
-      "US dollar firms as hot inflation, hawkish Fed talk lift rate-hike bets - The Business Times",
-      "Global Bond Yields Fall Sharply in October Amid Flight to Safety - WSJ"
+      "US dollar firms as hot inflation, hawkish Fed talk lift rate-hike bets - The Business Times"
     ],
     "oil_headlines": [
       "Crude oil price surge after Iran attack ships in Strait of Hormuz | Tap to know more | Inshorts - Inshorts",
@@ -120,13 +120,13 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4820197439182222,
-      "trust": 0.860749542711111
+      "score": 0.45839215448547327,
+      "trust": 0.8185574187240593
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.30050498620283056,
+      "score": 0.3019575717584905,
       "trust": 1.0
     },
     {
@@ -144,8 +144,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07637075739190866,
-      "trust": 0.6364229782659054
+      "score": 0.08514573527775172,
+      "trust": 0.7095477939812644
     }
   ],
   "record": {
