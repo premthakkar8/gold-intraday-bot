@@ -520,3 +520,5 @@ NameError: name 'load_calendar' is not defined
 2026-11-11 05:21 UTC  live: gold 4054.80 | graded: 8f0ce219 short dollar_lead -> loss (-1.00R) invalidation hit | opened stand aside 181046d1
 2026-11-11 05:22 UTC  live: SELL entry reached at 4055.79
 2026-11-11 05:24 UTC  live: SELL SL hit
+2026-11-11 05:36 UTC  live: gold 4059.83 | graded: 181046d1 stand aside -> loss (-1.00R) | opened stand aside 0446e9a2
+2026-11-11 05:37 UTC  live: SELL entry reached at 4061.08
