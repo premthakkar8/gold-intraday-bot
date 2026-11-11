@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-11 17:12 UTC",
+  "updated": "2026-11-11 17:27 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4000.01,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.30). Take an entry only if price reaches it.",
+  "price": 4004.06,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3998.48,
-      "entry_high": 4002.02,
-      "sl": 3997.02,
-      "tp1": 4013.18,
+      "entry_high": 4001.81,
+      "sl": 3996.81,
+      "tp1": 4013.49,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.43,
+      "style": "oil_shock",
       "favored": true,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "status": "valid",
+      "reason": "Score 0.43 (Trade the oil shock), oil supply news +0.37, price below VWAP.",
       "created_at": "2026-11-11T16:43:17.760483+00:00",
-      "checked_at": "2026-11-11T17:12:37.532210+00:00"
+      "checked_at": "2026-11-11T17:27:15.842916+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4063.44,
+      "entry_low": 4063.65,
       "entry_high": 4066.98,
-      "sl": 4068.44,
-      "tp1": 4052.28,
+      "sl": 4068.65,
+      "tp1": 4051.97,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.3,
+      "score": 0.24,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T17:12:37.532210+00:00"
+      "checked_at": "2026-11-11T17:27:15.842916+00:00"
     }
   ],
   "active": [
@@ -72,29 +72,29 @@
     "structure": "sideways",
     "htf": "up",
     "session": "newyork",
-    "vwap": 4039.976563224682,
-    "atr": 2.6621428571427583,
+    "vwap": 4039.436417946651,
+    "atr": 3.0392857142856298,
     "day_low": 3998.48,
     "day_high": 4066.98,
-    "range_pos": 0.022335766423360586
+    "range_pos": 0.08145985401459747
   },
   "dxy": {
     "ok": true,
-    "last": 102.90699768066406,
-    "pct": 0.6701077632757599,
+    "last": 102.95600128173828,
+    "pct": 0.7180461728311396,
     "state": "up",
-    "corr": -0.1946354473407567
+    "corr": -0.17905095702189494
   },
   "oil": {
     "ok": true,
-    "last": 87.69999694824219,
-    "pct": 1.763746388586539,
+    "last": 87.36000061035156,
+    "pct": 1.3692275481518106,
     "state": "up",
-    "corr": -0.4886209089771279
+    "corr": -0.48965365783248693
   },
   "news": {
-    "usd": 0.869479746044469,
-    "oil": -0.10571487650388706,
+    "usd": 0.8640832464562788,
+    "oil": 0.3739705663288671,
     "shock": true,
     "usd_headlines": [
       "U.S. Dollar Rallies As Traders Bet On Hawkish Fed: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
@@ -102,9 +102,9 @@
       "US dollar firms as hot inflation, hawkish Fed talk lift rate-hike bets - The Business Times"
     ],
     "oil_headlines": [
+      "Crude Oil Gains 2%; CoreWeave Posts Upbeat Q3 Results - Benzinga",
       "Crude oil price surge after Iran attack ships in Strait of Hormuz | Tap to know more | Inshorts - Inshorts",
-      "India bonds may rally early as oil falls; Treasury yields to cut short gains - TradingView",
-      "Crude Oil Falls As Trump Downplays Need For Further Military Action Against Iran By Kedia Advisory - Investing.com India"
+      "India bonds may rally early as oil falls; Treasury yields to cut short gains - TradingView"
     ]
   },
   "events": [
@@ -120,14 +120,20 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.45839215448547327,
-      "trust": 0.8185574187240593
+      "score": 0.4836855413128691,
+      "trust": 0.8637241809158376
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.43035719122399396,
+      "trust": 0.7824676204072617
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3019575717584905,
-      "trust": 1.0
+      "score": 0.23915424975172683,
+      "trust": 0.7991457994945648
     },
     {
       "style": "Trade with the intraday trend",
@@ -140,12 +146,6 @@
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.08514573527775172,
-      "trust": 0.7095477939812644
     }
   ],
   "record": {
