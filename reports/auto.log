@@ -565,3 +565,6 @@ NameError: name 'load_calendar' is not defined
 2026-11-11 14:46 UTC  live: BUY TP hit
 2026-11-11 14:59 UTC  live: gold 4014.79 | holding flat stand_aside ab8fdd7b | new read flat stand_aside not opened
 2026-11-11 15:15 UTC  live: gold 4017.02 | opened long oil_shock c6880928 zone 4010.86-4013.25 stop 4008.25 target 4027.27 units 1 risk 5.00 USD tier normal conf 0.55
+2026-11-11 15:30 UTC  live: gold 4007.36 | graded: c6880928 long oil_shock -> loss (-1.00R) invalidation hit | opened stand aside c1daf75d
+2026-11-11 15:31 UTC  live: BUY entry reached at 4005.56
+2026-11-11 15:32 UTC  live: BUY SL hit
