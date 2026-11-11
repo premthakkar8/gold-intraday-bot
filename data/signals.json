@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-11-11T15:44:42.331386+00:00",
   "atr": 5.454999999999992,
-  "price": 4005.44,
+  "price": 4005.86,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.39). Take an entry only if price reaches it.",
   "setups": [
     {
@@ -21,7 +21,7 @@
       "status": "valid",
       "reason": "Score 0.39 (Trade the oil shock), price below VWAP.",
       "created_at": "2026-11-11T15:44:42.331386+00:00",
-      "checked_at": "2026-11-11T15:57:49.392201+00:00"
+      "checked_at": "2026-11-11T16:12:27.245283+00:00"
     },
     {
       "side": "SELL",
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T05:36:28.486626+00:00",
-      "checked_at": "2026-11-11T15:57:49.392201+00:00"
+      "checked_at": "2026-11-11T16:12:27.245283+00:00"
     }
   ],
   "research": [
@@ -164,5 +164,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-11T15:57:49.392201+00:00"
+  "last_check": "2026-11-11T16:12:27.245283+00:00"
 }

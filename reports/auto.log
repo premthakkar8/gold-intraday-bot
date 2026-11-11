@@ -570,3 +570,53 @@ NameError: name 'load_calendar' is not defined
 2026-11-11 15:32 UTC  live: BUY SL hit
 2026-11-11 15:44 UTC  live: gold 4006.07 | holding flat stand_aside c1daf75d | new read flat stand_aside not opened
 2026-11-11 15:49 UTC  live: BUY entry reached at 4002.47
+2026-11-11 15:59 UTC  live analysis failed:
+Traceback (most recent call last):
+  File "/home/runner/work/gold-intraday-bot/gold-intraday-bot/tbot/runner.py", line 251, in run_realtime
+    result = run_live(settings, keep_running_plan=True, scheduled=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gold-intraday-bot/gold-intraday-bot/tbot/runner.py", line 75, in run_live
+    return _run(settings, now, keep_running_plan=keep_running_plan, scheduled=scheduled)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gold-intraday-bot/gold-intraday-bot/tbot/runner.py", line 101, in _run
+    return _run_connected(
+           ^^^^^^^^^^^^^^^
+  File "/home/runner/work/gold-intraday-bot/gold-intraday-bot/tbot/runner.py", line 131, in _run_connected
+    gold_symbol, gold, dxy_symbol, dxy, oil_symbol, oil, warnings = load_market(settings)
+                                                                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gold-intraday-bot/gold-intraday-bot/tbot/market.py", line 23, in load_market
+    gold_symbol, gold = _load_gold(settings, warnings)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gold-intraday-bot/gold-intraday-bot/tbot/market.py", line 86, in _load_gold
+    return symbol, fetch_chart(symbol, "5", 1200)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/gold-intraday-bot/gold-intraday-bot/tbot/tradingview_feed.py", line 37, in fetch_chart
+    raw = ws.recv()
+          ^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/websocket/_core.py", line 429, in recv
+    opcode, data = self.recv_data()
+                   ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/websocket/_core.py", line 457, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/websocket/_core.py", line 478, in recv_data_frame
+    frame = self.recv_frame()
+            ^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/websocket/_core.py", line 515, in recv_frame
+    return self.frame_buffer.recv_frame()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/websocket/_abnf.py", line 377, in recv_frame
+    self.recv_header()
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/websocket/_abnf.py", line 331, in recv_header
+    header = self.recv_strict(2)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/websocket/_abnf.py", line 420, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/websocket/_core.py", line 645, in _recv
+    return recv(self.sock, bufsize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/websocket/_socket.py", line 143, in recv
+    raise WebSocketConnectionClosedException("Connection to remote host was lost.")
+websocket._exceptions.WebSocketConnectionClosedException: Connection to remote host was lost.
+
