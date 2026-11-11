@@ -1,100 +1,77 @@
 {
-  "updated": "2026-11-11 03:38 UTC",
+  "updated": "2026-11-11 03:53 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 4047.07,
+  "price": 4047.22,
   "stance": "Strategy: the SELL plan from 01:56 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 4026.67,
-      "entry_high": 4029.94,
-      "sl": 4024.94,
-      "tp1": 4041.06,
-      "tp2": 4041.77,
-      "rr": 3.8,
+      "entry_high": 4030.18,
+      "sl": 4025.18,
+      "tp1": 4041.36,
+      "tp2": null,
+      "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.13,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T01:26:53.972195+00:00",
-      "checked_at": "2026-11-11T03:38:32.384336+00:00"
+      "checked_at": "2026-11-11T03:53:14.155955+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4049.41,
+      "entry_low": 4049.17,
       "entry_high": 4052.68,
-      "sl": 4054.41,
-      "tp1": 4041.06,
-      "tp2": 4037.58,
-      "rr": 3.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.42,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.42 (Trade with the dollar), hawkish dollar news +0.90, price above VWAP.",
-      "created_at": "2026-11-11T01:41:30.530146+00:00",
-      "checked_at": "2026-11-11T03:38:32.384336+00:00"
-    }
-  ],
-  "active": [
-    {
-      "side": "SELL",
-      "entry_low": 4048.08,
-      "entry_high": 4050.28,
-      "sl": 4053.08,
-      "tp1": 4036.5,
-      "tp2": 4033.58,
-      "rr": 3.2,
+      "sl": 4054.17,
+      "tp1": 4041.36,
+      "tp2": 4037.95,
+      "rr": 2.9,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.54,
-      "style": "trend_align",
+      "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "valid",
-      "reason": "Score 0.54 (Trade with the intraday trend), hawkish dollar news +0.90, price above VWAP.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-11T01:41:30.530146+00:00",
-      "checked_at": "2026-11-11T01:42:34.250249+00:00",
-      "entry": 4048.08,
-      "entered_at": "2026-11-11T01:42:34.250249+00:00",
-      "closed": null
+      "checked_at": "2026-11-11T03:53:14.155955+00:00"
     }
   ],
+  "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 4041.062209457307,
-    "atr": 3.1464285714285194,
+    "vwap": 4041.358382860105,
+    "atr": 2.706428571428465,
     "day_low": 4026.67,
     "day_high": 4052.68,
-    "range_pos": 0.7843137254902067
+    "range_pos": 0.7900807381776207
   },
   "dxy": {
     "ok": true,
-    "last": 102.24299621582031,
-    "pct": 0.020539701556345134,
+    "last": 102.26799774169922,
+    "pct": 0.0449977691436064,
     "state": "flat",
-    "corr": -0.3987484256689875
+    "corr": -0.39045511742995176
   },
   "oil": {
     "ok": true,
-    "last": 86.52999877929688,
-    "pct": 0.40612493952390205,
+    "last": 86.6500015258789,
+    "pct": 0.5453715700148329,
     "state": "up",
-    "corr": -0.3013009924806793
+    "corr": -0.3030640501337403
   },
   "news": {
-    "usd": 0.8963900818225439,
-    "oil": -1.0,
+    "usd": 0.8906247862877457,
+    "oil": -0.5386775327041359,
     "shock": true,
     "usd_headlines": [
       "Dollar gains traction as Fed speakers warn of risks from inflation - CNBC",
@@ -102,9 +79,9 @@
       "Japanese Yen struggles as Fed rate hike odds lift US Dollar - FXStreet"
     ],
     "oil_headlines": [
+      "Oil rises from 2-month low as Hormuz shipping attacks offset truce hopes - Business Standard",
       "India bonds may rally early as oil falls; Treasury yields to cut short gains - TradingView",
-      "FCCPC expects petrol prices to fall as crude oil drops - Punch Newspapers",
-      "FCCPC Warns Fuel Marketers Over High Prices as Global Crude Oil Falls - Nigeria Info FM"
+      "FCCPC expects petrol prices to fall as crude oil drops - Punch Newspapers"
     ]
   },
   "events": [
@@ -118,34 +95,34 @@
   ],
   "scorecard": [
     {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.5825209865657781,
-      "trust": 0.8826075554026941
-    },
-    {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.42463178993467343,
-      "trust": 0.7839429065323068
+      "score": 0.5377302775168442,
+      "trust": 1.0019680956680816
+    },
+    {
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.5037312410050844,
+      "trust": 0.7632291530380066
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.1266350199528284,
+      "trust": 0.8077126605951083
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.1197618277547311,
-      "trust": 0.9980152312894258
+      "score": 0.11970270560589973,
+      "trust": 0.9975225467158311
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11935973081007274,
-      "trust": 1.1935973081007274
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.09985176748720076,
-      "trust": 0.9985176748720075
+      "score": 0.1,
+      "trust": 1.0
     }
   ],
   "record": {
