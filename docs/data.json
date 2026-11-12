@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-12 13:11 UTC",
+  "updated": "2026-11-12 13:26 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3930.9,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.39). Take an entry only if price reaches it.",
+  "price": 3911.9,
+  "stance": "Strategy: BUY is the trade (Trade the oil shock, confidence 58%).",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3924.65,
-      "entry_high": 3926.83,
-      "sl": 3921.83,
-      "tp1": 3941.38,
+      "entry_low": 3911.9,
+      "entry_high": 3913.04,
+      "sl": 3908.04,
+      "tp1": 3930.19,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.39,
+      "score": 0.59,
       "style": "oil_shock",
       "favored": true,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-12T09:02:48.372188+00:00",
-      "checked_at": "2026-11-12T13:11:39.819346+00:00"
+      "ready": true,
+      "status": "valid",
+      "reason": "Score 0.59 (Trade the oil shock), oil supply news +0.57, price below VWAP.",
+      "created_at": "2026-11-12T13:26:20.095310+00:00",
+      "checked_at": "2026-11-12T13:26:20.095310+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3998.34,
+      "entry_low": 3999.38,
       "entry_high": 4000.52,
-      "sl": 4003.34,
-      "tp1": 3983.79,
+      "sl": 4004.38,
+      "tp1": 3982.23,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.32,
+      "score": 0.19,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T13:11:39.819346+00:00"
+      "checked_at": "2026-11-12T13:26:20.095310+00:00"
     }
   ],
   "active": [],
@@ -49,32 +49,32 @@
     "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3965.254554548585,
-    "atr": 5.127857142857108,
-    "day_low": 3924.65,
+    "vwap": 3963.9442234610424,
+    "atr": 7.012857142857131,
+    "day_low": 3911.9,
     "day_high": 4000.52,
-    "range_pos": 0.08237775141689745
+    "range_pos": 0.0
   },
   "dxy": {
     "ok": true,
-    "last": 102.90399932861328,
-    "pct": 0.04083122736666843,
-    "state": "flat",
-    "corr": -0.47061672375715596
+    "last": 102.99299621582031,
+    "pct": 0.12735189353055348,
+    "state": "up",
+    "corr": -0.6173025987777133
   },
   "oil": {
     "ok": true,
-    "last": 85.87000274658203,
-    "pct": -0.42902959920287687,
-    "state": "down",
-    "corr": -0.12281110561225507
+    "last": 87.48999786376953,
+    "pct": 1.4494434496329458,
+    "state": "up",
+    "corr": -0.3501159426954047
   },
   "news": {
-    "usd": 0.6985918918635279,
-    "oil": 0.5645187128223298,
+    "usd": 0.6979100263943594,
+    "oil": 0.5700105034910791,
     "shock": true,
     "usd_headlines": [
-      "US Dollar Falls Early Thursday Ahead of Jobless Claims, Existing Home Sales - www.marketscreener.com",
+      "US Dollar Falls Early Thursday Ahead of Jobless Claims, Existing Home Sales - marketscreener.com",
       "Larger series of interest rate hikes are more likely after hot October CPI - Baltimore Sun",
       "U.S. Dollar Extends Rally On Fed Rate Hike Bets - RTTNews"
     ],
@@ -109,31 +109,31 @@
   ],
   "scorecard": [
     {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.5455794314884617,
-      "trust": 0.826635502255245
-    },
-    {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.39048529205228144,
-      "trust": 1.0
+      "score": 0.5949119014304765,
+      "trust": 0.9443046054452007
+    },
+    {
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.45647069088252856,
+      "trust": 0.8151262337188009
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.31772123753817816,
-      "trust": 1.2447197437273954
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.1159489157450514,
-      "trust": 1.159489157450514
+      "score": 0.1894496743360659,
+      "trust": 0.8210432437280041
     },
     {
       "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
+    },
+    {
+      "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
