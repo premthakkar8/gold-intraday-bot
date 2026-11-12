@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-12 20:55 UTC",
+  "updated": "2026-11-12 22:00 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3875.07,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
+  "price": 3877.88,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3852.51,
-      "entry_high": 3855.93,
-      "sl": 3850.93,
-      "tp1": 3867.38,
+      "entry_high": 3856.41,
+      "sl": 3851.41,
+      "tp1": 3866.65,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.26,
-      "style": "trend_align",
-      "favored": false,
+      "score": 0.34,
+      "style": "oil_shock",
+      "favored": true,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.31% with hawkish news (+0.87) and gold is moving against it (corr -0.41). Buying fights the dollar.",
+      "reason": "Dollar is up +0.31% with hawkish news (+0.90) and gold is moving against it (corr -0.42). Buying fights the dollar.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T20:55:07.590786+00:00"
+      "checked_at": "2026-11-12T22:00:50.977428+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3997.1,
+      "entry_low": 3996.62,
       "entry_high": 4000.52,
-      "sl": 4002.1,
-      "tp1": 3985.65,
+      "sl": 4001.62,
+      "tp1": 3986.38,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.31,
       "style": "dollar_lead",
-      "favored": true,
+      "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T20:55:07.590786+00:00"
+      "checked_at": "2026-11-12T22:00:50.977428+00:00"
     }
   ],
   "active": [],
@@ -48,40 +48,40 @@
   "chart": {
     "structure": "up",
     "htf": "down",
-    "session": "newyork",
-    "vwap": 3929.2709992067953,
-    "atr": 2.8778571428571404,
+    "session": "late",
+    "vwap": 3927.9246209222533,
+    "atr": 1.992142857142783,
     "day_low": 3852.51,
     "day_high": 4000.52,
-    "range_pos": 0.15242213363961882
+    "range_pos": 0.17140733734207103
   },
   "dxy": {
     "ok": true,
-    "last": 103.1780014038086,
-    "pct": 0.30720955609446676,
+    "last": 103.17900085449219,
+    "pct": 0.3081811983805764,
     "state": "up",
-    "corr": -0.4106810680621598
+    "corr": -0.4232649415666087
   },
   "oil": {
     "ok": true,
-    "last": 88.98999786376953,
-    "pct": 3.1887755891924807,
+    "last": 88.66999816894531,
+    "pct": 2.8177184199544767,
     "state": "up",
-    "corr": -0.1289963418253536
+    "corr": -0.36124818500927547
   },
   "news": {
-    "usd": 0.8737729222680892,
-    "oil": -0.19714537202005772,
+    "usd": 0.8952675332359525,
+    "oil": 0.15691699630616754,
     "shock": true,
     "usd_headlines": [
-      "Silver Tumbles Over 3% As Fed Rate Hike Bets Fuel US Dollar Rally - TalkMarkets - Howl.Link",
-      "US Dollar Nudges Higher Against The Loonie on Rate Hike Expectations And As Oil Prices Rise - Moomoo",
-      "Treasury Yields Rise on Strong Jobs Data - WSJ"
+      "Federal Reserve signals further rate hikes as Daly backs calibrated approach - Traders Union",
+      "Fed has time to calibrate rate hikes, Daly says - Reuters",
+      "Silver Tumbles Over 3% As Fed Rate Hike Bets Fuel US Dollar Rally - TalkMarkets - Howl.Link"
     ],
     "oil_headlines": [
-      "Gas prices might stay high for a while \u2014 even if crude oil falls. Here's why. - Yahoo Finance",
-      "Crude oil inventories rise unexpectedly, pressuring prices By Investing.com - Investing.com Canada",
-      "US crude oil inventories rise 4.657M barrels, defying forecast - Crypto Briefing"
+      "NY Crude Extends Gains 2.6% as Tanker Attacks in Strait of Hormuz Revive Supply Fears; Gold Plunges 2.9% - BigGo Finance",
+      "US Equity Indexes Fall as Nvidia CEO Jensen Huang Resigns, Crude Oil Jumps - marketscreener.com",
+      "Gas prices might stay high for a while \u2014 even if crude oil falls. Here's why. - Yahoo Finance"
     ]
   },
   "events": [
@@ -104,13 +104,19 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6200664371584004,
-      "trust": 0.704620951316364
+      "score": 0.7295124863195556,
+      "trust": 0.8289914617267676
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.34199081903763784,
+      "trust": 0.6218014891593415
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.31080912771726427,
+      "score": 0.31491454728605817,
       "trust": 1.0
     },
     {
@@ -124,12 +130,6 @@
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.09772547324537392,
-      "trust": 0.8143789437114494
     }
   ],
   "record": {
