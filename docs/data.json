@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12 22:00 UTC",
+  "updated": "2026-11-12 22:15 UTC",
   "symbol": "VANTAGE:XAUUSD",
   "price": 3877.88,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
@@ -19,9 +19,9 @@
       "favored": true,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.31% with hawkish news (+0.90) and gold is moving against it (corr -0.42). Buying fights the dollar.",
+      "reason": "Dollar is up +0.32% with hawkish news (+0.90) and gold is moving against it (corr -0.43). Buying fights the dollar.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T22:00:50.977428+00:00"
+      "checked_at": "2026-11-12T22:15:30.547471+00:00"
     },
     {
       "side": "SELL",
@@ -33,14 +33,14 @@
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.31,
+      "score": 0.32,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T22:00:50.977428+00:00"
+      "checked_at": "2026-11-12T22:15:30.547471+00:00"
     }
   ],
   "active": [],
@@ -57,21 +57,21 @@
   },
   "dxy": {
     "ok": true,
-    "last": 103.17900085449219,
-    "pct": 0.3081811983805764,
+    "last": 103.19300079345703,
+    "pct": 0.3217916075027992,
     "state": "up",
-    "corr": -0.4232649415666087
+    "corr": -0.42548223883280517
   },
   "oil": {
     "ok": true,
-    "last": 88.66999816894531,
-    "pct": 2.8177184199544767,
+    "last": 88.69999694824219,
+    "pct": 2.8525036472735485,
     "state": "up",
-    "corr": -0.36124818500927547
+    "corr": -0.3614502502740561
   },
   "news": {
-    "usd": 0.8952675332359525,
-    "oil": 0.15691699630616754,
+    "usd": 0.8961954782200078,
+    "oil": 0.15927347928902377,
     "shock": true,
     "usd_headlines": [
       "Federal Reserve signals further rate hikes as Daly backs calibrated approach - Traders Union",
@@ -105,18 +105,18 @@
       "style": "Stand aside",
       "bias": "flat",
       "score": 0.7295124863195556,
-      "trust": 0.8289914617267676
+      "trust": 0.8289914617267677
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.34199081903763784,
-      "trust": 0.6218014891593415
+      "score": 0.3422841704806386,
+      "trust": 0.6223348554193429
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.31491454728605817,
+      "score": 0.3225296027352287,
       "trust": 1.0
     },
     {

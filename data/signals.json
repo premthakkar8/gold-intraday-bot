@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T22:00:50.977428+00:00",
+  "updated_at": "2026-11-12T22:15:30.547471+00:00",
   "atr": 1.992142857142783,
   "price": 3877.88,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
@@ -19,9 +19,9 @@
       "favored": true,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.31% with hawkish news (+0.90) and gold is moving against it (corr -0.42). Buying fights the dollar.",
+      "reason": "Dollar is up +0.32% with hawkish news (+0.90) and gold is moving against it (corr -0.43). Buying fights the dollar.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T22:02:55.266155+00:00"
+      "checked_at": "2026-11-12T22:15:30.547471+00:00"
     },
     {
       "side": "SELL",
@@ -33,20 +33,20 @@
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.31,
+      "score": 0.32,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T22:02:55.266155+00:00"
+      "checked_at": "2026-11-12T22:15:30.547471+00:00"
     }
   ],
   "research": [
     "Gold 3877.88 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3927.92, ATR 1.99, day range 3852.51-4000.52.",
-    "DXY 103.18 (+0.31% today, up), gold-dollar corr -0.42.",
-    "WTI 88.67 (+2.82% today, up), gold-oil corr -0.36.",
+    "DXY 103.19 (+0.32% today, up), gold-dollar corr -0.43.",
+    "WTI 88.70 (+2.85% today, up), gold-oil corr -0.36.",
     "Headlines: dollar +0.90, oil +0.16, fresh shock.",
     "Dollar: Federal Reserve signals further rate hikes as Daly backs calibrated approach - Traders Union",
     "Oil: NY Crude Extends Gains 2.6% as Tanker Attacks in Strait of Hormuz Revive Supply Fears; Gold Plunges 2.9% - BigGo Finance",
