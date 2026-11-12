@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-12 09:32 UTC",
+  "updated": "2026-11-12 09:46 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3939.13,
+  "price": 3942.58,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.41). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3924.65,
-      "entry_high": 3926.4,
-      "sl": 3921.4,
-      "tp1": 3942.02,
+      "entry_high": 3926.78,
+      "sl": 3921.78,
+      "tp1": 3941.45,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "valid",
       "reason": "Score 0.31 (Trade the oil shock), oil supply news +0.42, price below VWAP.",
       "created_at": "2026-11-12T09:02:48.372188+00:00",
-      "checked_at": "2026-11-12T09:32:09.879085+00:00"
+      "checked_at": "2026-11-12T09:46:51.406899+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3998.77,
+      "entry_low": 3998.39,
       "entry_high": 4000.52,
-      "sl": 4003.77,
-      "tp1": 3983.15,
+      "sl": 4003.39,
+      "tp1": 3983.72,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T09:32:09.879085+00:00"
+      "checked_at": "2026-11-12T09:46:51.406899+00:00"
     }
   ],
   "active": [],
@@ -49,33 +49,33 @@
     "structure": "sideways",
     "htf": "down",
     "session": "london",
-    "vwap": 3972.5384905325604,
-    "atr": 5.901428571428531,
+    "vwap": 3971.7650369589937,
+    "atr": 5.209285714285703,
     "day_low": 3924.65,
     "day_high": 4000.52,
-    "range_pos": 0.19085277448266824
+    "range_pos": 0.23632529326479323
   },
   "dxy": {
     "ok": true,
-    "last": 102.89199829101562,
-    "pct": 0.029164102816664896,
+    "last": 102.87100219726562,
+    "pct": 0.008752197691674613,
     "state": "flat",
-    "corr": -0.450305993083466
+    "corr": -0.4632909241110027
   },
   "oil": {
     "ok": true,
-    "last": 86.44000244140625,
-    "pct": 0.2319162599617168,
+    "last": 86.1500015258789,
+    "pct": -0.10435568195721577,
     "state": "flat",
-    "corr": -0.23505250334116365
+    "corr": -0.2887788168163754
   },
   "news": {
     "usd": 1.0,
-    "oil": 0.4165210143635143,
+    "oil": 0.4201720312589299,
     "shock": true,
     "usd_headlines": [
+      "Gold prices fall for third straight day as dollar and Treasury yields rise - Traders Union",
       "US Dollar: Hawkish skew supports upside risks \u2013 ING - FXStreet",
-      "Dollar Index Hits Near 19-Month High Above 103 as Fed Rate Hike Bets Heat Up, USD/JPY Nears 160 - TradingKey",
       "New Zealand Dollar depreciates as hawkish Fed rate hike bets lift US Dollar - FXStreet"
     ],
     "oil_headlines": [
@@ -111,20 +111,20 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4992136107329225,
-      "trust": 0.7563842586862461
+      "score": 0.49921361073292253,
+      "trust": 0.7563842586862463
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.4057351286002385,
+      "score": 0.4080183612967319,
       "trust": 1.2179193505189307
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.3054638562731332,
-      "trust": 0.9882793297404653
+      "score": 0.3074535334225786,
+      "trust": 0.9882958959473708
     },
     {
       "style": "Fade the session range",
@@ -135,8 +135,8 @@
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.09987527528723944,
-      "trust": 0.9987527528723943
+      "score": 0.09987545157539976,
+      "trust": 0.9987545157539975
     }
   ],
   "record": {
