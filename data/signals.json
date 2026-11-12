@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-12T08:48:08.510691+00:00",
-  "atr": 4.966428571428521,
-  "price": 3928.56,
+  "updated_at": "2026-11-12T09:02:48.372188+00:00",
+  "atr": 5.692142857142796,
+  "price": 3927.71,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.37). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3939.75,
-      "entry_high": 3942.02,
-      "sl": 3937.02,
-      "tp1": 3956.35,
+      "entry_low": 3924.65,
+      "entry_high": 3926.52,
+      "sl": 3921.52,
+      "tp1": 3941.85,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.32,
+      "score": 0.19,
       "style": "oil_shock",
       "favored": false,
       "ready": false,
       "status": "invalid",
       "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
-      "created_at": "2026-11-12T08:48:08.510691+00:00",
-      "checked_at": "2026-11-12T09:01:14.975540+00:00"
+      "created_at": "2026-11-12T09:02:48.372188+00:00",
+      "checked_at": "2026-11-12T09:15:56.044229+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3998.25,
+      "entry_low": 3998.65,
       "entry_high": 4000.52,
-      "sl": 4003.25,
-      "tp1": 3983.92,
+      "sl": 4003.65,
+      "tp1": 3983.32,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,15 +40,15 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T09:01:14.975540+00:00"
+      "checked_at": "2026-11-12T09:15:56.044229+00:00"
     }
   ],
   "research": [
-    "Gold 3939.97 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3976.29, ATR 4.97, day range 3939.75-4000.52.",
-    "DXY 102.90 (+0.04% today, flat), gold-dollar corr -0.46.",
-    "WTI 87.10 (+1.00% today, up), gold-oil corr -0.29.",
+    "Gold 3930.85 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3974.89, ATR 5.69, day range 3924.65-4000.52.",
+    "DXY 102.90 (+0.04% today, flat), gold-dollar corr -0.45.",
+    "WTI 86.69 (+0.52% today, up), gold-oil corr -0.23.",
     "Headlines: dollar +1.00, oil +0.41, fresh shock.",
-    "Dollar: New Zealand Dollar depreciates as hawkish Fed rate hike bets lift US Dollar - FXStreet",
+    "Dollar: Dollar Index Hits Near 19-Month High Above 103 as Fed Rate Hike Bets Heat Up, USD/JPY Nears 160 - TradingKey",
     "Oil: Global OPEC+ oil exports close to prewar levels amid ongoing incidents in Strait of Hormuz - Rudaw",
     "No high-impact US release in the next 24 hours."
   ],
@@ -120,5 +120,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-12T09:01:14.975540+00:00"
+  "last_check": "2026-11-12T09:15:56.044229+00:00"
 }
