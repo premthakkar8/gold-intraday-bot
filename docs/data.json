@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-12 19:27 UTC",
+  "updated": "2026-11-12 19:41 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3879.25,
+  "price": 3882.07,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3852.51,
-      "entry_high": 3855.58,
-      "sl": 3850.58,
-      "tp1": 3867.91,
+      "entry_high": 3855.56,
+      "sl": 3850.56,
+      "tp1": 3867.94,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.11,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.32% with hawkish news (+0.78) and gold is moving against it (corr -0.43). Buying fights the dollar.",
+      "reason": "Dollar is up +0.32% with hawkish news (+0.86) and gold is moving against it (corr -0.36). Buying fights the dollar.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T19:27:03.798788+00:00"
+      "checked_at": "2026-11-12T19:41:43.561327+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3997.45,
+      "entry_low": 3997.47,
       "entry_high": 4000.52,
-      "sl": 4002.45,
-      "tp1": 3985.12,
+      "sl": 4002.47,
+      "tp1": 3985.09,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,38 +40,38 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T19:27:03.798788+00:00"
+      "checked_at": "2026-11-12T19:41:43.561327+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "down",
     "session": "newyork",
-    "vwap": 3932.4285206203826,
-    "atr": 3.5135714285714648,
+    "vwap": 3931.8410774295075,
+    "atr": 3.5535714285714937,
     "day_low": 3852.51,
     "day_high": 4000.52,
-    "range_pos": 0.18066346868454716
+    "range_pos": 0.19971623538950067
   },
   "dxy": {
     "ok": true,
-    "last": 103.19200134277344,
-    "pct": 0.3208199652166896,
+    "last": 103.19499969482422,
+    "pct": 0.3237348920750185,
     "state": "up",
-    "corr": -0.42994038106945265
+    "corr": -0.3618282822232449
   },
   "oil": {
     "ok": true,
-    "last": 88.56999969482422,
-    "pct": 2.7017647133239895,
+    "last": 88.7699966430664,
+    "pct": 2.933672126584964,
     "state": "up",
-    "corr": -0.31884658343037114
+    "corr": -0.22496893463119505
   },
   "news": {
-    "usd": 0.7820392604714617,
-    "oil": -0.19427777065048774,
+    "usd": 0.8594033477347583,
+    "oil": -0.19200993720798398,
     "shock": true,
     "usd_headlines": [
       "US Dollar Nudges Higher Against The Loonie on Rate Hike Expectations And As Oil Prices Rise - Moomoo",
@@ -79,7 +79,7 @@
       "Fed faces tougher inflation fight as pressure builds for more rate hikes - Axios"
     ],
     "oil_headlines": [
-      "Crude oil inventories rise unexpectedly, pressuring prices By Investing.com - Investing.com Canada",
+      "Crude oil inventories rise unexpectedly, pressuring prices By Investing.com - Investing.com India",
       "US crude oil inventories rise 4.657M barrels, defying forecast - Crypto Briefing",
       "Brazilian and African oil gains ground in Asia due to falling freight rates - Inspenet"
     ]
@@ -104,19 +104,19 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.3889630848811073,
-      "trust": 0.6945769372876915
+      "score": 0.5208791531548659,
+      "trust": 0.5919081285850748
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.31324004162964925,
+      "score": 0.3113348468381709,
       "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
+      "bias": "long",
+      "score": 0.10575788031065188,
       "trust": 1.0
     },
     {
@@ -128,8 +128,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09331590052211426,
-      "trust": 0.7776325043509522
+      "score": 0.09756751738408684,
+      "trust": 0.8130626448673903
     }
   ],
   "record": {
