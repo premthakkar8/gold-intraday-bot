@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-12T18:28:19.736472+00:00",
-  "atr": 3.2471428571427947,
-  "price": 3884.98,
+  "updated_at": "2026-11-12T18:43:06.931987+00:00",
+  "atr": 3.33428571428567,
+  "price": 3880.45,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3852.51,
-      "entry_high": 3855.72,
-      "sl": 3850.72,
-      "tp1": 3867.69,
+      "entry_high": 3855.68,
+      "sl": 3850.68,
+      "tp1": 3867.76,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,16 +19,16 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.33% with hawkish news (+0.74) and gold is moving against it (corr -0.41). Buying fights the dollar.",
+      "reason": "Dollar is up +0.32% with hawkish news (+0.79) and gold is moving against it (corr -0.37). Buying fights the dollar.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T18:41:30.409027+00:00"
+      "checked_at": "2026-11-12T18:56:13.988101+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3997.31,
+      "entry_low": 3997.35,
       "entry_high": 4000.52,
-      "sl": 4002.31,
-      "tp1": 3985.34,
+      "sl": 4002.35,
+      "tp1": 3985.27,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,41 +40,19 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T18:41:30.409027+00:00"
+      "checked_at": "2026-11-12T18:56:13.988101+00:00"
     }
   ],
   "research": [
-    "Gold 3881.34 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3935.04, ATR 3.25, day range 3852.51-4000.52.",
-    "DXY 103.20 (+0.33% today, up), gold-dollar corr -0.41.",
-    "WTI 88.23 (+2.31% today, up), gold-oil corr -0.15.",
-    "Headlines: dollar +0.74, oil -0.18, fresh shock.",
-    "Dollar: Fed faces tougher inflation fight as pressure builds for more rate hikes - Axios",
-    "Oil: Crude oil inventories rise unexpectedly, pressuring prices By Investing.com - Investing.com Canada",
+    "Gold 3886.11 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3934.40, ATR 3.33, day range 3852.51-4000.52.",
+    "DXY 103.19 (+0.32% today, up), gold-dollar corr -0.37.",
+    "WTI 88.28 (+2.37% today, up), gold-oil corr -0.19.",
+    "Headlines: dollar +0.79, oil -0.19, fresh shock.",
+    "Dollar: US Dollar Nudges Higher Against The Loonie on Rate Hike Expectations And As Oil Prices Rise - Moomoo",
+    "Oil: Crude oil inventories rise unexpectedly, pressuring prices By Investing.com - Investing.com Nigeria",
     "Next high-impact US release: Core PPI m/m Fri 13:30 UTC."
   ],
   "active": [
-    {
-      "side": "BUY",
-      "entry_low": 3966.55,
-      "entry_high": 3969.19,
-      "sl": 3964.19,
-      "tp1": 3981.63,
-      "tp2": 3982.59,
-      "rr": 3.7,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.19,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.19. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-12T06:50:59.902708+00:00",
-      "checked_at": "2026-11-12T06:52:04.204981+00:00",
-      "entry": 3969.19,
-      "entered_at": "2026-11-12T06:52:04.204981+00:00",
-      "closed": "sl"
-    },
     {
       "side": "BUY",
       "entry_low": 3911.9,
@@ -120,5 +98,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-12T18:41:30.409027+00:00"
+  "last_check": "2026-11-12T18:56:13.988101+00:00"
 }

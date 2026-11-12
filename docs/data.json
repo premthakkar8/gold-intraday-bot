@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-12 18:28 UTC",
+  "updated": "2026-11-12 18:43 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3881.34,
+  "price": 3886.11,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3852.51,
-      "entry_high": 3855.72,
-      "sl": 3850.72,
-      "tp1": 3867.69,
+      "entry_high": 3855.68,
+      "sl": 3850.68,
+      "tp1": 3867.76,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,16 +19,16 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.33% with hawkish news (+0.74) and gold is moving against it (corr -0.41). Buying fights the dollar.",
+      "reason": "Dollar is up +0.32% with hawkish news (+0.79) and gold is moving against it (corr -0.37). Buying fights the dollar.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T18:28:19.736472+00:00"
+      "checked_at": "2026-11-12T18:43:06.931987+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3997.31,
+      "entry_low": 3997.35,
       "entry_high": 4000.52,
-      "sl": 4002.31,
-      "tp1": 3985.34,
+      "sl": 4002.35,
+      "tp1": 3985.27,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T18:28:19.736472+00:00"
+      "checked_at": "2026-11-12T18:43:06.931987+00:00"
     }
   ],
   "active": [],
@@ -49,37 +49,37 @@
     "structure": "sideways",
     "htf": "down",
     "session": "newyork",
-    "vwap": 3935.044609729774,
-    "atr": 3.2471428571427947,
+    "vwap": 3934.3990816752803,
+    "atr": 3.33428571428567,
     "day_low": 3852.51,
     "day_high": 4000.52,
-    "range_pos": 0.19478413620701285
+    "range_pos": 0.22701168839943223
   },
   "dxy": {
     "ok": true,
-    "last": 103.1969985961914,
-    "pct": 0.32567817664723775,
+    "last": 103.19200134277344,
+    "pct": 0.3208199652166896,
     "state": "up",
-    "corr": -0.4135523866196962
+    "corr": -0.3732082561140605
   },
   "oil": {
     "ok": true,
-    "last": 88.2300033569336,
-    "pct": 2.3075203414401844,
+    "last": 88.27999877929688,
+    "pct": 2.365492771405057,
     "state": "up",
-    "corr": -0.15465220522669954
+    "corr": -0.1903075987525516
   },
   "news": {
-    "usd": 0.7361174486557635,
-    "oil": -0.18477325828579869,
+    "usd": 0.7863887345390222,
+    "oil": -0.18755384747904236,
     "shock": true,
     "usd_headlines": [
-      "Fed faces tougher inflation fight as pressure builds for more rate hikes - Axios",
-      "U.S. Dollar Tests Yearly Highs As Traders Focus On Hawkish Fed Policy Outlook: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
-      "U.S., Eurozone Bond Yields Rise Ahead of Inflation, Rates Outlook - WSJ"
+      "US Dollar Nudges Higher Against The Loonie on Rate Hike Expectations And As Oil Prices Rise - Moomoo",
+      "Treasury Yields Rise on Strong Jobs Data - WSJ",
+      "Fed faces tougher inflation fight as pressure builds for more rate hikes - Axios"
     ],
     "oil_headlines": [
-      "Crude oil inventories rise unexpectedly, pressuring prices By Investing.com - Investing.com Canada",
+      "Crude oil inventories rise unexpectedly, pressuring prices By Investing.com - Investing.com Nigeria",
       "US crude oil inventories rise 4.657M barrels, defying forecast - Crypto Briefing",
       "Brazilian and African oil gains ground in Asia due to falling freight rates - Inspenet"
     ]
@@ -110,7 +110,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3096620625898721,
+      "score": 0.3054081726997883,
       "trust": 1.0
     },
     {
@@ -128,8 +128,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09331590052211428,
-      "trust": 0.7776325043509523
+      "score": 0.09331590052211426,
+      "trust": 0.7776325043509522
     }
   ],
   "record": {
