@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-12 20:40 UTC",
+  "updated": "2026-11-12 20:55 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3881.95,
+  "price": 3875.07,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
@@ -14,14 +14,14 @@
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.16,
+      "score": 0.26,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.30% with hawkish news (+0.87) and gold is moving against it (corr -0.44). Buying fights the dollar.",
+      "reason": "Dollar is up +0.31% with hawkish news (+0.87) and gold is moving against it (corr -0.41). Buying fights the dollar.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T20:40:26.715612+00:00"
+      "checked_at": "2026-11-12T20:55:07.590786+00:00"
     },
     {
       "side": "SELL",
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T20:40:26.715612+00:00"
+      "checked_at": "2026-11-12T20:55:07.590786+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "up",
     "htf": "down",
     "session": "newyork",
-    "vwap": 3929.8152571892083,
-    "atr": 2.870000000000021,
+    "vwap": 3929.2709992067953,
+    "atr": 2.8778571428571404,
     "day_low": 3852.51,
     "day_high": 4000.52,
-    "range_pos": 0.19890547935950034
+    "range_pos": 0.15242213363961882
   },
   "dxy": {
     "ok": true,
-    "last": 103.1709976196289,
-    "pct": 0.30040064297501146,
+    "last": 103.1780014038086,
+    "pct": 0.30720955609446676,
     "state": "up",
-    "corr": -0.4404451271499076
+    "corr": -0.4106810680621598
   },
   "oil": {
     "ok": true,
-    "last": 88.93000030517578,
-    "pct": 3.1192051345543375,
+    "last": 88.98999786376953,
+    "pct": 3.1887755891924807,
     "state": "up",
-    "corr": -0.12328470412875919
+    "corr": -0.1289963418253536
   },
   "news": {
-    "usd": 0.872532211152965,
-    "oil": -0.20104461708420168,
+    "usd": 0.8737729222680892,
+    "oil": -0.19714537202005772,
     "shock": true,
     "usd_headlines": [
       "Silver Tumbles Over 3% As Fed Rate Hike Bets Fuel US Dollar Rally - TalkMarkets - Howl.Link",
@@ -80,7 +80,7 @@
     ],
     "oil_headlines": [
       "Gas prices might stay high for a while \u2014 even if crude oil falls. Here's why. - Yahoo Finance",
-      "Crude oil inventories rise unexpectedly, pressuring prices By Investing.com - Investing.com Nigeria",
+      "Crude oil inventories rise unexpectedly, pressuring prices By Investing.com - Investing.com Canada",
       "US crude oil inventories rise 4.657M barrels, defying forecast - Crypto Briefing"
     ]
   },
@@ -104,19 +104,19 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.669511707279689,
-      "trust": 0.7608087582723738
+      "score": 0.6200664371584004,
+      "trust": 0.704620951316364
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.31139279937306324,
+      "score": 0.31080912771726427,
       "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.15812480202724588,
+      "score": 0.26,
       "trust": 1.0
     },
     {
@@ -128,15 +128,15 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09769396882338799,
-      "trust": 0.8141164068615666
+      "score": 0.09772547324537392,
+      "trust": 0.8143789437114494
     }
   ],
   "record": {
-    "graded": 99,
+    "graded": 100,
     "wins": 29,
-    "losses": 51,
+    "losses": 52,
     "scratches": 19,
-    "avg_r": -0.13844127008258664
+    "avg_r": -0.14705685738176077
   }
 }

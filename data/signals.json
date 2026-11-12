@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-12T20:40:26.715612+00:00",
-  "atr": 2.870000000000021,
-  "price": 3877.78,
+  "updated_at": "2026-11-12T20:55:07.590786+00:00",
+  "atr": 2.8778571428571404,
+  "price": 3875.34,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
@@ -14,14 +14,14 @@
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.16,
+      "score": 0.26,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.30% with hawkish news (+0.87) and gold is moving against it (corr -0.44). Buying fights the dollar.",
+      "reason": "Dollar is up +0.31% with hawkish news (+0.87) and gold is moving against it (corr -0.41). Buying fights the dollar.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T20:53:34.828429+00:00"
+      "checked_at": "2026-11-12T20:59:12.264743+00:00"
     },
     {
       "side": "SELL",
@@ -40,13 +40,13 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T20:53:34.828429+00:00"
+      "checked_at": "2026-11-12T20:59:12.264743+00:00"
     }
   ],
   "research": [
-    "Gold 3881.95 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3929.82, ATR 2.87, day range 3852.51-4000.52.",
-    "DXY 103.17 (+0.30% today, up), gold-dollar corr -0.44.",
-    "WTI 88.93 (+3.12% today, up), gold-oil corr -0.12.",
+    "Gold 3875.07 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3929.27, ATR 2.88, day range 3852.51-4000.52.",
+    "DXY 103.18 (+0.31% today, up), gold-dollar corr -0.41.",
+    "WTI 88.99 (+3.19% today, up), gold-oil corr -0.13.",
     "Headlines: dollar +0.87, oil -0.20, fresh shock.",
     "Dollar: Silver Tumbles Over 3% As Fed Rate Hike Bets Fuel US Dollar Rally - TalkMarkets - Howl.Link",
     "Oil: Gas prices might stay high for a while \u2014 even if crude oil falls. Here's why. - Yahoo Finance",
@@ -98,5 +98,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-12T20:53:34.828429+00:00"
+  "last_check": "2026-11-12T20:59:12.264743+00:00"
 }
