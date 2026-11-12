@@ -1,77 +1,77 @@
 {
-  "updated": "2026-11-12 01:58 UTC",
+  "updated": "2026-11-12 02:13 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3984.5,
+  "price": 3984.57,
   "stance": "Strategy: the BUY plan from 00:15 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3968.76,
-      "entry_high": 3970.96,
-      "sl": 3965.96,
-      "tp1": 3985.46,
+      "entry_high": 3971.01,
+      "sl": 3966.01,
+      "tp1": 3985.39,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.63,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.63 (Trade the oil shock), oil supply news +1.00, price below VWAP.",
-      "created_at": "2026-11-12T00:15:39.135754+00:00",
-      "checked_at": "2026-11-12T01:58:33.082394+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3998.32,
-      "entry_high": 4000.52,
-      "sl": 4003.32,
-      "tp1": 3987.47,
-      "tp2": 3983.82,
-      "rr": 3.1,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.58,
-      "style": "dollar_lead",
+      "score": 0.52,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.58 (Trade with the dollar), hawkish dollar news +0.93.",
+      "reason": "Score 0.52 (Trade with the intraday trend), oil supply news +0.59, price below VWAP.",
+      "created_at": "2026-11-12T00:15:39.135754+00:00",
+      "checked_at": "2026-11-12T02:13:12.457374+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3998.27,
+      "entry_high": 4000.52,
+      "sl": 4003.27,
+      "tp1": 3987.22,
+      "tp2": 3983.89,
+      "rr": 3.1,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.57,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.57 (Trade with the dollar), hawkish dollar news +1.00.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T01:58:33.082394+00:00"
+      "checked_at": "2026-11-12T02:13:12.457374+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
-    "htf": "up",
+    "structure": "up",
+    "htf": "sideways",
     "session": "asia",
-    "vwap": 3987.472515536428,
-    "atr": 5.089285714285779,
+    "vwap": 3987.2160901338666,
+    "atr": 5.005000000000011,
     "day_low": 3968.76,
     "day_high": 4000.52,
-    "range_pos": 0.4955919395465963
+    "range_pos": 0.49779596977330176
   },
   "dxy": {
     "ok": true,
-    "last": 102.86000061035156,
-    "pct": -0.0019432845722192785,
+    "last": 102.85299682617188,
+    "pct": -0.008752197691674613,
     "state": "flat",
-    "corr": -0.40036335457301997
+    "corr": -0.42546253446792687
   },
   "oil": {
     "ok": true,
-    "last": 85.4800033569336,
-    "pct": -0.8812552477522967,
+    "last": 85.86000061035156,
+    "pct": -0.44062762387614834,
     "state": "down",
-    "corr": -0.35288224341177843
+    "corr": -0.29077732567029296
   },
   "news": {
-    "usd": 0.9264692083460089,
-    "oil": 1.0,
+    "usd": 1.0,
+    "oil": 0.5857722281895695,
     "shock": true,
     "usd_headlines": [
       "Canadian Dollar remains steady as hawkish Fed bets keep US Dollar stable - FXStreet",
@@ -79,9 +79,9 @@
       "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem - Reuters"
     ],
     "oil_headlines": [
+      "WTI Crude Oil Falls for Fifth Consecutive Day Amid Stalled U.S.-Iran Talks and OPEC+ Output Increase - KuCoin",
       "Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Gains Ground As Iran Wants To Keep Nuclear Material Inside The Country - FXEmpire",
-      "Iran says Strait of Hormuz will remain closed until leader of the revolution orders - FXStreet",
-      "Brent crude oil edges higher as US President Trump pauses further action against Iran, easing Middle East supply risk - Traders Union"
+      "Iran says Strait of Hormuz will remain closed until leader of the revolution orders - FXStreet"
     ]
   },
   "events": [
@@ -109,34 +109,34 @@
   ],
   "scorecard": [
     {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.6291756982834876,
-      "trust": 0.9986915845769645
-    },
-    {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5770732942596234,
-      "trust": 1.036505086220017
+      "score": 0.5706074718802021,
+      "trust": 0.9523077260786874
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.5185342521223063,
+      "trust": 0.8309843784011317
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.44564924029275826,
-      "trust": 0.6752261216556943
+      "score": 0.45367523511676644,
+      "trust": 0.6873867198738886
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.4014740992753218,
+      "trust": 0.9982579058689901
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.12268885279983617,
-      "trust": 1.2268885279983617
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.09986970793798555,
-      "trust": 0.9986970793798555
+      "score": 0.11699264667085713,
+      "trust": 1.1699264667085711
     }
   ],
   "record": {

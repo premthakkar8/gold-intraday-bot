@@ -669,3 +669,5 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-12 01:43 UTC  live: gold 3989.35 | holding long oil_shock fce85e49 | new read flat stand_aside not opened
 2026-11-12 01:46 UTC  live: SELL TP hit
 2026-11-12 01:58 UTC  live: gold 3984.50 | holding long oil_shock fce85e49 | new read flat stand_aside not opened
+2026-11-12 02:13 UTC  live: gold 3984.57 | holding long oil_shock fce85e49 | new read flat stand_aside not opened
+2026-11-12 02:16 UTC  live: BUY now expired: Signal is 120 minutes old without an entry. Waiting for a fresh one.
