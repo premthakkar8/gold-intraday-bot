@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-12 11:29 UTC",
+  "updated": "2026-11-12 11:43 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3947.48,
+  "price": 3945.3,
   "stance": "Strategy: the SELL plan from 10:45 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3924.65,
-      "entry_high": 3928.28,
-      "sl": 3923.28,
-      "tp1": 3939.21,
+      "entry_high": 3928.4,
+      "sl": 3923.4,
+      "tp1": 3939.02,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.32,
+      "score": 0.41,
       "style": "oil_shock",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-12T09:02:48.372188+00:00",
-      "checked_at": "2026-11-12T11:29:19.308232+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3996.89,
-      "entry_high": 4000.52,
-      "sl": 4001.89,
-      "tp1": 3985.96,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.46,
-      "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-12T09:02:48.372188+00:00",
+      "checked_at": "2026-11-12T11:43:56.602569+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3996.77,
+      "entry_high": 4000.52,
+      "sl": 4001.77,
+      "tp1": 3986.15,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.4,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T11:29:19.308232+00:00"
+      "checked_at": "2026-11-12T11:43:56.602569+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "down",
     "session": "london",
-    "vwap": 3968.871704255261,
-    "atr": 2.491428571428579,
+    "vwap": 3968.4947066875043,
+    "atr": 2.2700000000000142,
     "day_low": 3924.65,
     "day_high": 4000.52,
-    "range_pos": 0.30090945037564204
+    "range_pos": 0.27217609068143034
   },
   "dxy": {
     "ok": true,
-    "last": 102.87899780273438,
-    "pct": 0.01652533598055173,
+    "last": 102.90799713134766,
+    "pct": 0.04471779651110698,
     "state": "flat",
-    "corr": -0.41238662678784255
+    "corr": -0.41779827557100435
   },
   "oil": {
     "ok": true,
-    "last": 85.80000305175781,
-    "pct": -0.5101980785142922,
-    "state": "down",
-    "corr": -0.1871542404111757
+    "last": 85.95999908447266,
+    "pct": -0.32467391724566114,
+    "state": "flat",
+    "corr": -0.18715330393493657
   },
   "news": {
     "usd": 1.0,
-    "oil": 0.6044017701008482,
+    "oil": 0.6067991350420229,
     "shock": true,
     "usd_headlines": [
       "U.S. Dollar Extends Rally On Fed Rate Hike Bets - RTTNews",
@@ -111,32 +111,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5211322793735275,
-      "trust": 0.7895943626871628
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.4575207576936094,
-      "trust": 1.396313626900088
+      "score": 0.4992136107329225,
+      "trust": 0.7563842586862461
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.3230853784669798,
-      "trust": 0.7833873619027477
+      "score": 0.40895135134386884,
+      "trust": 0.9884270835916487
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.40001906562266687,
+      "trust": 1.2179193505189307
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11610682900474907,
-      "trust": 1.1610682900474907
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.09987684759976423,
+      "trust": 0.9987684759976423
     }
   ],
   "record": {
