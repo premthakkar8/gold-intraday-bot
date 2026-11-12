@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-12 12:13 UTC",
+  "updated": "2026-11-12 12:27 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3943.58,
+  "price": 3942.65,
   "stance": "Strategy: the SELL plan from 10:45 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3924.65,
-      "entry_high": 3927.98,
-      "sl": 3922.98,
-      "tp1": 3939.66,
+      "entry_high": 3927.77,
+      "sl": 3922.77,
+      "tp1": 3939.97,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.42,
       "style": "oil_shock",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-12T09:02:48.372188+00:00",
-      "checked_at": "2026-11-12T12:13:13.255682+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3997.19,
-      "entry_high": 4000.52,
-      "sl": 4002.19,
-      "tp1": 3985.51,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.43,
-      "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-12T09:02:48.372188+00:00",
+      "checked_at": "2026-11-12T12:27:54.314286+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3997.4,
+      "entry_high": 4000.52,
+      "sl": 4002.4,
+      "tp1": 3985.2,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.41,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T12:13:13.255682+00:00"
+      "checked_at": "2026-11-12T12:27:54.314286+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3967.6346602363683,
-    "atr": 3.041428571428566,
+    "vwap": 3967.2364861536507,
+    "atr": 3.4121428571428885,
     "day_low": 3924.65,
     "day_high": 4000.52,
-    "range_pos": 0.24950573349149682
+    "range_pos": 0.23724792408066464
   },
   "dxy": {
     "ok": true,
-    "last": 102.85600280761719,
-    "pct": -0.005829853716657835,
+    "last": 102.90399932861328,
+    "pct": 0.04083122736666843,
     "state": "flat",
-    "corr": -0.49689677154588197
+    "corr": -0.45478158330196206
   },
   "oil": {
     "ok": true,
-    "last": 85.83999633789062,
-    "pct": -0.46382367322269114,
+    "last": 85.83000183105469,
+    "pct": -0.47541285119522025,
     "state": "down",
-    "corr": -0.1717774522523523
+    "corr": -0.15526072473686328
   },
   "news": {
-    "usd": 0.8900280979398322,
-    "oil": 0.6151595198566712,
+    "usd": 0.8838467347136403,
+    "oil": 0.6203193961757817,
     "shock": true,
     "usd_headlines": [
       "Fed rate hike expectations push ringgit lower against US dollar - Malay Mail",
@@ -115,22 +115,22 @@
       "trust": 0.826635502255245
     },
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.4251508491657613,
-      "trust": 1.3697829732223992
-    },
-    {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.4183377359211692,
+      "score": 0.42117566789668,
       "trust": 1.0
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.41439370624937355,
+      "trust": 1.369260593291448
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11603890215299853,
-      "trust": 1.1603890215299852
+      "score": 0.11601624453702936,
+      "trust": 1.1601624453702934
     },
     {
       "style": "Trade with the intraday trend",
