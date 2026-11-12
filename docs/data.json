@@ -1,77 +1,77 @@
 {
-  "updated": "2026-11-12 06:50 UTC",
+  "updated": "2026-11-12 07:05 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3968.36,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.28). Take an entry only if price reaches it.",
+  "price": 3971.94,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.25). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3966.55,
-      "entry_high": 3969.19,
-      "sl": 3964.19,
-      "tp1": 3981.63,
-      "tp2": 3982.59,
-      "rr": 3.7,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.19,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.19. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-12T06:50:59.902708+00:00",
-      "checked_at": "2026-11-12T06:50:59.902708+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3997.88,
-      "entry_high": 4000.52,
-      "sl": 4002.88,
-      "tp1": 3984.48,
+      "entry_low": 3962.52,
+      "entry_high": 3965.1,
+      "sl": 3960.1,
+      "tp1": 3978.64,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.28,
-      "style": "dollar_lead",
+      "score": 0.18,
+      "style": "oil_shock",
       "favored": false,
+      "ready": false,
+      "status": "invalid",
+      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
+      "created_at": "2026-11-12T07:05:40.516170+00:00",
+      "checked_at": "2026-11-12T07:05:40.516170+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3997.94,
+      "entry_high": 4000.52,
+      "sl": 4002.94,
+      "tp1": 3984.4,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.25,
+      "style": "dollar_lead",
+      "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T06:50:59.902708+00:00"
+      "checked_at": "2026-11-12T07:05:40.516170+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "down",
-    "session": "asia",
-    "vwap": 3981.63040195454,
-    "atr": 4.286428571428489,
-    "day_low": 3966.55,
+    "session": "london",
+    "vwap": 3981.1143775706037,
+    "atr": 4.392142857142777,
+    "day_low": 3962.52,
     "day_high": 4000.52,
-    "range_pos": 0.05328230791875055
+    "range_pos": 0.24789473684210717
   },
   "dxy": {
     "ok": true,
-    "last": 103.00900268554688,
-    "pct": 0.14291300434168341,
+    "last": 103.04399871826172,
+    "pct": 0.17693531858889652,
     "state": "up",
-    "corr": -0.5694879072867042
+    "corr": -0.4152723761629398
   },
   "oil": {
     "ok": true,
-    "last": 86.30999755859375,
-    "pct": 0.08116847931141528,
+    "last": 86.4000015258789,
+    "pct": 0.18553300796937344,
     "state": "flat",
-    "corr": -0.44378019214273084
+    "corr": -0.2602702878255375
   },
   "news": {
     "usd": 1.0,
-    "oil": 0.3826423073799163,
+    "oil": 0.385237525035148,
     "shock": true,
     "usd_headlines": [
       "Gold slides as stronger dollar fuels Fed rate hike expectations - \u0633\u0627\u0646\u0627",
@@ -111,32 +111,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.43186494501546446,
-      "trust": 0.7711874018133293
+      "score": 0.4629330062238731,
+      "trust": 0.8266660825426305
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.276877181254921,
-      "trust": 1.0772812923643493
+      "score": 0.25479673989973584,
+      "trust": 1.0079229794547568
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.19300197258765855,
-      "trust": 0.9170775700024559
+      "score": 0.18414383778114965,
+      "trust": 0.8690923288258627
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.14118679460074107,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.09987332502436067,
-      "trust": 0.9987332502436066
     }
   ],
   "record": {
