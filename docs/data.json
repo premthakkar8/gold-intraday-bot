@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-12 06:36 UTC",
+  "updated": "2026-11-12 06:50 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3973.58,
-  "stance": "Strategy: the BUY plan from 05:08 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3968.36,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.28). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3968.76,
-      "entry_high": 3971.21,
-      "sl": 3966.21,
-      "tp1": 3981.99,
-      "tp2": 3985.09,
-      "rr": 3.2,
+      "entry_low": 3966.55,
+      "entry_high": 3969.19,
+      "sl": 3964.19,
+      "tp1": 3981.63,
+      "tp2": 3982.59,
+      "rr": 3.7,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.22,
+      "score": 0.19,
       "style": "oil_shock",
-      "favored": false,
+      "favored": true,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-12T00:15:39.135754+00:00",
-      "checked_at": "2026-11-12T06:36:07.135993+00:00"
+      "status": "weak",
+      "reason": "Strategy score is only 0.19. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-12T06:50:59.902708+00:00",
+      "checked_at": "2026-11-12T06:50:59.902708+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3998.07,
+      "entry_low": 3997.88,
       "entry_high": 4000.52,
-      "sl": 4003.07,
-      "tp1": 3984.19,
+      "sl": 4002.88,
+      "tp1": 3984.48,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.24,
+      "score": 0.28,
       "style": "dollar_lead",
-      "favored": true,
+      "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T06:36:07.135993+00:00"
+      "checked_at": "2026-11-12T06:50:59.902708+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "sideways",
     "htf": "down",
     "session": "asia",
-    "vwap": 3981.98562649608,
-    "atr": 4.6414285714284755,
-    "day_low": 3968.76,
+    "vwap": 3981.63040195454,
+    "atr": 4.286428571428489,
+    "day_low": 3966.55,
     "day_high": 4000.52,
-    "range_pos": 0.15176322418135216
+    "range_pos": 0.05328230791875055
   },
   "dxy": {
     "ok": true,
-    "last": 102.98999786376953,
-    "pct": 0.12443696667222455,
+    "last": 103.00900268554688,
+    "pct": 0.14291300434168341,
     "state": "up",
-    "corr": -0.39617785978088593
+    "corr": -0.5694879072867042
   },
   "oil": {
     "ok": true,
-    "last": 86.18000030517578,
-    "pct": -0.06957045463814385,
+    "last": 86.30999755859375,
+    "pct": 0.08116847931141528,
     "state": "flat",
-    "corr": -0.16809547075760276
+    "corr": -0.44378019214273084
   },
   "news": {
     "usd": 1.0,
-    "oil": 0.38176585468686,
+    "oil": 0.3826423073799163,
     "shock": true,
     "usd_headlines": [
+      "Gold slides as stronger dollar fuels Fed rate hike expectations - \u0633\u0627\u0646\u0627",
       "Market interest rates rise amid speculation of a major move by the U.S. Federal Reserve (50bp rate hike) - \uba38\ub2c8\ud22c\ub370\uc774",
-      "Dollar Index Reaches 2025 High Amid Inflation and Fed Rate Hike Expectations - KuCoin",
-      "Swiss Franc holds gains against US Dollar despite hawkish Fed outlook - FXStreet"
+      "Dollar Index Reaches 2025 High Amid Inflation and Fed Rate Hike Expectations - KuCoin"
     ],
     "oil_headlines": [
       "Global OPEC+ oil exports close to prewar levels amid ongoing incidents in Strait of Hormuz - Rudaw",
@@ -111,20 +111,20 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4318649450154645,
-      "trust": 0.7711874018133295
+      "score": 0.43186494501546446,
+      "trust": 0.7711874018133293
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.239365668522796,
+      "score": 0.276877181254921,
       "trust": 1.0772812923643493
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.22023837982833802,
-      "trust": 1.0488979382353547
+      "score": 0.19300197258765855,
+      "trust": 0.9170775700024559
     },
     {
       "style": "Fade the session range",
@@ -135,15 +135,15 @@
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.0998731434386694,
-      "trust": 0.998731434386694
+      "score": 0.09987332502436067,
+      "trust": 0.9987332502436066
     }
   ],
   "record": {
-    "graded": 89,
+    "graded": 90,
     "wins": 26,
-    "losses": 45,
+    "losses": 46,
     "scratches": 18,
-    "avg_r": -0.1202886037997312
+    "avg_r": -0.1300631748686231
   }
 }
