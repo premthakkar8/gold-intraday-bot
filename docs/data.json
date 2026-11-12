@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-12 05:08 UTC",
+  "updated": "2026-11-12 05:22 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3977.11,
-  "stance": "Strategy: BUY is the trade (Trade the oil shock, confidence 56%).",
+  "price": 3971.53,
+  "stance": "Strategy: the BUY plan from 05:08 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3968.76,
-      "entry_high": 3972.22,
-      "sl": 3967.22,
-      "tp1": 3983.58,
-      "tp2": null,
-      "rr": 4.0,
+      "entry_high": 3972.03,
+      "sl": 3967.03,
+      "tp1": 3983.23,
+      "tp2": 3983.86,
+      "rr": 3.8,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.56,
+      "score": 0.38,
       "style": "oil_shock",
-      "favored": true,
-      "ready": true,
+      "favored": false,
+      "ready": false,
       "status": "invalid",
       "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-12T00:15:39.135754+00:00",
-      "checked_at": "2026-11-12T05:08:25.876456+00:00"
+      "checked_at": "2026-11-12T05:22:57.282151+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3997.06,
+      "entry_low": 3997.25,
       "entry_high": 4000.52,
-      "sl": 4002.06,
-      "tp1": 3985.7,
+      "sl": 4002.25,
+      "tp1": 3985.42,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.43,
       "style": "trend_align",
-      "favored": false,
+      "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T05:08:25.876456+00:00"
+      "checked_at": "2026-11-12T05:22:57.282151+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "down",
     "htf": "down",
     "session": "asia",
-    "vwap": 3983.633190420689,
-    "atr": 2.8078571428571064,
+    "vwap": 3983.2349741087532,
+    "atr": 3.1478571428571223,
     "day_low": 3968.76,
     "day_high": 4000.52,
-    "range_pos": 0.26290931989924343
+    "range_pos": 0.08721662468513862
   },
   "dxy": {
     "ok": true,
-    "last": 102.99600219726562,
-    "pct": 0.13027423750557027,
+    "last": 102.98500061035156,
+    "pct": 0.11957875524167635,
     "state": "up",
-    "corr": -0.7494907539437875
+    "corr": -0.7081417248472568
   },
   "oil": {
     "ok": true,
-    "last": 85.27999877929688,
-    "pct": -1.1131715077140134,
+    "last": 85.56999969482422,
+    "pct": -0.7768995657950808,
     "state": "down",
-    "corr": 0.5893491935121871
+    "corr": 0.3536826677991723
   },
   "news": {
     "usd": 1.0,
-    "oil": 0.37741217954096173,
+    "oil": 0.37807836387981597,
     "shock": true,
     "usd_headlines": [
       "Dollar gains against dong - VnExpress International",
@@ -109,16 +109,10 @@
   ],
   "scorecard": [
     {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.5593595553673723,
-      "trust": 1.0
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.43218960439137716,
-      "trust": 0.7717671506988877
+      "score": 0.4321896043913772,
+      "trust": 0.7717671506988878
     },
     {
       "style": "Trade with the intraday trend",
@@ -127,10 +121,16 @@
       "trust": 1.0
     },
     {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.38174067800625616,
+      "trust": 1.0
+    },
+    {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.22442609799877397,
-      "trust": 0.8122563261231182
+      "score": 0.215039078033629,
+      "trust": 0.812518641557863
     },
     {
       "style": "Fade the session range",
