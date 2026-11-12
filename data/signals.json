@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-12T06:21:20.420776+00:00",
-  "atr": 4.399999999999928,
-  "price": 3973.2,
+  "updated_at": "2026-11-12T06:36:07.135993+00:00",
+  "atr": 4.6414285714284755,
+  "price": 3969.58,
   "stance": "Strategy: the BUY plan from 05:08 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3968.76,
-      "entry_high": 3971.34,
-      "sl": 3966.34,
-      "tp1": 3982.17,
-      "tp2": 3984.89,
-      "rr": 3.3,
+      "entry_high": 3971.21,
+      "sl": 3966.21,
+      "tp1": 3981.99,
+      "tp2": 3985.09,
+      "rr": 3.2,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.2,
+      "score": 0.22,
       "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-12T00:15:39.135754+00:00",
-      "checked_at": "2026-11-12T06:34:25.972408+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3997.94,
-      "entry_high": 4000.52,
-      "sl": 4002.94,
-      "tp1": 3984.39,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.2,
-      "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-12T00:15:39.135754+00:00",
+      "checked_at": "2026-11-12T06:49:16.527327+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3998.07,
+      "entry_high": 4000.52,
+      "sl": 4003.07,
+      "tp1": 3984.19,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.24,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T06:34:25.972408+00:00"
+      "checked_at": "2026-11-12T06:49:16.527327+00:00"
     }
   ],
   "research": [
-    "Gold 3978.05 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3982.17, ATR 4.40, day range 3968.76-4000.52.",
-    "DXY 103.02 (+0.16% today, up), gold-dollar corr -0.31.",
-    "WTI 86.42 (+0.21% today, flat), gold-oil corr -0.13.",
+    "Gold 3973.58 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3981.99, ATR 4.64, day range 3968.76-4000.52.",
+    "DXY 102.99 (+0.12% today, up), gold-dollar corr -0.40.",
+    "WTI 86.18 (-0.07% today, flat), gold-oil corr -0.17.",
     "Headlines: dollar +1.00, oil +0.38, fresh shock.",
     "Dollar: Market interest rates rise amid speculation of a major move by the U.S. Federal Reserve (50bp rate hike) - \uba38\ub2c8\ud22c\ub370\uc774",
     "Oil: Global OPEC+ oil exports close to prewar levels amid ongoing incidents in Strait of Hormuz - Rudaw",
@@ -164,5 +164,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-12T06:34:25.972408+00:00"
+  "last_check": "2026-11-12T06:49:16.527327+00:00"
 }
