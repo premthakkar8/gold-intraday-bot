@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-12 10:01 UTC",
+  "updated": "2026-11-12 10:16 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3944.18,
+  "price": 3948.06,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.44). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3924.65,
-      "entry_high": 3927.16,
-      "sl": 3922.16,
-      "tp1": 3940.88,
+      "entry_high": 3927.52,
+      "sl": 3922.52,
+      "tp1": 3940.34,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "valid",
       "reason": "Score 0.44 (Trade the oil shock), oil supply news +0.67, price below VWAP.",
       "created_at": "2026-11-12T09:02:48.372188+00:00",
-      "checked_at": "2026-11-12T10:01:29.498324+00:00"
+      "checked_at": "2026-11-12T10:16:14.574052+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3998.01,
+      "entry_low": 3997.65,
       "entry_high": 4000.52,
-      "sl": 4003.01,
-      "tp1": 3984.29,
+      "sl": 4002.65,
+      "tp1": 3984.83,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T10:01:29.498324+00:00"
+      "checked_at": "2026-11-12T10:16:14.574052+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "down",
     "session": "london",
-    "vwap": 3971.118048077101,
-    "atr": 4.521428571428552,
+    "vwap": 3970.5921398967903,
+    "atr": 3.8721428571428924,
     "day_low": 3924.65,
     "day_high": 4000.52,
-    "range_pos": 0.25741399762751777
+    "range_pos": 0.30855410570712916
   },
   "dxy": {
     "ok": true,
-    "last": 102.8740005493164,
-    "pct": 0.011667124550003532,
+    "last": 102.89099884033203,
+    "pct": 0.028192460530555255,
     "state": "flat",
-    "corr": -0.474276540909806
+    "corr": -0.4851638675250289
   },
   "oil": {
     "ok": true,
-    "last": 86.08000183105469,
-    "pct": -0.18552416126863105,
+    "last": 85.95999908447266,
+    "pct": -0.32467391724566114,
     "state": "flat",
-    "corr": -0.19103039534203212
+    "corr": -0.22736365390148758
   },
   "news": {
     "usd": 1.0,
-    "oil": 0.6697373652270435,
+    "oil": 0.6725242134743735,
     "shock": true,
     "usd_headlines": [
       "Gold prices fall for third straight day as dollar and Treasury yields rise - Traders Union",
@@ -117,13 +117,13 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.4431153390145127,
-      "trust": 0.9883123742972825
+      "score": 0.444637652969852,
+      "trust": 0.9883289602377967
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.40995004036479804,
+      "score": 0.4118644363714124,
       "trust": 1.2179193505189307
     },
     {
@@ -135,8 +135,8 @@
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.09987562692863589,
-      "trust": 0.9987562692863587
+      "score": 0.09987580342679006,
+      "trust": 0.9987580342679006
     }
   ],
   "record": {
