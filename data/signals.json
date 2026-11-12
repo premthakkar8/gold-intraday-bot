@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-12T14:54:34.812266+00:00",
-  "atr": 9.490000000000041,
-  "price": 3864.01,
+  "updated_at": "2026-11-12T15:09:16.188613+00:00",
+  "atr": 9.61000000000003,
+  "price": 3855.76,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3871.46 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3953.35, ATR 9.49, day range 3866.27-4000.52.",
-    "DXY 103.02 (+0.16% today, up), gold-dollar corr -0.48.",
-    "WTI 86.47 (+0.27% today, flat), gold-oil corr -0.05.",
+    "Gold 3862.13 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3951.85, ATR 9.61, day range 3859.93-4000.52.",
+    "DXY 103.05 (+0.19% today, up), gold-dollar corr -0.52.",
+    "WTI 86.74 (+0.58% today, up), gold-oil corr -0.07.",
     "Headlines: dollar +0.70, oil +0.67, fresh shock.",
     "Dollar: US Dollar Falls Early Thursday Ahead of Jobless Claims, Existing Home Sales - marketscreener.com",
     "Oil: 10-year Treasury yield jumps back above 5% as oil gains, more Fed hikes expected - CNBC",
@@ -81,5 +81,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-12T15:08:01.248962+00:00"
+  "last_check": "2026-11-12T15:22:35.763409+00:00"
 }
