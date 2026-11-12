@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-11-12T22:30:13.048484+00:00",
   "atr": 1.992142857142783,
-  "price": 3877.88,
+  "price": 3875.64,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
   "setups": [
     {
@@ -21,7 +21,7 @@
       "status": "invalid",
       "reason": "Dollar is up +0.32% with hawkish news (+0.90) and gold is moving against it (corr -0.43). Buying fights the dollar.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T22:30:13.048484+00:00"
+      "checked_at": "2026-11-12T23:12:36.075453+00:00"
     },
     {
       "side": "SELL",
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T22:30:13.048484+00:00"
+      "checked_at": "2026-11-12T23:12:36.075453+00:00"
     }
   ],
   "research": [
@@ -98,5 +98,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-12T22:02:55.266155+00:00"
+  "last_check": "2026-11-12T23:12:36.075453+00:00"
 }
