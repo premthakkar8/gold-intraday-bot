@@ -760,3 +760,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-12 22:00 UTC  live: gold 3877.88 | holding flat stand_aside 5dfc2027 | new read flat stand_aside not opened
 2026-11-12 22:15 UTC  live: gold 3877.88 | holding flat stand_aside 5dfc2027 | new read flat stand_aside not opened
 2026-11-12 22:30 UTC  live: gold 3877.88 | holding flat stand_aside 5dfc2027 | new read flat stand_aside not opened
+2026-11-12 22:44 UTC  live: latest gold bar is 50 minutes old, skipped
