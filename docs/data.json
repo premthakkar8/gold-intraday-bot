@@ -1,82 +1,82 @@
 {
-  "updated": "2026-11-12 03:11 UTC",
+  "updated": "2026-11-12 03:26 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3982.18,
+  "price": 3978.9,
   "stance": "Strategy: the SELL plan from 02:27 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3968.76,
-      "entry_high": 3971.36,
-      "sl": 3966.36,
-      "tp1": 3984.86,
+      "entry_high": 3971.53,
+      "sl": 3966.53,
+      "tp1": 3984.61,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.22,
-      "style": "oil_shock",
+      "score": 0.07,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T00:15:39.135754+00:00",
-      "checked_at": "2026-11-12T03:11:43.241172+00:00"
+      "checked_at": "2026-11-12T03:26:20.658030+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3997.92,
+      "entry_low": 3997.75,
       "entry_high": 4000.52,
-      "sl": 4002.92,
-      "tp1": 3985.72,
-      "tp2": 3984.42,
-      "rr": 3.6,
+      "sl": 4002.75,
+      "tp1": 3985.32,
+      "tp2": 3984.67,
+      "rr": 3.8,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.38,
+      "score": 0.26,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "valid",
-      "reason": "Score 0.38 (Trade with the dollar), dollar firmer +0.18%, hawkish dollar news +1.00.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T03:11:43.241172+00:00"
+      "checked_at": "2026-11-12T03:26:20.658030+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "down",
     "session": "asia",
-    "vwap": 3985.718271744082,
-    "atr": 4.3642857142857405,
+    "vwap": 3985.319283105877,
+    "atr": 4.063571428571485,
     "day_low": 3968.76,
     "day_high": 4000.52,
-    "range_pos": 0.42254408060452514
+    "range_pos": 0.31926952141057774
   },
   "dxy": {
     "ok": true,
-    "last": 103.0510025024414,
-    "pct": 0.18374423170835183,
+    "last": 103.06999969482422,
+    "pct": 0.20221285226112284,
     "state": "up",
-    "corr": -0.3761634585214958
+    "corr": -0.40227544617242067
   },
   "oil": {
     "ok": true,
-    "last": 85.66999816894531,
-    "pct": -0.6609458591645937,
+    "last": 85.62999725341797,
+    "pct": -0.707329111156937,
     "state": "down",
-    "corr": -0.18142851604540203
+    "corr": -0.19121288455827695
   },
   "news": {
     "usd": 1.0,
-    "oil": 0.3000246418841735,
+    "oil": 0.24851697624890648,
     "shock": true,
     "usd_headlines": [
+      "New Zealand Dollar faces pressure against US Dollar as traders consider bigger Fed rate hike - FXStreet",
       "Canadian Dollar remains steady as hawkish Fed bets keep US Dollar stable - FXStreet",
-      "Today's USD exchange rate (November 12): The US dollar strengthens significantly. - Vietnam.vn",
-      "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem - Reuters"
+      "Today's USD exchange rate (November 12): The US dollar strengthens significantly. - Vietnam.vn"
     ],
     "oil_headlines": [
       "GIFT Nifty up, signals steady start for Sensex, Nifty; Nvidia plunges 8% after hours, crude oil falls - Moneycontrol.com",
@@ -111,31 +111,31 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.44417452557772935,
-      "trust": 0.7931687956745166
+      "score": 0.8032997003888352,
+      "trust": 0.9128405686236764
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3812570025107222,
-      "trust": 0.8362277384228922
+      "score": 0.264323548115346,
+      "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.22213023606643686,
-      "trust": 0.7943693059721728
+      "bias": "flat",
+      "score": 0.12,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1168971948552437,
-      "trust": 1.168971948552437
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
+      "bias": "long",
+      "score": 0.065,
       "trust": 1.0
     }
   ],
