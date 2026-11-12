@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-12 19:56 UTC",
+  "updated": "2026-11-12 20:11 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3884.19,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.27). Take an entry only if price reaches it.",
+  "price": 3884.27,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3852.51,
-      "entry_high": 3855.73,
-      "sl": 3850.73,
-      "tp1": 3867.68,
+      "entry_high": 3855.85,
+      "sl": 3850.85,
+      "tp1": 3867.51,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,28 +19,28 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.33% with hawkish news (+0.86) and gold is moving against it (corr -0.40). Buying fights the dollar.",
+      "reason": "Dollar is up +0.30% with hawkish news (+0.86) and gold is moving against it (corr -0.40). Buying fights the dollar.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T19:56:25.826261+00:00"
+      "checked_at": "2026-11-12T20:11:06.917938+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3997.3,
+      "entry_low": 3997.18,
       "entry_high": 4000.52,
-      "sl": 4002.3,
-      "tp1": 3985.35,
+      "sl": 4002.18,
+      "tp1": 3985.52,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.27,
+      "score": 0.31,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T19:56:25.826261+00:00"
+      "checked_at": "2026-11-12T20:11:06.917938+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "down",
     "session": "newyork",
-    "vwap": 3931.3131694409853,
-    "atr": 3.2414285714286115,
+    "vwap": 3930.818750628336,
+    "atr": 3.027142857142865,
     "day_low": 3852.51,
     "day_high": 4000.52,
-    "range_pos": 0.21403959191946414
+    "range_pos": 0.21458009593946228
   },
   "dxy": {
     "ok": true,
-    "last": 103.20500183105469,
-    "pct": 0.33345873205280274,
+    "last": 103.17400360107422,
+    "pct": 0.30332298695002824,
     "state": "up",
-    "corr": -0.39842185534706304
+    "corr": -0.39647448129613216
   },
   "oil": {
     "ok": true,
-    "last": 88.98999786376953,
-    "pct": 3.1887755891924807,
+    "last": 88.87999725341797,
+    "pct": 3.0612238578887228,
     "state": "up",
-    "corr": -0.132119589805331
+    "corr": -0.16259984502373553
   },
   "news": {
-    "usd": 0.8603202690091041,
-    "oil": -0.3712400482804988,
+    "usd": 0.8556707595159094,
+    "oil": -0.20801586557578058,
     "shock": true,
     "usd_headlines": [
       "US Dollar Nudges Higher Against The Loonie on Rate Hike Expectations And As Oil Prices Rise - Moomoo",
@@ -80,7 +80,7 @@
     ],
     "oil_headlines": [
       "Gas prices might stay high for a while \u2014 even if crude oil falls. Here's why. - Yahoo Finance",
-      "Crude oil inventories rise unexpectedly, pressuring prices By Investing.com - Investing.com Canada",
+      "Crude oil inventories rise unexpectedly, pressuring prices By Investing.com - Investing.com India",
       "US crude oil inventories rise 4.657M barrels, defying forecast - Crypto Briefing"
     ]
   },
@@ -104,20 +104,14 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.46883661539116267,
-      "trust": 0.8372082417699332
+      "score": 0.3889630848811073,
+      "trust": 0.6945769372876915
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2663763608028958,
-      "trust": 0.8276392741559205
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.10111953443120622,
-      "trust": 0.8426627869267186
+      "score": 0.3052033536189031,
+      "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
@@ -130,6 +124,12 @@
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.09331590052211426,
+      "trust": 0.7776325043509522
     }
   ],
   "record": {
