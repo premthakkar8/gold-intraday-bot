@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-12T01:43:50.140271+00:00",
-  "atr": 5.170000000000008,
-  "price": 3983.76,
+  "updated_at": "2026-11-12T01:58:33.082394+00:00",
+  "atr": 5.089285714285779,
+  "price": 3986.4,
   "stance": "Strategy: the BUY plan from 00:15 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3968.76,
-      "entry_high": 3970.92,
-      "sl": 3965.92,
-      "tp1": 3985.53,
+      "entry_high": 3970.96,
+      "sl": 3965.96,
+      "tp1": 3985.46,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,36 +19,36 @@
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.63 (Trade the oil shock), oil supply news +1.00.",
+      "reason": "Score 0.63 (Trade the oil shock), oil supply news +1.00, price below VWAP.",
       "created_at": "2026-11-12T00:15:39.135754+00:00",
-      "checked_at": "2026-11-12T01:56:58.412363+00:00"
+      "checked_at": "2026-11-12T02:11:39.457142+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3998.36,
+      "entry_low": 3998.32,
       "entry_high": 4000.52,
-      "sl": 4003.36,
-      "tp1": 3988.09,
-      "tp2": 3983.75,
-      "rr": 2.9,
+      "sl": 4003.32,
+      "tp1": 3987.47,
+      "tp2": 3983.82,
+      "rr": 3.1,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.57,
+      "score": 0.58,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.57 (Trade with the dollar), hawkish dollar news +0.92, price above VWAP.",
+      "reason": "Score 0.58 (Trade with the dollar), hawkish dollar news +0.93.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T01:56:58.412363+00:00"
+      "checked_at": "2026-11-12T02:11:39.457142+00:00"
     }
   ],
   "research": [
-    "Gold 3989.35 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3988.09, ATR 5.17, day range 3968.76-4000.52.",
-    "DXY 102.88 (+0.02% today, flat), gold-dollar corr -0.39.",
-    "WTI 85.51 (-0.85% today, down), gold-oil corr -0.31.",
-    "Headlines: dollar +0.92, oil +1.00, fresh shock.",
-    "Dollar: Today's USD exchange rate (November 12): The US dollar strengthens significantly. - Vietnam.vn",
+    "Gold 3984.50 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3987.47, ATR 5.09, day range 3968.76-4000.52.",
+    "DXY 102.86 (-0.00% today, flat), gold-dollar corr -0.40.",
+    "WTI 85.48 (-0.88% today, down), gold-oil corr -0.35.",
+    "Headlines: dollar +0.93, oil +1.00, fresh shock.",
+    "Dollar: Canadian Dollar remains steady as hawkish Fed bets keep US Dollar stable - FXStreet",
     "Oil: Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Gains Ground As Iran Wants To Keep Nuclear Material Inside The Country - FXEmpire",
     "No high-impact US release in the next 24 hours."
   ],
@@ -296,5 +296,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-12T01:56:58.412363+00:00"
+  "last_check": "2026-11-12T02:11:39.457142+00:00"
 }

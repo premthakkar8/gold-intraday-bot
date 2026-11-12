@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-12 01:43 UTC",
+  "updated": "2026-11-12 01:58 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3989.35,
+  "price": 3984.5,
   "stance": "Strategy: the BUY plan from 00:15 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3968.76,
-      "entry_high": 3970.92,
-      "sl": 3965.92,
-      "tp1": 3985.53,
+      "entry_high": 3970.96,
+      "sl": 3965.96,
+      "tp1": 3985.46,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,87 +19,64 @@
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.63 (Trade the oil shock), oil supply news +1.00.",
+      "reason": "Score 0.63 (Trade the oil shock), oil supply news +1.00, price below VWAP.",
       "created_at": "2026-11-12T00:15:39.135754+00:00",
-      "checked_at": "2026-11-12T01:43:50.140271+00:00"
+      "checked_at": "2026-11-12T01:58:33.082394+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3998.36,
+      "entry_low": 3998.32,
       "entry_high": 4000.52,
-      "sl": 4003.36,
-      "tp1": 3988.09,
-      "tp2": 3983.75,
-      "rr": 2.9,
+      "sl": 4003.32,
+      "tp1": 3987.47,
+      "tp2": 3983.82,
+      "rr": 3.1,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.57,
+      "score": 0.58,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.57 (Trade with the dollar), hawkish dollar news +0.92, price above VWAP.",
+      "reason": "Score 0.58 (Trade with the dollar), hawkish dollar news +0.93.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T01:43:50.140271+00:00"
+      "checked_at": "2026-11-12T01:58:33.082394+00:00"
     }
   ],
-  "active": [
-    {
-      "side": "SELL",
-      "entry_low": 3998.01,
-      "entry_high": 3999.81,
-      "sl": 4003.01,
-      "tp1": 3985.39,
-      "tp2": 3982.5,
-      "rr": 3.3,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.56,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.56 (Trade with the dollar), hawkish dollar news +0.92, price above VWAP.",
-      "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T01:15:30.633405+00:00",
-      "entry": 3998.01,
-      "entered_at": "2026-11-12T01:15:30.633405+00:00",
-      "closed": null
-    }
-  ],
+  "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
     "htf": "up",
     "session": "asia",
-    "vwap": 3988.0890274652998,
-    "atr": 5.170000000000008,
+    "vwap": 3987.472515536428,
+    "atr": 5.089285714285779,
     "day_low": 3968.76,
     "day_high": 4000.52,
-    "range_pos": 0.6482997481108264
+    "range_pos": 0.4955919395465963
   },
   "dxy": {
     "ok": true,
-    "last": 102.88099670410156,
-    "pct": 0.018468620552771004,
+    "last": 102.86000061035156,
+    "pct": -0.0019432845722192785,
     "state": "flat",
-    "corr": -0.38711655320424543
+    "corr": -0.40036335457301997
   },
   "oil": {
     "ok": true,
-    "last": 85.51000213623047,
-    "pct": -0.8464700204332247,
+    "last": 85.4800033569336,
+    "pct": -0.8812552477522967,
     "state": "down",
-    "corr": -0.3127954534094829
+    "corr": -0.35288224341177843
   },
   "news": {
-    "usd": 0.9187129053581442,
+    "usd": 0.9264692083460089,
     "oil": 1.0,
     "shock": true,
     "usd_headlines": [
+      "Canadian Dollar remains steady as hawkish Fed bets keep US Dollar stable - FXStreet",
       "Today's USD exchange rate (November 12): The US dollar strengthens significantly. - Vietnam.vn",
-      "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem - Reuters",
-      "U.S. Dollar Rallies As Traders Bet On Hawkish Fed: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire"
+      "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem - Reuters"
     ],
     "oil_headlines": [
       "Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Gains Ground As Iran Wants To Keep Nuclear Material Inside The Country - FXEmpire",
@@ -134,13 +111,13 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.6291745296782704,
-      "trust": 0.9986897296480481
+      "score": 0.6291756982834876,
+      "trust": 0.9986915845769645
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5695498396435893,
+      "score": 0.5770732942596234,
       "trust": 1.036505086220017
     },
     {
@@ -152,14 +129,14 @@
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.12272101858479663,
-      "trust": 1.2272101858479663
+      "score": 0.12268885279983617,
+      "trust": 1.2268885279983617
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.09986952322408725,
-      "trust": 0.9986952322408724
+      "score": 0.09986970793798555,
+      "trust": 0.9986970793798555
     }
   ],
   "record": {
