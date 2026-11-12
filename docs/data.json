@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-12 02:42 UTC",
+  "updated": "2026-11-12 02:57 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3974.89,
+  "price": 3979.68,
   "stance": "Strategy: the SELL plan from 02:27 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3968.76,
-      "entry_high": 3971.01,
-      "sl": 3966.01,
-      "tp1": 3985.38,
+      "entry_high": 3971.2,
+      "sl": 3966.2,
+      "tp1": 3985.1,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,57 +21,57 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T00:15:39.135754+00:00",
-      "checked_at": "2026-11-12T02:42:26.235183+00:00"
+      "checked_at": "2026-11-12T02:57:05.825925+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3998.27,
+      "entry_low": 3998.08,
       "entry_high": 4000.52,
-      "sl": 4003.27,
-      "tp1": 3986.64,
-      "tp2": 3983.9,
-      "rr": 3.3,
+      "sl": 4003.08,
+      "tp1": 3986.03,
+      "tp2": 3984.18,
+      "rr": 3.5,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.38,
-      "style": "dollar_lead",
+      "score": 0.4,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.38 (Trade with the dollar), hawkish dollar news +1.00.",
+      "reason": "Score 0.40 (Trade with the intraday trend), dollar firmer +0.14%, hawkish dollar news +1.00.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T02:42:26.235183+00:00"
+      "checked_at": "2026-11-12T02:57:05.825925+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3986.640675394749,
-    "atr": 4.991428571428644,
+    "vwap": 3986.031887139389,
+    "atr": 4.6521428571428975,
     "day_low": 3968.76,
     "day_high": 4000.52,
-    "range_pos": 0.19301007556674118
+    "range_pos": 0.34382871536522985
   },
   "dxy": {
     "ok": true,
-    "last": 102.93099975585938,
-    "pct": 0.06708040332500441,
-    "state": "flat",
-    "corr": -0.3021346178346078
+    "last": 103.01000213623047,
+    "pct": 0.14388464662779307,
+    "state": "up",
+    "corr": -0.3794602267595337
   },
   "oil": {
     "ok": true,
-    "last": 85.93000030517578,
-    "pct": -0.35945914456473305,
-    "state": "flat",
-    "corr": -0.22251557086176907
+    "last": 85.83000183105469,
+    "pct": -0.47541285119522025,
+    "state": "down",
+    "corr": -0.20566292268813005
   },
   "news": {
     "usd": 1.0,
-    "oil": 0.3043601419197809,
+    "oil": 0.30222689147176635,
     "shock": true,
     "usd_headlines": [
       "Canadian Dollar remains steady as hawkish Fed bets keep US Dollar stable - FXStreet",
@@ -109,28 +109,28 @@
   ],
   "scorecard": [
     {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.4048000000000001,
+      "trust": 1.0
+    },
+    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.46421381984207744,
-      "trust": 0.7033542724879961
+      "score": 0.4001840539608461,
+      "trust": 0.7146143820729394
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.38181104074984384,
-      "trust": 1.2247516439525472
+      "score": 0.23009482032493367,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11694489743631452,
-      "trust": 1.169448974363145
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.08318917871126214,
-      "trust": 0.8318917871126214
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
