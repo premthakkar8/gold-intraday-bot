@@ -660,3 +660,6 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-12 00:19 UTC  live: SELL valid again
 2026-11-12 00:30 UTC  live: gold 3982.89 | holding long oil_shock fce85e49 | new read flat stand_aside not opened
 2026-11-12 00:45 UTC  live: gold 3985.99 | holding long oil_shock fce85e49 | new read long oil_shock not opened
+2026-11-12 00:59 UTC  live: gold 3994.77 | holding long oil_shock fce85e49 | new read short dollar_lead not opened
+2026-11-12 01:00 UTC  live: SELL entry reached at 3994.40
+2026-11-12 01:05 UTC  live: SELL SL hit
