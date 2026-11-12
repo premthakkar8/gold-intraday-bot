@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-12 19:12 UTC",
+  "updated": "2026-11-12 19:27 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3879.14,
+  "price": 3879.25,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3852.51,
-      "entry_high": 3855.44,
-      "sl": 3850.44,
-      "tp1": 3868.12,
+      "entry_high": 3855.58,
+      "sl": 3850.58,
+      "tp1": 3867.91,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,16 +19,16 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.37% with hawkish news (+0.78) and gold is moving against it (corr -0.32). Buying fights the dollar.",
+      "reason": "Dollar is up +0.32% with hawkish news (+0.78) and gold is moving against it (corr -0.43). Buying fights the dollar.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T19:12:27.459221+00:00"
+      "checked_at": "2026-11-12T19:27:03.798788+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3997.59,
+      "entry_low": 3997.45,
       "entry_high": 4000.52,
-      "sl": 4002.59,
-      "tp1": 3984.91,
+      "sl": 4002.45,
+      "tp1": 3985.12,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T19:12:27.459221+00:00"
+      "checked_at": "2026-11-12T19:27:03.798788+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "down",
     "session": "newyork",
-    "vwap": 3933.0420143142633,
-    "atr": 3.7700000000000142,
+    "vwap": 3932.4285206203826,
+    "atr": 3.5135714285714648,
     "day_low": 3852.51,
     "day_high": 4000.52,
-    "range_pos": 0.17992027565704816
+    "range_pos": 0.18066346868454716
   },
   "dxy": {
     "ok": true,
-    "last": 103.24099731445312,
-    "pct": 0.36845268858612545,
+    "last": 103.19200134277344,
+    "pct": 0.3208199652166896,
     "state": "up",
-    "corr": -0.31916921516502406
+    "corr": -0.42994038106945265
   },
   "oil": {
     "ok": true,
-    "last": 88.47000122070312,
-    "pct": 2.5858110066935023,
+    "last": 88.56999969482422,
+    "pct": 2.7017647133239895,
     "state": "up",
-    "corr": -0.253276833328242
+    "corr": -0.31884658343037114
   },
   "news": {
-    "usd": 0.7802745742168532,
-    "oil": -0.1926691179629553,
+    "usd": 0.7820392604714617,
+    "oil": -0.19427777065048774,
     "shock": true,
     "usd_headlines": [
       "US Dollar Nudges Higher Against The Loonie on Rate Hike Expectations And As Oil Prices Rise - Moomoo",
@@ -79,7 +79,7 @@
       "Fed faces tougher inflation fight as pressure builds for more rate hikes - Axios"
     ],
     "oil_headlines": [
-      "Crude oil inventories rise unexpectedly, pressuring prices By Investing.com - Investing.com India",
+      "Crude oil inventories rise unexpectedly, pressuring prices By Investing.com - Investing.com Canada",
       "US crude oil inventories rise 4.657M barrels, defying forecast - Crypto Briefing",
       "Brazilian and African oil gains ground in Asia due to falling freight rates - Inspenet"
     ]
@@ -110,7 +110,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3125777078123408,
+      "score": 0.31324004162964925,
       "trust": 1.0
     },
     {
