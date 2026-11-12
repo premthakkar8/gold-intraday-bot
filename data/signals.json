@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-12T13:55:44.196295+00:00",
-  "atr": 9.738571428571472,
-  "price": 3888.18,
+  "updated_at": "2026-11-12T14:10:31.770401+00:00",
+  "atr": 10.579285714285756,
+  "price": 3902.96,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.28). Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3889.02 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3960.52, ATR 9.74, day range 3884.95-4000.52.",
-    "DXY 102.93 (+0.07% today, flat), gold-dollar corr -0.39.",
-    "WTI 87.03 (+0.92% today, up), gold-oil corr -0.08.",
-    "Headlines: dollar +0.70, oil +0.57, fresh shock.",
+    "Gold 3883.59 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3958.64, ATR 10.58, day range 3883.39-4000.52.",
+    "DXY 102.90 (+0.03% today, flat), gold-dollar corr -0.47.",
+    "WTI 86.67 (+0.50% today, up), gold-oil corr -0.09.",
+    "Headlines: dollar +0.68, oil +0.69, fresh shock.",
     "Dollar: US Dollar Falls Early Thursday Ahead of Jobless Claims, Existing Home Sales - marketscreener.com",
-    "Oil: Global OPEC+ oil exports close to prewar levels amid ongoing incidents in Strait of Hormuz - Rudaw",
+    "Oil: 10-year Treasury yield jumps back above 5% as oil gains, more Fed hikes expected - CNBC",
     "Next high-impact US release: Core PPI m/m Fri 13:30 UTC."
   ],
   "active": [
@@ -81,5 +81,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-12T14:08:51.500335+00:00"
+  "last_check": "2026-11-12T14:23:49.308750+00:00"
 }
