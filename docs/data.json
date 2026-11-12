@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-12 08:33 UTC",
+  "updated": "2026-11-12 08:48 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3952.49,
-  "stance": "Strategy: BUY is the trade (Trade the oil shock, confidence 58%).",
+  "price": 3939.97,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.37). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3945.19,
-      "entry_high": 3947.65,
-      "sl": 3942.65,
-      "tp1": 3961.5,
+      "entry_low": 3939.75,
+      "entry_high": 3942.02,
+      "sl": 3937.02,
+      "tp1": 3956.35,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.59,
+      "score": 0.32,
       "style": "oil_shock",
-      "favored": true,
-      "ready": true,
+      "favored": false,
+      "ready": false,
       "status": "invalid",
       "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
-      "created_at": "2026-11-12T08:33:30.847890+00:00",
-      "checked_at": "2026-11-12T08:33:30.847890+00:00"
+      "created_at": "2026-11-12T08:48:08.510691+00:00",
+      "checked_at": "2026-11-12T08:48:08.510691+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3998.06,
+      "entry_low": 3998.25,
       "entry_high": 4000.52,
-      "sl": 4003.06,
-      "tp1": 3984.21,
+      "sl": 4003.25,
+      "tp1": 3983.92,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.37,
       "style": "trend_align",
-      "favored": false,
+      "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T08:33:30.847890+00:00"
+      "checked_at": "2026-11-12T08:48:08.510691+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "down",
     "htf": "down",
     "session": "london",
-    "vwap": 3977.234507332964,
-    "atr": 4.622857142857096,
-    "day_low": 3945.19,
+    "vwap": 3976.2882616326733,
+    "atr": 4.966428571428521,
+    "day_low": 3939.75,
     "day_high": 4000.52,
-    "range_pos": 0.1319356587746202
+    "range_pos": 0.003620207339144314
   },
   "dxy": {
     "ok": true,
-    "last": 102.91400146484375,
-    "pct": 0.050555067344452684,
+    "last": 102.9000015258789,
+    "pct": 0.03694465822222987,
     "state": "flat",
-    "corr": -0.36366376777293197
+    "corr": -0.4633293521948341
   },
   "oil": {
     "ok": true,
-    "last": 87.27999877929688,
-    "pct": 1.2059380116987002,
+    "last": 87.0999984741211,
+    "pct": 0.9972178010835262,
     "state": "up",
-    "corr": -0.2646621016496221
+    "corr": -0.2879731539509488
   },
   "news": {
     "usd": 1.0,
-    "oil": 0.40307785467983664,
+    "oil": 0.4062719364110384,
     "shock": true,
     "usd_headlines": [
       "New Zealand Dollar depreciates as hawkish Fed rate hike bets lift US Dollar - FXStreet",
@@ -109,12 +109,6 @@
   ],
   "scorecard": [
     {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.5894611222477161,
-      "trust": 0.9987404008126134
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
       "score": 0.46502695475992784,
@@ -129,8 +123,14 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.32193636759377603,
+      "score": 0.3363842604732898,
       "trust": 1.0040776451882074
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.31723859499088086,
+      "trust": 0.6320755066858597
     },
     {
       "style": "Fade the session range",
@@ -140,10 +140,10 @@
     }
   ],
   "record": {
-    "graded": 90,
+    "graded": 91,
     "wins": 26,
-    "losses": 46,
+    "losses": 47,
     "scratches": 18,
-    "avg_r": -0.1300631748686231
+    "avg_r": -0.13962292019973713
   }
 }
