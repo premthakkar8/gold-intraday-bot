@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-12 23:29 UTC",
+  "updated": "2026-11-12 23:43 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3876.88,
+  "price": 3879.38,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.32). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3852.51,
-      "entry_high": 3856.28,
-      "sl": 3851.28,
-      "tp1": 3866.86,
+      "entry_high": 3856.23,
+      "sl": 3851.23,
+      "tp1": 3866.93,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "invalid",
       "reason": "Dollar is up +0.30% with hawkish news (+0.93) and gold is moving against it (corr -0.45). Buying fights the dollar.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T23:29:09.004828+00:00"
+      "checked_at": "2026-11-12T23:43:53.944226+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3996.75,
+      "entry_low": 3996.8,
       "entry_high": 4000.52,
-      "sl": 4001.75,
-      "tp1": 3986.17,
+      "sl": 4001.8,
+      "tp1": 3986.1,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T23:29:09.004828+00:00"
+      "checked_at": "2026-11-12T23:43:53.944226+00:00"
     }
   ],
   "active": [],
@@ -49,11 +49,11 @@
     "structure": "sideways",
     "htf": "down",
     "session": "late",
-    "vwap": 3927.3729650704886,
-    "atr": 2.2449999999999233,
+    "vwap": 3927.0409050911376,
+    "atr": 2.3299999999999597,
     "day_low": 3852.51,
     "day_high": 4000.52,
-    "range_pos": 0.1646510370920879
+    "range_pos": 0.1815417877170457
   },
   "dxy": {
     "ok": true,
@@ -64,14 +64,14 @@
   },
   "oil": {
     "ok": true,
-    "last": 88.79000091552734,
-    "pct": 2.9568681759315067,
+    "last": 88.80000305175781,
+    "pct": 2.968466200604778,
     "state": "up",
-    "corr": -0.4216349943334656
+    "corr": -0.4428301155035671
   },
   "news": {
-    "usd": 0.9270240743147895,
-    "oil": -0.08459130713657606,
+    "usd": 0.9327981509764001,
+    "oil": -0.08358964271588108,
     "shock": true,
     "usd_headlines": [
       "U.S. Dollar Tests Yearly Highs As Traders Focus On Hawkish Fed Policy Outlook: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
@@ -110,7 +110,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3170863354147591,
+      "score": 0.31756269673934195,
       "trust": 1.0
     },
     {
