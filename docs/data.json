@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-12 16:29 UTC",
+  "updated": "2026-11-12 16:44 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3874.96,
+  "price": 3869.85,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3852.51,
-      "entry_high": 3854.15,
-      "sl": 3849.15,
-      "tp1": 3870.04,
+      "entry_high": 3854.42,
+      "sl": 3849.42,
+      "tp1": 3869.64,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,28 +19,28 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.27% with hawkish news (+0.68) and gold is moving against it (corr -0.43). Buying fights the dollar.",
+      "reason": "Dollar is up +0.29% with hawkish news (+0.78) and gold is moving against it (corr -0.41). Buying fights the dollar.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T16:29:44.805059+00:00"
+      "checked_at": "2026-11-12T16:44:28.350053+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3998.88,
+      "entry_low": 3998.61,
       "entry_high": 4000.52,
-      "sl": 4003.88,
-      "tp1": 3982.99,
+      "sl": 4003.61,
+      "tp1": 3983.39,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.23,
+      "score": 0.24,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 123.92 away from the entry (20.3 ATR). Unlikely to fill soon.",
+      "reason": "Price is 128.76 away from the entry (22.9 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T16:29:44.805059+00:00"
+      "checked_at": "2026-11-12T16:44:28.350053+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3942.5838879172234,
-    "atr": 6.102857142857147,
+    "vwap": 3941.283326303894,
+    "atr": 5.612857142857138,
     "day_low": 3852.51,
     "day_high": 4000.52,
-    "range_pos": 0.1516789406121198
+    "range_pos": 0.11715424633470521
   },
   "dxy": {
     "ok": true,
-    "last": 103.13999938964844,
-    "pct": 0.2702648978722369,
+    "last": 103.16400146484375,
+    "pct": 0.29359914697224393,
     "state": "up",
-    "corr": -0.42679538732720035
+    "corr": -0.41059545654898144
   },
   "oil": {
     "ok": true,
-    "last": 86.73999786376953,
-    "pct": 0.5797773798531785,
+    "last": 86.94999694824219,
+    "pct": 0.8232828177874243,
     "state": "up",
-    "corr": -0.1123259120702749
+    "corr": -0.1309454225651097
   },
   "news": {
-    "usd": 0.6809912126125792,
-    "oil": 0.6441359030393354,
+    "usd": 0.7779043356197043,
+    "oil": 0.6391330598330123,
     "shock": true,
     "usd_headlines": [
       "US Treasury yields rise after Trump comments raise concerns of Iran escalation - The Business Times",
@@ -110,14 +110,14 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.3125144518854899,
+      "score": 0.3105343610605877,
       "trust": 0.7196238194384107
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.22882180760795362,
-      "trust": 0.8241753742300637
+      "score": 0.24375694536115286,
+      "trust": 0.8244244561950416
     },
     {
       "style": "Trade with the intraday trend",

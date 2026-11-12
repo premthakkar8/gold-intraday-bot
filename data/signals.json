@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-12T16:29:44.805059+00:00",
-  "atr": 6.102857142857147,
-  "price": 3867.45,
+  "updated_at": "2026-11-12T16:44:28.350053+00:00",
+  "atr": 5.612857142857138,
+  "price": 3880.61,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3852.51,
-      "entry_high": 3854.15,
-      "sl": 3849.15,
-      "tp1": 3870.04,
+      "entry_high": 3854.42,
+      "sl": 3849.42,
+      "tp1": 3869.64,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,35 +19,35 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.27% with hawkish news (+0.68) and gold is moving against it (corr -0.43). Buying fights the dollar.",
+      "reason": "Dollar is up +0.29% with hawkish news (+0.78) and gold is moving against it (corr -0.41). Buying fights the dollar.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T16:42:53.897831+00:00"
+      "checked_at": "2026-11-12T16:57:42.481108+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3998.88,
+      "entry_low": 3998.61,
       "entry_high": 4000.52,
-      "sl": 4003.88,
-      "tp1": 3982.99,
+      "sl": 4003.61,
+      "tp1": 3983.39,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.23,
+      "score": 0.24,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 123.92 away from the entry (20.3 ATR). Unlikely to fill soon.",
+      "reason": "Price is 128.76 away from the entry (22.9 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T16:42:53.897831+00:00"
+      "checked_at": "2026-11-12T16:57:42.481108+00:00"
     }
   ],
   "research": [
-    "Gold 3874.96 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3942.58, ATR 6.10, day range 3852.51-4000.52.",
-    "DXY 103.14 (+0.27% today, up), gold-dollar corr -0.43.",
-    "WTI 86.74 (+0.58% today, up), gold-oil corr -0.11.",
-    "Headlines: dollar +0.68, oil +0.64, fresh shock.",
+    "Gold 3869.85 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3941.28, ATR 5.61, day range 3852.51-4000.52.",
+    "DXY 103.16 (+0.29% today, up), gold-dollar corr -0.41.",
+    "WTI 86.95 (+0.82% today, up), gold-oil corr -0.13.",
+    "Headlines: dollar +0.78, oil +0.64, fresh shock.",
     "Dollar: US Treasury yields rise after Trump comments raise concerns of Iran escalation - The Business Times",
     "Oil: 10-year Treasury yield jumps back above 5% as oil gains, more Fed hikes expected - CNBC",
     "Next high-impact US release: Core PPI m/m Fri 13:30 UTC."
@@ -120,5 +120,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-12T16:42:53.897831+00:00"
+  "last_check": "2026-11-12T16:57:42.481108+00:00"
 }
