@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-12 01:29 UTC",
+  "updated": "2026-11-12 01:43 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3994.54,
+  "price": 3989.35,
   "stance": "Strategy: the BUY plan from 00:15 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3968.76,
-      "entry_high": 3970.87,
-      "sl": 3965.87,
-      "tp1": 3985.59,
+      "entry_high": 3970.92,
+      "sl": 3965.92,
+      "tp1": 3985.53,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.35,
+      "score": 0.63,
       "style": "oil_shock",
-      "favored": false,
+      "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.35 (Trade the oil shock), oil supply news +1.00.",
+      "reason": "Score 0.63 (Trade the oil shock), oil supply news +1.00.",
       "created_at": "2026-11-12T00:15:39.135754+00:00",
-      "checked_at": "2026-11-12T01:29:08.277132+00:00"
+      "checked_at": "2026-11-12T01:43:50.140271+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3998.41,
+      "entry_low": 3998.36,
       "entry_high": 4000.52,
-      "sl": 4003.41,
-      "tp1": 3987.45,
-      "tp2": 3983.69,
-      "rr": 3.0,
+      "sl": 4003.36,
+      "tp1": 3988.09,
+      "tp2": 3983.75,
+      "rr": 2.9,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.57,
       "style": "dollar_lead",
-      "favored": true,
-      "ready": true,
+      "favored": false,
+      "ready": false,
       "status": "valid",
-      "reason": "Score 0.57 (Trade with the dollar), hawkish dollar news +0.93, price above VWAP.",
+      "reason": "Score 0.57 (Trade with the dollar), hawkish dollar news +0.92, price above VWAP.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T01:29:08.277132+00:00"
+      "checked_at": "2026-11-12T01:43:50.140271+00:00"
     }
   ],
   "active": [
@@ -72,28 +72,28 @@
     "structure": "sideways",
     "htf": "up",
     "session": "asia",
-    "vwap": 3987.4469593091717,
-    "atr": 5.25,
+    "vwap": 3988.0890274652998,
+    "atr": 5.170000000000008,
     "day_low": 3968.76,
     "day_high": 4000.52,
-    "range_pos": 0.8117128463476051
+    "range_pos": 0.6482997481108264
   },
   "dxy": {
     "ok": true,
-    "last": 102.85299682617188,
-    "pct": -0.008752197691674613,
+    "last": 102.88099670410156,
+    "pct": 0.018468620552771004,
     "state": "flat",
-    "corr": -0.3648454672762775
+    "corr": -0.38711655320424543
   },
   "oil": {
     "ok": true,
-    "last": 85.7699966430664,
-    "pct": -0.5449921525341065,
+    "last": 85.51000213623047,
+    "pct": -0.8464700204332247,
     "state": "down",
-    "corr": -0.4216859158805751
+    "corr": -0.3127954534094829
   },
   "news": {
-    "usd": 0.9281904730690964,
+    "usd": 0.9187129053581442,
     "oil": 1.0,
     "shock": true,
     "usd_headlines": [
@@ -114,13 +114,33 @@
       "impact": "Medium",
       "forecast": "194K",
       "previous": "189K"
+    },
+    {
+      "title": "Core PPI m/m",
+      "when": "Fri 13:30 UTC",
+      "impact": "High",
+      "forecast": "0.3%",
+      "previous": "0.7%"
+    },
+    {
+      "title": "PPI m/m",
+      "when": "Fri 13:30 UTC",
+      "impact": "High",
+      "forecast": "0.4%",
+      "previous": "1.3%"
     }
   ],
   "scorecard": [
     {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.6291745296782704,
+      "trust": 0.9986897296480481
+    },
+    {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5682792442400749,
+      "score": 0.5695498396435893,
       "trust": 1.036505086220017
     },
     {
@@ -130,22 +150,16 @@
       "trust": 0.6752261216556943
     },
     {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.34604534846609314,
-      "trust": 0.998687874361019
-    },
-    {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1227531905796875,
-      "trust": 1.227531905796875
+      "score": 0.12272101858479663,
+      "trust": 1.2272101858479663
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.09986933847452806,
-      "trust": 0.9986933847452805
+      "score": 0.09986952322408725,
+      "trust": 0.9986952322408724
     }
   ],
   "record": {
