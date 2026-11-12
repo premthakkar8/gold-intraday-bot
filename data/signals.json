@@ -1,14 +1,53 @@
 {
-  "updated_at": "2026-11-12T15:23:57.506674+00:00",
-  "atr": 9.353571428571481,
-  "price": 3863.7,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
-  "setups": [],
+  "updated_at": "2026-11-12T15:38:33.901142+00:00",
+  "atr": 8.564285714285786,
+  "price": 3865.15,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.37). Take an entry only if price reaches it.",
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3852.51,
+      "entry_high": 3852.8,
+      "sl": 3847.8,
+      "tp1": 3872.08,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.27,
+      "style": "oil_shock",
+      "favored": false,
+      "ready": false,
+      "status": "invalid",
+      "reason": "Dollar is up +0.29% with hawkish news (+0.66) and gold is moving against it (corr -0.43). Buying fights the dollar.",
+      "created_at": "2026-11-12T15:38:33.901142+00:00",
+      "checked_at": "2026-11-12T15:52:16.954372+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 4000.23,
+      "entry_high": 4000.52,
+      "sl": 4005.23,
+      "tp1": 3980.95,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.37,
+      "style": "trend_align",
+      "favored": true,
+      "ready": false,
+      "status": "far",
+      "reason": "Price is 137.67 away from the entry (16.1 ATR). Unlikely to fill soon.",
+      "created_at": "2026-11-12T15:38:33.901142+00:00",
+      "checked_at": "2026-11-12T15:52:16.954372+00:00"
+    }
+  ],
   "research": [
-    "Gold 3853.39 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3949.62, ATR 9.35, day range 3853.26-4000.52.",
-    "DXY 103.10 (+0.23% today, up), gold-dollar corr -0.49.",
-    "WTI 86.96 (+0.83% today, up), gold-oil corr -0.06.",
-    "Headlines: dollar +0.69, oil +0.66, fresh shock.",
+    "Gold 3862.56 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3947.62, ATR 8.56, day range 3852.51-4000.52.",
+    "DXY 103.16 (+0.29% today, up), gold-dollar corr -0.43.",
+    "WTI 87.07 (+0.96% today, up), gold-oil corr -0.06.",
+    "Headlines: dollar +0.66, oil +0.66, fresh shock.",
     "Dollar: US Dollar Falls Early Thursday Ahead of Jobless Claims, Existing Home Sales - marketscreener.com",
     "Oil: 10-year Treasury yield jumps back above 5% as oil gains, more Fed hikes expected - CNBC",
     "Next high-impact US release: Core PPI m/m Fri 13:30 UTC."
@@ -81,5 +120,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-12T15:37:17.362898+00:00"
+  "last_check": "2026-11-12T15:52:16.954372+00:00"
 }
