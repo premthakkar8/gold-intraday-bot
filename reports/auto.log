@@ -699,3 +699,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-12 07:49 UTC  live: gold 3960.48 | holding flat stand_aside ed55937c | new read flat stand_aside not opened
 2026-11-12 08:04 UTC  live: gold 3962.93 | holding flat stand_aside ed55937c | new read flat stand_aside not opened
 2026-11-12 08:18 UTC  live: gold 3956.02 | holding flat stand_aside ed55937c | new read flat stand_aside not opened
+2026-11-12 08:33 UTC  live: gold 3952.49 | opened long oil_shock 1e4635a4 zone 3945.19-3947.65 stop 3942.65 target 3961.50 units 1 risk 5.00 USD tier normal conf 0.58
