@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-12 04:53 UTC",
+  "updated": "2026-11-12 05:08 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3974.53,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.46). Take an entry only if price reaches it.",
+  "price": 3977.11,
+  "stance": "Strategy: BUY is the trade (Trade the oil shock, confidence 56%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3968.76,
-      "entry_high": 3972.11,
-      "sl": 3967.11,
-      "tp1": 3983.74,
+      "entry_high": 3972.22,
+      "sl": 3967.22,
+      "tp1": 3983.58,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.46,
+      "score": 0.56,
       "style": "oil_shock",
       "favored": true,
-      "ready": false,
+      "ready": true,
       "status": "invalid",
       "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-12T00:15:39.135754+00:00",
-      "checked_at": "2026-11-12T04:53:51.589854+00:00"
+      "checked_at": "2026-11-12T05:08:25.876456+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3997.17,
+      "entry_low": 3997.06,
       "entry_high": 4000.52,
-      "sl": 4002.17,
-      "tp1": 3985.54,
+      "sl": 4002.06,
+      "tp1": 3985.7,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T04:53:51.589854+00:00"
+      "checked_at": "2026-11-12T05:08:25.876456+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "down",
     "htf": "down",
     "session": "asia",
-    "vwap": 3983.8764358443323,
-    "atr": 3.004285714285743,
+    "vwap": 3983.633190420689,
+    "atr": 2.8078571428571064,
     "day_low": 3968.76,
     "day_high": 4000.52,
-    "range_pos": 0.18167506297229297
+    "range_pos": 0.26290931989924343
   },
   "dxy": {
     "ok": true,
-    "last": 102.98400115966797,
-    "pct": 0.11860711295556674,
+    "last": 102.99600219726562,
+    "pct": 0.13027423750557027,
     "state": "up",
-    "corr": -0.35176411205888086
+    "corr": -0.7494907539437875
   },
   "oil": {
     "ok": true,
-    "last": 85.30999755859375,
-    "pct": -1.0783862803949416,
+    "last": 85.27999877929688,
+    "pct": -1.1131715077140134,
     "state": "down",
-    "corr": -0.053067640728551115
+    "corr": 0.5893491935121871
   },
   "news": {
     "usd": 1.0,
-    "oil": 0.3770927154597324,
+    "oil": 0.37741217954096173,
     "shock": true,
     "usd_headlines": [
+      "Dollar gains against dong - VnExpress International",
       "New Zealand Dollar faces pressure against US Dollar as traders consider bigger Fed rate hike - FXStreet",
-      "Canadian Dollar remains steady as hawkish Fed bets keep US Dollar stable - FXStreet",
-      "Today's USD exchange rate (November 12): The US dollar strengthens significantly. - Vietnam.vn"
+      "Canadian Dollar remains steady as hawkish Fed bets keep US Dollar stable - FXStreet"
     ],
     "oil_headlines": [
       "Global OPEC+ oil exports close to prewar levels amid ongoing incidents in Strait of Hormuz - Rudaw",
@@ -111,14 +111,14 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.4562403493978599,
+      "score": 0.5593595553673723,
       "trust": 1.0
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.44645563521322756,
-      "trust": 0.7972422057379063
+      "score": 0.43218960439137716,
+      "trust": 0.7717671506988877
     },
     {
       "style": "Trade with the intraday trend",
@@ -129,8 +129,8 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.17270280269445082,
-      "trust": 0.8119927746190339
+      "score": 0.22442609799877397,
+      "trust": 0.8122563261231182
     },
     {
       "style": "Fade the session range",
@@ -140,10 +140,10 @@
     }
   ],
   "record": {
-    "graded": 88,
+    "graded": 89,
     "wins": 26,
-    "losses": 44,
+    "losses": 45,
     "scratches": 18,
-    "avg_r": -0.11029188338836451
+    "avg_r": -0.1202886037997312
   }
 }
