@@ -1,36 +1,36 @@
 {
-  "updated": "2026-11-12 00:59 UTC",
+  "updated": "2026-11-12 01:14 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3994.77,
+  "price": 3997.56,
   "stance": "Strategy: the BUY plan from 00:15 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3968.76,
-      "entry_high": 3970.71,
-      "sl": 3965.71,
-      "tp1": 3982.08,
-      "tp2": 3985.83,
-      "rr": 3.1,
+      "entry_high": 3970.56,
+      "sl": 3965.56,
+      "tp1": 3985.39,
+      "tp2": 3986.07,
+      "rr": 3.8,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.42,
+      "score": 0.35,
       "style": "oil_shock",
       "favored": false,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.42 (Trade the oil shock), oil supply news +1.00.",
+      "reason": "Score 0.35 (Trade the oil shock), oil supply news +1.00.",
       "created_at": "2026-11-12T00:15:39.135754+00:00",
-      "checked_at": "2026-11-12T00:59:45.698748+00:00"
+      "checked_at": "2026-11-12T01:14:26.905274+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3993.44,
-      "entry_high": 3995.39,
-      "sl": 3998.44,
-      "tp1": 3982.08,
-      "tp2": 3978.32,
-      "rr": 3.1,
+      "entry_low": 3998.01,
+      "entry_high": 3999.81,
+      "sl": 4003.01,
+      "tp1": 3985.39,
+      "tp2": 3982.5,
+      "rr": 3.3,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.56,
@@ -39,8 +39,8 @@
       "ready": true,
       "status": "valid",
       "reason": "Score 0.56 (Trade with the dollar), hawkish dollar news +0.92, price above VWAP.",
-      "created_at": "2026-11-12T00:59:45.698748+00:00",
-      "checked_at": "2026-11-12T00:59:45.698748+00:00"
+      "created_at": "2026-11-12T01:14:26.905274+00:00",
+      "checked_at": "2026-11-12T01:14:26.905274+00:00"
     }
   ],
   "active": [],
@@ -49,28 +49,28 @@
     "structure": "sideways",
     "htf": "up",
     "session": "asia",
-    "vwap": 3982.077942541803,
-    "atr": 5.544285714285674,
+    "vwap": 3985.3908335328924,
+    "atr": 5.825714285714249,
     "day_low": 3968.76,
-    "day_high": 3995.39,
-    "range_pos": 0.9767179872324484
+    "day_high": 3999.81,
+    "range_pos": 0.9275362318840573
   },
   "dxy": {
     "ok": true,
-    "last": 102.87100219726562,
-    "pct": 0.008752197691674613,
+    "last": 102.86199951171875,
+    "pct": 0.0,
     "state": "flat",
-    "corr": -0.2969440308697418
+    "corr": -0.34890679763812
   },
   "oil": {
     "ok": true,
-    "last": 86.02999877929688,
-    "pct": -0.24350543793424584,
-    "state": "flat",
-    "corr": -0.2967891848706203
+    "last": 85.87999725341797,
+    "pct": -0.4174404212303478,
+    "state": "down",
+    "corr": -0.30871817956828884
   },
   "news": {
-    "usd": 0.921938702238474,
+    "usd": 0.9212219036217879,
     "oil": 1.0,
     "shock": true,
     "usd_headlines": [
@@ -79,8 +79,8 @@
       "Morning Wrap: ASX 200 to slip as US dollar surges, Nasdaq jumps on AI rebound - Market Index"
     ],
     "oil_headlines": [
-      "Iran says Strait of Hormuz will remain closed until leader of the revolution orders - FXStreet",
       "Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Gains Ground As Iran Wants To Keep Nuclear Material Inside The Country - FXEmpire",
+      "Iran says Strait of Hormuz will remain closed until leader of the revolution orders - FXStreet",
       "Brent crude oil edges higher as US President Trump pauses further action against Iran, easing Middle East supply risk - Traders Union"
     ]
   },
@@ -97,32 +97,32 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5609946775408513,
-      "trust": 1.0637129367405973
+      "score": 0.5604214179343893,
+      "trust": 1.036505086220017
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4599455299139144,
-      "trust": 0.696887166536234
+      "score": 0.44564924029275826,
+      "trust": 0.6752261216556943
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.42152346227897713,
-      "trust": 1.2165179286550565
+      "score": 0.3460447050577722,
+      "trust": 0.998686017482748
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11711322195313652,
-      "trust": 1.1711322195313651
+      "score": 0.12278539016784383,
+      "trust": 1.2278539016784382
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.08297850886919622,
-      "trust": 0.8297850886919622
+      "score": 0.09986915356651292,
+      "trust": 0.9986915356651291
     }
   ],
   "record": {
