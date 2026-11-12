@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-12 17:13 UTC",
+  "updated": "2026-11-12 17:28 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3873.65,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.28). Take an entry only if price reaches it.",
+  "price": 3871.46,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.27). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3852.51,
-      "entry_high": 3854.46,
-      "sl": 3849.46,
-      "tp1": 3869.59,
+      "entry_high": 3854.72,
+      "sl": 3849.72,
+      "tp1": 3869.2,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,28 +19,28 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.26% with hawkish news (+0.83) and gold is moving against it (corr -0.40). Buying fights the dollar.",
+      "reason": "Dollar is up +0.27% with hawkish news (+0.72) and gold is moving against it (corr -0.36). Buying fights the dollar.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T17:13:58.464942+00:00"
+      "checked_at": "2026-11-12T17:28:43.044461+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3998.57,
+      "entry_low": 3998.31,
       "entry_high": 4000.52,
-      "sl": 4003.57,
-      "tp1": 3983.44,
+      "sl": 4003.31,
+      "tp1": 3983.83,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.28,
+      "score": 0.27,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 124.92 away from the entry (22.5 ATR). Unlikely to fill soon.",
+      "reason": "Price is 126.85 away from the entry (25.0 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T17:13:58.464942+00:00"
+      "checked_at": "2026-11-12T17:28:43.044461+00:00"
     }
   ],
   "active": [],
@@ -49,39 +49,39 @@
     "structure": "up",
     "htf": "down",
     "session": "newyork",
-    "vwap": 3939.2624444069293,
-    "atr": 5.554285714285795,
+    "vwap": 3938.296623788119,
+    "atr": 5.078571428571455,
     "day_low": 3852.51,
     "day_high": 4000.52,
-    "range_pos": 0.1428281872846423
+    "range_pos": 0.12803188973717888
   },
   "dxy": {
     "ok": true,
-    "last": 103.13099670410156,
-    "pct": 0.2615127001805623,
+    "last": 103.13999938964844,
+    "pct": 0.2702648978722369,
     "state": "up",
-    "corr": -0.4020594542308939
+    "corr": -0.3602488777671457
   },
   "oil": {
     "ok": true,
-    "last": 86.91000366210938,
-    "pct": 0.7769084124958233,
+    "last": 87.5199966430664,
+    "pct": 1.4842286769520179,
     "state": "up",
-    "corr": -0.08928885934470526
+    "corr": 0.016791843408097428
   },
   "news": {
-    "usd": 0.8342369201662767,
-    "oil": -0.20702274245715047,
+    "usd": 0.7244487576554359,
+    "oil": -0.20941199153106754,
     "shock": true,
     "usd_headlines": [
-      "U.S. Dollar Tests Yearly Highs As Traders Focus On Hawkish Fed Policy Outlook: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
       "Fed faces tougher inflation fight as pressure builds for more rate hikes - Axios",
-      "U.S., Eurozone Bond Yields Rise Ahead of Inflation, Rates Outlook - WSJ"
+      "U.S. Dollar Tests Yearly Highs As Traders Focus On Hawkish Fed Policy Outlook: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
+      "US Treasury yields rise after Trump comments raise concerns of Iran escalation - The Business Times"
     ],
     "oil_headlines": [
-      "Crude oil inventories rise unexpectedly, pressuring prices By Investing.com - Investing.com Nigeria",
+      "Crude oil inventories rise unexpectedly, pressuring prices By Investing.com - Investing.com India",
       "US crude oil inventories rise 4.657M barrels, defying forecast - Crypto Briefing",
-      "10-year Treasury yield jumps back above 5% as oil gains, more Fed hikes expected - CNBC"
+      "10-year Treasury yield jumps back above 5% as oil gains and more Fed rate hikes expected - CNBC"
     ]
   },
   "events": [
@@ -105,12 +105,12 @@
       "style": "Stand aside",
       "bias": "flat",
       "score": 0.5657051982506741,
-      "trust": 0.6428468161939479
+      "trust": 0.6428468161939478
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.28206700810692287,
+      "score": 0.2716148732843022,
       "trust": 1.0
     },
     {
@@ -128,8 +128,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09724615510121362,
-      "trust": 0.8103846258434468
+      "score": 0.09727842705237671,
+      "trust": 0.8106535587698059
     }
   ],
   "record": {

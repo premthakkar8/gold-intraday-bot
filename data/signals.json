@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-12T17:13:58.464942+00:00",
-  "atr": 5.554285714285795,
-  "price": 3872.49,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.28). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-12T17:28:43.044461+00:00",
+  "atr": 5.078571428571455,
+  "price": 3874.83,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.27). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3852.51,
-      "entry_high": 3854.46,
-      "sl": 3849.46,
-      "tp1": 3869.59,
+      "entry_high": 3854.72,
+      "sl": 3849.72,
+      "tp1": 3869.2,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,37 +19,37 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.26% with hawkish news (+0.83) and gold is moving against it (corr -0.40). Buying fights the dollar.",
+      "reason": "Dollar is up +0.27% with hawkish news (+0.72) and gold is moving against it (corr -0.36). Buying fights the dollar.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T17:27:06.356842+00:00"
+      "checked_at": "2026-11-12T17:42:22.713211+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3998.57,
+      "entry_low": 3998.31,
       "entry_high": 4000.52,
-      "sl": 4003.57,
-      "tp1": 3983.44,
+      "sl": 4003.31,
+      "tp1": 3983.83,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.28,
+      "score": 0.27,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "far",
-      "reason": "Price is 124.92 away from the entry (22.5 ATR). Unlikely to fill soon.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T17:27:06.356842+00:00"
+      "checked_at": "2026-11-12T17:42:22.713211+00:00"
     }
   ],
   "research": [
-    "Gold 3873.65 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3939.26, ATR 5.55, day range 3852.51-4000.52.",
-    "DXY 103.13 (+0.26% today, up), gold-dollar corr -0.40.",
-    "WTI 86.91 (+0.78% today, up), gold-oil corr -0.09.",
-    "Headlines: dollar +0.83, oil -0.21, fresh shock.",
-    "Dollar: U.S. Dollar Tests Yearly Highs As Traders Focus On Hawkish Fed Policy Outlook: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
-    "Oil: Crude oil inventories rise unexpectedly, pressuring prices By Investing.com - Investing.com Nigeria",
+    "Gold 3871.46 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3938.30, ATR 5.08, day range 3852.51-4000.52.",
+    "DXY 103.14 (+0.27% today, up), gold-dollar corr -0.36.",
+    "WTI 87.52 (+1.48% today, up), gold-oil corr +0.02.",
+    "Headlines: dollar +0.72, oil -0.21, fresh shock.",
+    "Dollar: Fed faces tougher inflation fight as pressure builds for more rate hikes - Axios",
+    "Oil: Crude oil inventories rise unexpectedly, pressuring prices By Investing.com - Investing.com India",
     "Next high-impact US release: Core PPI m/m Fri 13:30 UTC."
   ],
   "active": [
@@ -120,5 +120,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-12T17:27:06.356842+00:00"
+  "last_check": "2026-11-12T17:42:22.713211+00:00"
 }
