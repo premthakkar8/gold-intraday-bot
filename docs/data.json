@@ -1,77 +1,38 @@
 {
-  "updated": "2026-11-12 13:41 UTC",
+  "updated": "2026-11-12 13:55 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3906.14,
+  "price": 3889.02,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.28). Take an entry only if price reaches it.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 3901.03,
-      "entry_high": 3901.39,
-      "sl": 3896.39,
-      "tp1": 3920.49,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.28,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.28. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-12T13:41:03.139167+00:00",
-      "checked_at": "2026-11-12T13:41:03.139167+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 4000.16,
-      "entry_high": 4000.52,
-      "sl": 4005.16,
-      "tp1": 3981.06,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.25,
-      "style": "dollar_lead",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T13:41:03.139167+00:00"
-    }
-  ],
+  "setups": [],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3962.3207840407367,
-    "atr": 8.438571428571388,
-    "day_low": 3901.03,
+    "vwap": 3960.517715607,
+    "atr": 9.738571428571472,
+    "day_low": 3884.95,
     "day_high": 4000.52,
-    "range_pos": 0.05136194592421031
+    "range_pos": 0.03521675175218619
   },
   "dxy": {
     "ok": true,
-    "last": 102.93599700927734,
-    "pct": 0.0719386147555526,
+    "last": 102.93299865722656,
+    "pct": 0.06902368789722368,
     "state": "flat",
-    "corr": -0.41774959306252585
+    "corr": -0.39063393611488034
   },
   "oil": {
     "ok": true,
-    "last": 87.1500015258789,
-    "pct": 1.0551990777491411,
+    "last": 87.02999877929688,
+    "pct": 0.9160493217721108,
     "state": "up",
-    "corr": -0.09569594230619662
+    "corr": -0.07950574954775948
   },
   "news": {
-    "usd": 0.5866247576588507,
-    "oil": 0.5757881076023139,
+    "usd": 0.697186471903353,
+    "oil": 0.5737667628108495,
     "shock": true,
     "usd_headlines": [
       "US Dollar Falls Early Thursday Ahead of Jobless Claims, Existing Home Sales - marketscreener.com",
@@ -81,7 +42,7 @@
     "oil_headlines": [
       "Global OPEC+ oil exports close to prewar levels amid ongoing incidents in Strait of Hormuz - Rudaw",
       "Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Gains Ground As Iran Wants To Keep Nuclear Material Inside The Country - FXEmpire",
-      "WTI Crude Oil Falls for Fifth Consecutive Day Amid Stalled U.S.-Iran Talks and OPEC+ Output Increase - KuCoin"
+      "Iran says Strait of Hormuz will remain closed until leader of the revolution orders - FXStreet"
     ]
   },
   "events": [
@@ -111,20 +72,20 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4761610683111002,
-      "trust": 0.7214561641077276
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.28366084335473557,
-      "trust": 0.53883828639955
+      "score": 0.454658558926443,
+      "trust": 0.6888766044340046
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2463271056972683,
+      "score": 0.2754532208905792,
       "trust": 1.1320108705494754
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.251938867327837,
+      "trust": 0.5388382863995501
     },
     {
       "style": "Trade with the intraday trend",
@@ -140,10 +101,10 @@
     }
   ],
   "record": {
-    "graded": 94,
+    "graded": 95,
     "wins": 26,
-    "losses": 49,
+    "losses": 50,
     "scratches": 19,
-    "avg_r": -0.1564434652997455
+    "avg_r": -0.1653230077702745
   }
 }
