@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12 22:15 UTC",
+  "updated": "2026-11-12 22:30 UTC",
   "symbol": "VANTAGE:XAUUSD",
   "price": 3877.88,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
@@ -21,7 +21,7 @@
       "status": "invalid",
       "reason": "Dollar is up +0.32% with hawkish news (+0.90) and gold is moving against it (corr -0.43). Buying fights the dollar.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T22:15:30.547471+00:00"
+      "checked_at": "2026-11-12T22:30:13.048484+00:00"
     },
     {
       "side": "SELL",
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T15:38:33.901142+00:00",
-      "checked_at": "2026-11-12T22:15:30.547471+00:00"
+      "checked_at": "2026-11-12T22:30:13.048484+00:00"
     }
   ],
   "active": [],
@@ -57,26 +57,26 @@
   },
   "dxy": {
     "ok": true,
-    "last": 103.19300079345703,
-    "pct": 0.3217916075027992,
+    "last": 103.19200134277344,
+    "pct": 0.3208199652166896,
     "state": "up",
-    "corr": -0.42548223883280517
+    "corr": -0.4254822388328052
   },
   "oil": {
     "ok": true,
     "last": 88.69999694824219,
     "pct": 2.8525036472735485,
     "state": "up",
-    "corr": -0.3614502502740561
+    "corr": -0.3614502502740562
   },
   "news": {
-    "usd": 0.8961954782200078,
-    "oil": 0.15927347928902377,
+    "usd": 0.9044654002838336,
+    "oil": 0.10292917501687678,
     "shock": true,
     "usd_headlines": [
-      "Federal Reserve signals further rate hikes as Daly backs calibrated approach - Traders Union",
-      "Fed has time to calibrate rate hikes, Daly says - Reuters",
-      "Silver Tumbles Over 3% As Fed Rate Hike Bets Fuel US Dollar Rally - TalkMarkets - Howl.Link"
+      "Why has silver fallen over 3% as Fed rate hike bets drive a US Dollar rally? - www.tmgm.com",
+      "Can the US Dollar Index Extend Gains After Hitting a Fresh Year-to-Date High of 103.08 as Fed Rate Hike Bets Rise? - www.tmgm.com",
+      "Fed has time to calibrate rate hikes, Daly says - Reuters"
     ],
     "oil_headlines": [
       "NY Crude Extends Gains 2.6% as Tanker Attacks in Strait of Hormuz Revive Supply Fears; Gold Plunges 2.9% - BigGo Finance",
@@ -110,13 +110,13 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.3422841704806386,
-      "trust": 0.6223348554193429
+      "score": 0.3425780836740018,
+      "trust": 0.6228692430436396
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3225296027352287,
+      "score": 0.32269655387875407,
       "trust": 1.0
     },
     {
