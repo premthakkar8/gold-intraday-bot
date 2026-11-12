@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-12T02:57:05.825925+00:00",
-  "atr": 4.6521428571428975,
-  "price": 3982.0,
+  "updated_at": "2026-11-12T03:11:43.241172+00:00",
+  "atr": 4.3642857142857405,
+  "price": 3978.8,
   "stance": "Strategy: the SELL plan from 02:27 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3968.76,
-      "entry_high": 3971.2,
-      "sl": 3966.2,
-      "tp1": 3985.1,
+      "entry_high": 3971.36,
+      "sl": 3966.36,
+      "tp1": 3984.86,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.22,
+      "style": "oil_shock",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T00:15:39.135754+00:00",
-      "checked_at": "2026-11-12T03:10:13.400836+00:00"
+      "checked_at": "2026-11-12T03:24:51.217715+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3998.08,
+      "entry_low": 3997.92,
       "entry_high": 4000.52,
-      "sl": 4003.08,
-      "tp1": 3986.03,
-      "tp2": 3984.18,
-      "rr": 3.5,
+      "sl": 4002.92,
+      "tp1": 3985.72,
+      "tp2": 3984.42,
+      "rr": 3.6,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.4,
-      "style": "trend_align",
+      "score": 0.38,
+      "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "valid",
-      "reason": "Score 0.40 (Trade with the intraday trend), dollar firmer +0.14%, hawkish dollar news +1.00.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T03:10:13.400836+00:00"
+      "checked_at": "2026-11-12T03:24:51.217715+00:00"
     }
   ],
   "research": [
-    "Gold 3979.68 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3986.03, ATR 4.65, day range 3968.76-4000.52.",
-    "DXY 103.01 (+0.14% today, up), gold-dollar corr -0.38.",
-    "WTI 85.83 (-0.48% today, down), gold-oil corr -0.21.",
+    "Gold 3982.18 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3985.72, ATR 4.36, day range 3968.76-4000.52.",
+    "DXY 103.05 (+0.18% today, up), gold-dollar corr -0.38.",
+    "WTI 85.67 (-0.66% today, down), gold-oil corr -0.18.",
     "Headlines: dollar +1.00, oil +0.30, fresh shock.",
     "Dollar: Canadian Dollar remains steady as hawkish Fed bets keep US Dollar stable - FXStreet",
     "Oil: GIFT Nifty up, signals steady start for Sensex, Nifty; Nvidia plunges 8% after hours, crude oil falls - Moneycontrol.com",
@@ -274,5 +274,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-12T03:10:13.400836+00:00"
+  "last_check": "2026-11-12T03:24:51.217715+00:00"
 }
