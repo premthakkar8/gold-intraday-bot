@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-12 12:27 UTC",
+  "updated": "2026-11-12 12:42 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3942.65,
+  "price": 3932.24,
   "stance": "Strategy: the SELL plan from 10:45 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3924.65,
-      "entry_high": 3927.77,
-      "sl": 3922.77,
-      "tp1": 3939.97,
+      "entry_high": 3927.48,
+      "sl": 3922.48,
+      "tp1": 3940.4,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T09:02:48.372188+00:00",
-      "checked_at": "2026-11-12T12:27:54.314286+00:00"
+      "checked_at": "2026-11-12T12:42:29.904201+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3997.4,
+      "entry_low": 3997.69,
       "entry_high": 4000.52,
-      "sl": 4002.4,
-      "tp1": 3985.2,
+      "sl": 4002.69,
+      "tp1": 3984.77,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.41,
+      "score": 0.4,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T12:27:54.314286+00:00"
+      "checked_at": "2026-11-12T12:42:29.904201+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3967.2364861536507,
-    "atr": 3.4121428571428885,
+    "vwap": 3966.643801705876,
+    "atr": 3.9428571428570973,
     "day_low": 3924.65,
     "day_high": 4000.52,
-    "range_pos": 0.23724792408066464
+    "range_pos": 0.10003954132067618
   },
   "dxy": {
     "ok": true,
-    "last": 102.90399932861328,
-    "pct": 0.04083122736666843,
+    "last": 102.94100189208984,
+    "pct": 0.07680424330278866,
     "state": "flat",
-    "corr": -0.45478158330196206
+    "corr": -0.3927537967182661
   },
   "oil": {
     "ok": true,
-    "last": 85.83000183105469,
-    "pct": -0.47541285119522025,
+    "last": 85.83999633789062,
+    "pct": -0.46382367322269114,
     "state": "down",
-    "corr": -0.15526072473686328
+    "corr": -0.03266334523587936
   },
   "news": {
-    "usd": 0.8838467347136403,
-    "oil": 0.6203193961757817,
+    "usd": 0.8840567046218414,
+    "oil": 0.6256379003283784,
     "shock": true,
     "usd_headlines": [
       "Fed rate hike expectations push ringgit lower against US dollar - Malay Mail",
@@ -117,20 +117,20 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.42117566789668,
+      "score": 0.42410084518060814,
       "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.41439370624937355,
-      "trust": 1.369260593291448
+      "score": 0.4020564286936567,
+      "trust": 1.368742186842212
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11601624453702936,
-      "trust": 1.1601624453702934
+      "score": 0.11599375926616272,
+      "trust": 1.159937592661627
     },
     {
       "style": "Trade with the intraday trend",
