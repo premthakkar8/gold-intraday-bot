@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-12 10:45 UTC",
+  "updated": "2026-11-12 11:00 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3952.68,
-  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 87%).",
+  "price": 3953.79,
+  "stance": "Strategy: the SELL plan from 10:45 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3924.65,
-      "entry_high": 3927.91,
-      "sl": 3922.91,
-      "tp1": 3939.76,
+      "entry_high": 3928.15,
+      "sl": 3923.15,
+      "tp1": 3939.4,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.35,
+      "score": 0.36,
       "style": "oil_shock",
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 24.77 away from the entry (7.8 ATR). Unlikely to fill soon.",
+      "reason": "Price is 25.64 away from the entry (9.4 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-12T09:02:48.372188+00:00",
-      "checked_at": "2026-11-12T10:45:31.992714+00:00"
+      "checked_at": "2026-11-12T11:00:10.147858+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3997.26,
+      "entry_low": 3997.02,
       "entry_high": 4000.52,
-      "sl": 4002.26,
-      "tp1": 3985.41,
+      "sl": 4002.02,
+      "tp1": 3985.77,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.87,
+      "score": 0.86,
       "style": "dollar_lead",
       "favored": false,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T10:45:31.992714+00:00"
+      "checked_at": "2026-11-12T11:00:10.147858+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "sideways",
     "htf": "down",
     "session": "london",
-    "vwap": 3969.767231502145,
-    "atr": 3.1600000000000494,
+    "vwap": 3969.4862331620957,
+    "atr": 2.7285714285714806,
     "day_low": 3924.65,
     "day_high": 4000.52,
-    "range_pos": 0.3694477395544983
+    "range_pos": 0.38407802820614095
   },
   "dxy": {
     "ok": true,
-    "last": 102.83899688720703,
-    "pct": -0.022362606813897422,
+    "last": 102.81199645996094,
+    "pct": -0.0486117827722334,
     "state": "flat",
-    "corr": -0.521437001047614
+    "corr": -0.4926529852945286
   },
   "oil": {
     "ok": true,
-    "last": 85.87000274658203,
-    "pct": -0.42902959920287687,
+    "last": 85.7699966430664,
+    "pct": -0.5449921525341065,
     "state": "down",
-    "corr": -0.15291455079154193
+    "corr": -0.1369603054446743
   },
   "news": {
     "usd": 1.0,
-    "oil": 0.6783382141847527,
+    "oil": 0.6868889649143417,
     "shock": true,
     "usd_headlines": [
+      "U.S. Dollar Extends Rally On Fed Rate Hike Bets - RTTNews",
       "Gold prices fall for third straight day as dollar and Treasury yields rise - Traders Union",
-      "US Dollar: Hawkish skew supports upside risks \u2013 ING - FXStreet",
-      "US dollar extends upside amid hawkish Fed bets - TorFX News"
+      "US Dollar: Hawkish skew supports upside risks \u2013 ING - FXStreet"
     ],
     "oil_headlines": [
       "Global OPEC+ oil exports close to prewar levels amid ongoing incidents in Strait of Hormuz - Rudaw",
@@ -111,7 +111,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.8718264105236264,
+      "score": 0.8612761382474797,
       "trust": 1.396313626900088
     },
     {
@@ -123,14 +123,14 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.35452725560384435,
-      "trust": 0.7824722937247555
+      "score": 0.35834736720467547,
+      "trust": 0.7827785758263526
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11617487141815613,
-      "trust": 1.1617487141815612
+      "score": 0.11615209696934754,
+      "trust": 1.1615209696934754
     },
     {
       "style": "Trade with the intraday trend",
