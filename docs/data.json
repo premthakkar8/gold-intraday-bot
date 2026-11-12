@@ -1,82 +1,82 @@
 {
-  "updated": "2026-11-12 00:15 UTC",
+  "updated": "2026-11-12 00:30 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3973.99,
-  "stance": "Strategy: BUY is the trade (Trade the oil shock, confidence 58%).",
+  "price": 3982.89,
+  "stance": "Strategy: the BUY plan from 00:15 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3968.76,
-      "entry_high": 3971.45,
-      "sl": 3966.45,
-      "tp1": 3984.73,
+      "entry_high": 3971.14,
+      "sl": 3966.14,
+      "tp1": 3985.2,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.63,
+      "score": 0.68,
       "style": "oil_shock",
       "favored": false,
-      "ready": true,
+      "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.61% with hawkish news (+1.00) and gold is moving against it (corr -0.33). Buying fights the dollar.",
+      "reason": "Dollar is up +0.61% with hawkish news (+0.93) and gold is moving against it (corr -0.33). Buying fights the dollar.",
       "created_at": "2026-11-12T00:15:39.135754+00:00",
-      "checked_at": "2026-11-12T00:15:39.135754+00:00"
+      "checked_at": "2026-11-12T00:30:19.852537+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 4004.25,
+      "entry_low": 4004.56,
       "entry_high": 4006.94,
-      "sl": 4009.25,
-      "tp1": 3990.97,
+      "sl": 4009.56,
+      "tp1": 3990.5,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.31,
+      "score": 0.65,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "far",
-      "reason": "Price is 30.26 away from the entry (7.2 ATR). Unlikely to fill soon.",
+      "status": "valid",
+      "reason": "Score 0.65 (Trade with the dollar), dollar firmer +0.61%, hawkish dollar news +0.93.",
       "created_at": "2026-11-12T00:00:56.493886+00:00",
-      "checked_at": "2026-11-12T00:15:39.135754+00:00"
+      "checked_at": "2026-11-12T00:30:19.852537+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "up",
     "session": "asia",
-    "vwap": 3988.983977778814,
-    "atr": 4.203571428571422,
+    "vwap": 3988.1578805555923,
+    "atr": 4.769999999999982,
     "day_low": 3968.76,
     "day_high": 4006.94,
-    "range_pos": 0.136982713462535
+    "range_pos": 0.3700890518596049
   },
   "dxy": {
     "ok": true,
     "last": 102.84300231933594,
     "pct": 0.6075034694332371,
     "state": "up",
-    "corr": -0.32917936525499786
+    "corr": -0.3291793652549978
   },
   "oil": {
     "ok": true,
-    "last": 86.25,
-    "pct": 0.011598024673271437,
+    "last": 86.11000061035156,
+    "pct": -0.15073893394955912,
     "state": "flat",
-    "corr": -0.2703526615350698
+    "corr": -0.3081863688405768
   },
   "news": {
-    "usd": 1.0,
+    "usd": 0.9275101967208704,
     "oil": 1.0,
     "shock": true,
     "usd_headlines": [
+      "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem - Reuters",
       "U.S. Dollar Rallies As Traders Bet On Hawkish Fed: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
-      "Morning Wrap: ASX 200 to slip as US dollar surges, Nasdaq jumps on AI rebound - Market Index",
-      "US Dollar Strengthens Against The Loonie on Rate Hike Expectations - marketscreener.com"
+      "Morning Wrap: ASX 200 to slip as US dollar surges, Nasdaq jumps on AI rebound - Market Index"
     ],
     "oil_headlines": [
       "Iran says Strait of Hormuz will remain closed until leader of the revolution orders - FXStreet",
@@ -97,32 +97,32 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.629415421489232,
-      "trust": 0.9990720976019556
-    },
-    {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.5539611530048917,
-      "trust": 0.8146487544189583
+      "score": 0.675291132713681,
+      "trust": 1.0718906868471128
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3121157344954668,
-      "trust": 0.9396823121311046
+      "score": 0.6520008687005489,
+      "trust": 1.099428609036766
     },
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.2627737625815739,
-      "trust": 0.998684108321579
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.4407190572521748,
+      "trust": 0.7869983165217407
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.0998685966516672,
+      "trust": 0.9986859665166719
     }
   ],
   "record": {
