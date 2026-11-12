@@ -1,80 +1,58 @@
 {
-  "updated_at": "2026-11-12T02:27:45.422459+00:00",
-  "atr": 4.660000000000049,
-  "price": 3976.9,
-  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 58%).",
+  "updated_at": "2026-11-12T02:42:26.235183+00:00",
+  "atr": 4.991428571428644,
+  "price": 3980.49,
+  "stance": "Strategy: the SELL plan from 02:27 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3968.76,
-      "entry_high": 3971.2,
-      "sl": 3966.2,
-      "tp1": 3985.1,
+      "entry_high": 3971.01,
+      "sl": 3966.01,
+      "tp1": 3985.38,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.48,
-      "style": "trend_align",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T00:15:39.135754+00:00",
-      "checked_at": "2026-11-12T02:40:53.257257+00:00"
+      "checked_at": "2026-11-12T02:55:33.549056+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3998.08,
+      "entry_low": 3998.27,
       "entry_high": 4000.52,
-      "sl": 4003.08,
-      "tp1": 3987.23,
-      "tp2": 3984.18,
-      "rr": 3.2,
+      "sl": 4003.27,
+      "tp1": 3986.64,
+      "tp2": 3983.9,
+      "rr": 3.3,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.58,
+      "score": 0.38,
       "style": "dollar_lead",
-      "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.58 (Trade with the dollar), hawkish dollar news +1.00.",
-      "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T02:40:53.257257+00:00"
-    }
-  ],
-  "research": [
-    "Gold 3986.81 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3987.23, ATR 4.66, day range 3968.76-4000.52.",
-    "DXY 102.93 (+0.06% today, flat), gold-dollar corr -0.35.",
-    "WTI 86.10 (-0.16% today, flat), gold-oil corr -0.22.",
-    "Headlines: dollar +1.00, oil +0.58, fresh shock.",
-    "Dollar: Canadian Dollar remains steady as hawkish Fed bets keep US Dollar stable - FXStreet",
-    "Oil: WTI Crude Oil Falls for Fifth Consecutive Day Amid Stalled U.S.-Iran Talks and OPEC+ Output Increase - KuCoin",
-    "No high-impact US release in the next 24 hours."
-  ],
-  "active": [
-    {
-      "side": "BUY",
-      "entry_low": 4010.86,
-      "entry_high": 4013.16,
-      "sl": 4008.16,
-      "tp1": 4027.41,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.55,
-      "style": "oil_shock",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.55 (Trade the oil shock), price below VWAP.",
-      "created_at": "2026-11-11T14:45:03.639259+00:00",
-      "checked_at": "2026-11-11T14:46:08.863194+00:00",
-      "entry": 4013.16,
-      "entered_at": "2026-11-11T14:46:08.863194+00:00",
-      "closed": "tp"
-    },
+      "reason": "Score 0.38 (Trade with the dollar), hawkish dollar news +1.00.",
+      "created_at": "2026-11-12T01:14:26.905274+00:00",
+      "checked_at": "2026-11-12T02:55:33.549056+00:00"
+    }
+  ],
+  "research": [
+    "Gold 3974.89 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3986.64, ATR 4.99, day range 3968.76-4000.52.",
+    "DXY 102.93 (+0.07% today, flat), gold-dollar corr -0.30.",
+    "WTI 85.93 (-0.36% today, flat), gold-oil corr -0.22.",
+    "Headlines: dollar +1.00, oil +0.30, fresh shock.",
+    "Dollar: Canadian Dollar remains steady as hawkish Fed bets keep US Dollar stable - FXStreet",
+    "Oil: GIFT Nifty up, signals steady start for Sensex, Nifty; Nvidia plunges 8% after hours, crude oil falls - Moneycontrol.com",
+    "No high-impact US release in the next 24 hours."
+  ],
+  "active": [
     {
       "side": "BUY",
       "entry_low": 4004.43,
@@ -296,5 +274,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-12T02:40:53.257257+00:00"
+  "last_check": "2026-11-12T02:55:33.549056+00:00"
 }
