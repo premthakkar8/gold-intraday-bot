@@ -1,56 +1,56 @@
 {
-  "updated_at": "2026-11-12T13:26:20.095310+00:00",
-  "atr": 7.012857142857131,
-  "price": 3904.15,
-  "stance": "Strategy: BUY is the trade (Trade the oil shock, confidence 58%).",
+  "updated_at": "2026-11-12T13:41:03.139167+00:00",
+  "atr": 8.438571428571388,
+  "price": 3886.74,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.28). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3911.9,
-      "entry_high": 3913.04,
-      "sl": 3908.04,
-      "tp1": 3930.19,
+      "entry_low": 3901.03,
+      "entry_high": 3901.39,
+      "sl": 3896.39,
+      "tp1": 3920.49,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.59,
+      "score": 0.28,
       "style": "oil_shock",
       "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.59 (Trade the oil shock), oil supply news +0.57, price below VWAP.",
-      "created_at": "2026-11-12T13:26:20.095310+00:00",
-      "checked_at": "2026-11-12T13:39:27.575498+00:00"
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.28. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-12T13:41:03.139167+00:00",
+      "checked_at": "2026-11-12T13:54:15.891677+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3999.38,
+      "entry_low": 4000.16,
       "entry_high": 4000.52,
-      "sl": 4004.38,
-      "tp1": 3982.23,
+      "sl": 4005.16,
+      "tp1": 3981.06,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.19,
+      "score": 0.25,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-12T01:14:26.905274+00:00",
-      "checked_at": "2026-11-12T13:39:27.575498+00:00"
+      "checked_at": "2026-11-12T13:54:15.891677+00:00"
     }
   ],
   "research": [
-    "Gold 3911.90 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3963.94, ATR 7.01, day range 3911.90-4000.52.",
-    "DXY 102.99 (+0.13% today, up), gold-dollar corr -0.62.",
-    "WTI 87.49 (+1.45% today, up), gold-oil corr -0.35.",
-    "Headlines: dollar +0.70, oil +0.57, fresh shock.",
+    "Gold 3906.14 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3962.32, ATR 8.44, day range 3901.03-4000.52.",
+    "DXY 102.94 (+0.07% today, flat), gold-dollar corr -0.42.",
+    "WTI 87.15 (+1.06% today, up), gold-oil corr -0.10.",
+    "Headlines: dollar +0.59, oil +0.58, fresh shock.",
     "Dollar: US Dollar Falls Early Thursday Ahead of Jobless Claims, Existing Home Sales - marketscreener.com",
     "Oil: Global OPEC+ oil exports close to prewar levels amid ongoing incidents in Strait of Hormuz - Rudaw",
-    "No high-impact US release in the next 24 hours."
+    "Next high-impact US release: Core PPI m/m Fri 13:30 UTC."
   ],
   "active": [
     {
@@ -96,7 +96,29 @@
       "entry": 3913.04,
       "entered_at": "2026-11-12T13:27:24.013598+00:00",
       "closed": "sl"
+    },
+    {
+      "side": "BUY",
+      "entry_low": 3901.03,
+      "entry_high": 3901.39,
+      "sl": 3896.39,
+      "tp1": 3920.49,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.28,
+      "style": "oil_shock",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.28. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-12T13:41:03.139167+00:00",
+      "checked_at": "2026-11-12T13:45:07.140489+00:00",
+      "entry": 3901.39,
+      "entered_at": "2026-11-12T13:45:07.140489+00:00",
+      "closed": "sl"
     }
   ],
-  "last_check": "2026-11-12T13:39:27.575498+00:00"
+  "last_check": "2026-11-12T13:54:15.891677+00:00"
 }
