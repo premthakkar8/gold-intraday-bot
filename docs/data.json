@@ -1,17 +1,17 @@
 {
-  "updated": "2026-11-13 01:11 UTC",
+  "updated": "2026-11-13 01:26 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3888.39,
-  "stance": "Strategy: the SELL plan from 00:57 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3910.88,
+  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 50%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3881.77,
-      "sl": 3876.77,
-      "tp1": 3886.72,
-      "tp2": 3893.08,
-      "rr": 1.7,
+      "entry_high": 3880.88,
+      "sl": 3875.88,
+      "tp1": 3889.79,
+      "tp2": 3896.58,
+      "rr": 2.4,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.28,
@@ -21,26 +21,26 @@
       "status": "weak",
       "reason": "Strategy score is only 0.28. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T01:11:42.504335+00:00"
+      "checked_at": "2026-11-13T01:26:16.254745+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3890.47,
-      "entry_high": 3893.08,
-      "sl": 3895.47,
-      "tp1": 3886.72,
-      "tp2": 3879.16,
-      "rr": 1.4,
+      "entry_low": 3915.02,
+      "entry_high": 3916.74,
+      "sl": 3920.02,
+      "tp1": 3899.32,
+      "tp2": null,
+      "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.6,
+      "score": 0.5,
       "style": "dollar_lead",
       "favored": true,
       "ready": true,
       "status": "valid",
-      "reason": "Score 0.60 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
-      "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T01:11:42.504335+00:00"
+      "reason": "Score 0.50 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
+      "created_at": "2026-11-13T01:26:16.254745+00:00",
+      "checked_at": "2026-11-13T01:26:16.254745+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3886.7239594798166,
-    "atr": 4.338571428571446,
+    "vwap": 3889.7868257851023,
+    "atr": 5.964285714285714,
     "day_low": 3879.16,
-    "day_high": 3893.08,
-    "range_pos": 0.663074712643676
+    "day_high": 3916.74,
+    "range_pos": 0.8440659925492368
   },
   "dxy": {
     "ok": true,
-    "last": 103.19599914550781,
-    "pct": -0.03294024055022692,
+    "last": 103.16400146484375,
+    "pct": -0.06393673345299822,
     "state": "flat",
-    "corr": -0.4231748525638538
+    "corr": -0.47900651707468017
   },
   "oil": {
     "ok": true,
-    "last": 88.5199966430664,
-    "pct": -0.22543347033909528,
+    "last": 88.4800033569336,
+    "pct": -0.27051156499931034,
     "state": "flat",
-    "corr": -0.0900135067334588
+    "corr": -0.12786137326294325
   },
   "news": {
     "usd": 1.0,
-    "oil": -0.07683198613851062,
+    "oil": -0.07555943503052878,
     "shock": true,
     "usd_headlines": [
+      "Euro Falls as US Dollar gains on inflation concerns, Fed rate hike bets - FXStreet",
       "Four-day rally! Short-term U.S. Treasury yields post fastest gains since 2022 as market bets on Fed rate hikes - \u5bcc\u9014\u725b\u725b",
-      "U.S. Dollar Tests Yearly Highs As Traders Focus On Hawkish Fed Policy Outlook: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
-      "Gold sinks to more than one-year low as Fed rate hike bets boost dollar, Treasury yields - TradingView"
+      "U.S. Dollar Tests Yearly Highs As Traders Focus On Hawkish Fed Policy Outlook: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire"
     ],
     "oil_headlines": [
       "CME : WTI Crude Oil futures rebound off lows after inventory build. - www.marketscreener.com",
@@ -104,20 +104,20 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5987160419949976,
-      "trust": 1.0002215951816444
+      "score": 0.5028268056979212,
+      "trust": 0.8199521441194724
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.42685249459384744,
-      "trust": 0.6467462039300719
+      "score": 0.42685249459384755,
+      "trust": 0.646746203930072
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.27618657555887505,
-      "trust": 0.8031592474909633
+      "score": 0.27573889641481375,
+      "trust": 0.8034350128636764
     },
     {
       "style": "Fade the session range",
@@ -128,15 +128,15 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07990846480015447,
-      "trust": 0.9988558100019309
+      "score": 0.07990859303700676,
+      "trust": 0.9988574129625845
     }
   ],
   "record": {
-    "graded": 101,
+    "graded": 102,
     "wins": 30,
-    "losses": 52,
+    "losses": 53,
     "scratches": 19,
-    "avg_r": -0.13569985879382254
+    "avg_r": -0.14417338958996154
   }
 }
