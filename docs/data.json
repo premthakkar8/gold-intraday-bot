@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-13 11:56 UTC",
+  "updated": "2026-11-13 12:11 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3893.66,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.28). Take an entry only if price reaches it.",
+  "price": 3893.22,
+  "stance": "Strategy: BUY is the trade (Fade the session range, confidence 58%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.51,
-      "sl": 3877.51,
-      "tp1": 3894.13,
+      "entry_high": 3882.47,
+      "sl": 3877.47,
+      "tp1": 3894.2,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
+      "score": 0.59,
       "style": "range_fade",
+      "favored": true,
+      "ready": true,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-13T00:57:02.583101+00:00",
+      "checked_at": "2026-11-13T12:11:11.736311+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3919.82,
+      "entry_high": 3923.13,
+      "sl": 3924.82,
+      "tp1": 3908.09,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.32,
+      "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T11:56:29.749871+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3919.78,
-      "entry_high": 3923.13,
-      "sl": 3924.78,
-      "tp1": 3908.16,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.28,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T11:56:29.749871+00:00"
+      "checked_at": "2026-11-13T12:11:11.736311+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
-    "htf": "up",
-    "session": "london",
-    "vwap": 3901.4617212014173,
-    "atr": 2.996428571428591,
+    "structure": "sideways",
+    "htf": "sideways",
+    "session": "overlap",
+    "vwap": 3901.3359897546206,
+    "atr": 3.0764285714285506,
     "day_low": 3879.16,
     "day_high": 3923.13,
-    "range_pos": 0.3297702979304052
+    "range_pos": 0.3197634750966537
   },
   "dxy": {
     "ok": true,
-    "last": 103.23100280761719,
-    "pct": 0.0009681784859950026,
+    "last": 103.21299743652344,
+    "pct": -0.016473815612846266,
     "state": "flat",
-    "corr": -0.35463210689331337
+    "corr": -0.35647387439270845
   },
   "oil": {
     "ok": true,
-    "last": 88.43000030517578,
-    "pct": -0.32687208243598515,
+    "last": 88.62999725341797,
+    "pct": -0.10144721150449389,
     "state": "flat",
-    "corr": -0.35238319530587725
+    "corr": -0.3195982834717811
   },
   "news": {
-    "usd": 0.7336693797172398,
-    "oil": -0.2040073314588931,
+    "usd": 0.7582109875527784,
+    "oil": -0.15414060244641145,
     "shock": false,
     "usd_headlines": [
+      "US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - Moomoo",
       "US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - marketscreener.com",
-      "Federal Reserve rate hike expectations strengthen as U.S. inflation runs above forecasts - Traders Union",
-      "Two-Year Treasury Stabilizes as Eurozone, U.S. Bond Yields Rise - WSJ"
+      "Federal Reserve rate hike expectations strengthen as U.S. inflation runs above forecasts - Traders Union"
     ],
     "oil_headlines": [
+      "Petrol Prices in Nigeria: FCCPC Warns Marketers as Crude Oil Falls Below - - MSME Africa",
       "Crude oil jumps as escalation risks increase after Trump says the US doesn't need Iran deal - investingLive",
-      "WTI Crude Oil futures rebound off lows after inventory build. - CME Group",
-      "US oil inventories rise for first time in 6 weeks - \u0627\u0631\u0642\u0627\u0645 : \u0627\u062e\u0628\u0627\u0631 \u0648\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0633\u0648\u0642 \u0627\u0644\u0623\u0633\u0647\u0645 \u0627\u0644\u0633\u0639\u0648\u062f\u064a - \u062a\u0627\u0633\u064a"
+      "WTI Crude Oil futures rebound off lows after inventory build. - CME Group"
     ]
   },
   "events": [
@@ -102,25 +102,25 @@
   ],
   "scorecard": [
     {
+      "style": "Fade the session range",
+      "bias": "long",
+      "score": 0.5931005211854046,
+      "trust": 1.0
+    },
+    {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.28292212512761383,
-      "trust": 0.8559042302414434
+      "score": 0.32141820234521196,
+      "trust": 0.9462336379188564
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.27509352479554666,
-      "trust": 0.6252125563535152
+      "score": 0.2318005562376004,
+      "trust": 0.7243767382425013
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.2495721096543334,
-      "trust": 1.0
-    },
-    {
-      "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
@@ -128,8 +128,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.06495363333466159,
-      "trust": 0.8119204166832698
+      "score": 0.06640382853374935,
+      "trust": 0.8300478566718668
     }
   ],
   "record": {
