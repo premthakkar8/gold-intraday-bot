@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-13T13:53:49.931899+00:00",
-  "atr": 8.100000000000039,
-  "price": 3883.95,
+  "updated_at": "2026-11-13T14:08:42.426250+00:00",
+  "atr": 8.709285714285768,
+  "price": 3882.62,
   "stance": "Strategy: the SELL plan from 13:39 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3872.81,
-      "entry_high": 3873.36,
-      "sl": 3868.36,
-      "tp1": 3891.99,
+      "entry_high": 3873.02,
+      "sl": 3868.02,
+      "tp1": 3892.5,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,36 +21,36 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-13T13:53:49.931899+00:00",
-      "checked_at": "2026-11-13T14:06:57.203321+00:00"
+      "checked_at": "2026-11-13T14:21:53.922387+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3922.59,
+      "entry_low": 3922.92,
       "entry_high": 3923.13,
-      "sl": 3927.59,
-      "tp1": 3903.95,
+      "sl": 3927.92,
+      "tp1": 3903.44,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.28,
+      "score": 0.31,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T14:06:57.203321+00:00"
+      "checked_at": "2026-11-13T14:21:53.922387+00:00"
     }
   ],
   "research": [
-    "Gold 3884.55 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3899.69, ATR 8.10, day range 3872.81-3923.13.",
-    "DXY 103.17 (-0.06% today, flat), gold-dollar corr -0.70.",
-    "WTI 88.80 (+0.09% today, flat), gold-oil corr -0.58.",
-    "Headlines: dollar +0.74, oil -0.20, fresh shock.",
-    "Dollar: US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - Moomoo",
+    "Gold 3881.39 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3899.29, ATR 8.71, day range 3872.81-3923.13.",
+    "DXY 103.23 (-0.00% today, flat), gold-dollar corr -0.71.",
+    "WTI 89.18 (+0.52% today, up), gold-oil corr -0.59.",
+    "Headlines: dollar +0.77, oil -0.29, fresh shock.",
+    "Dollar: European stocks near record highs, US dollar gains on Fed rate hike bets - The Business Times",
     "Oil: Petrol Prices in Nigeria: FCCPC Warns Marketers as Crude Oil Falls Below - - MSME Africa",
-    "Next high-impact US release: Core PPI m/m Fri 13:30 UTC."
+    "No high-impact US release in the next 24 hours."
   ],
   "active": [
     {
@@ -119,5 +119,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-13T14:06:57.203321+00:00"
+  "last_check": "2026-11-13T14:21:53.922387+00:00"
 }
