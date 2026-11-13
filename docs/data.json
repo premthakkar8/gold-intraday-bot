@@ -1,100 +1,38 @@
 {
-  "updated": "2026-11-13 14:23 UTC",
+  "updated": "2026-11-13 14:38 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3884.15,
+  "price": 3893.81,
   "stance": "Strategy: the SELL plan from 13:39 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 3872.81,
-      "entry_high": 3872.89,
-      "sl": 3867.89,
-      "tp1": 3892.69,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-13T13:53:49.931899+00:00",
-      "checked_at": "2026-11-13T14:23:27.295191+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3923.05,
-      "entry_high": 3923.13,
-      "sl": 3928.05,
-      "tp1": 3903.25,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.31,
-      "style": "dollar_lead",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T14:23:27.295191+00:00"
-    }
-  ],
-  "active": [
-    {
-      "side": "BUY",
-      "entry_low": 3872.81,
-      "entry_high": 3873.36,
-      "sl": 3868.36,
-      "tp1": 3891.99,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-13T13:53:49.931899+00:00",
-      "checked_at": "2026-11-13T13:54:54.259800+00:00",
-      "entry": 3873.36,
-      "entered_at": "2026-11-13T13:54:54.259800+00:00",
-      "closed": null
-    }
-  ],
+  "setups": [],
+  "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3898.9374186838277,
-    "atr": 8.943571428571497,
+    "vwap": 3898.7428745839193,
+    "atr": 9.300714285714353,
     "day_low": 3872.81,
     "day_high": 3923.13,
-    "range_pos": 0.22535771065183047
+    "range_pos": 0.4173290937996807
   },
   "dxy": {
     "ok": true,
-    "last": 103.22000122070312,
-    "pct": -0.009689175535415637,
+    "last": 103.25800323486328,
+    "pct": 0.02712377895879129,
     "state": "flat",
-    "corr": -0.68247094408392
+    "corr": -0.6491864971547494
   },
   "oil": {
     "ok": true,
-    "last": 89.19000244140625,
-    "pct": 0.5297579060373689,
+    "last": 89.41999816894531,
+    "pct": 0.7889956476678235,
     "state": "up",
-    "corr": -0.5335519091691849
+    "corr": -0.5286594295198569
   },
   "news": {
-    "usd": 0.7723415227591744,
-    "oil": -0.1934831086538875,
+    "usd": 0.7747675695448888,
+    "oil": -0.19243048469223653,
     "shock": true,
     "usd_headlines": [
       "European stocks near record highs, US dollar gains on Fed rate hike bets - The Business Times",
@@ -112,20 +50,20 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5748699445426203,
-      "trust": 0.8710150674888186
+      "score": 0.5748699445426204,
+      "trust": 0.8710150674888187
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.305279692615016,
-      "trust": 0.998900185421598
+      "score": 0.547508687023799,
+      "trust": 0.9989017570864085
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.12920851064022165,
-      "trust": 1.2920851064022165
+      "score": 0.12916677088768358,
+      "trust": 1.2916677088768358
     },
     {
       "style": "Trade with the intraday trend",
@@ -136,8 +74,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.046841856267844525,
-      "trust": 0.5855232033480565
+      "score": 0.0703338602295135,
+      "trust": 0.5861155019126125
     }
   ],
   "record": {
