@@ -1,77 +1,77 @@
 {
-  "updated": "2026-11-13 18:17 UTC",
+  "updated": "2026-11-13 18:32 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3884.96,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.35). Take an entry only if price reaches it.",
+  "price": 3881.06,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.20). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3867.68,
-      "entry_high": 3871.14,
-      "sl": 3866.14,
-      "tp1": 3882.49,
+      "entry_high": 3871.07,
+      "sl": 3866.07,
+      "tp1": 3882.59,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.35,
-      "style": "trend_align",
-      "favored": true,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-13T16:06:18.506869+00:00",
-      "checked_at": "2026-11-13T18:17:59.669042+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3919.67,
-      "entry_high": 3923.13,
-      "sl": 3924.67,
-      "tp1": 3908.32,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.14,
-      "style": "dollar_lead",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-13T16:06:18.506869+00:00",
+      "checked_at": "2026-11-13T18:32:36.076865+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3919.74,
+      "entry_high": 3923.13,
+      "sl": 3924.74,
+      "tp1": 3908.22,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.2,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T14:52:55.698272+00:00",
-      "checked_at": "2026-11-13T18:17:59.669042+00:00"
+      "checked_at": "2026-11-13T18:32:36.076865+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "newyork",
-    "vwap": 3894.9018692898885,
-    "atr": 2.794285714285739,
+    "vwap": 3894.7698104555075,
+    "atr": 2.925714285714256,
     "day_low": 3867.68,
     "day_high": 3923.13,
-    "range_pos": 0.31163210099188665
+    "range_pos": 0.24129846708746697
   },
   "dxy": {
     "ok": true,
-    "last": 103.38500213623047,
-    "pct": 0.1501489627593471,
+    "last": 103.3270034790039,
+    "pct": 0.09396504786977453,
     "state": "up",
-    "corr": -0.25019765904836017
+    "corr": -0.29623449701174676
   },
   "oil": {
     "ok": true,
-    "last": 88.7699966430664,
-    "pct": 0.05635191802907081,
+    "last": 88.62000274658203,
+    "pct": -0.11271243546574564,
     "state": "flat",
-    "corr": -0.07663813758825852
+    "corr": -0.11458291624874598
   },
   "news": {
-    "usd": 0.8760520007572193,
-    "oil": -0.27049105999367873,
+    "usd": 0.8768638764078751,
+    "oil": -0.3561091540801124,
     "shock": true,
     "usd_headlines": [
       "Fed's Collins says more rate hikes are coming, Bloomberg Television reports - Reuters",
@@ -89,32 +89,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6358582339079035,
-      "trust": 0.836655570931452
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.3500650678564829,
-      "trust": 1.0
+      "score": 0.5037026566915078,
+      "trust": 0.899469029806264
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.13654766097065704,
-      "trust": 0.667619552758348
+      "score": 0.20136007795189031,
+      "trust": 1.1097572311464803
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.11414630155677202,
+      "trust": 0.9512191796397669
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.07994177173390722,
-      "trust": 0.9992721466738402
     }
   ],
   "record": {
