@@ -1,80 +1,80 @@
 {
-  "updated": "2026-11-13 17:19 UTC",
+  "updated": "2026-11-13 17:34 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3882.9,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.20). Take an entry only if price reaches it.",
+  "price": 3881.6,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.27). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3867.68,
-      "entry_high": 3870.65,
-      "sl": 3865.65,
-      "tp1": 3883.23,
+      "entry_high": 3870.84,
+      "sl": 3865.84,
+      "tp1": 3882.94,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.16,
-      "style": "trend_align",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": true,
       "ready": false,
       "status": "weak",
-      "reason": "Strategy score is only 0.16. Take it only with a clear reaction at the entry.",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-13T16:06:18.506869+00:00",
-      "checked_at": "2026-11-13T17:19:24.437499+00:00"
+      "checked_at": "2026-11-13T17:34:07.115495+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3920.16,
+      "entry_low": 3919.97,
       "entry_high": 3923.13,
-      "sl": 3925.16,
-      "tp1": 3907.58,
+      "sl": 3924.97,
+      "tp1": 3907.87,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.2,
+      "score": 0.27,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T14:52:55.698272+00:00",
-      "checked_at": "2026-11-13T17:19:24.437499+00:00"
+      "checked_at": "2026-11-13T17:34:07.115495+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "newyork",
-    "vwap": 3895.469076137296,
-    "atr": 3.6978571428571416,
+    "vwap": 3895.2659052415693,
+    "atr": 3.3485714285714363,
     "day_low": 3867.68,
     "day_high": 3923.13,
-    "range_pos": 0.27448151487827194
+    "range_pos": 0.25103697024346266
   },
   "dxy": {
     "ok": true,
-    "last": 103.35900115966797,
-    "pct": 0.12496154077254584,
+    "last": 103.38099670410156,
+    "pct": 0.1462688581399015,
     "state": "up",
-    "corr": -0.543922578334956
+    "corr": -0.5453750840150747
   },
   "oil": {
     "ok": true,
-    "last": 88.54000091552734,
-    "pct": -0.20288582360138374,
+    "last": 88.63999938964844,
+    "pct": -0.09017338813563812,
     "state": "flat",
-    "corr": -0.3546202440050815
+    "corr": -0.36768076792070914
   },
   "news": {
-    "usd": 0.8733272678236751,
-    "oil": -0.5254886804787281,
+    "usd": 0.8739309692214194,
+    "oil": -0.4304759448266451,
     "shock": true,
     "usd_headlines": [
-      "Fed's Collins says more rate hikes are coming, Bloomberg Television reports - Fresno Bee",
+      "Fed's Collins says more rate hikes are coming, Bloomberg Television reports - Reuters",
       "Treasury Yields Climb as December Rate Hike Bets Grow - Oz Arab Media",
       "Stock Market Rebounds Even As Nvidia CEO Jensen Huang Resigns, Treasury Yields Jump: Weekly Review - Investor's Business Daily"
     ],
@@ -89,26 +89,26 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6136628508500627,
-      "trust": 0.8074511195395562
+      "score": 0.4786679650163377,
+      "trust": 0.85476422324346
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.1980465387810667,
-      "trust": 0.848700919986679
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.16110535591741854,
-      "trust": 0.9989619668368841
+      "score": 0.2719452621722153,
+      "trust": 1.110376924145813
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.1198990315022338,
-      "trust": 0.9991585958519483
+      "score": 0.11414630155677202,
+      "trust": 0.9512191796397669
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
