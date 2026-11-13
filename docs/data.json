@@ -1,77 +1,77 @@
 {
-  "updated": "2026-11-13 10:28 UTC",
+  "updated": "2026-11-13 10:43 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3898.7,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.45). Take an entry only if price reaches it.",
+  "price": 3894.05,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.29). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.34,
-      "sl": 3877.34,
-      "tp1": 3894.38,
+      "entry_high": 3882.28,
+      "sl": 3877.28,
+      "tp1": 3894.48,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.2,
-      "style": "trend_align",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T10:28:25.931561+00:00"
+      "checked_at": "2026-11-13T10:43:03.672106+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3919.95,
+      "entry_low": 3920.01,
       "entry_high": 3923.13,
-      "sl": 3924.95,
-      "tp1": 3907.91,
+      "sl": 3925.01,
+      "tp1": 3907.81,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.45,
+      "score": 0.29,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T10:28:25.931561+00:00"
+      "checked_at": "2026-11-13T10:43:03.672106+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "up",
     "session": "london",
-    "vwap": 3902.5883799540093,
-    "atr": 3.3028571428571274,
+    "vwap": 3902.454495805689,
+    "atr": 3.4235714285713845,
     "day_low": 3879.16,
     "day_high": 3923.13,
-    "range_pos": 0.44439390493517966
+    "range_pos": 0.33863998180578214
   },
   "dxy": {
     "ok": true,
-    "last": 103.21700286865234,
-    "pct": -0.012593710993400644,
+    "last": 103.21399688720703,
+    "pct": -0.015505637126851263,
     "state": "flat",
-    "corr": -0.4341439431265702
+    "corr": -0.4350381186942993
   },
   "oil": {
     "ok": true,
-    "last": 88.18000030517578,
-    "pct": -0.6086574708041512,
+    "last": 87.87999725341797,
+    "pct": -0.9468033766089922,
     "state": "down",
-    "corr": -0.4052742612804284
+    "corr": -0.3558232536637022
   },
   "news": {
-    "usd": 0.6876093970382392,
-    "oil": -0.3787772571766675,
+    "usd": 0.6888115206763847,
+    "oil": -0.37805782828716955,
     "shock": true,
     "usd_headlines": [
       "Two-Year Treasury Stabilizes as Eurozone, U.S. Bond Yields Rise - WSJ",
@@ -104,23 +104,23 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4605544575790465,
-      "trust": 0.6978097842106765
+      "score": 0.5103194574784419,
+      "trust": 0.7732112992097604
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.44993263077891205,
-      "trust": 1.0016925899930162
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.20377969510319546,
-      "trust": 0.9989200740352718
+      "score": 0.2927082391786659,
+      "trust": 1.1826776275276307
     },
     {
       "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.11408439485103293,
+      "trust": 1.1408439485103292
+    },
+    {
+      "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
@@ -128,8 +128,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09710815600861636,
-      "trust": 0.8092346334051363
+      "score": 0.09727032733418059,
+      "trust": 0.8105860611181717
     }
   ],
   "record": {
