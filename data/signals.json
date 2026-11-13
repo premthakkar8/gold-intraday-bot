@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-13T20:00:27.784596+00:00",
-  "atr": 2.3178571428572274,
-  "price": 3876.12,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.18). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-13T20:15:00.880113+00:00",
+  "atr": 2.247142857142925,
+  "price": 3877.26,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.21). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3867.68,
-      "entry_high": 3871.41,
-      "sl": 3866.41,
-      "tp1": 3882.09,
+      "entry_high": 3871.44,
+      "sl": 3866.44,
+      "tp1": 3882.03,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,34 +21,34 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T16:06:18.506869+00:00",
-      "checked_at": "2026-11-13T20:13:33.409212+00:00"
+      "checked_at": "2026-11-13T20:28:09.463351+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3919.4,
+      "entry_low": 3919.37,
       "entry_high": 3923.13,
-      "sl": 3924.4,
-      "tp1": 3908.72,
+      "sl": 3924.37,
+      "tp1": 3908.78,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.18,
+      "score": 0.21,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T14:52:55.698272+00:00",
-      "checked_at": "2026-11-13T20:13:33.409212+00:00"
+      "checked_at": "2026-11-13T20:28:09.463351+00:00"
     }
   ],
   "research": [
-    "Gold 3873.11 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3893.75, ATR 2.32, day range 3867.68-3923.13.",
-    "DXY 103.42 (+0.18% today, up), gold-dollar corr -0.19.",
-    "WTI 88.65 (-0.08% today, flat), gold-oil corr +0.06.",
-    "Headlines: dollar +0.91, oil -0.19, fresh shock.",
-    "Dollar: Update: US Equity Indexes Fall as Nvidia Debacle Hits Chipmakers, Long Treasury Yields Jump on 'Elevated' Producer Prices - Moomoo",
+    "Gold 3875.37 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3893.56, ATR 2.25, day range 3867.68-3923.13.",
+    "DXY 103.40 (+0.17% today, up), gold-dollar corr -0.19.",
+    "WTI 88.81 (+0.10% today, flat), gold-oil corr +0.06.",
+    "Headlines: dollar +0.92, oil -0.20, fresh shock.",
+    "Dollar: The Chances of a Federal Reserve December Rate Hike Are Climbing. Here\u2019s What History Says About Stocks After the Fed Starts Raising Again. - The Motley Fool",
     "Oil: Crude oil jumps as escalation risks increase after Trump says the US doesn't need Iran deal - investingLive",
     "No high-impact US release in the next 24 hours."
   ],
@@ -120,5 +120,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-13T20:13:33.409212+00:00"
+  "last_check": "2026-11-13T20:28:09.463351+00:00"
 }
