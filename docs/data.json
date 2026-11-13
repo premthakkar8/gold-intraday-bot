@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-13 09:59 UTC",
+  "updated": "2026-11-13 10:13 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3900.48,
-  "stance": "Strategy: the SELL plan from 08:01 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3901.76,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.29,
-      "sl": 3877.29,
-      "tp1": 3894.46,
+      "entry_high": 3882.37,
+      "sl": 3877.37,
+      "tp1": 3894.35,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T09:59:06.100843+00:00"
+      "checked_at": "2026-11-13T10:13:47.552393+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3920.0,
+      "entry_low": 3919.92,
       "entry_high": 3923.13,
-      "sl": 3925.0,
-      "tp1": 3907.83,
+      "sl": 3924.92,
+      "tp1": 3907.94,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.58,
+      "score": 0.51,
       "style": "dollar_lead",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T09:59:06.100843+00:00"
+      "checked_at": "2026-11-13T10:13:47.552393+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "sideways",
     "htf": "up",
     "session": "london",
-    "vwap": 3902.650914137749,
-    "atr": 3.3999999999999937,
+    "vwap": 3902.652891213427,
+    "atr": 3.259999999999991,
     "day_low": 3879.16,
     "day_high": 3923.13,
-    "range_pos": 0.48487605185353744
+    "range_pos": 0.513986809188088
   },
   "dxy": {
     "ok": true,
-    "last": 103.20700073242188,
-    "pct": -0.02228288652881628,
+    "last": 103.16999816894531,
+    "pct": -0.05812766253702821,
     "state": "flat",
-    "corr": -0.3287441349761757
+    "corr": -0.4175363461856206
   },
   "oil": {
     "ok": true,
-    "last": 88.45999908447266,
-    "pct": -0.2930592117370219,
-    "state": "flat",
-    "corr": -0.3042142965916049
+    "last": 88.05999755859375,
+    "pct": -0.7439175530076084,
+    "state": "down",
+    "corr": -0.387929312662508
   },
   "news": {
-    "usd": 0.8514820409395216,
-    "oil": -0.38015966192066575,
+    "usd": 0.6527740568666826,
+    "oil": -0.37947698280224684,
     "shock": true,
     "usd_headlines": [
+      "The Fed expected rate cuts this year. Now it\u2019s bracing for another inflation fight - CNBC",
       "U.S. Treasury yields rise as Fed hike bets strengthen - Traders Union",
-      "US Dollar: Resilient as Fed stays hawkish \u2013 TD Securities - FXStreet",
-      "Treasury yields rise as traders strengthen Fed rate hike bets - CNBC"
+      "US Dollar: Resilient as Fed stays hawkish \u2013 TD Securities - FXStreet"
     ],
     "oil_headlines": [
       "WTI Crude Oil futures rebound off lows after inventory build. - CME Group",
@@ -102,41 +102,41 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.5848382687000473,
-      "trust": 1.1664272667122115
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4793506030044203,
-      "trust": 0.7262887924309398
+      "score": 0.5475988157151693,
+      "trust": 0.8296951753260141
     },
     {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.11877875874961821,
-      "trust": 0.9898229895801518
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.5059857305520123,
+      "trust": 1.1826776275276307
     },
     {
       "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.11412413651300482,
+      "trust": 1.1412413651300481
+    },
+    {
+      "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
     },
     {
-      "style": "Trade with the intraday trend",
+      "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09989170203808573,
-      "trust": 0.9989170203808573
+      "score": 0.09720619146058639,
+      "trust": 0.8100515955048866
     }
   ],
   "record": {
-    "graded": 109,
+    "graded": 110,
     "wins": 30,
     "losses": 59,
-    "scratches": 20,
-    "avg_r": -0.1899604196162943
+    "scratches": 21,
+    "avg_r": -0.18823350671069164
   }
 }
