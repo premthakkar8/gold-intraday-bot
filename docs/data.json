@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-13 09:44 UTC",
+  "updated": "2026-11-13 09:59 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3897.22,
+  "price": 3900.48,
   "stance": "Strategy: the SELL plan from 08:01 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.17,
-      "sl": 3877.17,
-      "tp1": 3894.65,
+      "entry_high": 3882.29,
+      "sl": 3877.29,
+      "tp1": 3894.46,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T09:44:28.492869+00:00"
+      "checked_at": "2026-11-13T09:59:06.100843+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3920.12,
+      "entry_low": 3920.0,
       "entry_high": 3923.13,
-      "sl": 3925.12,
-      "tp1": 3907.64,
+      "sl": 3925.0,
+      "tp1": 3907.83,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.55,
+      "score": 0.58,
       "style": "dollar_lead",
       "favored": true,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T09:44:28.492869+00:00"
+      "checked_at": "2026-11-13T09:59:06.100843+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "up",
     "session": "london",
-    "vwap": 3902.7640240350984,
-    "atr": 3.6221428571429573,
+    "vwap": 3902.650914137749,
+    "atr": 3.3999999999999937,
     "day_low": 3879.16,
     "day_high": 3923.13,
-    "range_pos": 0.4107345917671103
+    "range_pos": 0.48487605185353744
   },
   "dxy": {
     "ok": true,
-    "last": 103.20099639892578,
-    "pct": -0.02809934812025191,
+    "last": 103.20700073242188,
+    "pct": -0.02228288652881628,
     "state": "flat",
-    "corr": -0.21877401116050865
+    "corr": -0.3287441349761757
   },
   "oil": {
     "ok": true,
-    "last": 88.58000183105469,
-    "pct": -0.1577991295335647,
+    "last": 88.45999908447266,
+    "pct": -0.2930592117370219,
     "state": "flat",
-    "corr": -0.29615590427748767
+    "corr": -0.3042142965916049
   },
   "news": {
-    "usd": 0.8568221658504369,
-    "oil": -0.3773578425566368,
+    "usd": 0.8514820409395216,
+    "oil": -0.38015966192066575,
     "shock": true,
     "usd_headlines": [
       "U.S. Treasury yields rise as Fed hike bets strengthen - Traders Union",
@@ -79,8 +79,8 @@
       "Treasury yields rise as traders strengthen Fed rate hike bets - CNBC"
     ],
     "oil_headlines": [
+      "WTI Crude Oil futures rebound off lows after inventory build. - CME Group",
       "US oil inventories rise for first time in 6 weeks - \u0627\u0631\u0642\u0627\u0645 : \u0627\u062e\u0628\u0627\u0631 \u0648\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0633\u0648\u0642 \u0627\u0644\u0623\u0633\u0647\u0645 \u0627\u0644\u0633\u0639\u0648\u062f\u064a - \u062a\u0627\u0633\u064a",
-      "US commercial crude oil inventories rise by nearly 5M barrels - Anadolu Ajans\u0131",
       "Petrol Prices in Nigeria: FCCPC Warns Marketers as Crude Oil Falls Below - - MSME Africa"
     ]
   },
@@ -104,7 +104,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5542034018882641,
+      "score": 0.5848382687000473,
       "trust": 1.1664272667122115
     },
     {
@@ -116,8 +116,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11877703787373961,
-      "trust": 0.9898086489478302
+      "score": 0.11877875874961821,
+      "trust": 0.9898229895801518
     },
     {
       "style": "Fade the session range",
@@ -128,8 +128,8 @@
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.09989154943322547,
-      "trust": 0.9989154943322546
+      "score": 0.09989170203808573,
+      "trust": 0.9989170203808573
     }
   ],
   "record": {
