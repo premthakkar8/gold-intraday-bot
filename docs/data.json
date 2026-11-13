@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-13 08:01 UTC",
+  "updated": "2026-11-13 08:16 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3897.7,
-  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 51%).",
+  "price": 3897.82,
+  "stance": "Strategy: the SELL plan from 08:01 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.01,
-      "sl": 3877.01,
-      "tp1": 3894.89,
+      "entry_high": 3882.09,
+      "sl": 3877.09,
+      "tp1": 3894.77,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,57 +21,57 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T08:01:56.109769+00:00"
+      "checked_at": "2026-11-13T08:16:36.134591+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3920.28,
+      "entry_low": 3920.2,
       "entry_high": 3923.13,
-      "sl": 3925.28,
-      "tp1": 3907.4,
+      "sl": 3925.2,
+      "tp1": 3907.52,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.51,
+      "score": 0.39,
       "style": "dollar_lead",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T08:01:56.109769+00:00"
+      "checked_at": "2026-11-13T08:16:36.134591+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "up",
     "session": "london",
-    "vwap": 3904.1289885103215,
-    "atr": 3.9157142857142975,
+    "vwap": 3903.902801698795,
+    "atr": 3.767857142857175,
     "day_low": 3879.16,
     "day_high": 3923.13,
-    "range_pos": 0.4216511257675655
+    "range_pos": 0.4243802592676871
   },
   "dxy": {
     "ok": true,
-    "last": 103.1510009765625,
-    "pct": -0.07653044444639887,
+    "last": 103.16699981689453,
+    "pct": -0.061032197995013214,
     "state": "flat",
-    "corr": -0.19260312131955012
+    "corr": -0.33150092371931517
   },
   "oil": {
     "ok": true,
-    "last": 88.36000061035156,
-    "pct": -0.4057716472027675,
-    "state": "down",
-    "corr": -0.1478171039797966
+    "last": 88.80000305175781,
+    "pct": 0.09017338813563812,
+    "state": "flat",
+    "corr": -0.24529901295610898
   },
   "news": {
-    "usd": 0.8123325879791502,
-    "oil": -0.20785296260990638,
+    "usd": 0.8018342184940108,
+    "oil": -0.2754192741065753,
     "shock": true,
     "usd_headlines": [
       "Gold, silver prices surge as US dollar drops after midterm elections - Ednews.net",
@@ -102,25 +102,25 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.5139397166848098,
-      "trust": 1.150859197682059
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.42236860828848294,
-      "trust": 0.6399524368007317
+      "score": 0.4876657939557419,
+      "trust": 0.6252125563535152
     },
     {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.11430457063867311,
-      "trust": 1.143045706386731
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.3889975247223039,
+      "trust": 0.8139502024455452
     },
     {
       "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.1014,
+      "trust": 1.0
+    },
+    {
+      "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
@@ -128,8 +128,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.08,
-      "trust": 1.0
+      "score": 0.06463171765880403,
+      "trust": 0.8078964707350504
     }
   ],
   "record": {
