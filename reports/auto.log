@@ -839,3 +839,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-13 12:25 UTC  live: gold 3894.36 | holding long range_fade 0a5c5bc9 | new read flat stand_aside not opened
 2026-11-13 12:40 UTC  live: gold 3890.12 | holding long range_fade 0a5c5bc9 | new read long trend_align not opened
 2026-11-13 12:55 UTC  live: gold 3886.88 | holding long range_fade 0a5c5bc9 | new read flat stand_aside not opened
+2026-11-13 13:09 UTC  live: gold 3887.26 | holding long range_fade 0a5c5bc9 | new read flat stand_aside not opened | blackout Core PPI m/m

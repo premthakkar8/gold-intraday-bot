@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-13 12:55 UTC",
+  "updated": "2026-11-13 13:09 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3886.88,
+  "price": 3887.26,
   "stance": "Strategy: the BUY plan from 12:11 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.45,
-      "sl": 3877.45,
-      "tp1": 3894.23,
+      "entry_high": 3882.34,
+      "sl": 3877.34,
+      "tp1": 3894.39,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -18,17 +18,17 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "status": "paused",
+      "reason": "Core PPI m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T12:55:09.306859+00:00"
+      "checked_at": "2026-11-13T13:09:50.493475+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3919.84,
+      "entry_low": 3919.95,
       "entry_high": 3923.13,
-      "sl": 3924.84,
-      "tp1": 3908.06,
+      "sl": 3924.95,
+      "tp1": 3907.9,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -37,41 +37,41 @@
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "status": "paused",
+      "reason": "Core PPI m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T12:55:09.306859+00:00"
+      "checked_at": "2026-11-13T13:09:50.493475+00:00"
     }
   ],
   "active": [],
-  "blackout": null,
+  "blackout": "Core PPI m/m at 13:30 UTC",
   "chart": {
     "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3900.871298695053,
-    "atr": 3.1114285714285677,
+    "vwap": 3900.6301711237843,
+    "atr": 3.3142857142856883,
     "day_low": 3879.16,
     "day_high": 3923.13,
-    "range_pos": 0.17557425517398703
+    "range_pos": 0.1842165112576829
   },
   "dxy": {
     "ok": true,
-    "last": 103.2490005493164,
-    "pct": 0.01840278190937066,
+    "last": 103.2509994506836,
+    "pct": 0.020339138881360665,
     "state": "flat",
-    "corr": -0.3629032992123065
+    "corr": -0.40502849642047817
   },
   "oil": {
     "ok": true,
-    "last": 88.55000305175781,
-    "pct": -0.19161200023252797,
+    "last": 88.52999877929688,
+    "pct": -0.2141596469702395,
     "state": "flat",
-    "corr": -0.3416595525318286
+    "corr": -0.3509940739722743
   },
   "news": {
-    "usd": 0.7330267754496752,
-    "oil": -0.15464915251895528,
+    "usd": 0.7353007294504733,
+    "oil": -0.3392354971008139,
     "shock": true,
     "usd_headlines": [
       "US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - Moomoo",
@@ -110,7 +110,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2355525328348229,
+      "score": 0.24188428291296443,
       "trust": 0.9462336379188564
     },
     {
@@ -128,8 +128,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.0664612459689013,
-      "trust": 0.8307655746112662
+      "score": 0.0664803744868458,
+      "trust": 0.8310046810855725
     }
   ],
   "record": {
