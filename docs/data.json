@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-13 04:07 UTC",
+  "updated": "2026-11-13 04:22 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3918.69,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.29). Take an entry only if price reaches it.",
+  "price": 3910.44,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.42). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.1,
-      "sl": 3877.1,
-      "tp1": 3894.75,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.29,
-      "style": "trend_align",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T04:07:27.705055+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3920.19,
-      "entry_high": 3923.13,
-      "sl": 3925.19,
-      "tp1": 3907.54,
+      "entry_high": 3882.03,
+      "sl": 3877.03,
+      "tp1": 3894.85,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
       "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-13T00:57:02.583101+00:00",
+      "checked_at": "2026-11-13T04:22:05.221469+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3920.26,
+      "entry_high": 3923.13,
+      "sl": 3925.26,
+      "tp1": 3907.44,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.42,
+      "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "status": "valid",
+      "reason": "Score 0.42 (Trade with the dollar), hawkish dollar news +0.82, price above VWAP.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T04:07:27.705055+00:00"
+      "checked_at": "2026-11-13T04:22:05.221469+00:00"
     }
   ],
   "active": [
@@ -69,32 +69,32 @@
   ],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3905.075710534369,
-    "atr": 3.7478571428571286,
+    "vwap": 3905.471681276393,
+    "atr": 3.8671428571428157,
     "day_low": 3879.16,
     "day_high": 3923.13,
-    "range_pos": 0.8990220604957919
+    "range_pos": 0.7113941323629752
   },
   "dxy": {
     "ok": true,
-    "last": 103.13600158691406,
-    "pct": -0.09106051241178952,
-    "state": "down",
-    "corr": -0.3292643269824553
+    "last": 103.15799713134766,
+    "pct": -0.06975319504443385,
+    "state": "flat",
+    "corr": -0.3463287710269924
   },
   "oil": {
     "ok": true,
-    "last": 88.19000244140625,
-    "pct": -0.5973836474352955,
-    "state": "down",
-    "corr": -0.100302996913952
+    "last": 88.4000015258789,
+    "pct": -0.36068495313494847,
+    "state": "flat",
+    "corr": -0.10711039432231947
   },
   "news": {
-    "usd": 0.8160452042168885,
-    "oil": -0.12391094659158809,
+    "usd": 0.8150206027628899,
+    "oil": -0.11910808625567902,
     "shock": true,
     "usd_headlines": [
       "Gold, silver prices surge as US dollar drops after midterm elections - Ednews.net",
@@ -127,32 +127,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.391492497011415,
-      "trust": 0.6990937446632409
+      "score": 0.4241144009882853,
+      "trust": 0.6425975772549777
     },
     {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.2886769582618704,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.12,
-      "trust": 1.0
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.4176317130618734,
+      "trust": 0.855392792361431
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.11461055172653412,
+      "trust": 1.1461055172653412
     },
     {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.06289167230515337,
-      "trust": 0.6998406431264489
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.085505053959297,
+      "trust": 0.85505053959297
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.08,
+      "trust": 1.0
     }
   ],
   "record": {

@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-13T04:07:27.705055+00:00",
-  "atr": 3.7478571428571286,
-  "price": 3909.76,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.29). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-13T04:22:05.221469+00:00",
+  "atr": 3.8671428571428157,
+  "price": 3910.8,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.42). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.1,
-      "sl": 3877.1,
-      "tp1": 3894.75,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.29,
-      "style": "trend_align",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T04:20:34.324708+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3920.19,
-      "entry_high": 3923.13,
-      "sl": 3925.19,
-      "tp1": 3907.54,
+      "entry_high": 3882.03,
+      "sl": 3877.03,
+      "tp1": 3894.85,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
       "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-13T00:57:02.583101+00:00",
+      "checked_at": "2026-11-13T04:35:13.561681+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3920.26,
+      "entry_high": 3923.13,
+      "sl": 3925.26,
+      "tp1": 3907.44,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.42,
+      "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "status": "valid",
+      "reason": "Score 0.42 (Trade with the dollar), hawkish dollar news +0.82, price above VWAP.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T04:20:34.324708+00:00"
+      "checked_at": "2026-11-13T04:35:13.561681+00:00"
     }
   ],
   "research": [
-    "Gold 3918.69 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3905.08, ATR 3.75, day range 3879.16-3923.13.",
-    "DXY 103.14 (-0.09% today, down), gold-dollar corr -0.33.",
-    "WTI 88.19 (-0.60% today, down), gold-oil corr -0.10.",
+    "Gold 3910.44 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3905.47, ATR 3.87, day range 3879.16-3923.13.",
+    "DXY 103.16 (-0.07% today, flat), gold-dollar corr -0.35.",
+    "WTI 88.40 (-0.36% today, flat), gold-oil corr -0.11.",
     "Headlines: dollar +0.82, oil -0.12, fresh shock.",
     "Dollar: Gold, silver prices surge as US dollar drops after midterm elections - Ednews.net",
     "Oil: CME : WTI Crude Oil futures rebound off lows after inventory build. - www.marketscreener.com",
@@ -207,5 +207,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-13T04:20:34.324708+00:00"
+  "last_check": "2026-11-13T04:35:13.561681+00:00"
 }
