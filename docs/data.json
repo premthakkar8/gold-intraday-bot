@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-13 15:07 UTC",
+  "updated": "2026-11-13 15:22 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3887.97,
+  "price": 3883.35,
   "stance": "Strategy: the SELL plan from 13:39 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3872.81,
-      "entry_high": 3874.64,
-      "sl": 3869.64,
-      "tp1": 3890.06,
+      "entry_high": 3874.33,
+      "sl": 3869.33,
+      "tp1": 3890.53,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.57,
+      "score": 0.62,
       "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.57 (Trade with the intraday trend), dollar softer -0.08%, price below VWAP.",
+      "reason": "Score 0.62 (Trade with the intraday trend), price below VWAP.",
       "created_at": "2026-11-13T14:52:55.698272+00:00",
-      "checked_at": "2026-11-13T15:07:33.156898+00:00"
+      "checked_at": "2026-11-13T15:22:14.081819+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3921.3,
+      "entry_low": 3921.61,
       "entry_high": 3923.13,
-      "sl": 3926.3,
-      "tp1": 3905.88,
+      "sl": 3926.61,
+      "tp1": 3905.41,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.25,
+      "style": "dollar_lead",
       "favored": false,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "status": "far",
+      "reason": "Price is 38.26 away from the entry (6.0 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-13T14:52:55.698272+00:00",
-      "checked_at": "2026-11-13T15:07:33.156898+00:00"
+      "checked_at": "2026-11-13T15:22:14.081819+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "up",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3898.5217292095226,
-    "atr": 5.760714285714357,
+    "vwap": 3898.2221050348567,
+    "atr": 6.324285714285712,
     "day_low": 3872.81,
     "day_high": 3923.13,
-    "range_pos": 0.30127186009538565
+    "range_pos": 0.20945945945945804
   },
   "dxy": {
     "ok": true,
-    "last": 103.14399719238281,
-    "pct": -0.0833150845238295,
-    "state": "down",
-    "corr": -0.6287076424632566
+    "last": 103.1729965209961,
+    "pct": -0.0552231270790432,
+    "state": "flat",
+    "corr": -0.6260306785603581
   },
   "oil": {
     "ok": true,
-    "last": 89.43000030517578,
-    "pct": 0.8002694710366792,
+    "last": 89.08000183105469,
+    "pct": 0.4057716472027675,
     "state": "up",
-    "corr": -0.5435586831569816
+    "corr": -0.5232671525229226
   },
   "news": {
-    "usd": 0.8669351764888112,
-    "oil": -0.3735662484661649,
+    "usd": 0.8631052311017696,
+    "oil": -0.37248397556146307,
     "shock": true,
     "usd_headlines": [
       "Stock Market Rebounds Even As Nvidia CEO Jensen Huang Resigns, Treasury Yields Jump: Weekly Review - Investor's Business Daily",
@@ -89,20 +89,20 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.7175189716968307,
-      "trust": 1.2812838780300546
+      "score": 0.626615199432463,
+      "trust": 0.9494169688370651
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.5737672321478885,
-      "trust": 1.0
+      "score": 0.6233449193491635,
+      "trust": 0.9989501912646849
     },
     {
       "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.18558374544897333,
-      "trust": 0.8424128096423027
+      "bias": "short",
+      "score": 0.2546195593771079,
+      "trust": 0.7912273853711043
     },
     {
       "style": "Fade the session range",
@@ -113,8 +113,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09708136845164125,
-      "trust": 0.8090114037636771
+      "score": 0.07494464794779555,
+      "trust": 0.6245387328982963
     }
   ],
   "record": {

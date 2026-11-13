@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-11-13T15:07:33.156898+00:00",
-  "atr": 5.760714285714357,
-  "price": 3884.61,
+  "updated_at": "2026-11-13T15:22:14.081819+00:00",
+  "atr": 6.324285714285712,
+  "price": 3877.07,
   "stance": "Strategy: the SELL plan from 13:39 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3872.81,
-      "entry_high": 3874.64,
-      "sl": 3869.64,
-      "tp1": 3890.06,
+      "entry_high": 3874.33,
+      "sl": 3869.33,
+      "tp1": 3890.53,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.57,
+      "score": 0.62,
       "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.57 (Trade with the intraday trend), dollar softer -0.08%, price below VWAP.",
+      "reason": "Score 0.62 (Trade with the intraday trend), price below VWAP.",
       "created_at": "2026-11-13T14:52:55.698272+00:00",
-      "checked_at": "2026-11-13T15:20:42.918462+00:00"
+      "checked_at": "2026-11-13T15:35:44.355490+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3921.3,
+      "entry_low": 3921.61,
       "entry_high": 3923.13,
-      "sl": 3926.3,
-      "tp1": 3905.88,
+      "sl": 3926.61,
+      "tp1": 3905.41,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.25,
+      "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "far",
-      "reason": "Price is 36.27 away from the entry (6.3 ATR). Unlikely to fill soon.",
+      "reason": "Price is 38.26 away from the entry (6.0 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-13T14:52:55.698272+00:00",
-      "checked_at": "2026-11-13T15:20:42.918462+00:00"
+      "checked_at": "2026-11-13T15:35:44.355490+00:00"
     }
   ],
   "research": [
-    "Gold 3887.97 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3898.52, ATR 5.76, day range 3872.81-3923.13.",
-    "DXY 103.14 (-0.08% today, down), gold-dollar corr -0.63.",
-    "WTI 89.43 (+0.80% today, up), gold-oil corr -0.54.",
-    "Headlines: dollar +0.87, oil -0.37, fresh shock.",
+    "Gold 3883.35 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3898.22, ATR 6.32, day range 3872.81-3923.13.",
+    "DXY 103.17 (-0.06% today, flat), gold-dollar corr -0.63.",
+    "WTI 89.08 (+0.41% today, up), gold-oil corr -0.52.",
+    "Headlines: dollar +0.86, oil -0.37, fresh shock.",
     "Dollar: Stock Market Rebounds Even As Nvidia CEO Jensen Huang Resigns, Treasury Yields Jump: Weekly Review - Investor's Business Daily",
     "Oil: Petrol Prices in Nigeria: FCCPC Warns Marketers as Crude Oil Falls Below - - MSME Africa",
     "No high-impact US release in the next 24 hours."
@@ -76,5 +76,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-13T15:20:42.918462+00:00"
+  "last_check": "2026-11-13T15:35:44.355490+00:00"
 }
