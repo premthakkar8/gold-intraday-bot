@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-13 09:29 UTC",
+  "updated": "2026-11-13 09:44 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3894.87,
+  "price": 3897.22,
   "stance": "Strategy: the SELL plan from 08:01 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.24,
-      "sl": 3877.24,
-      "tp1": 3894.54,
+      "entry_high": 3882.17,
+      "sl": 3877.17,
+      "tp1": 3894.65,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,57 +21,57 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T09:29:48.810781+00:00"
+      "checked_at": "2026-11-13T09:44:28.492869+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3920.05,
+      "entry_low": 3920.12,
       "entry_high": 3923.13,
-      "sl": 3925.05,
-      "tp1": 3907.75,
+      "sl": 3925.12,
+      "tp1": 3907.64,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.39,
+      "score": 0.55,
       "style": "dollar_lead",
       "favored": true,
-      "ready": false,
+      "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T09:29:48.810781+00:00"
+      "checked_at": "2026-11-13T09:44:28.492869+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "up",
     "session": "london",
-    "vwap": 3902.8706816156073,
-    "atr": 3.495000000000086,
+    "vwap": 3902.7640240350984,
+    "atr": 3.6221428571429573,
     "day_low": 3879.16,
     "day_high": 3923.13,
-    "range_pos": 0.35728906072321914
+    "range_pos": 0.4107345917671103
   },
   "dxy": {
     "ok": true,
-    "last": 103.15899658203125,
-    "pct": -0.06878501655843886,
+    "last": 103.20099639892578,
+    "pct": -0.02809934812025191,
     "state": "flat",
-    "corr": -0.2475975074019659
+    "corr": -0.21877401116050865
   },
   "oil": {
     "ok": true,
-    "last": 88.79000091552734,
-    "pct": 0.07889956476678235,
+    "last": 88.58000183105469,
+    "pct": -0.1577991295335647,
     "state": "flat",
-    "corr": -0.286241093357185
+    "corr": -0.29615590427748767
   },
   "news": {
-    "usd": 0.856193051314396,
-    "oil": -0.3124209185725848,
+    "usd": 0.8568221658504369,
+    "oil": -0.3773578425566368,
     "shock": true,
     "usd_headlines": [
       "U.S. Treasury yields rise as Fed hike bets strengthen - Traders Union",
@@ -102,22 +102,22 @@
   ],
   "scorecard": [
     {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.487665793955742,
-      "trust": 0.6252125563535154
-    },
-    {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.39264018321643435,
-      "trust": 0.8139502024455453
+      "score": 0.5542034018882641,
+      "trust": 1.1664272667122115
     },
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.35448458837300517,
-      "trust": 1.0
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.4793506030044203,
+      "trust": 0.7262887924309398
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.11877703787373961,
+      "trust": 0.9898086489478302
     },
     {
       "style": "Fade the session range",
@@ -126,10 +126,10 @@
       "trust": 1.0
     },
     {
-      "style": "Trade the oil shock",
+      "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.06473965374402908,
-      "trust": 0.8092456718003636
+      "score": 0.09989154943322547,
+      "trust": 0.9989154943322546
     }
   ],
   "record": {
