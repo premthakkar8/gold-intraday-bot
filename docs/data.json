@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-13 13:24 UTC",
+  "updated": "2026-11-13 13:39 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3884.86,
-  "stance": "Strategy: the BUY plan from 12:11 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3899.86,
+  "stance": "Strategy: SELL is the trade (Trade with the intraday trend, confidence 58%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.15,
-      "sl": 3877.15,
-      "tp1": 3894.67,
+      "entry_high": 3880.65,
+      "sl": 3875.65,
+      "tp1": 3896.93,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "paused",
       "reason": "Core PPI m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T13:24:28.353733+00:00"
+      "checked_at": "2026-11-13T13:39:09.533176+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3920.14,
+      "entry_low": 3921.64,
       "entry_high": 3923.13,
-      "sl": 3925.14,
-      "tp1": 3907.62,
+      "sl": 3926.64,
+      "tp1": 3905.36,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.34,
+      "score": 0.62,
       "style": "trend_align",
       "favored": true,
-      "ready": false,
+      "ready": true,
       "status": "paused",
       "reason": "Core PPI m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T13:24:28.353733+00:00"
+      "checked_at": "2026-11-13T13:39:09.533176+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "down",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3900.2898733908587,
-    "atr": 3.6507142857142947,
+    "vwap": 3900.075984253143,
+    "atr": 6.387857142857164,
     "day_low": 3879.16,
     "day_high": 3923.13,
-    "range_pos": 0.12963384125540686
+    "range_pos": 0.47077552876961914
   },
   "dxy": {
     "ok": true,
-    "last": 103.24199676513672,
-    "pct": 0.011618141831940031,
+    "last": 103.19999694824219,
+    "pct": -0.02906752660624691,
     "state": "flat",
-    "corr": -0.44306322500925854
+    "corr": -0.3842495328044673
   },
   "oil": {
     "ok": true,
-    "last": 88.5,
-    "pct": -0.2479725176692028,
+    "last": 88.48999786376953,
+    "pct": -0.25924634103805855,
     "state": "flat",
-    "corr": -0.2757718490105072
+    "corr": -0.3276017174224505
   },
   "news": {
-    "usd": 0.737624791974318,
-    "oil": -0.3378907160804962,
+    "usd": 0.7400188769537701,
+    "oil": -0.19640530463069514,
     "shock": true,
     "usd_headlines": [
       "US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - Moomoo",
@@ -102,28 +102,28 @@
   ],
   "scorecard": [
     {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.6240000000000001,
+      "trust": 1.0
+    },
+    {
       "style": "Stand aside",
       "bias": "flat",
       "score": 0.36617236397792524,
       "trust": 0.5548066120877655
     },
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.34320000000000006,
-      "trust": 1.0
-    },
-    {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.15373772998598506,
-      "trust": 0.587361604522944
+      "score": 0.2714097546536933,
+      "trust": 0.5879446047553255
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.12933333333333336,
+      "trust": 1.2933333333333334
     },
     {
       "style": "Trade the oil shock",
@@ -133,10 +133,10 @@
     }
   ],
   "record": {
-    "graded": 111,
-    "wins": 30,
+    "graded": 112,
+    "wins": 31,
     "losses": 60,
     "scratches": 21,
-    "avg_r": -0.19554671836194665
+    "avg_r": -0.15808647980514356
   }
 }
