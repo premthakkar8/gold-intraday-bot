@@ -1,34 +1,15 @@
 {
-  "updated_at": "2026-11-13T02:24:46.854324+00:00",
-  "atr": 6.4542857142857555,
-  "price": 3913.14,
+  "updated_at": "2026-11-13T02:39:24.018365+00:00",
+  "atr": 5.087857142857209,
+  "price": 3908.39,
   "stance": "Strategy: the SELL plan from 01:26 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3880.61,
-      "sl": 3875.61,
-      "tp1": 3896.98,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.18,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.18. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T02:37:53.260291+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3915.29,
-      "entry_high": 3916.74,
-      "sl": 3920.29,
-      "tp1": 3898.92,
+      "entry_high": 3881.36,
+      "sl": 3876.36,
+      "tp1": 3895.86,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -37,17 +18,36 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "status": "valid",
+      "reason": "Price 3911.06 is back within reach of the entry.",
+      "created_at": "2026-11-13T00:57:02.583101+00:00",
+      "checked_at": "2026-11-13T02:52:32.940847+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3914.54,
+      "entry_high": 3916.74,
+      "sl": 3919.54,
+      "tp1": 3900.04,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.54,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": true,
+      "status": "valid",
+      "reason": "Score 0.54 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
       "created_at": "2026-11-13T01:26:16.254745+00:00",
-      "checked_at": "2026-11-13T02:37:53.260291+00:00"
+      "checked_at": "2026-11-13T02:52:32.940847+00:00"
     }
   ],
   "research": [
-    "Gold 3906.94 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3898.53, ATR 6.45, day range 3879.16-3916.74.",
-    "DXY 103.15 (-0.08% today, down), gold-dollar corr -0.43.",
-    "WTI 88.34 (-0.43% today, down), gold-oil corr -0.27.",
-    "Headlines: dollar +0.93, oil -0.15, fresh shock.",
+    "Gold 3914.55 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3899.59, ATR 5.09, day range 3879.16-3916.74.",
+    "DXY 103.17 (-0.06% today, flat), gold-dollar corr -0.44.",
+    "WTI 88.47 (-0.28% today, flat), gold-oil corr -0.27.",
+    "Headlines: dollar +1.00, oil -0.15, fresh shock.",
     "Dollar: Euro Falls as US Dollar gains on inflation concerns, Fed rate hike bets - FXStreet",
     "Oil: CME : WTI Crude Oil futures rebound off lows after inventory build. - www.marketscreener.com",
     "Next high-impact US release: Core PPI m/m Fri 13:30 UTC."
@@ -164,5 +164,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-13T02:37:53.260291+00:00"
+  "last_check": "2026-11-13T02:52:32.940847+00:00"
 }

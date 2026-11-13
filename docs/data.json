@@ -1,34 +1,15 @@
 {
-  "updated": "2026-11-13 02:24 UTC",
+  "updated": "2026-11-13 02:39 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3906.94,
+  "price": 3914.55,
   "stance": "Strategy: the SELL plan from 01:26 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3880.61,
-      "sl": 3875.61,
-      "tp1": 3896.98,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.18,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.18. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T02:24:46.854324+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3915.29,
-      "entry_high": 3916.74,
-      "sl": 3920.29,
-      "tp1": 3898.92,
+      "entry_high": 3881.36,
+      "sl": 3876.36,
+      "tp1": 3895.86,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -37,10 +18,29 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "status": "far",
+      "reason": "Price is 33.19 away from the entry (6.5 ATR). Unlikely to fill soon.",
+      "created_at": "2026-11-13T00:57:02.583101+00:00",
+      "checked_at": "2026-11-13T02:39:24.018365+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3914.54,
+      "entry_high": 3916.74,
+      "sl": 3919.54,
+      "tp1": 3900.04,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.54,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": true,
+      "status": "valid",
+      "reason": "Score 0.54 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
       "created_at": "2026-11-13T01:26:16.254745+00:00",
-      "checked_at": "2026-11-13T02:24:46.854324+00:00"
+      "checked_at": "2026-11-13T02:39:24.018365+00:00"
     }
   ],
   "active": [
@@ -69,32 +69,32 @@
   ],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3898.5267561945498,
-    "atr": 6.4542857142857555,
+    "vwap": 3899.5868870637887,
+    "atr": 5.087857142857209,
     "day_low": 3879.16,
     "day_high": 3916.74,
-    "range_pos": 0.7392229909526411
+    "range_pos": 0.941724321447589
   },
   "dxy": {
     "ok": true,
-    "last": 103.14600372314453,
-    "pct": -0.08137133687637388,
-    "state": "down",
-    "corr": -0.43062530612726857
+    "last": 103.16799926757812,
+    "pct": -0.06006401950901821,
+    "state": "flat",
+    "corr": -0.4427295140196367
   },
   "oil": {
     "ok": true,
-    "last": 88.33999633789062,
-    "pct": -0.428319293940479,
-    "state": "down",
-    "corr": -0.2668752196219622
+    "last": 88.47000122070312,
+    "pct": -0.2817853883681661,
+    "state": "flat",
+    "corr": -0.2736251300614104
   },
   "news": {
-    "usd": 0.9311719922131917,
-    "oil": -0.15239180062703425,
+    "usd": 1.0,
+    "oil": -0.14881907245820994,
     "shock": true,
     "usd_headlines": [
       "Euro Falls as US Dollar gains on inflation concerns, Fed rate hike bets - FXStreet",
@@ -125,25 +125,25 @@
   ],
   "scorecard": [
     {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.5419157282002607,
+      "trust": 0.8976327970281386
+    },
+    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4403474102808886,
-      "trust": 0.7863346612158724
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.17699463613048538,
-      "trust": 0.9988213983830467
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.11477648551304516,
-      "trust": 1.1477648551304516
+      "score": 0.36622043508930974,
+      "trust": 0.5548794471050147
     },
     {
       "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.23888587407078365,
+      "trust": 0.8536105071958835
+    },
+    {
+      "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
