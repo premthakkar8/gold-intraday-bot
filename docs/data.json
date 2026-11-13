@@ -1,28 +1,49 @@
 {
-  "updated": "2026-11-13 00:42 UTC",
+  "updated": "2026-11-13 00:57 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3886.33,
-  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
+  "price": 3885.52,
+  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 54%).",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3870.24,
-      "entry_high": 3873.03,
-      "sl": 3868.03,
-      "tp1": 3879.81,
-      "tp2": 3886.06,
-      "rr": 2.3,
-      "risk_usd": 5.0,
+      "entry_low": 3879.16,
+      "entry_high": 3881.66,
+      "sl": 3876.83,
+      "tp1": 3885.81,
+      "tp2": 3891.67,
+      "rr": 1.5,
+      "risk_usd": 4.83,
       "units": 1.0,
-      "score": 0.14,
+      "score": 0.13,
       "style": "trend_align",
       "favored": false,
       "ready": false,
-      "status": "invalid",
-      "reason": "Dollar is up +0.30% with hawkish news (+0.94) and gold is moving against it (corr -0.45). Buying fights the dollar.",
-      "created_at": "2026-11-13T00:13:05.864658+00:00",
-      "checked_at": "2026-11-13T00:42:22.315833+00:00"
+      "status": "weak",
+      "reason": "Strategy score is only 0.13. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-13T00:57:02.583101+00:00",
+      "checked_at": "2026-11-13T00:57:02.583101+00:00"
     },
+    {
+      "side": "SELL",
+      "entry_low": 3889.17,
+      "entry_high": 3891.67,
+      "sl": 3894.0,
+      "tp1": 3885.81,
+      "tp2": 3879.16,
+      "rr": 1.3,
+      "risk_usd": 4.83,
+      "units": 1.0,
+      "score": 0.54,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": true,
+      "status": "valid",
+      "reason": "Score 0.54 (Trade with the dollar), hawkish dollar news +0.93.",
+      "created_at": "2026-11-13T00:57:02.583101+00:00",
+      "checked_at": "2026-11-13T00:57:02.583101+00:00"
+    }
+  ],
+  "active": [
     {
       "side": "SELL",
       "entry_low": 3886.82,
@@ -40,30 +61,9 @@
       "status": "valid",
       "reason": "Score 0.58 (Trade with the dollar), dollar firmer +0.30%, hawkish dollar news +0.94, price above VWAP.",
       "created_at": "2026-11-13T00:13:05.864658+00:00",
-      "checked_at": "2026-11-13T00:42:22.315833+00:00"
-    }
-  ],
-  "active": [
-    {
-      "side": "SELL",
-      "entry_low": 3886.29,
-      "entry_high": 3889.37,
-      "sl": 3891.29,
-      "tp1": 3879.17,
-      "tp2": 3874.0,
-      "rr": 2.5,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.58,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.58 (Trade with the dollar), dollar firmer +0.30%, hawkish dollar news +0.94, price above VWAP.",
-      "created_at": "2026-11-13T00:13:05.864658+00:00",
-      "checked_at": "2026-11-13T00:14:09.204816+00:00",
-      "entry": 3886.29,
-      "entered_at": "2026-11-13T00:14:09.204816+00:00",
+      "checked_at": "2026-11-13T00:50:27.853486+00:00",
+      "entry": 3886.82,
+      "entered_at": "2026-11-13T00:50:27.853486+00:00",
       "closed": null
     }
   ],
@@ -72,29 +72,29 @@
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3879.81147720541,
-    "atr": 4.021428571428552,
-    "day_low": 3870.24,
-    "day_high": 3889.61,
-    "range_pos": 0.8306659783169777
+    "vwap": 3885.8112839183987,
+    "atr": 4.227857142857147,
+    "day_low": 3879.16,
+    "day_high": 3891.67,
+    "range_pos": 0.5083932853717039
   },
   "dxy": {
     "ok": true,
-    "last": 103.16999816894531,
-    "pct": 0.2994290006889018,
-    "state": "up",
-    "corr": -0.45231196529768647
+    "last": 103.20500183105469,
+    "pct": -0.024219243500806287,
+    "state": "flat",
+    "corr": -0.32381771832305734
   },
   "oil": {
     "ok": true,
-    "last": 88.36000061035156,
-    "pct": -0.4057716472027675,
-    "state": "down",
-    "corr": -0.06699492991836105
+    "last": 88.41000366210938,
+    "pct": -0.3494111297660927,
+    "state": "flat",
+    "corr": -0.12355832185887303
   },
   "news": {
-    "usd": 0.9377206657350503,
-    "oil": -0.07925479899089428,
+    "usd": 0.9326048038212866,
+    "oil": -0.07806579638339022,
     "shock": true,
     "usd_headlines": [
       "U.S. Dollar Tests Yearly Highs As Traders Focus On Hawkish Fed Policy Outlook: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
@@ -125,22 +125,22 @@
   ],
   "scorecard": [
     {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.615244841763318,
-      "trust": 0.8095326865306816
-    },
-    {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5781250985580557,
-      "trust": 1.0
+      "score": 0.5397665760961005,
+      "trust": 1.0002215951816444
+    },
+    {
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.42685249459384755,
+      "trust": 0.646746203930072
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.13577264653641366,
-      "trust": 1.0
+      "score": 0.12524945839390003,
+      "trust": 0.8028811435506411
     },
     {
       "style": "Fade the session range",
@@ -151,8 +151,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.06412481343379264,
-      "trust": 0.801560167922408
+      "score": 0.07990833547581777,
+      "trust": 0.9988541934477221
     }
   ],
   "record": {

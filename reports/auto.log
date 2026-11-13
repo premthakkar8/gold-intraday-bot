@@ -772,3 +772,7 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-13 00:42 UTC  live: gold 3886.33 | holding flat stand_aside ce129430 | new read flat stand_aside not opened
 2026-11-13 00:49 UTC  live: SELL SL hit
 2026-11-13 00:50 UTC  live: SELL entry reached at 3888.59
+2026-11-13 00:57 UTC  live: gold 3885.52 | opened short dollar_lead 57205fa7 zone 3889.17-3891.67 stop 3894.00 target 3885.81 units 1 risk 4.83 USD tier normal conf 0.54
+2026-11-13 01:04 UTC  live: SELL SL hit
+2026-11-13 01:05 UTC  live: SELL entry reached at 3890.87
+2026-11-13 01:05 UTC  live: SELL TP hit
