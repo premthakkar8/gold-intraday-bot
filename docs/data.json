@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-13 08:16 UTC",
+  "updated": "2026-11-13 08:31 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3897.82,
+  "price": 3894.17,
   "stance": "Strategy: the SELL plan from 08:01 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.09,
-      "sl": 3877.09,
-      "tp1": 3894.77,
+      "entry_high": 3882.16,
+      "sl": 3877.16,
+      "tp1": 3894.67,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T08:16:36.134591+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3920.2,
-      "entry_high": 3923.13,
-      "sl": 3925.2,
-      "tp1": 3907.52,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.39,
+      "score": 0.17,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-13T00:57:02.583101+00:00",
+      "checked_at": "2026-11-13T08:31:12.612560+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3920.13,
+      "entry_high": 3923.13,
+      "sl": 3925.13,
+      "tp1": 3907.62,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.11,
+      "style": "trend_align",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T08:16:36.134591+00:00"
+      "checked_at": "2026-11-13T08:31:12.612560+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "down",
     "htf": "up",
     "session": "london",
-    "vwap": 3903.902801698795,
-    "atr": 3.767857142857175,
+    "vwap": 3903.5952474922824,
+    "atr": 3.642857142857175,
     "day_low": 3879.16,
     "day_high": 3923.13,
-    "range_pos": 0.4243802592676871
+    "range_pos": 0.34136911530589337
   },
   "dxy": {
     "ok": true,
-    "last": 103.16699981689453,
-    "pct": -0.061032197995013214,
-    "state": "flat",
-    "corr": -0.33150092371931517
+    "last": 103.11399841308594,
+    "pct": -0.11237522045461079,
+    "state": "down",
+    "corr": -0.2860410096111042
   },
   "oil": {
     "ok": true,
-    "last": 88.80000305175781,
-    "pct": 0.09017338813563812,
+    "last": 88.66000366210938,
+    "pct": -0.06762574139792658,
     "state": "flat",
-    "corr": -0.24529901295610898
+    "corr": -0.24588469797128368
   },
   "news": {
-    "usd": 0.8018342184940108,
-    "oil": -0.2754192741065753,
+    "usd": 0.801488118145139,
+    "oil": -0.2800164064804998,
     "shock": true,
     "usd_headlines": [
       "Gold, silver prices surge as US dollar drops after midterm elections - Ednews.net",
@@ -104,19 +104,19 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4876657939557419,
-      "trust": 0.6252125563535152
+      "score": 0.5632556578411629,
+      "trust": 0.640063247546776
     },
     {
       "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.3889975247223039,
-      "trust": 0.8139502024455452
+      "bias": "long",
+      "score": 0.17075806779760308,
+      "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.1014,
+      "score": 0.10991372549019252,
       "trust": 1.0
     },
     {
@@ -128,8 +128,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.06463171765880403,
-      "trust": 0.8078964707350504
+      "score": 0.08,
+      "trust": 1.0
     }
   ],
   "record": {

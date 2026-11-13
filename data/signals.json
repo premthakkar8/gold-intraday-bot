@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-13T08:16:36.134591+00:00",
-  "atr": 3.767857142857175,
-  "price": 3892.72,
+  "updated_at": "2026-11-13T08:31:12.612560+00:00",
+  "atr": 3.642857142857175,
+  "price": 3893.05,
   "stance": "Strategy: the SELL plan from 08:01 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.09,
-      "sl": 3877.09,
-      "tp1": 3894.77,
+      "entry_high": 3882.16,
+      "sl": 3877.16,
+      "tp1": 3894.67,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T08:29:46.718106+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3920.2,
-      "entry_high": 3923.13,
-      "sl": 3925.2,
-      "tp1": 3907.52,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.39,
+      "score": 0.17,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-13T00:57:02.583101+00:00",
+      "checked_at": "2026-11-13T08:44:19.323779+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3920.13,
+      "entry_high": 3923.13,
+      "sl": 3925.13,
+      "tp1": 3907.62,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.11,
+      "style": "trend_align",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T08:29:46.718106+00:00"
+      "checked_at": "2026-11-13T08:44:19.323779+00:00"
     }
   ],
   "research": [
-    "Gold 3897.82 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 3903.90, ATR 3.77, day range 3879.16-3923.13.",
-    "DXY 103.17 (-0.06% today, flat), gold-dollar corr -0.33.",
-    "WTI 88.80 (+0.09% today, flat), gold-oil corr -0.25.",
+    "Gold 3894.17 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 3903.60, ATR 3.64, day range 3879.16-3923.13.",
+    "DXY 103.11 (-0.11% today, down), gold-dollar corr -0.29.",
+    "WTI 88.66 (-0.07% today, flat), gold-oil corr -0.25.",
     "Headlines: dollar +0.80, oil -0.28, fresh shock.",
     "Dollar: Gold, silver prices surge as US dollar drops after midterm elections - Ednews.net",
     "Oil: US oil inventories rise for first time in 6 weeks - \u0627\u0631\u0642\u0627\u0645 : \u0627\u062e\u0628\u0627\u0631 \u0648\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0633\u0648\u0642 \u0627\u0644\u0623\u0633\u0647\u0645 \u0627\u0644\u0633\u0639\u0648\u062f\u064a - \u062a\u0627\u0633\u064a",
@@ -207,5 +207,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-13T08:29:46.718106+00:00"
+  "last_check": "2026-11-13T08:44:19.323779+00:00"
 }
