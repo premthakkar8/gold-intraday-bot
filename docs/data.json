@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-13 06:33 UTC",
+  "updated": "2026-11-13 06:48 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3896.67,
-  "stance": "Strategy: the SELL plan from 04:36 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3888.81,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.18). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3880.61,
-      "sl": 3875.61,
-      "tp1": 3896.99,
+      "entry_high": 3880.66,
+      "sl": 3875.66,
+      "tp1": 3896.91,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T06:33:55.101496+00:00"
+      "checked_at": "2026-11-13T06:48:31.449920+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3921.68,
+      "entry_low": 3921.63,
       "entry_high": 3923.13,
-      "sl": 3926.68,
-      "tp1": 3905.73,
+      "sl": 3926.63,
+      "tp1": 3905.38,
       "tp2": null,
-      "rr": 3.9,
+      "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.32,
+      "score": 0.18,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T06:33:55.101496+00:00"
+      "checked_at": "2026-11-13T06:48:31.449920+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "sideways",
     "htf": "up",
     "session": "asia",
-    "vwap": 3905.728741109931,
-    "atr": 6.46071428571424,
+    "vwap": 3905.215600311364,
+    "atr": 6.362142857142804,
     "day_low": 3879.16,
     "day_high": 3923.13,
-    "range_pos": 0.39822606322492876
+    "range_pos": 0.21946781896747863
   },
   "dxy": {
     "ok": true,
-    "last": 103.19200134277344,
-    "pct": -0.03681295449420693,
+    "last": 103.177001953125,
+    "pct": -0.05134302245959758,
     "state": "flat",
-    "corr": -0.27089012230271226
+    "corr": -0.25444791219482643
   },
   "oil": {
     "ok": true,
-    "last": 88.56999969482422,
-    "pct": -0.16907295290242047,
+    "last": 88.75,
+    "pct": 0.03381287069896329,
     "state": "flat",
-    "corr": -0.10558744785305835
+    "corr": -0.11003268870867178
   },
   "news": {
-    "usd": 0.6166749707575402,
-    "oil": -0.06453559046015421,
+    "usd": 0.6459867955003679,
+    "oil": -0.065600209227033,
     "shock": true,
     "usd_headlines": [
       "Dollar weakens against dong - VnExpress International",
       "Gold, silver prices surge as US dollar drops after midterm elections - Ednews.net",
-      "Euro Falls as US Dollar gains on inflation concerns, Fed rate hike bets - FXStreet"
+      "Dollar set for best week in two months on rate hike wagers, yen tests 160 - Reuters"
     ],
     "oil_headlines": [
       "Petrol Prices in Nigeria: FCCPC Warns Marketers as Crude Oil Falls Below - - MSME Africa",
@@ -104,26 +104,26 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4241144009882853,
-      "trust": 0.6425975772549777
+      "score": 0.42411440098828523,
+      "trust": 0.6425975772549776
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3179817538043091,
-      "trust": 0.855392792361431
+      "score": 0.17958212674198137,
+      "trust": 0.8553927923614311
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11442629420471129,
-      "trust": 1.1442629420471129
+      "score": 0.11440602353896412,
+      "trust": 1.1440602353896412
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.08568785354732114,
-      "trust": 0.8568785354732114
+      "score": 0.08570796382184831,
+      "trust": 0.8570796382184831
     },
     {
       "style": "Trade the oil shock",
@@ -133,10 +133,10 @@
     }
   ],
   "record": {
-    "graded": 105,
+    "graded": 106,
     "wins": 30,
     "losses": 56,
-    "scratches": 19,
-    "avg_r": -0.1686255784588198
+    "scratches": 20,
+    "avg_r": -0.16703477111486867
   }
 }
