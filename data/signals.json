@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-13T14:08:42.426250+00:00",
-  "atr": 8.709285714285768,
-  "price": 3882.62,
+  "updated_at": "2026-11-13T14:23:27.295191+00:00",
+  "atr": 8.943571428571497,
+  "price": 3894.25,
   "stance": "Strategy: the SELL plan from 13:39 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3872.81,
-      "entry_high": 3873.02,
-      "sl": 3868.02,
-      "tp1": 3892.5,
+      "entry_high": 3872.89,
+      "sl": 3867.89,
+      "tp1": 3892.69,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-13T13:53:49.931899+00:00",
-      "checked_at": "2026-11-13T14:21:53.922387+00:00"
+      "checked_at": "2026-11-13T14:36:34.810489+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3922.92,
+      "entry_low": 3923.05,
       "entry_high": 3923.13,
-      "sl": 3927.92,
-      "tp1": 3903.44,
+      "sl": 3928.05,
+      "tp1": 3903.25,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,14 +40,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T14:21:53.922387+00:00"
+      "checked_at": "2026-11-13T14:36:34.810489+00:00"
     }
   ],
   "research": [
-    "Gold 3881.39 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3899.29, ATR 8.71, day range 3872.81-3923.13.",
-    "DXY 103.23 (-0.00% today, flat), gold-dollar corr -0.71.",
-    "WTI 89.18 (+0.52% today, up), gold-oil corr -0.59.",
-    "Headlines: dollar +0.77, oil -0.29, fresh shock.",
+    "Gold 3884.15 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3898.94, ATR 8.94, day range 3872.81-3923.13.",
+    "DXY 103.22 (-0.01% today, flat), gold-dollar corr -0.68.",
+    "WTI 89.19 (+0.53% today, up), gold-oil corr -0.53.",
+    "Headlines: dollar +0.77, oil -0.19, fresh shock.",
     "Dollar: European stocks near record highs, US dollar gains on Fed rate hike bets - The Business Times",
     "Oil: Petrol Prices in Nigeria: FCCPC Warns Marketers as Crude Oil Falls Below - - MSME Africa",
     "No high-impact US release in the next 24 hours."
@@ -116,8 +116,8 @@
       "checked_at": "2026-11-13T13:54:54.259800+00:00",
       "entry": 3873.36,
       "entered_at": "2026-11-13T13:54:54.259800+00:00",
-      "closed": null
+      "closed": "tp"
     }
   ],
-  "last_check": "2026-11-13T14:21:53.922387+00:00"
+  "last_check": "2026-11-13T14:36:34.810489+00:00"
 }
