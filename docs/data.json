@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-13 05:05 UTC",
+  "updated": "2026-11-13 05:20 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3914.2,
+  "price": 3918.11,
   "stance": "Strategy: the SELL plan from 04:36 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.48,
-      "sl": 3877.48,
-      "tp1": 3894.19,
+      "entry_high": 3882.39,
+      "sl": 3877.39,
+      "tp1": 3894.32,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T05:05:56.189128+00:00"
+      "checked_at": "2026-11-13T05:20:29.038388+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3919.81,
+      "entry_low": 3919.9,
       "entry_high": 3923.13,
-      "sl": 3924.81,
-      "tp1": 3908.1,
+      "sl": 3924.9,
+      "tp1": 3907.97,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -37,64 +37,41 @@
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "valid",
-      "reason": "Score 0.35 (Trade with the dollar), hawkish dollar news +0.64, price above VWAP.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T05:05:56.189128+00:00"
+      "checked_at": "2026-11-13T05:20:29.038388+00:00"
     }
   ],
-  "active": [
-    {
-      "side": "SELL",
-      "entry_low": 3918.14,
-      "entry_high": 3920.43,
-      "sl": 3923.14,
-      "tp1": 3903.86,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.35,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.35 (Trade with the dollar), hawkish dollar news +0.81, price above VWAP.",
-      "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T03:09:40.798657+00:00",
-      "entry": 3918.14,
-      "entered_at": "2026-11-13T03:09:40.798657+00:00",
-      "closed": null
-    }
-  ],
+  "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
     "htf": "up",
     "session": "asia",
-    "vwap": 3906.0061581909017,
-    "atr": 3.0607142857142793,
+    "vwap": 3906.4001560192974,
+    "atr": 3.219285714285726,
     "day_low": 3879.16,
     "day_high": 3923.13,
-    "range_pos": 0.796906982033199
+    "range_pos": 0.8858312485785774
   },
   "dxy": {
     "ok": true,
-    "last": 103.16000366210938,
-    "pct": -0.06780944739697824,
+    "last": 103.16899871826172,
+    "pct": -0.05909584102302321,
     "state": "flat",
-    "corr": -0.3682096272237328
+    "corr": -0.3739512098391142
   },
   "oil": {
     "ok": true,
-    "last": 88.2300033569336,
-    "pct": -0.5522969533674764,
+    "last": 88.18000030517578,
+    "pct": -0.6086574708041512,
     "state": "down",
-    "corr": -0.1470076804658892
+    "corr": -0.15011423396336884
   },
   "news": {
-    "usd": 0.6427639504577223,
-    "oil": -0.06506142483706423,
+    "usd": 0.645208905130952,
+    "oil": 0.09881653253099487,
     "shock": true,
     "usd_headlines": [
       "Dollar weakens against dong - VnExpress International",
@@ -104,7 +81,7 @@
     "oil_headlines": [
       "Crude Oil Gains As Trump Dismisses Iran Deal, Raising Fresh Oil Supply Concerns By Kedia Advisory - Investing.com India",
       "Brent Crude Falls to $95.5, WTI Slips to $88.3 - HDFC Sky",
-      "CME : WTI Crude Oil futures rebound off lows after inventory build. - www.marketscreener.com"
+      "Market News Today Australia: Gold Falls Below $3,900, WTI Oil Jumps as Nvidia Slides - Mitrade"
     ]
   },
   "events": [
@@ -133,25 +110,25 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.34620000214897134,
-      "trust": 0.8443851972605776
+      "score": 0.34847906605625495,
+      "trust": 0.8443851972605775
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.12,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1193986728540732,
-      "trust": 1.193986728540732
+      "score": 0.11937152416250592,
+      "trust": 1.1937152416250592
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.08,
       "trust": 1.0
     }
   ],
