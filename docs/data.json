@@ -1,77 +1,77 @@
 {
-  "updated": "2026-11-13 15:37 UTC",
+  "updated": "2026-11-13 15:51 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3876.33,
-  "stance": "Strategy: the SELL plan from 13:39 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3873.28,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3872.81,
-      "entry_high": 3874.42,
-      "sl": 3869.42,
-      "tp1": 3890.4,
+      "entry_low": 3872.13,
+      "entry_high": 3873.82,
+      "sl": 3868.82,
+      "tp1": 3889.6,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.62,
-      "style": "trend_align",
-      "favored": true,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
       "ready": false,
-      "status": "valid",
-      "reason": "Score 0.62 (Trade with the intraday trend), price below VWAP.",
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-13T14:52:55.698272+00:00",
-      "checked_at": "2026-11-13T15:37:03.475675+00:00"
+      "checked_at": "2026-11-13T15:51:43.973589+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3921.52,
+      "entry_low": 3921.44,
       "entry_high": 3923.13,
-      "sl": 3926.52,
-      "tp1": 3905.54,
+      "sl": 3926.44,
+      "tp1": 3905.66,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.26,
-      "style": "dollar_lead",
-      "favored": false,
+      "score": 0.4,
+      "style": "trend_align",
+      "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 45.19 away from the entry (7.3 ATR). Unlikely to fill soon.",
+      "reason": "Price is 48.16 away from the entry (8.0 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-13T14:52:55.698272+00:00",
-      "checked_at": "2026-11-13T15:37:03.475675+00:00"
+      "checked_at": "2026-11-13T15:51:43.973589+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "down",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3897.773150086563,
-    "atr": 6.1707142857142445,
-    "day_low": 3872.81,
+    "vwap": 3897.1520925012733,
+    "atr": 6.02142857142852,
+    "day_low": 3872.13,
     "day_high": 3923.13,
-    "range_pos": 0.0699523052464223
+    "range_pos": 0.02254901960784492
   },
   "dxy": {
     "ok": true,
-    "last": 103.22899627685547,
-    "pct": -0.0009755691614606133,
-    "state": "flat",
-    "corr": -0.6624034575162941
+    "last": 103.35299682617188,
+    "pct": 0.11914507918111021,
+    "state": "up",
+    "corr": -0.597497220532421
   },
   "oil": {
     "ok": true,
-    "last": 89.33000183105469,
-    "pct": 0.6875570355709336,
-    "state": "up",
-    "corr": -0.5214598189179687
+    "last": 88.75,
+    "pct": 0.03381287069896329,
+    "state": "flat",
+    "corr": -0.4956508686244267
   },
   "news": {
-    "usd": 0.8687392339070757,
-    "oil": -0.634863115447299,
+    "usd": 0.8648962456174838,
+    "oil": -0.5757300172101936,
     "shock": true,
     "usd_headlines": [
       "Treasury Yields Climb as December Rate Hike Bets Grow - Oz Arab Media",
@@ -89,20 +89,20 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.626615199432463,
-      "trust": 0.9494169688370651
+      "score": 0.5199902254004553,
+      "trust": 0.9285539739293843
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.6233458535080947,
-      "trust": 0.9989516883142541
+      "bias": "short",
+      "score": 0.4048000000000001,
+      "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2600676076039704,
-      "trust": 0.7915250995568319
+      "score": 0.20085065343227024,
+      "trust": 0.8463745912561562
     },
     {
       "style": "Fade the session range",
@@ -113,15 +113,15 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07500889783743143,
-      "trust": 0.625074148645262
+      "score": 0.09434270913127116,
+      "trust": 0.786189242760593
     }
   ],
   "record": {
-    "graded": 112,
+    "graded": 113,
     "wins": 31,
     "losses": 60,
-    "scratches": 21,
-    "avg_r": -0.15808647980514356
+    "scratches": 22,
+    "avg_r": -0.15668748440863786
   }
 }
