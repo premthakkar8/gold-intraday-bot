@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-13T10:57:40.421919+00:00",
-  "atr": 3.2571428571428833,
-  "price": 3891.14,
+  "updated_at": "2026-11-13T11:12:31.075125+00:00",
+  "atr": 3.0135714285714976,
+  "price": 3889.49,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.26). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.37,
-      "sl": 3877.37,
-      "tp1": 3894.35,
+      "entry_high": 3882.5,
+      "sl": 3877.5,
+      "tp1": 3894.15,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T11:10:46.913466+00:00"
+      "checked_at": "2026-11-13T11:25:45.406366+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3919.92,
+      "entry_low": 3919.79,
       "entry_high": 3923.13,
-      "sl": 3924.92,
-      "tp1": 3907.94,
+      "sl": 3924.79,
+      "tp1": 3908.14,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,15 +40,15 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T11:10:46.913466+00:00"
+      "checked_at": "2026-11-13T11:25:45.406366+00:00"
     }
   ],
   "research": [
-    "Gold 3892.48 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 3902.24, ATR 3.26, day range 3879.16-3923.13.",
-    "DXY 103.25 (+0.02% today, flat), gold-dollar corr -0.52.",
-    "WTI 88.18 (-0.61% today, down), gold-oil corr -0.36.",
-    "Headlines: dollar +0.69, oil -0.20, fresh shock.",
-    "Dollar: Two-Year Treasury Stabilizes as Eurozone, U.S. Bond Yields Rise - WSJ",
+    "Gold 3891.42 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 3902.04, ATR 3.01, day range 3879.16-3923.13.",
+    "DXY 103.25 (+0.02% today, flat), gold-dollar corr -0.46.",
+    "WTI 88.24 (-0.54% today, down), gold-oil corr -0.40.",
+    "Headlines: dollar +0.71, oil -0.11, fresh shock.",
+    "Dollar: Federal Reserve rate hike expectations strengthen as U.S. inflation runs above forecasts - Traders Union",
     "Oil: Crude oil jumps as escalation risks increase after Trump says the US doesn't need Iran deal - investingLive",
     "Next high-impact US release: Core PPI m/m Fri 13:30 UTC."
   ],
@@ -207,5 +207,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-13T11:10:46.913466+00:00"
+  "last_check": "2026-11-13T11:25:45.406366+00:00"
 }

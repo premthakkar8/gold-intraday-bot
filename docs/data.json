@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-13 10:57 UTC",
+  "updated": "2026-11-13 11:12 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3892.48,
+  "price": 3891.42,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.26). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.37,
-      "sl": 3877.37,
-      "tp1": 3894.35,
+      "entry_high": 3882.5,
+      "sl": 3877.5,
+      "tp1": 3894.15,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T10:57:40.421919+00:00"
+      "checked_at": "2026-11-13T11:12:31.075125+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3919.92,
+      "entry_low": 3919.79,
       "entry_high": 3923.13,
-      "sl": 3924.92,
-      "tp1": 3907.94,
+      "sl": 3924.79,
+      "tp1": 3908.14,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T10:57:40.421919+00:00"
+      "checked_at": "2026-11-13T11:12:31.075125+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "down",
     "htf": "up",
     "session": "london",
-    "vwap": 3902.2414635539194,
-    "atr": 3.2571428571428833,
+    "vwap": 3902.035054591878,
+    "atr": 3.0135714285714976,
     "day_low": 3879.16,
     "day_high": 3923.13,
-    "range_pos": 0.3029338185126242
+    "range_pos": 0.27882647259495447
   },
   "dxy": {
     "ok": true,
-    "last": 103.24700164794922,
-    "pct": 0.016466424937380653,
+    "last": 103.25199890136719,
+    "pct": 0.021307317367355666,
     "state": "flat",
-    "corr": -0.5153942263280817
+    "corr": -0.46088811604685076
   },
   "oil": {
     "ok": true,
-    "last": 88.18000030517578,
-    "pct": -0.6086574708041512,
+    "last": 88.23999786376953,
+    "pct": -0.5410317294062247,
     "state": "down",
-    "corr": -0.3622532107343977
+    "corr": -0.3986918341998622
   },
   "news": {
-    "usd": 0.690045678908756,
-    "oil": -0.19534636526697327,
+    "usd": 0.7135633012213823,
+    "oil": -0.1111198343758243,
     "shock": true,
     "usd_headlines": [
+      "Federal Reserve rate hike expectations strengthen as U.S. inflation runs above forecasts - Traders Union",
       "Two-Year Treasury Stabilizes as Eurozone, U.S. Bond Yields Rise - WSJ",
-      "The Fed expected rate cuts this year. Now it\u2019s bracing for another inflation fight - CNBC",
-      "U.S. Treasury yields rise as Fed hike bets strengthen - Traders Union"
+      "The Fed expected rate cuts this year. Now it\u2019s bracing for another inflation fight - CNBC"
     ],
     "oil_headlines": [
       "Crude oil jumps as escalation risks increase after Trump says the US doesn't need Iran deal - investingLive",
@@ -110,13 +110,13 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.25910270998737944,
+      "score": 0.2575410166722766,
       "trust": 0.9987440506842514
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.22308000000000003,
+      "score": 0.17093074188195617,
       "trust": 1.0
     },
     {
@@ -128,8 +128,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09730227985607955,
-      "trust": 0.8108523321339962
+      "score": 0.06488979539054192,
+      "trust": 0.8111224423817739
     }
   ],
   "record": {
