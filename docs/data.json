@@ -1,105 +1,82 @@
 {
-  "updated": "2026-11-13 02:54 UTC",
+  "updated": "2026-11-13 03:08 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3908.51,
-  "stance": "Strategy: the SELL plan from 01:26 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3919.49,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.35). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3881.56,
-      "sl": 3876.56,
-      "tp1": 3895.56,
+      "entry_high": 3881.45,
+      "sl": 3876.45,
+      "tp1": 3895.73,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.29,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T02:54:05.142036+00:00"
+      "checked_at": "2026-11-13T03:08:36.933699+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3914.34,
-      "entry_high": 3916.74,
-      "sl": 3919.34,
-      "tp1": 3900.5,
+      "entry_low": 3918.14,
+      "entry_high": 3920.43,
+      "sl": 3923.14,
+      "tp1": 3903.86,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.58,
+      "score": 0.35,
       "style": "dollar_lead",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "valid",
-      "reason": "Score 0.58 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
-      "created_at": "2026-11-13T01:26:16.254745+00:00",
-      "checked_at": "2026-11-13T02:54:05.142036+00:00"
+      "reason": "Score 0.35 (Trade with the dollar), hawkish dollar news +0.81, price above VWAP.",
+      "created_at": "2026-11-13T03:08:36.933699+00:00",
+      "checked_at": "2026-11-13T03:08:36.933699+00:00"
     }
   ],
-  "active": [
-    {
-      "side": "SELL",
-      "entry_low": 3915.02,
-      "entry_high": 3916.74,
-      "sl": 3920.02,
-      "tp1": 3899.32,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.5,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.50 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
-      "created_at": "2026-11-13T01:26:16.254745+00:00",
-      "checked_at": "2026-11-13T01:27:19.828129+00:00",
-      "entry": 3915.02,
-      "entered_at": "2026-11-13T01:27:19.828129+00:00",
-      "closed": null
-    }
-  ],
+  "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3900.497671400077,
-    "atr": 4.722142857142866,
+    "vwap": 3901.7643475255923,
+    "atr": 4.935714285714312,
     "day_low": 3879.16,
-    "day_high": 3916.74,
-    "range_pos": 0.7810005321979888
+    "day_high": 3920.43,
+    "range_pos": 0.977223164526289
   },
   "dxy": {
     "ok": true,
-    "last": 103.17900085449219,
-    "pct": -0.04940666548760757,
+    "last": 103.15599822998047,
+    "pct": -0.07168955201642385,
     "state": "flat",
-    "corr": -0.4047691700517125
+    "corr": -0.3942314932706419
   },
   "oil": {
     "ok": true,
-    "last": 88.5199966430664,
-    "pct": -0.22543347033909528,
-    "state": "flat",
-    "corr": -0.13234875971588528
+    "last": 88.19999694824219,
+    "pct": -0.5861184234740437,
+    "state": "down",
+    "corr": -0.11514109020359377
   },
   "news": {
-    "usd": 1.0,
-    "oil": -0.1450852968587162,
+    "usd": 0.8120006383031609,
+    "oil": -0.14123930841729845,
     "shock": true,
     "usd_headlines": [
+      "Gold, silver prices surge as US dollar drops after midterm elections - Ednews.net",
       "Euro Falls as US Dollar gains on inflation concerns, Fed rate hike bets - FXStreet",
-      "Four-day rally! Short-term U.S. Treasury yields post fastest gains since 2022 as market bets on Fed rate hikes - \u5bcc\u9014\u725b\u725b",
-      "U.S. Dollar Tests Yearly Highs As Traders Focus On Hawkish Fed Policy Outlook: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire"
+      "Four-day rally! Short-term U.S. Treasury yields post fastest gains since 2022 as market bets on Fed rate hikes - \u5bcc\u9014\u725b\u725b"
     ],
     "oil_headlines": [
       "CME : WTI Crude Oil futures rebound off lows after inventory build. - www.marketscreener.com",
@@ -125,41 +102,41 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.5752144183739206,
-      "trust": 0.9687790665734615
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4495326117376145,
-      "trust": 0.6811100177842644
+      "score": 0.5957103142519969,
+      "trust": 0.9025913852302984
     },
     {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.11473485705362055,
-      "trust": 1.1473485705362054
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.3476040377856735,
+      "trust": 0.6961324306248988
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.08538173219551873,
-      "trust": 0.8538173219551872
+      "bias": "long",
+      "score": 0.29310023329162627,
+      "trust": 0.8540216587751346
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.08,
-      "trust": 1.0
+      "score": 0.11986423383911293,
+      "trust": 0.9988686153259412
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.11471426040104185,
+      "trust": 1.1471426040104185
     }
   ],
   "record": {
-    "graded": 102,
+    "graded": 103,
     "wins": 30,
-    "losses": 53,
+    "losses": 54,
     "scratches": 19,
-    "avg_r": -0.14417338958996154
+    "avg_r": -0.15248238580753473
   }
 }
