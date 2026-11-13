@@ -1,40 +1,58 @@
 {
-  "updated_at": "2026-11-13T14:38:18.565086+00:00",
-  "atr": 9.300714285714353,
-  "price": 3898.77,
+  "updated_at": "2026-11-13T14:52:55.698272+00:00",
+  "atr": 6.850000000000072,
+  "price": 3887.86,
   "stance": "Strategy: the SELL plan from 13:39 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
-  "setups": [],
-  "research": [
-    "Gold 3893.81 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3898.74, ATR 9.30, day range 3872.81-3923.13.",
-    "DXY 103.26 (+0.03% today, flat), gold-dollar corr -0.65.",
-    "WTI 89.42 (+0.79% today, up), gold-oil corr -0.53.",
-    "Headlines: dollar +0.77, oil -0.19, fresh shock.",
-    "Dollar: European stocks near record highs, US dollar gains on Fed rate hike bets - The Business Times",
-    "Oil: Petrol Prices in Nigeria: FCCPC Warns Marketers as Crude Oil Falls Below - - MSME Africa",
-    "No high-impact US release in the next 24 hours."
-  ],
-  "active": [
+  "setups": [
     {
-      "side": "SELL",
-      "entry_low": 3914.34,
-      "entry_high": 3916.74,
-      "sl": 3919.34,
-      "tp1": 3900.5,
+      "side": "BUY",
+      "entry_low": 3872.81,
+      "entry_high": 3874.04,
+      "sl": 3869.04,
+      "tp1": 3890.96,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.58,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-13T14:52:55.698272+00:00",
+      "checked_at": "2026-11-13T15:06:04.960819+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3921.9,
+      "entry_high": 3923.13,
+      "sl": 3926.9,
+      "tp1": 3904.98,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.56,
       "style": "dollar_lead",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "valid",
-      "reason": "Score 0.58 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
-      "created_at": "2026-11-13T01:26:16.254745+00:00",
-      "checked_at": "2026-11-13T03:02:10.866886+00:00",
-      "entered_at": "2026-11-13T03:02:10.866886+00:00",
-      "closed": "skipped"
-    },
+      "reason": "Score 0.56 (Trade with the dollar), hawkish dollar news +0.80.",
+      "created_at": "2026-11-13T14:52:55.698272+00:00",
+      "checked_at": "2026-11-13T15:06:04.960819+00:00"
+    }
+  ],
+  "research": [
+    "Gold 3894.99 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3898.69, ATR 6.85, day range 3872.81-3923.13.",
+    "DXY 103.20 (-0.03% today, flat), gold-dollar corr -0.65.",
+    "WTI 89.18 (+0.52% today, up), gold-oil corr -0.57.",
+    "Headlines: dollar +0.80, oil -0.19, fresh shock.",
+    "Dollar: Treasury yields log steepest weekly spikes since April 2025 on hawkish Fed signals - Investing.com",
+    "Oil: Petrol Prices in Nigeria: FCCPC Warns Marketers as Crude Oil Falls Below - - MSME Africa",
+    "No high-impact US release in the next 24 hours."
+  ],
+  "active": [
     {
       "side": "SELL",
       "entry_low": 3918.14,
@@ -80,5 +98,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-13T14:51:27.098556+00:00"
+  "last_check": "2026-11-13T15:06:04.960819+00:00"
 }

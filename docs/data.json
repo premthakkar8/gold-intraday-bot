@@ -1,43 +1,82 @@
 {
-  "updated": "2026-11-13 14:38 UTC",
+  "updated": "2026-11-13 14:52 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3893.81,
+  "price": 3894.99,
   "stance": "Strategy: the SELL plan from 13:39 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
-  "setups": [],
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3872.81,
+      "entry_high": 3874.04,
+      "sl": 3869.04,
+      "tp1": 3890.96,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-13T14:52:55.698272+00:00",
+      "checked_at": "2026-11-13T14:52:55.698272+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3921.9,
+      "entry_high": 3923.13,
+      "sl": 3926.9,
+      "tp1": 3904.98,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.56,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.56 (Trade with the dollar), hawkish dollar news +0.80.",
+      "created_at": "2026-11-13T14:52:55.698272+00:00",
+      "checked_at": "2026-11-13T14:52:55.698272+00:00"
+    }
+  ],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3898.7428745839193,
-    "atr": 9.300714285714353,
+    "vwap": 3898.6853617105203,
+    "atr": 6.850000000000072,
     "day_low": 3872.81,
     "day_high": 3923.13,
-    "range_pos": 0.4173290937996807
+    "range_pos": 0.44077901430842137
   },
   "dxy": {
     "ok": true,
-    "last": 103.25800323486328,
-    "pct": 0.02712377895879129,
+    "last": 103.2020034790039,
+    "pct": -0.02712377895879129,
     "state": "flat",
-    "corr": -0.6491864971547494
+    "corr": -0.6536888713990828
   },
   "oil": {
     "ok": true,
-    "last": 89.41999816894531,
-    "pct": 0.7889956476678235,
+    "last": 89.18000030517578,
+    "pct": 0.5184840826685131,
     "state": "up",
-    "corr": -0.5286594295198569
+    "corr": -0.5688816096557646
   },
   "news": {
-    "usd": 0.7747675695448888,
-    "oil": -0.19243048469223653,
+    "usd": 0.7962475089228278,
+    "oil": -0.1913555597587001,
     "shock": true,
     "usd_headlines": [
+      "Treasury yields log steepest weekly spikes since April 2025 on hawkish Fed signals - Investing.com",
       "European stocks near record highs, US dollar gains on Fed rate hike bets - The Business Times",
-      "US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - Moomoo",
-      "US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - marketscreener.com"
+      "US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - Moomoo"
     ],
     "oil_headlines": [
       "Petrol Prices in Nigeria: FCCPC Warns Marketers as Crude Oil Falls Below - - MSME Africa",
@@ -56,14 +95,14 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.547508687023799,
-      "trust": 0.9989017570864085
+      "score": 0.5591500970872958,
+      "trust": 0.9989033016297396
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.12916677088768358,
-      "trust": 1.2916677088768358
+      "score": 0.12912575141839674,
+      "trust": 1.2912575141839673
     },
     {
       "style": "Trade with the intraday trend",
@@ -74,8 +113,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.0703338602295135,
-      "trust": 0.5861155019126125
+      "score": 0.04693580635678379,
+      "trust": 0.5866975794597973
     }
   ],
   "record": {
