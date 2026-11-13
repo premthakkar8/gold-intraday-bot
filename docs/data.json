@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-13 11:41 UTC",
+  "updated": "2026-11-13 11:56 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3889.58,
+  "price": 3893.66,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.28). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.71,
-      "sl": 3877.71,
-      "tp1": 3893.84,
+      "entry_high": 3882.51,
+      "sl": 3877.51,
+      "tp1": 3894.13,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T11:41:52.707080+00:00"
+      "checked_at": "2026-11-13T11:56:29.749871+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3919.58,
+      "entry_low": 3919.78,
       "entry_high": 3923.13,
-      "sl": 3924.58,
-      "tp1": 3908.45,
+      "sl": 3924.78,
+      "tp1": 3908.16,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T11:41:52.707080+00:00"
+      "checked_at": "2026-11-13T11:56:29.749871+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "down",
     "htf": "up",
     "session": "london",
-    "vwap": 3901.620240317784,
-    "atr": 2.640714285714336,
+    "vwap": 3901.4617212014173,
+    "atr": 2.996428571428591,
     "day_low": 3879.16,
     "day_high": 3923.13,
-    "range_pos": 0.2369797589265411
+    "range_pos": 0.3297702979304052
   },
   "dxy": {
     "ok": true,
-    "last": 103.21600341796875,
-    "pct": -0.013561889479395645,
+    "last": 103.23100280761719,
+    "pct": 0.0009681784859950026,
     "state": "flat",
-    "corr": -0.35899277810954283
+    "corr": -0.35463210689331337
   },
   "oil": {
     "ok": true,
-    "last": 88.51000213623047,
-    "pct": -0.236698694300347,
+    "last": 88.43000030517578,
+    "pct": -0.32687208243598515,
     "state": "flat",
-    "corr": -0.41926704886867233
+    "corr": -0.35238319530587725
   },
   "news": {
-    "usd": 0.732568935359589,
-    "oil": -0.11018539377458962,
+    "usd": 0.7336693797172398,
+    "oil": -0.2040073314588931,
     "shock": false,
     "usd_headlines": [
       "US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - marketscreener.com",
@@ -104,7 +104,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.28330387583303457,
+      "score": 0.28292212512761383,
       "trust": 0.8559042302414434
     },
     {
@@ -114,22 +114,22 @@
       "trust": 0.6252125563535152
     },
     {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.2495721096543334,
+      "trust": 1.0
+    },
+    {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
     },
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.06971250000000001,
-      "trust": 1.0
-    },
-    {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.06493244485731323,
-      "trust": 0.8116555607164153
+      "score": 0.06495363333466159,
+      "trust": 0.8119204166832698
     }
   ],
   "record": {

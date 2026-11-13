@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-13T11:41:52.707080+00:00",
-  "atr": 2.640714285714336,
-  "price": 3896.41,
+  "updated_at": "2026-11-13T11:56:29.749871+00:00",
+  "atr": 2.996428571428591,
+  "price": 3894.58,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.28). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.71,
-      "sl": 3877.71,
-      "tp1": 3893.84,
+      "entry_high": 3882.51,
+      "sl": 3877.51,
+      "tp1": 3894.13,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T11:55:00.321557+00:00"
+      "checked_at": "2026-11-13T12:09:36.025195+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3919.58,
+      "entry_low": 3919.78,
       "entry_high": 3923.13,
-      "sl": 3924.58,
-      "tp1": 3908.45,
+      "sl": 3924.78,
+      "tp1": 3908.16,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,14 +40,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T11:55:00.321557+00:00"
+      "checked_at": "2026-11-13T12:09:36.025195+00:00"
     }
   ],
   "research": [
-    "Gold 3889.58 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 3901.62, ATR 2.64, day range 3879.16-3923.13.",
-    "DXY 103.22 (-0.01% today, flat), gold-dollar corr -0.36.",
-    "WTI 88.51 (-0.24% today, flat), gold-oil corr -0.42.",
-    "Headlines: dollar +0.73, oil -0.11.",
+    "Gold 3893.66 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 3901.46, ATR 3.00, day range 3879.16-3923.13.",
+    "DXY 103.23 (+0.00% today, flat), gold-dollar corr -0.35.",
+    "WTI 88.43 (-0.33% today, flat), gold-oil corr -0.35.",
+    "Headlines: dollar +0.73, oil -0.20.",
     "Dollar: US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - marketscreener.com",
     "Oil: Crude oil jumps as escalation risks increase after Trump says the US doesn't need Iran deal - investingLive",
     "Next high-impact US release: Core PPI m/m Fri 13:30 UTC."
@@ -207,5 +207,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-13T11:55:00.321557+00:00"
+  "last_check": "2026-11-13T12:09:36.025195+00:00"
 }
