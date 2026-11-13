@@ -1,56 +1,56 @@
 {
-  "updated_at": "2026-11-13T13:39:09.533176+00:00",
-  "atr": 6.387857142857164,
-  "price": 3883.71,
-  "stance": "Strategy: SELL is the trade (Trade with the intraday trend, confidence 58%).",
+  "updated_at": "2026-11-13T13:53:49.931899+00:00",
+  "atr": 8.100000000000039,
+  "price": 3883.95,
+  "stance": "Strategy: the SELL plan from 13:39 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3879.16,
-      "entry_high": 3880.65,
-      "sl": 3875.65,
-      "tp1": 3896.93,
+      "entry_low": 3872.81,
+      "entry_high": 3873.36,
+      "sl": 3868.36,
+      "tp1": 3891.99,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
       "style": "range_fade",
-      "favored": false,
+      "favored": true,
       "ready": false,
-      "status": "paused",
-      "reason": "Core PPI m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
-      "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T13:52:16.237076+00:00"
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-13T13:53:49.931899+00:00",
+      "checked_at": "2026-11-13T14:06:57.203321+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3921.64,
+      "entry_low": 3922.59,
       "entry_high": 3923.13,
-      "sl": 3926.64,
-      "tp1": 3905.36,
+      "sl": 3927.59,
+      "tp1": 3903.95,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.62,
-      "style": "trend_align",
-      "favored": true,
-      "ready": true,
-      "status": "paused",
-      "reason": "Core PPI m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
+      "score": 0.28,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T13:52:16.237076+00:00"
+      "checked_at": "2026-11-13T14:06:57.203321+00:00"
     }
   ],
   "research": [
-    "Gold 3899.86 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3900.08, ATR 6.39, day range 3879.16-3923.13.",
-    "DXY 103.20 (-0.03% today, flat), gold-dollar corr -0.38.",
-    "WTI 88.49 (-0.26% today, flat), gold-oil corr -0.33.",
+    "Gold 3884.55 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3899.69, ATR 8.10, day range 3872.81-3923.13.",
+    "DXY 103.17 (-0.06% today, flat), gold-dollar corr -0.70.",
+    "WTI 88.80 (+0.09% today, flat), gold-oil corr -0.58.",
     "Headlines: dollar +0.74, oil -0.20, fresh shock.",
     "Dollar: US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - Moomoo",
     "Oil: Petrol Prices in Nigeria: FCCPC Warns Marketers as Crude Oil Falls Below - - MSME Africa",
-    "US event blackout: Core PPI m/m at 13:30 UTC. Do not enter until it passes."
+    "Next high-impact US release: Core PPI m/m Fri 13:30 UTC."
   ],
   "active": [
     {
@@ -95,7 +95,29 @@
       "entry": 3918.14,
       "entered_at": "2026-11-13T03:09:40.798657+00:00",
       "closed": "time"
+    },
+    {
+      "side": "BUY",
+      "entry_low": 3872.81,
+      "entry_high": 3873.36,
+      "sl": 3868.36,
+      "tp1": 3891.99,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-13T13:53:49.931899+00:00",
+      "checked_at": "2026-11-13T13:54:54.259800+00:00",
+      "entry": 3873.36,
+      "entered_at": "2026-11-13T13:54:54.259800+00:00",
+      "closed": null
     }
   ],
-  "last_check": "2026-11-13T13:52:16.237076+00:00"
+  "last_check": "2026-11-13T14:06:57.203321+00:00"
 }

@@ -842,3 +842,5 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-13 13:09 UTC  live: gold 3887.26 | holding long range_fade 0a5c5bc9 | new read flat stand_aside not opened | blackout Core PPI m/m
 2026-11-13 13:24 UTC  live: gold 3884.86 | holding long range_fade 0a5c5bc9 | new read flat stand_aside not opened | blackout Core PPI m/m
 2026-11-13 13:39 UTC  live: gold 3899.86 | graded: 0a5c5bc9 long range_fade -> win (+4.00R) target hit | opened short trend_align 06c77b9a zone 3921.64-3923.13 stop 3926.64 target 3905.36 units 1 risk 5.00 USD tier normal conf 0.58 | blackout Core PPI m/m
+2026-11-13 13:53 UTC  live: gold 3884.55 | holding short trend_align 06c77b9a | new read flat stand_aside not opened
+2026-11-13 13:54 UTC  live: BUY entry reached at 3885.57

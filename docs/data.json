@@ -1,77 +1,77 @@
 {
-  "updated": "2026-11-13 13:39 UTC",
+  "updated": "2026-11-13 13:53 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3899.86,
-  "stance": "Strategy: SELL is the trade (Trade with the intraday trend, confidence 58%).",
+  "price": 3884.55,
+  "stance": "Strategy: the SELL plan from 13:39 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3879.16,
-      "entry_high": 3880.65,
-      "sl": 3875.65,
-      "tp1": 3896.93,
+      "entry_low": 3872.81,
+      "entry_high": 3873.36,
+      "sl": 3868.36,
+      "tp1": 3891.99,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
       "style": "range_fade",
-      "favored": false,
+      "favored": true,
       "ready": false,
-      "status": "paused",
-      "reason": "Core PPI m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
-      "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T13:39:09.533176+00:00"
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-13T13:53:49.931899+00:00",
+      "checked_at": "2026-11-13T13:53:49.931899+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3921.64,
+      "entry_low": 3922.59,
       "entry_high": 3923.13,
-      "sl": 3926.64,
-      "tp1": 3905.36,
+      "sl": 3927.59,
+      "tp1": 3903.95,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.62,
-      "style": "trend_align",
-      "favored": true,
-      "ready": true,
-      "status": "paused",
-      "reason": "Core PPI m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
+      "score": 0.28,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T13:39:09.533176+00:00"
+      "checked_at": "2026-11-13T13:53:49.931899+00:00"
     }
   ],
   "active": [],
-  "blackout": "Core PPI m/m at 13:30 UTC",
+  "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3900.075984253143,
-    "atr": 6.387857142857164,
-    "day_low": 3879.16,
+    "vwap": 3899.693112684091,
+    "atr": 8.100000000000039,
+    "day_low": 3872.81,
     "day_high": 3923.13,
-    "range_pos": 0.47077552876961914
+    "range_pos": 0.23330683624801665
   },
   "dxy": {
     "ok": true,
-    "last": 103.19999694824219,
-    "pct": -0.02906752660624691,
+    "last": 103.16500091552734,
+    "pct": -0.06296855496700322,
     "state": "flat",
-    "corr": -0.3842495328044673
+    "corr": -0.7030472587862117
   },
   "oil": {
     "ok": true,
-    "last": 88.48999786376953,
-    "pct": -0.25924634103805855,
+    "last": 88.80000305175781,
+    "pct": 0.09017338813563812,
     "state": "flat",
-    "corr": -0.3276017174224505
+    "corr": -0.5752038020105493
   },
   "news": {
-    "usd": 0.7400188769537701,
-    "oil": -0.19640530463069514,
+    "usd": 0.7424745553324666,
+    "oil": -0.19547136454483266,
     "shock": true,
     "usd_headlines": [
       "US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - Moomoo",
@@ -102,34 +102,34 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.6240000000000001,
-      "trust": 1.0
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.36617236397792524,
-      "trust": 0.5548066120877655
+      "score": 0.47808864724005085,
+      "trust": 0.7243767382425013
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2714097546536933,
-      "trust": 0.5879446047553255
+      "score": 0.28441742899718414,
+      "trust": 0.9462336379188564
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.12933333333333336,
-      "trust": 1.2933333333333334
+      "score": 0.13661490767094028,
+      "trust": 1.3661490767094029
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.08,
-      "trust": 1.0
+      "score": 0.06653750901134257,
+      "trust": 0.8317188626417822
     }
   ],
   "record": {
