@@ -782,3 +782,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-13 01:22 UTC  live: BUY now far: Price is 28.78 away from the entry (6.6 ATR). Unlikely to fill soon.
 2026-11-13 01:26 UTC  live: gold 3910.88 | graded: 57205fa7 short dollar_lead -> loss (-1.00R) invalidation hit | opened short dollar_lead c39a8e5d zone 3915.02-3916.74 stop 3920.02 target 3899.32 units 1 risk 5.00 USD tier normal conf 0.50
 2026-11-13 01:27 UTC  live: SELL entry reached at 3912.82
+2026-11-13 01:41 UTC  live: gold 3913.17 | holding short dollar_lead c39a8e5d | new read flat stand_aside not opened
