@@ -1,34 +1,15 @@
 {
-  "updated": "2026-11-13 12:40 UTC",
+  "updated": "2026-11-13 12:55 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3890.12,
+  "price": 3886.88,
   "stance": "Strategy: the BUY plan from 12:11 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.41,
-      "sl": 3877.41,
-      "tp1": 3894.29,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.67,
-      "style": "trend_align",
-      "favored": true,
-      "ready": true,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T12:40:26.421360+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3919.88,
-      "entry_high": 3923.13,
-      "sl": 3924.88,
-      "tp1": 3908.0,
+      "entry_high": 3882.45,
+      "sl": 3877.45,
+      "tp1": 3894.23,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -39,42 +20,69 @@
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-13T00:57:02.583101+00:00",
+      "checked_at": "2026-11-13T12:55:09.306859+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3919.84,
+      "entry_high": 3923.13,
+      "sl": 3924.84,
+      "tp1": 3908.06,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.24,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T12:40:26.421360+00:00"
+      "checked_at": "2026-11-13T12:55:09.306859+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3901.088085880892,
-    "atr": 3.1885714285713544,
+    "vwap": 3900.871298695053,
+    "atr": 3.1114285714285677,
     "day_low": 3879.16,
     "day_high": 3923.13,
-    "range_pos": 0.24926085967705192
+    "range_pos": 0.17557425517398703
   },
   "dxy": {
     "ok": true,
-    "last": 103.24700164794922,
-    "pct": 0.016466424937380653,
+    "last": 103.2490005493164,
+    "pct": 0.01840278190937066,
     "state": "flat",
-    "corr": -0.3593540702845183
+    "corr": -0.3629032992123065
   },
   "oil": {
     "ok": true,
-    "last": 88.62000274658203,
-    "pct": -0.11271243546574564,
+    "last": 88.55000305175781,
+    "pct": -0.19161200023252797,
     "state": "flat",
-    "corr": -0.2906586232508484
+    "corr": -0.3416595525318286
   },
   "news": {
-    "usd": 0.0,
-    "oil": 0.0,
-    "shock": false,
-    "usd_headlines": [],
-    "oil_headlines": []
+    "usd": 0.7330267754496752,
+    "oil": -0.15464915251895528,
+    "shock": true,
+    "usd_headlines": [
+      "US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - Moomoo",
+      "US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - marketscreener.com",
+      "Federal Reserve rate hike expectations strengthen as U.S. inflation runs above forecasts - Traders Union"
+    ],
+    "oil_headlines": [
+      "Petrol Prices in Nigeria: FCCPC Warns Marketers as Crude Oil Falls Below - - MSME Africa",
+      "Crude oil jumps as escalation risks increase after Trump says the US doesn't need Iran deal - investingLive",
+      "WTI Crude Oil futures rebound off lows after inventory build. - CME Group"
+    ]
   },
   "events": [
     {
@@ -94,16 +102,22 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.6722356306770779,
-      "trust": 0.8618405521500999
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.2487267338589739,
-      "trust": 1.1305760629953359
+      "score": 0.47808864724005085,
+      "trust": 0.7243767382425013
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.2355525328348229,
+      "trust": 0.9462336379188564
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
@@ -114,14 +128,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.08,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "flat",
-      "score": 0.07440521218921056,
-      "trust": 0.6200434349100881
+      "score": 0.0664612459689013,
+      "trust": 0.8307655746112662
     }
   ],
   "record": {
