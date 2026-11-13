@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-13 16:50 UTC",
+  "updated": "2026-11-13 17:04 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3880.75,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.26). Take an entry only if price reaches it.",
+  "price": 3878.79,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.28). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3867.68,
-      "entry_high": 3870.3,
-      "sl": 3865.3,
-      "tp1": 3883.75,
+      "entry_high": 3870.45,
+      "sl": 3865.45,
+      "tp1": 3883.53,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
       "style": "range_fade",
-      "favored": false,
+      "favored": true,
       "ready": false,
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-13T16:06:18.506869+00:00",
-      "checked_at": "2026-11-13T16:50:09.376584+00:00"
+      "checked_at": "2026-11-13T17:04:44.678865+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3920.51,
+      "entry_low": 3920.36,
       "entry_high": 3923.13,
-      "sl": 3925.51,
-      "tp1": 3907.06,
+      "sl": 3925.36,
+      "tp1": 3907.28,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.26,
+      "score": 0.28,
       "style": "dollar_lead",
-      "favored": true,
+      "favored": false,
       "ready": false,
-      "status": "far",
-      "reason": "Price is 39.76 away from the entry (9.2 ATR). Unlikely to fill soon.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T14:52:55.698272+00:00",
-      "checked_at": "2026-11-13T16:50:09.376584+00:00"
+      "checked_at": "2026-11-13T17:04:44.678865+00:00"
     }
   ],
   "active": [],
@@ -48,30 +48,30 @@
   "chart": {
     "structure": "sideways",
     "htf": "sideways",
-    "session": "overlap",
-    "vwap": 3895.952230996737,
-    "atr": 4.328571428571422,
+    "session": "newyork",
+    "vwap": 3895.656693646015,
+    "atr": 4.06214285714285,
     "day_low": 3867.68,
     "day_high": 3923.13,
-    "range_pos": 0.2357078449053219
+    "range_pos": 0.20036068530207526
   },
   "dxy": {
     "ok": true,
-    "last": 103.3489990234375,
-    "pct": 0.11527236523713019,
+    "last": 103.37899780273438,
+    "pct": 0.1443325011679115,
     "state": "up",
-    "corr": -0.5740595560384003
+    "corr": -0.575209044640661
   },
   "oil": {
     "ok": true,
-    "last": 88.52999877929688,
-    "pct": -0.2141596469702395,
+    "last": 88.5199966430664,
+    "pct": -0.22543347033909528,
     "state": "flat",
-    "corr": -0.4201113818451021
+    "corr": -0.3923563111142757
   },
   "news": {
-    "usd": 0.8718467875472927,
-    "oil": -0.6344301672012342,
+    "usd": 0.8725022913598195,
+    "oil": -0.6350882087618093,
     "shock": true,
     "usd_headlines": [
       "Fed's Collins says more rate hikes are coming, Bloomberg Television reports - Fresno Bee",
@@ -89,20 +89,20 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5136275699410696,
-      "trust": 0.9171920891804815
+      "score": 0.47866796501633757,
+      "trust": 0.8547642232434599
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.25820785889194753,
-      "trust": 1.1108450591949828
+      "score": 0.2755343161037087,
+      "trust": 1.1106894944498058
     },
     {
-      "style": "Fade the session range",
+      "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.12159917350365018,
-      "trust": 1.2159917350365017
+      "score": 0.11414630155677202,
+      "trust": 0.9512191796397669
     },
     {
       "style": "Trade with the intraday trend",
@@ -111,10 +111,10 @@
       "trust": 1.0
     },
     {
-      "style": "Trade the oil shock",
+      "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.09624248448942774,
-      "trust": 0.8020207040785645
+      "score": 0.1,
+      "trust": 1.0
     }
   ],
   "record": {
