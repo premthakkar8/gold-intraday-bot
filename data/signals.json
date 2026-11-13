@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-13T13:09:50.493475+00:00",
-  "atr": 3.3142857142856883,
-  "price": 3883.0,
+  "updated_at": "2026-11-13T13:24:28.353733+00:00",
+  "atr": 3.6507142857142947,
+  "price": 3895.79,
   "stance": "Strategy: the BUY plan from 12:11 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.34,
-      "sl": 3877.34,
-      "tp1": 3894.39,
+      "entry_high": 3882.15,
+      "sl": 3877.15,
+      "tp1": 3894.67,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,60 +21,38 @@
       "status": "paused",
       "reason": "Core PPI m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T13:22:58.037999+00:00"
+      "checked_at": "2026-11-13T13:37:35.386030+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3919.95,
+      "entry_low": 3920.14,
       "entry_high": 3923.13,
-      "sl": 3924.95,
-      "tp1": 3907.9,
+      "sl": 3925.14,
+      "tp1": 3907.62,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.24,
-      "style": "dollar_lead",
+      "score": 0.34,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "paused",
       "reason": "Core PPI m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T13:22:58.037999+00:00"
+      "checked_at": "2026-11-13T13:37:35.386030+00:00"
     }
   ],
   "research": [
-    "Gold 3887.26 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3900.63, ATR 3.31, day range 3879.16-3923.13.",
-    "DXY 103.25 (+0.02% today, flat), gold-dollar corr -0.41.",
-    "WTI 88.53 (-0.21% today, flat), gold-oil corr -0.35.",
+    "Gold 3884.86 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3900.29, ATR 3.65, day range 3879.16-3923.13.",
+    "DXY 103.24 (+0.01% today, flat), gold-dollar corr -0.44.",
+    "WTI 88.50 (-0.25% today, flat), gold-oil corr -0.28.",
     "Headlines: dollar +0.74, oil -0.34, fresh shock.",
     "Dollar: US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - Moomoo",
     "Oil: Petrol Prices in Nigeria: FCCPC Warns Marketers as Crude Oil Falls Below - - MSME Africa",
     "US event blackout: Core PPI m/m at 13:30 UTC. Do not enter until it passes."
   ],
   "active": [
-    {
-      "side": "SELL",
-      "entry_low": 3915.02,
-      "entry_high": 3916.74,
-      "sl": 3920.02,
-      "tp1": 3899.32,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.5,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.50 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
-      "created_at": "2026-11-13T01:26:16.254745+00:00",
-      "checked_at": "2026-11-13T01:27:19.828129+00:00",
-      "entry": 3915.02,
-      "entered_at": "2026-11-13T01:27:19.828129+00:00",
-      "closed": "sl"
-    },
     {
       "side": "SELL",
       "entry_low": 3914.34,
@@ -119,5 +97,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-13T13:22:58.037999+00:00"
+  "last_check": "2026-11-13T13:37:35.386030+00:00"
 }
