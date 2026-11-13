@@ -1,28 +1,49 @@
 {
-  "updated": "2026-11-13 00:13 UTC",
+  "updated": "2026-11-13 00:27 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3888.93,
-  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
+  "price": 3882.49,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.49). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3870.24,
-      "entry_high": 3873.32,
-      "sl": 3868.32,
-      "tp1": 3879.17,
-      "tp2": 3885.61,
-      "rr": 2.1,
+      "entry_high": 3873.19,
+      "sl": 3868.19,
+      "tp1": 3879.42,
+      "tp2": 3885.81,
+      "rr": 2.2,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.22,
+      "score": 0.09,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "invalid",
       "reason": "Dollar is up +0.30% with hawkish news (+0.94) and gold is moving against it (corr -0.45). Buying fights the dollar.",
       "created_at": "2026-11-13T00:13:05.864658+00:00",
-      "checked_at": "2026-11-13T00:13:05.864658+00:00"
+      "checked_at": "2026-11-13T00:27:45.843676+00:00"
     },
+    {
+      "side": "SELL",
+      "entry_low": 3886.66,
+      "entry_high": 3889.61,
+      "sl": 3891.66,
+      "tp1": 3879.42,
+      "tp2": 3874.04,
+      "rr": 2.5,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.49,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.49 (Trade with the dollar), dollar firmer +0.30%, hawkish dollar news +0.94, price above VWAP.",
+      "created_at": "2026-11-13T00:13:05.864658+00:00",
+      "checked_at": "2026-11-13T00:27:45.843676+00:00"
+    }
+  ],
+  "active": [
     {
       "side": "SELL",
       "entry_low": 3886.29,
@@ -40,20 +61,22 @@
       "status": "valid",
       "reason": "Score 0.58 (Trade with the dollar), dollar firmer +0.30%, hawkish dollar news +0.94, price above VWAP.",
       "created_at": "2026-11-13T00:13:05.864658+00:00",
-      "checked_at": "2026-11-13T00:13:05.864658+00:00"
+      "checked_at": "2026-11-13T00:14:09.204816+00:00",
+      "entry": 3886.29,
+      "entered_at": "2026-11-13T00:14:09.204816+00:00",
+      "closed": null
     }
   ],
-  "active": [],
   "blackout": null,
   "chart": {
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3879.16672248193,
-    "atr": 3.4821428571427595,
+    "vwap": 3879.4181284511565,
+    "atr": 3.7264285714285443,
     "day_low": 3870.24,
-    "day_high": 3889.37,
-    "range_pos": 0.9769994772608441
+    "day_high": 3889.61,
+    "range_pos": 0.6324212700051514
   },
   "dxy": {
     "ok": true,
@@ -64,14 +87,14 @@
   },
   "oil": {
     "ok": true,
-    "last": 88.66999816894531,
-    "pct": -0.4490867039961941,
-    "state": "down",
-    "corr": -0.13993507686618528
+    "last": 88.62000274658203,
+    "pct": -0.11271243546574564,
+    "state": "flat",
+    "corr": -0.12984390682134497
   },
   "news": {
-    "usd": 0.9351007313369119,
-    "oil": -0.08150148283664163,
+    "usd": 0.9363188774124654,
+    "oil": -0.08039609587703407,
     "shock": true,
     "usd_headlines": [
       "U.S. Dollar Tests Yearly Highs As Traders Focus On Hawkish Fed Policy Outlook: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
@@ -104,20 +127,14 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.615244841763318,
-      "trust": 0.8095326865306816
+      "score": 0.5919528800052756,
+      "trust": 0.7788853684279942
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5777321083983349,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.22000000000000003,
-      "trust": 1.0
+      "score": 0.48708637099987473,
+      "trust": 0.8428341780723573
     },
     {
       "style": "Fade the session range",
@@ -126,10 +143,16 @@
       "trust": 1.0
     },
     {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.08517435554252903,
+      "trust": 0.8517435554252902
+    },
+    {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.06408001026302375,
-      "trust": 0.8010001282877968
+      "score": 0.06471782292460629,
+      "trust": 0.8089727865575786
     }
   ],
   "record": {
