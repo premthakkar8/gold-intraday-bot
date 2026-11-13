@@ -1,80 +1,56 @@
 {
-  "updated_at": "2026-11-13T12:25:49.644434+00:00",
-  "atr": 3.199999999999948,
-  "price": 3889.49,
+  "updated_at": "2026-11-13T12:40:26.421360+00:00",
+  "atr": 3.1885714285713544,
+  "price": 3888.28,
   "stance": "Strategy: the BUY plan from 12:11 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.4,
-      "sl": 3877.4,
-      "tp1": 3894.3,
+      "entry_high": 3882.41,
+      "sl": 3877.41,
+      "tp1": 3894.29,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.41,
+      "score": 0.67,
       "style": "trend_align",
       "favored": true,
-      "ready": false,
+      "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T12:38:56.025835+00:00"
+      "checked_at": "2026-11-13T12:53:46.109194+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3919.89,
+      "entry_low": 3919.88,
       "entry_high": 3923.13,
-      "sl": 3924.89,
-      "tp1": 3907.99,
+      "sl": 3924.88,
+      "tp1": 3908.0,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.2,
-      "style": "dollar_lead",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T12:38:56.025835+00:00"
+      "checked_at": "2026-11-13T12:53:46.109194+00:00"
     }
   ],
   "research": [
-    "Gold 3894.36 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3901.24, ATR 3.20, day range 3879.16-3923.13.",
-    "DXY 103.26 (+0.03% today, flat), gold-dollar corr -0.40.",
-    "WTI 88.66 (-0.07% today, flat), gold-oil corr -0.29.",
-    "Headlines: dollar +0.76, oil -0.15.",
-    "Dollar: US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - Moomoo",
-    "Oil: Petrol Prices in Nigeria: FCCPC Warns Marketers as Crude Oil Falls Below - - MSME Africa",
+    "Gold 3890.12 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3901.09, ATR 3.19, day range 3879.16-3923.13.",
+    "DXY 103.25 (+0.02% today, flat), gold-dollar corr -0.36.",
+    "WTI 88.62 (-0.11% today, flat), gold-oil corr -0.29.",
+    "Headlines: dollar +0.00, oil +0.00.",
     "Next high-impact US release: Core PPI m/m Fri 13:30 UTC."
   ],
   "active": [
-    {
-      "side": "SELL",
-      "entry_low": 3886.82,
-      "entry_high": 3889.61,
-      "sl": 3891.82,
-      "tp1": 3879.81,
-      "tp2": 3873.79,
-      "rr": 2.3,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.58,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.58 (Trade with the dollar), dollar firmer +0.30%, hawkish dollar news +0.94, price above VWAP.",
-      "created_at": "2026-11-13T00:13:05.864658+00:00",
-      "checked_at": "2026-11-13T00:50:27.853486+00:00",
-      "entry": 3886.82,
-      "entered_at": "2026-11-13T00:50:27.853486+00:00",
-      "closed": "sl"
-    },
     {
       "side": "SELL",
       "entry_low": 3889.17,
@@ -185,5 +161,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-13T12:38:56.025835+00:00"
+  "last_check": "2026-11-13T12:53:46.109194+00:00"
 }
