@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-13 09:15 UTC",
+  "updated": "2026-11-13 09:29 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3898.05,
+  "price": 3894.87,
   "stance": "Strategy: the SELL plan from 08:01 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.13,
-      "sl": 3877.13,
-      "tp1": 3894.71,
+      "entry_high": 3882.24,
+      "sl": 3877.24,
+      "tp1": 3894.54,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.15,
-      "style": "dollar_lead",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T09:15:10.298910+00:00"
+      "checked_at": "2026-11-13T09:29:48.810781+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3920.16,
+      "entry_low": 3920.05,
       "entry_high": 3923.13,
-      "sl": 3925.16,
-      "tp1": 3907.58,
+      "sl": 3925.05,
+      "tp1": 3907.75,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.26,
-      "style": "trend_align",
+      "score": 0.39,
+      "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T09:15:10.298910+00:00"
+      "checked_at": "2026-11-13T09:29:48.810781+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "down",
     "htf": "up",
     "session": "london",
-    "vwap": 3903.021940591511,
-    "atr": 3.697857142857239,
+    "vwap": 3902.8706816156073,
+    "atr": 3.495000000000086,
     "day_low": 3879.16,
     "day_high": 3923.13,
-    "range_pos": 0.42961109847623874
+    "range_pos": 0.35728906072321914
   },
   "dxy": {
     "ok": true,
-    "last": 103.13999938964844,
-    "pct": -0.08718779846780951,
-    "state": "down",
-    "corr": -0.2610583093729161
+    "last": 103.15899658203125,
+    "pct": -0.06878501655843886,
+    "state": "flat",
+    "corr": -0.2475975074019659
   },
   "oil": {
     "ok": true,
-    "last": 88.76000213623047,
-    "pct": 0.04508669406781906,
+    "last": 88.79000091552734,
+    "pct": 0.07889956476678235,
     "state": "flat",
-    "corr": -0.30829013655454995
+    "corr": -0.286241093357185
   },
   "news": {
-    "usd": 0.8463585751629806,
-    "oil": -0.3139017403578792,
+    "usd": 0.856193051314396,
+    "oil": -0.3124209185725848,
     "shock": true,
     "usd_headlines": [
+      "U.S. Treasury yields rise as Fed hike bets strengthen - Traders Union",
       "US Dollar: Resilient as Fed stays hawkish \u2013 TD Securities - FXStreet",
-      "Treasury yields rise as traders strengthen Fed rate hike bets - CNBC",
-      "Gold, silver prices surge as US dollar drops after midterm elections - Ednews.net"
+      "Treasury yields rise as traders strengthen Fed rate hike bets - CNBC"
     ],
     "oil_headlines": [
       "US oil inventories rise for first time in 6 weeks - \u0627\u0631\u0642\u0627\u0645 : \u0627\u062e\u0628\u0627\u0631 \u0648\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0633\u0648\u0642 \u0627\u0644\u0623\u0633\u0647\u0645 \u0627\u0644\u0633\u0639\u0648\u062f\u064a - \u062a\u0627\u0633\u064a",
@@ -104,19 +104,19 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.563255657841163,
-      "trust": 0.6400632475467761
+      "score": 0.487665793955742,
+      "trust": 0.6252125563535154
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.39264018321643435,
+      "trust": 0.8139502024455453
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.26,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.14608140378633686,
+      "score": 0.35448458837300517,
       "trust": 1.0
     },
     {
@@ -128,8 +128,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.08,
-      "trust": 1.0
+      "score": 0.06473965374402908,
+      "trust": 0.8092456718003636
     }
   ],
   "record": {
