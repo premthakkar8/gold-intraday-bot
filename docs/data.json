@@ -1,15 +1,34 @@
 {
-  "updated": "2026-11-13 07:03 UTC",
+  "updated": "2026-11-13 07:17 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3901.3,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
+  "price": 3897.4,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.21). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3881.21,
-      "sl": 3876.21,
-      "tp1": 3896.08,
+      "entry_high": 3881.58,
+      "sl": 3876.58,
+      "tp1": 3895.53,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.21,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-13T00:57:02.583101+00:00",
+      "checked_at": "2026-11-13T07:17:49.700797+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3920.71,
+      "entry_high": 3923.13,
+      "sl": 3925.71,
+      "tp1": 3906.76,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -20,61 +39,42 @@
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T07:03:11.233584+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3921.08,
-      "entry_high": 3923.13,
-      "sl": 3926.08,
-      "tp1": 3906.21,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.34,
-      "style": "trend_align",
-      "favored": true,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T07:03:11.233584+00:00"
+      "checked_at": "2026-11-13T07:17:49.700797+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "up",
     "session": "london",
-    "vwap": 3904.9180200646147,
-    "atr": 5.361428571428568,
+    "vwap": 3904.725909067389,
+    "atr": 4.687857142857085,
     "day_low": 3879.16,
     "day_high": 3923.13,
-    "range_pos": 0.5035251307709847
+    "range_pos": 0.4148282920172875
   },
   "dxy": {
     "ok": true,
-    "last": 103.15399932861328,
-    "pct": -0.07362590898841385,
-    "state": "flat",
-    "corr": -0.21373451401773977
+    "last": 103.08399963378906,
+    "pct": -0.1414353563853921,
+    "state": "down",
+    "corr": -0.23653032921033476
   },
   "oil": {
     "ok": true,
-    "last": 88.94000244140625,
-    "pct": 0.2479725176692028,
+    "last": 88.66999816894531,
+    "pct": -0.05636051743667483,
     "state": "flat",
-    "corr": -0.16230899363728413
+    "corr": -0.192132505976553
   },
   "news": {
-    "usd": 0.6311051345827824,
-    "oil": -0.06670492825557234,
+    "usd": 0.8235243470500586,
+    "oil": -0.06794714445949428,
     "shock": true,
     "usd_headlines": [
-      "Dollar weakens against dong - VnExpress International",
+      "Silver Price Forecast: XAG/USD Rises To Near $50.50 Despite Fed Rate Hike Bets - TalkMarkets - Howl.Link",
       "Gold, silver prices surge as US dollar drops after midterm elections - Ednews.net",
       "Dollar set for best week in two months on rate hike wagers, yen tests 160 - Reuters"
     ],
@@ -104,20 +104,20 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5291244336883375,
-      "trust": 0.6783646585747917
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.3376806918102097,
-      "trust": 1.0
+      "score": 0.4577119259938437,
+      "trust": 0.8173427249890065
     },
     {
       "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.29608990250382755,
-      "trust": 0.8139502024455453
+      "bias": "long",
+      "score": 0.21339279995109445,
+      "trust": 1.1674930681781033
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
@@ -128,8 +128,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.06452271456306172,
-      "trust": 0.8065339320382714
+      "score": 0.08,
+      "trust": 1.0
     }
   ],
   "record": {
