@@ -1,28 +1,49 @@
 {
-  "updated": "2026-11-13 03:08 UTC",
+  "updated": "2026-11-13 03:23 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3919.49,
+  "price": 3914.98,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.35). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3881.45,
-      "sl": 3876.45,
-      "tp1": 3895.73,
+      "entry_high": 3881.59,
+      "sl": 3876.59,
+      "tp1": 3895.52,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.29,
+      "score": 0.25,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T03:08:36.933699+00:00"
+      "checked_at": "2026-11-13T03:23:26.965313+00:00"
     },
+    {
+      "side": "SELL",
+      "entry_low": 3918.83,
+      "entry_high": 3921.26,
+      "sl": 3923.83,
+      "tp1": 3904.9,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.35,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.35 (Trade with the dollar), hawkish dollar news +0.82, price above VWAP.",
+      "created_at": "2026-11-13T03:08:36.933699+00:00",
+      "checked_at": "2026-11-13T03:23:26.965313+00:00"
+    }
+  ],
+  "active": [
     {
       "side": "SELL",
       "entry_low": 3918.14,
@@ -40,38 +61,40 @@
       "status": "valid",
       "reason": "Score 0.35 (Trade with the dollar), hawkish dollar news +0.81, price above VWAP.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T03:08:36.933699+00:00"
+      "checked_at": "2026-11-13T03:09:40.798657+00:00",
+      "entry": 3918.14,
+      "entered_at": "2026-11-13T03:09:40.798657+00:00",
+      "closed": null
     }
   ],
-  "active": [],
   "blackout": null,
   "chart": {
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3901.7643475255923,
-    "atr": 4.935714285714312,
+    "vwap": 3902.7995628577255,
+    "atr": 4.6807142857143,
     "day_low": 3879.16,
-    "day_high": 3920.43,
-    "range_pos": 0.977223164526289
+    "day_high": 3921.26,
+    "range_pos": 0.8508313539192365
   },
   "dxy": {
     "ok": true,
-    "last": 103.15599822998047,
-    "pct": -0.07168955201642385,
+    "last": 103.16200256347656,
+    "pct": -0.06587309042498823,
     "state": "flat",
-    "corr": -0.3942314932706419
+    "corr": -0.38078498838849617
   },
   "oil": {
     "ok": true,
-    "last": 88.19999694824219,
-    "pct": -0.5861184234740437,
+    "last": 88.18000030517578,
+    "pct": -0.6086574708041512,
     "state": "down",
-    "corr": -0.11514109020359377
+    "corr": -0.11733368686789446
   },
   "news": {
-    "usd": 0.8120006383031609,
-    "oil": -0.14123930841729845,
+    "usd": 0.8190908950537491,
+    "oil": -0.13714728258997572,
     "shock": true,
     "usd_headlines": [
       "Gold, silver prices surge as US dollar drops after midterm elections - Ednews.net",
@@ -104,39 +127,39 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5957103142519969,
-      "trust": 0.9025913852302984
+      "score": 0.5219552275291834,
+      "trust": 0.7908412538320961
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3476040377856735,
+      "score": 0.34755307576428285,
       "trust": 0.6961324306248988
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.29310023329162627,
-      "trust": 0.8540216587751346
+      "score": 0.2545216864835459,
+      "trust": 0.8542299761570604
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11986423383911293,
-      "trust": 0.9988686153259412
+      "score": 0.11986442758327356,
+      "trust": 0.998870229860613
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11471426040104185,
-      "trust": 1.1471426040104185
+      "score": 0.11469326251753392,
+      "trust": 1.1469326251753391
     }
   ],
   "record": {
-    "graded": 103,
+    "graded": 104,
     "wins": 30,
-    "losses": 54,
+    "losses": 55,
     "scratches": 19,
-    "avg_r": -0.15248238580753473
+    "avg_r": -0.16063159363630847
   }
 }
