@@ -1,77 +1,77 @@
 {
-  "updated": "2026-11-13 12:11 UTC",
+  "updated": "2026-11-13 12:25 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3893.22,
-  "stance": "Strategy: BUY is the trade (Fade the session range, confidence 58%).",
+  "price": 3894.36,
+  "stance": "Strategy: the BUY plan from 12:11 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3882.47,
-      "sl": 3877.47,
-      "tp1": 3894.2,
+      "entry_high": 3882.4,
+      "sl": 3877.4,
+      "tp1": 3894.3,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.59,
-      "style": "range_fade",
+      "score": 0.41,
+      "style": "trend_align",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T12:11:11.736311+00:00"
+      "checked_at": "2026-11-13T12:25:49.644434+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3919.82,
+      "entry_low": 3919.89,
       "entry_high": 3923.13,
-      "sl": 3924.82,
-      "tp1": 3908.09,
+      "sl": 3924.89,
+      "tp1": 3907.99,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.32,
+      "score": 0.2,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T12:11:11.736311+00:00"
+      "checked_at": "2026-11-13T12:25:49.644434+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3901.3359897546206,
-    "atr": 3.0764285714285506,
+    "vwap": 3901.2351400545467,
+    "atr": 3.199999999999948,
     "day_low": 3879.16,
     "day_high": 3923.13,
-    "range_pos": 0.3197634750966537
+    "range_pos": 0.3456902433477413
   },
   "dxy": {
     "ok": true,
-    "last": 103.21299743652344,
-    "pct": -0.016473815612846266,
+    "last": 103.25599670410156,
+    "pct": 0.025180031311335678,
     "state": "flat",
-    "corr": -0.35647387439270845
+    "corr": -0.3990810882096377
   },
   "oil": {
     "ok": true,
-    "last": 88.62999725341797,
-    "pct": -0.10144721150449389,
+    "last": 88.66000366210938,
+    "pct": -0.06762574139792658,
     "state": "flat",
-    "corr": -0.3195982834717811
+    "corr": -0.29468281041348054
   },
   "news": {
-    "usd": 0.7582109875527784,
-    "oil": -0.15414060244641145,
+    "usd": 0.7595407015930724,
+    "oil": -0.15430493078040225,
     "shock": false,
     "usd_headlines": [
       "US Treasury Yields Rise Above Key Levels as Dollar Index Holds Near 19-Month High, SocGen Says - Moomoo",
@@ -102,25 +102,25 @@
   ],
   "scorecard": [
     {
-      "style": "Fade the session range",
+      "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.5931005211854046,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.32141820234521196,
-      "trust": 0.9462336379188564
+      "score": 0.41432446303851195,
+      "trust": 0.8616460533472111
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.2318005562376004,
-      "trust": 0.7243767382425013
+      "score": 0.2433946439215852,
+      "trust": 0.7606082622549537
     },
     {
-      "style": "Trade with the intraday trend",
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.20488697304249492,
+      "trust": 0.5881490812625448
+    },
+    {
+      "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
@@ -128,8 +128,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.06640382853374935,
-      "trust": 0.8300478566718668
+      "score": 0.08,
+      "trust": 1.0
     }
   ],
   "record": {
