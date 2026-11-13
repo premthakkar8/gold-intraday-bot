@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-13 09:00 UTC",
+  "updated": "2026-11-13 09:15 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3895.52,
+  "price": 3898.05,
   "stance": "Strategy: the SELL plan from 08:01 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3879.16,
-      "entry_high": 3881.91,
-      "sl": 3876.91,
-      "tp1": 3895.03,
+      "entry_high": 3882.13,
+      "sl": 3877.13,
+      "tp1": 3894.71,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.15,
+      "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T00:57:02.583101+00:00",
-      "checked_at": "2026-11-13T09:00:33.249961+00:00"
+      "checked_at": "2026-11-13T09:15:10.298910+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3920.38,
+      "entry_low": 3920.16,
       "entry_high": 3923.13,
-      "sl": 3925.38,
-      "tp1": 3907.26,
+      "sl": 3925.16,
+      "tp1": 3907.58,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.47,
-      "style": "dollar_lead",
+      "score": 0.26,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-13T03:08:36.933699+00:00",
-      "checked_at": "2026-11-13T09:00:33.249961+00:00"
+      "checked_at": "2026-11-13T09:15:10.298910+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "down",
     "htf": "up",
     "session": "london",
-    "vwap": 3903.1342455802487,
-    "atr": 4.083571428571498,
+    "vwap": 3903.021940591511,
+    "atr": 3.697857142857239,
     "day_low": 3879.16,
     "day_high": 3923.13,
-    "range_pos": 0.3720718671821704
+    "range_pos": 0.42961109847623874
   },
   "dxy": {
     "ok": true,
-    "last": 103.15899658203125,
-    "pct": -0.06878501655843886,
-    "state": "flat",
-    "corr": -0.23445923145152908
+    "last": 103.13999938964844,
+    "pct": -0.08718779846780951,
+    "state": "down",
+    "corr": -0.2610583093729161
   },
   "oil": {
     "ok": true,
-    "last": 89.12999725341797,
-    "pct": 0.4621235652318383,
-    "state": "up",
-    "corr": -0.2406543762199313
+    "last": 88.76000213623047,
+    "pct": 0.04508669406781906,
+    "state": "flat",
+    "corr": -0.30829013655454995
   },
   "news": {
-    "usd": 0.8461157645352498,
-    "oil": -0.21937301365740333,
+    "usd": 0.8463585751629806,
+    "oil": -0.3139017403578792,
     "shock": true,
     "usd_headlines": [
       "US Dollar: Resilient as Fed stays hawkish \u2013 TD Securities - FXStreet",
@@ -80,8 +80,8 @@
     ],
     "oil_headlines": [
       "US oil inventories rise for first time in 6 weeks - \u0627\u0631\u0642\u0627\u0645 : \u0627\u062e\u0628\u0627\u0631 \u0648\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0633\u0648\u0642 \u0627\u0644\u0623\u0633\u0647\u0645 \u0627\u0644\u0633\u0639\u0648\u062f\u064a - \u062a\u0627\u0633\u064a",
-      "Petrol Prices in Nigeria: FCCPC Warns Marketers as Crude Oil Falls Below - - MSME Africa",
-      "Crude Oil Gains As Trump Dismisses Iran Deal, Raising Fresh Oil Supply Concerns By Kedia Advisory - Investing.com India"
+      "US commercial crude oil inventories rise by nearly 5M barrels - Anadolu Ajans\u0131",
+      "Petrol Prices in Nigeria: FCCPC Warns Marketers as Crude Oil Falls Below - - MSME Africa"
     ]
   },
   "events": [
@@ -104,19 +104,19 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.48817820196486605,
-      "trust": 0.6258694896985462
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.47348918083060315,
-      "trust": 0.9988654598680773
+      "score": 0.563255657841163,
+      "trust": 0.6400632475467761
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.2121939351535175,
+      "score": 0.26,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "long",
+      "score": 0.14608140378633686,
       "trust": 1.0
     },
     {
@@ -128,8 +128,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.05959547686163786,
-      "trust": 0.7449434607704732
+      "score": 0.08,
+      "trust": 1.0
     }
   ],
   "record": {
