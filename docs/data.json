@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-16 12:51 UTC",
+  "updated": "2026-11-16 13:06 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3869.36,
+  "price": 3872.44,
   "stance": "Strategy: the SELL plan from 12:22 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3835.64,
-      "sl": 3830.64,
-      "tp1": 3847.66,
+      "entry_high": 3835.35,
+      "sl": 3830.35,
+      "tp1": 3848.1,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -18,65 +18,65 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T12:51:26.909902+00:00"
+      "checked_at": "2026-11-16T13:06:06.979727+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3897.29,
+      "entry_low": 3897.58,
       "entry_high": 3900.48,
-      "sl": 3902.29,
-      "tp1": 3885.27,
+      "sl": 3902.58,
+      "tp1": 3884.83,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.65,
+      "score": 0.62,
       "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T12:51:26.909902+00:00"
+      "checked_at": "2026-11-16T13:06:06.979727+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "down",
-    "htf": "down",
+    "htf": "sideways",
     "session": "overlap",
-    "vwap": 3867.3250340654563,
-    "atr": 3.282857142857178,
+    "vwap": 3867.401649683364,
+    "atr": 3.8214285714285716,
     "day_low": 3832.45,
     "day_high": 3900.48,
-    "range_pos": 0.5425547552550375
+    "range_pos": 0.5878288990151421
   },
   "dxy": {
     "ok": true,
-    "last": 103.47699737548828,
-    "pct": 0.07349677295968059,
+    "last": 103.46499633789062,
+    "pct": 0.06189046597588604,
     "state": "flat",
-    "corr": -0.39672174972937996
+    "corr": -0.3641844011380366
   },
   "oil": {
     "ok": true,
-    "last": 87.8499984741211,
-    "pct": -0.7120308079906178,
+    "last": 87.44000244140625,
+    "pct": -1.1754078617424077,
     "state": "down",
-    "corr": -0.45756295844087075
+    "corr": -0.4474263078233013
   },
   "news": {
-    "usd": 0.78863095382173,
-    "oil": -0.6913713427626744,
+    "usd": 0.8111349412383446,
+    "oil": -0.691954728876216,
     "shock": true,
     "usd_headlines": [
+      "US Dollar Technical Forecast: DXY Bulls Target Yearly Highs After Hot CPI - StoneX",
       "Philippine peso weakens against U.S. dollar as Fed rate hike bets build - Traders Union",
-      "US dollar extends rally to 5th straight session on Fed rate hike bets - Anadolu Ajans\u0131",
-      "Treasury yields fall as investors await comments from Fed Chairman Warsh - CNBC"
+      "US dollar extends rally to 5th straight session on Fed rate hike bets - Anadolu Ajans\u0131"
     ],
     "oil_headlines": [
       "Fuel price reduction update across Nigeria as crude oil falls - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
@@ -111,7 +111,7 @@
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.6527946831236584,
+      "score": 0.6240000000000001,
       "trust": 1.0
     },
     {
@@ -123,7 +123,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.48859704929205566,
+      "score": 0.49102668915242764,
       "trust": 1.0
     },
     {
@@ -135,8 +135,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.0905425344195327,
-      "trust": 0.7545211201627725
+      "score": 0.09058410131897561,
+      "trust": 0.7548675109914634
     }
   ],
   "record": {
