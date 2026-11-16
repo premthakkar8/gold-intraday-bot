@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-16 10:24 UTC",
+  "updated": "2026-11-16 10:39 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3863.14,
+  "price": 3865.27,
   "stance": "Strategy: the SELL plan from 10:09 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3835.36,
-      "sl": 3830.36,
-      "tp1": 3848.09,
+      "entry_high": 3835.3,
+      "sl": 3830.3,
+      "tp1": 3848.18,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T10:24:13.497412+00:00"
+      "checked_at": "2026-11-16T10:39:03.072031+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3897.57,
+      "entry_low": 3897.63,
       "entry_high": 3900.48,
-      "sl": 3902.57,
-      "tp1": 3884.84,
+      "sl": 3902.63,
+      "tp1": 3884.75,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.46,
+      "score": 0.6,
       "style": "dollar_lead",
       "favored": true,
-      "ready": false,
+      "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T10:24:13.497412+00:00"
+      "checked_at": "2026-11-16T10:39:03.072031+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "down",
     "session": "london",
-    "vwap": 3866.681439787383,
-    "atr": 3.8000000000000194,
+    "vwap": 3866.6006667611578,
+    "atr": 3.9128571428572223,
     "day_low": 3832.45,
     "day_high": 3900.48,
-    "range_pos": 0.45112450389533976
+    "range_pos": 0.4824342201969729
   },
   "dxy": {
     "ok": true,
-    "last": 103.49700164794922,
-    "pct": 0.09284307741709275,
-    "state": "up",
-    "corr": -0.40290198727521426
+    "last": 103.46499633789062,
+    "pct": 0.06189046597588604,
+    "state": "flat",
+    "corr": -0.3826999661460195
   },
   "oil": {
     "ok": true,
-    "last": 88.48999786376953,
-    "pct": 0.0112957803534648,
+    "last": 88.54000091552734,
+    "pct": 0.06780917305316579,
     "state": "flat",
-    "corr": -0.3552145903109047
+    "corr": -0.3504931511231196
   },
   "news": {
-    "usd": 0.6584821816466464,
-    "oil": -0.6867264286142942,
+    "usd": 0.6566640832632842,
+    "oil": -0.6871135793981263,
     "shock": false,
     "usd_headlines": [
       "Treasury Yields Fall, Eurozone Bond Yields Seek Direction -- Update - marketscreener.com",
@@ -111,32 +111,32 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.46095822476038933,
-      "trust": 1.066830914262228
+      "score": 0.5972254666713858,
+      "trust": 1.0649970445478172
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.2037081453495844,
-      "trust": 0.9259461152253836
+      "score": 0.20822933389956869,
+      "trust": 0.6507166684361522
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.16,
-      "trust": 1.0
+      "score": 0.18362952101383734,
+      "trust": 1.1476845063364833
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.10922662603316809,
-      "trust": 0.9102218836097341
+      "score": 0.11919737406374946,
+      "trust": 0.9933114505312455
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.09992882425724786,
+      "trust": 0.9992882425724786
     }
   ],
   "record": {

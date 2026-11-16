@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-16T10:24:13.497412+00:00",
-  "atr": 3.8000000000000194,
-  "price": 3863.26,
+  "updated_at": "2026-11-16T10:39:03.072031+00:00",
+  "atr": 3.9128571428572223,
+  "price": 3868.38,
   "stance": "Strategy: the SELL plan from 10:09 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3835.36,
-      "sl": 3830.36,
-      "tp1": 3848.09,
+      "entry_high": 3835.3,
+      "sl": 3830.3,
+      "tp1": 3848.18,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,32 +21,32 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T10:37:21.675673+00:00"
+      "checked_at": "2026-11-16T10:52:13.032844+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3897.57,
+      "entry_low": 3897.63,
       "entry_high": 3900.48,
-      "sl": 3902.57,
-      "tp1": 3884.84,
+      "sl": 3902.63,
+      "tp1": 3884.75,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.46,
+      "score": 0.6,
       "style": "dollar_lead",
       "favored": true,
-      "ready": false,
+      "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T10:37:21.675673+00:00"
+      "checked_at": "2026-11-16T10:52:13.032844+00:00"
     }
   ],
   "research": [
-    "Gold 3863.14 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3866.68, ATR 3.80, day range 3832.45-3900.48.",
-    "DXY 103.50 (+0.09% today, up), gold-dollar corr -0.40.",
-    "WTI 88.49 (+0.01% today, flat), gold-oil corr -0.36.",
+    "Gold 3865.27 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3866.60, ATR 3.91, day range 3832.45-3900.48.",
+    "DXY 103.46 (+0.06% today, flat), gold-dollar corr -0.38.",
+    "WTI 88.54 (+0.07% today, flat), gold-oil corr -0.35.",
     "Headlines: dollar +0.66, oil -0.69.",
     "Dollar: Treasury Yields Fall, Eurozone Bond Yields Seek Direction -- Update - marketscreener.com",
     "Oil: Fuel price reduction update across Nigeria as crude oil falls - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
@@ -142,5 +142,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-16T10:37:21.675673+00:00"
+  "last_check": "2026-11-16T10:52:13.032844+00:00"
 }
