@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-16 15:33 UTC",
+  "updated": "2026-11-16 15:48 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3867.3,
+  "price": 3864.95,
   "stance": "Strategy: the SELL plan from 14:48 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3833.44,
-      "sl": 3828.44,
-      "tp1": 3850.96,
+      "entry_high": 3833.98,
+      "sl": 3828.98,
+      "tp1": 3850.15,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T15:33:14.740094+00:00"
+      "checked_at": "2026-11-16T15:48:01.007323+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3899.49,
+      "entry_low": 3898.95,
       "entry_high": 3900.48,
-      "sl": 3904.49,
-      "tp1": 3881.97,
+      "sl": 3903.95,
+      "tp1": 3882.78,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.47,
+      "score": 0.33,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T15:33:14.740094+00:00"
+      "checked_at": "2026-11-16T15:48:01.007323+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3868.1301643102047,
-    "atr": 7.282142857142844,
+    "vwap": 3868.0638466149735,
+    "atr": 6.304999999999999,
     "day_low": 3832.45,
     "day_high": 3900.48,
-    "range_pos": 0.5122739967661364
+    "range_pos": 0.4777304130530634
   },
   "dxy": {
     "ok": true,
-    "last": 103.48100280761719,
-    "pct": 0.07737046092312125,
-    "state": "flat",
-    "corr": -0.37340160632356545
+    "last": 103.52799987792969,
+    "pct": 0.12282173302749153,
+    "state": "up",
+    "corr": -0.38501596727190246
   },
   "oil": {
     "ok": true,
-    "last": 86.5,
-    "pct": -2.2377975608185077,
+    "last": 86.75,
+    "pct": -1.9552478427861915,
     "state": "down",
-    "corr": -0.3138341797229428
+    "corr": -0.2871906788871281
   },
   "news": {
-    "usd": 0.6759847110226346,
-    "oil": -0.5190811934862923,
+    "usd": 0.7085032087885805,
+    "oil": -0.5221592516579606,
     "shock": true,
     "usd_headlines": [
       "Euro slides to fresh 19-month low as hawkish Fed outlook dominates - FXStreet",
@@ -111,32 +111,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5022493421942463,
-      "trust": 0.760983851809464
+      "score": 0.4731018180771307,
+      "trust": 0.8448246751377333
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.46885071708771114,
-      "trust": 1.0965717176099303
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.12339228091415573,
-      "trust": 1.2339228091415573
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.10500007257951523,
-      "trust": 0.8750006048292935
+      "score": 0.32869679670433344,
+      "trust": 0.9238832555938805
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.08623546791766355,
+      "trust": 0.718628899313863
     }
   ],
   "record": {
