@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16 22:16 UTC",
+  "updated": "2026-11-16 22:30 UTC",
   "symbol": "VANTAGE:XAUUSD",
   "price": 3855.96,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.19). Take an entry only if price reaches it.",
@@ -21,7 +21,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T22:16:11.065351+00:00"
+      "checked_at": "2026-11-16T22:30:58.137467+00:00"
     },
     {
       "side": "SELL",
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T22:16:11.065351+00:00"
+      "checked_at": "2026-11-16T22:30:58.137467+00:00"
     }
   ],
   "active": [],
@@ -57,21 +57,21 @@
   },
   "dxy": {
     "ok": true,
-    "last": 103.5739974975586,
-    "pct": 0.16730642775431756,
+    "last": 103.58000183105469,
+    "pct": 0.1731132704728467,
     "state": "up",
-    "corr": -0.3998009637194433
+    "corr": -0.3998009637194432
   },
   "oil": {
     "ok": true,
     "last": 85.05999755859375,
     "pct": -3.8652866959592407,
     "state": "down",
-    "corr": 0.29505113886119155
+    "corr": 0.292507865576584
   },
   "news": {
-    "usd": 0.5102596067812764,
-    "oil": -0.651914830080545,
+    "usd": 0.5061433969281339,
+    "oil": -0.5751132616955614,
     "shock": true,
     "usd_headlines": [
       "Fed's Hammack reiterates case for slow, steady rate hikes -Bloomberg TV - Reuters",
@@ -79,9 +79,9 @@
       "US Dollar Rallies as Fed Rate Risks Pressure Global Markets - FXEmpire"
     ],
     "oil_headlines": [
-      "Canadian Financial Close: Loonie weakens, crude oil falls - Grainews",
+      "Canadian Financial Close: Loonie weakens, crude oil falls - Manitoba Co-operator",
       "Oil falls as recovering Middle East exports bolster surplus outlook - CNBC",
-      "China's October Crude Oil Processing Falls 8.1% Year-on-Year; Inventory Build Hits Highest Since March - BigGo Finance"
+      "Crude Oil Gains After Trump Says The US No Longer Needs A Nuclear Deal With Iran By Kedia Advisory - Investing.com India"
     ]
   },
   "events": [
@@ -110,7 +110,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.1877196986974916,
+      "score": 0.19022822649055585,
       "trust": 0.9154832700915354
     },
     {
@@ -128,8 +128,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09164378394857908,
-      "trust": 0.7636981995714924
+      "score": 0.0916841150318298,
+      "trust": 0.764034291931915
     }
   ],
   "record": {
