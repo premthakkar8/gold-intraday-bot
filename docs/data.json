@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-16 00:28 UTC",
+  "updated": "2026-11-16 00:42 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3890.41,
-  "stance": "Strategy: the SELL plan from 23:57 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3885.92,
+  "stance": "Strategy: wait. Two approaches want opposite trades and neither has a clear lead. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3865.81,
-      "entry_high": 3868.48,
-      "sl": 3863.48,
-      "tp1": 3881.68,
+      "entry_high": 3868.35,
+      "sl": 3863.35,
+      "tp1": 3881.84,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -17,88 +17,66 @@
       "score": 0.68,
       "style": "trend_align",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "valid",
       "reason": "Score 0.68 (Trade with the intraday trend).",
       "created_at": "2026-11-15T23:43:11.642882+00:00",
-      "checked_at": "2026-11-16T00:28:05.409882+00:00"
+      "checked_at": "2026-11-16T00:42:42.517720+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3898.58,
+      "entry_low": 3898.71,
       "entry_high": 3901.25,
-      "sl": 3903.58,
-      "tp1": 3885.26,
+      "sl": 3903.71,
+      "tp1": 3885.06,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.54,
+      "score": 0.63,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.54 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
+      "reason": "Score 0.63 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
       "created_at": "2026-11-15T23:57:49.086553+00:00",
-      "checked_at": "2026-11-16T00:28:05.409882+00:00"
+      "checked_at": "2026-11-16T00:42:42.517720+00:00"
     }
   ],
-  "active": [
-    {
-      "side": "SELL",
-      "entry_low": 3899.4,
-      "entry_high": 3901.25,
-      "sl": 3904.4,
-      "tp1": 3886.26,
-      "tp2": 3884.03,
-      "rr": 3.5,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.54,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.54 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
-      "created_at": "2026-11-15T23:57:49.086553+00:00",
-      "checked_at": "2026-11-15T23:58:52.242388+00:00",
-      "entry": 3899.4,
-      "entered_at": "2026-11-15T23:58:52.242388+00:00",
-      "closed": null
-    }
-  ],
+  "active": [],
   "blackout": null,
   "chart": {
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3881.680838929272,
-    "atr": 4.229285714285782,
+    "vwap": 3881.8427717606737,
+    "atr": 4.470714285714296,
     "day_low": 3865.81,
     "day_high": 3901.25,
-    "range_pos": 0.694130925507897
+    "range_pos": 0.5674379232505671
   },
   "dxy": {
     "ok": true,
-    "last": 103.38400268554688,
-    "pct": -0.016439193871515746,
+    "last": 103.427001953125,
+    "pct": 0.025145768722677587,
     "state": "flat",
-    "corr": -0.15097560187391085
+    "corr": -0.17134228938064894
   },
   "oil": {
     "ok": true,
-    "last": 88.62999725341797,
-    "pct": 0.16952293263291449,
+    "last": 88.52999877929688,
+    "pct": 0.05650476996660674,
     "state": "flat",
-    "corr": 0.03535155026808211
+    "corr": 0.020221291315412997
   },
   "news": {
     "usd": 1.0,
-    "oil": -0.3748821046488062,
+    "oil": -0.38363199653952956,
     "shock": false,
     "usd_headlines": [
-      "U.S., Eurozone Bond Yields Rise - WSJ",
-      "Silver Price Forecast: Silver Slides Below $50 as Treasury Yields Jump - FXEmpire"
+      "Silver Price Forecast: Silver Slides Below $50 as Treasury Yields Jump - FXEmpire",
+      "Ringgit opens almost flat against US dollar amid hawkish Fed outlook - NST Online",
+      "U.S., Eurozone Bond Yields Rise - WSJ"
     ],
     "oil_headlines": [
       "Oil falls on surplus as Brent, WTI down ~2.5% for week - Ticker News",
@@ -118,14 +96,14 @@
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.678081638791083,
-      "trust": 0.8693354343475422
+      "score": 0.6782249702683154,
+      "trust": 0.8695191926516864
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5350228936610385,
-      "trust": 0.7612284186561398
+      "score": 0.6290500776382965,
+      "trust": 0.8860237104470172
     },
     {
       "style": "Stand aside",
@@ -136,8 +114,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.1047554699640498,
-      "trust": 0.872962249700415
+      "score": 0.10477690889795582,
+      "trust": 0.8731409074829652
     },
     {
       "style": "Fade the session range",
@@ -147,10 +125,10 @@
     }
   ],
   "record": {
-    "graded": 118,
-    "wins": 34,
+    "graded": 119,
+    "wins": 35,
     "losses": 62,
     "scratches": 22,
-    "avg_r": -0.14157360795064475
+    "avg_r": -0.11137680986832092
   }
 }
