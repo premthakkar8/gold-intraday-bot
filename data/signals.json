@@ -1,54 +1,54 @@
 {
-  "updated_at": "2026-11-16T05:06:44.478631+00:00",
-  "atr": 3.282857142857178,
-  "price": 3873.5,
-  "stance": "Strategy: the BUY plan from 03:09 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
+  "updated_at": "2026-11-16T05:21:33.475629+00:00",
+  "atr": 3.5857142857142725,
+  "price": 3866.77,
+  "stance": "Strategy: SELL is the trade (Trade with the intraday trend, confidence 58%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3860.42,
-      "entry_high": 3863.61,
-      "sl": 3858.61,
-      "tp1": 3875.63,
+      "entry_high": 3863.45,
+      "sl": 3858.45,
+      "tp1": 3875.88,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.74,
+      "score": 0.0,
       "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "invalid",
+      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
+      "created_at": "2026-11-16T02:10:44.189738+00:00",
+      "checked_at": "2026-11-16T05:34:41.570925+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3897.45,
+      "entry_high": 3900.48,
+      "sl": 3902.45,
+      "tp1": 3885.02,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.68,
+      "style": "trend_align",
       "favored": true,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T05:19:53.789599+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3897.29,
-      "entry_high": 3900.48,
-      "sl": 3902.29,
-      "tp1": 3885.27,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.34,
-      "style": "dollar_lead",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T05:19:53.789599+00:00"
+      "checked_at": "2026-11-16T05:34:41.570925+00:00"
     }
   ],
   "research": [
-    "Gold 3867.51 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3876.81, ATR 3.28, day range 3860.42-3900.48.",
-    "DXY 103.44 (+0.04% today, flat), gold-dollar corr -0.13.",
-    "WTI 88.31 (-0.19% today, flat), gold-oil corr -0.12.",
-    "Headlines: dollar +1.00, oil -0.31.",
-    "Dollar: United States Dollar Index holds gains above 103.50 on hawkish Fed comments | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+    "Gold 3875.51 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3876.57, ATR 3.59, day range 3860.42-3900.48.",
+    "DXY 103.41 (+0.01% today, flat), gold-dollar corr -0.08.",
+    "WTI 88.38 (-0.11% today, flat), gold-oil corr -0.12.",
+    "Headlines: dollar +1.00, oil -0.30.",
+    "Dollar: Indonesian Rupiah struggles as US Dollar gains on hawkish Fed odds - FXStreet",
     "Oil: Crude Oil Gains After Trump Says The US No Longer Needs A Nuclear Deal With Iran By Kedia Advisory - Investing.com India",
     "Next high-impact US release: Fed Chairman Warsh Speaks Mon 17:00 UTC."
   ],
@@ -120,5 +120,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-16T05:19:53.789599+00:00"
+  "last_check": "2026-11-16T05:34:41.570925+00:00"
 }

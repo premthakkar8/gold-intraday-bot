@@ -1,80 +1,80 @@
 {
-  "updated": "2026-11-16 05:06 UTC",
+  "updated": "2026-11-16 05:21 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3867.51,
-  "stance": "Strategy: the BUY plan from 03:09 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3875.51,
+  "stance": "Strategy: SELL is the trade (Trade with the intraday trend, confidence 58%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3860.42,
-      "entry_high": 3863.61,
-      "sl": 3858.61,
-      "tp1": 3875.63,
+      "entry_high": 3863.45,
+      "sl": 3858.45,
+      "tp1": 3875.88,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.74,
+      "score": 0.0,
       "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "invalid",
+      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
+      "created_at": "2026-11-16T02:10:44.189738+00:00",
+      "checked_at": "2026-11-16T05:21:33.475629+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3897.45,
+      "entry_high": 3900.48,
+      "sl": 3902.45,
+      "tp1": 3885.02,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.68,
+      "style": "trend_align",
       "favored": true,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T05:06:44.478631+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3897.29,
-      "entry_high": 3900.48,
-      "sl": 3902.29,
-      "tp1": 3885.27,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.34,
-      "style": "dollar_lead",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T05:06:44.478631+00:00"
+      "checked_at": "2026-11-16T05:21:33.475629+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "down",
     "session": "asia",
-    "vwap": 3876.8105535417567,
-    "atr": 3.282857142857178,
+    "vwap": 3876.566626153334,
+    "atr": 3.5857142857142725,
     "day_low": 3860.42,
     "day_high": 3900.48,
-    "range_pos": 0.1769845232151811
+    "range_pos": 0.3766849725411924
   },
   "dxy": {
     "ok": true,
-    "last": 103.44200134277344,
-    "pct": 0.03965180783910486,
+    "last": 103.40799713134766,
+    "pct": 0.006766041642809668,
     "state": "flat",
-    "corr": -0.130459245632697
+    "corr": -0.08074190221336243
   },
   "oil": {
     "ok": true,
-    "last": 88.30999755859375,
-    "pct": -0.19214036153912684,
+    "last": 88.37999725341797,
+    "pct": -0.11302678539940197,
     "state": "flat",
-    "corr": -0.1222446323223719
+    "corr": -0.11968132770436365
   },
   "news": {
     "usd": 1.0,
-    "oil": -0.3058237010888026,
+    "oil": -0.3029924849726944,
     "shock": false,
     "usd_headlines": [
-      "United States Dollar Index holds gains above 103.50 on hawkish Fed comments | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+      "Indonesian Rupiah struggles as US Dollar gains on hawkish Fed odds - FXStreet",
       "United States Dollar Index holds gains above 103.50 on hawkish Fed comments - FXStreet",
       "Ringgit opens almost flat against US dollar amid hawkish Fed outlook - The Malaysian Reserve"
     ],
@@ -109,28 +109,28 @@
   ],
   "scorecard": [
     {
-      "style": "Fade the session range",
-      "bias": "long",
-      "score": 0.73587120917889,
-      "trust": 1.2992942769436806
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.6806232247338778,
+      "trust": 0.9049149709101298
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.34362891473980595,
-      "trust": 0.8981099732601722
+      "score": 0.5573565049915835,
+      "trust": 0.8217450235006922
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.211365374835216,
-      "trust": 0.66051679636005
+      "score": 0.16156022793801447,
+      "trust": 0.5048757123062952
     },
     {
-      "style": "Trade with the intraday trend",
+      "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.09047792446356265,
-      "trust": 0.9047792446356264
+      "score": 0.11522682095148572,
+      "trust": 1.152268209514857
     },
     {
       "style": "Trade the oil shock",
@@ -140,10 +140,10 @@
     }
   ],
   "record": {
-    "graded": 121,
+    "graded": 122,
     "wins": 35,
     "losses": 63,
-    "scratches": 23,
-    "avg_r": -0.11780033367215033
+    "scratches": 24,
+    "avg_r": -0.1168347571666409
   }
 }

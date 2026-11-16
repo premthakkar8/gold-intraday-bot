@@ -918,3 +918,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-16 04:36 UTC  live: gold 3872.87 | holding long range_fade 343fa831 | new read long range_fade not opened
 2026-11-16 04:51 UTC  live: gold 3871.67 | holding long range_fade 343fa831 | new read long range_fade not opened
 2026-11-16 05:06 UTC  live: gold 3867.51 | holding long range_fade 343fa831 | new read long range_fade not opened
+2026-11-16 05:21 UTC  live: gold 3875.51 | graded: 343fa831 long range_fade -> scratch (price never reached the entry zone) | opened short trend_align efff3329 zone 3897.45-3900.48 stop 3902.45 target 3885.02 units 1 risk 5.00 USD tier normal conf 0.58
