@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-15 23:43 UTC",
+  "updated": "2026-11-15 23:57 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3889.83,
-  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 60%).",
+  "price": 3899.71,
+  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 54%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3865.81,
-      "entry_high": 3867.71,
-      "sl": 3862.71,
-      "tp1": 3880.23,
-      "tp2": 3882.97,
-      "rr": 3.3,
+      "entry_high": 3867.66,
+      "sl": 3862.66,
+      "tp1": 3883.03,
+      "tp2": null,
+      "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.29,
+      "score": 0.39,
       "style": "trend_align",
       "favored": false,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.29. Take it only with a clear reaction at the entry.",
+      "status": "valid",
+      "reason": "Score 0.39 (Trade with the intraday trend).",
       "created_at": "2026-11-15T23:43:11.642882+00:00",
-      "checked_at": "2026-11-15T23:43:11.642882+00:00"
+      "checked_at": "2026-11-15T23:57:49.086553+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3888.88,
-      "entry_high": 3890.78,
-      "sl": 3893.88,
-      "tp1": 3880.23,
-      "tp2": 3873.62,
-      "rr": 2.4,
+      "entry_low": 3899.4,
+      "entry_high": 3901.25,
+      "sl": 3904.4,
+      "tp1": 3886.26,
+      "tp2": 3884.03,
+      "rr": 3.5,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.6,
+      "score": 0.54,
       "style": "dollar_lead",
       "favored": true,
       "ready": true,
       "status": "valid",
-      "reason": "Score 0.60 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
-      "created_at": "2026-11-15T23:43:11.642882+00:00",
-      "checked_at": "2026-11-15T23:43:11.642882+00:00"
+      "reason": "Score 0.54 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
+      "created_at": "2026-11-15T23:57:49.086553+00:00",
+      "checked_at": "2026-11-15T23:57:49.086553+00:00"
     }
   ],
   "active": [],
@@ -49,31 +49,32 @@
     "structure": "up",
     "htf": "sideways",
     "session": "late",
-    "vwap": 3880.2297858434304,
-    "atr": 5.6450000000000795,
+    "vwap": 3886.2607441581627,
+    "atr": 5.724285714285835,
     "day_low": 3865.81,
-    "day_high": 3890.78,
-    "range_pos": 0.9619543452142466
+    "day_high": 3901.25,
+    "range_pos": 0.956546275395035
   },
   "dxy": {
     "ok": true,
-    "last": 103.42500305175781,
-    "pct": 0.013538152172814401,
+    "last": 103.41500091552734,
+    "pct": 0.0038659355523459112,
     "state": "flat",
-    "corr": -0.07401364150792038
+    "corr": -0.14680281816957616
   },
   "oil": {
     "ok": true,
-    "last": 88.48999786376953,
-    "pct": 0.26058885335631543,
+    "last": 88.5199966430664,
+    "pct": 0.2945779521222225,
     "state": "flat",
-    "corr": 0.011397455678242102
+    "corr": 0.05976731739533321
   },
   "news": {
     "usd": 1.0,
-    "oil": -0.3503414351758187,
+    "oil": -0.35797457281701406,
     "shock": false,
     "usd_headlines": [
+      "U.S., Eurozone Bond Yields Rise - WSJ",
       "Silver Price Forecast: Silver Slides Below $50 as Treasury Yields Jump - FXEmpire"
     ],
     "oil_headlines": [
@@ -94,20 +95,20 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.6032901338445739,
-      "trust": 0.8925667587805822
+      "score": 0.5369476940671197,
+      "trust": 0.7655578130999052
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.29273250755957136,
-      "trust": 0.9015139144429175
+      "score": 0.3868089104798536,
+      "trust": 0.9016524719810106
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.2871095147798286,
-      "trust": 0.8972172336869644
+      "score": 0.28710951477982855,
+      "trust": 0.8972172336869643
     },
     {
       "style": "Fade the session range",
@@ -118,15 +119,15 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.099656976011721,
-      "trust": 0.8304748000976749
+      "score": 0.09968559608840737,
+      "trust": 0.8307133007367281
     }
   ],
   "record": {
-    "graded": 117,
+    "graded": 118,
     "wins": 34,
-    "losses": 61,
+    "losses": 62,
     "scratches": 22,
-    "avg_r": -0.1342366302408212
+    "avg_r": -0.14157360795064475
   }
 }

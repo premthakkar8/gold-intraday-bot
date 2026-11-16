@@ -887,3 +887,5 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-15 23:44 UTC  live: SELL entry reached at 3889.15
 2026-11-15 23:44 UTC  live: BUY TP hit
 2026-11-15 23:44 UTC  live: SELL TP hit
+2026-11-15 23:57 UTC  live: gold 3899.71 | graded: 0ea74df1 short dollar_lead -> loss (-1.00R) invalidation hit | opened short dollar_lead 49bb199b zone 3899.40-3901.25 stop 3904.40 target 3886.26 units 1 risk 5.00 USD tier normal conf 0.54
+2026-11-15 23:58 UTC  live: SELL entry reached at 3899.95
