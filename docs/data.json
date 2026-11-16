@@ -1,84 +1,87 @@
 {
-  "updated": "2026-11-16 23:00 UTC",
+  "updated": "2026-11-16 23:15 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3859.21,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.45). Take an entry only if price reaches it.",
+  "price": 3853.4,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.18). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3836.16,
-      "sl": 3831.16,
-      "tp1": 3846.88,
+      "entry_high": 3836.04,
+      "sl": 3831.04,
+      "tp1": 3847.07,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.45,
-      "style": "trend_align",
-      "favored": true,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T23:00:24.787298+00:00"
+      "checked_at": "2026-11-16T23:15:06.588818+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3896.77,
+      "entry_low": 3896.89,
       "entry_high": 3900.48,
-      "sl": 3901.77,
-      "tp1": 3886.05,
+      "sl": 3901.89,
+      "tp1": 3885.86,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.38,
+      "score": 0.18,
       "style": "dollar_lead",
-      "favored": false,
+      "favored": true,
       "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T23:00:24.787298+00:00"
+      "checked_at": "2026-11-16T23:15:06.588818+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "up",
     "session": "late",
-    "vwap": 3865.3181153617243,
-    "atr": 2.339285714285649,
+    "vwap": 3865.2713394789316,
+    "atr": 2.564285714285591,
     "day_low": 3832.45,
     "day_high": 3900.48,
-    "range_pos": 0.39335587240923325
+    "range_pos": 0.30795237395267105
   },
   "dxy": {
     "ok": true,
-    "last": 103.59300231933594,
-    "pct": 0.1856861548341855,
+    "last": 103.58599853515625,
+    "pct": 0.17891273473811212,
     "state": "up",
-    "corr": -0.3998009637194432
+    "corr": -0.32846247716171134
   },
   "oil": {
     "ok": true,
-    "last": 85.05999755859375,
-    "pct": -3.8652866959592407,
+    "last": 85.47000122070312,
+    "pct": -3.4019010194743564,
     "state": "down",
-    "corr": 0.2950511388611915
+    "corr": 0.12810087464213876
   },
   "news": {
-    "usd": 0.4644488075911981,
-    "oil": 0.0,
+    "usd": 0.46026248092554856,
+    "oil": -1.0,
     "shock": true,
     "usd_headlines": [
       "US Dollar Rallies as Fed Rate Risks Pressure Global Markets - FXEmpire",
       "Fed's Hammack reiterates case for slow, steady rate hikes -Bloomberg TV - Reuters",
       "Treasury Yields Fall, German Bunds\u2019 Tick Higher - WSJ"
     ],
-    "oil_headlines": []
+    "oil_headlines": [
+      "Canadian Financial Close: Loonie weakens, crude oil falls - Manitoba Co-operator",
+      "Oil falls as recovering Middle East exports bolster surplus outlook - CNBC"
+    ]
   },
   "events": [
     {
@@ -100,39 +103,39 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6404275199168614,
-      "trust": 0.8426677893642913
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.44800000000000006,
-      "trust": 1.0
+      "score": 0.4563103400440868,
+      "trust": 0.8148398929358692
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.38366958056228384,
-      "trust": 1.0
+      "score": 0.18014977895073475,
+      "trust": 0.9154832700915354
     },
     {
-      "style": "Trade the oil shock",
+      "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.10672285774100097,
-      "trust": 0.8893571478416749
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.09180418694257599,
+      "trust": 0.7650348911881333
     }
   ],
   "record": {
-    "graded": 132,
+    "graded": 133,
     "wins": 36,
-    "losses": 66,
+    "losses": 67,
     "scratches": 30,
-    "avg_r": -0.12313515435098628
+    "avg_r": -0.12972812311526458
   }
 }
