@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-16 15:03 UTC",
+  "updated": "2026-11-16 15:18 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3881.95,
+  "price": 3873.57,
   "stance": "Strategy: the SELL plan from 14:48 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3833.73,
-      "sl": 3828.73,
-      "tp1": 3850.53,
+      "entry_high": 3833.54,
+      "sl": 3828.54,
+      "tp1": 3850.82,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T15:03:33.870583+00:00"
+      "checked_at": "2026-11-16T15:18:35.308452+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3899.2,
+      "entry_low": 3899.39,
       "entry_high": 3900.48,
-      "sl": 3904.2,
-      "tp1": 3882.4,
+      "sl": 3904.39,
+      "tp1": 3882.11,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.31,
+      "score": 0.32,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T15:03:33.870583+00:00"
+      "checked_at": "2026-11-16T15:18:35.308452+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3868.006664489449,
-    "atr": 6.762857142857131,
+    "vwap": 3868.1562093263437,
+    "atr": 7.115714285714246,
     "day_low": 3832.45,
     "day_high": 3900.48,
-    "range_pos": 0.7276201675731273
+    "range_pos": 0.6044392179920657
   },
   "dxy": {
     "ok": true,
-    "last": 103.5009994506836,
-    "pct": 0.0967093869272697,
+    "last": 103.51000213623047,
+    "pct": 0.10541596177843154,
     "state": "up",
-    "corr": -0.3579769101451444
+    "corr": -0.3681002533237983
   },
   "oil": {
     "ok": true,
-    "last": 86.87999725341797,
-    "pct": -1.8083250935933006,
+    "last": 86.61000061035156,
+    "pct": -2.113474995065641,
     "state": "down",
-    "corr": -0.3943636280129782
+    "corr": -0.3642680002078962
   },
   "news": {
-    "usd": 0.808982076213941,
-    "oil": -0.5148118143962431,
+    "usd": 0.7941152507399679,
+    "oil": -0.5169213116326973,
     "shock": true,
     "usd_headlines": [
       "Gold hits one-year low as dollar strengthens, Fed rate bets rise - \u0633\u0627\u0646\u0627",
@@ -117,7 +117,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3128007527155369,
+      "score": 0.3209521557517086,
       "trust": 0.9238832555938805
     },
     {
@@ -135,8 +135,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.0860906649936327,
-      "trust": 0.7174222082802726
+      "score": 0.08613967477326749,
+      "trust": 0.7178306231105624
     }
   ],
   "record": {
