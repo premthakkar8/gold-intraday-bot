@@ -953,3 +953,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-16 12:36 UTC  live: gold 3869.11 | holding short dollar_lead 6391b740 | new read short dollar_lead not opened
 2026-11-16 12:51 UTC  live: gold 3869.36 | holding short dollar_lead 6391b740 | new read flat stand_aside not opened
 2026-11-16 13:06 UTC  live: gold 3872.44 | holding short dollar_lead 6391b740 | new read flat stand_aside not opened
+2026-11-16 13:20 UTC  live: gold 3866.96 | holding short dollar_lead 6391b740 | new read flat stand_aside not opened

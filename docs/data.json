@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-16 13:06 UTC",
+  "updated": "2026-11-16 13:20 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3872.44,
+  "price": 3866.96,
   "stance": "Strategy: the SELL plan from 12:22 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3835.35,
-      "sl": 3830.35,
-      "tp1": 3848.1,
+      "entry_high": 3835.09,
+      "sl": 3830.09,
+      "tp1": 3848.49,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,57 +21,57 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T13:06:06.979727+00:00"
+      "checked_at": "2026-11-16T13:20:46.868717+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3897.58,
+      "entry_low": 3897.84,
       "entry_high": 3900.48,
-      "sl": 3902.58,
-      "tp1": 3884.83,
+      "sl": 3902.84,
+      "tp1": 3884.44,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.62,
-      "style": "trend_align",
+      "score": 0.53,
+      "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T13:06:06.979727+00:00"
+      "checked_at": "2026-11-16T13:20:46.868717+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3867.401649683364,
-    "atr": 3.8214285714285716,
+    "vwap": 3867.411068703854,
+    "atr": 4.28571428571435,
     "day_low": 3832.45,
     "day_high": 3900.48,
-    "range_pos": 0.5878288990151421
+    "range_pos": 0.5072762016757331
   },
   "dxy": {
     "ok": true,
-    "last": 103.46499633789062,
-    "pct": 0.06189046597588604,
+    "last": 103.47200012207031,
+    "pct": 0.06866388607195939,
     "state": "flat",
-    "corr": -0.3641844011380366
+    "corr": -0.2616610944326163
   },
   "oil": {
     "ok": true,
-    "last": 87.44000244140625,
-    "pct": -1.1754078617424077,
+    "last": 87.93000030517578,
+    "pct": -0.6216128287643339,
     "state": "down",
-    "corr": -0.4474263078233013
+    "corr": -0.41341850402851893
   },
   "news": {
-    "usd": 0.8111349412383446,
-    "oil": -0.691954728876216,
+    "usd": 0.8103379734681501,
+    "oil": -0.692566205280929,
     "shock": true,
     "usd_headlines": [
       "US Dollar Technical Forecast: DXY Bulls Target Yearly Highs After Hot CPI - StoneX",
@@ -109,34 +109,34 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.6240000000000001,
-      "trust": 1.0
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6018177887622242,
-      "trust": 0.9118451344882186
+      "score": 0.5407652911966793,
+      "trust": 0.8193413502979988
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.49102668915242764,
-      "trust": 1.0
+      "score": 0.5283735191663212,
+      "trust": 1.1394093662721698
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.1236924992479289,
+      "trust": 1.2369249924792889
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09058410131897561,
-      "trust": 0.7548675109914634
+      "score": 0.1048075623564454,
+      "trust": 0.8733963529703783
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
     }
   ],
   "record": {
