@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-16 14:19 UTC",
+  "updated": "2026-11-16 14:34 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3867.04,
-  "stance": "Strategy: the SELL plan from 12:22 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3872.4,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3834.76,
-      "sl": 3829.76,
-      "tp1": 3848.98,
+      "entry_high": 3834.49,
+      "sl": 3829.49,
+      "tp1": 3849.38,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T14:19:34.200114+00:00"
+      "checked_at": "2026-11-16T14:34:17.155743+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3898.17,
+      "entry_low": 3898.44,
       "entry_high": 3900.48,
-      "sl": 3903.17,
-      "tp1": 3883.95,
+      "sl": 3903.44,
+      "tp1": 3883.55,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.52,
+      "score": 0.31,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T14:19:34.200114+00:00"
+      "checked_at": "2026-11-16T14:34:17.155743+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3867.396457397732,
-    "atr": 4.885714285714324,
+    "vwap": 3867.371941827348,
+    "atr": 5.374285714285731,
     "day_low": 3832.45,
     "day_high": 3900.48,
-    "range_pos": 0.5084521534617087
+    "range_pos": 0.5872409231221543
   },
   "dxy": {
     "ok": true,
-    "last": 103.47899627685547,
-    "pct": 0.07542992771476907,
-    "state": "flat",
-    "corr": -0.20119021089828235
+    "last": 103.52400207519531,
+    "pct": 0.11895542351731457,
+    "state": "up",
+    "corr": -0.2512285305380446
   },
   "oil": {
     "ok": true,
-    "last": 87.3499984741211,
-    "pct": -1.2771302440552506,
+    "last": 87.23999786376953,
+    "pct": -1.4014528098081176,
     "state": "down",
-    "corr": -0.27851820886665835
+    "corr": -0.33156419979968665
   },
   "news": {
-    "usd": 0.8276261677491654,
-    "oil": -0.753212231413748,
+    "usd": 0.8279332735343308,
+    "oil": -0.755137872888507,
     "shock": true,
     "usd_headlines": [
       "Rand weakens as US dollar strengthens and Iran conflict keeps markets on edge - thenational.co.za",
@@ -111,39 +111,39 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5407652911966793,
-      "trust": 0.8193413502979988
+      "score": 0.5071300740359004,
+      "trust": 0.9055894179212506
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.519889918870045,
-      "trust": 1.1394093662721698
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.12355878722460652,
-      "trust": 1.2355878722460651
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.10489330306093002,
-      "trust": 0.8741108588410835
+      "score": 0.3093572229259801,
+      "trust": 0.9238832555938805
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.08599495121416265,
+      "trust": 0.7166245934513554
     }
   ],
   "record": {
-    "graded": 127,
+    "graded": 128,
     "wins": 35,
     "losses": 65,
-    "scratches": 27,
-    "avg_r": -0.12798299507346605
+    "scratches": 28,
+    "avg_r": -0.1269831279244546
   }
 }
