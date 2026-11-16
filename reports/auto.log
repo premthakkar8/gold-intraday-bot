@@ -906,3 +906,5 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-16 02:40 UTC  live: gold 3886.25 | holding short dollar_lead 4abfb9de | new read short dollar_lead not opened
 2026-11-16 02:54 UTC  live: gold 3875.12 | holding short dollar_lead 4abfb9de | new read short dollar_lead not opened
 2026-11-16 03:09 UTC  live: gold 3871.32 | graded: 4abfb9de short dollar_lead -> scratch (price never reached the entry zone) | opened long range_fade 343fa831 zone 3860.42-3861.78 stop 3856.78 target 3878.39 units 1 risk 5.00 USD tier normal conf 0.55
+2026-11-16 03:23 UTC  live: gold 3871.36 | holding long range_fade 343fa831 | new read long range_fade not opened
+2026-11-16 03:34 UTC  live: SELL now far: Price is 33.58 away from the entry (6.2 ATR). Unlikely to fill soon.
