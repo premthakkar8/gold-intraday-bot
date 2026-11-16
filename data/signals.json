@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-11-16T07:48:15.005354+00:00",
-  "atr": 5.313571428571485,
-  "price": 3855.2,
-  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 70%).",
+  "updated_at": "2026-11-16T08:02:50.584886+00:00",
+  "atr": 5.268571428571444,
+  "price": 3856.73,
+  "stance": "Strategy: the SELL plan from 07:48 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3834.53,
-      "sl": 3829.53,
-      "tp1": 3849.33,
+      "entry_high": 3834.55,
+      "sl": 3829.55,
+      "tp1": 3849.3,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.48,
+      "score": 0.5,
       "style": "range_fade",
       "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.48 (Fade the session range), price below VWAP.",
-      "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T08:01:22.483626+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3898.4,
-      "entry_high": 3900.48,
-      "sl": 3903.4,
-      "tp1": 3883.6,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.7,
-      "style": "dollar_lead",
-      "favored": false,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-16T06:05:34.916239+00:00",
+      "checked_at": "2026-11-16T08:15:57.694378+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3898.38,
+      "entry_high": 3900.48,
+      "sl": 3903.38,
+      "tp1": 3883.63,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.4,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T08:01:22.483626+00:00"
+      "checked_at": "2026-11-16T08:15:57.694378+00:00"
     }
   ],
   "research": [
-    "Gold 3856.83 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3868.99, ATR 5.31, day range 3832.45-3900.48.",
-    "DXY 103.43 (+0.03% today, flat), gold-dollar corr -0.19.",
-    "WTI 88.81 (+0.37% today, flat), gold-oil corr -0.33.",
-    "Headlines: dollar +0.89, oil -0.64.",
+    "Gold 3855.23 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3868.63, ATR 5.27, day range 3832.45-3900.48.",
+    "DXY 103.42 (+0.02% today, flat), gold-dollar corr -0.28.",
+    "WTI 88.78 (+0.34% today, flat), gold-oil corr -0.25.",
+    "Headlines: dollar +0.88, oil -0.64.",
     "Dollar: South African rand weakens as US dollar strengthens - Latest news from Azerbaijan",
     "Oil: Fuel price reduction update across Nigeria as crude oil falls - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
     "Next high-impact US release: Fed Chairman Warsh Speaks Mon 17:00 UTC."
@@ -142,5 +142,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-16T08:01:22.483626+00:00"
+  "last_check": "2026-11-16T08:15:57.694378+00:00"
 }
