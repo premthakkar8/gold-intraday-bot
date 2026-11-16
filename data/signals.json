@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-11-16T05:36:13.568746+00:00",
-  "atr": 4.175714285714223,
-  "price": 3850.37,
+  "updated_at": "2026-11-16T05:50:50.556197+00:00",
+  "atr": 6.253571428571377,
+  "price": 3844.52,
   "stance": "Strategy: the SELL plan from 05:21 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3860.42,
-      "entry_high": 3863.12,
-      "sl": 3858.12,
-      "tp1": 3876.32,
+      "entry_low": 3835.73,
+      "entry_high": 3837.29,
+      "sl": 3832.29,
+      "tp1": 3853.39,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.8,
+      "score": 0.78,
       "style": "range_fade",
       "favored": true,
       "ready": true,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T05:49:20.478120+00:00"
+      "status": "valid",
+      "reason": "Score 0.78 (Fade the session range), price below VWAP.",
+      "created_at": "2026-11-16T05:50:50.556197+00:00",
+      "checked_at": "2026-11-16T06:03:57.239248+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3897.78,
+      "entry_low": 3898.92,
       "entry_high": 3900.48,
-      "sl": 3902.78,
-      "tp1": 3884.54,
+      "sl": 3903.92,
+      "tp1": 3882.82,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.34,
+      "score": 0.35,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T05:49:20.478120+00:00"
+      "checked_at": "2026-11-16T06:03:57.239248+00:00"
     }
   ],
   "research": [
-    "Gold 3865.13 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3876.32, ATR 4.18, day range 3860.42-3900.48.",
-    "DXY 103.40 (-0.00% today, flat), gold-dollar corr -0.10.",
-    "WTI 88.44 (-0.05% today, flat), gold-oil corr -0.18.",
-    "Headlines: dollar +1.00, oil -0.30.",
+    "Gold 3835.73 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3875.48, ATR 6.25, day range 3835.73-3900.48.",
+    "DXY 103.38 (-0.02% today, flat), gold-dollar corr -0.07.",
+    "WTI 88.38 (-0.11% today, flat), gold-oil corr -0.18.",
+    "Headlines: dollar +1.00, oil -0.45.",
     "Dollar: Indonesian Rupiah struggles as US Dollar gains on hawkish Fed odds | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
-    "Oil: Crude Oil Gains After Trump Says The US No Longer Needs A Nuclear Deal With Iran By Kedia Advisory - Investing.com India",
+    "Oil: Fuel price reduction update across Nigeria as crude oil falls - Daily Post Nigeria",
     "Next high-impact US release: Fed Chairman Warsh Speaks Mon 17:00 UTC."
   ],
   "active": [
@@ -118,7 +118,29 @@
       "entry": 3899.4,
       "entered_at": "2026-11-15T23:58:52.242388+00:00",
       "closed": "tp"
+    },
+    {
+      "side": "BUY",
+      "entry_low": 3835.73,
+      "entry_high": 3837.29,
+      "sl": 3832.29,
+      "tp1": 3853.39,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.78,
+      "style": "range_fade",
+      "favored": true,
+      "ready": true,
+      "status": "valid",
+      "reason": "Score 0.78 (Fade the session range), price below VWAP.",
+      "created_at": "2026-11-16T05:50:50.556197+00:00",
+      "checked_at": "2026-11-16T05:51:53.925342+00:00",
+      "entry": 3837.29,
+      "entered_at": "2026-11-16T05:51:53.925342+00:00",
+      "closed": "tp"
     }
   ],
-  "last_check": "2026-11-16T05:49:20.478120+00:00"
+  "last_check": "2026-11-16T06:03:57.239248+00:00"
 }
