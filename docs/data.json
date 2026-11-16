@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-16 03:53 UTC",
+  "updated": "2026-11-16 04:07 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3873.05,
+  "price": 3871.91,
   "stance": "Strategy: the BUY plan from 03:09 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3860.42,
-      "entry_high": 3862.84,
-      "sl": 3857.84,
-      "tp1": 3876.78,
+      "entry_high": 3862.99,
+      "sl": 3857.99,
+      "tp1": 3876.56,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "invalid",
       "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T03:53:06.874264+00:00"
+      "checked_at": "2026-11-16T04:07:43.497667+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3898.06,
+      "entry_low": 3897.91,
       "entry_high": 3900.48,
-      "sl": 3903.06,
-      "tp1": 3884.12,
+      "sl": 3902.91,
+      "tp1": 3884.34,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.39,
+      "score": 0.42,
       "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.39 (Trade with the intraday trend), hawkish dollar news +1.00.",
+      "reason": "Score 0.42 (Trade with the intraday trend), hawkish dollar news +1.00.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T03:53:06.874264+00:00"
+      "checked_at": "2026-11-16T04:07:43.497667+00:00"
     }
   ],
   "active": [],
@@ -49,33 +49,33 @@
     "structure": "down",
     "htf": "down",
     "session": "asia",
-    "vwap": 3877.9760114457963,
-    "atr": 4.683571428571473,
+    "vwap": 3877.775435632224,
+    "atr": 4.410000000000049,
     "day_low": 3860.42,
     "day_high": 3900.48,
-    "range_pos": 0.315277084373443
+    "range_pos": 0.2868197703444782
   },
   "dxy": {
     "ok": true,
-    "last": 103.43000030517578,
-    "pct": 0.028045500855310303,
+    "last": 103.447998046875,
+    "pct": 0.04545127210437029,
     "state": "flat",
-    "corr": -0.1628706006372264
+    "corr": -0.09330765053023485
   },
   "oil": {
     "ok": true,
-    "last": 87.93000030517578,
-    "pct": -0.6216128287643339,
-    "state": "down",
-    "corr": -0.0012157209926203472
+    "last": 88.18000030517578,
+    "pct": -0.33906311073201745,
+    "state": "flat",
+    "corr": -0.021756500117331212
   },
   "news": {
     "usd": 1.0,
-    "oil": -0.30863276272692697,
+    "oil": -0.29927009824744705,
     "shock": false,
     "usd_headlines": [
       "United States Dollar Index holds gains above 103.50 on hawkish Fed comments - FXStreet",
-      "Ringgit opens almost flat against US dollar amid hawkish Fed outlook - Malay Mail",
+      "Ringgit opens almost flat against US dollar amid hawkish Fed outlook - The Malaysian Reserve",
       "Ringgit opens almost flat against US dollar amid hawkish Fed outlook - Newswav"
     ],
     "oil_headlines": [
@@ -110,32 +110,32 @@
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.3893946926948432,
-      "trust": 1.0
+      "score": 0.41775735784280793,
+      "trust": 0.9042367052874629
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2767056261192302,
-      "trust": 0.7115951720320135
+      "score": 0.3085338021659667,
+      "trust": 0.8217450235006922
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.1824034851145202,
-      "trust": 0.5700108909828756
+      "score": 0.16156022793801447,
+      "trust": 0.5048757123062952
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1096662928629975,
-      "trust": 1.096662928629975
+      "score": 0.11533543772631086,
+      "trust": 1.1533543772631085
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.10457528306727806,
-      "trust": 0.8714606922273173
+      "score": 0.08,
+      "trust": 1.0
     }
   ],
   "record": {

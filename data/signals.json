@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-16T03:53:06.874264+00:00",
-  "atr": 4.683571428571473,
-  "price": 3872.49,
+  "updated_at": "2026-11-16T04:07:43.497667+00:00",
+  "atr": 4.410000000000049,
+  "price": 3870.62,
   "stance": "Strategy: the BUY plan from 03:09 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3860.42,
-      "entry_high": 3862.84,
-      "sl": 3857.84,
-      "tp1": 3876.78,
+      "entry_high": 3862.99,
+      "sl": 3857.99,
+      "tp1": 3876.56,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,33 +21,33 @@
       "status": "invalid",
       "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T04:06:12.967419+00:00"
+      "checked_at": "2026-11-16T04:20:49.148462+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3898.06,
+      "entry_low": 3897.91,
       "entry_high": 3900.48,
-      "sl": 3903.06,
-      "tp1": 3884.12,
+      "sl": 3902.91,
+      "tp1": 3884.34,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.39,
+      "score": 0.42,
       "style": "trend_align",
       "favored": true,
       "ready": false,
-      "status": "valid",
-      "reason": "Score 0.39 (Trade with the intraday trend), hawkish dollar news +1.00.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T04:06:12.967419+00:00"
+      "checked_at": "2026-11-16T04:20:49.148462+00:00"
     }
   ],
   "research": [
-    "Gold 3873.05 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3877.98, ATR 4.68, day range 3860.42-3900.48.",
-    "DXY 103.43 (+0.03% today, flat), gold-dollar corr -0.16.",
-    "WTI 87.93 (-0.62% today, down), gold-oil corr -0.00.",
-    "Headlines: dollar +1.00, oil -0.31.",
+    "Gold 3871.91 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3877.78, ATR 4.41, day range 3860.42-3900.48.",
+    "DXY 103.45 (+0.05% today, flat), gold-dollar corr -0.09.",
+    "WTI 88.18 (-0.34% today, flat), gold-oil corr -0.02.",
+    "Headlines: dollar +1.00, oil -0.30.",
     "Dollar: United States Dollar Index holds gains above 103.50 on hawkish Fed comments - FXStreet",
     "Oil: Oil falls on surplus as Brent, WTI down ~2.5% for week - Ticker News",
     "Next high-impact US release: Fed Chairman Warsh Speaks Mon 17:00 UTC."
@@ -120,5 +120,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-16T04:06:12.967419+00:00"
+  "last_check": "2026-11-16T04:20:49.148462+00:00"
 }

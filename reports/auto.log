@@ -911,3 +911,6 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-16 03:38 UTC  live: gold 3864.79 | holding long range_fade 343fa831 | new read long range_fade not opened
 2026-11-16 03:41 UTC  live: SELL valid again
 2026-11-16 03:53 UTC  live: gold 3873.05 | holding long range_fade 343fa831 | new read flat stand_aside not opened
+2026-11-16 04:07 UTC  live: gold 3871.91 | holding long range_fade 343fa831 | new read flat stand_aside not opened
+2026-11-16 04:09 UTC  live: SELL now far: Price is 26.58 away from the entry (6.0 ATR). Unlikely to fill soon.
+2026-11-16 04:10 UTC  live: SELL now expired: Signal is 120 minutes old without an entry. Waiting for a fresh one.
