@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-16T16:17:34.387952+00:00",
-  "atr": 4.559285714285742,
-  "price": 3859.74,
+  "updated_at": "2026-11-16T16:32:14.744993+00:00",
+  "atr": 3.9485714285714755,
+  "price": 3857.38,
   "stance": "Strategy: the SELL plan from 14:48 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3834.94,
-      "sl": 3829.94,
-      "tp1": 3848.71,
+      "entry_high": 3835.28,
+      "sl": 3830.28,
+      "tp1": 3848.21,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -18,39 +18,39 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "status": "paused",
+      "reason": "Fed Chairman Warsh Speaks at 17:00 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T16:30:42.252375+00:00"
+      "checked_at": "2026-11-16T16:45:21.281174+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3897.99,
+      "entry_low": 3897.65,
       "entry_high": 3900.48,
-      "sl": 3902.99,
-      "tp1": 3884.22,
+      "sl": 3902.65,
+      "tp1": 3884.72,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.74,
-      "style": "trend_align",
+      "score": 0.37,
+      "style": "dollar_lead",
       "favored": true,
-      "ready": true,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "ready": false,
+      "status": "paused",
+      "reason": "Fed Chairman Warsh Speaks at 17:00 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T16:30:42.252375+00:00"
+      "checked_at": "2026-11-16T16:45:21.281174+00:00"
     }
   ],
   "research": [
-    "Gold 3859.71 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3867.78, ATR 4.56, day range 3832.45-3900.48.",
-    "DXY 103.52 (+0.11% today, up), gold-dollar corr -0.41.",
-    "WTI 86.70 (-2.01% today, down), gold-oil corr -0.22.",
+    "Gold 3858.51 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3867.64, ATR 3.95, day range 3832.45-3900.48.",
+    "DXY 103.54 (+0.13% today, up), gold-dollar corr -0.40.",
+    "WTI 86.61 (-2.11% today, down), gold-oil corr -0.20.",
     "Headlines: dollar +0.71, oil -0.48, fresh shock.",
     "Dollar: Euro slides to fresh 19-month low as hawkish Fed outlook dominates - FXStreet",
     "Oil: Oil falls as recovering Middle East exports bolster surplus outlook - CNBC",
-    "Next high-impact US release: Fed Chairman Warsh Speaks Mon 17:00 UTC."
+    "US event blackout: Fed Chairman Warsh Speaks at 17:00 UTC. Do not enter until it passes."
   ],
   "active": [
     {
@@ -76,5 +76,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-16T16:30:42.252375+00:00"
+  "last_check": "2026-11-16T16:45:21.281174+00:00"
 }

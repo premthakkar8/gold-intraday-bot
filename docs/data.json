@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-16 16:17 UTC",
+  "updated": "2026-11-16 16:32 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3859.71,
+  "price": 3858.51,
   "stance": "Strategy: the SELL plan from 14:48 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3834.94,
-      "sl": 3829.94,
-      "tp1": 3848.71,
+      "entry_high": 3835.28,
+      "sl": 3830.28,
+      "tp1": 3848.21,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -18,60 +18,60 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "status": "paused",
+      "reason": "Fed Chairman Warsh Speaks at 17:00 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T16:17:34.387952+00:00"
+      "checked_at": "2026-11-16T16:32:14.744993+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3897.99,
+      "entry_low": 3897.65,
       "entry_high": 3900.48,
-      "sl": 3902.99,
-      "tp1": 3884.22,
+      "sl": 3902.65,
+      "tp1": 3884.72,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.74,
-      "style": "trend_align",
+      "score": 0.37,
+      "style": "dollar_lead",
       "favored": true,
-      "ready": true,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "ready": false,
+      "status": "paused",
+      "reason": "Fed Chairman Warsh Speaks at 17:00 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T16:17:34.387952+00:00"
+      "checked_at": "2026-11-16T16:32:14.744993+00:00"
     }
   ],
   "active": [],
-  "blackout": null,
+  "blackout": "Fed Chairman Warsh Speaks at 17:00 UTC",
   "chart": {
     "structure": "down",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3867.784153762137,
-    "atr": 4.559285714285742,
+    "vwap": 3867.641722774008,
+    "atr": 3.9485714285714755,
     "day_low": 3832.45,
     "day_high": 3900.48,
-    "range_pos": 0.4007055710715881
+    "range_pos": 0.3830662942819392
   },
   "dxy": {
     "ok": true,
-    "last": 103.51599884033203,
-    "pct": 0.11121542604369697,
+    "last": 103.53600311279297,
+    "pct": 0.13056173050110914,
     "state": "up",
-    "corr": -0.4084447646944557
+    "corr": -0.40395493660174475
   },
   "oil": {
     "ok": true,
-    "last": 86.69999694824219,
-    "pct": -2.0117612354858925,
+    "last": 86.61000061035156,
+    "pct": -2.113474995065641,
     "state": "down",
-    "corr": -0.21881764799564327
+    "corr": -0.1980258906301547
   },
   "news": {
-    "usd": 0.7118387745605816,
-    "oil": -0.48219690243923047,
+    "usd": 0.7135720001116953,
+    "oil": -0.483833174204612,
     "shock": true,
     "usd_headlines": [
       "Euro slides to fresh 19-month low as hawkish Fed outlook dominates - FXStreet",
@@ -109,12 +109,6 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.7360000000000001,
-      "trust": 1.0
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
       "score": 0.5442060415152054,
@@ -123,7 +117,13 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3512360134585182,
+      "score": 0.3689727824293533,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.18400000000000002,
       "trust": 1.0
     },
     {
@@ -135,8 +135,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.08592005090240337,
-      "trust": 0.7160004241866949
+      "score": 0.08596815618837697,
+      "trust": 0.7164013015698081
     }
   ],
   "record": {
