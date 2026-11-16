@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-16 00:42 UTC",
+  "updated": "2026-11-16 00:57 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3885.92,
-  "stance": "Strategy: wait. Two approaches want opposite trades and neither has a clear lead. Take an entry only if price reaches it.",
+  "price": 3894.46,
+  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 65%).",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3865.81,
-      "entry_high": 3868.35,
-      "sl": 3863.35,
-      "tp1": 3881.84,
-      "tp2": null,
-      "rr": 4.0,
+      "entry_low": 3882.58,
+      "entry_high": 3885.34,
+      "sl": 3880.34,
+      "tp1": 3890.91,
+      "tp2": 3898.44,
+      "rr": 1.9,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.68,
+      "score": 0.48,
       "style": "trend_align",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.68 (Trade with the intraday trend).",
-      "created_at": "2026-11-15T23:43:11.642882+00:00",
-      "checked_at": "2026-11-16T00:42:42.517720+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3898.71,
-      "entry_high": 3901.25,
-      "sl": 3903.71,
-      "tp1": 3885.06,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.63,
-      "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.63 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
+      "reason": "Score 0.48 (Trade with the intraday trend).",
+      "created_at": "2026-11-16T00:57:27.999892+00:00",
+      "checked_at": "2026-11-16T00:57:27.999892+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3898.49,
+      "entry_high": 3901.25,
+      "sl": 3903.49,
+      "tp1": 3890.91,
+      "tp2": 3885.39,
+      "rr": 2.5,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.65,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": true,
+      "status": "valid",
+      "reason": "Score 0.65 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
       "created_at": "2026-11-15T23:57:49.086553+00:00",
-      "checked_at": "2026-11-16T00:42:42.517720+00:00"
+      "checked_at": "2026-11-16T00:57:27.999892+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3881.8427717606737,
-    "atr": 4.470714285714296,
-    "day_low": 3865.81,
-    "day_high": 3901.25,
-    "range_pos": 0.5674379232505671
+    "vwap": 3890.9078254113897,
+    "atr": 4.071428571428539,
+    "day_low": 3882.58,
+    "day_high": 3900.48,
+    "range_pos": 0.6636871508379916
   },
   "dxy": {
     "ok": true,
-    "last": 103.427001953125,
-    "pct": 0.025145768722677587,
+    "last": 103.41999816894531,
+    "pct": 0.018372348626604224,
     "state": "flat",
-    "corr": -0.17134228938064894
+    "corr": -0.2395223816339499
   },
   "oil": {
     "ok": true,
-    "last": 88.52999877929688,
-    "pct": 0.05650476996660674,
+    "last": 88.30999755859375,
+    "pct": -0.19214036153912684,
     "state": "flat",
-    "corr": 0.020221291315412997
+    "corr": -0.004040169444192284
   },
   "news": {
     "usd": 1.0,
-    "oil": -0.38363199653952956,
+    "oil": -0.38528255951198653,
     "shock": false,
     "usd_headlines": [
       "Silver Price Forecast: Silver Slides Below $50 as Treasury Yields Jump - FXEmpire",
-      "Ringgit opens almost flat against US dollar amid hawkish Fed outlook - NST Online",
-      "U.S., Eurozone Bond Yields Rise - WSJ"
+      "Ringgit opens almost flat amid hawkish US Fed outlook - Free Malaysia Today",
+      "Ringgit opens almost flat against US dollar amid hawkish Fed outlook - NST Online"
     ],
     "oil_headlines": [
       "Oil falls on surplus as Brent, WTI down ~2.5% for week - Ticker News",
@@ -94,28 +94,28 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.6782249702683154,
-      "trust": 0.8695191926516864
-    },
-    {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.6290500776382965,
+      "score": 0.6501932900492078,
       "trust": 0.8860237104470172
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.4801600779969346,
+      "trust": 0.8697044432814178
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.21849676762152115,
-      "trust": 0.6828023988172536
+      "score": 0.20837063198578348,
+      "trust": 0.6511582249555734
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.10477690889795582,
-      "trust": 0.8731409074829652
+      "score": 0.10479852194029073,
+      "trust": 0.8733210161690894
     },
     {
       "style": "Fade the session range",
@@ -125,10 +125,10 @@
     }
   ],
   "record": {
-    "graded": 119,
+    "graded": 120,
     "wins": 35,
-    "losses": 62,
+    "losses": 63,
     "scratches": 22,
-    "avg_r": -0.11137680986832092
+    "avg_r": -0.11878200311941825
   }
 }
