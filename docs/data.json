@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-16 16:32 UTC",
+  "updated": "2026-11-16 16:46 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3858.51,
+  "price": 3860.54,
   "stance": "Strategy: the SELL plan from 14:48 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3835.28,
-      "sl": 3830.28,
-      "tp1": 3848.21,
+      "entry_high": 3835.46,
+      "sl": 3830.46,
+      "tp1": 3847.94,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,62 +21,62 @@
       "status": "paused",
       "reason": "Fed Chairman Warsh Speaks at 17:00 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T16:32:14.744993+00:00"
+      "checked_at": "2026-11-16T16:46:54.675631+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3897.65,
+      "entry_low": 3897.47,
       "entry_high": 3900.48,
-      "sl": 3902.65,
-      "tp1": 3884.72,
+      "sl": 3902.47,
+      "tp1": 3884.99,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.37,
+      "score": 0.33,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "paused",
       "reason": "Fed Chairman Warsh Speaks at 17:00 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T16:32:14.744993+00:00"
+      "checked_at": "2026-11-16T16:46:54.675631+00:00"
     }
   ],
   "active": [],
   "blackout": "Fed Chairman Warsh Speaks at 17:00 UTC",
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3867.641722774008,
-    "atr": 3.9485714285714755,
+    "vwap": 3867.491757293795,
+    "atr": 3.625,
     "day_low": 3832.45,
     "day_high": 3900.48,
-    "range_pos": 0.3830662942819392
+    "range_pos": 0.41290607085109604
   },
   "dxy": {
     "ok": true,
-    "last": 103.53600311279297,
-    "pct": 0.13056173050110914,
+    "last": 103.53800201416016,
+    "pct": 0.13249488525619763,
     "state": "up",
-    "corr": -0.40395493660174475
+    "corr": -0.38319286940725783
   },
   "oil": {
     "ok": true,
-    "last": 86.61000061035156,
-    "pct": -2.113474995065641,
+    "last": 86.58999633789062,
+    "pct": -2.136083801238759,
     "state": "down",
-    "corr": -0.1980258906301547
+    "corr": -0.1767157652655095
   },
   "news": {
-    "usd": 0.7135720001116953,
-    "oil": -0.483833174204612,
+    "usd": 0.6844474428330577,
+    "oil": -0.48355696647513197,
     "shock": true,
     "usd_headlines": [
       "Euro slides to fresh 19-month low as hawkish Fed outlook dominates - FXStreet",
       "Gold hits one-year low as dollar strengthens, Fed rate bets rise - \u0633\u0627\u0646\u0627",
-      "Rand weakens as US dollar strengthens and Iran conflict keeps markets on edge - thenational.co.za"
+      "Can the British Pound Stem Losses Below 1.3200 as Fed Rate Hike Expectations Lift the US Dollar? - www.tmgm.com"
     ],
     "oil_headlines": [
       "Oil falls as recovering Middle East exports bolster surplus outlook - CNBC",
@@ -111,19 +111,19 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5442060415152054,
-      "trust": 0.9717965027057238
+      "score": 0.4731018180771307,
+      "trust": 0.8448246751377333
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3689727824293533,
-      "trust": 1.0
+      "score": 0.3335386419628428,
+      "trust": 0.9238832555938805
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.18400000000000002,
+      "bias": "flat",
+      "score": 0.1,
       "trust": 1.0
     },
     {
@@ -135,8 +135,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.08596815618837697,
-      "trust": 0.7164013015698081
+      "score": 0.08642636427101731,
+      "trust": 0.7202197022584776
     }
   ],
   "record": {
