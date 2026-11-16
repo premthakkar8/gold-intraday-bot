@@ -1,38 +1,77 @@
 {
-  "updated": "2026-11-16 01:56 UTC",
+  "updated": "2026-11-16 02:10 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3870.75,
+  "price": 3884.95,
   "stance": "Strategy: the SELL plan from 00:57 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
-  "setups": [],
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3860.42,
+      "entry_high": 3860.62,
+      "sl": 3855.62,
+      "tp1": 3879.55,
+      "tp2": 3880.12,
+      "rr": 3.9,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-16T02:10:44.189738+00:00",
+      "checked_at": "2026-11-16T02:10:44.189738+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3900.28,
+      "entry_high": 3900.48,
+      "sl": 3905.28,
+      "tp1": 3880.78,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.64,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": true,
+      "status": "valid",
+      "reason": "Score 0.64 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
+      "created_at": "2026-11-16T02:10:44.189738+00:00",
+      "checked_at": "2026-11-16T02:10:44.189738+00:00"
+    }
+  ],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
     "htf": "down",
     "session": "asia",
-    "vwap": 3880.160458532752,
-    "atr": 9.462857142857144,
+    "vwap": 3879.552879644423,
+    "atr": 8.73214285714289,
     "day_low": 3860.42,
     "day_high": 3900.48,
-    "range_pos": 0.25786320519221023
+    "range_pos": 0.6123315027458757
   },
   "dxy": {
     "ok": true,
-    "last": 103.4209976196289,
-    "pct": 0.01933892600414846,
+    "last": 103.40499877929688,
+    "pct": 0.003866309510176953,
     "state": "flat",
-    "corr": -0.22610170281715772
+    "corr": -0.23173839470638471
   },
   "oil": {
     "ok": true,
-    "last": 88.33999633789062,
-    "pct": -0.1582357750125439,
+    "last": 88.2300033569336,
+    "pct": -0.28254971803231643,
     "state": "flat",
-    "corr": -0.0403278785238692
+    "corr": -0.029028104143266644
   },
   "news": {
     "usd": 1.0,
-    "oil": -0.35454635233453335,
+    "oil": -0.34633939498723415,
     "shock": false,
     "usd_headlines": [
       "Fed\u2019s Collins: Steady gradual path for rate hikes appropriate amid risks on both sides - FXStreet",
@@ -69,34 +108,34 @@
   ],
   "scorecard": [
     {
-      "style": "Fade the session range",
-      "bias": "long",
-      "score": 0.6431059143323173,
-      "trust": 1.2530696697155064
-    },
-    {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3744194402098034,
-      "trust": 0.9336570897251121
+      "score": 0.6408059888689527,
+      "trust": 0.8764855600529995
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.2153206876932334,
-      "trust": 0.6728771490413543
+      "score": 0.211365374835216,
+      "trust": 0.66051679636005
     },
     {
-      "style": "Trade the oil shock",
+      "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1348422081186017,
-      "trust": 1.1236850676550143
+      "score": 0.20870539921272424,
+      "trust": 1.3044087450795265
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.09027653601168181,
-      "trust": 0.9027653601168181
+      "score": 0.0903152071793715,
+      "trust": 0.9031520717937149
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.08,
+      "trust": 1.0
     }
   ],
   "record": {

@@ -1,13 +1,52 @@
 {
-  "updated_at": "2026-11-16T01:56:01.845912+00:00",
-  "atr": 9.462857142857144,
-  "price": 3882.9,
+  "updated_at": "2026-11-16T02:10:44.189738+00:00",
+  "atr": 8.73214285714289,
+  "price": 3885.51,
   "stance": "Strategy: the SELL plan from 00:57 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
-  "setups": [],
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3860.42,
+      "entry_high": 3860.62,
+      "sl": 3855.62,
+      "tp1": 3879.55,
+      "tp2": 3880.12,
+      "rr": 3.9,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-16T02:10:44.189738+00:00",
+      "checked_at": "2026-11-16T02:23:50.953079+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3900.28,
+      "entry_high": 3900.48,
+      "sl": 3905.28,
+      "tp1": 3880.78,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.64,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": true,
+      "status": "valid",
+      "reason": "Score 0.64 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
+      "created_at": "2026-11-16T02:10:44.189738+00:00",
+      "checked_at": "2026-11-16T02:23:50.953079+00:00"
+    }
+  ],
   "research": [
-    "Gold 3870.75 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3880.16, ATR 9.46, day range 3860.42-3900.48.",
-    "DXY 103.42 (+0.02% today, flat), gold-dollar corr -0.23.",
-    "WTI 88.34 (-0.16% today, flat), gold-oil corr -0.04.",
+    "Gold 3884.95 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3879.55, ATR 8.73, day range 3860.42-3900.48.",
+    "DXY 103.40 (+0.00% today, flat), gold-dollar corr -0.23.",
+    "WTI 88.23 (-0.28% today, flat), gold-oil corr -0.03.",
     "Headlines: dollar +1.00, oil -0.35.",
     "Dollar: Fed\u2019s Collins: Steady gradual path for rate hikes appropriate amid risks on both sides - FXStreet",
     "Oil: Oil falls on surplus as Brent, WTI down ~2.5% for week - Ticker News",
@@ -81,5 +120,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-16T02:09:08.808788+00:00"
+  "last_check": "2026-11-16T02:23:50.953079+00:00"
 }
