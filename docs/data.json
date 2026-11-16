@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-16 05:50 UTC",
+  "updated": "2026-11-16 06:05 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3835.73,
+  "price": 3851.73,
   "stance": "Strategy: the SELL plan from 05:21 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3835.73,
-      "entry_high": 3837.29,
-      "sl": 3832.29,
-      "tp1": 3853.39,
+      "entry_low": 3832.45,
+      "entry_high": 3833.22,
+      "sl": 3828.22,
+      "tp1": 3851.29,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.78,
+      "score": 0.5,
       "style": "range_fade",
       "favored": true,
       "ready": true,
       "status": "valid",
-      "reason": "Score 0.78 (Fade the session range), price below VWAP.",
-      "created_at": "2026-11-16T05:50:50.556197+00:00",
-      "checked_at": "2026-11-16T05:50:50.556197+00:00"
+      "reason": "Score 0.50 (Fade the session range), price below VWAP.",
+      "created_at": "2026-11-16T06:05:34.916239+00:00",
+      "checked_at": "2026-11-16T06:05:34.916239+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3898.92,
+      "entry_low": 3899.71,
       "entry_high": 3900.48,
-      "sl": 3903.92,
-      "tp1": 3882.82,
+      "sl": 3904.71,
+      "tp1": 3881.64,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.35,
+      "score": 0.33,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T05:50:50.556197+00:00"
+      "checked_at": "2026-11-16T06:05:34.916239+00:00"
     }
   ],
   "active": [],
@@ -49,39 +49,39 @@
     "structure": "sideways",
     "htf": "down",
     "session": "asia",
-    "vwap": 3875.479796325503,
-    "atr": 6.253571428571377,
-    "day_low": 3835.73,
+    "vwap": 3873.729242879668,
+    "atr": 7.689999999999957,
+    "day_low": 3832.45,
     "day_high": 3900.48,
-    "range_pos": 0.0
+    "range_pos": 0.2834043804204049
   },
   "dxy": {
     "ok": true,
-    "last": 103.37999725341797,
-    "pct": -0.020312881834956397,
+    "last": 103.4020004272461,
+    "pct": 0.0009665773775442382,
     "state": "flat",
-    "corr": -0.0745674548740583
+    "corr": -0.2764515403235076
   },
   "oil": {
     "ok": true,
-    "last": 88.37999725341797,
-    "pct": -0.11302678539940197,
+    "last": 88.66999816894531,
+    "pct": 0.21473192224605642,
     "state": "flat",
-    "corr": -0.18304069092246686
+    "corr": -0.16899720488548606
   },
   "news": {
-    "usd": 1.0,
-    "oil": -0.4465341924534846,
+    "usd": 0.8424819207716012,
+    "oil": -0.5423792710078943,
     "shock": false,
     "usd_headlines": [
       "Indonesian Rupiah struggles as US Dollar gains on hawkish Fed odds | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
       "Silver Falls Below $50: Hawkish Fed Bets, Rising Yields And Dollar Trigger Fresh Selloff - TradingView",
-      "Indonesian Rupiah struggles as US Dollar gains on hawkish Fed odds - FXStreet"
+      "U.S. Dollar Falls 0.1% Against Yen to 159.488 in Monday Trading - www.tokenpost.com"
     ],
     "oil_headlines": [
+      "Fuel price reduction update across Nigeria as crude oil falls - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
       "Fuel price reduction update across Nigeria as crude oil falls - Daily Post Nigeria",
-      "Crude Oil Gains After Trump Says The US No Longer Needs A Nuclear Deal With Iran By Kedia Advisory - Investing.com India",
-      "China's October Crude Oil Processing Falls 8.1% Year-on-Year; Inventory Build Hits Highest Since March - BigGo Finance"
+      "Crude Oil Gains After Trump Says The US No Longer Needs A Nuclear Deal With Iran By Kedia Advisory - Investing.com India"
     ]
   },
   "events": [
@@ -111,32 +111,32 @@
     {
       "style": "Fade the session range",
       "bias": "long",
-      "score": 0.7789306230485801,
-      "trust": 1.247413094202059
+      "score": 0.5033723784562841,
+      "trust": 1.2470622733336338
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3507787864834247,
+      "score": 0.3343177684979196,
       "trust": 0.9433233600896157
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.21532068769323343,
-      "trust": 0.6728771490413544
+      "score": 0.21532068769323345,
+      "trust": 0.6728771490413545
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.13451045729637337,
-      "trust": 1.120920477469778
+      "score": 0.13448988210714832,
+      "trust": 1.1207490175595693
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.0904938734285443,
-      "trust": 0.9049387342854429
+      "score": 0.09050735269725443,
+      "trust": 0.9050735269725443
     }
   ],
   "record": {
