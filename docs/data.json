@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-16 07:18 UTC",
+  "updated": "2026-11-16 07:33 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3854.71,
-  "stance": "Strategy: the SELL plan from 05:21 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3860.73,
+  "stance": "Strategy: wait. Two approaches want opposite trades and neither has a clear lead. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3834.0,
-      "sl": 3829.0,
-      "tp1": 3850.12,
+      "entry_high": 3834.27,
+      "sl": 3829.27,
+      "tp1": 3849.73,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -17,30 +17,30 @@
       "score": 0.51,
       "style": "trend_align",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "valid",
       "reason": "Score 0.51 (Trade with the intraday trend), price below VWAP.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T07:18:42.222308+00:00"
+      "checked_at": "2026-11-16T07:33:26.706661+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3898.93,
+      "entry_low": 3898.66,
       "entry_high": 3900.48,
-      "sl": 3903.93,
-      "tp1": 3882.81,
+      "sl": 3903.66,
+      "tp1": 3883.2,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.35,
+      "score": 0.63,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T07:18:42.222308+00:00"
+      "checked_at": "2026-11-16T07:33:26.706661+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "up",
     "htf": "down",
     "session": "london",
-    "vwap": 3869.7215979875027,
-    "atr": 6.267142857142842,
+    "vwap": 3869.3332506619754,
+    "atr": 5.7899999999999965,
     "day_low": 3832.45,
     "day_high": 3900.48,
-    "range_pos": 0.32720858444803985
+    "range_pos": 0.41569895634279164
   },
   "dxy": {
     "ok": true,
-    "last": 103.44000244140625,
-    "pct": 0.03771865308401638,
+    "last": 103.43699645996094,
+    "pct": 0.03481154249811997,
     "state": "flat",
-    "corr": -0.2609904392922655
+    "corr": -0.16004088330939797
   },
   "oil": {
     "ok": true,
-    "last": 89.0999984741211,
-    "pct": 0.7007177821709645,
+    "last": 89.12999725341797,
+    "pct": 0.7346223686975474,
     "state": "up",
-    "corr": -0.16399438904432326
+    "corr": -0.29515425745931606
   },
   "news": {
-    "usd": 0.8642019836908396,
-    "oil": -0.6443668716163304,
+    "usd": 0.889228802781805,
+    "oil": -0.6439796336784925,
     "shock": false,
     "usd_headlines": [
-      "Above 103.50: United States Dollar Index retains gains on hawkish Fed remarks - www.tmgm.com",
-      "Fed rate hike bets and lower oil prices weigh on Canadian Dollar against US Dollar - www.tmgm.com",
-      "Indonesian Rupiah struggles as US Dollar gains on hawkish Fed odds | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629"
+      "South African rand weakens as US dollar strengthens - Latest news from Azerbaijan",
+      "Silver prices crash by Rs 7,000; dollar strength, rate hike prospects weigh - Business Today",
+      "FTSE Russell Status Retention Cushions Rupiah Slide Toward Record Lows Amid Hawkish Fed Bets - InvestorTrust"
     ],
     "oil_headlines": [
       "Fuel price reduction update across Nigeria as crude oil falls - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
@@ -109,16 +109,16 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.5066321113068424,
-      "trust": 0.9992743812758231
-    },
-    {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.35410190625510535,
+      "score": 0.6250269490248039,
       "trust": 0.985826660489989
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.5066326330300771,
+      "trust": 0.999275410315734
     },
     {
       "style": "Stand aside",
@@ -135,15 +135,15 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09949149457325422,
-      "trust": 0.8290957881104519
+      "score": 0.09952057881528245,
+      "trust": 0.8293381567940205
     }
   ],
   "record": {
-    "graded": 122,
+    "graded": 123,
     "wins": 35,
     "losses": 63,
-    "scratches": 24,
-    "avg_r": -0.1168347571666409
+    "scratches": 25,
+    "avg_r": -0.11588488109211537
   }
 }
