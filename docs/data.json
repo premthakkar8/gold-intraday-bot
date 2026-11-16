@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-16 17:16 UTC",
+  "updated": "2026-11-16 17:30 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3866.32,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.36). Take an entry only if price reaches it.",
+  "price": 3867.37,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.33). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3835.58,
-      "sl": 3830.58,
-      "tp1": 3847.75,
+      "entry_high": 3835.52,
+      "sl": 3830.52,
+      "tp1": 3847.85,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T17:16:19.885002+00:00"
+      "checked_at": "2026-11-16T17:30:57.520356+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3897.35,
+      "entry_low": 3897.41,
       "entry_high": 3900.48,
-      "sl": 3902.35,
-      "tp1": 3885.18,
+      "sl": 3902.41,
+      "tp1": 3885.08,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.36,
+      "score": 0.33,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T17:16:19.885002+00:00"
+      "checked_at": "2026-11-16T17:30:57.520356+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "newyork",
-    "vwap": 3867.3936626908626,
-    "atr": 3.3992857142856923,
+    "vwap": 3867.4076295194986,
+    "atr": 3.5157142857142714,
     "day_low": 3832.45,
     "day_high": 3900.48,
-    "range_pos": 0.4978685873879207
+    "range_pos": 0.5133029545788619
   },
   "dxy": {
     "ok": true,
-    "last": 103.55899810791016,
-    "pct": 0.1528003886378903,
+    "last": 103.50599670410156,
+    "pct": 0.1015422738149909,
     "state": "up",
-    "corr": -0.43899842584362375
+    "corr": -0.41785911171545
   },
   "oil": {
     "ok": true,
-    "last": 86.37000274658203,
-    "pct": -2.3847203100113985,
+    "last": 86.31999969482422,
+    "pct": -2.4412337027110995,
     "state": "down",
-    "corr": -0.16684338432658136
+    "corr": -0.1295004870268721
   },
   "news": {
-    "usd": 0.6575055779506558,
-    "oil": -0.482973404935324,
+    "usd": 0.6414325114107696,
+    "oil": -0.33079406350794177,
     "shock": true,
     "usd_headlines": [
       "Euro slides to fresh 19-month low as hawkish Fed outlook dominates - FXStreet",
@@ -81,17 +81,10 @@
     "oil_headlines": [
       "Oil falls as recovering Middle East exports bolster surplus outlook - CNBC",
       "CHARTED: Oil Trade Through the Strait of Hormuz by Country \u2013 Visual Capitalist - EnergyNow.com",
-      "Fuel price reduction update across Nigeria as crude oil falls - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629"
+      "Oil falls as recovering Middle East exports bolster surplus outlook - Reuters"
     ]
   },
   "events": [
-    {
-      "title": "Fed Chairman Warsh Speaks",
-      "when": "Mon 17:00 UTC",
-      "impact": "High",
-      "forecast": "",
-      "previous": ""
-    },
     {
       "title": "Core Retail Sales m/m",
       "when": "Tue 13:30 UTC",
@@ -111,20 +104,20 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.48567448737730173,
-      "trust": 0.8672758703166101
+      "score": 0.43706144025726357,
+      "trust": 0.7804668576022563
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3636492867440541,
-      "trust": 0.9295592151234534
+      "score": 0.33358076953652205,
+      "trust": 0.9992873734559573
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.10909305598853482,
-      "trust": 0.9091087999044568
+      "score": 0.12059981171042858,
+      "trust": 1.0049984309202382
     },
     {
       "style": "Trade with the intraday trend",
