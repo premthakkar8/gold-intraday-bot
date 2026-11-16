@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-16 22:01 UTC",
+  "updated": "2026-11-16 22:16 UTC",
   "symbol": "VANTAGE:XAUUSD",
   "price": 3855.96,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.26). Take an entry only if price reaches it.",
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.19). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
@@ -14,14 +14,14 @@
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.26,
+      "score": 0.0,
       "style": "range_fade",
-      "favored": true,
+      "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T22:01:24.457450+00:00"
+      "checked_at": "2026-11-16T22:16:11.065351+00:00"
     },
     {
       "side": "SELL",
@@ -33,14 +33,14 @@
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.22,
+      "score": 0.19,
       "style": "dollar_lead",
-      "favored": false,
+      "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T22:01:24.457450+00:00"
+      "checked_at": "2026-11-16T22:16:11.065351+00:00"
     }
   ],
   "active": [],
@@ -57,24 +57,32 @@
   },
   "dxy": {
     "ok": true,
-    "last": 103.58100128173828,
-    "pct": 0.17407984785039093,
+    "last": 103.5739974975586,
+    "pct": 0.16730642775431756,
     "state": "up",
-    "corr": -0.3912206908975874
+    "corr": -0.3998009637194433
   },
   "oil": {
     "ok": true,
-    "last": 85.12000274658203,
-    "pct": -3.797468900172981,
+    "last": 85.05999755859375,
+    "pct": -3.8652866959592407,
     "state": "down",
-    "corr": 0.30206290568298594
+    "corr": 0.29505113886119155
   },
   "news": {
-    "usd": 0.0,
-    "oil": 0.0,
-    "shock": false,
-    "usd_headlines": [],
-    "oil_headlines": []
+    "usd": 0.5102596067812764,
+    "oil": -0.651914830080545,
+    "shock": true,
+    "usd_headlines": [
+      "Fed's Hammack reiterates case for slow, steady rate hikes -Bloomberg TV - Reuters",
+      "Treasury Yields Fall, German Bunds\u2019 Tick Higher - WSJ",
+      "US Dollar Rallies as Fed Rate Risks Pressure Global Markets - FXEmpire"
+    ],
+    "oil_headlines": [
+      "Canadian Financial Close: Loonie weakens, crude oil falls - Grainews",
+      "Oil falls as recovering Middle East exports bolster surplus outlook - CNBC",
+      "China's October Crude Oil Processing Falls 8.1% Year-on-Year; Inventory Build Hits Highest Since March - BigGo Finance"
+    ]
   },
   "events": [
     {
@@ -94,34 +102,34 @@
   ],
   "scorecard": [
     {
-      "style": "Fade the session range",
-      "bias": "long",
-      "score": 0.25962180455712136,
-      "trust": 1.087047984383729
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.4313631663966916,
+      "trust": 0.7702913685655206
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2204093039777049,
-      "trust": 1.0
-    },
-    {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.13667659005339436,
-      "trust": 0.6212572275154289
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.12,
-      "trust": 1.0
+      "score": 0.1877196986974916,
+      "trust": 0.9154832700915354
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.09164378394857908,
+      "trust": 0.7636981995714924
     }
   ],
   "record": {
