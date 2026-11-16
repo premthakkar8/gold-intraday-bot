@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-16T11:08:28.536904+00:00",
-  "atr": 3.6778571428572246,
-  "price": 3874.24,
+  "updated_at": "2026-11-16T11:23:11.679611+00:00",
+  "atr": 3.1792857142857947,
+  "price": 3874.01,
   "stance": "Strategy: the SELL plan from 10:09 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3835.43,
-      "sl": 3830.43,
-      "tp1": 3847.98,
+      "entry_high": 3835.7,
+      "sl": 3830.7,
+      "tp1": 3847.57,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T11:21:35.654670+00:00"
+      "checked_at": "2026-11-16T11:36:23.438494+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3897.5,
+      "entry_low": 3897.23,
       "entry_high": 3900.48,
-      "sl": 3902.5,
-      "tp1": 3884.95,
+      "sl": 3902.23,
+      "tp1": 3885.36,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,13 +40,13 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T11:21:35.654670+00:00"
+      "checked_at": "2026-11-16T11:36:23.438494+00:00"
     }
   ],
   "research": [
-    "Gold 3872.01 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3866.73, ATR 3.68, day range 3832.45-3900.48.",
-    "DXY 103.55 (+0.15% today, up), gold-dollar corr -0.37.",
-    "WTI 88.45 (-0.03% today, flat), gold-oil corr -0.43.",
+    "Gold 3875.48 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3866.86, ATR 3.18, day range 3832.45-3900.48.",
+    "DXY 103.54 (+0.14% today, up), gold-dollar corr -0.39.",
+    "WTI 88.28 (-0.23% today, flat), gold-oil corr -0.44.",
     "Headlines: dollar +0.82, oil -0.69.",
     "Dollar: Philippine peso weakens against U.S. dollar as Fed rate hike bets build - Traders Union",
     "Oil: Fuel price reduction update across Nigeria as crude oil falls - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
@@ -142,5 +142,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-16T11:21:35.654670+00:00"
+  "last_check": "2026-11-16T11:36:23.438494+00:00"
 }
