@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-16 04:22 UTC",
+  "updated": "2026-11-16 04:36 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3870.31,
+  "price": 3872.87,
   "stance": "Strategy: the BUY plan from 03:09 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3860.42,
-      "entry_high": 3863.11,
-      "sl": 3858.11,
-      "tp1": 3876.38,
+      "entry_high": 3863.3,
+      "sl": 3858.3,
+      "tp1": 3876.09,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.64,
+      "score": 0.56,
       "style": "range_fade",
       "favored": true,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T04:22:18.819938+00:00"
+      "checked_at": "2026-11-16T04:36:50.572155+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3897.79,
+      "entry_low": 3897.6,
       "entry_high": 3900.48,
-      "sl": 3902.79,
-      "tp1": 3884.52,
+      "sl": 3902.6,
+      "tp1": 3884.81,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T04:22:18.819938+00:00"
+      "checked_at": "2026-11-16T04:36:50.572155+00:00"
     }
   ],
   "active": [],
@@ -49,39 +49,39 @@
     "structure": "sideways",
     "htf": "down",
     "session": "asia",
-    "vwap": 3877.5172635712456,
-    "atr": 4.1971428571429055,
+    "vwap": 3877.3408705432535,
+    "atr": 3.847142857142931,
     "day_low": 3860.42,
     "day_high": 3900.48,
-    "range_pos": 0.24687968047927825
+    "range_pos": 0.31078382426360046
   },
   "dxy": {
     "ok": true,
-    "last": 103.44400024414062,
-    "pct": 0.041584962594193337,
+    "last": 103.4749984741211,
+    "pct": 0.07156361820459212,
     "state": "flat",
-    "corr": -0.1199442526089482
+    "corr": -0.10230107932115051
   },
   "oil": {
     "ok": true,
-    "last": 88.41999816894531,
-    "pct": -0.06781779578626004,
+    "last": 88.3499984741211,
+    "pct": -0.14693137192598488,
     "state": "flat",
-    "corr": 0.024451231112990347
+    "corr": 0.004965515989322469
   },
   "news": {
     "usd": 1.0,
-    "oil": -0.6435989718756983,
+    "oil": -0.7607825619219499,
     "shock": false,
     "usd_headlines": [
+      "United States Dollar Index holds gains above 103.50 on hawkish Fed comments | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
       "United States Dollar Index holds gains above 103.50 on hawkish Fed comments - FXStreet",
-      "Ringgit opens almost flat against US dollar amid hawkish Fed outlook - The Malaysian Reserve",
-      "Ringgit opens almost flat against US dollar amid hawkish Fed outlook - Newswav"
+      "Ringgit opens almost flat against US dollar amid hawkish Fed outlook - The Malaysian Reserve"
     ],
     "oil_headlines": [
+      "China's October Crude Oil Processing Falls 8.1% Year-on-Year; Inventory Build Hits Highest Since March - BigGo Finance",
       "Crude Oil Falls as Global Supply Surplus Fears Intensify - HDFC Sky",
-      "Oil falls on surplus as Brent, WTI down ~2.5% for week - Ticker News",
-      "CHARTED: Oil Trade Through the Strait of Hormuz by Country \u2013 Visual Capitalist - EnergyNow.com"
+      "Oil falls on surplus as Brent, WTI down ~2.5% for week - Ticker News"
     ]
   },
   "events": [
@@ -111,32 +111,32 @@
     {
       "style": "Fade the session range",
       "bias": "long",
-      "score": 0.6418616723241769,
-      "trust": 1.2495307379361464
+      "score": 0.5589619427789029,
+      "trust": 1.249181955079702
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3590187476954809,
+      "score": 0.35581492832509687,
       "trust": 0.9433233600896157
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.2153206876932334,
-      "trust": 0.6728771490413543
+      "score": 0.21532068769323343,
+      "trust": 0.6728771490413544
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.13463465435664423,
-      "trust": 1.1219554529720352
+      "score": 0.13461419869418034,
+      "trust": 1.1217849891181695
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.09041250914410975,
-      "trust": 0.9041250914410974
+      "score": 0.09042591010815333,
+      "trust": 0.9042591010815333
     }
   ],
   "record": {
