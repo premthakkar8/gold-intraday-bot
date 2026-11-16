@@ -933,3 +933,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-16 07:48 UTC  live: gold 3856.83 | graded: 4481ba8e stand aside -> loss (-1.00R) | opened short dollar_lead 70bd8934 zone 3898.40-3900.48 stop 3903.40 target 3883.60 units 1 risk 5.00 USD tier normal conf 0.70
 2026-11-16 08:02 UTC  live: gold 3855.23 | holding short dollar_lead 70bd8934 | new read long range_fade not opened
 2026-11-16 08:05 UTC  live: BUY now expired: Signal is 120 minutes old without an entry. Waiting for a fresh one.
+2026-11-16 08:17 UTC  live: gold 3860.42 | holding short dollar_lead 70bd8934 | new read short dollar_lead not opened
