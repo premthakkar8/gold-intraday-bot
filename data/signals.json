@@ -1,54 +1,54 @@
 {
-  "updated_at": "2026-11-16T09:25:21.025541+00:00",
-  "atr": 3.879285714285678,
-  "price": 3856.12,
+  "updated_at": "2026-11-16T09:40:08.645507+00:00",
+  "atr": 3.7028571428571206,
+  "price": 3852.68,
   "stance": "Strategy: the SELL plan from 07:48 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3835.32,
-      "sl": 3830.32,
-      "tp1": 3848.15,
+      "entry_high": 3835.41,
+      "sl": 3830.41,
+      "tp1": 3848.0,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.11,
+      "score": 0.51,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T09:38:29.809417+00:00"
+      "checked_at": "2026-11-16T09:53:16.371815+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3897.61,
+      "entry_low": 3897.52,
       "entry_high": 3900.48,
-      "sl": 3902.61,
-      "tp1": 3884.78,
+      "sl": 3902.52,
+      "tp1": 3884.93,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.62,
+      "score": 0.68,
       "style": "dollar_lead",
       "favored": true,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T09:38:29.809417+00:00"
+      "checked_at": "2026-11-16T09:53:16.371815+00:00"
     }
   ],
   "research": [
-    "Gold 3861.01 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3867.42, ATR 3.88, day range 3832.45-3900.48.",
-    "DXY 103.38 (-0.02% today, flat), gold-dollar corr -0.28.",
-    "WTI 88.42 (-0.07% today, flat), gold-oil corr -0.29.",
-    "Headlines: dollar +0.83, oil -0.64.",
-    "Dollar: Treasury yields fall as investors await comments from Fed Chairman Warsh - CNBC",
+    "Gold 3856.53 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3867.21, ATR 3.70, day range 3832.45-3900.48.",
+    "DXY 103.45 (+0.05% today, flat), gold-dollar corr -0.32.",
+    "WTI 88.07 (-0.46% today, down), gold-oil corr -0.29.",
+    "Headlines: dollar +0.87, oil -0.64.",
+    "Dollar: US dollar extends rally to 5th straight session on Fed rate hike bets - Anadolu Ajans\u0131",
     "Oil: Fuel price reduction update across Nigeria as crude oil falls - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
     "Next high-impact US release: Fed Chairman Warsh Speaks Mon 17:00 UTC."
   ],
@@ -142,5 +142,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-16T09:38:29.809417+00:00"
+  "last_check": "2026-11-16T09:53:16.371815+00:00"
 }
