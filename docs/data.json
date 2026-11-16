@@ -1,77 +1,77 @@
 {
-  "updated": "2026-11-16 04:07 UTC",
+  "updated": "2026-11-16 04:22 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3871.91,
+  "price": 3870.31,
   "stance": "Strategy: the BUY plan from 03:09 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3860.42,
-      "entry_high": 3862.99,
-      "sl": 3857.99,
-      "tp1": 3876.56,
+      "entry_high": 3863.11,
+      "sl": 3858.11,
+      "tp1": 3876.38,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
+      "score": 0.64,
       "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
+      "favored": true,
+      "ready": true,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T04:07:43.497667+00:00"
+      "checked_at": "2026-11-16T04:22:18.819938+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3897.91,
+      "entry_low": 3897.79,
       "entry_high": 3900.48,
-      "sl": 3902.91,
-      "tp1": 3884.34,
+      "sl": 3902.79,
+      "tp1": 3884.52,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.42,
-      "style": "trend_align",
-      "favored": true,
+      "score": 0.36,
+      "style": "dollar_lead",
+      "favored": false,
       "ready": false,
-      "status": "valid",
-      "reason": "Score 0.42 (Trade with the intraday trend), hawkish dollar news +1.00.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T04:07:43.497667+00:00"
+      "checked_at": "2026-11-16T04:22:18.819938+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "down",
     "session": "asia",
-    "vwap": 3877.775435632224,
-    "atr": 4.410000000000049,
+    "vwap": 3877.5172635712456,
+    "atr": 4.1971428571429055,
     "day_low": 3860.42,
     "day_high": 3900.48,
-    "range_pos": 0.2868197703444782
+    "range_pos": 0.24687968047927825
   },
   "dxy": {
     "ok": true,
-    "last": 103.447998046875,
-    "pct": 0.04545127210437029,
+    "last": 103.44400024414062,
+    "pct": 0.041584962594193337,
     "state": "flat",
-    "corr": -0.09330765053023485
+    "corr": -0.1199442526089482
   },
   "oil": {
     "ok": true,
-    "last": 88.18000030517578,
-    "pct": -0.33906311073201745,
+    "last": 88.41999816894531,
+    "pct": -0.06781779578626004,
     "state": "flat",
-    "corr": -0.021756500117331212
+    "corr": 0.024451231112990347
   },
   "news": {
     "usd": 1.0,
-    "oil": -0.29927009824744705,
+    "oil": -0.6435989718756983,
     "shock": false,
     "usd_headlines": [
       "United States Dollar Index holds gains above 103.50 on hawkish Fed comments - FXStreet",
@@ -79,6 +79,7 @@
       "Ringgit opens almost flat against US dollar amid hawkish Fed outlook - Newswav"
     ],
     "oil_headlines": [
+      "Crude Oil Falls as Global Supply Surplus Fears Intensify - HDFC Sky",
       "Oil falls on surplus as Brent, WTI down ~2.5% for week - Ticker News",
       "CHARTED: Oil Trade Through the Strait of Hormuz by Country \u2013 Visual Capitalist - EnergyNow.com"
     ]
@@ -108,34 +109,34 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.41775735784280793,
-      "trust": 0.9042367052874629
+      "style": "Fade the session range",
+      "bias": "long",
+      "score": 0.6418616723241769,
+      "trust": 1.2495307379361464
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3085338021659667,
-      "trust": 0.8217450235006922
+      "score": 0.3590187476954809,
+      "trust": 0.9433233600896157
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.16156022793801447,
-      "trust": 0.5048757123062952
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.11533543772631086,
-      "trust": 1.1533543772631085
+      "score": 0.2153206876932334,
+      "trust": 0.6728771490413543
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.08,
-      "trust": 1.0
+      "score": 0.13463465435664423,
+      "trust": 1.1219554529720352
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.09041250914410975,
+      "trust": 0.9041250914410974
     }
   ],
   "record": {
