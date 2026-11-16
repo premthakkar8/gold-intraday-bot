@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-16T01:12:02.003758+00:00",
-  "atr": 7.58785714285708,
-  "price": 3871.53,
+  "updated_at": "2026-11-16T01:26:42.747852+00:00",
+  "atr": 8.212857142857079,
+  "price": 3870.72,
   "stance": "Strategy: the SELL plan from 00:57 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3860.42,
-      "entry_high": 3861.25,
-      "sl": 3856.25,
-      "tp1": 3879.18,
+      "entry_high": 3860.9,
+      "sl": 3855.9,
+      "tp1": 3879.7,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,16 +21,16 @@
       "status": "invalid",
       "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-16T01:12:02.003758+00:00",
-      "checked_at": "2026-11-16T01:25:08.558766+00:00"
+      "checked_at": "2026-11-16T01:39:49.178871+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3899.65,
+      "entry_low": 3900.0,
       "entry_high": 3900.48,
-      "sl": 3904.65,
-      "tp1": 3886.06,
-      "tp2": 3881.72,
-      "rr": 3.1,
+      "sl": 3905.0,
+      "tp1": 3882.84,
+      "tp2": 3881.2,
+      "rr": 3.7,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.42,
@@ -40,14 +40,14 @@
       "status": "valid",
       "reason": "Score 0.42 (Trade with the intraday trend), hawkish dollar news +1.00.",
       "created_at": "2026-11-15T23:57:49.086553+00:00",
-      "checked_at": "2026-11-16T01:25:08.558766+00:00"
+      "checked_at": "2026-11-16T01:39:49.178871+00:00"
     }
   ],
   "research": [
-    "Gold 3871.02 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3886.06, ATR 7.59, day range 3860.42-3900.48.",
-    "DXY 103.42 (+0.02% today, flat), gold-dollar corr -0.17.",
-    "WTI 88.40 (-0.09% today, flat), gold-oil corr -0.18.",
-    "Headlines: dollar +1.00, oil -0.38.",
+    "Gold 3872.83 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3882.84, ATR 8.21, day range 3860.42-3900.48.",
+    "DXY 103.43 (+0.03% today, flat), gold-dollar corr -0.15.",
+    "WTI 88.23 (-0.28% today, flat), gold-oil corr -0.02.",
+    "Headlines: dollar +1.00, oil -0.37.",
     "Dollar: Silver Price Forecast: Silver Slides Below $50 as Treasury Yields Jump - FXEmpire",
     "Oil: Oil falls on surplus as Brent, WTI down ~2.5% for week - Ticker News",
     "Next high-impact US release: Fed Chairman Warsh Speaks Mon 17:00 UTC."
@@ -120,5 +120,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-16T01:25:08.558766+00:00"
+  "last_check": "2026-11-16T01:39:49.178871+00:00"
 }
