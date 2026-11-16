@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-16 18:00 UTC",
+  "updated": "2026-11-16 18:14 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3855.34,
+  "price": 3844.65,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.20). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3835.41,
-      "sl": 3830.41,
-      "tp1": 3848.01,
+      "entry_high": 3835.26,
+      "sl": 3830.26,
+      "tp1": 3848.23,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T18:00:12.501210+00:00"
+      "checked_at": "2026-11-16T18:14:54.981071+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3897.52,
+      "entry_low": 3897.67,
       "entry_high": 3900.48,
-      "sl": 3902.52,
-      "tp1": 3884.92,
+      "sl": 3902.67,
+      "tp1": 3884.7,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T18:00:12.501210+00:00"
+      "checked_at": "2026-11-16T18:14:54.981071+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "newyork",
-    "vwap": 3867.241916107402,
-    "atr": 3.7128571428571115,
+    "vwap": 3866.9372803373512,
+    "atr": 3.976428571428479,
     "day_low": 3832.45,
     "day_high": 3900.48,
-    "range_pos": 0.33646920476260855
+    "range_pos": 0.17933264736146165
   },
   "dxy": {
     "ok": true,
-    "last": 103.53800201416016,
-    "pct": 0.13249488525619763,
+    "last": 103.55999755859375,
+    "pct": 0.15376696601543455,
     "state": "up",
-    "corr": -0.3577619666465405
+    "corr": -0.4142789262482523
   },
   "oil": {
     "ok": true,
-    "last": 86.12000274658203,
-    "pct": -2.667270028043715,
+    "last": 86.01000213623047,
+    "pct": -2.7915925937965818,
     "state": "down",
-    "corr": -0.07209429837651073
+    "corr": -0.09017545337429443
   },
   "news": {
-    "usd": 0.7253020585490368,
-    "oil": -0.3386615946791599,
+    "usd": 0.7274845914548146,
+    "oil": -0.4312285001427445,
     "shock": true,
     "usd_headlines": [
       "Federal Reserve considers AI\u2019s impact on economy, potential rate hikes - Crypto Briefing",
@@ -104,20 +104,20 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4370614402572635,
-      "trust": 0.7804668576022562
+      "score": 0.48567448737730173,
+      "trust": 0.8672758703166101
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.19811802526959885,
-      "trust": 0.9992893773039556
+      "score": 0.20253274061796325,
+      "trust": 0.9295592151234535
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.12059812508858528,
-      "trust": 1.0049843757382106
+      "score": 0.10915439797879348,
+      "trust": 0.9096199831566123
     },
     {
       "style": "Trade with the intraday trend",
