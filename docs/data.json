@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-16 00:13 UTC",
+  "updated": "2026-11-16 00:28 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3890.82,
+  "price": 3890.41,
   "stance": "Strategy: the SELL plan from 23:57 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3865.81,
-      "entry_high": 3868.21,
-      "sl": 3863.21,
-      "tp1": 3881.25,
-      "tp2": 3882.21,
-      "rr": 3.7,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.23,
-      "style": "trend_align",
-      "favored": false,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.23. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-15T23:43:11.642882+00:00",
-      "checked_at": "2026-11-16T00:13:28.089262+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3898.85,
-      "entry_high": 3901.25,
-      "sl": 3903.85,
-      "tp1": 3884.85,
+      "entry_high": 3868.48,
+      "sl": 3863.48,
+      "tp1": 3881.68,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.55,
-      "style": "dollar_lead",
+      "score": 0.68,
+      "style": "trend_align",
       "favored": true,
       "ready": true,
       "status": "valid",
-      "reason": "Score 0.55 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
+      "reason": "Score 0.68 (Trade with the intraday trend).",
+      "created_at": "2026-11-15T23:43:11.642882+00:00",
+      "checked_at": "2026-11-16T00:28:05.409882+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3898.58,
+      "entry_high": 3901.25,
+      "sl": 3903.58,
+      "tp1": 3885.26,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.54,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.54 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
       "created_at": "2026-11-15T23:57:49.086553+00:00",
-      "checked_at": "2026-11-16T00:13:28.089262+00:00"
+      "checked_at": "2026-11-16T00:28:05.409882+00:00"
     }
   ],
   "active": [
@@ -72,29 +72,29 @@
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3881.2527108075506,
-    "atr": 4.72714285714291,
+    "vwap": 3881.680838929272,
+    "atr": 4.229285714285782,
     "day_low": 3865.81,
     "day_high": 3901.25,
-    "range_pos": 0.7056997742663708
+    "range_pos": 0.694130925507897
   },
   "dxy": {
     "ok": true,
-    "last": 103.4000015258789,
-    "pct": -0.0028996760774067424,
+    "last": 103.38400268554688,
+    "pct": -0.016439193871515746,
     "state": "flat",
-    "corr": -0.20396024756636305
+    "corr": -0.15097560187391085
   },
   "oil": {
     "ok": true,
-    "last": 88.47000122070312,
-    "pct": -0.4612916802256955,
-    "state": "down",
-    "corr": 0.0819577610618489
+    "last": 88.62999725341797,
+    "pct": 0.16952293263291449,
+    "state": "flat",
+    "corr": 0.03535155026808211
   },
   "news": {
     "usd": 1.0,
-    "oil": -0.36652046515946374,
+    "oil": -0.3748821046488062,
     "shock": false,
     "usd_headlines": [
       "U.S., Eurozone Bond Yields Rise - WSJ",
@@ -116,34 +116,34 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.5472608217728105,
-      "trust": 0.7586240321261891
-    },
-    {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.22861271604353445,
-      "trust": 0.901800534415809
+      "score": 0.678081638791083,
+      "trust": 0.8693354343475422
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.5350228936610385,
+      "trust": 0.7612284186561398
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.2000322009569376,
-      "trust": 0.62510062799043
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.10987286740807588,
-      "trust": 1.0987286740807587
+      "score": 0.21849676762152115,
+      "trust": 0.6828023988172536
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.10412418698359632,
-      "trust": 0.8677015581966361
+      "score": 0.1047554699640498,
+      "trust": 0.872962249700415
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
     }
   ],
   "record": {
