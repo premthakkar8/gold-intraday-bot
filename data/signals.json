@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-16T10:09:27.322393+00:00",
-  "atr": 3.8964285714285842,
-  "price": 3860.92,
-  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 50%).",
+  "updated_at": "2026-11-16T10:24:13.497412+00:00",
+  "atr": 3.8000000000000194,
+  "price": 3863.26,
+  "stance": "Strategy: the SELL plan from 10:09 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3835.31,
-      "sl": 3830.31,
-      "tp1": 3848.16,
+      "entry_high": 3835.36,
+      "sl": 3830.36,
+      "tp1": 3848.09,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,34 +21,34 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T10:22:33.772152+00:00"
+      "checked_at": "2026-11-16T10:37:21.675673+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3897.62,
+      "entry_low": 3897.57,
       "entry_high": 3900.48,
-      "sl": 3902.62,
-      "tp1": 3884.77,
+      "sl": 3902.57,
+      "tp1": 3884.84,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.5,
+      "score": 0.46,
       "style": "dollar_lead",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T10:22:33.772152+00:00"
+      "checked_at": "2026-11-16T10:37:21.675673+00:00"
     }
   ],
   "research": [
-    "Gold 3862.54 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3866.76, ATR 3.90, day range 3832.45-3900.48.",
-    "DXY 103.50 (+0.10% today, up), gold-dollar corr -0.38.",
-    "WTI 88.46 (-0.02% today, flat), gold-oil corr -0.26.",
-    "Headlines: dollar +0.85, oil -0.64.",
-    "Dollar: Rupiah Slides to Rp18,268 per USD as Fed Signals More Rate Hikes - Tempo.co English",
+    "Gold 3863.14 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3866.68, ATR 3.80, day range 3832.45-3900.48.",
+    "DXY 103.50 (+0.09% today, up), gold-dollar corr -0.40.",
+    "WTI 88.49 (+0.01% today, flat), gold-oil corr -0.36.",
+    "Headlines: dollar +0.66, oil -0.69.",
+    "Dollar: Treasury Yields Fall, Eurozone Bond Yields Seek Direction -- Update - marketscreener.com",
     "Oil: Fuel price reduction update across Nigeria as crude oil falls - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
     "Next high-impact US release: Fed Chairman Warsh Speaks Mon 17:00 UTC."
   ],
@@ -142,5 +142,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-16T10:22:33.772152+00:00"
+  "last_check": "2026-11-16T10:37:21.675673+00:00"
 }
