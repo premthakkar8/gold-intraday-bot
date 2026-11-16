@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-16T20:06:36.562765+00:00",
-  "atr": 3.092857142857091,
-  "price": 3860.96,
+  "updated_at": "2026-11-16T20:21:15.593554+00:00",
+  "atr": 2.964999999999983,
+  "price": 3856.9,
   "stance": "Strategy: the SELL plan from 18:44 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3835.75,
-      "sl": 3830.75,
-      "tp1": 3847.5,
+      "entry_high": 3835.82,
+      "sl": 3830.82,
+      "tp1": 3847.4,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,36 +21,36 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T20:19:43.168212+00:00"
+      "checked_at": "2026-11-16T20:34:23.096205+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3897.18,
+      "entry_low": 3897.11,
       "entry_high": 3900.48,
-      "sl": 3902.18,
-      "tp1": 3885.43,
+      "sl": 3902.11,
+      "tp1": 3885.53,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.34,
+      "score": 0.33,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T20:19:43.168212+00:00"
+      "checked_at": "2026-11-16T20:34:23.096205+00:00"
     }
   ],
   "research": [
-    "Gold 3864.40 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3865.95, ATR 3.09, day range 3832.45-3900.48.",
-    "DXY 103.54 (+0.13% today, up), gold-dollar corr -0.37.",
-    "WTI 85.63 (-3.22% today, down), gold-oil corr +0.37.",
-    "Headlines: dollar +0.00, oil +0.00.",
-    "Oil: CHARTED: Oil Trade Through the Strait of Hormuz by Country \u2013 Visual Capitalist - EnergyNow.com",
+    "Gold 3859.42 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3865.90, ATR 2.96, day range 3832.45-3900.48.",
+    "DXY 103.54 (+0.14% today, up), gold-dollar corr -0.33.",
+    "WTI 85.57 (-3.29% today, down), gold-oil corr +0.35.",
+    "Headlines: dollar +0.00, oil -0.33.",
+    "Oil: Crude Oil Falls as Global Supply Surplus Fears Intensify - HDFC Sky",
     "Next high-impact US release: Core Retail Sales m/m Tue 13:30 UTC."
   ],
   "active": [],
-  "last_check": "2026-11-16T20:19:43.168212+00:00"
+  "last_check": "2026-11-16T20:34:23.096205+00:00"
 }

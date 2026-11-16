@@ -978,3 +978,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-16 18:44 UTC  live: gold 3848.54 | opened short trend_align fdaf9068 zone 3897.86-3900.48 stop 3902.86 target 3884.41 units 1 risk 5.00 USD tier normal conf 0.51
 2026-11-16 19:52 UTC  live: gold 3863.80 | holding short trend_align fdaf9068 | new read long trend_align not opened
 2026-11-16 20:06 UTC  live: gold 3864.40 | holding short trend_align fdaf9068 | new read flat stand_aside not opened
+2026-11-16 20:21 UTC  live: gold 3859.42 | holding short trend_align fdaf9068 | new read flat stand_aside not opened
