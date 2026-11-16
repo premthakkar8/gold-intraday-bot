@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-16 20:21 UTC",
+  "updated": "2026-11-16 20:36 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3859.42,
+  "price": 3855.28,
   "stance": "Strategy: the SELL plan from 18:44 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3835.82,
-      "sl": 3830.82,
-      "tp1": 3847.4,
+      "entry_high": 3835.98,
+      "sl": 3830.98,
+      "tp1": 3847.16,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
+      "score": 0.21,
       "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T20:21:15.593554+00:00"
+      "checked_at": "2026-11-16T20:36:02.264053+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3897.11,
+      "entry_low": 3896.95,
       "entry_high": 3900.48,
-      "sl": 3902.11,
-      "tp1": 3885.53,
+      "sl": 3901.95,
+      "tp1": 3885.77,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.33,
+      "score": 0.26,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T20:21:15.593554+00:00"
+      "checked_at": "2026-11-16T20:36:02.264053+00:00"
     }
   ],
   "active": [],
@@ -49,31 +49,35 @@
     "structure": "sideways",
     "htf": "up",
     "session": "newyork",
-    "vwap": 3865.9038963542807,
-    "atr": 2.964999999999983,
+    "vwap": 3865.807199895758,
+    "atr": 2.681428571428569,
     "day_low": 3832.45,
     "day_high": 3900.48,
-    "range_pos": 0.39644274584742284
+    "range_pos": 0.3355872409231268
   },
   "dxy": {
     "ok": true,
-    "last": 103.54499816894531,
-    "pct": 0.13926092689900726,
+    "last": 103.5510025024414,
+    "pct": 0.1450677696175364,
     "state": "up",
-    "corr": -0.32814582171026363
+    "corr": -0.3315573511405492
   },
   "oil": {
     "ok": true,
-    "last": 85.56999969482422,
-    "pct": -3.2888828568080486,
+    "last": 85.54000091552734,
+    "pct": -3.3227874433346316,
     "state": "down",
-    "corr": 0.349380302603726
+    "corr": 0.3413124592873449
   },
   "news": {
-    "usd": 0.0,
+    "usd": 0.6436071762393888,
     "oil": -0.33333333333333337,
     "shock": false,
-    "usd_headlines": [],
+    "usd_headlines": [
+      "Fed's Hammack reiterates case for slow, steady rate hikes -Bloomberg TV - Reuters",
+      "Treasury Yields Fall, German Bunds' Tick Higher -- 2nd Update - marketscreener.com",
+      "US Dollar Rallies as Fed Rate Risks Pressure Global Markets - FXEmpire"
+    ],
     "oil_headlines": [
       "Crude Oil Falls as Global Supply Surplus Fears Intensify - HDFC Sky",
       "China's October Crude Oil Processing Falls 8.1% Year-on-Year; Inventory Build Hits Highest Since March - BigGo Finance",
@@ -100,26 +104,26 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.33390080075445877,
+      "score": 0.25902376211540723,
+      "trust": 0.9992999583319712
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "long",
+      "score": 0.2084542848743183,
       "trust": 1.0
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.1609458771560694,
-      "trust": 0.7315721688912246
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.16,
-      "trust": 1.0
+      "score": 0.17170270867249637,
+      "trust": 0.7804668576022562
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.13342519305492856,
-      "trust": 1.1118766087910714
+      "score": 0.12058921912715966,
+      "trust": 1.0049101593929972
     },
     {
       "style": "Trade with the intraday trend",
