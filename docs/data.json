@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-16 08:17 UTC",
+  "updated": "2026-11-16 08:32 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3860.42,
+  "price": 3856.55,
   "stance": "Strategy: the SELL plan from 07:48 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3834.81,
-      "sl": 3829.81,
-      "tp1": 3848.92,
+      "entry_high": 3834.79,
+      "sl": 3829.79,
+      "tp1": 3848.94,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
+      "score": 0.38,
       "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T08:17:35.059305+00:00"
+      "checked_at": "2026-11-16T08:32:18.702258+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3898.12,
+      "entry_low": 3898.14,
       "entry_high": 3900.48,
-      "sl": 3903.12,
-      "tp1": 3884.01,
+      "sl": 3903.14,
+      "tp1": 3883.99,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.73,
+      "score": 0.71,
       "style": "dollar_lead",
       "favored": true,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T08:17:35.059305+00:00"
+      "checked_at": "2026-11-16T08:32:18.702258+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "down",
     "session": "london",
-    "vwap": 3868.2944540195444,
-    "atr": 4.808571428571407,
+    "vwap": 3868.028225869328,
+    "atr": 4.8335714285714335,
     "day_low": 3832.45,
     "day_high": 3900.48,
-    "range_pos": 0.4111421431721325
+    "range_pos": 0.35425547552550773
   },
   "dxy": {
     "ok": true,
-    "last": 103.46199798583984,
-    "pct": 0.05899073384325332,
+    "last": 103.46399688720703,
+    "pct": 0.060923888598341795,
     "state": "flat",
-    "corr": -0.2582679211636427
+    "corr": -0.2569604359892104
   },
   "oil": {
     "ok": true,
-    "last": 88.94000244140625,
-    "pct": 0.519890446451491,
+    "last": 89.08000183105469,
+    "pct": 0.6781175987309407,
     "state": "up",
-    "corr": -0.2685942040092975
+    "corr": -0.26263464532109054
   },
   "news": {
-    "usd": 0.8822303786996322,
-    "oil": -0.642735320154457,
+    "usd": 0.8609442844384855,
+    "oil": -0.6422892106195726,
     "shock": false,
     "usd_headlines": [
       "South African rand weakens as US dollar strengthens - Latest news from Azerbaijan",
@@ -111,20 +111,20 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.7305369228332985,
+      "score": 0.7148073292663507,
       "trust": 1.1004655500979035
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "long",
+      "score": 0.37989385816551346,
+      "trust": 1.0
     },
     {
       "style": "Stand aside",
       "bias": "flat",
       "score": 0.2378901337583441,
       "trust": 0.7434066679948254
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.16,
-      "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
@@ -135,8 +135,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.08399397640502854,
-      "trust": 0.6999498033752378
+      "score": 0.08404498999143585,
+      "trust": 0.7003749165952988
     }
   ],
   "record": {
