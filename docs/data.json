@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-16 11:52 UTC",
+  "updated": "2026-11-16 12:07 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3874.58,
+  "price": 3870.83,
   "stance": "Strategy: the SELL plan from 10:09 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3836.07,
-      "sl": 3831.07,
-      "tp1": 3847.03,
+      "entry_high": 3836.16,
+      "sl": 3831.16,
+      "tp1": 3846.89,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.13,
+      "score": 0.33,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T11:52:48.728395+00:00"
+      "checked_at": "2026-11-16T12:07:32.106484+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3896.86,
+      "entry_low": 3896.77,
       "entry_high": 3900.48,
-      "sl": 3901.86,
-      "tp1": 3885.9,
+      "sl": 3901.77,
+      "tp1": 3886.04,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.48,
+      "score": 0.45,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T11:52:48.728395+00:00"
+      "checked_at": "2026-11-16T12:07:32.106484+00:00"
     }
   ],
   "active": [],
@@ -48,30 +48,30 @@
   "chart": {
     "structure": "up",
     "htf": "down",
-    "session": "london",
-    "vwap": 3867.088787880396,
-    "atr": 2.515714285714336,
+    "session": "overlap",
+    "vwap": 3867.195919686769,
+    "atr": 2.3478571428572,
     "day_low": 3832.45,
     "day_high": 3900.48,
-    "range_pos": 0.6192856092900189
+    "range_pos": 0.5641628693223577
   },
   "dxy": {
     "ok": true,
-    "last": 103.52300262451172,
-    "pct": 0.11798884613977033,
+    "last": 103.4990005493164,
+    "pct": 0.09477623217218123,
     "state": "up",
-    "corr": -0.3687602455664499
+    "corr": -0.35903504037511563
   },
   "oil": {
     "ok": true,
-    "last": 88.08000183105469,
-    "pct": -0.45208127339832516,
+    "last": 87.77999877929688,
+    "pct": -0.7911443841303427,
     "state": "down",
-    "corr": -0.4058163228468029
+    "corr": -0.4361711111442833
   },
   "news": {
-    "usd": 0.7935263797007135,
-    "oil": -0.6892853668424853,
+    "usd": 0.792377243494879,
+    "oil": -0.6897752953175125,
     "shock": false,
     "usd_headlines": [
       "Philippine peso weakens against U.S. dollar as Fed rate hike bets build - Traders Union",
@@ -109,21 +109,21 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.4794713069252477,
-      "trust": 1.0
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4037313592396009,
-      "trust": 0.7476506652585202
+      "score": 0.5767647366526222,
+      "trust": 1.068082845653004
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.4459928684802135,
+      "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.13271126942337497,
+      "score": 0.325,
       "trust": 1.0
     },
     {
@@ -135,8 +135,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09111292359275319,
-      "trust": 0.7592743632729433
+      "score": 0.07585389412338021,
+      "trust": 0.6321157843615018
     }
   ],
   "record": {
