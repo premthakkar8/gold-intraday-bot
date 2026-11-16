@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-16 08:55 UTC",
+  "updated": "2026-11-16 09:10 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3861.23,
+  "price": 3864.9,
   "stance": "Strategy: the SELL plan from 07:48 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
@@ -16,12 +16,12 @@
       "units": 1.0,
       "score": 0.0,
       "style": "range_fade",
-      "favored": true,
+      "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T08:55:39.103298+00:00"
+      "checked_at": "2026-11-16T09:10:22.468634+00:00"
     },
     {
       "side": "SELL",
@@ -33,14 +33,14 @@
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
+      "score": 0.72,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T08:55:39.103298+00:00"
+      "checked_at": "2026-11-16T09:10:22.468634+00:00"
     }
   ],
   "active": [],
@@ -49,32 +49,40 @@
     "structure": "sideways",
     "htf": "down",
     "session": "london",
-    "vwap": 3867.68724035692,
-    "atr": 4.1764285714285245,
+    "vwap": 3867.5448130270424,
+    "atr": 4.18714285714285,
     "day_low": 3832.45,
     "day_high": 3900.48,
-    "range_pos": 0.4230486550051465
+    "range_pos": 0.47699544318683196
   },
   "dxy": {
     "ok": true,
-    "last": 103.41400146484375,
-    "pct": 0.012572884361338793,
+    "last": 103.36499786376953,
+    "pct": -0.03481892095138367,
     "state": "flat",
-    "corr": -0.2885855362175611
+    "corr": -0.29257799761107955
   },
   "oil": {
     "ok": true,
-    "last": 88.54000091552734,
-    "pct": 0.06780917305316579,
+    "last": 88.70999908447266,
+    "pct": 0.2599409118591983,
     "state": "flat",
-    "corr": -0.2565966412028477
+    "corr": -0.25735884734807757
   },
   "news": {
-    "usd": 0.0,
-    "oil": 0.0,
+    "usd": 0.8603789340096027,
+    "oil": -0.6410553051384891,
     "shock": false,
-    "usd_headlines": [],
-    "oil_headlines": []
+    "usd_headlines": [
+      "Dollar gains over dong - VnExpress International",
+      "South African rand weakens as US dollar strengthens - Latest news from Azerbaijan",
+      "FTSE Russell Status Retention Cushions Rupiah Slide Toward Record Lows Amid Hawkish Fed Bets - InvestorTrust"
+    ],
+    "oil_headlines": [
+      "Fuel price reduction update across Nigeria as crude oil falls - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+      "Fuel price reduction update across Nigeria as crude oil falls - Daily Post Nigeria",
+      "Crude Oil Gains After Trump Says The US No Longer Needs A Nuclear Deal With Iran By Kedia Advisory - Investing.com India"
+    ]
   },
   "events": [
     {
@@ -101,34 +109,34 @@
   ],
   "scorecard": [
     {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.19888802126614288,
-      "trust": 1.243050132913393
-    },
-    {
       "style": "Trade with the dollar",
-      "bias": "flat",
-      "score": 0.15038422517823727,
-      "trust": 1.2532018764853106
+      "bias": "short",
+      "score": 0.7151736559657786,
+      "trust": 1.0808964897506446
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.11705164088602528,
-      "trust": 0.5320529131182967
+      "score": 0.21318865175881718,
+      "trust": 0.6662145367463037
     },
     {
-      "style": "Trade with the intraday trend",
+      "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.18383210849897222,
+      "trust": 1.1489506781185763
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.08,
-      "trust": 1.0
+      "score": 0.11919049275752941,
+      "trust": 0.9932541063127451
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.0999282140326598,
+      "trust": 0.999282140326598
     }
   ],
   "record": {
