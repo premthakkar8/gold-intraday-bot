@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-16 09:40 UTC",
+  "updated": "2026-11-16 09:54 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3856.53,
-  "stance": "Strategy: the SELL plan from 07:48 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3852.54,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.32). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3835.41,
-      "sl": 3830.41,
-      "tp1": 3848.0,
+      "entry_high": 3835.44,
+      "sl": 3830.44,
+      "tp1": 3847.97,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.51,
+      "score": 0.32,
       "style": "trend_align",
-      "favored": false,
+      "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T09:40:08.645507+00:00"
+      "checked_at": "2026-11-16T09:54:50.237995+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3897.52,
+      "entry_low": 3897.49,
       "entry_high": 3900.48,
-      "sl": 3902.52,
-      "tp1": 3884.93,
+      "sl": 3902.49,
+      "tp1": 3884.96,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.68,
+      "score": 0.26,
       "style": "dollar_lead",
-      "favored": true,
-      "ready": true,
+      "favored": false,
+      "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T09:40:08.645507+00:00"
+      "checked_at": "2026-11-16T09:54:50.237995+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "up",
     "htf": "down",
     "session": "london",
-    "vwap": 3867.2074026390806,
-    "atr": 3.7028571428571206,
+    "vwap": 3866.93456743351,
+    "atr": 3.657142857142844,
     "day_low": 3832.45,
     "day_high": 3900.48,
-    "range_pos": 0.35396148757901386
+    "range_pos": 0.2953108922534189
   },
   "dxy": {
     "ok": true,
-    "last": 103.447998046875,
-    "pct": 0.04545127210437029,
-    "state": "flat",
-    "corr": -0.32453721546097136
+    "last": 103.5199966430664,
+    "pct": 0.11508173555387392,
+    "state": "up",
+    "corr": -0.32599430924088746
   },
   "oil": {
     "ok": true,
-    "last": 88.06999969482422,
-    "pct": -0.46338567648488416,
-    "state": "down",
-    "corr": -0.29366572128084856
+    "last": 88.41000366210938,
+    "pct": -0.07911357613972485,
+    "state": "flat",
+    "corr": -0.2989743481275666
   },
   "news": {
-    "usd": 0.8664027028650506,
-    "oil": -0.6407907666734228,
+    "usd": 0.833202424561527,
+    "oil": -0.6414926857818831,
     "shock": false,
     "usd_headlines": [
       "US dollar extends rally to 5th straight session on Fed rate hike bets - Anadolu Ajans\u0131",
       "Treasury yields fall as investors await comments from Fed Chairman Warsh - CNBC",
-      "Gold hits lowest level since September 2025 as Fed rate hike bets rise - Latest news from Azerbaijan"
+      "Dollar gains over dong - VnExpress International"
     ],
     "oil_headlines": [
       "Fuel price reduction update across Nigeria as crude oil falls - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
@@ -109,28 +109,28 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.6776230010580998,
-      "trust": 1.0012903126197443
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.4893280456516058,
+      "trust": 0.9061630475029737
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.5066370867228974,
-      "trust": 0.9992841947197189
+      "score": 0.32476769212094886,
+      "trust": 0.9992852065259965
     },
     {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.27601881286208246,
-      "trust": 0.6273154837774602
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.258539412278748,
+      "trust": 1.002924966921816
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.10482664243698513,
-      "trust": 0.8735553536415428
+      "score": 0.11516611297149851,
+      "trust": 0.959717608095821
     },
     {
       "style": "Fade the session range",
@@ -140,10 +140,10 @@
     }
   ],
   "record": {
-    "graded": 124,
+    "graded": 125,
     "wins": 35,
     "losses": 64,
-    "scratches": 25,
-    "avg_r": -0.12301484172846927
+    "scratches": 26,
+    "avg_r": -0.12203072299464152
   }
 }
