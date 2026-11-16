@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-16 10:53 UTC",
+  "updated": "2026-11-16 11:08 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3869.73,
+  "price": 3872.01,
   "stance": "Strategy: the SELL plan from 10:09 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3832.45,
-      "entry_high": 3835.36,
-      "sl": 3830.36,
-      "tp1": 3848.08,
+      "entry_high": 3835.43,
+      "sl": 3830.43,
+      "tp1": 3847.98,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T06:05:34.916239+00:00",
-      "checked_at": "2026-11-16T10:53:46.427084+00:00"
+      "checked_at": "2026-11-16T11:08:28.536904+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3897.57,
+      "entry_low": 3897.5,
       "entry_high": 3900.48,
-      "sl": 3902.57,
-      "tp1": 3884.85,
+      "sl": 3902.5,
+      "tp1": 3884.95,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.42,
+      "score": 0.52,
       "style": "dollar_lead",
       "favored": true,
-      "ready": false,
+      "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T10:53:46.427084+00:00"
+      "checked_at": "2026-11-16T11:08:28.536904+00:00"
     }
   ],
   "active": [],
@@ -49,32 +49,32 @@
     "structure": "up",
     "htf": "down",
     "session": "london",
-    "vwap": 3866.6274408591767,
-    "atr": 3.7928571428572013,
+    "vwap": 3866.7322710680887,
+    "atr": 3.6778571428572246,
     "day_low": 3832.45,
     "day_high": 3900.48,
-    "range_pos": 0.5479935322651784
+    "range_pos": 0.5815081581655194
   },
   "dxy": {
     "ok": true,
-    "last": 103.50499725341797,
-    "pct": 0.10057569643744665,
+    "last": 103.5530014038086,
+    "pct": 0.14700092437262488,
     "state": "up",
-    "corr": -0.35006723589886496
+    "corr": -0.36873545327312873
   },
   "oil": {
     "ok": true,
-    "last": 88.41000366210938,
-    "pct": -0.07911357613972485,
+    "last": 88.44999694824219,
+    "pct": -0.03391320925967714,
     "state": "flat",
-    "corr": -0.34858717407420503
+    "corr": -0.43210854889167116
   },
   "news": {
-    "usd": 0.6373490941752715,
-    "oil": -0.6875130998726976,
+    "usd": 0.8233174164165411,
+    "oil": -0.6879279469837973,
     "shock": false,
     "usd_headlines": [
-      "Treasury Yields Fall, Eurozone Bond Yields Seek Direction -- Update - marketscreener.com",
+      "Philippine peso weakens against U.S. dollar as Fed rate hike bets build - Traders Union",
       "Rupiah Slides to Rp18,268 per USD as Fed Signals More Rate Hikes - Tempo.co English",
       "US dollar extends rally to 5th straight session on Fed rate hike bets - Anadolu Ajans\u0131"
     ],
@@ -109,28 +109,28 @@
   ],
   "scorecard": [
     {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.5242510252024888,
+      "trust": 1.002924966921816
+    },
+    {
       "style": "Stand aside",
       "bias": "flat",
       "score": 0.4536027816135945,
       "trust": 0.840005151136286
     },
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.42053141424633095,
-      "trust": 1.002924966921816
-    },
-    {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.3247690064667962,
-      "trust": 0.9992892506670651
+      "score": 0.32476933317262985,
+      "trust": 0.9992902559157841
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.1151934620195296,
-      "trust": 0.9599455168294133
+      "score": 0.11520026014922741,
+      "trust": 0.9600021679102284
     },
     {
       "style": "Fade the session range",
