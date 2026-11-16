@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-11-16T02:10:44.189738+00:00",
-  "atr": 8.73214285714289,
-  "price": 3885.51,
+  "updated_at": "2026-11-16T02:25:26.311345+00:00",
+  "atr": 7.0721428571429055,
+  "price": 3884.05,
   "stance": "Strategy: the SELL plan from 00:57 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3860.42,
-      "entry_high": 3860.62,
-      "sl": 3855.62,
-      "tp1": 3879.55,
-      "tp2": 3880.12,
-      "rr": 3.9,
+      "entry_high": 3861.53,
+      "sl": 3856.53,
+      "tp1": 3878.75,
+      "tp2": null,
+      "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
@@ -21,34 +21,34 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T02:23:50.953079+00:00"
+      "checked_at": "2026-11-16T02:38:33.219023+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3900.28,
+      "entry_low": 3899.37,
       "entry_high": 3900.48,
-      "sl": 3905.28,
-      "tp1": 3880.78,
+      "sl": 3904.37,
+      "tp1": 3882.15,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.64,
+      "score": 0.63,
       "style": "dollar_lead",
       "favored": true,
       "ready": true,
       "status": "valid",
-      "reason": "Score 0.64 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
+      "reason": "Score 0.63 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T02:23:50.953079+00:00"
+      "checked_at": "2026-11-16T02:38:33.219023+00:00"
     }
   ],
   "research": [
-    "Gold 3884.95 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3879.55, ATR 8.73, day range 3860.42-3900.48.",
-    "DXY 103.40 (+0.00% today, flat), gold-dollar corr -0.23.",
-    "WTI 88.23 (-0.28% today, flat), gold-oil corr -0.03.",
-    "Headlines: dollar +1.00, oil -0.35.",
-    "Dollar: Fed\u2019s Collins: Steady gradual path for rate hikes appropriate amid risks on both sides - FXStreet",
+    "Gold 3887.24 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3880.06, ATR 7.07, day range 3860.42-3900.48.",
+    "DXY 103.40 (+0.00% today, flat), gold-dollar corr -0.20.",
+    "WTI 88.10 (-0.43% today, down), gold-oil corr -0.05.",
+    "Headlines: dollar +1.00, oil -0.34.",
+    "Dollar: Fed rate hike bets and falling oil prices weigh on Canadian Dollar against US Dollar - www.tmgm.com",
     "Oil: Oil falls on surplus as Brent, WTI down ~2.5% for week - Ticker News",
     "Next high-impact US release: Fed Chairman Warsh Speaks Mon 17:00 UTC."
   ],
@@ -120,5 +120,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-16T02:23:50.953079+00:00"
+  "last_check": "2026-11-16T02:38:33.219023+00:00"
 }
