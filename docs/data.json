@@ -1,82 +1,82 @@
 {
-  "updated": "2026-11-16 05:21 UTC",
+  "updated": "2026-11-16 05:36 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3875.51,
-  "stance": "Strategy: SELL is the trade (Trade with the intraday trend, confidence 58%).",
+  "price": 3865.13,
+  "stance": "Strategy: the SELL plan from 05:21 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3860.42,
-      "entry_high": 3863.45,
-      "sl": 3858.45,
-      "tp1": 3875.88,
+      "entry_high": 3863.12,
+      "sl": 3858.12,
+      "tp1": 3876.32,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
+      "score": 0.8,
       "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
-      "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T05:21:33.475629+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3897.45,
-      "entry_high": 3900.48,
-      "sl": 3902.45,
-      "tp1": 3885.02,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.68,
-      "style": "trend_align",
       "favored": true,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-16T02:10:44.189738+00:00",
-      "checked_at": "2026-11-16T05:21:33.475629+00:00"
+      "checked_at": "2026-11-16T05:36:13.568746+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3897.78,
+      "entry_high": 3900.48,
+      "sl": 3902.78,
+      "tp1": 3884.54,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.34,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-16T02:10:44.189738+00:00",
+      "checked_at": "2026-11-16T05:36:13.568746+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "down",
     "session": "asia",
-    "vwap": 3876.566626153334,
-    "atr": 3.5857142857142725,
+    "vwap": 3876.3238565487445,
+    "atr": 4.175714285714223,
     "day_low": 3860.42,
     "day_high": 3900.48,
-    "range_pos": 0.3766849725411924
+    "range_pos": 0.11757363954069003
   },
   "dxy": {
     "ok": true,
-    "last": 103.40799713134766,
-    "pct": 0.006766041642809668,
+    "last": 103.39900207519531,
+    "pct": -0.0019331547550884764,
     "state": "flat",
-    "corr": -0.08074190221336243
+    "corr": -0.09910618466719354
   },
   "oil": {
     "ok": true,
-    "last": 88.37999725341797,
-    "pct": -0.11302678539940197,
+    "last": 88.44000244140625,
+    "pct": -0.045208989613141945,
     "state": "flat",
-    "corr": -0.11968132770436365
+    "corr": -0.1778675743993051
   },
   "news": {
     "usd": 1.0,
-    "oil": -0.3029924849726944,
+    "oil": -0.3001071085214638,
     "shock": false,
     "usd_headlines": [
-      "Indonesian Rupiah struggles as US Dollar gains on hawkish Fed odds - FXStreet",
-      "United States Dollar Index holds gains above 103.50 on hawkish Fed comments - FXStreet",
-      "Ringgit opens almost flat against US dollar amid hawkish Fed outlook - The Malaysian Reserve"
+      "Indonesian Rupiah struggles as US Dollar gains on hawkish Fed odds | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+      "Silver Falls Below $50: Hawkish Fed Bets, Rising Yields And Dollar Trigger Fresh Selloff - TradingView",
+      "Indonesian Rupiah struggles as US Dollar gains on hawkish Fed odds - FXStreet"
     ],
     "oil_headlines": [
       "Crude Oil Gains After Trump Says The US No Longer Needs A Nuclear Deal With Iran By Kedia Advisory - Investing.com India",
@@ -109,28 +109,28 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.6806232247338778,
-      "trust": 0.9049149709101298
+      "style": "Fade the session range",
+      "bias": "long",
+      "score": 0.8049211102148777,
+      "trust": 1.277569975102772
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5573565049915835,
-      "trust": 0.8217450235006922
+      "score": 0.33820840411632547,
+      "trust": 0.8981099732601722
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.16156022793801447,
-      "trust": 0.5048757123062952
+      "score": 0.211365374835216,
+      "trust": 0.66051679636005
     },
     {
-      "style": "Fade the session range",
+      "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.11522682095148572,
-      "trust": 1.152268209514857
+      "score": 0.09050491472316584,
+      "trust": 0.9050491472316583
     },
     {
       "style": "Trade the oil shock",
