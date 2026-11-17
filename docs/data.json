@@ -1,84 +1,80 @@
 {
-  "updated": "2026-11-17 13:25 UTC",
+  "updated": "2026-11-17 13:40 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3856.16,
-  "stance": "Strategy: the SELL plan from 11:27 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3839.4,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3843.58,
-      "entry_high": 3846.53,
-      "sl": 3841.53,
-      "tp1": 3859.15,
+      "entry_low": 3836.91,
+      "entry_high": 3839.25,
+      "sl": 3834.25,
+      "tp1": 3853.4,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.55,
-      "style": "trend_align",
+      "score": 0.4,
+      "style": "range_fade",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "paused",
       "reason": "Core Retail Sales m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
-      "created_at": "2026-11-17T01:12:22.708835+00:00",
-      "checked_at": "2026-11-17T13:25:43.676489+00:00"
+      "created_at": "2026-11-17T13:40:24.720182+00:00",
+      "checked_at": "2026-11-17T13:40:24.720182+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3883.74,
+      "entry_low": 3884.35,
       "entry_high": 3886.69,
-      "sl": 3888.74,
-      "tp1": 3871.12,
+      "sl": 3889.35,
+      "tp1": 3870.2,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.18,
+      "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "paused",
       "reason": "Core Retail Sales m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-17T05:36:34.810349+00:00",
-      "checked_at": "2026-11-17T13:25:43.676489+00:00"
+      "checked_at": "2026-11-17T13:40:24.720182+00:00"
     }
   ],
   "active": [],
   "blackout": "Core Retail Sales m/m at 13:30 UTC",
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3865.9645418591986,
-    "atr": 3.7264285714285115,
-    "day_low": 3843.58,
+    "vwap": 3865.5976318934654,
+    "atr": 4.837142857142778,
+    "day_low": 3836.91,
     "day_high": 3886.69,
-    "range_pos": 0.2918116446300137
+    "range_pos": 0.05002008838891576
   },
   "dxy": {
     "ok": true,
-    "last": 103.625,
-    "pct": 0.02316780308692934,
-    "state": "flat",
-    "corr": -0.3692661178122527
+    "last": 103.6989974975586,
+    "pct": 0.09459327102721149,
+    "state": "up",
+    "corr": -0.49552897447517036
   },
   "oil": {
     "ok": true,
-    "last": 86.38999938964844,
-    "pct": 1.2659733465739538,
+    "last": 86.87000274658203,
+    "pct": 1.828631148320943,
     "state": "up",
-    "corr": -0.08235321131068682
+    "corr": -0.09630893139767178
   },
   "news": {
     "usd": 0.0,
-    "oil": -0.028593124398272423,
+    "oil": 0.0,
     "shock": false,
     "usd_headlines": [],
-    "oil_headlines": [
-      "US strategic oil inventories fall to lowest level in 44 years - Laodong.vn",
-      "Global Oil Inventories Fall 537 mb From February 2026 Peak as Supply Disruptions Bite - Global Trade Magazine",
-      "Brent crude slips below $92, WTI at $83 as supply surplus outlook outweighs Middle East tensions - Moneycontrol.com"
-    ]
+    "oil_headlines": []
   },
   "events": [
     {
@@ -105,41 +101,41 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
+      "style": "Fade the session range",
       "bias": "long",
-      "score": 0.5518322965131738,
+      "score": 0.40093983527520866,
       "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.3983584982637671,
+      "trust": 0.7242881786613947
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.198029255812865,
-      "trust": 0.9001329809675682
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.11992652049125531,
-      "trust": 0.999387670760461
+      "score": 0.20168713656043158,
+      "trust": 0.9167597116383254
     },
     {
       "style": "Trade with the dollar",
-      "bias": "flat",
-      "score": 0.10903179842766406,
-      "trust": 0.9085983202305339
+      "bias": "short",
+      "score": 0.1842802835271413,
+      "trust": 1.0
     },
     {
-      "style": "Fade the session range",
+      "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
     }
   ],
   "record": {
-    "graded": 144,
+    "graded": 145,
     "wins": 37,
     "losses": 74,
-    "scratches": 33,
-    "avg_r": -0.1614850025995152
+    "scratches": 34,
+    "avg_r": -0.1603713129264151
   }
 }

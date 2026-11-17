@@ -1,79 +1,56 @@
 {
-  "updated_at": "2026-11-17T13:25:43.676489+00:00",
-  "atr": 3.7264285714285115,
-  "price": 3843.52,
-  "stance": "Strategy: the SELL plan from 11:27 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
+  "updated_at": "2026-11-17T13:40:24.720182+00:00",
+  "atr": 4.837142857142778,
+  "price": 3846.13,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3843.58,
-      "entry_high": 3846.53,
-      "sl": 3841.53,
-      "tp1": 3859.15,
+      "entry_low": 3836.91,
+      "entry_high": 3839.25,
+      "sl": 3834.25,
+      "tp1": 3853.4,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.55,
-      "style": "trend_align",
+      "score": 0.4,
+      "style": "range_fade",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "paused",
       "reason": "Core Retail Sales m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
-      "created_at": "2026-11-17T01:12:22.708835+00:00",
-      "checked_at": "2026-11-17T13:38:49.921640+00:00"
+      "created_at": "2026-11-17T13:40:24.720182+00:00",
+      "checked_at": "2026-11-17T13:53:45.281971+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3883.74,
+      "entry_low": 3884.35,
       "entry_high": 3886.69,
-      "sl": 3888.74,
-      "tp1": 3871.12,
+      "sl": 3889.35,
+      "tp1": 3870.2,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.18,
+      "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "paused",
       "reason": "Core Retail Sales m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-17T05:36:34.810349+00:00",
-      "checked_at": "2026-11-17T13:38:49.921640+00:00"
+      "checked_at": "2026-11-17T13:53:45.281971+00:00"
     }
   ],
   "research": [
-    "Gold 3856.16 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3865.96, ATR 3.73, day range 3843.58-3886.69.",
-    "DXY 103.62 (+0.02% today, flat), gold-dollar corr -0.37.",
-    "WTI 86.39 (+1.27% today, up), gold-oil corr -0.08.",
-    "Headlines: dollar +0.00, oil -0.03.",
-    "Oil: US strategic oil inventories fall to lowest level in 44 years - Laodong.vn",
+    "Gold 3839.40 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3865.60, ATR 4.84, day range 3836.91-3886.69.",
+    "DXY 103.70 (+0.09% today, up), gold-dollar corr -0.50.",
+    "WTI 86.87 (+1.83% today, up), gold-oil corr -0.10.",
+    "Headlines: dollar +0.00, oil +0.00.",
     "US event blackout: Core Retail Sales m/m at 13:30 UTC. Do not enter until it passes."
   ],
   "active": [
-    {
-      "side": "SELL",
-      "entry_low": 3866.79,
-      "entry_high": 3868.18,
-      "sl": 3871.79,
-      "tp1": 3854.89,
-      "tp2": 3850.26,
-      "rr": 2.9,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.18,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.18. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-17T01:41:52.213505+00:00",
-      "checked_at": "2026-11-17T01:42:57.541825+00:00",
-      "entry": 3866.79,
-      "entered_at": "2026-11-17T01:42:57.541825+00:00",
-      "closed": "tp"
-    },
     {
       "side": "SELL",
       "entry_low": 3871.5,
@@ -163,5 +140,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-17T13:38:49.921640+00:00"
+  "last_check": "2026-11-17T13:53:45.281971+00:00"
 }
