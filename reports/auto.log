@@ -1030,3 +1030,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-17 05:37 UTC  live: SELL entry reached at 3882.42
 2026-11-17 05:51 UTC  live: gold 3884.45 | holding long trend_align c1c96a3e | new read flat stand_aside not opened
 2026-11-17 06:06 UTC  live: gold 3875.17 | holding long trend_align c1c96a3e | new read long trend_align not opened
+2026-11-17 06:20 UTC  live: gold 3872.46 | graded: c1c96a3e long trend_align -> scratch (price never reached the entry zone) | opened long trend_align d25672f3 zone 3843.58-3846.28 stop 3841.28 target 3859.52 units 1 risk 5.00 USD tier normal conf 0.58
