@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-11-17T15:37:31.243193+00:00",
-  "atr": 6.756428571428679,
-  "price": 3877.34,
-  "stance": "Strategy: the SELL plan from 14:38 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
+  "updated_at": "2026-11-17T15:52:12.278478+00:00",
+  "atr": 7.773571428571456,
+  "price": 3871.67,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.39). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3836.91,
-      "entry_high": 3838.19,
-      "sl": 3833.19,
-      "tp1": 3854.98,
+      "entry_high": 3837.63,
+      "sl": 3832.63,
+      "tp1": 3855.82,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.39,
+      "style": "oil_shock",
       "favored": false,
       "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T13:40:24.720182+00:00",
-      "checked_at": "2026-11-17T15:50:40.719856+00:00"
+      "checked_at": "2026-11-17T16:05:19.582379+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3885.41,
-      "entry_high": 3886.69,
-      "sl": 3890.41,
-      "tp1": 3868.62,
+      "entry_low": 3890.22,
+      "entry_high": 3890.94,
+      "sl": 3895.22,
+      "tp1": 3872.03,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.84,
-      "style": "trend_align",
+      "score": 0.27,
+      "style": "range_fade",
       "favored": true,
-      "ready": true,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-17T05:36:34.810349+00:00",
-      "checked_at": "2026-11-17T15:50:40.719856+00:00"
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.27. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-17T15:52:12.278478+00:00",
+      "checked_at": "2026-11-17T16:05:19.582379+00:00"
     }
   ],
   "research": [
-    "Gold 3877.05 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3864.82, ATR 6.76, day range 3836.91-3886.69.",
-    "DXY 103.61 (+0.01% today, flat), gold-dollar corr -0.39.",
-    "WTI 86.55 (+1.45% today, up), gold-oil corr -0.07.",
-    "Headlines: dollar +0.51, oil -0.23.",
+    "Gold 3876.84 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3865.19, ATR 7.77, day range 3836.91-3890.94.",
+    "DXY 103.49 (-0.11% today, down), gold-dollar corr -0.44.",
+    "WTI 86.33 (+1.20% today, up), gold-oil corr -0.09.",
+    "Headlines: dollar +0.52, oil +0.30.",
     "Dollar: Treasury Yields Rise Amid Resilient U.S. Sales, Prices -- Market Talk - Moomoo",
     "Oil: US strategic oil inventories fall to lowest level in 44 years - Laodong.vn",
     "No high-impact US release in the next 24 hours."
@@ -98,5 +98,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-17T15:50:40.719856+00:00"
+  "last_check": "2026-11-17T16:05:19.582379+00:00"
 }
