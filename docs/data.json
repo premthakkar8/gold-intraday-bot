@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17 22:15 UTC",
+  "updated": "2026-11-17 22:30 UTC",
   "symbol": "VANTAGE:XAUUSD",
   "price": 3849.42,
   "stance": "Strategy: the BUY plan from 22:00 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
@@ -21,7 +21,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T13:40:24.720182+00:00",
-      "checked_at": "2026-11-17T22:15:28.318745+00:00"
+      "checked_at": "2026-11-17T22:30:02.726909+00:00"
     },
     {
       "side": "SELL",
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T15:52:12.278478+00:00",
-      "checked_at": "2026-11-17T22:15:28.318745+00:00"
+      "checked_at": "2026-11-17T22:30:02.726909+00:00"
     }
   ],
   "active": [],
@@ -57,20 +57,20 @@
   },
   "dxy": {
     "ok": true,
-    "last": 103.55699920654297,
-    "pct": -0.04246939618637047,
+    "last": 103.5510025024414,
+    "pct": -0.04825766485335281,
     "state": "flat",
-    "corr": 0.12271058757676034
+    "corr": 0.12271058757676033
   },
   "oil": {
     "ok": true,
     "last": 85.61000061035156,
-    "pct": 0.35166224398466356,
+    "pct": 0.37519016460223964,
     "state": "flat",
-    "corr": 0.23294314922894838
+    "corr": 0.22105070819787437
   },
   "news": {
-    "usd": -0.22014864676652696,
+    "usd": -0.22395875500439671,
     "oil": 1.0,
     "shock": true,
     "usd_headlines": [
@@ -95,20 +95,20 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.6006164774360851,
-      "trust": 0.9032621702514645
+      "score": 0.5990951210053385,
+      "trust": 0.903397797714236
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.5616553420692573,
-      "trust": 0.9000886892135532
+      "score": 0.5617427499405574,
+      "trust": 0.9002287659303803
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4494817224269749,
-      "trust": 0.8026459329053122
+      "score": 0.4496366702236752,
+      "trust": 0.8029226253994199
     },
     {
       "style": "Trade with the dollar",
