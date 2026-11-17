@@ -4567,7 +4567,7 @@
     {
       "id": "cecc8643",
       "opened_at": "2026-11-17T13:55:06.192741+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-11-17T14:09:39.941886+00:00",
       "horizon_minutes": 120,
       "regime": {
         "dxy": "up",
@@ -4584,12 +4584,39 @@
       "target": null,
       "price_at_plan": 3849.0,
       "atr": 5.2649999999999055,
+      "outcome": "loss",
+      "r_multiple": -1.0,
+      "tier": null,
+      "units": null,
+      "risk_usd": null,
+      "confidence": 0.5282841870522192
+    },
+    {
+      "id": "b3f5056c",
+      "opened_at": "2026-11-17T14:09:39.941886+00:00",
+      "resolved_at": null,
+      "horizon_minutes": 120,
+      "regime": {
+        "dxy": "flat",
+        "oil": "up",
+        "structure": "down",
+        "news": "usd",
+        "session": "overlap"
+      },
+      "style": "stand_aside",
+      "bias": "flat",
+      "entry_low": null,
+      "entry_high": null,
+      "invalidation": null,
+      "target": null,
+      "price_at_plan": 3857.15,
+      "atr": 6.209999999999842,
       "outcome": null,
       "r_multiple": null,
       "tier": null,
       "units": null,
       "risk_usd": null,
-      "confidence": 0.5282841870522192
+      "confidence": 0.39163914783706627
     }
   ]
 }
