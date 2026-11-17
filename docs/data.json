@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-17 15:08 UTC",
+  "updated": "2026-11-17 15:22 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3857.15,
+  "price": 3866.16,
   "stance": "Strategy: the SELL plan from 14:38 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3836.91,
-      "entry_high": 3838.32,
-      "sl": 3833.32,
-      "tp1": 3854.8,
+      "entry_high": 3838.53,
+      "sl": 3833.53,
+      "tp1": 3854.49,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-17T13:40:24.720182+00:00",
-      "checked_at": "2026-11-17T15:08:12.518455+00:00"
+      "checked_at": "2026-11-17T15:22:51.967555+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3885.28,
+      "entry_low": 3885.07,
       "entry_high": 3886.69,
-      "sl": 3890.28,
-      "tp1": 3868.8,
+      "sl": 3890.07,
+      "tp1": 3869.11,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -36,11 +36,11 @@
       "score": 0.5,
       "style": "dollar_lead",
       "favored": false,
-      "ready": false,
+      "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T05:36:34.810349+00:00",
-      "checked_at": "2026-11-17T15:08:12.518455+00:00"
+      "checked_at": "2026-11-17T15:22:51.967555+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3864.8003337655696,
-    "atr": 6.5285714285714675,
+    "vwap": 3864.676355179176,
+    "atr": 6.152142857142962,
     "day_low": 3836.91,
     "day_high": 3886.69,
-    "range_pos": 0.40658899156287975
+    "range_pos": 0.5875853756528703
   },
   "dxy": {
     "ok": true,
-    "last": 103.61900329589844,
-    "pct": 0.017379534419946992,
+    "last": 103.61100006103516,
+    "pct": 0.009654478654470553,
     "state": "flat",
-    "corr": -0.4335275892093428
+    "corr": -0.4443663331277655
   },
   "oil": {
     "ok": true,
-    "last": 86.97000122070312,
-    "pct": 1.9458489152683764,
+    "last": 86.87000274658203,
+    "pct": 1.828631148320943,
     "state": "up",
-    "corr": -0.0018418165693869551
+    "corr": 0.06419534766457549
   },
   "news": {
-    "usd": 0.5303387329671926,
-    "oil": -0.23368901701120295,
+    "usd": 0.5325349318855812,
+    "oil": -0.23140123329441348,
     "shock": false,
     "usd_headlines": [
       "Treasury Yields Rise Amid Resilient U.S. Sales, Prices -- Market Talk - Moomoo",
@@ -97,8 +97,8 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.49614258147962953,
-      "trust": 0.9993710381050223
+      "score": 0.5013608322135756,
+      "trust": 0.9993719249962949
     },
     {
       "style": "Fade the session range",
@@ -121,8 +121,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.0915562841337877,
-      "trust": 0.7629690344482309
+      "score": 0.09159639226047493,
+      "trust": 0.7633032688372912
     }
   ],
   "record": {
