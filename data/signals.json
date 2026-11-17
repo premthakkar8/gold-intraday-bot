@@ -1,80 +1,58 @@
 {
-  "updated_at": "2026-11-17T12:41:42.888414+00:00",
-  "atr": 3.6921428571429584,
-  "price": 3858.15,
+  "updated_at": "2026-11-17T12:56:24.763306+00:00",
+  "atr": 3.4400000000000546,
+  "price": 3860.39,
   "stance": "Strategy: the SELL plan from 11:27 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3843.58,
-      "entry_high": 3846.55,
-      "sl": 3841.55,
-      "tp1": 3859.13,
+      "entry_high": 3846.69,
+      "sl": 3841.69,
+      "tp1": 3858.92,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
       "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-17T01:12:22.708835+00:00",
-      "checked_at": "2026-11-17T12:54:51.104950+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3883.72,
-      "entry_high": 3886.69,
-      "sl": 3888.72,
-      "tp1": 3871.14,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.34,
-      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-17T05:36:34.810349+00:00",
-      "checked_at": "2026-11-17T12:54:51.104950+00:00"
-    }
-  ],
-  "research": [
-    "Gold 3858.64 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3866.41, ATR 3.69, day range 3843.58-3886.69.",
-    "DXY 103.61 (+0.01% today, flat), gold-dollar corr -0.21.",
-    "WTI 86.28 (+1.16% today, up), gold-oil corr -0.15.",
-    "Headlines: dollar +0.43, oil -0.03, fresh shock.",
-    "Dollar: James Stanley: Gold faces selling pressure as U.S. dollar strengthens and inflation stays high - Traders Union",
-    "Oil: US strategic oil inventories fall to lowest level in 44 years - Laodong.vn",
-    "Next high-impact US release: Core Retail Sales m/m Tue 13:30 UTC."
-  ],
-  "active": [
+      "created_at": "2026-11-17T01:12:22.708835+00:00",
+      "checked_at": "2026-11-17T13:09:31.714515+00:00"
+    },
     {
-      "side": "BUY",
-      "entry_low": 3852.21,
-      "entry_high": 3854.47,
-      "sl": 3849.93,
-      "tp1": 3858.37,
-      "tp2": 3863.51,
-      "rr": 1.5,
-      "risk_usd": 4.54,
+      "side": "SELL",
+      "entry_low": 3883.58,
+      "entry_high": 3886.69,
+      "sl": 3888.58,
+      "tp1": 3871.35,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-17T00:57:46.227087+00:00",
-      "checked_at": "2026-11-17T00:58:49.531713+00:00",
-      "entry": 3854.47,
-      "entered_at": "2026-11-17T00:58:49.531713+00:00",
-      "closed": "tp"
-    },
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-17T05:36:34.810349+00:00",
+      "checked_at": "2026-11-17T13:09:31.714515+00:00"
+    }
+  ],
+  "research": [
+    "Gold 3859.03 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3866.27, ATR 3.44, day range 3843.58-3886.69.",
+    "DXY 103.58 (-0.02% today, flat), gold-dollar corr -0.20.",
+    "WTI 86.38 (+1.25% today, up), gold-oil corr -0.13.",
+    "Headlines: dollar +0.17, oil -0.03, fresh shock.",
+    "Dollar: US Dollar Falls Early Tuesday Ahead of Busy Economic Release Schedule - marketscreener.com",
+    "Oil: US strategic oil inventories fall to lowest level in 44 years - Laodong.vn",
+    "Next high-impact US release: Core Retail Sales m/m Tue 13:30 UTC."
+  ],
+  "active": [
     {
       "side": "BUY",
       "entry_low": 3845.61,
@@ -208,5 +186,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-17T12:54:51.104950+00:00"
+  "last_check": "2026-11-17T13:09:31.714515+00:00"
 }
