@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-17 12:12 UTC",
+  "updated": "2026-11-17 12:26 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3865.37,
+  "price": 3861.46,
   "stance": "Strategy: the SELL plan from 11:27 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3843.58,
-      "entry_high": 3846.9,
-      "sl": 3841.9,
-      "tp1": 3858.6,
+      "entry_high": 3846.73,
+      "sl": 3841.73,
+      "tp1": 3858.86,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T01:12:22.708835+00:00",
-      "checked_at": "2026-11-17T12:12:01.375645+00:00"
+      "checked_at": "2026-11-17T12:26:53.532604+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3883.37,
+      "entry_low": 3883.54,
       "entry_high": 3886.69,
-      "sl": 3888.37,
-      "tp1": 3871.67,
+      "sl": 3888.54,
+      "tp1": 3871.41,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T05:36:34.810349+00:00",
-      "checked_at": "2026-11-17T12:12:01.375645+00:00"
+      "checked_at": "2026-11-17T12:26:53.532604+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "down",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3866.6336415790524,
-    "atr": 3.0528571428571922,
+    "vwap": 3866.584708431653,
+    "atr": 3.368571428571483,
     "day_low": 3843.58,
     "day_high": 3886.69,
-    "range_pos": 0.5054511714219415
+    "range_pos": 0.41475295755045366
   },
   "dxy": {
     "ok": true,
-    "last": 103.59100341796875,
-    "pct": -0.009647114444970576,
+    "last": 103.59600067138672,
+    "pct": -0.004823557222485288,
     "state": "flat",
-    "corr": -0.15537375171039344
+    "corr": -0.18661386064686797
   },
   "oil": {
     "ok": true,
-    "last": 86.08999633789062,
-    "pct": 0.9379709388860369,
+    "last": 86.16000366210938,
+    "pct": 1.0200524530931787,
     "state": "up",
-    "corr": -0.16513038774886818
+    "corr": -0.1596592555004277
   },
   "news": {
-    "usd": 0.38310545070598867,
-    "oil": -0.02636193430255696,
+    "usd": 0.43358298926087735,
+    "oil": -0.026783569047453586,
     "shock": true,
     "usd_headlines": [
+      "James Stanley: Gold faces selling pressure as U.S. dollar strengthens and inflation stays high - Traders Union",
       "US Dollar Technical Forecast: DXY Bulls Target Yearly Highs After Hot CPI - StoneX",
-      "Swiss Franc gains as US Dollar weakens ahead of Retail Sales data - FXStreet",
-      "Indonesian Rupiah gains as US Dollar weakens amid Treasury sell-off - FXStreet"
+      "Swiss Franc gains as US Dollar weakens ahead of Retail Sales data - FXStreet"
     ],
     "oil_headlines": [
       "US strategic oil inventories fall to lowest level in 44 years - Laodong.vn",
@@ -123,20 +123,20 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2275495170431478,
+      "score": 0.26035784568448056,
       "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11274212362942633,
-      "trust": 1.1274212362942633
+      "score": 0.11272389667981715,
+      "trust": 1.1272389667981715
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09534406789967986,
-      "trust": 0.7945338991639989
+      "score": 0.09537933693685373,
+      "trust": 0.7948278078071145
     }
   ],
   "record": {

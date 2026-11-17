@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-17T12:12:01.375645+00:00",
-  "atr": 3.0528571428571922,
-  "price": 3863.25,
+  "updated_at": "2026-11-17T12:26:53.532604+00:00",
+  "atr": 3.368571428571483,
+  "price": 3857.31,
   "stance": "Strategy: the SELL plan from 11:27 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3843.58,
-      "entry_high": 3846.9,
-      "sl": 3841.9,
-      "tp1": 3858.6,
+      "entry_high": 3846.73,
+      "sl": 3841.73,
+      "tp1": 3858.86,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T01:12:22.708835+00:00",
-      "checked_at": "2026-11-17T12:25:11.852592+00:00"
+      "checked_at": "2026-11-17T12:40:02.249130+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3883.37,
+      "entry_low": 3883.54,
       "entry_high": 3886.69,
-      "sl": 3888.37,
-      "tp1": 3871.67,
+      "sl": 3888.54,
+      "tp1": 3871.41,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,15 +40,15 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T05:36:34.810349+00:00",
-      "checked_at": "2026-11-17T12:25:11.852592+00:00"
+      "checked_at": "2026-11-17T12:40:02.249130+00:00"
     }
   ],
   "research": [
-    "Gold 3865.37 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3866.63, ATR 3.05, day range 3843.58-3886.69.",
-    "DXY 103.59 (-0.01% today, flat), gold-dollar corr -0.16.",
-    "WTI 86.09 (+0.94% today, up), gold-oil corr -0.17.",
-    "Headlines: dollar +0.38, oil -0.03, fresh shock.",
-    "Dollar: US Dollar Technical Forecast: DXY Bulls Target Yearly Highs After Hot CPI - StoneX",
+    "Gold 3861.46 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3866.58, ATR 3.37, day range 3843.58-3886.69.",
+    "DXY 103.60 (-0.00% today, flat), gold-dollar corr -0.19.",
+    "WTI 86.16 (+1.02% today, up), gold-oil corr -0.16.",
+    "Headlines: dollar +0.43, oil -0.03, fresh shock.",
+    "Dollar: James Stanley: Gold faces selling pressure as U.S. dollar strengthens and inflation stays high - Traders Union",
     "Oil: US strategic oil inventories fall to lowest level in 44 years - Laodong.vn",
     "Next high-impact US release: Core Retail Sales m/m Tue 13:30 UTC."
   ],
@@ -208,5 +208,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-17T12:25:11.852592+00:00"
+  "last_check": "2026-11-17T12:40:02.249130+00:00"
 }
