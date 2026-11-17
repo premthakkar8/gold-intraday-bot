@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-17T09:30:46.543585+00:00",
-  "atr": 3.0171428571428414,
-  "price": 3865.89,
+  "updated_at": "2026-11-17T09:45:24.926251+00:00",
+  "atr": 2.9635714285714454,
+  "price": 3865.98,
   "stance": "Strategy: the SELL plan from 08:32 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3843.58,
-      "entry_high": 3846.92,
-      "sl": 3841.92,
-      "tp1": 3858.57,
+      "entry_high": 3846.95,
+      "sl": 3841.95,
+      "tp1": 3858.52,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T01:12:22.708835+00:00",
-      "checked_at": "2026-11-17T09:43:54.686523+00:00"
+      "checked_at": "2026-11-17T09:58:33.424898+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3883.35,
+      "entry_low": 3883.32,
       "entry_high": 3886.69,
-      "sl": 3888.35,
-      "tp1": 3871.7,
+      "sl": 3888.32,
+      "tp1": 3871.75,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,13 +40,13 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T05:36:34.810349+00:00",
-      "checked_at": "2026-11-17T09:43:54.686523+00:00"
+      "checked_at": "2026-11-17T09:58:33.424898+00:00"
     }
   ],
   "research": [
-    "Gold 3861.93 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3868.04, ATR 3.02, day range 3843.58-3886.69.",
-    "DXY 103.48 (-0.12% today, down), gold-dollar corr -0.12.",
-    "WTI 85.74 (+0.50% today, up), gold-oil corr -0.46.",
+    "Gold 3865.85 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3867.96, ATR 2.96, day range 3843.58-3886.69.",
+    "DXY 103.49 (-0.11% today, down), gold-dollar corr -0.14.",
+    "WTI 86.03 (+0.87% today, up), gold-oil corr -0.35.",
     "Headlines: dollar +0.40, oil -0.27, fresh shock.",
     "Dollar: Swiss Franc gains as US Dollar weakens ahead of Retail Sales data - FXStreet",
     "Oil: Global Oil Inventories Fall 537 mb From February 2026 Peak as Supply Disruptions Bite - Global Trade Magazine",
@@ -208,5 +208,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-17T09:43:54.686523+00:00"
+  "last_check": "2026-11-17T09:58:33.424898+00:00"
 }

@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-17 09:30 UTC",
+  "updated": "2026-11-17 09:45 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3861.93,
+  "price": 3865.85,
   "stance": "Strategy: the SELL plan from 08:32 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3843.58,
-      "entry_high": 3846.92,
-      "sl": 3841.92,
-      "tp1": 3858.57,
+      "entry_high": 3846.95,
+      "sl": 3841.95,
+      "tp1": 3858.52,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T01:12:22.708835+00:00",
-      "checked_at": "2026-11-17T09:30:46.543585+00:00"
+      "checked_at": "2026-11-17T09:45:24.926251+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3883.35,
+      "entry_low": 3883.32,
       "entry_high": 3886.69,
-      "sl": 3888.35,
-      "tp1": 3871.7,
+      "sl": 3888.32,
+      "tp1": 3871.75,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T05:36:34.810349+00:00",
-      "checked_at": "2026-11-17T09:30:46.543585+00:00"
+      "checked_at": "2026-11-17T09:45:24.926251+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "down",
     "session": "london",
-    "vwap": 3868.0419404226873,
-    "atr": 3.0171428571428414,
+    "vwap": 3867.956363697794,
+    "atr": 2.9635714285714454,
     "day_low": 3843.58,
     "day_high": 3886.69,
-    "range_pos": 0.4256553003943367
+    "range_pos": 0.516585479007189
   },
   "dxy": {
     "ok": true,
-    "last": 103.48100280761719,
-    "pct": -0.11582428701564673,
+    "last": 103.48500061035156,
+    "pct": -0.1119654412376585,
     "state": "down",
-    "corr": -0.12297961252196048
+    "corr": -0.1384721928153993
   },
   "oil": {
     "ok": true,
-    "last": 85.73999786376953,
-    "pct": 0.504044446702091,
+    "last": 86.02999877929688,
+    "pct": 0.8676255784103434,
     "state": "up",
-    "corr": -0.4601126736487225
+    "corr": -0.3520268169538817
   },
   "news": {
-    "usd": 0.40486783632179113,
-    "oil": -0.2738221950227625,
+    "usd": 0.40212290334516637,
+    "oil": -0.2729249912188736,
     "shock": true,
     "usd_headlines": [
       "Swiss Franc gains as US Dollar weakens ahead of Retail Sales data - FXStreet",
@@ -117,8 +117,14 @@
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.13908545627917981,
-      "trust": 0.9993502709107235
+      "score": 0.13936202213623336,
+      "trust": 0.9993511859753706
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.10812102621968216,
+      "trust": 0.9010085518306846
     },
     {
       "style": "Trade with the intraday trend",
@@ -131,12 +137,6 @@
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.07206951501987546,
-      "trust": 0.9008689377484433
     }
   ],
   "record": {
