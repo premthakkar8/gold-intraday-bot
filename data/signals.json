@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-17T22:30:02.726909+00:00",
-  "atr": 2.6078571428570934,
-  "price": 3851.93,
+  "updated_at": "2026-11-17T23:14:02.388724+00:00",
+  "atr": 2.786428571428587,
+  "price": 3855.74,
   "stance": "Strategy: the BUY plan from 22:00 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3836.91,
-      "entry_high": 3840.48,
-      "sl": 3835.48,
-      "tp1": 3851.56,
+      "entry_high": 3840.38,
+      "sl": 3835.38,
+      "tp1": 3851.71,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.6,
+      "score": 0.68,
       "style": "oil_shock",
       "favored": true,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T13:40:24.720182+00:00",
-      "checked_at": "2026-11-17T23:12:25.389619+00:00"
+      "checked_at": "2026-11-17T23:27:11.531306+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3887.37,
+      "entry_low": 3887.47,
       "entry_high": 3890.94,
-      "sl": 3892.37,
-      "tp1": 3876.29,
+      "sl": 3892.47,
+      "tp1": 3876.14,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,18 +40,18 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T15:52:12.278478+00:00",
-      "checked_at": "2026-11-17T23:12:25.389619+00:00"
+      "checked_at": "2026-11-17T23:27:11.531306+00:00"
     }
   ],
   "research": [
-    "Gold 3849.42 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3863.57, ATR 2.61, day range 3836.91-3890.94.",
-    "DXY 103.55 (-0.05% today, flat), gold-dollar corr +0.12.",
-    "WTI 85.61 (+0.38% today, flat), gold-oil corr +0.22.",
-    "Headlines: dollar -0.22, oil +1.00, fresh shock.",
-    "Dollar: Treasury Yields Fall as Wall Street Waits for Nvidia -- Market Talk - Moomoo",
+    "Gold 3851.81 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3863.50, ATR 2.79, day range 3836.91-3890.94.",
+    "DXY 103.59 (-0.01% today, flat), gold-dollar corr +0.30.",
+    "WTI 85.88 (+0.69% today, up), gold-oil corr +0.35.",
+    "Headlines: dollar -0.09, oil +1.00, fresh shock.",
+    "Dollar: US Dollar Technical Forecast: DXY Bulls Target Yearly Highs After Hot CPI - StoneX",
     "Oil: US strategic oil inventories fall to lowest level in 44 years - Laodong.vn",
     "Next high-impact US release: FOMC Meeting Minutes Wed 19:00 UTC."
   ],
   "active": [],
-  "last_check": "2026-11-17T23:12:25.389619+00:00"
+  "last_check": "2026-11-17T23:27:11.531306+00:00"
 }
