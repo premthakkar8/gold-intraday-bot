@@ -1,28 +1,49 @@
 {
-  "updated": "2026-11-17 05:07 UTC",
+  "updated": "2026-11-17 05:21 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3874.55,
+  "price": 3880.6,
   "stance": "Strategy: the BUY plan from 04:08 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3843.58,
-      "entry_high": 3847.01,
-      "sl": 3842.01,
-      "tp1": 3858.44,
+      "entry_high": 3846.8,
+      "sl": 3841.8,
+      "tp1": 3858.74,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.11,
+      "style": "dollar_lead",
       "favored": false,
       "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T01:12:22.708835+00:00",
-      "checked_at": "2026-11-17T05:07:19.934615+00:00"
+      "checked_at": "2026-11-17T05:21:59.098602+00:00"
     },
+    {
+      "side": "SELL",
+      "entry_low": 3877.57,
+      "entry_high": 3880.79,
+      "sl": 3882.57,
+      "tp1": 3865.63,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.4,
+      "style": "trend_align",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.40 (Trade with the intraday trend), price above VWAP.",
+      "created_at": "2026-11-17T03:24:22.057872+00:00",
+      "checked_at": "2026-11-17T05:21:59.098602+00:00"
+    }
+  ],
+  "active": [
     {
       "side": "SELL",
       "entry_low": 3876.59,
@@ -40,71 +61,46 @@
       "status": "valid",
       "reason": "Score 0.62 (Trade with the intraday trend), hawkish dollar news +0.85, price above VWAP.",
       "created_at": "2026-11-17T03:24:22.057872+00:00",
-      "checked_at": "2026-11-17T05:07:19.934615+00:00"
-    }
-  ],
-  "active": [
-    {
-      "side": "SELL",
-      "entry_low": 3875.14,
-      "entry_high": 3877.17,
-      "sl": 3880.14,
-      "tp1": 3860.56,
-      "tp2": null,
-      "rr": 3.9,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.43,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.43 (Trade with the dollar), hawkish dollar news +0.73, price above VWAP.",
-      "created_at": "2026-11-17T03:09:45.802304+00:00",
-      "checked_at": "2026-11-17T03:11:49.239884+00:00",
-      "entry": 3875.14,
-      "entered_at": "2026-11-17T03:11:49.239884+00:00",
+      "checked_at": "2026-11-17T05:19:27.377026+00:00",
+      "entry": 3876.59,
+      "entered_at": "2026-11-17T05:19:27.377026+00:00",
       "closed": null
     }
   ],
   "blackout": null,
   "chart": {
     "structure": "down",
-    "htf": "down",
+    "htf": "sideways",
     "session": "asia",
-    "vwap": 3864.1187789317414,
-    "atr": 2.8564285714285558,
+    "vwap": 3864.561430221325,
+    "atr": 3.229285714285749,
     "day_low": 3843.58,
-    "day_high": 3880.02,
-    "range_pos": 0.8498902305159223
+    "day_high": 3880.79,
+    "range_pos": 0.9948938457403909
   },
   "dxy": {
     "ok": true,
-    "last": 103.52100372314453,
-    "pct": -0.0772137366072645,
-    "state": "flat",
-    "corr": -0.3077662904705355
+    "last": 103.49700164794922,
+    "pct": -0.10038153969419385,
+    "state": "down",
+    "corr": -0.3040360103547718
   },
   "oil": {
     "ok": true,
-    "last": 85.0,
-    "pct": -0.34001748436439294,
-    "state": "flat",
-    "corr": 0.01851063118138174
+    "last": 84.93000030517578,
+    "pct": -0.4454310916571929,
+    "state": "down",
+    "corr": 0.036670236872510344
   },
   "news": {
-    "usd": 0.8451125083239457,
+    "usd": 0.0,
     "oil": -1.0,
     "shock": true,
-    "usd_headlines": [
-      "US Dollar Rallies as Fed Rate Risks Pressure Global Markets - FXEmpire",
-      "Canadian Dollar loses ground to US Dollar as oil prices decline amid Fed rate hike bets - www.tmgm.com",
-      "Fed rate hike bets and falling oil prices weigh on Canadian Dollar against US Dollar - www.tmgm.com"
-    ],
+    "usd_headlines": [],
     "oil_headlines": [
       "Brent crude slips below $92, WTI at $83 as supply surplus outlook outweighs Middle East tensions - Moneycontrol.com",
       "Crude Oil Falls As Restored Middle East Shipments Fuel Global Surplus Concerns By Kedia Advisory - Investing.com India",
-      "Canadian Financial Close: Loonie weakens, crude oil falls - Canadian Cattlemen"
+      "Canadian Financial Close: Loonie weakens, crude oil falls - Manitoba Co-operator"
     ]
   },
   "events": [
@@ -125,34 +121,34 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.6245016070242871,
-      "trust": 0.9293178675956653
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5201556989008493,
-      "trust": 0.7881146953043172
+      "score": 0.6274867032761272,
+      "trust": 0.8256403990475358
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.4,
+      "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.4594005553979455,
-      "trust": 0.9322610982923258
+      "bias": "long",
+      "score": 0.1136332655827837,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.10668639840319935,
+      "trust": 0.8890533200266613
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.09310691176383905,
-      "trust": 0.7758909313653254
     }
   ],
   "record": {
