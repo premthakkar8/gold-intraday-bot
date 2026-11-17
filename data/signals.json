@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-17T14:24:18.432572+00:00",
-  "atr": 6.266428571428443,
-  "price": 3868.89,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.47). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-17T14:38:52.650756+00:00",
+  "atr": 7.185714285714247,
+  "price": 3867.56,
+  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 50%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3836.91,
-      "entry_high": 3838.46,
-      "sl": 3833.46,
-      "tp1": 3854.58,
+      "entry_high": 3837.96,
+      "sl": 3832.96,
+      "tp1": 3855.34,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,35 +21,35 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-17T13:40:24.720182+00:00",
-      "checked_at": "2026-11-17T14:37:25.482186+00:00"
+      "checked_at": "2026-11-17T14:51:59.156178+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3885.14,
+      "entry_low": 3885.64,
       "entry_high": 3886.69,
-      "sl": 3890.14,
-      "tp1": 3869.02,
+      "sl": 3890.64,
+      "tp1": 3868.26,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.47,
+      "score": 0.5,
       "style": "dollar_lead",
       "favored": false,
-      "ready": false,
+      "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T05:36:34.810349+00:00",
-      "checked_at": "2026-11-17T14:37:25.482186+00:00"
+      "checked_at": "2026-11-17T14:51:59.156178+00:00"
     }
   ],
   "research": [
-    "Gold 3860.99 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3864.86, ATR 6.27, day range 3836.91-3886.69.",
-    "DXY 103.62 (+0.02% today, flat), gold-dollar corr -0.45.",
-    "WTI 87.21 (+2.23% today, up), gold-oil corr -0.08.",
-    "Headlines: dollar +0.48, oil -0.24.",
+    "Gold 3866.77 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3864.87, ATR 7.19, day range 3836.91-3886.69.",
+    "DXY 103.60 (-0.00% today, flat), gold-dollar corr -0.45.",
+    "WTI 87.19 (+2.20% today, up), gold-oil corr -0.08.",
+    "Headlines: dollar +0.49, oil -0.54.",
     "Dollar: Treasury Yields Rise Amid Resilient U.S. Sales, Prices -- Market Talk - Moomoo",
-    "Oil: US strategic oil inventories fall to lowest level in 44 years - Laodong.vn",
+    "Oil: Oman Crude Oil Falls by More Than $3 a Barrel - Qatar news agency",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -120,5 +120,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-17T14:37:25.482186+00:00"
+  "last_check": "2026-11-17T14:51:59.156178+00:00"
 }
