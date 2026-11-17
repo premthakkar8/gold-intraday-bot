@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-17 00:28 UTC",
+  "updated": "2026-11-17 00:43 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3857.28,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.38). Take an entry only if price reaches it.",
+  "price": 3860.62,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.36). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3841.15,
-      "entry_high": 3844.17,
-      "sl": 3839.17,
-      "tp1": 3856.62,
+      "entry_high": 3843.96,
+      "sl": 3838.96,
+      "tp1": 3856.94,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,39 +21,39 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-17T00:13:47.451910+00:00",
-      "checked_at": "2026-11-17T00:28:26.191052+00:00"
+      "checked_at": "2026-11-17T00:43:05.096861+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3868.03,
+      "entry_low": 3868.24,
       "entry_high": 3871.05,
-      "sl": 3873.03,
-      "tp1": 3857.46,
-      "tp2": 3855.58,
+      "sl": 3873.24,
+      "tp1": 3856.97,
+      "tp2": 3855.26,
       "rr": 3.5,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.38,
+      "score": 0.36,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.38 (Trade with the dollar), dollar firmer +0.18%, hawkish dollar news +0.52.",
+      "reason": "Score 0.36 (Trade with the dollar), dollar firmer +0.18%, hawkish dollar news +0.56, price above VWAP.",
       "created_at": "2026-11-17T00:13:47.451910+00:00",
-      "checked_at": "2026-11-17T00:28:26.191052+00:00"
+      "checked_at": "2026-11-17T00:43:05.096861+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "up",
     "session": "asia",
-    "vwap": 3857.455239588963,
-    "atr": 3.6021428571428777,
+    "vwap": 3856.9671788004543,
+    "atr": 3.987142857142804,
     "day_low": 3841.15,
     "day_high": 3871.05,
-    "range_pos": 0.5394648829431459
+    "range_pos": 0.6511705685618643
   },
   "dxy": {
     "ok": true,
@@ -64,18 +64,18 @@
   },
   "oil": {
     "ok": true,
-    "last": 85.30999755859375,
-    "pct": 0.023445471745522972,
+    "last": 85.29000091552734,
+    "pct": -0.023439976132541663,
     "state": "flat",
-    "corr": 0.06242167403020175
+    "corr": -0.05006712089024065
   },
   "news": {
-    "usd": 0.523571460111159,
+    "usd": 0.5616288365303975,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
-      "Euro falls below 1.10 amid U.S. dollar gains, Mohamed A. El-Erian notes - Traders Union",
       "US Dollar Rallies as Fed Rate Risks Pressure Global Markets - FXEmpire",
+      "Euro falls below 1.10 amid U.S. dollar gains, Mohamed A. El-Erian notes - Traders Union",
       "Treasury Yields Fall, German Bunds\u2019 Tick Higher - WSJ"
     ],
     "oil_headlines": [
@@ -103,32 +103,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.430663953599686,
-      "trust": 0.7690427742851536
+      "score": 0.5657686094058713,
+      "trust": 0.832012660890987
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3794886294989376,
-      "trust": 1.0332403404577912
+      "score": 0.3646389143721158,
+      "trust": 0.977613785276544
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.11954656390075913,
+      "trust": 0.9995532098725678
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.1019005006179676,
+      "trust": 0.8491708384830634
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.09993428634268132,
-      "trust": 0.9993428634268132
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.09960682521202616,
-      "trust": 0.8300568767668847
     }
   ],
   "record": {
