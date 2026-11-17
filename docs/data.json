@@ -1,15 +1,34 @@
 {
-  "updated": "2026-11-17 08:32 UTC",
+  "updated": "2026-11-17 08:46 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3866.53,
-  "stance": "Strategy: SELL is the trade (Trade with the intraday trend, confidence 58%).",
+  "price": 3870.92,
+  "stance": "Strategy: the SELL plan from 08:32 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3843.58,
-      "entry_high": 3846.9,
-      "sl": 3841.9,
-      "tp1": 3858.6,
+      "entry_high": 3846.93,
+      "sl": 3841.93,
+      "tp1": 3858.56,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.15,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-17T01:12:22.708835+00:00",
+      "checked_at": "2026-11-17T08:46:50.772018+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3883.34,
+      "entry_high": 3886.69,
+      "sl": 3888.34,
+      "tp1": 3871.71,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -18,70 +37,51 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
-      "created_at": "2026-11-17T01:12:22.708835+00:00",
-      "checked_at": "2026-11-17T08:32:08.664510+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3883.37,
-      "entry_high": 3886.69,
-      "sl": 3888.37,
-      "tp1": 3871.67,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.62,
-      "style": "trend_align",
-      "favored": true,
-      "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T05:36:34.810349+00:00",
-      "checked_at": "2026-11-17T08:32:08.664510+00:00"
+      "checked_at": "2026-11-17T08:46:50.772018+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "down",
     "session": "london",
-    "vwap": 3868.1557299389997,
-    "atr": 3.0585714285714403,
+    "vwap": 3868.146704790729,
+    "atr": 3.000714285714269,
     "day_low": 3843.58,
     "day_high": 3886.69,
-    "range_pos": 0.532359081419629
+    "range_pos": 0.6341916028763643
   },
   "dxy": {
     "ok": true,
-    "last": 103.53700256347656,
-    "pct": -0.0617709892858116,
-    "state": "flat",
-    "corr": -0.27589786405714745
+    "last": 103.51100158691406,
+    "pct": -0.08686821526173505,
+    "state": "down",
+    "corr": -0.21351693427709043
   },
   "oil": {
     "ok": true,
-    "last": 85.37000274658203,
-    "pct": 0.07033781468235031,
+    "last": 85.47000122070312,
+    "pct": 0.2110450266662051,
     "state": "flat",
-    "corr": -0.3361786169271511
+    "corr": -0.3873205793789813
   },
   "news": {
-    "usd": 0.3401413050574555,
+    "usd": 0.41650265871248726,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
       "Swiss Franc gains as US Dollar weakens ahead of Retail Sales data - FXStreet",
-      "Indonesian Rupiah gains as US Dollar weakens amid Treasury sell-off - FXStreet",
-      "Institutional forecast: The Federal Reserve will implement consecutive rate hikes in December and January, followed by a prolonged pause. - Moomoo"
+      "US Dollar Technical Forecast: DXY Bulls Target Yearly Highs After Hot CPI - StoneX",
+      "Indonesian Rupiah gains as US Dollar weakens amid Treasury sell-off - FXStreet"
     ],
     "oil_headlines": [
       "Brent crude slips below $92, WTI at $83 as supply surplus outlook outweighs Middle East tensions - Moneycontrol.com",
       "Crude Oil Falls As Restored Middle East Shipments Fuel Global Surplus Concerns By Kedia Advisory - Investing.com India",
-      "Canadian Financial Close: Loonie weakens, crude oil falls - Canadian Cattlemen"
+      "Canadian Financial Close: Loonie weakens, crude oil falls - Manitoba Co-operator"
     ]
   },
   "events": [
@@ -109,28 +109,28 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.6178071182367697,
-      "trust": 0.9193558307094785
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.37498775158124703,
-      "trust": 0.6696209849665125
+      "score": 0.4105005519237654,
+      "trust": 0.7330366998638667
     },
     {
       "style": "Trade with the dollar",
-      "bias": "flat",
-      "score": 0.1315400538414632,
-      "trust": 1.0961671153455266
+      "bias": "long",
+      "score": 0.14609317513774253,
+      "trust": 1.0753912905494893
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.10677965527828166,
-      "trust": 0.8898304606523473
+      "score": 0.13249533153493193,
+      "trust": 1.1041277627910995
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
