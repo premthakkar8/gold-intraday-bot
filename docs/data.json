@@ -1,17 +1,17 @@
 {
-  "updated": "2026-11-17 02:40 UTC",
+  "updated": "2026-11-17 02:55 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3866.66,
-  "stance": "Strategy: SELL is the trade (Fade the session range, confidence 63%).",
+  "price": 3863.62,
+  "stance": "Strategy: the SELL plan from 02:40 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3843.58,
-      "entry_high": 3845.1,
-      "sl": 3840.1,
-      "tp1": 3859.2,
-      "tp2": 3861.29,
-      "rr": 3.5,
+      "entry_high": 3845.63,
+      "sl": 3840.63,
+      "tp1": 3859.68,
+      "tp2": 3860.5,
+      "rr": 3.8,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
@@ -21,26 +21,26 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-17T01:12:22.708835+00:00",
-      "checked_at": "2026-11-17T02:40:22.444435+00:00"
+      "checked_at": "2026-11-17T02:55:06.054631+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3871.42,
+      "entry_low": 3870.89,
       "entry_high": 3872.94,
-      "sl": 3876.42,
-      "tp1": 3859.2,
-      "tp2": 3855.23,
+      "sl": 3875.89,
+      "tp1": 3859.68,
+      "tp2": 3856.02,
       "rr": 3.1,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.63,
+      "score": 0.58,
       "style": "range_fade",
       "favored": true,
       "ready": true,
       "status": "valid",
-      "reason": "Score 0.63 (Fade the session range), hawkish dollar news +0.69, price above VWAP.",
+      "reason": "Score 0.58 (Fade the session range), hawkish dollar news +0.73, price above VWAP.",
       "created_at": "2026-11-17T01:56:27.571371+00:00",
-      "checked_at": "2026-11-17T02:40:22.444435+00:00"
+      "checked_at": "2026-11-17T02:55:06.054631+00:00"
     }
   ],
   "active": [
@@ -72,34 +72,34 @@
     "structure": "sideways",
     "htf": "up",
     "session": "asia",
-    "vwap": 3859.1998795724194,
-    "atr": 6.320714285714303,
+    "vwap": 3859.682484930249,
+    "atr": 5.357857142857158,
     "day_low": 3843.58,
     "day_high": 3872.94,
-    "range_pos": 0.7861035422343265
+    "range_pos": 0.6825613079019032
   },
   "dxy": {
     "ok": true,
-    "last": 103.61100006103516,
-    "pct": 0.009654478654470553,
+    "last": 103.5999984741211,
+    "pct": -0.0009647114444970576,
     "state": "flat",
-    "corr": -0.3132880916596371
+    "corr": -0.26421043224174207
   },
   "oil": {
     "ok": true,
-    "last": 84.88999938964844,
-    "pct": -0.49231998706463886,
-    "state": "down",
-    "corr": -0.08326563728076498
+    "last": 85.08999633789062,
+    "pct": -0.2578844531697716,
+    "state": "flat",
+    "corr": -0.03026106021098894
   },
   "news": {
-    "usd": 0.69447954496677,
+    "usd": 0.7342100886191512,
     "oil": 0.0,
     "shock": false,
     "usd_headlines": [
+      "Dollar Strengthens Against Major Peers Ahead Of Fed Decision - BusinessToday Malaysia",
       "US Dollar Rallies as Fed Rate Risks Pressure Global Markets - FXEmpire",
-      "Canadian Dollar loses ground to US Dollar as oil prices decline amid Fed rate hike bets - www.tmgm.com",
-      "Euro falls below 1.10 amid U.S. dollar gains, Mohamed A. El-Erian notes - Traders Union"
+      "Canadian Dollar loses ground to US Dollar as oil prices decline amid Fed rate hike bets - www.tmgm.com"
     ],
     "oil_headlines": []
   },
@@ -123,26 +123,26 @@
     {
       "style": "Fade the session range",
       "bias": "short",
-      "score": 0.6258887702475545,
-      "trust": 1.2381729697848254
+      "score": 0.5781198721980543,
+      "trust": 1.2638737941952307
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5093726748815325,
-      "trust": 0.9078714794116138
+      "score": 0.5206023493053404,
+      "trust": 0.9138020368677421
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.2229059118988592,
-      "trust": 0.696580974683935
+      "score": 0.211365374835216,
+      "trust": 0.66051679636005
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.09294759818021193,
+      "trust": 0.9294759818021193
     },
     {
       "style": "Trade the oil shock",
