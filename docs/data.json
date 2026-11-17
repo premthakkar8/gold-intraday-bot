@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-17 19:03 UTC",
+  "updated": "2026-11-17 19:18 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3853.7,
-  "stance": "Strategy: the BUY plan from 17:06 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3856.49,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3836.91,
-      "entry_high": 3840.54,
-      "sl": 3835.54,
-      "tp1": 3851.47,
+      "entry_high": 3840.51,
+      "sl": 3835.51,
+      "tp1": 3851.51,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T13:40:24.720182+00:00",
-      "checked_at": "2026-11-17T19:03:27.662894+00:00"
+      "checked_at": "2026-11-17T19:18:17.287299+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3887.31,
+      "entry_low": 3887.34,
       "entry_high": 3890.94,
-      "sl": 3892.31,
-      "tp1": 3876.38,
+      "sl": 3892.34,
+      "tp1": 3876.34,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.22,
+      "score": 0.28,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T15:52:12.278478+00:00",
-      "checked_at": "2026-11-17T19:03:27.662894+00:00"
+      "checked_at": "2026-11-17T19:18:17.287299+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "down",
     "htf": "sideways",
     "session": "newyork",
-    "vwap": 3865.3681978721816,
-    "atr": 2.4928571428571167,
+    "vwap": 3865.25015738106,
+    "atr": 2.5507142857142884,
     "day_low": 3836.91,
     "day_high": 3890.94,
-    "range_pos": 0.3107532852119175
+    "range_pos": 0.36239126411252737
   },
   "dxy": {
     "ok": true,
-    "last": 103.4260025024414,
-    "pct": -0.1689128733009848,
+    "last": 103.44999694824219,
+    "pct": -0.14575243442355545,
     "state": "down",
-    "corr": -0.163196634849202
+    "corr": -0.1532318708838437
   },
   "oil": {
     "ok": true,
-    "last": 86.5999984741211,
-    "pct": 1.5359333386468053,
+    "last": 86.54000091552734,
+    "pct": 1.4655879781711119,
     "state": "up",
-    "corr": -0.26705648721081393
+    "corr": -0.32703157398568644
   },
   "news": {
-    "usd": 0.18555973087469518,
-    "oil": 0.15381560029546212,
+    "usd": 0.183219883996125,
+    "oil": 0.13953548807584398,
     "shock": true,
     "usd_headlines": [
       "The Greenback Weakens Slightly Against Canada's Loonie as Treasury Yields Edge Down - marketscreener.com",
@@ -96,8 +96,8 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.7598447778976468,
-      "trust": 0.9997957603916405
+      "score": 0.7598449993050014,
+      "trust": 0.9997960517171071
     },
     {
       "style": "Trade the oil shock",
@@ -106,15 +106,15 @@
       "trust": 1.0
     },
     {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.23571938733100803,
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.27799699600319533,
       "trust": 1.0
     },
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.22000000000000003,
+      "style": "Trade with the dollar",
+      "bias": "long",
+      "score": 0.21077035644400888,
       "trust": 1.0
     },
     {
@@ -125,10 +125,10 @@
     }
   ],
   "record": {
-    "graded": 150,
+    "graded": 151,
     "wins": 37,
     "losses": 79,
-    "scratches": 34,
-    "avg_r": -0.18835893582886792
+    "scratches": 35,
+    "avg_r": -0.18711152565781583
   }
 }
