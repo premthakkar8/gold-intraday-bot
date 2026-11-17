@@ -1,80 +1,58 @@
 {
-  "updated_at": "2026-11-17T17:06:08.022018+00:00",
-  "atr": 4.377142857142871,
-  "price": 3869.28,
-  "stance": "Strategy: BUY is the trade (Trade the oil shock, confidence 55%).",
+  "updated_at": "2026-11-17T17:20:46.035767+00:00",
+  "atr": 3.929999999999999,
+  "price": 3865.42,
+  "stance": "Strategy: the BUY plan from 17:06 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3836.91,
-      "entry_high": 3839.5,
-      "sl": 3834.5,
-      "tp1": 3853.02,
+      "entry_high": 3839.75,
+      "sl": 3834.75,
+      "tp1": 3852.65,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.55,
+      "score": 0.54,
       "style": "oil_shock",
       "favored": false,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T13:40:24.720182+00:00",
-      "checked_at": "2026-11-17T17:19:15.491343+00:00"
+      "checked_at": "2026-11-17T17:33:52.646310+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3888.35,
+      "entry_low": 3888.1,
       "entry_high": 3890.94,
-      "sl": 3893.35,
-      "tp1": 3874.83,
+      "sl": 3893.1,
+      "tp1": 3875.2,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.12,
+      "score": 0.43,
       "style": "trend_align",
       "favored": true,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.12. Take it only with a clear reaction at the entry.",
+      "status": "valid",
+      "reason": "Score 0.43 (Trade with the intraday trend), hawkish dollar news +0.51, price above VWAP.",
       "created_at": "2026-11-17T15:52:12.278478+00:00",
-      "checked_at": "2026-11-17T17:19:15.491343+00:00"
+      "checked_at": "2026-11-17T17:33:52.646310+00:00"
     }
   ],
   "research": [
-    "Gold 3869.82 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3865.60, ATR 4.38, day range 3836.91-3890.94.",
-    "DXY 103.42 (-0.17% today, down), gold-dollar corr -0.39.",
-    "WTI 86.58 (+1.51% today, up), gold-oil corr -0.17.",
-    "Headlines: dollar +0.50, oil +0.25.",
+    "Gold 3871.26 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3865.67, ATR 3.93, day range 3836.91-3890.94.",
+    "DXY 103.44 (-0.16% today, down), gold-dollar corr -0.36.",
+    "WTI 86.39 (+1.27% today, up), gold-oil corr -0.17.",
+    "Headlines: dollar +0.51, oil +0.24.",
     "Dollar: Treasury Yields Rise Amid Resilient U.S. Sales, Prices -- Market Talk - Moomoo",
     "Oil: US strategic oil inventories fall to lowest level in 44 years - Laodong.vn",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
-    {
-      "side": "SELL",
-      "entry_low": 3876.59,
-      "entry_high": 3880.02,
-      "sl": 3881.59,
-      "tp1": 3865.16,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.62,
-      "style": "trend_align",
-      "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.62 (Trade with the intraday trend), hawkish dollar news +0.85, price above VWAP.",
-      "created_at": "2026-11-17T03:24:22.057872+00:00",
-      "checked_at": "2026-11-17T05:19:27.377026+00:00",
-      "entry": 3876.59,
-      "entered_at": "2026-11-17T05:19:27.377026+00:00",
-      "closed": "sl"
-    },
     {
       "side": "SELL",
       "entry_low": 3883.59,
@@ -98,5 +76,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-17T17:19:15.491343+00:00"
+  "last_check": "2026-11-17T17:33:52.646310+00:00"
 }

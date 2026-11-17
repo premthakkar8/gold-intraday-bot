@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-17 17:06 UTC",
+  "updated": "2026-11-17 17:20 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3869.82,
-  "stance": "Strategy: BUY is the trade (Trade the oil shock, confidence 55%).",
+  "price": 3871.26,
+  "stance": "Strategy: the BUY plan from 17:06 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3836.91,
-      "entry_high": 3839.5,
-      "sl": 3834.5,
-      "tp1": 3853.02,
+      "entry_high": 3839.75,
+      "sl": 3834.75,
+      "tp1": 3852.65,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.55,
+      "score": 0.54,
       "style": "oil_shock",
       "favored": false,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T13:40:24.720182+00:00",
-      "checked_at": "2026-11-17T17:06:08.022018+00:00"
+      "checked_at": "2026-11-17T17:20:46.035767+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3888.35,
+      "entry_low": 3888.1,
       "entry_high": 3890.94,
-      "sl": 3893.35,
-      "tp1": 3874.83,
+      "sl": 3893.1,
+      "tp1": 3875.2,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.12,
+      "score": 0.43,
       "style": "trend_align",
       "favored": true,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.12. Take it only with a clear reaction at the entry.",
+      "status": "valid",
+      "reason": "Score 0.43 (Trade with the intraday trend), hawkish dollar news +0.51, price above VWAP.",
       "created_at": "2026-11-17T15:52:12.278478+00:00",
-      "checked_at": "2026-11-17T17:06:08.022018+00:00"
+      "checked_at": "2026-11-17T17:20:46.035767+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "down",
     "htf": "sideways",
     "session": "newyork",
-    "vwap": 3865.6008816590847,
-    "atr": 4.377142857142871,
+    "vwap": 3865.67365398494,
+    "atr": 3.929999999999999,
     "day_low": 3836.91,
     "day_high": 3890.94,
-    "range_pos": 0.6091060521932294
+    "range_pos": 0.635757912270965
   },
   "dxy": {
     "ok": true,
-    "last": 103.41999816894531,
-    "pct": -0.17470850617746714,
+    "last": 103.43900299072266,
+    "pct": -0.15636426031302308,
     "state": "down",
-    "corr": -0.38537992563183265
+    "corr": -0.36481078054865707
   },
   "oil": {
     "ok": true,
-    "last": 86.58000183105469,
-    "pct": 1.5124878669012825,
+    "last": 86.38999938964844,
+    "pct": 1.2659733465739538,
     "state": "up",
-    "corr": -0.16695793678569507
+    "corr": -0.1739039715116488
   },
   "news": {
-    "usd": 0.5024552299456845,
-    "oil": 0.2520402923806276,
+    "usd": 0.505732745143255,
+    "oil": 0.24105230067959976,
     "shock": false,
     "usd_headlines": [
       "Treasury Yields Rise Amid Resilient U.S. Sales, Prices -- Market Talk - Moomoo",
@@ -96,25 +96,25 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.55,
+      "score": 0.5356041081659035,
       "trust": 1.0
     },
     {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.3196065569594508,
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.43256997455473484,
       "trust": 1.0
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.29903648488117446,
-      "trust": 0.7119916306694629
+      "score": 0.2990364848811744,
+      "trust": 0.7119916306694628
     },
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.125,
+      "style": "Trade with the dollar",
+      "bias": "long",
+      "score": 0.29497882916130486,
       "trust": 1.0
     },
     {
