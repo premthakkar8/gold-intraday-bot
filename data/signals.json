@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-11-17T07:48:25.952165+00:00",
-  "atr": 2.9342857142857093,
-  "price": 3869.99,
+  "updated_at": "2026-11-17T08:02:58.103104+00:00",
+  "atr": 2.8807142857142805,
+  "price": 3863.11,
   "stance": "Strategy: the BUY plan from 06:20 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3843.58,
-      "entry_high": 3846.97,
-      "sl": 3841.97,
-      "tp1": 3858.5,
+      "entry_high": 3847.0,
+      "sl": 3842.0,
+      "tp1": 3858.46,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-17T01:12:22.708835+00:00",
-      "checked_at": "2026-11-17T08:01:32.990654+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3883.3,
-      "entry_high": 3886.69,
-      "sl": 3888.3,
-      "tp1": 3871.77,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.4,
-      "style": "range_fade",
+      "score": 0.37,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-17T01:12:22.708835+00:00",
+      "checked_at": "2026-11-17T08:16:04.702471+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3883.27,
+      "entry_high": 3886.69,
+      "sl": 3888.27,
+      "tp1": 3871.81,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.29,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T05:36:34.810349+00:00",
-      "checked_at": "2026-11-17T08:01:32.990654+00:00"
+      "checked_at": "2026-11-17T08:16:04.702471+00:00"
     }
   ],
   "research": [
-    "Gold 3871.57 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3868.18, ATR 2.93, day range 3843.58-3886.69.",
-    "DXY 103.52 (-0.08% today, flat), gold-dollar corr -0.37.",
-    "WTI 85.29 (-0.02% today, flat), gold-oil corr -0.19.",
-    "Headlines: dollar +0.39, oil +0.00.",
+    "Gold 3869.42 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3868.28, ATR 2.88, day range 3843.58-3886.69.",
+    "DXY 103.55 (-0.05% today, flat), gold-dollar corr -0.37.",
+    "WTI 85.17 (-0.16% today, flat), gold-oil corr -0.19.",
+    "Headlines: dollar +0.46, oil +0.00, fresh shock.",
     "Dollar: Swiss Franc gains as US Dollar weakens ahead of Retail Sales data - FXStreet",
     "Next high-impact US release: Core Retail Sales m/m Tue 13:30 UTC."
   ],
@@ -207,5 +207,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-17T08:01:32.990654+00:00"
+  "last_check": "2026-11-17T08:16:04.702471+00:00"
 }

@@ -1,82 +1,82 @@
 {
-  "updated": "2026-11-17 07:48 UTC",
+  "updated": "2026-11-17 08:02 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3871.57,
+  "price": 3869.42,
   "stance": "Strategy: the BUY plan from 06:20 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3843.58,
-      "entry_high": 3846.97,
-      "sl": 3841.97,
-      "tp1": 3858.5,
+      "entry_high": 3847.0,
+      "sl": 3842.0,
+      "tp1": 3858.46,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-17T01:12:22.708835+00:00",
-      "checked_at": "2026-11-17T07:48:25.952165+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3883.3,
-      "entry_high": 3886.69,
-      "sl": 3888.3,
-      "tp1": 3871.77,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.4,
-      "style": "range_fade",
+      "score": 0.37,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-17T01:12:22.708835+00:00",
+      "checked_at": "2026-11-17T08:02:58.103104+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3883.27,
+      "entry_high": 3886.69,
+      "sl": 3888.27,
+      "tp1": 3871.81,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.29,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T05:36:34.810349+00:00",
-      "checked_at": "2026-11-17T07:48:25.952165+00:00"
+      "checked_at": "2026-11-17T08:02:58.103104+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "down",
     "session": "london",
-    "vwap": 3868.184954293565,
-    "atr": 2.9342857142857093,
+    "vwap": 3868.2819393934474,
+    "atr": 2.8807142857142805,
     "day_low": 3843.58,
     "day_high": 3886.69,
-    "range_pos": 0.6492693110647217
+    "range_pos": 0.5993968916724673
   },
   "dxy": {
     "ok": true,
-    "last": 103.52100372314453,
-    "pct": -0.0772137366072645,
+    "last": 103.55400085449219,
+    "pct": -0.04536353051986164,
     "state": "flat",
-    "corr": -0.3742090982376143
+    "corr": -0.3691449757506276
   },
   "oil": {
     "ok": true,
-    "last": 85.29000091552734,
-    "pct": -0.023439976132541663,
+    "last": 85.16999816894531,
+    "pct": -0.1641066623548796,
     "state": "flat",
-    "corr": -0.19426892516540759
+    "corr": -0.1945636653331723
   },
   "news": {
-    "usd": 0.39432625404690275,
+    "usd": 0.4601745644895154,
     "oil": 0.0,
-    "shock": false,
+    "shock": true,
     "usd_headlines": [
       "Swiss Franc gains as US Dollar weakens ahead of Retail Sales data - FXStreet",
-      "Indonesian Rupiah gains as US Dollar weakens amid Treasury sell-off - FXStreet",
-      "Institutional forecast: The Federal Reserve will implement consecutive rate hikes in December and January, followed by a prolonged pause. - Moomoo"
+      "US Dollar Technical Forecast: DXY Bulls Target Yearly Highs After Hot CPI - StoneX",
+      "Indonesian Rupiah gains as US Dollar weakens amid Treasury sell-off - FXStreet"
     ],
     "oil_headlines": []
   },
@@ -105,28 +105,28 @@
   ],
   "scorecard": [
     {
-      "style": "Fade the session range",
-      "bias": "short",
-      "score": 0.398684297160073,
-      "trust": 0.961970567083842
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.3835112621839224,
-      "trust": 0.9902552773841278
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.37254359927622993,
+      "trust": 0.9184999982155571
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.16059234784568657,
-      "trust": 0.7299652174803934
+      "score": 0.35023618427649816,
+      "trust": 0.5150532121713208
     },
     {
-      "style": "Trade with the intraday trend",
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.2924850713766278,
+      "trust": 0.9105000195942565
+    },
+    {
+      "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.11305132833839229,
+      "trust": 1.1305132833839229
     },
     {
       "style": "Trade the oil shock",
