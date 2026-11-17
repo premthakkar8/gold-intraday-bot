@@ -1,54 +1,56 @@
 {
-  "updated_at": "2026-11-17T13:40:24.720182+00:00",
-  "atr": 4.837142857142778,
-  "price": 3846.13,
+  "updated_at": "2026-11-17T13:55:06.192741+00:00",
+  "atr": 5.2649999999999055,
+  "price": 3857.58,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3836.91,
-      "entry_high": 3839.25,
-      "sl": 3834.25,
-      "tp1": 3853.4,
+      "entry_high": 3839.01,
+      "sl": 3834.01,
+      "tp1": 3853.75,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-17T13:40:24.720182+00:00",
+      "checked_at": "2026-11-17T14:08:14.129241+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3884.59,
+      "entry_high": 3886.69,
+      "sl": 3889.59,
+      "tp1": 3869.85,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.4,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "paused",
-      "reason": "Core Retail Sales m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
-      "created_at": "2026-11-17T13:40:24.720182+00:00",
-      "checked_at": "2026-11-17T13:53:45.281971+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3884.35,
-      "entry_high": 3886.69,
-      "sl": 3889.35,
-      "tp1": 3870.2,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.18,
-      "style": "dollar_lead",
+      "style": "trend_align",
       "favored": false,
       "ready": false,
-      "status": "paused",
-      "reason": "Core Retail Sales m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T05:36:34.810349+00:00",
-      "checked_at": "2026-11-17T13:53:45.281971+00:00"
+      "checked_at": "2026-11-17T14:08:14.129241+00:00"
     }
   ],
   "research": [
-    "Gold 3839.40 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3865.60, ATR 4.84, day range 3836.91-3886.69.",
-    "DXY 103.70 (+0.09% today, up), gold-dollar corr -0.50.",
-    "WTI 86.87 (+1.83% today, up), gold-oil corr -0.10.",
-    "Headlines: dollar +0.00, oil +0.00.",
-    "US event blackout: Core Retail Sales m/m at 13:30 UTC. Do not enter until it passes."
+    "Gold 3849.00 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3865.17, ATR 5.26, day range 3836.91-3886.69.",
+    "DXY 103.71 (+0.11% today, up), gold-dollar corr -0.51.",
+    "WTI 86.93 (+1.92% today, up), gold-oil corr -0.17.",
+    "Headlines: dollar +0.37, oil -0.25, fresh shock.",
+    "Dollar: Why Gold Loses Appeal When Fed Rate Hikes Lift Treasury Yields - StoneX",
+    "Oil: Oman Crude Oil Falls by More Than $3 a Barrel - Qatar news agency",
+    "Next high-impact US release: Core Retail Sales m/m Tue 13:30 UTC."
   ],
   "active": [
     {
@@ -140,5 +142,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-17T13:53:45.281971+00:00"
+  "last_check": "2026-11-17T14:08:14.129241+00:00"
 }
