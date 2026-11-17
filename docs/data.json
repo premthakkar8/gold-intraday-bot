@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-17 06:35 UTC",
+  "updated": "2026-11-17 06:50 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3872.75,
+  "price": 3871.3,
   "stance": "Strategy: the BUY plan from 06:20 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3843.58,
-      "entry_high": 3846.44,
-      "sl": 3841.44,
-      "tp1": 3859.29,
+      "entry_high": 3846.63,
+      "sl": 3841.63,
+      "tp1": 3859.01,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,79 +21,56 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T01:12:22.708835+00:00",
-      "checked_at": "2026-11-17T06:35:34.339296+00:00"
+      "checked_at": "2026-11-17T06:50:06.599475+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3883.83,
+      "entry_low": 3883.64,
       "entry_high": 3886.69,
-      "sl": 3888.83,
-      "tp1": 3870.98,
+      "sl": 3888.64,
+      "tp1": 3871.26,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.1,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "reason": "Strategy score is only 0.10. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-17T05:36:34.810349+00:00",
-      "checked_at": "2026-11-17T06:35:34.339296+00:00"
+      "checked_at": "2026-11-17T06:50:06.599475+00:00"
     }
   ],
-  "active": [
-    {
-      "side": "SELL",
-      "entry_low": 3883.59,
-      "entry_high": 3886.69,
-      "sl": 3888.59,
-      "tp1": 3871.35,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-17T05:36:34.810349+00:00",
-      "checked_at": "2026-11-17T05:37:38.108021+00:00",
-      "entry": 3883.59,
-      "entered_at": "2026-11-17T05:37:38.108021+00:00",
-      "closed": null
-    }
-  ],
+  "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3867.1689502875197,
-    "atr": 3.893571428571412,
+    "vwap": 3867.4078596538543,
+    "atr": 3.5478571428571155,
     "day_low": 3843.58,
     "day_high": 3886.69,
-    "range_pos": 0.6766411505451169
+    "range_pos": 0.6430062630480207
   },
   "dxy": {
     "ok": true,
-    "last": 103.51000213623047,
-    "pct": -0.0878329267062321,
+    "last": 103.48799896240234,
+    "pct": -0.10907130690416733,
     "state": "down",
-    "corr": -0.438110517809813
+    "corr": -0.39541079591428413
   },
   "oil": {
     "ok": true,
-    "last": 85.05999755859375,
-    "pct": -0.2696721238886994,
+    "last": 85.19000244140625,
+    "pct": -0.1406577430799753,
     "state": "flat",
-    "corr": -0.2685499954892272
+    "corr": -0.1686197591239092
   },
   "news": {
-    "usd": 0.6271558952220198,
+    "usd": 0.6276592486246643,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
@@ -104,7 +81,7 @@
     "oil_headlines": [
       "Brent crude slips below $92, WTI at $83 as supply surplus outlook outweighs Middle East tensions - Moneycontrol.com",
       "Crude Oil Falls As Restored Middle East Shipments Fuel Global Surplus Concerns By Kedia Advisory - Investing.com India",
-      "Canadian Financial Close: Loonie weakens, crude oil falls - Manitoba Co-operator"
+      "Canadian Financial Close: Loonie weakens, crude oil falls - Canadian Cattlemen"
     ]
   },
   "events": [
@@ -127,20 +104,20 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4491426084502677,
-      "trust": 0.8020403722326208
+      "score": 0.6647393231922063,
+      "trust": 0.8746570042002715
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.19345947269253033,
-      "trust": 1.052783156170546
+      "score": 0.19154993142671486,
+      "trust": 1.0019507672787669
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.1326542470200073,
-      "trust": 1.105452058500061
+      "score": 0.10679887101604905,
+      "trust": 0.8899905918004088
     },
     {
       "style": "Fade the session range",
@@ -150,9 +127,9 @@
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.09993656838148952,
-      "trust": 0.9993656838148952
+      "bias": "short",
+      "score": 0.09994305581194401,
+      "trust": 0.99943055811944
     }
   ],
   "record": {
