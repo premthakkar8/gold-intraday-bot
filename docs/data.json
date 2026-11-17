@@ -1,96 +1,73 @@
 {
-  "updated": "2026-11-17 05:21 UTC",
+  "updated": "2026-11-17 05:36 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3880.6,
+  "price": 3882.85,
   "stance": "Strategy: the BUY plan from 04:08 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3843.58,
-      "entry_high": 3846.8,
-      "sl": 3841.8,
-      "tp1": 3858.74,
+      "entry_high": 3846.68,
+      "sl": 3841.68,
+      "tp1": 3858.92,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.11,
+      "score": 0.12,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T01:12:22.708835+00:00",
-      "checked_at": "2026-11-17T05:21:59.098602+00:00"
+      "checked_at": "2026-11-17T05:36:34.810349+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3877.57,
-      "entry_high": 3880.79,
-      "sl": 3882.57,
-      "tp1": 3865.63,
+      "entry_low": 3883.59,
+      "entry_high": 3886.69,
+      "sl": 3888.59,
+      "tp1": 3871.35,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.4,
-      "style": "trend_align",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": true,
       "ready": false,
-      "status": "valid",
-      "reason": "Score 0.40 (Trade with the intraday trend), price above VWAP.",
-      "created_at": "2026-11-17T03:24:22.057872+00:00",
-      "checked_at": "2026-11-17T05:21:59.098602+00:00"
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-17T05:36:34.810349+00:00",
+      "checked_at": "2026-11-17T05:36:34.810349+00:00"
     }
   ],
-  "active": [
-    {
-      "side": "SELL",
-      "entry_low": 3876.59,
-      "entry_high": 3880.02,
-      "sl": 3881.59,
-      "tp1": 3865.16,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.62,
-      "style": "trend_align",
-      "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.62 (Trade with the intraday trend), hawkish dollar news +0.85, price above VWAP.",
-      "created_at": "2026-11-17T03:24:22.057872+00:00",
-      "checked_at": "2026-11-17T05:19:27.377026+00:00",
-      "entry": 3876.59,
-      "entered_at": "2026-11-17T05:19:27.377026+00:00",
-      "closed": null
-    }
-  ],
+  "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3864.561430221325,
-    "atr": 3.229285714285749,
+    "vwap": 3865.429241733288,
+    "atr": 3.4471428571428726,
     "day_low": 3843.58,
-    "day_high": 3880.79,
-    "range_pos": 0.9948938457403909
+    "day_high": 3886.69,
+    "range_pos": 0.9109255393180206
   },
   "dxy": {
     "ok": true,
-    "last": 103.49700164794922,
-    "pct": -0.10038153969419385,
+    "last": 103.49500274658203,
+    "pct": -0.10231096258318795,
     "state": "down",
-    "corr": -0.3040360103547718
+    "corr": -0.339882073015134
   },
   "oil": {
     "ok": true,
-    "last": 84.93000030517578,
-    "pct": -0.4454310916571929,
+    "last": 84.9000015258789,
+    "pct": -0.45726273357025693,
     "state": "down",
-    "corr": 0.036670236872510344
+    "corr": 0.023094644750124706
   },
   "news": {
     "usd": 0.0,
@@ -100,7 +77,7 @@
     "oil_headlines": [
       "Brent crude slips below $92, WTI at $83 as supply surplus outlook outweighs Middle East tensions - Moneycontrol.com",
       "Crude Oil Falls As Restored Middle East Shipments Fuel Global Surplus Concerns By Kedia Advisory - Investing.com India",
-      "Canadian Financial Close: Loonie weakens, crude oil falls - Manitoba Co-operator"
+      "Canadian Financial Close: Loonie weakens, crude oil falls - Canadian Cattlemen"
     ]
   },
   "events": [
@@ -123,32 +100,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6274867032761272,
-      "trust": 0.8256403990475358
+      "score": 0.4288127174815514,
+      "trust": 0.7657369955027703
     },
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.4,
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.12,
       "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.1136332655827837,
+      "score": 0.11983182409014358,
       "trust": 1.0
     },
     {
-      "style": "Trade the oil shock",
+      "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.10668639840319935,
-      "trust": 0.8890533200266613
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.08664035709190956,
+      "trust": 0.8664035709190956
     }
   ],
   "record": {
