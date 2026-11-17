@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-17 11:42 UTC",
+  "updated": "2026-11-17 11:57 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3861.41,
+  "price": 3866.98,
   "stance": "Strategy: the SELL plan from 11:27 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3843.58,
-      "entry_high": 3847.05,
-      "sl": 3842.05,
-      "tp1": 3858.37,
+      "entry_high": 3846.83,
+      "sl": 3841.83,
+      "tp1": 3858.7,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -18,60 +18,60 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "status": "invalid",
+      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-17T01:12:22.708835+00:00",
-      "checked_at": "2026-11-17T11:42:38.189672+00:00"
+      "checked_at": "2026-11-17T11:57:10.566494+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3883.22,
+      "entry_low": 3883.44,
       "entry_high": 3886.69,
-      "sl": 3888.22,
-      "tp1": 3871.9,
+      "sl": 3888.44,
+      "tp1": 3871.57,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.25,
-      "style": "dollar_lead",
+      "score": 0.67,
+      "style": "trend_align",
       "favored": true,
-      "ready": false,
+      "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T05:36:34.810349+00:00",
-      "checked_at": "2026-11-17T11:42:38.189672+00:00"
+      "checked_at": "2026-11-17T11:57:10.566494+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "down",
     "session": "london",
-    "vwap": 3866.5998546472006,
-    "atr": 2.7807142857143066,
+    "vwap": 3866.6148805906446,
+    "atr": 3.1728571428571803,
     "day_low": 3843.58,
     "day_high": 3886.69,
-    "range_pos": 0.41359313384365287
+    "range_pos": 0.5427974947807939
   },
   "dxy": {
     "ok": true,
-    "last": 103.58100128173828,
-    "pct": -0.01930159309944113,
+    "last": 103.5719985961914,
+    "pct": -0.027991360309414626,
     "state": "flat",
-    "corr": -0.1267195053298567
+    "corr": -0.12082739472979855
   },
   "oil": {
     "ok": true,
-    "last": 86.16000366210938,
-    "pct": 1.0200524530931787,
+    "last": 86.11000061035156,
+    "pct": 0.9377600218641945,
     "state": "up",
-    "corr": -0.31294664730199134
+    "corr": -0.2495671287376978
   },
   "news": {
-    "usd": 0.4223742435064298,
-    "oil": -0.025566514635703336,
+    "usd": 0.36888690377846384,
+    "oil": -0.025953976491764993,
     "shock": true,
     "usd_headlines": [
       "US Dollar Technical Forecast: DXY Bulls Target Yearly Highs After Hot CPI - StoneX",
@@ -109,34 +109,34 @@
   ],
   "scorecard": [
     {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.6720000000000002,
+      "trust": 1.0
+    },
+    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.35460939765929134,
-      "trust": 0.6332310672487345
+      "score": 0.304483137714513,
+      "trust": 0.543719888775916
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2547769068454884,
-      "trust": 1.0652485983174849
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.21141403044297483,
+      "trust": 0.9993593639820995
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09527421640141019,
-      "trust": 0.793951803345085
+      "score": 0.10271739524757983,
+      "trust": 0.855978293729832
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.09183808186860463,
-      "trust": 0.9183808186860463
+      "score": 0.1,
+      "trust": 1.0
     }
   ],
   "record": {
