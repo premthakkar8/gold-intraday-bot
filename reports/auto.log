@@ -1079,3 +1079,6 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-17 16:51 UTC  live: gold 3865.62 | holding flat stand_aside 8ab29d29 | new read flat stand_aside not opened
 2026-11-17 17:06 UTC  live: gold 3869.82 | opened long oil_shock ee525eb7 zone 3836.91-3839.50 stop 3834.50 target 3853.02 units 1 risk 5.00 USD tier normal conf 0.55
 2026-11-17 17:20 UTC  live: gold 3871.26 | holding long oil_shock ee525eb7 | new read long oil_shock not opened
+2026-11-17 17:35 UTC  live: gold 3865.53 | holding long oil_shock ee525eb7 | new read flat stand_aside not opened
+2026-11-17 17:36 UTC  live: SELL valid again
+2026-11-17 17:39 UTC  live: SELL now far: Price is 22.35 away from the entry (6.3 ATR). Unlikely to fill soon.
