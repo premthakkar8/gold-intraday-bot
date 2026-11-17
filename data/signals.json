@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-17T03:09:45.802304+00:00",
-  "atr": 5.405000000000006,
-  "price": 3877.76,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-17T03:24:22.057872+00:00",
+  "atr": 5.486428571428535,
+  "price": 3874.09,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.00). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3843.58,
-      "entry_high": 3845.61,
-      "sl": 3840.61,
-      "tp1": 3860.54,
+      "entry_high": 3845.56,
+      "sl": 3840.56,
+      "tp1": 3860.61,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,34 +21,33 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T01:12:22.708835+00:00",
-      "checked_at": "2026-11-17T03:22:52.168909+00:00"
+      "checked_at": "2026-11-17T03:37:29.512384+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3875.14,
-      "entry_high": 3877.17,
-      "sl": 3880.14,
-      "tp1": 3860.56,
+      "entry_low": 3878.04,
+      "entry_high": 3880.02,
+      "sl": 3883.04,
+      "tp1": 3862.99,
       "tp2": null,
-      "rr": 3.9,
+      "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.43,
-      "style": "dollar_lead",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": true,
       "ready": false,
-      "status": "valid",
-      "reason": "Score 0.43 (Trade with the dollar), hawkish dollar news +0.73, price above VWAP.",
-      "created_at": "2026-11-17T03:09:45.802304+00:00",
-      "checked_at": "2026-11-17T03:22:52.168909+00:00"
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-17T03:24:22.057872+00:00",
+      "checked_at": "2026-11-17T03:37:29.512384+00:00"
     }
   ],
   "research": [
-    "Gold 3875.43 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3860.56, ATR 5.41, day range 3843.58-3877.17.",
-    "DXY 103.55 (-0.05% today, flat), gold-dollar corr -0.33.",
-    "WTI 85.11 (-0.23% today, flat), gold-oil corr -0.03.",
-    "Headlines: dollar +0.73, oil -1.00, fresh shock.",
-    "Dollar: Dollar Strengthens Against Major Peers Ahead Of Fed Decision - BusinessToday Malaysia",
+    "Gold 3876.82 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3861.46, ATR 5.49, day range 3843.58-3880.02.",
+    "DXY 103.52 (-0.07% today, flat), gold-dollar corr -0.33.",
+    "WTI 85.11 (-0.21% today, flat), gold-oil corr +0.04.",
+    "Headlines: dollar +0.00, oil -1.00, fresh shock.",
     "Oil: Canadian Financial Close: Loonie weakens, crude oil falls - Canadian Cattlemen",
     "Next high-impact US release: Core Retail Sales m/m Tue 13:30 UTC."
   ],
@@ -164,5 +163,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-17T03:22:52.168909+00:00"
+  "last_check": "2026-11-17T03:37:29.512384+00:00"
 }
