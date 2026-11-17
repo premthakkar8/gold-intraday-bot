@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-11-17T01:27:09.089504+00:00",
-  "atr": 5.787142857142759,
-  "price": 3860.74,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.16). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-17T01:41:52.213505+00:00",
+  "atr": 6.57214285714271,
+  "price": 3861.98,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.18). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3843.58,
-      "entry_high": 3845.4,
-      "sl": 3840.4,
-      "tp1": 3855.21,
-      "tp2": 3860.85,
-      "rr": 2.6,
+      "entry_high": 3844.97,
+      "sl": 3839.97,
+      "tp1": 3854.89,
+      "tp2": 3861.5,
+      "rr": 2.5,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
@@ -21,35 +21,34 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-17T01:12:22.708835+00:00",
-      "checked_at": "2026-11-17T01:40:19.865803+00:00"
+      "checked_at": "2026-11-17T01:55:00.597750+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3861.69,
-      "entry_high": 3863.51,
-      "sl": 3866.69,
-      "tp1": 3855.21,
-      "tp2": 3846.24,
-      "rr": 1.8,
+      "entry_low": 3866.79,
+      "entry_high": 3868.18,
+      "sl": 3871.79,
+      "tp1": 3854.89,
+      "tp2": 3850.26,
+      "rr": 2.9,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.16,
+      "score": 0.18,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "weak",
-      "reason": "Strategy score is only 0.16. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-17T00:57:46.227087+00:00",
-      "checked_at": "2026-11-17T01:40:19.865803+00:00"
+      "reason": "Strategy score is only 0.18. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-17T01:41:52.213505+00:00",
+      "checked_at": "2026-11-17T01:55:00.597750+00:00"
     }
   ],
   "research": [
-    "Gold 3849.66 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3855.21, ATR 5.79, day range 3843.58-3863.51.",
-    "DXY 103.67 (+0.06% today, flat), gold-dollar corr -0.17.",
-    "WTI 85.29 (+0.00% today, flat), gold-oil corr +0.05.",
-    "Headlines: dollar +0.52, oil -1.00, fresh shock.",
+    "Gold 3867.88 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3854.89, ATR 6.57, day range 3843.58-3868.18.",
+    "DXY 103.69 (+0.09% today, up), gold-dollar corr -0.11.",
+    "WTI 85.20 (-0.13% today, flat), gold-oil corr +0.05.",
+    "Headlines: dollar +0.52, oil +0.00, fresh shock.",
     "Dollar: US Dollar Rallies as Fed Rate Risks Pressure Global Markets - FXEmpire",
-    "Oil: Canadian Financial Close: Loonie weakens, crude oil falls - Canadian Cattlemen",
     "Next high-impact US release: Core Retail Sales m/m Tue 13:30 UTC."
   ],
   "active": [
@@ -96,7 +95,29 @@
       "entry": 3847.87,
       "entered_at": "2026-11-17T01:13:25.799454+00:00",
       "closed": "tp"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3866.79,
+      "entry_high": 3868.18,
+      "sl": 3871.79,
+      "tp1": 3854.89,
+      "tp2": 3850.26,
+      "rr": 2.9,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.18,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.18. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-17T01:41:52.213505+00:00",
+      "checked_at": "2026-11-17T01:42:57.541825+00:00",
+      "entry": 3866.79,
+      "entered_at": "2026-11-17T01:42:57.541825+00:00",
+      "closed": "tp"
     }
   ],
-  "last_check": "2026-11-17T01:40:19.865803+00:00"
+  "last_check": "2026-11-17T01:55:00.597750+00:00"
 }
