@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-17 22:00 UTC",
+  "updated": "2026-11-17 22:15 UTC",
   "symbol": "VANTAGE:XAUUSD",
   "price": 3849.42,
-  "stance": "Strategy: BUY is the trade (Trade with the intraday trend, confidence 58%).",
+  "stance": "Strategy: the BUY plan from 22:00 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
@@ -14,14 +14,14 @@
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.58,
-      "style": "trend_align",
+      "score": 0.6,
+      "style": "oil_shock",
       "favored": true,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T13:40:24.720182+00:00",
-      "checked_at": "2026-11-17T22:00:47.791089+00:00"
+      "checked_at": "2026-11-17T22:15:28.318745+00:00"
     },
     {
       "side": "SELL",
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T15:52:12.278478+00:00",
-      "checked_at": "2026-11-17T22:00:47.791089+00:00"
+      "checked_at": "2026-11-17T22:15:28.318745+00:00"
     }
   ],
   "active": [],
@@ -57,21 +57,21 @@
   },
   "dxy": {
     "ok": true,
-    "last": 103.5510025024414,
-    "pct": -0.04825766485335281,
+    "last": 103.55699920654297,
+    "pct": -0.04246939618637047,
     "state": "flat",
-    "corr": 0.12351808442158581
+    "corr": 0.12271058757676034
   },
   "oil": {
     "ok": true,
-    "last": 85.63999938964844,
-    "pct": 0.3868266797546574,
+    "last": 85.61000061035156,
+    "pct": 0.35166224398466356,
     "state": "flat",
-    "corr": 0.23224261681834532
+    "corr": 0.23294314922894838
   },
   "news": {
-    "usd": -0.21644067057623934,
-    "oil": 0.0,
+    "usd": -0.22014864676652696,
+    "oil": 1.0,
     "shock": true,
     "usd_headlines": [
       "Treasury Yields Fall as Wall Street Waits for Nvidia -- Market Talk - Moomoo",
@@ -79,7 +79,6 @@
       "Treasury Yields Rise Amid Resilient U.S. Sales, Prices -- Market Talk - Moomoo"
     ],
     "oil_headlines": [
-      "Brent crude slips below $92, WTI at $83 as supply surplus outlook outweighs Middle East tensions - Moneycontrol.com",
       "US strategic oil inventories fall to lowest level in 44 years - Laodong.vn"
     ]
   },
@@ -94,34 +93,34 @@
   ],
   "scorecard": [
     {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.6006164774360851,
+      "trust": 0.9032621702514645
+    },
+    {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.5770848783347389,
-      "trust": 0.924815510151825
+      "score": 0.5616553420692573,
+      "trust": 0.9000886892135532
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.2946242902105535,
-      "trust": 0.5261148039474168
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.11203996860709715,
-      "trust": 1.1203996860709715
+      "score": 0.4494817224269749,
+      "trust": 0.8026459329053122
     },
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.10070431178959144,
-      "trust": 0.8392025982465954
+      "score": 0.1044077183268769,
+      "trust": 0.8700643193906409
     },
     {
-      "style": "Trade the oil shock",
+      "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.0722500320948682,
-      "trust": 0.9031254011858525
+      "score": 0.1,
+      "trust": 1.0
     }
   ],
   "record": {

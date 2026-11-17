@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-17T22:00:47.791089+00:00",
+  "updated_at": "2026-11-17T22:15:28.318745+00:00",
   "atr": 2.6078571428570934,
   "price": 3849.42,
-  "stance": "Strategy: BUY is the trade (Trade with the intraday trend, confidence 58%).",
+  "stance": "Strategy: the BUY plan from 22:00 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
@@ -14,14 +14,14 @@
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.58,
-      "style": "trend_align",
+      "score": 0.6,
+      "style": "oil_shock",
       "favored": true,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T13:40:24.720182+00:00",
-      "checked_at": "2026-11-17T22:02:51.927360+00:00"
+      "checked_at": "2026-11-17T22:15:28.318745+00:00"
     },
     {
       "side": "SELL",
@@ -40,16 +40,16 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-17T15:52:12.278478+00:00",
-      "checked_at": "2026-11-17T22:02:51.927360+00:00"
+      "checked_at": "2026-11-17T22:15:28.318745+00:00"
     }
   ],
   "research": [
     "Gold 3849.42 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3863.57, ATR 2.61, day range 3836.91-3890.94.",
-    "DXY 103.55 (-0.05% today, flat), gold-dollar corr +0.12.",
-    "WTI 85.64 (+0.39% today, flat), gold-oil corr +0.23.",
-    "Headlines: dollar -0.22, oil +0.00, fresh shock.",
+    "DXY 103.56 (-0.04% today, flat), gold-dollar corr +0.12.",
+    "WTI 85.61 (+0.35% today, flat), gold-oil corr +0.23.",
+    "Headlines: dollar -0.22, oil +1.00, fresh shock.",
     "Dollar: Treasury Yields Fall as Wall Street Waits for Nvidia -- Market Talk - Moomoo",
-    "Oil: Brent crude slips below $92, WTI at $83 as supply surplus outlook outweighs Middle East tensions - Moneycontrol.com",
+    "Oil: US strategic oil inventories fall to lowest level in 44 years - Laodong.vn",
     "Next high-impact US release: FOMC Meeting Minutes Wed 19:00 UTC."
   ],
   "active": [],
