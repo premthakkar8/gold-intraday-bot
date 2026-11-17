@@ -1029,3 +1029,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-17 05:36 UTC  live: gold 3882.85 | holding long trend_align c1c96a3e | new read flat stand_aside not opened
 2026-11-17 05:37 UTC  live: SELL entry reached at 3882.42
 2026-11-17 05:51 UTC  live: gold 3884.45 | holding long trend_align c1c96a3e | new read flat stand_aside not opened
+2026-11-17 06:06 UTC  live: gold 3875.17 | holding long trend_align c1c96a3e | new read long trend_align not opened
