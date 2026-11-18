@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-18T14:24:37.266319+00:00",
-  "atr": 6.150000000000026,
-  "price": 3765.8,
+  "updated_at": "2026-11-18T14:39:23.196680+00:00",
+  "atr": 6.547857142857181,
+  "price": 3768.28,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.18). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3742.82,
-      "entry_high": 3744.44,
-      "sl": 3739.44,
-      "tp1": 3760.39,
+      "entry_high": 3744.22,
+      "sl": 3739.22,
+      "tp1": 3760.72,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-18T13:10:18.683606+00:00",
-      "checked_at": "2026-11-18T14:37:45.052531+00:00"
+      "checked_at": "2026-11-18T14:52:36.200017+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3847.58,
+      "entry_low": 3847.8,
       "entry_high": 3849.2,
-      "sl": 3852.58,
-      "tp1": 3831.63,
+      "sl": 3852.8,
+      "tp1": 3831.3,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,14 +40,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T14:37:45.052531+00:00"
+      "checked_at": "2026-11-18T14:52:36.200017+00:00"
     }
   ],
   "research": [
-    "Gold 3775.38 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3785.26, ATR 6.15, day range 3742.82-3849.20.",
-    "DXY 103.82 (+0.15% today, up), gold-dollar corr -0.49.",
-    "WTI 84.10 (-2.06% today, down), gold-oil corr -0.05.",
-    "Headlines: dollar +0.65, oil -1.00, fresh shock.",
+    "Gold 3771.59 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3784.98, ATR 6.55, day range 3742.82-3849.20.",
+    "DXY 103.81 (+0.14% today, up), gold-dollar corr -0.49.",
+    "WTI 84.04 (-2.13% today, down), gold-oil corr -0.09.",
+    "Headlines: dollar +0.69, oil -1.00, fresh shock.",
     "Dollar: Gold Falls Below $3,800 as Dollar Index Hits 52-Week High; Nvidia Earnings Rescue AI Stocks but Hawkish Rate-Hike Shadow Lingers - BigGo Finance",
     "Oil: Crude Oil Prices Slide On US Inventory Build-Up, Iran Tensions Cap Decline - Times Now",
     "Next high-impact US release: FOMC Meeting Minutes Wed 19:00 UTC."
@@ -252,5 +252,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-18T14:37:45.052531+00:00"
+  "last_check": "2026-11-18T14:52:36.200017+00:00"
 }
