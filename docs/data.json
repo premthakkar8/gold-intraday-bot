@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-18 16:08 UTC",
+  "updated": "2026-11-18 16:22 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3747.02,
+  "price": 3742.61,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3742.82,
-      "entry_high": 3744.48,
-      "sl": 3739.48,
-      "tp1": 3760.34,
+      "entry_low": 3738.56,
+      "entry_high": 3740.5,
+      "sl": 3735.5,
+      "tp1": 3755.66,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
       "style": "range_fade",
-      "favored": false,
+      "favored": true,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-18T13:10:18.683606+00:00",
-      "checked_at": "2026-11-18T16:08:02.762200+00:00"
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-18T16:22:39.864367+00:00",
+      "checked_at": "2026-11-18T16:22:39.864367+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3847.54,
+      "entry_low": 3847.26,
       "entry_high": 3849.2,
-      "sl": 3852.54,
-      "tp1": 3831.68,
+      "sl": 3852.26,
+      "tp1": 3832.1,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.4,
       "style": "trend_align",
-      "favored": true,
+      "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T16:08:02.762200+00:00"
+      "checked_at": "2026-11-18T16:22:39.864367+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "down",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3781.8466551074766,
-    "atr": 6.081428571428497,
-    "day_low": 3742.82,
+    "vwap": 3781.22571895707,
+    "atr": 5.570714285714238,
+    "day_low": 3738.56,
     "day_high": 3849.2,
-    "range_pos": 0.03948110547095161
+    "range_pos": 0.0366052060737544
   },
   "dxy": {
     "ok": true,
     "last": 103.82599639892578,
     "pct": 0.15626922730449458,
     "state": "up",
-    "corr": -0.34827234739069346
+    "corr": -0.293672312843947
   },
   "oil": {
     "ok": true,
     "last": 82.9800033569336,
     "pct": -3.365551761046696,
     "state": "down",
-    "corr": 0.04918428824765657
+    "corr": 0.03651354826379081
   },
   "news": {
-    "usd": 0.6818295530797525,
+    "usd": 0.7333142563548135,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
+      "US Treasury Yields Rise as Hawkish Signals Challenge the Global Bond Rally - kalkine.ca",
       "Gold Falls Below $3,800 as Dollar Index Hits 52-Week High; Nvidia Earnings Rescue AI Stocks but Hawkish Rate-Hike Shadow Lingers - BigGo Finance",
-      "US Dollar Index: Fed minutes in focus as hawkish expectations meet overbought signals - FXStreet",
-      "Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike - CNBC"
+      "US Dollar Index: Fed minutes in focus as hawkish expectations meet overbought signals - FXStreet"
     ],
     "oil_headlines": [
       "Crude oil inventories rise, falling short of forecasts By Investing.com - Investing.com India",
@@ -123,7 +123,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.20591125919331613,
+      "score": 0.20227586722582214,
       "trust": 1.0
     },
     {
@@ -135,8 +135,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.094148528759822,
-      "trust": 0.7845710729985167
+      "score": 0.09418488438384628,
+      "trust": 0.7848740365320525
     }
   ],
   "record": {
