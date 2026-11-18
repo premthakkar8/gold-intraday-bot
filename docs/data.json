@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-18 19:49 UTC",
+  "updated": "2026-11-18 20:04 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3723.62,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.21). Take an entry only if price reaches it.",
+  "price": 3724.43,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.32). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3719.89,
-      "entry_high": 3722.74,
-      "sl": 3717.74,
-      "tp1": 3735.61,
+      "entry_high": 3722.68,
+      "sl": 3717.68,
+      "tp1": 3735.71,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-18T19:35:09.841417+00:00",
-      "checked_at": "2026-11-18T19:49:46.542034+00:00"
+      "checked_at": "2026-11-18T20:04:27.338255+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3846.35,
+      "entry_low": 3846.41,
       "entry_high": 3849.2,
-      "sl": 3851.35,
-      "tp1": 3833.48,
+      "sl": 3851.41,
+      "tp1": 3833.38,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.21,
-      "style": "dollar_lead",
+      "score": 0.32,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T19:49:46.542034+00:00"
+      "checked_at": "2026-11-18T20:04:27.338255+00:00"
     }
   ],
   "active": [
@@ -69,37 +69,37 @@
   ],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "sideways",
     "session": "newyork",
-    "vwap": 3772.922730150543,
-    "atr": 3.9064285714285427,
+    "vwap": 3772.2991942337426,
+    "atr": 4.019999999999982,
     "day_low": 3719.89,
     "day_high": 3849.2,
-    "range_pos": 0.0288454102544275
+    "range_pos": 0.03510942695847162
   },
   "dxy": {
     "ok": true,
-    "last": 103.86100006103516,
-    "pct": 0.1900356858771419,
+    "last": 103.88200378417969,
+    "pct": 0.21029703296748586,
     "state": "up",
-    "corr": -0.2458568697138162
+    "corr": -0.2426462331133243
   },
   "oil": {
     "ok": true,
-    "last": 82.38999938964844,
-    "pct": -4.052641487858939,
+    "last": 82.37999725341797,
+    "pct": -4.064289485891485,
     "state": "down",
-    "corr": 0.07476793055108151
+    "corr": 0.06328528340819467
   },
   "news": {
-    "usd": 0.8556634043195956,
+    "usd": 0.8633844071763127,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
       "'Almost all' Fed policymakers saw further interest rate hikes as likely - The Korea Times",
-      "Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Retreats As Traders Focus On Hawkish Interest Rate Outlook - FXEmpire",
-      "Fed policymakers focused on inflation risks in October, with some seeing need for bigger rate hike - Reuters"
+      "Fed policymakers focused on inflation risks in October, with some seeing need for bigger rate hike - Reuters",
+      "Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Retreats As Traders Focus On Hawkish Interest Rate Outlook - FXEmpire"
     ],
     "oil_headlines": [
       "Oil falls as WTI drops more than 4% to about $82 after US crude and gasoline stocks rise more than expected - MLQ.ai",
@@ -127,26 +127,26 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4506061801536666,
-      "trust": 0.8046538931315474
+      "score": 0.4249703056783144,
+      "trust": 0.7588755458541327
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.31673631840796507,
+      "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.20763991769091053,
-      "trust": 0.9295592151234535
+      "score": 0.23429379705375222,
+      "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11185529005133198,
-      "trust": 0.9321274170944331
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.11599596333281326,
+      "trust": 0.9666330277734438
     },
     {
       "style": "Fade the session range",
