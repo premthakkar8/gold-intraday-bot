@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-18 22:01 UTC",
+  "updated": "2026-11-18 22:16 UTC",
   "symbol": "VANTAGE:XAUUSD",
   "price": 3724.6,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.21). Take an entry only if price reaches it.",
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.20). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
@@ -21,7 +21,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T19:35:09.841417+00:00",
-      "checked_at": "2026-11-18T22:01:28.792391+00:00"
+      "checked_at": "2026-11-18T22:16:08.890910+00:00"
     },
     {
       "side": "SELL",
@@ -33,40 +33,17 @@
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.21,
+      "score": 0.2,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T22:01:28.792391+00:00"
+      "checked_at": "2026-11-18T22:16:08.890910+00:00"
     }
   ],
-  "active": [
-    {
-      "side": "BUY",
-      "entry_low": 3720.46,
-      "entry_high": 3723.31,
-      "sl": 3718.31,
-      "tp1": 3736.19,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.33,
-      "style": "trend_align",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.33 (Trade with the intraday trend), price below VWAP.",
-      "created_at": "2026-11-18T19:35:09.841417+00:00",
-      "checked_at": "2026-11-18T19:36:13.688924+00:00",
-      "entry": 3723.31,
-      "entered_at": "2026-11-18T19:36:13.688924+00:00",
-      "closed": null
-    }
-  ],
+  "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
@@ -80,26 +57,26 @@
   },
   "dxy": {
     "ok": true,
-    "last": 103.7959976196289,
-    "pct": 0.12733075409009845,
+    "last": 103.79299926757812,
+    "pct": 0.12443837871541441,
     "state": "up",
-    "corr": -0.4853583308610316
+    "corr": -0.4639322169208915
   },
   "oil": {
     "ok": true,
-    "last": 81.98999786376953,
-    "pct": -4.518463676149049,
+    "last": 81.87999725341797,
+    "pct": -4.646565000049311,
     "state": "down",
-    "corr": 0.0785996159353515
+    "corr": 0.030312937120813815
   },
   "news": {
-    "usd": 0.8984248153620562,
+    "usd": 0.8452501478074457,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
       "Federal Reserve Participants Signal Further Rate Hikes Likely - \uc870\uc120\uc77c\ubcf4",
       "Federal Reserve Minutes: Fed Officials Weigh 50 BPS Rate Hike Amid Inflation Concerns - CoinGape",
-      "CBOT soybeans end lower as dollar strengthens, crude oil eases - marketscreener.com"
+      "CBOT soybeans end lower as dollar strengthens, crude oil eases - TradingView"
     ],
     "oil_headlines": [
       "Oil News: Crude Oil Falls as Traders Weigh Inventory Data and Middle East Risks - FXEmpire",
@@ -133,8 +110,8 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2113069317800375,
-      "trust": 0.9258734073655314
+      "score": 0.20298376354652095,
+      "trust": 0.9259780094740637
     },
     {
       "style": "Trade with the intraday trend",
@@ -151,8 +128,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09847956371728148,
-      "trust": 0.8206630309773457
+      "score": 0.09850993180694681,
+      "trust": 0.8209160983912235
     }
   ],
   "record": {
