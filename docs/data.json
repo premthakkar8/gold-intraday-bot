@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-18 12:55 UTC",
+  "updated": "2026-11-18 13:10 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3747.23,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.19). Take an entry only if price reaches it.",
+  "price": 3765.26,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.17). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3745.48,
-      "entry_high": 3748.02,
-      "sl": 3743.02,
-      "tp1": 3761.67,
+      "entry_low": 3742.82,
+      "entry_high": 3744.68,
+      "sl": 3739.68,
+      "tp1": 3760.04,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -20,27 +20,27 @@
       "ready": false,
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-18T12:55:43.257998+00:00",
-      "checked_at": "2026-11-18T12:55:43.257998+00:00"
+      "created_at": "2026-11-18T13:10:18.683606+00:00",
+      "checked_at": "2026-11-18T13:10:18.683606+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3846.66,
+      "entry_low": 3847.34,
       "entry_high": 3849.2,
-      "sl": 3851.66,
-      "tp1": 3833.01,
+      "sl": 3852.34,
+      "tp1": 3831.98,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.19,
+      "score": 0.17,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T12:55:43.257998+00:00"
+      "checked_at": "2026-11-18T13:10:18.683606+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3786.8314984510503,
-    "atr": 4.473571428571534,
-    "day_low": 3745.48,
+    "vwap": 3786.04047791535,
+    "atr": 5.717142857142919,
+    "day_low": 3742.82,
     "day_high": 3849.2,
-    "range_pos": 0.016872348630929457
+    "range_pos": 0.21094190637337965
   },
   "dxy": {
     "ok": true,
-    "last": 103.86900329589844,
-    "pct": 0.19775604661007717,
+    "last": 103.83399963378906,
+    "pct": 0.16398958803742983,
     "state": "up",
-    "corr": -0.5029138929660668
+    "corr": -0.3737313555504167
   },
   "oil": {
     "ok": true,
-    "last": 84.27999877929688,
-    "pct": -1.8516407551278955,
+    "last": 84.16000366210938,
+    "pct": -1.9913811922414562,
     "state": "down",
-    "corr": -0.1772973509450065
+    "corr": -0.15640034854868096
   },
   "news": {
-    "usd": 0.5829697106797802,
+    "usd": 0.6190035283712773,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
       "US Dollar Index: Fed minutes in focus as hawkish expectations meet overbought signals - FXStreet",
-      "Gold Falls Below $3,800 as Federal Reserve Rate Hike Expectations Pressure Precious Metals - Yahoo Finance",
-      "EUR/USD Price Forecast: Further US Dollar gains push the pair down towards 1.0960 - www.tmgm.com"
+      "Fed\u2019s Waller says central bank may need to \u2018shock people\u2019 with half-point rate hike - CNBC",
+      "Gold Falls Below $3,800 as Federal Reserve Rate Hike Expectations Pressure Precious Metals - Yahoo Finance"
     ],
     "oil_headlines": [
       "US crude oil inventories rise by 5.3 million barrels - AzerNews",
@@ -111,13 +111,13 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4302427685372495,
-      "trust": 0.7682906581022312
+      "score": 0.45869409217195073,
+      "trust": 0.8190965931641977
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.19422644388562646,
+      "score": 0.1672799370570105,
       "trust": 0.8023083790668764
     },
     {
@@ -135,15 +135,15 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09398328990502233,
-      "trust": 0.7831940825418529
+      "score": 0.0940198080209684,
+      "trust": 0.7834984001747367
     }
   ],
   "record": {
-    "graded": 166,
-    "wins": 41,
+    "graded": 167,
+    "wins": 42,
     "losses": 89,
     "scratches": 36,
-    "avg_r": -0.2063484359899409
+    "avg_r": -0.1991247926606598
   }
 }
