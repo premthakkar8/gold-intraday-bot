@@ -1113,3 +1113,9 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-18 00:32 UTC  live: BUY SL hit
 2026-11-18 00:42 UTC  live: gold 3824.62 | holding flat stand_aside 10e8d018 | new read flat stand_aside not opened
 2026-11-18 00:43 UTC  live: BUY entry reached at 3820.56
+2026-11-18 00:56 UTC  live: gold 3816.21 | holding flat stand_aside 10e8d018 | new read flat stand_aside not opened
+2026-11-18 00:57 UTC  live: BUY SL hit
+2026-11-18 00:58 UTC  live: BUY entry reached at 3815.48
+2026-11-18 01:00 UTC  live: SELL now far: Price is 41.07 away from the entry (6.1 ATR). Unlikely to fill soon.
+2026-11-18 01:00 UTC  live: BUY SL hit
+2026-11-18 01:01 UTC  live: SELL valid again
