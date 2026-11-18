@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-18 10:58 UTC",
+  "updated": "2026-11-18 11:13 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3771.65,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.17). Take an entry only if price reaches it.",
+  "price": 3762.85,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.18). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3757.45,
-      "entry_high": 3760.74,
-      "sl": 3755.74,
-      "tp1": 3772.52,
+      "entry_high": 3760.69,
+      "sl": 3755.69,
+      "tp1": 3772.59,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,67 +21,67 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T08:17:34.958885+00:00",
-      "checked_at": "2026-11-18T10:58:53.159894+00:00"
+      "checked_at": "2026-11-18T11:13:29.623702+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3845.91,
+      "entry_low": 3845.96,
       "entry_high": 3849.2,
-      "sl": 3850.91,
-      "tp1": 3834.13,
+      "sl": 3850.96,
+      "tp1": 3834.06,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.17,
+      "score": 0.18,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T10:58:53.159894+00:00"
+      "checked_at": "2026-11-18T11:13:29.623702+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
-    "htf": "sideways",
+    "htf": "down",
     "session": "london",
-    "vwap": 3790.470593341392,
-    "atr": 3.1121428571428686,
+    "vwap": 3790.108227248913,
+    "atr": 3.1964285714285716,
     "day_low": 3757.45,
     "day_high": 3849.2,
-    "range_pos": 0.1547683923705752
+    "range_pos": 0.058855585831063664
   },
   "dxy": {
     "ok": true,
-    "last": 103.75199890136719,
-    "pct": 0.08488716939339896,
+    "last": 103.77799987792969,
+    "pct": 0.10996914210821636,
     "state": "up",
-    "corr": -0.43022784286773097
+    "corr": -0.37524451496801076
   },
   "oil": {
     "ok": true,
-    "last": 83.33000183105469,
-    "pct": -2.9579606781000667,
+    "last": 83.70999908447266,
+    "pct": -2.5154344858750477,
     "state": "down",
-    "corr": -0.0579792825332375
+    "corr": -0.11237375364326439
   },
   "news": {
-    "usd": 0.5463607562566559,
+    "usd": 0.5748383465977296,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
+      "Gold Falls Below $3,800 as Federal Reserve Rate Hike Expectations Pressure Precious Metals - Yahoo Finance",
       "EUR/USD Price Forecast: Further US Dollar gains push the pair down towards 1.0960 - www.tmgm.com",
-      "EUR/USD Price Forecast: Downside extends to near 1.0960 as US Dollar rallies further - FXStreet",
-      "Treasury Yields Trade Mixed Ahead of Fed Minutes, Eurozone Bond Yields Fall -- Update - marketscreener.com"
+      "EUR/USD Price Forecast: Downside extends to near 1.0960 as US Dollar rallies further - FXStreet"
     ],
     "oil_headlines": [
+      "Crude oil extends losses despite no changes in the Middle East; demand concerns could be the culprit - investingLive",
       "Brent Crude Slips To $91 Per Barrel As Supply Surplus, US Oil Inventories Ease Jitters - NDTV Profit",
-      "Crude Oil Falls as US Stockpiles Rise, Hormuz Risks Persist - HDFC Sky",
-      "Crude oil prices fall as US inventories rise; West Asia tensions persist - BusinessLine"
+      "Crude Oil Falls as US Stockpiles Rise, Hormuz Risks Persist - HDFC Sky"
     ]
   },
   "events": [
@@ -117,14 +117,14 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.16897332543403049,
+      "score": 0.1766989779392066,
       "trust": 1.001564237480773
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.10784806133052513,
-      "trust": 0.8987338444210428
+      "score": 0.10786513850178601,
+      "trust": 0.8988761541815502
     },
     {
       "style": "Trade with the intraday trend",
