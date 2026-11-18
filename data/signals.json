@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-18T19:20:21.557438+00:00",
-  "atr": 3.799999999999987,
-  "price": 3722.47,
+  "updated_at": "2026-11-18T19:35:09.841417+00:00",
+  "atr": 3.914999999999996,
+  "price": 3721.86,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.33). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3726.95,
-      "entry_high": 3729.86,
-      "sl": 3724.86,
-      "tp1": 3742.59,
+      "entry_low": 3720.46,
+      "entry_high": 3723.31,
+      "sl": 3718.31,
+      "tp1": 3736.19,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -20,15 +20,15 @@
       "ready": false,
       "status": "valid",
       "reason": "Score 0.33 (Trade with the intraday trend), price below VWAP.",
-      "created_at": "2026-11-18T18:06:45.053430+00:00",
-      "checked_at": "2026-11-18T19:33:31.151230+00:00"
+      "created_at": "2026-11-18T19:35:09.841417+00:00",
+      "checked_at": "2026-11-18T19:48:17.204996+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3846.29,
+      "entry_low": 3846.35,
       "entry_high": 3849.2,
-      "sl": 3851.29,
-      "tp1": 3833.56,
+      "sl": 3851.35,
+      "tp1": 3833.47,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,17 +40,17 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T19:33:31.151230+00:00"
+      "checked_at": "2026-11-18T19:48:17.204996+00:00"
     }
   ],
   "research": [
-    "Gold 3729.18 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3774.22, ATR 3.80, day range 3726.95-3849.20.",
+    "Gold 3721.94 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3773.57, ATR 3.91, day range 3720.46-3849.20.",
     "DXY 103.84 (+0.17% today, up), gold-dollar corr -0.20.",
-    "WTI 81.93 (-4.59% today, down), gold-oil corr +0.14.",
+    "WTI 82.22 (-4.25% today, down), gold-oil corr +0.06.",
     "Headlines: dollar +0.85, oil -1.00, fresh shock.",
     "Dollar: Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Retreats As Traders Focus On Hawkish Interest Rate Outlook - FXEmpire",
-    "Oil: U.S. Crude Oil Stockpiles Rise for Second Straight Week - WSJ",
-    "Next high-impact US release: FOMC Meeting Minutes Wed 19:00 UTC."
+    "Oil: Oil falls as WTI drops more than 4% to about $82 after US crude and gasoline stocks rise more than expected - MLQ.ai",
+    "No high-impact US release in the next 24 hours."
   ],
   "active": [
     {
@@ -227,7 +227,29 @@
       "entry": 3729.86,
       "entered_at": "2026-11-18T19:21:26.385948+00:00",
       "closed": "sl"
+    },
+    {
+      "side": "BUY",
+      "entry_low": 3720.46,
+      "entry_high": 3723.31,
+      "sl": 3718.31,
+      "tp1": 3736.19,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.33,
+      "style": "trend_align",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.33 (Trade with the intraday trend), price below VWAP.",
+      "created_at": "2026-11-18T19:35:09.841417+00:00",
+      "checked_at": "2026-11-18T19:36:13.688924+00:00",
+      "entry": 3723.31,
+      "entered_at": "2026-11-18T19:36:13.688924+00:00",
+      "closed": null
     }
   ],
-  "last_check": "2026-11-18T19:33:31.151230+00:00"
+  "last_check": "2026-11-18T19:48:17.204996+00:00"
 }
