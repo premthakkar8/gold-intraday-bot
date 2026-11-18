@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-11-18T05:20:43.925643+00:00",
-  "atr": 3.8021428571427935,
-  "price": 3793.27,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.22). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-18T05:35:15.784530+00:00",
+  "atr": 4.0149999999999055,
+  "price": 3791.22,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.24). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3780.29,
-      "entry_high": 3783.2,
-      "sl": 3778.2,
-      "tp1": 3795.93,
+      "entry_high": 3783.08,
+      "sl": 3778.08,
+      "tp1": 3796.1,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
       "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-18T03:23:27.965564+00:00",
-      "checked_at": "2026-11-18T05:33:50.506573+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3846.29,
-      "entry_high": 3849.2,
-      "sl": 3851.29,
-      "tp1": 3833.56,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.22,
-      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-18T03:23:27.965564+00:00",
+      "checked_at": "2026-11-18T05:48:22.263208+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3846.41,
+      "entry_high": 3849.2,
+      "sl": 3851.41,
+      "tp1": 3833.39,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.24,
+      "style": "oil_shock",
+      "favored": true,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T05:33:50.506573+00:00"
+      "checked_at": "2026-11-18T05:48:22.263208+00:00"
     }
   ],
   "research": [
-    "Gold 3793.08 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 3804.84, ATR 3.80, day range 3780.29-3849.20.",
-    "DXY 103.62 (-0.04% today, flat), gold-dollar corr +0.07.",
-    "WTI 84.71 (-1.35% today, down), gold-oil corr +0.15.",
-    "Headlines: dollar +0.56, oil -0.79, fresh shock.",
-    "Dollar: US Dollar Holds Near 19-Month High On Rate Hike Expectations - BusinessToday Malaysia",
-    "Oil: Crude oil prices fall as US inventories rise; West Asia tensions persist - BusinessLine",
+    "Gold 3792.29 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 3804.26, ATR 4.01, day range 3780.29-3849.20.",
+    "DXY 103.64 (-0.02% today, flat), gold-dollar corr +0.04.",
+    "WTI 85.06 (-0.94% today, down), gold-oil corr +0.31.",
+    "Headlines: dollar +0.62, oil -0.80, fresh shock.",
+    "Dollar: Federal Reserve Bank of New York President Skeptical of Big Rate Hike - \uc870\uc120\uc77c\ubcf4",
+    "Oil: Crude Oil Falls as US Stockpiles Rise, Hormuz Risks Persist - HDFC Sky",
     "Next high-impact US release: FOMC Meeting Minutes Wed 19:00 UTC."
   ],
   "active": [
@@ -274,5 +274,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-18T05:33:50.506573+00:00"
+  "last_check": "2026-11-18T05:48:22.263208+00:00"
 }
