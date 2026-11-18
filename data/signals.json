@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-18T23:00:32.636070+00:00",
-  "atr": 2.7499999999999676,
-  "price": 3734.88,
+  "updated_at": "2026-11-18T23:15:07.243275+00:00",
+  "atr": 2.674999999999987,
+  "price": 3741.74,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3719.89,
-      "entry_high": 3723.38,
-      "sl": 3718.38,
-      "tp1": 3734.66,
+      "entry_high": 3723.42,
+      "sl": 3718.42,
+      "tp1": 3734.6,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T19:35:09.841417+00:00",
-      "checked_at": "2026-11-18T23:13:40.153002+00:00"
+      "checked_at": "2026-11-18T23:28:14.617915+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3845.71,
+      "entry_low": 3845.67,
       "entry_high": 3849.2,
-      "sl": 3850.71,
-      "tp1": 3834.43,
+      "sl": 3850.67,
+      "tp1": 3834.49,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,13 +40,13 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T23:13:40.153002+00:00"
+      "checked_at": "2026-11-18T23:28:14.617915+00:00"
     }
   ],
   "research": [
-    "Gold 3731.22 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3769.32, ATR 2.75, day range 3719.89-3849.20.",
-    "DXY 103.78 (+0.11% today, up), gold-dollar corr -0.46.",
-    "WTI 81.89 (-4.63% today, down), gold-oil corr +0.02.",
+    "Gold 3734.59 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3769.07, ATR 2.67, day range 3719.89-3849.20.",
+    "DXY 103.81 (+0.14% today, up), gold-dollar corr -0.31.",
+    "WTI 81.93 (-4.59% today, down), gold-oil corr +0.01.",
     "Headlines: dollar +0.87, oil -1.00, fresh shock.",
     "Dollar: Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Retreats As Traders Focus On Hawkish Interest Rate Outlook - FXEmpire",
     "Oil: Oil News: Crude Oil Falls as Traders Weigh Inventory Data and Middle East Risks - FXEmpire",
@@ -207,5 +207,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-18T23:13:40.153002+00:00"
+  "last_check": "2026-11-18T23:28:14.617915+00:00"
 }
