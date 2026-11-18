@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-18T04:22:04.069020+00:00",
-  "atr": 5.320714285714303,
-  "price": 3785.46,
+  "updated_at": "2026-11-18T04:36:48.918965+00:00",
+  "atr": 4.554999999999999,
+  "price": 3784.83,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.23). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3781.17,
-      "entry_high": 3783.24,
-      "sl": 3778.24,
-      "tp1": 3798.06,
+      "entry_high": 3783.66,
+      "sl": 3778.66,
+      "tp1": 3797.43,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-18T03:23:27.965564+00:00",
-      "checked_at": "2026-11-18T04:35:10.642102+00:00"
+      "checked_at": "2026-11-18T04:49:57.795714+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3847.13,
+      "entry_low": 3846.71,
       "entry_high": 3849.2,
-      "sl": 3852.13,
-      "tp1": 3832.31,
+      "sl": 3851.71,
+      "tp1": 3832.94,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,14 +40,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T04:35:10.642102+00:00"
+      "checked_at": "2026-11-18T04:49:57.795714+00:00"
     }
   ],
   "research": [
-    "Gold 3789.60 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 3808.18, ATR 5.32, day range 3781.17-3849.20.",
-    "DXY 103.64 (-0.02% today, flat), gold-dollar corr -0.54.",
-    "WTI 84.95 (-1.07% today, down), gold-oil corr +0.04.",
-    "Headlines: dollar +0.56, oil -0.74, fresh shock.",
+    "Gold 3784.08 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 3807.28, ATR 4.55, day range 3781.17-3849.20.",
+    "DXY 103.66 (-0.00% today, flat), gold-dollar corr -0.53.",
+    "WTI 84.95 (-1.07% today, down), gold-oil corr +0.06.",
+    "Headlines: dollar +0.56, oil -0.80, fresh shock.",
     "Dollar: US Dollar Holds Near 19-Month High On Rate Hike Expectations - BusinessToday Malaysia",
     "Oil: Crude oil prices fall as US inventories rise; West Asia tensions persist - BusinessLine",
     "Next high-impact US release: FOMC Meeting Minutes Wed 19:00 UTC."
@@ -252,5 +252,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-18T04:35:10.642102+00:00"
+  "last_check": "2026-11-18T04:49:57.795714+00:00"
 }

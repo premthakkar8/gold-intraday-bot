@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-18 04:22 UTC",
+  "updated": "2026-11-18 04:36 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3789.6,
+  "price": 3784.08,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.23). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3781.17,
-      "entry_high": 3783.24,
-      "sl": 3778.24,
-      "tp1": 3798.06,
+      "entry_high": 3783.66,
+      "sl": 3778.66,
+      "tp1": 3797.43,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-18T03:23:27.965564+00:00",
-      "checked_at": "2026-11-18T04:22:04.069020+00:00"
+      "checked_at": "2026-11-18T04:36:48.918965+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3847.13,
+      "entry_low": 3846.71,
       "entry_high": 3849.2,
-      "sl": 3852.13,
-      "tp1": 3832.31,
+      "sl": 3851.71,
+      "tp1": 3832.94,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T04:22:04.069020+00:00"
+      "checked_at": "2026-11-18T04:36:48.918965+00:00"
     }
   ],
   "active": [
@@ -72,29 +72,29 @@
     "structure": "down",
     "htf": "up",
     "session": "asia",
-    "vwap": 3808.1821425174658,
-    "atr": 5.320714285714303,
+    "vwap": 3807.283531214142,
+    "atr": 4.554999999999999,
     "day_low": 3781.17,
     "day_high": 3849.2,
-    "range_pos": 0.12391591944730072
+    "range_pos": 0.04277524621490321
   },
   "dxy": {
     "ok": true,
-    "last": 103.63899993896484,
-    "pct": -0.0241178475899227,
+    "last": 103.65899658203125,
+    "pct": -0.004827985358251233,
     "state": "flat",
-    "corr": -0.5378809213174168
+    "corr": -0.5294912052807536
   },
   "oil": {
     "ok": true,
     "last": 84.94999694824219,
     "pct": -1.071393698513028,
     "state": "down",
-    "corr": 0.03696640324364842
+    "corr": 0.06058287105952384
   },
   "news": {
-    "usd": 0.5552288679393993,
-    "oil": -0.7381211468751406,
+    "usd": 0.5572533693996083,
+    "oil": -0.8012820663415589,
     "shock": true,
     "usd_headlines": [
       "US Dollar Holds Near 19-Month High On Rate Hike Expectations - BusinessToday Malaysia",
@@ -104,7 +104,7 @@
     "oil_headlines": [
       "Crude oil prices fall as US inventories rise; West Asia tensions persist - BusinessLine",
       "Crude Oil Falls As Recovering Middle East Exports Fuel Supply Surplus Concerns By Kedia Advisory - Investing.com India",
-      "Oman Crude Oil Falls by More Than $3 a Barrel - Qatar news agency"
+      "Oil Price Today (November 18): Brent crude drops below $93 as traders weigh supply surplus and fresh attac - The Economic Times"
     ]
   },
   "events": [
@@ -140,26 +140,26 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.22652160325362372,
+      "score": 0.22585317425981702,
       "trust": 0.9999748596399892
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.11086562743722805,
+      "score": 0.125052335588068,
       "trust": 0.9995532098725678
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09260022725693783,
-      "trust": 0.771668560474482
+      "score": 0.09263910043478515,
+      "trust": 0.7719925036232096
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.0882860277280224,
-      "trust": 0.8828602772802239
+      "score": 0.08830264681941769,
+      "trust": 0.8830264681941767
     }
   ],
   "record": {
