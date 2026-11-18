@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-18T16:22:39.864367+00:00",
-  "atr": 5.570714285714238,
-  "price": 3736.26,
+  "updated_at": "2026-11-18T16:37:39.372686+00:00",
+  "atr": 5.502142857142807,
+  "price": 3744.77,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3738.56,
-      "entry_high": 3740.5,
-      "sl": 3735.5,
-      "tp1": 3755.66,
+      "entry_low": 3735.54,
+      "entry_high": 3737.51,
+      "sl": 3732.51,
+      "tp1": 3752.58,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -20,15 +20,15 @@
       "ready": false,
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-18T16:22:39.864367+00:00",
-      "checked_at": "2026-11-18T16:35:46.276121+00:00"
+      "created_at": "2026-11-18T16:37:39.372686+00:00",
+      "checked_at": "2026-11-18T16:50:45.920310+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3847.26,
+      "entry_low": 3847.23,
       "entry_high": 3849.2,
-      "sl": 3852.26,
-      "tp1": 3832.1,
+      "sl": 3852.23,
+      "tp1": 3832.16,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,16 +40,16 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T16:35:46.276121+00:00"
+      "checked_at": "2026-11-18T16:50:45.920310+00:00"
     }
   ],
   "research": [
-    "Gold 3742.61 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3781.23, ATR 5.57, day range 3738.56-3849.20.",
-    "DXY 103.83 (+0.16% today, up), gold-dollar corr -0.29.",
-    "WTI 82.98 (-3.37% today, down), gold-oil corr +0.04.",
+    "Gold 3738.15 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3780.45, ATR 5.50, day range 3735.54-3849.20.",
+    "DXY 103.86 (+0.18% today, up), gold-dollar corr -0.26.",
+    "WTI 82.98 (-3.37% today, down), gold-oil corr +0.05.",
     "Headlines: dollar +0.73, oil -1.00, fresh shock.",
     "Dollar: US Treasury Yields Rise as Hawkish Signals Challenge the Global Bond Rally - kalkine.ca",
-    "Oil: Crude oil inventories rise, falling short of forecasts By Investing.com - Investing.com India",
+    "Oil: Oil News: Crude Oil Falls as Traders Weigh Inventory Data and Middle East Risks - FXEmpire",
     "Next high-impact US release: FOMC Meeting Minutes Wed 19:00 UTC."
   ],
   "active": [
@@ -227,8 +227,30 @@
       "checked_at": "2026-11-18T16:23:43.159127+00:00",
       "entry": 3740.5,
       "entered_at": "2026-11-18T16:23:43.159127+00:00",
+      "closed": "sl"
+    },
+    {
+      "side": "BUY",
+      "entry_low": 3735.54,
+      "entry_high": 3737.51,
+      "sl": 3732.51,
+      "tp1": 3752.58,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-18T16:37:39.372686+00:00",
+      "checked_at": "2026-11-18T16:42:43.672696+00:00",
+      "entry": 3737.51,
+      "entered_at": "2026-11-18T16:42:43.672696+00:00",
       "closed": null
     }
   ],
-  "last_check": "2026-11-18T16:35:46.276121+00:00"
+  "last_check": "2026-11-18T16:50:45.920310+00:00"
 }
