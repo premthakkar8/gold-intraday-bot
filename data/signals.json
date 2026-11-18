@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-18T18:36:27.247666+00:00",
-  "atr": 4.675000000000019,
-  "price": 3739.74,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.14). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-18T18:51:03.387134+00:00",
+  "atr": 4.148571428571456,
+  "price": 3735.15,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.32). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3728.54,
-      "entry_high": 3730.97,
-      "sl": 3725.97,
-      "tp1": 3744.9,
+      "entry_high": 3731.26,
+      "sl": 3726.26,
+      "tp1": 3744.46,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "paused",
-      "reason": "FOMC Meeting Minutes at 19:00 UTC is a high-impact US release. Wait until it passes.",
-      "created_at": "2026-11-18T18:06:45.053430+00:00",
-      "checked_at": "2026-11-18T18:49:35.382856+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3846.77,
-      "entry_high": 3849.2,
-      "sl": 3851.77,
-      "tp1": 3832.84,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.14,
-      "style": "dollar_lead",
+      "score": 0.32,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "paused",
       "reason": "FOMC Meeting Minutes at 19:00 UTC is a high-impact US release. Wait until it passes.",
+      "created_at": "2026-11-18T18:06:45.053430+00:00",
+      "checked_at": "2026-11-18T19:04:11.482474+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3846.48,
+      "entry_high": 3849.2,
+      "sl": 3851.48,
+      "tp1": 3833.28,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.15,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "paused",
+      "reason": "FOMC Meeting Minutes at 19:00 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T18:49:35.382856+00:00"
+      "checked_at": "2026-11-18T19:04:11.482474+00:00"
     }
   ],
   "research": [
-    "Gold 3741.75 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3775.79, ATR 4.68, day range 3728.54-3849.20.",
+    "Gold 3739.54 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3775.35, ATR 4.15, day range 3728.54-3849.20.",
     "DXY 103.75 (+0.09% today, up), gold-dollar corr -0.13.",
-    "WTI 81.69 (-4.87% today, down), gold-oil corr +0.11.",
+    "WTI 81.75 (-4.80% today, down), gold-oil corr +0.10.",
     "Headlines: dollar +0.80, oil -1.00, fresh shock.",
     "Dollar: US Dollar Strengthens to 20-Month High Against Canada's Loonie as Rate Hike Expectations Build - www.marketscreener.com",
     "Oil: U.S. Crude Oil Stockpiles Rise for Second Straight Week - WSJ",
@@ -229,5 +229,5 @@
       "closed": "skipped"
     }
   ],
-  "last_check": "2026-11-18T18:49:35.382856+00:00"
+  "last_check": "2026-11-18T19:04:11.482474+00:00"
 }
