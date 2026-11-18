@@ -1,82 +1,82 @@
 {
-  "updated": "2026-11-18 18:21 UTC",
+  "updated": "2026-11-18 18:36 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3738.06,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.22). Take an entry only if price reaches it.",
+  "price": 3741.75,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.14). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3728.54,
-      "entry_high": 3730.94,
-      "sl": 3725.94,
-      "tp1": 3744.95,
+      "entry_high": 3730.97,
+      "sl": 3725.97,
+      "tp1": 3744.9,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
       "style": "range_fade",
-      "favored": true,
+      "favored": false,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "status": "paused",
+      "reason": "FOMC Meeting Minutes at 19:00 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-18T18:06:45.053430+00:00",
-      "checked_at": "2026-11-18T18:21:38.817347+00:00"
+      "checked_at": "2026-11-18T18:36:27.247666+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3846.8,
+      "entry_low": 3846.77,
       "entry_high": 3849.2,
-      "sl": 3851.8,
-      "tp1": 3832.79,
+      "sl": 3851.77,
+      "tp1": 3832.84,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.22,
+      "score": 0.14,
       "style": "dollar_lead",
-      "favored": false,
+      "favored": true,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "status": "paused",
+      "reason": "FOMC Meeting Minutes at 19:00 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T18:21:38.817347+00:00"
+      "checked_at": "2026-11-18T18:36:27.247666+00:00"
     }
   ],
   "active": [],
-  "blackout": null,
+  "blackout": "FOMC Meeting Minutes at 19:00 UTC",
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "newyork",
-    "vwap": 3776.3182182448827,
-    "atr": 4.734285714285728,
+    "vwap": 3775.793789059744,
+    "atr": 4.675000000000019,
     "day_low": 3728.54,
     "day_high": 3849.2,
-    "range_pos": 0.07889938670644782
+    "range_pos": 0.10948118680590131
   },
   "dxy": {
     "ok": true,
-    "last": 103.74600219726562,
-    "pct": 0.07910241864403086,
-    "state": "flat",
-    "corr": -0.09568990003588779
+    "last": 103.75299835205078,
+    "pct": 0.08585129451829364,
+    "state": "up",
+    "corr": -0.1336933413326224
   },
   "oil": {
     "ok": true,
-    "last": 81.43000030517578,
-    "pct": -5.170609408863656,
+    "last": 81.69000244140625,
+    "pct": -4.867823653752197,
     "state": "down",
-    "corr": 0.08182888188844498
+    "corr": 0.1101142236265203
   },
   "news": {
-    "usd": 0.7727821441457906,
+    "usd": 0.7951496057149269,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
+      "US Dollar Strengthens to 20-Month High Against Canada's Loonie as Rate Hike Expectations Build - www.marketscreener.com",
       "US Treasury Yields Rise as Hawkish Signals Challenge the Global Bond Rally - kalkine.ca",
-      "New York Fed President Rules Out 0.5% Rate Hike - \uc870\uc120\uc77c\ubcf4",
-      "Gold drops to 14-month low as hawkish Fed rhetoric boosts dollar, yields - The Globe and Mail"
+      "New York Fed President Rules Out 0.5% Rate Hike - \uc870\uc120\uc77c\ubcf4"
     ],
     "oil_headlines": [
       "U.S. Crude Oil Stockpiles Rise for Second Straight Week - WSJ",
@@ -111,13 +111,25 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.41475724346446635,
-      "trust": 0.628420065855252
+      "score": 0.4854187698679432,
+      "trust": 0.8668192319070414
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2210174417167714,
+      "score": 0.13658354314706675,
+      "trust": 0.9295592151234534
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.11179759560120489,
+      "trust": 0.9316466300100408
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.1,
       "trust": 1.0
     },
     {
@@ -125,25 +137,13 @@
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.09921911510673395,
-      "trust": 0.8227049867484596
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.09837391652236856,
-      "trust": 0.8197826376864047
     }
   ],
   "record": {
-    "graded": 171,
+    "graded": 172,
     "wins": 44,
-    "losses": 91,
+    "losses": 92,
     "scratches": 36,
-    "avg_r": -0.19446690277386075
+    "avg_r": -0.19915023473447785
   }
 }
