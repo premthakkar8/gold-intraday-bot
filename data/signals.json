@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-18T20:19:09.043896+00:00",
-  "atr": 3.674285714285751,
-  "price": 3727.96,
+  "updated_at": "2026-11-18T20:33:55.039901+00:00",
+  "atr": 4.117857142857149,
+  "price": 3731.27,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.20). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3719.89,
-      "entry_high": 3722.87,
-      "sl": 3717.87,
-      "tp1": 3735.42,
+      "entry_high": 3722.63,
+      "sl": 3717.63,
+      "tp1": 3735.79,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-18T19:35:09.841417+00:00",
-      "checked_at": "2026-11-18T20:32:17.579392+00:00"
+      "checked_at": "2026-11-18T20:47:04.557131+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3846.22,
+      "entry_low": 3846.46,
       "entry_high": 3849.2,
-      "sl": 3851.22,
-      "tp1": 3833.67,
+      "sl": 3851.46,
+      "tp1": 3833.3,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,16 +40,16 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T20:32:17.579392+00:00"
+      "checked_at": "2026-11-18T20:47:04.557131+00:00"
     }
   ],
   "research": [
-    "Gold 3725.39 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3771.75, ATR 3.67, day range 3719.89-3849.20.",
-    "DXY 103.85 (+0.18% today, up), gold-dollar corr -0.25.",
-    "WTI 82.08 (-4.41% today, down), gold-oil corr +0.06.",
-    "Headlines: dollar +0.87, oil -0.81, fresh shock.",
-    "Dollar: 'Almost all' Fed policymakers saw further interest rate hikes as likely - The Korea Times",
-    "Oil: Oil News: Crude Oil Falls as Traders Weigh Inventory Data and Middle East Risks - FXEmpire",
+    "Gold 3728.47 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3771.19, ATR 4.12, day range 3719.89-3849.20.",
+    "DXY 103.81 (+0.14% today, up), gold-dollar corr -0.36.",
+    "WTI 82.06 (-4.44% today, down), gold-oil corr +0.08.",
+    "Headlines: dollar +0.88, oil -0.70, fresh shock.",
+    "Dollar: Federal Reserve Governor Christopher Waller presses for half-point December rate hike as inflation persist - The Economic Times",
+    "Oil: Indian seafarers safe after crude oil tanker hit in projectile attack near Strait of Hormuz - Social News XYZ",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -207,5 +207,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-18T20:32:17.579392+00:00"
+  "last_check": "2026-11-18T20:47:04.557131+00:00"
 }
