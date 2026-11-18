@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-18 18:51 UTC",
+  "updated": "2026-11-18 19:05 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3739.54,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.32). Take an entry only if price reaches it.",
+  "price": 3732.61,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.33). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3728.54,
-      "entry_high": 3731.26,
-      "sl": 3726.26,
-      "tp1": 3744.46,
+      "entry_high": 3731.4,
+      "sl": 3726.4,
+      "tp1": 3744.25,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.32,
+      "score": 0.33,
       "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "paused",
       "reason": "FOMC Meeting Minutes at 19:00 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-18T18:06:45.053430+00:00",
-      "checked_at": "2026-11-18T18:51:03.387134+00:00"
+      "checked_at": "2026-11-18T19:05:41.421135+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3846.48,
+      "entry_low": 3846.34,
       "entry_high": 3849.2,
-      "sl": 3851.48,
-      "tp1": 3833.28,
+      "sl": 3851.34,
+      "tp1": 3833.49,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.15,
+      "score": 0.16,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "paused",
       "reason": "FOMC Meeting Minutes at 19:00 UTC is a high-impact US release. Wait until it passes.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T18:51:03.387134+00:00"
+      "checked_at": "2026-11-18T19:05:41.421135+00:00"
     }
   ],
   "active": [],
@@ -49,28 +49,28 @@
     "structure": "up",
     "htf": "sideways",
     "session": "newyork",
-    "vwap": 3775.3457704295956,
-    "atr": 4.148571428571456,
+    "vwap": 3774.859667674205,
+    "atr": 3.8885714285714323,
     "day_low": 3728.54,
     "day_high": 3849.2,
-    "range_pos": 0.09116525774904702
+    "range_pos": 0.03373114536714875
   },
   "dxy": {
     "ok": true,
-    "last": 103.75399780273438,
-    "pct": 0.08681541964318834,
+    "last": 103.77300262451172,
+    "pct": 0.10514851648374293,
     "state": "up",
-    "corr": -0.13461061377298728
+    "corr": -0.1392251292465403
   },
   "oil": {
     "ok": true,
-    "last": 81.75,
-    "pct": -4.797953435195416,
+    "last": 81.93000030517578,
+    "pct": -4.58833389470583,
     "state": "down",
-    "corr": 0.09610205851555434
+    "corr": 0.097083827793977
   },
   "news": {
-    "usd": 0.7963582515243122,
+    "usd": 0.7976178753925472,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
@@ -111,26 +111,26 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6616215481360846,
-      "trust": 0.8705546686001113
+      "score": 0.6432483064805349,
+      "trust": 0.8463793506322828
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.3165755602652049,
+      "score": 0.3290819946993839,
       "trust": 0.8227049867484596
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.14767714103213606,
+      "score": 0.1581703695328395,
       "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.10923479589093961,
-      "trust": 0.91028996575783
+      "score": 0.10924995136176457,
+      "trust": 0.9104162613480381
     },
     {
       "style": "Fade the session range",
@@ -140,10 +140,10 @@
     }
   ],
   "record": {
-    "graded": 172,
+    "graded": 173,
     "wins": 44,
-    "losses": 92,
+    "losses": 93,
     "scratches": 36,
-    "avg_r": -0.19915023473447785
+    "avg_r": -0.20377942412907624
   }
 }
