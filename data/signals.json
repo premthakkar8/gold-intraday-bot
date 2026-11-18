@@ -1,17 +1,36 @@
 {
-  "updated_at": "2026-11-18T01:11:12.971034+00:00",
-  "atr": 7.943571428571529,
-  "price": 3817.02,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.16). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-18T01:26:00.471166+00:00",
+  "atr": 8.543571428571438,
+  "price": 3818.96,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.00). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3808.47,
-      "entry_high": 3809.1,
-      "sl": 3804.1,
-      "tp1": 3827.29,
+      "entry_high": 3808.77,
+      "sl": 3803.77,
+      "tp1": 3825.65,
+      "tp2": 3828.02,
+      "rr": 3.5,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-18T01:11:12.971034+00:00",
+      "checked_at": "2026-11-18T01:39:09.505658+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3848.9,
+      "entry_high": 3849.2,
+      "sl": 3853.9,
+      "tp1": 3829.65,
       "tp2": null,
-      "rr": 3.9,
+      "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
@@ -20,35 +39,16 @@
       "ready": false,
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-18T01:11:12.971034+00:00",
-      "checked_at": "2026-11-18T01:24:18.709344+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3852.39,
-      "entry_high": 3853.02,
-      "sl": 3857.39,
-      "tp1": 3833.97,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.16,
-      "style": "trend_align",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.16. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T01:24:18.709344+00:00"
+      "checked_at": "2026-11-18T01:39:09.505658+00:00"
     }
   ],
   "research": [
-    "Gold 3822.33 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 3827.29, ATR 7.94, day range 3808.47-3849.20.",
-    "DXY 103.65 (-0.01% today, flat), gold-dollar corr -0.64.",
-    "WTI 85.51 (-0.42% today, down), gold-oil corr +0.20.",
-    "Headlines: dollar -0.05, oil +0.33, fresh shock.",
-    "Dollar: US Dollar Technical Forecast: DXY Bulls Target Yearly Highs After Hot CPI - StoneX",
+    "Gold 3817.61 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3825.65, ATR 8.54, day range 3808.47-3849.20.",
+    "DXY 103.66 (-0.00% today, flat), gold-dollar corr -0.62.",
+    "WTI 85.62 (-0.29% today, flat), gold-oil corr +0.20.",
+    "Headlines: dollar +0.16, oil +0.33, fresh shock.",
+    "Dollar: Euro slips as hawkish Fed remarks, strong Retail Sales boost US Dollar - FXStreet",
     "Oil: Global Oil Inventories Fall 537 mb From February 2026 Peak as Supply Disruptions Bite - Global Trade Magazine",
     "Next high-impact US release: FOMC Meeting Minutes Wed 19:00 UTC."
   ],
@@ -142,5 +142,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-18T01:24:18.709344+00:00"
+  "last_check": "2026-11-18T01:39:09.505658+00:00"
 }
