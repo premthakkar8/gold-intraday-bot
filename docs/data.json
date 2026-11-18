@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-18 00:12 UTC",
+  "updated": "2026-11-18 00:27 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3840.14,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.22). Take an entry only if price reaches it.",
+  "price": 3832.08,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.27). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3840.14,
-      "entry_high": 3842.98,
-      "sl": 3837.98,
-      "tp1": 3855.88,
+      "entry_low": 3828.93,
+      "entry_high": 3831.22,
+      "sl": 3826.22,
+      "tp1": 3845.5,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
+      "score": 0.27,
+      "style": "oil_shock",
+      "favored": true,
       "ready": false,
       "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-18T00:12:35.543652+00:00",
-      "checked_at": "2026-11-18T00:12:35.543652+00:00"
+      "reason": "Strategy score is only 0.27. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-18T00:27:18.314869+00:00",
+      "checked_at": "2026-11-18T00:27:18.314869+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3869.09,
+      "entry_low": 3869.64,
       "entry_high": 3871.93,
-      "sl": 3874.09,
-      "tp1": 3856.19,
+      "sl": 3874.64,
+      "tp1": 3855.36,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.22,
+      "score": 0.21,
       "style": "trend_align",
-      "favored": true,
+      "favored": false,
       "ready": false,
       "status": "far",
-      "reason": "Price is 28.95 away from the entry (7.4 ATR). Unlikely to fill soon.",
+      "reason": "Price is 37.56 away from the entry (7.6 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-18T00:12:35.543652+00:00",
-      "checked_at": "2026-11-18T00:12:35.543652+00:00"
+      "checked_at": "2026-11-18T00:27:18.314869+00:00"
     }
   ],
   "active": [],
@@ -49,11 +49,11 @@
     "structure": "down",
     "htf": "up",
     "session": "asia",
-    "vwap": 3855.9288159860816,
-    "atr": 3.925000000000052,
-    "day_low": 3840.14,
+    "vwap": 3854.7193196167023,
+    "atr": 4.928571428571461,
+    "day_low": 3828.93,
     "day_high": 3871.93,
-    "range_pos": 0.0
+    "range_pos": 0.07325581395349048
   },
   "dxy": {
     "ok": true,
@@ -64,21 +64,22 @@
   },
   "oil": {
     "ok": true,
-    "last": 85.8499984741211,
-    "pct": 0.5151560626930574,
-    "state": "up",
-    "corr": 0.3689771553709779
+    "last": 85.5999984741211,
+    "pct": -0.31443375314400435,
+    "state": "flat",
+    "corr": 0.3538585960065239
   },
   "news": {
-    "usd": -0.18563811311651893,
-    "oil": -0.021643260167407363,
+    "usd": -0.04023573195169144,
+    "oil": 0.3918144403899982,
     "shock": true,
     "usd_headlines": [
+      "US Dollar Technical Forecast: DXY Bulls Target Yearly Highs After Hot CPI - StoneX",
       "Treasury Yields Fall as Wall Street Waits for Nvidia -- Market Talk - Moomoo",
-      "The Greenback Weakens Slightly Against Canada's Loonie as Treasury Yields Edge Down - marketscreener.com",
-      "Treasury Yields Rise Amid Resilient U.S. Sales, Prices -- Market Talk - Moomoo"
+      "The Greenback Weakens Slightly Against Canada's Loonie as Treasury Yields Edge Down - marketscreener.com"
     ],
     "oil_headlines": [
+      "WTI Crude Rises 2.34% to $87.30 a Barrel in Tuesday Trading - www.tokenpost.com",
       "Oman Crude Oil Falls by More Than $3 a Barrel - Qatar news agency",
       "US strategic oil inventories fall to lowest level in 44 years - Laodong.vn"
     ]
@@ -96,32 +97,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.48038023624278564,
-      "trust": 0.7064415238864494
+      "score": 0.37991057890048274,
+      "trust": 0.5586920277948275
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.2685767316154776,
+      "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.22308000000000003,
-      "trust": 1.0
+      "score": 0.20922538628039844,
+      "trust": 0.9378939675470612
     },
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.10969399851804834,
-      "trust": 0.9141166543170696
+      "score": 0.10434830955419397,
+      "trust": 0.8695692462849498
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.10748286519710037,
-      "trust": 1.0748286519710037
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.07190330810432981,
-      "trust": 0.8987913513041226
+      "score": 0.1,
+      "trust": 1.0
     }
   ],
   "record": {
