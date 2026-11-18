@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-18 19:05 UTC",
+  "updated": "2026-11-18 19:20 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3732.61,
+  "price": 3729.18,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.33). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3728.54,
-      "entry_high": 3731.4,
-      "sl": 3726.4,
-      "tp1": 3744.25,
+      "entry_low": 3726.95,
+      "entry_high": 3729.86,
+      "sl": 3724.86,
+      "tp1": 3742.59,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -18,65 +18,65 @@
       "style": "trend_align",
       "favored": true,
       "ready": false,
-      "status": "paused",
-      "reason": "FOMC Meeting Minutes at 19:00 UTC is a high-impact US release. Wait until it passes.",
+      "status": "valid",
+      "reason": "Score 0.33 (Trade with the intraday trend), price below VWAP.",
       "created_at": "2026-11-18T18:06:45.053430+00:00",
-      "checked_at": "2026-11-18T19:05:41.421135+00:00"
+      "checked_at": "2026-11-18T19:20:21.557438+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3846.34,
+      "entry_low": 3846.29,
       "entry_high": 3849.2,
-      "sl": 3851.34,
-      "tp1": 3833.49,
+      "sl": 3851.29,
+      "tp1": 3833.56,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.16,
+      "score": 0.21,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
-      "status": "paused",
-      "reason": "FOMC Meeting Minutes at 19:00 UTC is a high-impact US release. Wait until it passes.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T19:05:41.421135+00:00"
+      "checked_at": "2026-11-18T19:20:21.557438+00:00"
     }
   ],
   "active": [],
-  "blackout": "FOMC Meeting Minutes at 19:00 UTC",
+  "blackout": null,
   "chart": {
     "structure": "up",
     "htf": "sideways",
     "session": "newyork",
-    "vwap": 3774.859667674205,
-    "atr": 3.8885714285714323,
-    "day_low": 3728.54,
+    "vwap": 3774.2151673896133,
+    "atr": 3.799999999999987,
+    "day_low": 3726.95,
     "day_high": 3849.2,
-    "range_pos": 0.03373114536714875
+    "range_pos": 0.01824130879345618
   },
   "dxy": {
     "ok": true,
-    "last": 103.77300262451172,
-    "pct": 0.10514851648374293,
+    "last": 103.83799743652344,
+    "pct": 0.16784608853700858,
     "state": "up",
-    "corr": -0.1392251292465403
+    "corr": -0.20410384564528947
   },
   "oil": {
     "ok": true,
     "last": 81.93000030517578,
     "pct": -4.58833389470583,
     "state": "down",
-    "corr": 0.097083827793977
+    "corr": 0.13548671916650962
   },
   "news": {
-    "usd": 0.7976178753925472,
+    "usd": 0.8501674632705917,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
-      "US Dollar Strengthens to 20-Month High Against Canada's Loonie as Rate Hike Expectations Build - www.marketscreener.com",
-      "US Treasury Yields Rise as Hawkish Signals Challenge the Global Bond Rally - kalkine.ca",
-      "New York Fed President Rules Out 0.5% Rate Hike - \uc870\uc120\uc77c\ubcf4"
+      "Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Retreats As Traders Focus On Hawkish Interest Rate Outlook - FXEmpire",
+      "Fed policymakers focused on inflation risks in October, with some seeing need for bigger rate hike - Reuters",
+      "US Dollar Strengthens to 20-Month High Against Canada's Loonie as Rate Hike Expectations Build - www.marketscreener.com"
     ],
     "oil_headlines": [
       "U.S. Crude Oil Stockpiles Rise for Second Straight Week - WSJ",
@@ -111,8 +111,8 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6432483064805349,
-      "trust": 0.8463793506322828
+      "score": 0.6230264835684045,
+      "trust": 0.8197716889057954
     },
     {
       "style": "Trade with the intraday trend",
@@ -123,14 +123,14 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.1581703695328395,
+      "score": 0.2051246803910974,
       "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.10924995136176457,
-      "trust": 0.9104162613480381
+      "score": 0.10926512170692575,
+      "trust": 0.910542680891048
     },
     {
       "style": "Fade the session range",
@@ -140,10 +140,10 @@
     }
   ],
   "record": {
-    "graded": 173,
+    "graded": 174,
     "wins": 44,
-    "losses": 93,
+    "losses": 94,
     "scratches": 36,
-    "avg_r": -0.20377942412907624
+    "avg_r": -0.2083554044501735
   }
 }

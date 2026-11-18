@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-18T19:05:41.421135+00:00",
-  "atr": 3.8885714285714323,
-  "price": 3727.42,
+  "updated_at": "2026-11-18T19:20:21.557438+00:00",
+  "atr": 3.799999999999987,
+  "price": 3722.47,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.33). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3728.54,
-      "entry_high": 3731.4,
-      "sl": 3726.4,
-      "tp1": 3744.25,
+      "entry_low": 3726.95,
+      "entry_high": 3729.86,
+      "sl": 3724.86,
+      "tp1": 3742.59,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -18,39 +18,39 @@
       "style": "trend_align",
       "favored": true,
       "ready": false,
-      "status": "paused",
-      "reason": "FOMC Meeting Minutes at 19:00 UTC is a high-impact US release. Wait until it passes.",
+      "status": "valid",
+      "reason": "Score 0.33 (Trade with the intraday trend), price below VWAP.",
       "created_at": "2026-11-18T18:06:45.053430+00:00",
-      "checked_at": "2026-11-18T19:18:48.284040+00:00"
+      "checked_at": "2026-11-18T19:33:31.151230+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3846.34,
+      "entry_low": 3846.29,
       "entry_high": 3849.2,
-      "sl": 3851.34,
-      "tp1": 3833.49,
+      "sl": 3851.29,
+      "tp1": 3833.56,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.16,
+      "score": 0.21,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
-      "status": "paused",
-      "reason": "FOMC Meeting Minutes at 19:00 UTC is a high-impact US release. Wait until it passes.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T19:18:48.284040+00:00"
+      "checked_at": "2026-11-18T19:33:31.151230+00:00"
     }
   ],
   "research": [
-    "Gold 3732.61 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3774.86, ATR 3.89, day range 3728.54-3849.20.",
-    "DXY 103.77 (+0.11% today, up), gold-dollar corr -0.14.",
-    "WTI 81.93 (-4.59% today, down), gold-oil corr +0.10.",
-    "Headlines: dollar +0.80, oil -1.00, fresh shock.",
-    "Dollar: US Dollar Strengthens to 20-Month High Against Canada's Loonie as Rate Hike Expectations Build - www.marketscreener.com",
+    "Gold 3729.18 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3774.22, ATR 3.80, day range 3726.95-3849.20.",
+    "DXY 103.84 (+0.17% today, up), gold-dollar corr -0.20.",
+    "WTI 81.93 (-4.59% today, down), gold-oil corr +0.14.",
+    "Headlines: dollar +0.85, oil -1.00, fresh shock.",
+    "Dollar: Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Retreats As Traders Focus On Hawkish Interest Rate Outlook - FXEmpire",
     "Oil: U.S. Crude Oil Stockpiles Rise for Second Straight Week - WSJ",
-    "US event blackout: FOMC Meeting Minutes at 19:00 UTC. Do not enter until it passes."
+    "Next high-impact US release: FOMC Meeting Minutes Wed 19:00 UTC."
   ],
   "active": [
     {
@@ -205,7 +205,29 @@
       "checked_at": "2026-11-18T17:54:07.568739+00:00",
       "entered_at": "2026-11-18T17:54:07.568739+00:00",
       "closed": "skipped"
+    },
+    {
+      "side": "BUY",
+      "entry_low": 3726.95,
+      "entry_high": 3729.86,
+      "sl": 3724.86,
+      "tp1": 3742.59,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.33,
+      "style": "trend_align",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.33 (Trade with the intraday trend), price below VWAP.",
+      "created_at": "2026-11-18T18:06:45.053430+00:00",
+      "checked_at": "2026-11-18T19:21:26.385948+00:00",
+      "entry": 3729.86,
+      "entered_at": "2026-11-18T19:21:26.385948+00:00",
+      "closed": "sl"
     }
   ],
-  "last_check": "2026-11-18T19:18:48.284040+00:00"
+  "last_check": "2026-11-18T19:33:31.151230+00:00"
 }
