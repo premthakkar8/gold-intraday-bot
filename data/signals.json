@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-18T08:03:00.378555+00:00",
-  "atr": 3.959999999999874,
-  "price": 3762.29,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.15). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-18T08:17:34.958885+00:00",
+  "atr": 4.5671428571427315,
+  "price": 3769.38,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.26). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3764.8,
-      "entry_high": 3767.62,
-      "sl": 3762.62,
-      "tp1": 3780.57,
+      "entry_low": 3758.17,
+      "entry_high": 3760.66,
+      "sl": 3755.66,
+      "tp1": 3774.44,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -20,34 +20,34 @@
       "ready": false,
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-18T07:48:28.817803+00:00",
-      "checked_at": "2026-11-18T08:16:07.862809+00:00"
+      "created_at": "2026-11-18T08:17:34.958885+00:00",
+      "checked_at": "2026-11-18T08:30:41.937558+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3846.38,
+      "entry_low": 3846.71,
       "entry_high": 3849.2,
-      "sl": 3851.38,
-      "tp1": 3833.43,
+      "sl": 3851.71,
+      "tp1": 3832.93,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.15,
-      "style": "dollar_lead",
+      "score": 0.26,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T08:16:07.862809+00:00"
+      "checked_at": "2026-11-18T08:30:41.937558+00:00"
     }
   ],
   "research": [
-    "Gold 3772.91 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 3796.77, ATR 3.96, day range 3764.80-3849.20.",
-    "DXY 103.77 (+0.11% today, up), gold-dollar corr -0.25.",
-    "WTI 84.01 (-2.17% today, down), gold-oil corr +0.17.",
-    "Headlines: dollar +0.54, oil -1.00, fresh shock.",
+    "Gold 3762.10 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 3795.80, ATR 4.57, day range 3758.17-3849.20.",
+    "DXY 103.76 (+0.09% today, up), gold-dollar corr -0.23.",
+    "WTI 84.05 (-2.12% today, down), gold-oil corr +0.11.",
+    "Headlines: dollar +0.60, oil -1.00, fresh shock.",
     "Dollar: Dollar slides against dong - VnExpress International",
     "Oil: Crude Oil Falls as US Stockpiles Rise, Hormuz Risks Persist - HDFC Sky",
     "Next high-impact US release: FOMC Meeting Minutes Wed 19:00 UTC."
@@ -338,7 +338,29 @@
       "entry": 3767.66,
       "entered_at": "2026-11-18T07:49:32.144859+00:00",
       "closed": "sl"
+    },
+    {
+      "side": "BUY",
+      "entry_low": 3758.17,
+      "entry_high": 3760.66,
+      "sl": 3755.66,
+      "tp1": 3774.44,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-18T08:17:34.958885+00:00",
+      "checked_at": "2026-11-18T08:18:38.449054+00:00",
+      "entry": 3760.66,
+      "entered_at": "2026-11-18T08:18:38.449054+00:00",
+      "closed": null
     }
   ],
-  "last_check": "2026-11-18T08:16:07.862809+00:00"
+  "last_check": "2026-11-18T08:30:41.937558+00:00"
 }
