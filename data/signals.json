@@ -1,53 +1,14 @@
 {
-  "updated_at": "2026-11-19T23:29:13.603455+00:00",
-  "atr": 8.00785714285712,
-  "price": 3599.55,
+  "updated_at": "2026-11-19T23:43:48.344062+00:00",
+  "atr": 9.286428571428521,
+  "price": 3606.25,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.16). Take an entry only if price reaches it.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 3620.07,
-      "entry_high": 3620.67,
-      "sl": 3615.67,
-      "tp1": 3639.18,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-19T22:01:21.402224+00:00",
-      "checked_at": "2026-11-19T23:42:19.327488+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3757.96,
-      "entry_high": 3758.56,
-      "sl": 3762.96,
-      "tp1": 3739.45,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.16,
-      "style": "dollar_lead",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T23:42:19.327488+00:00"
-    }
-  ],
+  "setups": [],
   "research": [
-    "Gold 3627.27 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3708.27, ATR 8.01, day range 3620.07-3758.56.",
+    "Gold 3602.08 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3707.06, ATR 9.29, day range 3590.69-3758.56.",
     "DXY 103.92 (+0.11% today, up), gold-dollar corr -0.41.",
-    "WTI 83.06 (+1.27% today, up), gold-oil corr +0.16.",
-    "Headlines: dollar +0.25, oil -0.53, fresh shock.",
+    "WTI 82.88 (+1.05% today, up), gold-oil corr +0.13.",
+    "Headlines: dollar +0.28, oil -0.53, fresh shock.",
     "Dollar: Correction to Treasury Yields Fall Headline - marketscreener.com",
     "Oil: Crude Oil Forecast: WTI Struggles as US Inventories Rise - FXEmpire",
     "No high-impact US release in the next 24 hours."
@@ -186,5 +147,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-19T23:42:19.327488+00:00"
+  "last_check": "2026-11-19T23:56:53.888751+00:00"
 }
