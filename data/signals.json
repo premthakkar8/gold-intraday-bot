@@ -1,54 +1,54 @@
 {
-  "updated_at": "2026-11-19T11:28:35.288428+00:00",
-  "atr": 3.4642857142857144,
-  "price": 3726.1,
-  "stance": "Strategy: the SELL plan from 09:31 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
+  "updated_at": "2026-11-19T11:43:15.422319+00:00",
+  "atr": 3.5971428571428663,
+  "price": 3723.03,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3693.53,
-      "entry_high": 3696.62,
-      "sl": 3691.62,
-      "tp1": 3708.89,
+      "entry_high": 3696.55,
+      "sl": 3691.55,
+      "tp1": 3709.0,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.74,
-      "style": "trend_align",
-      "favored": true,
-      "ready": true,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-19T03:24:51.566003+00:00",
-      "checked_at": "2026-11-19T11:41:41.618124+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3755.47,
-      "entry_high": 3758.56,
-      "sl": 3760.47,
-      "tp1": 3743.2,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.26,
+      "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-19T03:24:51.566003+00:00",
+      "checked_at": "2026-11-19T11:56:22.701450+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3755.54,
+      "entry_high": 3758.56,
+      "sl": 3760.54,
+      "tp1": 3743.09,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.4,
+      "style": "trend_align",
+      "favored": true,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T11:41:41.618124+00:00"
+      "checked_at": "2026-11-19T11:56:22.701450+00:00"
     }
   ],
   "research": [
-    "Gold 3728.94 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3733.95, ATR 3.46, day range 3693.53-3758.56.",
-    "DXY 103.65 (-0.15% today, down), gold-dollar corr -0.49.",
-    "WTI 82.33 (+0.38% today, flat), gold-oil corr -0.14.",
+    "Gold 3724.98 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3733.86, ATR 3.60, day range 3693.53-3758.56.",
+    "DXY 103.65 (-0.15% today, down), gold-dollar corr -0.47.",
+    "WTI 81.78 (-0.29% today, flat), gold-oil corr -0.23.",
     "Headlines: dollar +0.88, oil -0.58, fresh shock.",
-    "Dollar: US Dollar Technical Forecast: DXY Bulls Target Yearly Highs After Hot CPI - StoneX",
+    "Dollar: US Dollar: Hawkish Fed signals support dollar outlook - Danske Bank - FXStreet",
     "Oil: IRGC Navy claims two supertankers carrying over 4mln barrels of crude oil struck a naval mine and exploded while attempting to transit a restricted route in ...",
     "No high-impact US release in the next 24 hours."
   ],
@@ -164,5 +164,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-19T11:41:41.618124+00:00"
+  "last_check": "2026-11-19T11:56:22.701450+00:00"
 }

@@ -1,80 +1,80 @@
 {
-  "updated": "2026-11-19 11:28 UTC",
+  "updated": "2026-11-19 11:43 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3728.94,
-  "stance": "Strategy: the SELL plan from 09:31 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3724.98,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3693.53,
-      "entry_high": 3696.62,
-      "sl": 3691.62,
-      "tp1": 3708.89,
+      "entry_high": 3696.55,
+      "sl": 3691.55,
+      "tp1": 3709.0,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.74,
-      "style": "trend_align",
-      "favored": true,
-      "ready": true,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-19T03:24:51.566003+00:00",
-      "checked_at": "2026-11-19T11:28:35.288428+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3755.47,
-      "entry_high": 3758.56,
-      "sl": 3760.47,
-      "tp1": 3743.2,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.26,
+      "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-19T03:24:51.566003+00:00",
+      "checked_at": "2026-11-19T11:43:15.422319+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3755.54,
+      "entry_high": 3758.56,
+      "sl": 3760.54,
+      "tp1": 3743.09,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.4,
+      "style": "trend_align",
+      "favored": true,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T11:28:35.288428+00:00"
+      "checked_at": "2026-11-19T11:43:15.422319+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "down",
     "htf": "sideways",
     "session": "london",
-    "vwap": 3733.9512918978276,
-    "atr": 3.4642857142857144,
+    "vwap": 3733.8624890685496,
+    "atr": 3.5971428571428663,
     "day_low": 3693.53,
     "day_high": 3758.56,
-    "range_pos": 0.5445179148085498
+    "range_pos": 0.4836229432569574
   },
   "dxy": {
     "ok": true,
     "last": 103.6500015258789,
     "pct": -0.1512399759785821,
     "state": "down",
-    "corr": -0.492875829674826
+    "corr": -0.4721390147412332
   },
   "oil": {
     "ok": true,
-    "last": 82.33000183105469,
-    "pct": 0.3779629366937894,
+    "last": 81.77999877929688,
+    "pct": -0.29260896560865635,
     "state": "flat",
-    "corr": -0.13587021023400636
+    "corr": -0.232473528665015
   },
   "news": {
-    "usd": 0.8798776976733065,
-    "oil": -0.5828506608220084,
+    "usd": 0.8816931667781932,
+    "oil": -0.5812932865292684,
     "shock": true,
     "usd_headlines": [
-      "US Dollar Technical Forecast: DXY Bulls Target Yearly Highs After Hot CPI - StoneX",
+      "US Dollar: Hawkish Fed signals support dollar outlook - Danske Bank - FXStreet",
       "US Dollar: Hawkish regime supports resilience \u2013 TD Securities - FXStreet",
       "Forex Today: Hawkish repricing of Fed policy outlook continues to support US Dollar - FXStreet"
     ],
@@ -116,28 +116,28 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.7356560298948378,
-      "trust": 0.9995326493136382
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4804109516991577,
-      "trust": 0.8578766994627816
+      "score": 0.5631621924739589,
+      "trust": 0.7410028848341565
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.4,
+      "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.2533335892597159,
-      "trust": 1.0375093081254008
+      "score": 0.2569797313156088,
+      "trust": 1.071552403215487
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11063707335128134,
-      "trust": 0.9219756112606778
+      "score": 0.11016350409620422,
+      "trust": 0.9180292008017019
     },
     {
       "style": "Fade the session range",
@@ -147,10 +147,10 @@
     }
   ],
   "record": {
-    "graded": 181,
+    "graded": 182,
     "wins": 46,
     "losses": 96,
-    "scratches": 39,
-    "avg_r": -0.20029746063165849
+    "scratches": 40,
+    "avg_r": -0.19919692513368237
   }
 }
