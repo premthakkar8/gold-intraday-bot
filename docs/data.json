@@ -1,100 +1,77 @@
 {
-  "updated": "2026-11-19 16:37 UTC",
+  "updated": "2026-11-19 16:51 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3685.62,
-  "stance": "Strategy: BUY is the trade (Fade the session range, confidence 58%).",
+  "price": 3689.67,
+  "stance": "Strategy: the BUY plan from 16:37 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3669.79,
-      "entry_high": 3671.28,
-      "sl": 3666.28,
-      "tp1": 3687.56,
+      "entry_high": 3671.59,
+      "sl": 3666.59,
+      "tp1": 3687.1,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.68,
+      "score": 0.63,
       "style": "range_fade",
       "favored": true,
       "ready": true,
       "status": "valid",
-      "reason": "Score 0.68 (Fade the session range), price below VWAP.",
+      "reason": "Score 0.63 (Fade the session range), price below VWAP.",
       "created_at": "2026-11-19T16:07:33.356747+00:00",
-      "checked_at": "2026-11-19T16:37:13.354351+00:00"
+      "checked_at": "2026-11-19T16:51:55.159086+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3757.07,
+      "entry_low": 3756.76,
       "entry_high": 3758.56,
-      "sl": 3762.07,
-      "tp1": 3740.79,
+      "sl": 3761.76,
+      "tp1": 3741.25,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.24,
+      "score": 0.23,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T16:37:13.354351+00:00"
+      "checked_at": "2026-11-19T16:51:55.159086+00:00"
     }
   ],
-  "active": [
-    {
-      "side": "BUY",
-      "entry_low": 3669.79,
-      "entry_high": 3670.76,
-      "sl": 3665.76,
-      "tp1": 3688.33,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-19T16:07:33.356747+00:00",
-      "checked_at": "2026-11-19T16:08:36.172640+00:00",
-      "entry": 3670.76,
-      "entered_at": "2026-11-19T16:08:36.172640+00:00",
-      "closed": null
-    }
-  ],
+  "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3724.003690034592,
-    "atr": 6.382857142857217,
+    "vwap": 3723.3881794687536,
+    "atr": 5.825000000000078,
     "day_low": 3669.79,
     "day_high": 3758.56,
-    "range_pos": 0.1783260110397649
+    "range_pos": 0.22394953249971966
   },
   "dxy": {
     "ok": true,
-    "last": 103.85600280761719,
-    "pct": 0.04720645182770108,
+    "last": 103.84600067138672,
+    "pct": 0.03757113214124364,
     "state": "flat",
-    "corr": -0.30986334053269127
+    "corr": -0.3175145030788578
   },
   "oil": {
     "ok": true,
-    "last": 83.4800033569336,
-    "pct": 1.7800619039535277,
+    "last": 83.75,
+    "pct": 2.109245827529353,
     "state": "up",
-    "corr": 0.28705868482407
+    "corr": 0.3071826360306134
   },
   "news": {
-    "usd": 0.5785652102935883,
-    "oil": -0.6373284932400949,
+    "usd": 0.5623248723921561,
+    "oil": -0.639459314831621,
     "shock": false,
     "usd_headlines": [
       "US Dollar vs Hungarian Forint ticks up after Hungarian central bank hints at future rate cuts - Traders Union",
@@ -127,13 +104,13 @@
     {
       "style": "Fade the session range",
       "bias": "long",
-      "score": 0.6766556880110938,
-      "trust": 1.0941329985012405
+      "score": 0.6306542211810701,
+      "trust": 1.0939999074558218
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.23882499193019033,
+      "score": 0.23494168535387036,
       "trust": 0.8962017173252721
     },
     {
@@ -143,16 +120,16 @@
       "trust": 0.7284034752137183
     },
     {
+      "style": "Trade the oil shock",
+      "bias": "short",
+      "score": 0.16164309925221806,
+      "trust": 0.7388418984880354
+    },
+    {
       "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.0886166561092417,
-      "trust": 0.7384721342436809
     }
   ],
   "record": {
