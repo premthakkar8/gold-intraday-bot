@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-19 18:20 UTC",
+  "updated": "2026-11-19 18:35 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3677.58,
+  "price": 3683.41,
   "stance": "Strategy: the BUY plan from 17:51 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3667.61,
-      "entry_high": 3670.02,
-      "sl": 3665.02,
-      "tp1": 3684.0,
+      "entry_high": 3670.42,
+      "sl": 3665.42,
+      "tp1": 3683.39,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T16:07:33.356747+00:00",
-      "checked_at": "2026-11-19T18:20:36.900723+00:00"
+      "checked_at": "2026-11-19T18:35:21.431551+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3756.15,
+      "entry_low": 3755.75,
       "entry_high": 3758.56,
-      "sl": 3761.15,
-      "tp1": 3742.17,
+      "sl": 3760.75,
+      "tp1": 3742.78,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T18:20:36.900723+00:00"
+      "checked_at": "2026-11-19T18:35:21.431551+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "newyork",
-    "vwap": 3719.2571078476217,
-    "atr": 4.712142857142843,
+    "vwap": 3718.7006274431346,
+    "atr": 3.9792857142857168,
     "day_low": 3667.61,
     "day_high": 3758.56,
-    "range_pos": 0.10962067069818383
+    "range_pos": 0.17372182517866694
   },
   "dxy": {
     "ok": true,
-    "last": 103.875,
-    "pct": 0.06550694459602985,
+    "last": 103.87200164794922,
+    "pct": 0.06261855356873941,
     "state": "flat",
-    "corr": -0.4123629312838939
+    "corr": -0.40194047956822143
   },
   "oil": {
     "ok": true,
-    "last": 83.3499984741211,
-    "pct": 1.6215580169340567,
+    "last": 83.37999725341797,
+    "pct": 1.6581329749012257,
     "state": "up",
-    "corr": 0.36611089620433024
+    "corr": 0.3885477809137605
   },
   "news": {
-    "usd": 0.43202892550272637,
-    "oil": -0.611053605260366,
+    "usd": 0.43168703171790135,
+    "oil": -0.6132386955532959,
     "shock": true,
     "usd_headlines": [
       "Policymakers want rate hike but disagree on pace - Axios",
@@ -104,26 +104,26 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.37899521509924505,
-      "trust": 0.6767771698200804
+      "score": 0.378995215099245,
+      "trust": 0.6767771698200803
     },
     {
       "style": "Trade the oil shock",
       "bias": "short",
-      "score": 0.2368156584510052,
-      "trust": 0.9141772269861748
+      "score": 0.23914393776017048,
+      "trust": 0.9142989433820452
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.16063979606811962,
+      "score": 0.15917749707042922,
       "trust": 0.9159911339504971
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.12916735859730885,
-      "trust": 1.2916735859730886
+      "score": 0.12912599258639057,
+      "trust": 1.2912599258639057
     },
     {
       "style": "Trade with the intraday trend",
