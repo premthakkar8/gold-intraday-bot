@@ -1,9 +1,49 @@
 {
-  "updated": "2026-11-19 16:07 UTC",
+  "updated": "2026-11-19 16:22 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3675.5,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
+  "price": 3680.46,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.28). Take an entry only if price reaches it.",
   "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3669.79,
+      "entry_high": 3671.01,
+      "sl": 3666.01,
+      "tp1": 3687.96,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-19T16:07:33.356747+00:00",
+      "checked_at": "2026-11-19T16:22:28.135653+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3757.34,
+      "entry_high": 3758.56,
+      "sl": 3762.34,
+      "tp1": 3740.39,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.28,
+      "style": "trend_align",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-19T01:12:39.861841+00:00",
+      "checked_at": "2026-11-19T16:22:28.135653+00:00"
+    }
+  ],
+  "active": [
     {
       "side": "BUY",
       "entry_low": 3669.79,
@@ -21,58 +61,41 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-19T16:07:33.356747+00:00",
-      "checked_at": "2026-11-19T16:07:33.356747+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3757.59,
-      "entry_high": 3758.56,
-      "sl": 3762.59,
-      "tp1": 3740.02,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.34,
-      "style": "trend_align",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T16:07:33.356747+00:00"
+      "checked_at": "2026-11-19T16:08:36.172640+00:00",
+      "entry": 3670.76,
+      "entered_at": "2026-11-19T16:08:36.172640+00:00",
+      "closed": null
     }
   ],
-  "active": [],
   "blackout": null,
   "chart": {
     "structure": "down",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3725.7210651320047,
-    "atr": 7.320000000000034,
+    "vwap": 3724.826448923977,
+    "atr": 6.877857142857173,
     "day_low": 3669.79,
     "day_high": 3758.56,
-    "range_pos": 0.06432353272502013
+    "range_pos": 0.12019826517967866
   },
   "dxy": {
     "ok": true,
-    "last": 103.78099822998047,
-    "pct": -0.02504742142749576,
+    "last": 103.84300231933594,
+    "pct": 0.0346827411139532,
     "state": "flat",
-    "corr": -0.21685745373616303
+    "corr": -0.2806590542777511
   },
   "oil": {
     "ok": true,
-    "last": 82.80999755859375,
-    "pct": 0.9631808679111019,
+    "last": 83.56999969482422,
+    "pct": 1.8897867778550352,
     "state": "up",
-    "corr": 0.3101677100146294
+    "corr": 0.2986128263266129
   },
   "news": {
-    "usd": 0.7590158231502182,
-    "oil": -0.6347172908296195,
-    "shock": true,
+    "usd": 0.7601768487145787,
+    "oil": -0.6353797179935704,
+    "shock": false,
     "usd_headlines": [
       "Dario Perkins: Questions remain about an AI market crash and Federal Reserve rate hikes - Traders Union",
       "Federal Reserve: Hawkish path priced in \u2013 UOB - FXStreet",
@@ -102,27 +125,21 @@
   ],
   "scorecard": [
     {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.5212107290163581,
-      "trust": 0.7897132257823608
-    },
-    {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.34320000000000006,
+      "score": 0.2750129816180225,
       "trust": 1.0
     },
     {
-      "style": "Trade the oil shock",
-      "bias": "short",
-      "score": 0.21209721826818614,
-      "trust": 0.81079764597122
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.25270823225035544,
+      "trust": 0.7897132257823607
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.18194924311883728,
+      "score": 0.25243711198487295,
       "trust": 0.7748458859753474
     },
     {
@@ -130,6 +147,12 @@
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.09732829019833397,
+      "trust": 0.8110690849861164
     }
   ],
   "record": {
