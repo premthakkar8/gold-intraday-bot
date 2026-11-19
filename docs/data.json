@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-19 12:27 UTC",
+  "updated": "2026-11-19 12:41 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3714.92,
+  "price": 3714.0,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
   "setups": [
     {
@@ -21,7 +21,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T03:24:51.566003+00:00",
-      "checked_at": "2026-11-19T12:27:09.163191+00:00"
+      "checked_at": "2026-11-19T12:41:48.122673+00:00"
     },
     {
       "side": "SELL",
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T12:27:09.163191+00:00"
+      "checked_at": "2026-11-19T12:41:48.122673+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "down",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3733.0720123949627,
-    "atr": 3.5392857142857275,
+    "vwap": 3732.762178010334,
+    "atr": 3.543571428571405,
     "day_low": 3693.53,
     "day_high": 3758.56,
-    "range_pos": 0.3289251114870053
+    "range_pos": 0.3147777948639071
   },
   "dxy": {
     "ok": true,
-    "last": 103.74800109863281,
-    "pct": -0.05683442191866923,
+    "last": 103.74500274658203,
+    "pct": -0.05972281294595968,
     "state": "flat",
-    "corr": -0.510277510191462
+    "corr": -0.5044058195548672
   },
   "oil": {
     "ok": true,
-    "last": 82.76000213623047,
-    "pct": 0.9022257052562549,
+    "last": 82.9000015258789,
+    "pct": 1.072915043683913,
     "state": "up",
-    "corr": -0.33222889177138887
+    "corr": -0.33287629943627456
   },
   "news": {
-    "usd": 0.8866116495700727,
-    "oil": -0.5404282930415633,
+    "usd": 0.7046195110095772,
+    "oil": -0.5393512512400503,
     "shock": true,
     "usd_headlines": [
+      "US Dollar Falls Early Thursday Ahead of Jobless Claims, Philadelphia Fed Manufacturing - marketscreener.com",
       "US Dollar: Hawkish Fed signals support dollar outlook - Danske Bank - FXStreet",
-      "US Dollar Technical Forecast: DXY Bulls Target Yearly Highs After Hot CPI - StoneX",
-      "US Dollar: Hawkish regime supports resilience \u2013 TD Securities - FXStreet"
+      "US Dollar Technical Forecast: DXY Bulls Target Yearly Highs After Hot CPI - StoneX"
     ],
     "oil_headlines": [
       "IRGC Navy claims two supertankers carrying over 4mln barrels of crude oil struck a naval mine and exploded while attempting to transit a restricted route in ...",
@@ -118,8 +118,8 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.48567036868882796,
-      "trust": 0.7358641949830727
+      "score": 0.4856703686888279,
+      "trust": 0.7358641949830725
     },
     {
       "style": "Trade with the intraday trend",
@@ -130,7 +130,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.24128240946555526,
+      "score": 0.20281567555625687,
       "trust": 0.7748458859753474
     },
     {
@@ -142,8 +142,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.0968088236108491,
-      "trust": 0.8067401967570759
+      "score": 0.09684150700435012,
+      "trust": 0.8070125583695844
     }
   ],
   "record": {

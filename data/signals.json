@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-19T12:27:09.163191+00:00",
-  "atr": 3.5392857142857275,
-  "price": 3714.17,
+  "updated_at": "2026-11-19T12:41:48.122673+00:00",
+  "atr": 3.543571428571405,
+  "price": 3718.65,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
   "setups": [
     {
@@ -21,7 +21,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T03:24:51.566003+00:00",
-      "checked_at": "2026-11-19T12:40:15.806129+00:00"
+      "checked_at": "2026-11-19T12:54:55.893135+00:00"
     },
     {
       "side": "SELL",
@@ -40,15 +40,15 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T12:40:15.806129+00:00"
+      "checked_at": "2026-11-19T12:54:55.893135+00:00"
     }
   ],
   "research": [
-    "Gold 3714.92 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3733.07, ATR 3.54, day range 3693.53-3758.56.",
-    "DXY 103.75 (-0.06% today, flat), gold-dollar corr -0.51.",
-    "WTI 82.76 (+0.90% today, up), gold-oil corr -0.33.",
-    "Headlines: dollar +0.89, oil -0.54, fresh shock.",
-    "Dollar: US Dollar: Hawkish Fed signals support dollar outlook - Danske Bank - FXStreet",
+    "Gold 3714.00 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3732.76, ATR 3.54, day range 3693.53-3758.56.",
+    "DXY 103.75 (-0.06% today, flat), gold-dollar corr -0.50.",
+    "WTI 82.90 (+1.07% today, up), gold-oil corr -0.33.",
+    "Headlines: dollar +0.70, oil -0.54, fresh shock.",
+    "Dollar: US Dollar Falls Early Thursday Ahead of Jobless Claims, Philadelphia Fed Manufacturing - marketscreener.com",
     "Oil: IRGC Navy claims two supertankers carrying over 4mln barrels of crude oil struck a naval mine and exploded while attempting to transit a restricted route in ...",
     "No high-impact US release in the next 24 hours."
   ],
@@ -142,5 +142,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-19T12:40:15.806129+00:00"
+  "last_check": "2026-11-19T12:54:55.893135+00:00"
 }
