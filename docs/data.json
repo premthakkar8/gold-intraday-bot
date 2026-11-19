@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-19 02:26 UTC",
+  "updated": "2026-11-19 02:40 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3747.39,
+  "price": 3741.77,
   "stance": "Strategy: the SELL plan from 01:56 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3735.15,
-      "entry_high": 3737.17,
-      "sl": 3732.17,
-      "tp1": 3748.55,
-      "tp2": 3752.12,
+      "entry_high": 3737.45,
+      "sl": 3732.45,
+      "tp1": 3748.1,
+      "tp2": 3751.7,
       "rr": 3.1,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.52,
+      "score": 0.53,
       "style": "trend_align",
-      "favored": false,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.52 (Trade with the intraday trend), price below VWAP.",
-      "created_at": "2026-11-19T00:57:58.062879+00:00",
-      "checked_at": "2026-11-19T02:26:05.565126+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3756.54,
-      "entry_high": 3758.56,
-      "sl": 3761.54,
-      "tp1": 3748.55,
-      "tp2": 3741.59,
-      "rr": 2.3,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.68,
-      "style": "dollar_lead",
       "favored": true,
       "ready": true,
       "status": "valid",
-      "reason": "Score 0.68 (Trade with the dollar), hawkish dollar news +1.00.",
+      "reason": "Score 0.53 (Trade with the intraday trend), price below VWAP.",
+      "created_at": "2026-11-19T00:57:58.062879+00:00",
+      "checked_at": "2026-11-19T02:40:40.825977+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3756.26,
+      "entry_high": 3758.56,
+      "sl": 3761.26,
+      "tp1": 3748.1,
+      "tp2": 3742.01,
+      "rr": 2.4,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.31,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.31 (Trade with the dollar), hawkish dollar news +0.92.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T02:26:05.565126+00:00"
+      "checked_at": "2026-11-19T02:40:40.825977+00:00"
     }
   ],
   "active": [],
@@ -49,33 +49,34 @@
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3748.550458395254,
-    "atr": 5.419999999999975,
+    "vwap": 3748.101441539459,
+    "atr": 4.904285714285736,
     "day_low": 3735.15,
     "day_high": 3758.56,
-    "range_pos": 0.5228534814181913
+    "range_pos": 0.28278513455787835
   },
   "dxy": {
     "ok": true,
-    "last": 103.85900115966797,
-    "pct": 0.05009484285499152,
+    "last": 103.87899780273438,
+    "pct": 0.06935813263241711,
     "state": "flat",
-    "corr": -0.2629512781036266
+    "corr": -0.2785892310807537
   },
   "oil": {
     "ok": true,
-    "last": 82.33000183105469,
-    "pct": 0.3779629366937894,
-    "state": "flat",
-    "corr": 0.042813104990013284
+    "last": 82.41999816894531,
+    "pct": 0.48768781059529653,
+    "state": "up",
+    "corr": 0.020561718714169945
   },
   "news": {
-    "usd": 1.0,
+    "usd": 0.9161773067637066,
     "oil": -1.0,
     "shock": false,
     "usd_headlines": [
       "Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Retreats As Traders Focus On Hawkish Interest Rate Outlook - FXEmpire",
-      "Fed Minutes Strike Hawkish Tone; Crude Oil and Precious Metals Prices Drop Sharply | Global Markets - Moomoo"
+      "Euro moves little as US Dollar remains stable amid hawkish Fed signals - FXStreet",
+      "Gold hits 14-month low on Nov 18 as US dollar strengthens - Nation Thailand"
     ],
     "oil_headlines": [
       "Oil News: Crude Oil Falls as Traders Weigh Inventory Data and Middle East Risks - FXEmpire",
@@ -101,28 +102,28 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.6782379453152184,
-      "trust": 0.9140267258346675
-    },
-    {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.5223280709971507,
-      "trust": 0.8114759118420243
+      "score": 0.5267557270831902,
+      "trust": 0.6753278552348592
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.3107594727097593,
+      "trust": 0.8152953973154101
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.22504169258385007,
-      "trust": 0.7032552893245314
+      "score": 0.23695305602925906,
+      "trust": 0.7404783000914346
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11005597087614329,
-      "trust": 0.9171330906345274
+      "score": 0.10953729002282636,
+      "trust": 0.9128107501902197
     },
     {
       "style": "Fade the session range",
