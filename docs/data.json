@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19 22:15 UTC",
+  "updated": "2026-11-19 22:30 UTC",
   "symbol": "VANTAGE:XAUUSD",
   "price": 3625.18,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
@@ -21,7 +21,7 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-19T22:01:21.402224+00:00",
-      "checked_at": "2026-11-19T22:15:53.598461+00:00"
+      "checked_at": "2026-11-19T22:30:26.512724+00:00"
     },
     {
       "side": "SELL",
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T22:15:53.598461+00:00"
+      "checked_at": "2026-11-19T22:30:26.512724+00:00"
     }
   ],
   "active": [],
@@ -57,8 +57,8 @@
   },
   "dxy": {
     "ok": true,
-    "last": 103.93399810791016,
-    "pct": 0.1223413665146991,
+    "last": 103.92900085449219,
+    "pct": 0.117527381469215,
     "state": "up",
     "corr": -0.3628318221083375
   },
@@ -70,8 +70,8 @@
     "corr": 0.15484308206099343
   },
   "news": {
-    "usd": 0.4775240415945278,
-    "oil": -0.690895316516876,
+    "usd": 0.1980249852217579,
+    "oil": -0.6317987175866168,
     "shock": true,
     "usd_headlines": [
       "Correction to Treasury Yields Fall Headline - marketscreener.com",
@@ -104,8 +104,8 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.48651937227604286,
-      "trust": 0.8687845933500764
+      "score": 0.6582441593488921,
+      "trust": 1.1754359988373073
     },
     {
       "style": "Trade with the intraday trend",
@@ -116,7 +116,13 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.1731641953464141,
+      "score": 0.14755239184118066,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.12,
       "trust": 1.0
     },
     {
@@ -124,12 +130,6 @@
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.08327594531483828,
-      "trust": 0.6939662109569857
     }
   ],
   "record": {
