@@ -1,9 +1,49 @@
 {
-  "updated": "2026-11-19 15:38 UTC",
+  "updated": "2026-11-19 15:52 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3685.96,
+  "price": 3681.31,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
   "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3681.31,
+      "entry_high": 3682.3,
+      "sl": 3677.3,
+      "tp1": 3699.82,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-19T15:38:04.315511+00:00",
+      "checked_at": "2026-11-19T15:52:53.943962+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3757.57,
+      "entry_high": 3758.56,
+      "sl": 3762.57,
+      "tp1": 3740.05,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.34,
+      "style": "trend_align",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-19T01:12:39.861841+00:00",
+      "checked_at": "2026-11-19T15:52:53.943962+00:00"
+    }
+  ],
+  "active": [
     {
       "side": "BUY",
       "entry_low": 3684.2,
@@ -21,57 +61,40 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-19T15:38:04.315511+00:00",
-      "checked_at": "2026-11-19T15:38:04.315511+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3757.43,
-      "entry_high": 3758.56,
-      "sl": 3762.43,
-      "tp1": 3740.26,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.34,
-      "style": "trend_align",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T15:38:04.315511+00:00"
+      "checked_at": "2026-11-19T15:39:08.552523+00:00",
+      "entry": 3685.33,
+      "entered_at": "2026-11-19T15:39:08.552523+00:00",
+      "closed": null
     }
   ],
-  "active": [],
   "blackout": null,
   "chart": {
     "structure": "down",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3727.661971833309,
-    "atr": 7.034285714285716,
-    "day_low": 3684.2,
+    "vwap": 3726.773685575166,
+    "atr": 7.288571428571426,
+    "day_low": 3681.31,
     "day_high": 3758.56,
-    "range_pos": 0.023668639053257334
+    "range_pos": 0.0
   },
   "dxy": {
     "ok": true,
-    "last": 103.83999633789062,
-    "pct": 0.03178700049117347,
+    "last": 103.80799865722656,
+    "pct": 0.0009627970090968148,
     "state": "flat",
-    "corr": -0.3015720835094821
+    "corr": -0.24434415620584427
   },
   "oil": {
     "ok": true,
-    "last": 83.37000274658203,
-    "pct": 1.645947523493039,
+    "last": 83.0999984741211,
+    "pct": 1.3167542980459093,
     "state": "up",
-    "corr": 0.05664001288243426
+    "corr": 0.24283070524177391
   },
   "news": {
-    "usd": 0.7553118981857697,
-    "oil": -0.6334780213137522,
+    "usd": 0.7571461615696875,
+    "oil": -0.6340899732408869,
     "shock": true,
     "usd_headlines": [
       "Dario Perkins: Questions remain about an AI market crash and Federal Reserve rate hikes - Traders Union",
@@ -104,8 +127,8 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4856703686888279,
-      "trust": 0.7358641949830725
+      "score": 0.48567036868882785,
+      "trust": 0.7358641949830724
     },
     {
       "style": "Trade with the intraday trend",
@@ -116,7 +139,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.19065662009240378,
+      "score": 0.1846357032764761,
       "trust": 0.7748458859753474
     },
     {
@@ -128,8 +151,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09723118123222166,
-      "trust": 0.8102598436018472
+      "score": 0.09726365860988882,
+      "trust": 0.8105304884157403
     }
   ],
   "record": {
