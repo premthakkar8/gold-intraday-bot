@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-19T13:11:07.718785+00:00",
-  "atr": 4.448571428571378,
-  "price": 3712.26,
+  "updated_at": "2026-11-19T13:25:48.283474+00:00",
+  "atr": 5.159285714285651,
+  "price": 3716.1,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.18). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3693.53,
-      "entry_high": 3696.08,
-      "sl": 3691.08,
-      "tp1": 3709.7,
+      "entry_high": 3695.69,
+      "sl": 3690.69,
+      "tp1": 3710.29,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.18,
-      "style": "dollar_lead",
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T03:24:51.566003+00:00",
-      "checked_at": "2026-11-19T13:24:17.219120+00:00"
+      "checked_at": "2026-11-19T13:38:54.762296+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3756.01,
+      "entry_low": 3756.4,
       "entry_high": 3758.56,
-      "sl": 3761.01,
-      "tp1": 3742.39,
+      "sl": 3761.4,
+      "tp1": 3741.8,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,15 +40,15 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T13:24:17.219120+00:00"
+      "checked_at": "2026-11-19T13:38:54.762296+00:00"
     }
   ],
   "research": [
-    "Gold 3720.00 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3732.17, ATR 4.45, day range 3693.53-3758.56.",
-    "DXY 103.68 (-0.12% today, down), gold-dollar corr -0.52.",
-    "WTI 83.23 (+1.48% today, up), gold-oil corr -0.30.",
-    "Headlines: dollar +1.00, oil -0.54, fresh shock.",
-    "Dollar: Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Retreats As Traders Focus On Hawkish Interest Rate Outlook - FXEmpire",
+    "Gold 3719.50 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3731.84, ATR 5.16, day range 3693.53-3758.56.",
+    "DXY 103.71 (-0.10% today, down), gold-dollar corr -0.52.",
+    "WTI 83.22 (+1.46% today, up), gold-oil corr -0.23.",
+    "Headlines: dollar +0.70, oil -0.54, fresh shock.",
+    "Dollar: US Dollar Falls Early Thursday Ahead of Jobless Claims, Philadelphia Fed Manufacturing - marketscreener.com",
     "Oil: IRGC Navy claims two supertankers carrying over 4mln barrels of crude oil struck a naval mine and exploded while attempting to transit a restricted route in ...",
     "No high-impact US release in the next 24 hours."
   ],
@@ -120,5 +120,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-19T13:24:17.219120+00:00"
+  "last_check": "2026-11-19T13:38:54.762296+00:00"
 }
