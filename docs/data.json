@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19 22:01 UTC",
+  "updated": "2026-11-19 22:15 UTC",
   "symbol": "VANTAGE:XAUUSD",
   "price": 3625.18,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
@@ -21,7 +21,7 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-19T22:01:21.402224+00:00",
-      "checked_at": "2026-11-19T22:01:21.402224+00:00"
+      "checked_at": "2026-11-19T22:15:53.598461+00:00"
     },
     {
       "side": "SELL",
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T22:01:21.402224+00:00"
+      "checked_at": "2026-11-19T22:15:53.598461+00:00"
     }
   ],
   "active": [],
@@ -60,23 +60,23 @@
     "last": 103.93399810791016,
     "pct": 0.1223413665146991,
     "state": "up",
-    "corr": -0.39696141374837035
+    "corr": -0.3628318221083375
   },
   "oil": {
     "ok": true,
-    "last": 83.0999984741211,
-    "pct": 1.3167542980459093,
+    "last": 83.16000366210938,
+    "pct": 1.3899135158515514,
     "state": "up",
-    "corr": 0.11546800275781054
+    "corr": 0.15484308206099343
   },
   "news": {
-    "usd": 0.23591382018351192,
-    "oil": -0.6927216442684928,
+    "usd": 0.4775240415945278,
+    "oil": -0.690895316516876,
     "shock": true,
     "usd_headlines": [
       "Correction to Treasury Yields Fall Headline - marketscreener.com",
       "Treasury Yields Fall as Anthropic Fails to Sustain Risk Appetite - WSJ",
-      "Crude Oil Erases Early Gains on Less Hawkish Trump - Barchart.com"
+      "Gold Price Hits 14-Month Low as Fed Rate Hike Fears Strengthen US Dollar - Investing News Network"
     ],
     "oil_headlines": [
       "Crude Oil Forecast: WTI Struggles as US Inventories Rise - FXEmpire",
@@ -104,8 +104,8 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5902190467091842,
-      "trust": 1.0539625834092574
+      "score": 0.48651937227604286,
+      "trust": 0.8687845933500764
     },
     {
       "style": "Trade with the intraday trend",
@@ -116,13 +116,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.15815881187303504,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.12,
+      "score": 0.1731641953464141,
       "trust": 1.0
     },
     {
@@ -130,13 +124,19 @@
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.08327594531483828,
+      "trust": 0.6939662109569857
     }
   ],
   "record": {
-    "graded": 187,
-    "wins": 49,
+    "graded": 188,
+    "wins": 50,
     "losses": 97,
     "scratches": 41,
-    "avg_r": -0.16786768239363206
+    "avg_r": -0.1616556202532404
   }
 }
