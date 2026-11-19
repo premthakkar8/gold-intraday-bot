@@ -1295,3 +1295,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-19 04:59 UTC  live: BUY now far: Price is 28.10 away from the entry (6.1 ATR). Unlikely to fill soon.
 2026-11-19 05:01 UTC  live: BUY valid again
 2026-11-19 05:03 UTC  live: BUY now far: Price is 29.14 away from the entry (6.3 ATR). Unlikely to fill soon.
+2026-11-19 05:07 UTC  live: gold 3733.38 | holding short dollar_lead 20556410 | new read short oil_shock not opened
