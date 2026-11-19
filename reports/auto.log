@@ -1348,3 +1348,5 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-19 16:07 UTC  live: gold 3675.50 | graded: 4eabb433 stand aside -> win (+1.00R) | opened stand aside 381efda6
 2026-11-19 16:08 UTC  live: BUY entry reached at 3675.97
 2026-11-19 16:22 UTC  live: gold 3680.46 | holding flat stand_aside 381efda6 | new read flat stand_aside not opened
+2026-11-19 16:37 UTC  live: gold 3685.62 | graded: 381efda6 stand aside -> loss (-1.00R) | opened long range_fade 90fe1e65 zone 3669.79-3671.28 stop 3666.28 target 3687.56 units 1 risk 5.00 USD tier normal conf 0.58
+2026-11-19 16:38 UTC  live: BUY TP hit

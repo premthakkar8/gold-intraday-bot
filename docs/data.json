@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-19 16:22 UTC",
+  "updated": "2026-11-19 16:37 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3680.46,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.28). Take an entry only if price reaches it.",
+  "price": 3685.62,
+  "stance": "Strategy: BUY is the trade (Fade the session range, confidence 58%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3669.79,
-      "entry_high": 3671.01,
-      "sl": 3666.01,
-      "tp1": 3687.96,
+      "entry_high": 3671.28,
+      "sl": 3666.28,
+      "tp1": 3687.56,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
+      "score": 0.68,
       "style": "range_fade",
       "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "ready": true,
+      "status": "valid",
+      "reason": "Score 0.68 (Fade the session range), price below VWAP.",
       "created_at": "2026-11-19T16:07:33.356747+00:00",
-      "checked_at": "2026-11-19T16:22:28.135653+00:00"
+      "checked_at": "2026-11-19T16:37:13.354351+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3757.34,
+      "entry_low": 3757.07,
       "entry_high": 3758.56,
-      "sl": 3762.34,
-      "tp1": 3740.39,
+      "sl": 3762.07,
+      "tp1": 3740.79,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.28,
-      "style": "trend_align",
+      "score": 0.24,
+      "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T16:22:28.135653+00:00"
+      "checked_at": "2026-11-19T16:37:13.354351+00:00"
     }
   ],
   "active": [
@@ -69,37 +69,37 @@
   ],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3724.826448923977,
-    "atr": 6.877857142857173,
+    "vwap": 3724.003690034592,
+    "atr": 6.382857142857217,
     "day_low": 3669.79,
     "day_high": 3758.56,
-    "range_pos": 0.12019826517967866
+    "range_pos": 0.1783260110397649
   },
   "dxy": {
     "ok": true,
-    "last": 103.84300231933594,
-    "pct": 0.0346827411139532,
+    "last": 103.85600280761719,
+    "pct": 0.04720645182770108,
     "state": "flat",
-    "corr": -0.2806590542777511
+    "corr": -0.30986334053269127
   },
   "oil": {
     "ok": true,
-    "last": 83.56999969482422,
-    "pct": 1.8897867778550352,
+    "last": 83.4800033569336,
+    "pct": 1.7800619039535277,
     "state": "up",
-    "corr": 0.2986128263266129
+    "corr": 0.28705868482407
   },
   "news": {
-    "usd": 0.7601768487145787,
-    "oil": -0.6353797179935704,
+    "usd": 0.5785652102935883,
+    "oil": -0.6373284932400949,
     "shock": false,
     "usd_headlines": [
+      "US Dollar vs Hungarian Forint ticks up after Hungarian central bank hints at future rate cuts - Traders Union",
       "Dario Perkins: Questions remain about an AI market crash and Federal Reserve rate hikes - Traders Union",
-      "Federal Reserve: Hawkish path priced in \u2013 UOB - FXStreet",
-      "J.P. Morgan sees Fed rate hikes at next three meetings as inflation persists - Reuters"
+      "Federal Reserve: Hawkish path priced in \u2013 UOB - FXStreet"
     ],
     "oil_headlines": [
       "Crude Oil Forecast: WTI Struggles as US Inventories Rise - FXEmpire",
@@ -125,25 +125,25 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.2750129816180225,
-      "trust": 1.0
-    },
-    {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.25270823225035544,
-      "trust": 0.7897132257823607
+      "style": "Fade the session range",
+      "bias": "long",
+      "score": 0.6766556880110938,
+      "trust": 1.0941329985012405
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.25243711198487295,
-      "trust": 0.7748458859753474
+      "score": 0.23882499193019033,
+      "trust": 0.8962017173252721
     },
     {
-      "style": "Fade the session range",
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.23308911206838986,
+      "trust": 0.7284034752137183
+    },
+    {
+      "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
@@ -151,15 +151,15 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09732829019833397,
-      "trust": 0.8110690849861164
+      "score": 0.0886166561092417,
+      "trust": 0.7384721342436809
     }
   ],
   "record": {
-    "graded": 184,
+    "graded": 185,
     "wins": 48,
-    "losses": 96,
+    "losses": 97,
     "scratches": 40,
-    "avg_r": -0.1861621759474467
+    "avg_r": -0.19056129932070373
   }
 }
