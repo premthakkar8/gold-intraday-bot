@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-19T01:12:39.861841+00:00",
-  "atr": 5.6107142857141685,
-  "price": 3748.43,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.47). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-19T01:27:22.075241+00:00",
+  "atr": 5.60571428571419,
+  "price": 3749.94,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3735.15,
-      "entry_high": 3737.06,
-      "sl": 3732.06,
-      "tp1": 3747.45,
-      "tp2": 3752.28,
-      "rr": 2.8,
+      "entry_high": 3737.07,
+      "sl": 3732.07,
+      "tp1": 3748.01,
+      "tp2": 3752.27,
+      "rr": 2.9,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.21,
+      "score": 0.42,
       "style": "trend_align",
       "favored": false,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.21. Take it only with a clear reaction at the entry.",
+      "status": "valid",
+      "reason": "Score 0.42 (Trade with the intraday trend), price below VWAP.",
       "created_at": "2026-11-19T00:57:58.062879+00:00",
-      "checked_at": "2026-11-19T01:25:48.823668+00:00"
+      "checked_at": "2026-11-19T01:40:29.716056+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3756.65,
+      "entry_low": 3756.64,
       "entry_high": 3758.56,
-      "sl": 3761.65,
-      "tp1": 3747.45,
-      "tp2": 3741.43,
-      "rr": 2.5,
+      "sl": 3761.64,
+      "tp1": 3748.01,
+      "tp2": 3741.44,
+      "rr": 2.4,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.47,
+      "score": 0.43,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.47 (Trade with the dollar), hawkish dollar news +0.90, price above VWAP.",
+      "reason": "Score 0.43 (Trade with the dollar), hawkish dollar news +0.90.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T01:25:48.823668+00:00"
+      "checked_at": "2026-11-19T01:40:29.716056+00:00"
     }
   ],
   "research": [
-    "Gold 3751.79 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3747.45, ATR 5.61, day range 3735.15-3758.56.",
-    "DXY 103.79 (-0.02% today, flat), gold-dollar corr -0.27.",
-    "WTI 82.04 (+0.02% today, flat), gold-oil corr -0.12.",
+    "Gold 3747.83 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3748.01, ATR 5.61, day range 3735.15-3758.56.",
+    "DXY 103.82 (+0.01% today, flat), gold-dollar corr -0.34.",
+    "WTI 82.44 (+0.51% today, up), gold-oil corr -0.15.",
     "Headlines: dollar +0.90, oil -1.00, fresh shock.",
     "Dollar: Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Retreats As Traders Focus On Hawkish Interest Rate Outlook - FXEmpire",
     "Oil: Oil News: Crude Oil Falls as Traders Weigh Inventory Data and Middle East Risks - FXEmpire",
@@ -204,8 +204,8 @@
       "checked_at": "2026-11-19T00:59:04.450607+00:00",
       "entry": 3753.62,
       "entered_at": "2026-11-19T00:59:04.450607+00:00",
-      "closed": null
+      "closed": "tp"
     }
   ],
-  "last_check": "2026-11-19T01:25:48.823668+00:00"
+  "last_check": "2026-11-19T01:40:29.716056+00:00"
 }
