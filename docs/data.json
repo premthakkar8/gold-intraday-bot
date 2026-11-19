@@ -1,17 +1,17 @@
 {
-  "updated": "2026-11-19 01:56 UTC",
+  "updated": "2026-11-19 02:11 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3752.78,
-  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 55%).",
+  "price": 3748.57,
+  "stance": "Strategy: the SELL plan from 01:56 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3735.15,
-      "entry_high": 3736.71,
-      "sl": 3731.71,
-      "tp1": 3748.17,
-      "tp2": 3752.8,
-      "rr": 2.9,
+      "entry_high": 3736.75,
+      "sl": 3731.75,
+      "tp1": 3748.38,
+      "tp2": 3752.76,
+      "rr": 3.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
@@ -21,56 +21,56 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-19T00:57:58.062879+00:00",
-      "checked_at": "2026-11-19T01:56:44.678917+00:00"
+      "checked_at": "2026-11-19T02:11:24.937793+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3757.0,
+      "entry_low": 3756.96,
       "entry_high": 3758.56,
-      "sl": 3762.0,
-      "tp1": 3748.17,
-      "tp2": 3740.91,
-      "rr": 2.3,
+      "sl": 3761.96,
+      "tp1": 3748.38,
+      "tp2": 3740.95,
+      "rr": 2.2,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.55,
+      "score": 0.59,
       "style": "dollar_lead",
       "favored": true,
       "ready": true,
       "status": "valid",
-      "reason": "Score 0.55 (Trade with the dollar), hawkish dollar news +0.89, price above VWAP.",
+      "reason": "Score 0.59 (Trade with the dollar), hawkish dollar news +0.88, price above VWAP.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T01:56:44.678917+00:00"
+      "checked_at": "2026-11-19T02:11:24.937793+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3748.1664701294885,
-    "atr": 6.247142857142827,
+    "vwap": 3748.376857536666,
+    "atr": 6.190714285714258,
     "day_low": 3735.15,
     "day_high": 3758.56,
-    "range_pos": 0.7530969671080828
+    "range_pos": 0.5732592909013309
   },
   "dxy": {
     "ok": true,
-    "last": 103.8010025024414,
-    "pct": -0.005776782054580889,
+    "last": 103.83699798583984,
+    "pct": 0.02889860946388302,
     "state": "flat",
-    "corr": -0.2644453957523786
+    "corr": -0.25157650816738397
   },
   "oil": {
     "ok": true,
-    "last": 82.70999908447266,
-    "pct": 0.8412612407301038,
+    "last": 82.73999786376953,
+    "pct": 0.8778361986972729,
     "state": "up",
-    "corr": -0.0005780647467318738
+    "corr": -0.008858972466850738
   },
   "news": {
-    "usd": 0.8906109380883172,
+    "usd": 0.8832576976878482,
     "oil": -1.0,
     "shock": false,
     "usd_headlines": [
@@ -104,32 +104,32 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5549756200686659,
-      "trust": 0.8265293646732551
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.45585612698432354,
-      "trust": 0.8263633487211987
+      "score": 0.5945408300303366,
+      "trust": 0.897868334835934
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.20644720889966434,
-      "trust": 0.645147527811451
+      "score": 0.2157062354307683,
+      "trust": 0.674081985721151
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.14347731182218285,
+      "trust": 0.8967331988886428
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09575231713154587,
-      "trust": 0.7979359760962157
+      "score": 0.09883714200604826,
+      "trust": 0.8236428500504022
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.08033577834273509,
+      "trust": 0.8033577834273508
     }
   ],
   "record": {
