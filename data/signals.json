@@ -1,54 +1,54 @@
 {
-  "updated_at": "2026-11-19T03:54:08.527418+00:00",
-  "atr": 8.332857142857165,
-  "price": 3725.61,
-  "stance": "Strategy: the SELL plan from 01:56 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
+  "updated_at": "2026-11-19T04:08:49.053272+00:00",
+  "atr": 7.177857142857159,
+  "price": 3725.0,
+  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 52%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3693.53,
-      "entry_high": 3693.95,
-      "sl": 3688.95,
-      "tp1": 3712.9,
+      "entry_high": 3694.58,
+      "sl": 3689.58,
+      "tp1": 3711.95,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.21,
-      "style": "range_fade",
+      "score": 0.24,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "weak",
-      "reason": "Strategy score is only 0.21. Take it only with a clear reaction at the entry.",
+      "reason": "Strategy score is only 0.24. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-19T03:24:51.566003+00:00",
-      "checked_at": "2026-11-19T04:07:16.948890+00:00"
+      "checked_at": "2026-11-19T04:22:00.613471+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3758.14,
+      "entry_low": 3757.51,
       "entry_high": 3758.56,
-      "sl": 3763.14,
-      "tp1": 3739.19,
+      "sl": 3762.51,
+      "tp1": 3740.14,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.34,
+      "score": 0.52,
       "style": "dollar_lead",
       "favored": false,
-      "ready": false,
+      "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T04:07:16.948890+00:00"
+      "checked_at": "2026-11-19T04:22:00.613471+00:00"
     }
   ],
   "research": [
-    "Gold 3714.58 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3736.01, ATR 8.33, day range 3693.53-3758.56.",
-    "DXY 103.97 (+0.16% today, up), gold-dollar corr -0.45.",
-    "WTI 81.94 (-0.10% today, flat), gold-oil corr +0.19.",
+    "Gold 3727.03 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3735.31, ATR 7.18, day range 3693.53-3758.56.",
+    "DXY 103.96 (+0.15% today, up), gold-dollar corr -0.47.",
+    "WTI 81.99 (-0.04% today, flat), gold-oil corr +0.19.",
     "Headlines: dollar +1.00, oil -1.00.",
-    "Dollar: Canadian Dollar underperforms against US Dollar amid hawkish Fed rhetoric - FXStreet",
+    "Dollar: Silver Drops As The US Dollar Strengthens On Bets For A Faster Pace Of Fed Hikes By Kedia Advisory - Investing.com India",
     "Oil: Crude Oil Falls As US Crude And Fuel Inventories Rise In Latest Weekly Figures By Kedia Advisory - Investing.com India",
     "No high-impact US release in the next 24 hours."
   ],
@@ -273,5 +273,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-19T04:07:16.948890+00:00"
+  "last_check": "2026-11-19T04:22:00.613471+00:00"
 }
