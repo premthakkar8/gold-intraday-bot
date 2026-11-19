@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-19 18:50 UTC",
+  "updated": "2026-11-19 19:04 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3679.26,
+  "price": 3676.02,
   "stance": "Strategy: the BUY plan from 17:51 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3667.61,
-      "entry_high": 3670.45,
-      "sl": 3665.45,
-      "tp1": 3683.35,
+      "entry_high": 3670.24,
+      "sl": 3665.24,
+      "tp1": 3683.66,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
+      "score": 0.9,
       "style": "range_fade",
+      "favored": true,
+      "ready": true,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-19T16:07:33.356747+00:00",
+      "checked_at": "2026-11-19T19:04:37.078967+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3755.93,
+      "entry_high": 3758.56,
+      "sl": 3760.93,
+      "tp1": 3742.51,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.21,
+      "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-19T16:07:33.356747+00:00",
-      "checked_at": "2026-11-19T18:50:03.526166+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3755.72,
-      "entry_high": 3758.56,
-      "sl": 3760.72,
-      "tp1": 3742.82,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.24,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T18:50:03.526166+00:00"
+      "checked_at": "2026-11-19T19:04:37.078967+00:00"
     }
   ],
   "active": [],
@@ -49,30 +49,30 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "newyork",
-    "vwap": 3718.158865464249,
-    "atr": 3.922857142857148,
+    "vwap": 3717.6014187091237,
+    "atr": 4.307857142857139,
     "day_low": 3667.61,
     "day_high": 3758.56,
-    "range_pos": 0.12809235843870384
+    "range_pos": 0.0924683892248474
   },
   "dxy": {
     "ok": true,
-    "last": 103.8290023803711,
-    "pct": 0.021196233391108505,
+    "last": 103.84500122070312,
+    "pct": 0.03660833513214683,
     "state": "flat",
-    "corr": -0.40649057480772244
+    "corr": -0.4456346898526567
   },
   "oil": {
     "ok": true,
-    "last": 83.04000091552734,
-    "pct": 1.2436043821115712,
+    "last": 82.88999938964844,
+    "pct": 1.0607202904044222,
     "state": "up",
-    "corr": 0.3615070310920771
+    "corr": 0.3682933293210627
   },
   "news": {
-    "usd": 0.41013709926015174,
-    "oil": -0.6155051142101825,
-    "shock": true,
+    "usd": 0.409493574549344,
+    "oil": -0.6178408029198351,
+    "shock": false,
     "usd_headlines": [
       "Policymakers want rate hike but disagree on pace - Axios",
       "The Canadian Dollar falls to its weakest level against the US Dollar in 19 months - FXStreet",
@@ -102,28 +102,28 @@
   ],
   "scorecard": [
     {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.37899521509924494,
-      "trust": 0.6767771698200802
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "short",
-      "score": 0.2377626150118027,
-      "trust": 0.9144201526318537
+      "style": "Fade the session range",
+      "bias": "long",
+      "score": 0.8999908140568239,
+      "trust": 1.2904406159663286
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.15448656390858007,
+      "score": 0.21267356721215935,
       "trust": 0.9159911339504971
     },
     {
-      "style": "Fade the session range",
+      "style": "Trade the oil shock",
+      "bias": "short",
+      "score": 0.19871220882681445,
+      "trust": 0.9145400191967548
+    },
+    {
+      "style": "Stand aside",
       "bias": "flat",
-      "score": 0.1290847989319522,
-      "trust": 1.290847989319522
+      "score": 0.14889097736041768,
+      "trust": 0.6767771698200803
     },
     {
       "style": "Trade with the intraday trend",
