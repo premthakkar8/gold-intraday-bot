@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-18T23:44:31.249109+00:00",
-  "atr": 3.9771428571428453,
-  "price": 3740.07,
+  "updated_at": "2026-11-18T23:59:13.474669+00:00",
+  "atr": 4.096428571428565,
+  "price": 3737.76,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.19). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3719.89,
-      "entry_high": 3722.7,
-      "sl": 3717.7,
-      "tp1": 3735.67,
+      "entry_high": 3722.64,
+      "sl": 3717.64,
+      "tp1": 3735.77,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T19:35:09.841417+00:00",
-      "checked_at": "2026-11-18T23:57:40.232639+00:00"
+      "checked_at": "2026-11-19T00:12:20.466052+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3846.39,
+      "entry_low": 3846.45,
       "entry_high": 3849.2,
-      "sl": 3851.39,
-      "tp1": 3833.42,
+      "sl": 3851.45,
+      "tp1": 3833.32,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,13 +40,13 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T23:57:40.232639+00:00"
+      "checked_at": "2026-11-19T00:12:20.466052+00:00"
     }
   ],
   "research": [
-    "Gold 3743.15 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3768.64, ATR 3.98, day range 3719.89-3849.20.",
+    "Gold 3739.93 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3768.45, ATR 4.10, day range 3719.89-3849.20.",
     "DXY 103.81 (+0.14% today, up), gold-dollar corr -0.31.",
-    "WTI 82.13 (-4.36% today, down), gold-oil corr +0.04.",
+    "WTI 82.04 (-4.46% today, down), gold-oil corr +0.04.",
     "Headlines: dollar +0.87, oil -1.00, fresh shock.",
     "Dollar: Fed Minutes Strike Hawkish Tone; Crude Oil and Precious Metals Prices Drop Sharply | Global Markets - Moomoo",
     "Oil: Oil News: Crude Oil Falls as Traders Weigh Inventory Data and Middle East Risks - FXEmpire",
@@ -207,5 +207,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-18T23:57:40.232639+00:00"
+  "last_check": "2026-11-19T00:12:20.466052+00:00"
 }

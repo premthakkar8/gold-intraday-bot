@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-18 23:44 UTC",
+  "updated": "2026-11-18 23:59 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3743.15,
+  "price": 3739.93,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.19). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3719.89,
-      "entry_high": 3722.7,
-      "sl": 3717.7,
-      "tp1": 3735.67,
+      "entry_high": 3722.64,
+      "sl": 3717.64,
+      "tp1": 3735.77,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T19:35:09.841417+00:00",
-      "checked_at": "2026-11-18T23:44:31.249109+00:00"
+      "checked_at": "2026-11-18T23:59:13.474669+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3846.39,
+      "entry_low": 3846.45,
       "entry_high": 3849.2,
-      "sl": 3851.39,
-      "tp1": 3833.42,
+      "sl": 3851.45,
+      "tp1": 3833.32,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-18T00:56:38.251277+00:00",
-      "checked_at": "2026-11-18T23:44:31.249109+00:00"
+      "checked_at": "2026-11-18T23:59:13.474669+00:00"
     }
   ],
   "active": [],
@@ -49,28 +49,28 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "late",
-    "vwap": 3768.6418922528105,
-    "atr": 3.9771428571428453,
+    "vwap": 3768.454393036275,
+    "atr": 4.096428571428565,
     "day_low": 3719.89,
     "day_high": 3849.2,
-    "range_pos": 0.1798778130075031
+    "range_pos": 0.15497641327043518
   },
   "dxy": {
     "ok": true,
     "last": 103.81300354003906,
     "pct": 0.1437356006808637,
     "state": "up",
-    "corr": -0.3079116487405699
+    "corr": -0.30791164874057
   },
   "oil": {
     "ok": true,
-    "last": 82.12999725341797,
-    "pct": -4.355427242970398,
+    "last": 82.04000091552734,
+    "pct": -4.460232570805569,
     "state": "down",
-    "corr": 0.040554634495031355
+    "corr": 0.04233107922775351
   },
   "news": {
-    "usd": 0.8719188312577036,
+    "usd": 0.8698657034405615,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
@@ -104,14 +104,14 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.43554186014777974,
-      "trust": 0.7777533216924637
+      "score": 0.4355418601477798,
+      "trust": 0.7777533216924638
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.19377096244809916,
-      "trust": 0.9266050930537972
+      "score": 0.19363570437659383,
+      "trust": 0.9267089127923159
     },
     {
       "style": "Trade with the intraday trend",
@@ -128,8 +128,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09869198674488443,
-      "trust": 0.822433222874037
+      "score": 0.0987221276968461,
+      "trust": 0.8226843974737176
     }
   ],
   "record": {
