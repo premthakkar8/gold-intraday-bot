@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-19T10:44:45.176440+00:00",
-  "atr": 3.703571428571422,
-  "price": 3735.53,
+  "updated_at": "2026-11-19T10:59:25.035157+00:00",
+  "atr": 3.4478571428571416,
+  "price": 3728.68,
   "stance": "Strategy: the SELL plan from 09:31 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3693.53,
-      "entry_high": 3696.49,
-      "sl": 3691.49,
-      "tp1": 3709.09,
+      "entry_high": 3696.63,
+      "sl": 3691.63,
+      "tp1": 3708.87,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.23,
+      "score": 0.26,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T03:24:51.566003+00:00",
-      "checked_at": "2026-11-19T10:57:52.456499+00:00"
+      "checked_at": "2026-11-19T11:12:30.849631+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3755.6,
+      "entry_low": 3755.46,
       "entry_high": 3758.56,
-      "sl": 3760.6,
-      "tp1": 3743.0,
+      "sl": 3760.46,
+      "tp1": 3743.22,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,14 +40,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T10:57:52.456499+00:00"
+      "checked_at": "2026-11-19T11:12:30.849631+00:00"
     }
   ],
   "research": [
-    "Gold 3735.74 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3734.05, ATR 3.70, day range 3693.53-3758.56.",
-    "DXY 103.64 (-0.16% today, down), gold-dollar corr -0.49.",
-    "WTI 82.78 (+0.93% today, up), gold-oil corr -0.14.",
-    "Headlines: dollar +1.00, oil -0.64, fresh shock.",
+    "Gold 3735.49 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3734.09, ATR 3.45, day range 3693.53-3758.56.",
+    "DXY 103.60 (-0.20% today, down), gold-dollar corr -0.48.",
+    "WTI 82.54 (+0.63% today, up), gold-oil corr -0.14.",
+    "Headlines: dollar +0.88, oil -0.64, fresh shock.",
     "Dollar: US Dollar: Hawkish regime supports resilience \u2013 TD Securities - FXStreet",
     "Oil: IRGC Navy claims two supertankers carrying over 4mln barrels of crude oil struck a naval mine and exploded while attempting to transit a restricted route in ...",
     "No high-impact US release in the next 24 hours."
@@ -164,5 +164,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-19T10:57:52.456499+00:00"
+  "last_check": "2026-11-19T11:12:30.849631+00:00"
 }
