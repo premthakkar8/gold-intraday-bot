@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-19 02:40 UTC",
+  "updated": "2026-11-19 02:55 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3741.77,
+  "price": 3722.4,
   "stance": "Strategy: the SELL plan from 01:56 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3735.15,
-      "entry_high": 3737.45,
-      "sl": 3732.45,
-      "tp1": 3748.1,
-      "tp2": 3751.7,
-      "rr": 3.1,
+      "entry_low": 3720.67,
+      "entry_high": 3722.86,
+      "sl": 3717.86,
+      "tp1": 3737.38,
+      "tp2": null,
+      "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.53,
+      "score": 0.63,
       "style": "trend_align",
       "favored": true,
       "ready": true,
       "status": "valid",
-      "reason": "Score 0.53 (Trade with the intraday trend), price below VWAP.",
-      "created_at": "2026-11-19T00:57:58.062879+00:00",
-      "checked_at": "2026-11-19T02:40:40.825977+00:00"
+      "reason": "Score 0.63 (Trade with the intraday trend), price below VWAP.",
+      "created_at": "2026-11-19T02:55:20.649206+00:00",
+      "checked_at": "2026-11-19T02:55:20.649206+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3756.26,
+      "entry_low": 3756.37,
       "entry_high": 3758.56,
-      "sl": 3761.26,
-      "tp1": 3748.1,
-      "tp2": 3742.01,
-      "rr": 2.4,
+      "sl": 3761.37,
+      "tp1": 3746.4,
+      "tp2": 3741.85,
+      "rr": 2.8,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.31,
+      "score": 0.35,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
-      "status": "valid",
-      "reason": "Score 0.31 (Trade with the dollar), hawkish dollar news +0.92.",
+      "status": "far",
+      "reason": "Price is 33.97 away from the entry (6.7 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T02:40:40.825977+00:00"
+      "checked_at": "2026-11-19T02:55:20.649206+00:00"
     }
   ],
   "active": [],
@@ -49,28 +49,28 @@
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3748.101441539459,
-    "atr": 4.904285714285736,
-    "day_low": 3735.15,
+    "vwap": 3746.3969128250087,
+    "atr": 5.107142857142825,
+    "day_low": 3720.67,
     "day_high": 3758.56,
-    "range_pos": 0.28278513455787835
+    "range_pos": 0.04565848508841446
   },
   "dxy": {
     "ok": true,
-    "last": 103.87899780273438,
-    "pct": 0.06935813263241711,
+    "last": 103.86000061035156,
+    "pct": 0.051057639864088344,
     "state": "flat",
-    "corr": -0.2785892310807537
+    "corr": -0.26877881204860143
   },
   "oil": {
     "ok": true,
-    "last": 82.41999816894531,
-    "pct": 0.48768781059529653,
-    "state": "up",
-    "corr": 0.020561718714169945
+    "last": 82.19000244140625,
+    "pct": 0.20727359826613118,
+    "state": "flat",
+    "corr": 0.09614859011242076
   },
   "news": {
-    "usd": 0.9161773067637066,
+    "usd": 0.9148275911524443,
     "oil": -1.0,
     "shock": false,
     "usd_headlines": [
@@ -104,26 +104,26 @@
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.5267557270831902,
-      "trust": 0.6753278552348592
+      "score": 0.632951211236779,
+      "trust": 0.8114759118420243
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3107594727097593,
-      "trust": 0.8152953973154101
+      "score": 0.34622490113280585,
+      "trust": 0.9140267258346675
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.23695305602925906,
-      "trust": 0.7404783000914346
+      "score": 0.22504169258385007,
+      "trust": 0.7032552893245314
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.10953729002282636,
-      "trust": 0.9128107501902197
+      "score": 0.11008393432125514,
+      "trust": 0.9173661193437929
     },
     {
       "style": "Fade the session range",
