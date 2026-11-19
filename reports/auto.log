@@ -1303,3 +1303,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-19 06:06 UTC  live: gold 3737.40 | holding short dollar_lead 20556410 | new read short dollar_lead not opened
 2026-11-19 06:20 UTC  live: gold 3740.46 | graded: 20556410 short dollar_lead -> scratch (price never reached the entry zone) | opened short dollar_lead b6f6f8a7 zone 3756.83-3758.56 stop 3761.83 target 3741.15 units 1 risk 5.00 USD tier normal conf 0.58
 2026-11-19 06:35 UTC  live: gold 3737.79 | holding short dollar_lead b6f6f8a7 | new read short oil_shock not opened
+2026-11-19 06:50 UTC  live: gold 3732.17 | holding short dollar_lead b6f6f8a7 | new read short dollar_lead not opened
