@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-19 06:20 UTC",
+  "updated": "2026-11-19 06:35 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3740.46,
-  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 58%).",
+  "price": 3737.79,
+  "stance": "Strategy: the SELL plan from 06:20 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3693.53,
-      "entry_high": 3695.26,
-      "sl": 3690.26,
-      "tp1": 3710.94,
+      "entry_high": 3695.35,
+      "sl": 3690.35,
+      "tp1": 3710.79,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T03:24:51.566003+00:00",
-      "checked_at": "2026-11-19T06:20:50.679902+00:00"
+      "checked_at": "2026-11-19T06:35:34.545460+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3756.83,
+      "entry_low": 3756.74,
       "entry_high": 3758.56,
-      "sl": 3761.83,
-      "tp1": 3741.15,
+      "sl": 3761.74,
+      "tp1": 3741.3,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.58,
-      "style": "dollar_lead",
+      "score": 0.75,
+      "style": "oil_shock",
       "favored": true,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T06:20:50.679902+00:00"
+      "checked_at": "2026-11-19T06:35:34.545460+00:00"
     }
   ],
   "active": [],
@@ -49,30 +49,30 @@
     "structure": "sideways",
     "htf": "down",
     "session": "asia",
-    "vwap": 3734.157939726838,
-    "atr": 5.953571428571422,
+    "vwap": 3734.2263750009206,
+    "atr": 5.774285714285725,
     "day_low": 3693.53,
     "day_high": 3758.56,
-    "range_pos": 0.7216669229586348
+    "range_pos": 0.680608949715515
   },
   "dxy": {
     "ok": true,
-    "last": 103.89800262451172,
-    "pct": 0.08766597499623517,
-    "state": "up",
-    "corr": -0.6132391169592392
+    "last": 103.87699890136719,
+    "pct": 0.06743253861422348,
+    "state": "flat",
+    "corr": -0.46264276478549843
   },
   "oil": {
     "ok": true,
-    "last": 82.2300033569336,
-    "pct": 0.25604330951279125,
+    "last": 82.29000091552734,
+    "pct": 0.32919322544712937,
     "state": "flat",
-    "corr": 0.4747471548151318
+    "corr": 0.4588367551040721
   },
   "news": {
     "usd": 1.0,
     "oil": -1.0,
-    "shock": false,
+    "shock": true,
     "usd_headlines": [
       "Asian Stocks Slip Amid Anthropic IPO, Federal Reserve Rate Hike Fears - Global Banking & Finance Review",
       "Indonesian Rupiah declines as hawkish Fed remarks lift US Dollar - FXStreet",
@@ -116,34 +116,34 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.5814163062661666,
-      "trust": 1.02479825704611
-    },
-    {
       "style": "Trade the oil shock",
       "bias": "short",
-      "score": 0.5316069351422087,
-      "trust": 0.8557575714598188
+      "score": 0.7543366764174932,
+      "trust": 1.079434940622701
     },
     {
-      "style": "Fade the session range",
+      "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.4610406312999647,
-      "trust": 1.0
+      "score": 0.5659213990015847,
+      "trust": 0.929349256860832
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.18391684477029235,
-      "trust": 0.8359856580467834
+      "score": 0.45087014645449314,
+      "trust": 0.6831365855371108
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.09990724964670425,
+      "trust": 0.9990724964670424
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.09995185961558962,
-      "trust": 0.9995185961558962
+      "score": 0.07892463907642827,
+      "trust": 0.7892463907642826
     }
   ],
   "record": {
