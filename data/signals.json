@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-19T08:32:48.175071+00:00",
-  "atr": 4.705000000000025,
-  "price": 3732.67,
+  "updated_at": "2026-11-19T08:47:26.239695+00:00",
+  "atr": 4.259285714285754,
+  "price": 3736.93,
   "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3693.53,
-      "entry_high": 3695.94,
-      "sl": 3690.94,
-      "tp1": 3709.91,
+      "entry_high": 3696.19,
+      "sl": 3691.19,
+      "tp1": 3709.54,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.16,
-      "style": "trend_align",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T03:24:51.566003+00:00",
-      "checked_at": "2026-11-19T08:45:57.413680+00:00"
+      "checked_at": "2026-11-19T09:00:32.970369+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3756.15,
+      "entry_low": 3755.9,
       "entry_high": 3758.56,
-      "sl": 3761.15,
-      "tp1": 3742.18,
+      "sl": 3760.9,
+      "tp1": 3742.55,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.55,
+      "score": 0.54,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T08:45:57.413680+00:00"
+      "checked_at": "2026-11-19T09:00:32.970369+00:00"
     }
   ],
   "research": [
-    "Gold 3734.94 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3734.40, ATR 4.71, day range 3693.53-3758.56.",
-    "DXY 103.76 (-0.04% today, flat), gold-dollar corr -0.31.",
-    "WTI 82.33 (+0.38% today, flat), gold-oil corr +0.23.",
+    "Gold 3731.77 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3734.39, ATR 4.26, day range 3693.53-3758.56.",
+    "DXY 103.75 (-0.06% today, flat), gold-dollar corr -0.30.",
+    "WTI 82.47 (+0.55% today, up), gold-oil corr +0.28.",
     "Headlines: dollar +1.00, oil -1.00, fresh shock.",
     "Dollar: Forex Today: Hawkish repricing of Fed policy outlook continues to support US Dollar - FXStreet",
     "Oil: Crude Oil Price Forecast: WTI and Brent Slide as US Inventories Rise - FXEmpire",
@@ -164,5 +164,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-19T08:45:57.413680+00:00"
+  "last_check": "2026-11-19T09:00:32.970369+00:00"
 }
