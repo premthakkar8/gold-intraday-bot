@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-19 13:40 UTC",
+  "updated": "2026-11-19 13:55 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3714.58,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.17). Take an entry only if price reaches it.",
+  "price": 3712.83,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.18). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3693.53,
-      "entry_high": 3695.43,
-      "sl": 3690.43,
-      "tp1": 3710.68,
+      "entry_high": 3695.37,
+      "sl": 3690.37,
+      "tp1": 3710.78,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.17,
+      "score": 0.18,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T03:24:51.566003+00:00",
-      "checked_at": "2026-11-19T13:40:28.182642+00:00"
+      "checked_at": "2026-11-19T13:55:09.753951+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3756.66,
+      "entry_low": 3756.72,
       "entry_high": 3758.56,
-      "sl": 3761.66,
-      "tp1": 3741.41,
+      "sl": 3761.72,
+      "tp1": 3741.31,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T13:40:28.182642+00:00"
+      "checked_at": "2026-11-19T13:55:09.753951+00:00"
     }
   ],
   "active": [],
@@ -49,39 +49,39 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3731.556118145178,
-    "atr": 5.639285714285669,
+    "vwap": 3731.2176181013006,
+    "atr": 5.752142857142839,
     "day_low": 3693.53,
     "day_high": 3758.56,
-    "range_pos": 0.3236967553436846
+    "range_pos": 0.29678609872366296
   },
   "dxy": {
     "ok": true,
-    "last": 103.70800018310547,
-    "pct": -0.09536835106900969,
+    "last": 103.68499755859375,
+    "pct": -0.117527381469215,
     "state": "down",
-    "corr": -0.5754191018223279
+    "corr": -0.5318238531905706
   },
   "oil": {
     "ok": true,
-    "last": 83.33000183105469,
-    "pct": 1.597177812246379,
+    "last": 83.37000274658203,
+    "pct": 1.645947523493039,
     "state": "up",
-    "corr": -0.230230738247123
+    "corr": -0.21621668994898524
   },
   "news": {
-    "usd": 0.6995328590920331,
-    "oil": -0.5346171496757004,
+    "usd": 0.7293699974248211,
+    "oil": -0.6373116805465459,
     "shock": true,
     "usd_headlines": [
+      "J.P. Morgan sees Fed rate hikes at next three meetings as inflation persists - Reuters",
       "US Dollar Falls Early Thursday Ahead of Jobless Claims, Philadelphia Fed Manufacturing - marketscreener.com",
-      "US Dollar: Hawkish Fed signals support dollar outlook - Danske Bank - FXStreet",
-      "US Dollar Technical Forecast: DXY Bulls Target Yearly Highs After Hot CPI - StoneX"
+      "US Dollar: Hawkish Fed signals support dollar outlook - Danske Bank - FXStreet"
     ],
     "oil_headlines": [
+      "Crude Oil Forecast: WTI Struggles as US Inventories Rise - FXEmpire",
       "IRGC Navy claims two supertankers carrying over 4mln barrels of crude oil struck a naval mine and exploded while attempting to transit a restricted route in ...",
-      "Crude Oil Price Forecast: WTI and Brent Slide as US Inventories Rise - FXEmpire",
-      "Crude Oil Market Analysis \u2013 WTI and Brent Under Pressure as Inventories Rise - CMB News"
+      "Crude Oil Price Forecast: WTI and Brent Slide as US Inventories Rise - FXEmpire"
     ]
   },
   "events": [
@@ -124,8 +124,8 @@
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.16923501551039438,
-      "trust": 0.7748576370047164
+      "score": 0.17545872491768016,
+      "trust": 0.7751758729744807
     },
     {
       "style": "Trade with the intraday trend",
@@ -142,15 +142,15 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09785979711005617,
-      "trust": 0.8154983092504681
+      "score": 0.09789109201539392,
+      "trust": 0.8157591001282827
     }
   ],
   "record": {
-    "graded": 182,
-    "wins": 46,
+    "graded": 183,
+    "wins": 47,
     "losses": 96,
     "scratches": 40,
-    "avg_r": -0.19919692513368237
+    "avg_r": -0.19264393647174965
   }
 }
