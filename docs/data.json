@@ -1,82 +1,81 @@
 {
-  "updated": "2026-11-19 12:56 UTC",
+  "updated": "2026-11-19 13:11 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3718.11,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.17). Take an entry only if price reaches it.",
+  "price": 3720.0,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.18). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3693.53,
-      "entry_high": 3696.48,
-      "sl": 3691.48,
-      "tp1": 3709.11,
+      "entry_high": 3696.08,
+      "sl": 3691.08,
+      "tp1": 3709.7,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.17,
+      "score": 0.18,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T03:24:51.566003+00:00",
-      "checked_at": "2026-11-19T12:56:24.581102+00:00"
+      "checked_at": "2026-11-19T13:11:07.718785+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3755.61,
+      "entry_low": 3756.01,
       "entry_high": 3758.56,
-      "sl": 3760.61,
-      "tp1": 3742.98,
+      "sl": 3761.01,
+      "tp1": 3742.39,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.15,
-      "style": "trend_align",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T12:56:24.581102+00:00"
+      "checked_at": "2026-11-19T13:11:07.718785+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3732.481102474392,
-    "atr": 3.733571428571395,
+    "vwap": 3732.1695164781163,
+    "atr": 4.448571428571378,
     "day_low": 3693.53,
     "day_high": 3758.56,
-    "range_pos": 0.37797939412578846
+    "range_pos": 0.4070429032754099
   },
   "dxy": {
     "ok": true,
-    "last": 103.70700073242188,
-    "pct": -0.0963311480781065,
+    "last": 103.68099975585938,
+    "pct": -0.12137856950560227,
     "state": "down",
-    "corr": -0.532298256754577
+    "corr": -0.5237313657141376
   },
   "oil": {
     "ok": true,
-    "last": 83.13999938964844,
-    "pct": 1.3655240092925693,
+    "last": 83.2300033569336,
+    "pct": 1.4752581850653805,
     "state": "up",
-    "corr": -0.3423089861557003
+    "corr": -0.29739227097089216
   },
   "news": {
-    "usd": 0.7057971279352789,
-    "oil": -0.5382377829369235,
+    "usd": 1.0,
+    "oil": -0.5370736962301468,
     "shock": true,
     "usd_headlines": [
-      "US Dollar Falls Early Thursday Ahead of Jobless Claims, Philadelphia Fed Manufacturing - marketscreener.com",
-      "US Dollar: Hawkish Fed signals support dollar outlook - Danske Bank - FXStreet",
-      "US Dollar Technical Forecast: DXY Bulls Target Yearly Highs After Hot CPI - StoneX"
+      "Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Retreats As Traders Focus On Hawkish Interest Rate Outlook - FXEmpire",
+      "Fed Minutes Strike Hawkish Tone; Crude Oil and Precious Metals Prices Drop Sharply | Global Markets - Moomoo"
     ],
     "oil_headlines": [
       "IRGC Navy claims two supertankers carrying over 4mln barrels of crude oil struck a naval mine and exploded while attempting to transit a restricted route in ...",
@@ -118,32 +117,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.7629411913125812,
-      "trust": 1.0038699885691857
+      "score": 0.4610999204935457,
+      "trust": 0.8233927151670458
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.17446843343239415,
-      "trust": 0.8304254705034181
+      "score": 0.17622696045428993,
+      "trust": 0.7742207834713598
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.14999043428352563,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.10018571810210641,
-      "trust": 0.8348809841842202
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.0977971697739471,
+      "trust": 0.8149764147828925
     }
   ],
   "record": {
