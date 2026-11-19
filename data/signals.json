@@ -1,64 +1,15 @@
 {
-  "updated_at": "2026-11-19T04:08:49.053272+00:00",
-  "atr": 7.177857142857159,
-  "price": 3725.0,
-  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 52%).",
+  "updated_at": "2026-11-19T04:23:25.804931+00:00",
+  "atr": 5.51214285714296,
+  "price": 3724.16,
+  "stance": "Strategy: the SELL plan from 04:08 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3693.53,
-      "entry_high": 3694.58,
-      "sl": 3689.58,
-      "tp1": 3711.95,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.24,
-      "style": "trend_align",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.24. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-19T03:24:51.566003+00:00",
-      "checked_at": "2026-11-19T04:22:00.613471+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3757.51,
-      "entry_high": 3758.56,
-      "sl": 3762.51,
-      "tp1": 3740.14,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.52,
-      "style": "dollar_lead",
-      "favored": false,
-      "ready": true,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T04:22:00.613471+00:00"
-    }
-  ],
-  "research": [
-    "Gold 3727.03 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3735.31, ATR 7.18, day range 3693.53-3758.56.",
-    "DXY 103.96 (+0.15% today, up), gold-dollar corr -0.47.",
-    "WTI 81.99 (-0.04% today, flat), gold-oil corr +0.19.",
-    "Headlines: dollar +1.00, oil -1.00.",
-    "Dollar: Silver Drops As The US Dollar Strengthens On Bets For A Faster Pace Of Fed Hikes By Kedia Advisory - Investing.com India",
-    "Oil: Crude Oil Falls As US Crude And Fuel Inventories Rise In Latest Weekly Figures By Kedia Advisory - Investing.com India",
-    "No high-impact US release in the next 24 hours."
-  ],
-  "active": [
-    {
-      "side": "BUY",
-      "entry_low": 3738.56,
-      "entry_high": 3740.5,
-      "sl": 3735.5,
-      "tp1": 3755.66,
+      "entry_high": 3695.5,
+      "sl": 3690.5,
+      "tp1": 3710.58,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -69,12 +20,39 @@
       "ready": false,
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-18T16:22:39.864367+00:00",
-      "checked_at": "2026-11-18T16:23:43.159127+00:00",
-      "entry": 3740.5,
-      "entered_at": "2026-11-18T16:23:43.159127+00:00",
-      "closed": "sl"
+      "created_at": "2026-11-19T03:24:51.566003+00:00",
+      "checked_at": "2026-11-19T04:36:33.786618+00:00"
     },
+    {
+      "side": "SELL",
+      "entry_low": 3756.59,
+      "entry_high": 3758.56,
+      "sl": 3761.59,
+      "tp1": 3741.51,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.58,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": true,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-19T01:12:39.861841+00:00",
+      "checked_at": "2026-11-19T04:36:33.786618+00:00"
+    }
+  ],
+  "research": [
+    "Gold 3726.54 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3734.86, ATR 5.51, day range 3693.53-3758.56.",
+    "DXY 103.93 (+0.12% today, up), gold-dollar corr -0.49.",
+    "WTI 82.21 (+0.23% today, flat), gold-oil corr +0.22.",
+    "Headlines: dollar +1.00, oil -1.00.",
+    "Dollar: Silver Drops As The US Dollar Strengthens On Bets For A Faster Pace Of Fed Hikes By Kedia Advisory - Investing.com India",
+    "Oil: Crude oil futures edge lower as US inventories rise - BusinessLine",
+    "No high-impact US release in the next 24 hours."
+  ],
+  "active": [
     {
       "side": "BUY",
       "entry_low": 3735.54,
@@ -273,5 +251,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-19T04:22:00.613471+00:00"
+  "last_check": "2026-11-19T04:36:33.786618+00:00"
 }
