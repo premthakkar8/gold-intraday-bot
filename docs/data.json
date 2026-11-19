@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-19 23:14 UTC",
+  "updated": "2026-11-19 23:29 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3628.73,
+  "price": 3627.27,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.16). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3620.07,
-      "entry_high": 3620.65,
-      "sl": 3615.65,
-      "tp1": 3639.2,
+      "entry_high": 3620.67,
+      "sl": 3615.67,
+      "tp1": 3639.18,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-19T22:01:21.402224+00:00",
-      "checked_at": "2026-11-19T23:14:31.574151+00:00"
+      "checked_at": "2026-11-19T23:29:13.603455+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3757.98,
+      "entry_low": 3757.96,
       "entry_high": 3758.56,
-      "sl": 3762.98,
-      "tp1": 3739.43,
+      "sl": 3762.96,
+      "tp1": 3739.45,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-19T01:12:39.861841+00:00",
-      "checked_at": "2026-11-19T23:14:31.574151+00:00"
+      "checked_at": "2026-11-19T23:29:13.603455+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "late",
-    "vwap": 3708.909295161328,
-    "atr": 8.030714285714241,
+    "vwap": 3708.272973036654,
+    "atr": 8.00785714285712,
     "day_low": 3620.07,
     "day_high": 3758.56,
-    "range_pos": 0.0625315907285715
+    "range_pos": 0.05198931330781883
   },
   "dxy": {
     "ok": true,
-    "last": 103.9219970703125,
-    "pct": 0.11078045281004802,
+    "last": 103.92400360107422,
+    "pct": 0.11271339642373093,
     "state": "up",
-    "corr": -0.420797832798625
+    "corr": -0.41458285989277743
   },
   "oil": {
     "ok": true,
-    "last": 83.08999633789062,
-    "pct": 1.3045595447664184,
+    "last": 83.05999755859375,
+    "pct": 1.2679845867992494,
     "state": "up",
-    "corr": 0.11602403725579757
+    "corr": 0.16020119690215653
   },
   "news": {
-    "usd": 0.2792489558711889,
-    "oil": -0.5365205927600656,
+    "usd": 0.2479906538051342,
+    "oil": -0.5323055437062892,
     "shock": true,
     "usd_headlines": [
       "Correction to Treasury Yields Fall Headline - marketscreener.com",
@@ -110,14 +110,14 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.15904393040643222,
+      "score": 0.15659298422495777,
       "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.10220564124887904,
-      "trust": 0.851713677073992
+      "score": 0.10223080641461776,
+      "trust": 0.8519233867884815
     },
     {
       "style": "Trade with the intraday trend",
