@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-20 16:51 UTC",
+  "updated": "2026-11-20 17:05 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3541.93,
-  "stance": "Strategy: BUY is the trade (Trade the oil shock, confidence 58%).",
+  "price": 3537.56,
+  "stance": "Strategy: the BUY plan from 16:51 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3514.67,
-      "entry_high": 3515.15,
-      "sl": 3510.15,
-      "tp1": 3533.95,
+      "entry_high": 3514.99,
+      "sl": 3509.99,
+      "tp1": 3534.19,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,16 +19,16 @@
       "favored": true,
       "ready": true,
       "status": "valid",
-      "reason": "Score 0.79 (Trade the oil shock), dollar softer -0.16%, oil supply news +1.00, price below VWAP.",
+      "reason": "Score 0.79 (Trade the oil shock), dollar softer -0.14%, oil supply news +1.00, price below VWAP.",
       "created_at": "2026-11-20T16:51:03.290675+00:00",
-      "checked_at": "2026-11-20T16:51:03.290675+00:00"
+      "checked_at": "2026-11-20T17:05:43.997754+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3626.29,
+      "entry_low": 3626.45,
       "entry_high": 3626.77,
-      "sl": 3631.29,
-      "tp1": 3607.49,
+      "sl": 3631.45,
+      "tp1": 3607.25,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -38,45 +38,45 @@
       "favored": false,
       "ready": false,
       "status": "far",
-      "reason": "Price is 84.36 away from the entry (10.3 ATR). Unlikely to fill soon.",
+      "reason": "Price is 88.89 away from the entry (10.5 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-20T16:51:03.290675+00:00",
-      "checked_at": "2026-11-20T16:51:03.290675+00:00"
+      "checked_at": "2026-11-20T17:05:43.997754+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
-    "htf": "down",
-    "session": "overlap",
-    "vwap": 3562.8282976181345,
-    "atr": 8.22000000000006,
+    "htf": "sideways",
+    "session": "newyork",
+    "vwap": 3562.489210161959,
+    "atr": 8.505000000000043,
     "day_low": 3514.67,
     "day_high": 3626.77,
-    "range_pos": 0.2431757359500427
+    "range_pos": 0.204192685102586
   },
   "dxy": {
     "ok": true,
-    "last": 103.72000122070312,
-    "pct": -0.1597908897013971,
+    "last": 103.73799896240234,
+    "pct": -0.14246637877182658,
     "state": "down",
-    "corr": -0.18576981677404267
+    "corr": -0.1802441344494896
   },
   "oil": {
     "ok": true,
-    "last": 81.98999786376953,
-    "pct": -0.9423689874732102,
+    "last": 82.16000366210938,
+    "pct": -0.7369735480207127,
     "state": "down",
-    "corr": 0.17385663153086225
+    "corr": 0.19024563941256514
   },
   "news": {
-    "usd": 0.24219404862616584,
+    "usd": 0.03908424898427112,
     "oil": 1.0,
     "shock": true,
     "usd_headlines": [
       "Tech stocks tumble, Treasury yields fall as traders seek refuge - marketscreener.com",
-      "Treasury yields fall as bond market tracks risk assets, not Fed rhetoric - Investing.com",
-      "US Dollar: How are hawkish Fed risks and safe-haven demand supporting USD? \u2013 OCBC - www.tmgm.com"
+      "Tech stocks tumble, Treasury yields fall as traders seek refuge - TradingView",
+      "Treasury yields fall as bond market tracks risk assets, not Fed rhetoric - Investing.com"
     ],
     "oil_headlines": [
       "Oil Prices Today, November 20, 2026: Brent Crude Rises 0.3% to $92.2 But Stays On Course For Weekly Decline - HDFC Sky",
@@ -97,19 +97,19 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.7915318445711987,
-      "trust": 1.2064590608131271
+      "score": 0.7943057538319303,
+      "trust": 1.206167519346688
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4719674722022516,
-      "trust": 0.8427990575040206
+      "score": 0.43940594652260284,
+      "trust": 0.7846534759332193
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.2328486491152477,
+      "score": 0.21469237910868094,
       "trust": 1.0
     },
     {
