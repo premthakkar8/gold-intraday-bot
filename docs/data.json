@@ -1,84 +1,88 @@
 {
-  "updated": "2026-11-20 12:12 UTC",
+  "updated": "2026-11-20 12:26 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3569.77,
+  "price": 3577.41,
   "stance": "Strategy: the BUY plan from 10:58 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3514.67,
-      "entry_high": 3517.08,
-      "sl": 3512.08,
-      "tp1": 3531.06,
+      "entry_high": 3517.09,
+      "sl": 3512.09,
+      "tp1": 3531.04,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.26,
+      "style": "oil_shock",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-20T07:18:51.622843+00:00",
-      "checked_at": "2026-11-20T12:12:01.611122+00:00"
+      "checked_at": "2026-11-20T12:26:44.503103+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3624.36,
+      "entry_low": 3624.35,
       "entry_high": 3626.77,
-      "sl": 3629.36,
-      "tp1": 3610.38,
+      "sl": 3629.35,
+      "tp1": 3610.4,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.4,
+      "score": 0.36,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-20T07:18:51.622843+00:00",
-      "checked_at": "2026-11-20T12:12:01.611122+00:00"
+      "checked_at": "2026-11-20T12:26:44.503103+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3563.2652396839917,
-    "atr": 4.714285714285812,
+    "vwap": 3563.461348924533,
+    "atr": 4.692142857142926,
     "day_low": 3514.67,
     "day_high": 3626.77,
-    "range_pos": 0.49152542372881314
+    "range_pos": 0.5596788581623535
   },
   "dxy": {
     "ok": true,
-    "last": 103.89299774169922,
-    "pct": 0.00673445380348291,
+    "last": 103.85099792480469,
+    "pct": -0.033694301036400864,
     "state": "flat",
-    "corr": -0.3052819351588132
+    "corr": -0.3064367435577446
   },
   "oil": {
     "ok": true,
-    "last": 82.12000274658203,
-    "pct": -0.7853013445045542,
+    "last": 82.27999877929688,
+    "pct": -0.5919993761538688,
     "state": "down",
-    "corr": 0.1291101694271876
+    "corr": 0.08204551092744088
   },
   "news": {
-    "usd": 0.55278827241069,
-    "oil": 0.0,
-    "shock": false,
+    "usd": 0.5748676057985195,
+    "oil": 0.27203512698634297,
+    "shock": true,
     "usd_headlines": [
       "A \u2018Shock\u2019 Rate Hike by the Fed? In This Economy? - Bloomberg.com",
       "US Dollar: Hawkish Fed risks and safe-haven demand support USD \u2013 OCBC - FXStreet",
       "Swiss Franc stays firm as US Dollar slips despite hawkish Fed outlook - www.tmgm.com"
     ],
-    "oil_headlines": []
+    "oil_headlines": [
+      "Oil prices remain under pressure as focus shifts from supply disruptions to demand concerns. What's next? - investingLive",
+      "Crude Oil Rises As Trump Weighs Additional Military Strikes Against Iran Reports By Kedia Advisory - Investing.com India",
+      "Oil Prices Today, November 20, 2026: Brent Crude Rises 0.3% to $92.2 But Stays On Course For Weekly Decline - HDFC Sky"
+    ]
   },
   "events": [
     {
@@ -98,34 +102,34 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.39678787350208156,
-      "trust": 0.8511819461970499
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.2117712857780348,
-      "trust": 0.6617852680563587
+      "score": 0.3958855731683594,
+      "trust": 0.5998266260126657
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.3605355873118619,
+      "trust": 0.9995785391636547
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.3518144452594463,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.26276810116575294,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.18220482048640232,
-      "trust": 1.1387801280400145
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.11227264002818058,
-      "trust": 0.9356053335681715
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.09463795802105131,
+      "trust": 0.946379580210513
     }
   ],
   "record": {
