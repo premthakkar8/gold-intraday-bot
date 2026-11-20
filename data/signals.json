@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-20T17:05:43.997754+00:00",
-  "atr": 8.505000000000043,
-  "price": 3533.64,
+  "updated_at": "2026-11-20T17:20:20.692404+00:00",
+  "atr": 7.133571428571421,
+  "price": 3532.71,
   "stance": "Strategy: the BUY plan from 16:51 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3514.67,
-      "entry_high": 3514.99,
-      "sl": 3509.99,
-      "tp1": 3534.19,
+      "entry_high": 3515.75,
+      "sl": 3510.75,
+      "tp1": 3533.06,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.79,
+      "score": 0.88,
       "style": "oil_shock",
       "favored": true,
       "ready": true,
       "status": "valid",
-      "reason": "Score 0.79 (Trade the oil shock), dollar softer -0.14%, oil supply news +1.00, price below VWAP.",
+      "reason": "Score 0.88 (Trade the oil shock), dollar softer -0.13%, oil supply news +1.00, price below VWAP.",
       "created_at": "2026-11-20T16:51:03.290675+00:00",
-      "checked_at": "2026-11-20T17:18:51.649788+00:00"
+      "checked_at": "2026-11-20T17:33:26.756490+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3626.45,
+      "entry_low": 3625.69,
       "entry_high": 3626.77,
-      "sl": 3631.45,
-      "tp1": 3607.25,
+      "sl": 3630.69,
+      "tp1": 3608.38,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -38,20 +38,20 @@
       "favored": false,
       "ready": false,
       "status": "far",
-      "reason": "Price is 88.89 away from the entry (10.5 ATR). Unlikely to fill soon.",
+      "reason": "Price is 95.02 away from the entry (13.3 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-20T16:51:03.290675+00:00",
-      "checked_at": "2026-11-20T17:18:51.649788+00:00"
+      "checked_at": "2026-11-20T17:33:26.756490+00:00"
     }
   ],
   "research": [
-    "Gold 3537.56 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3562.49, ATR 8.51, day range 3514.67-3626.77.",
-    "DXY 103.74 (-0.14% today, down), gold-dollar corr -0.18.",
-    "WTI 82.16 (-0.74% today, down), gold-oil corr +0.19.",
-    "Headlines: dollar +0.04, oil +1.00, fresh shock.",
+    "Gold 3530.67 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3562.09, ATR 7.13, day range 3514.67-3626.77.",
+    "DXY 103.75 (-0.13% today, down), gold-dollar corr -0.12.",
+    "WTI 82.65 (-0.14% today, flat), gold-oil corr +0.20.",
+    "Headlines: dollar +0.11, oil +1.00, fresh shock.",
     "Dollar: Tech stocks tumble, Treasury yields fall as traders seek refuge - marketscreener.com",
     "Oil: Oil Prices Today, November 20, 2026: Brent Crude Rises 0.3% to $92.2 But Stays On Course For Weekly Decline - HDFC Sky",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [],
-  "last_check": "2026-11-20T17:18:51.649788+00:00"
+  "last_check": "2026-11-20T17:33:26.756490+00:00"
 }
