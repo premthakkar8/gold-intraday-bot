@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-20T02:40:20.827727+00:00",
-  "atr": 12.990000000000009,
-  "price": 3551.68,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.11). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-20T02:55:03.328643+00:00",
+  "atr": 12.488571428571438,
+  "price": 3531.11,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.30). Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3546.49 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3579.40, ATR 12.99, day range 3526.40-3626.77.",
-    "DXY 103.90 (+0.01% today, flat), gold-dollar corr +0.24.",
-    "WTI 82.86 (+0.11% today, flat), gold-oil corr +0.20.",
-    "Headlines: dollar +0.48, oil +0.00, fresh shock.",
+    "Gold 3546.98 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3576.53, ATR 12.49, day range 3526.40-3626.77.",
+    "DXY 103.89 (+0.00% today, flat), gold-dollar corr +0.25.",
+    "WTI 83.01 (+0.29% today, flat), gold-oil corr +0.19.",
+    "Headlines: dollar +0.34, oil +0.00, fresh shock.",
     "Dollar: Euro faces pressure as Fed rate hike bets strengthen US Dollar - FXStreet",
     "Oil: Crude Oil Forecast: WTI Struggles as US Inventories Rise - FXEmpire",
     "No high-impact US release in the next 24 hours."
@@ -169,5 +169,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-20T02:53:31.115655+00:00"
+  "last_check": "2026-11-20T03:08:11.052163+00:00"
 }
