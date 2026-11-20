@@ -1396,3 +1396,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-20 02:25 UTC  live: gold 3533.95 | holding flat stand_aside 3b219ed3 | new read flat stand_aside not opened
 2026-11-20 02:40 UTC  live: gold 3546.49 | holding flat stand_aside 3b219ed3 | new read flat stand_aside not opened
 2026-11-20 02:55 UTC  live: gold 3546.98 | holding flat stand_aside 3b219ed3 | new read flat stand_aside not opened
+2026-11-20 03:10 UTC  live: gold 3531.05 | graded: 3b219ed3 stand aside -> win (+1.00R) | opened stand aside f136dd20
