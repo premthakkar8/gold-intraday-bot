@@ -1,9 +1,49 @@
 {
-  "updated": "2026-11-20 20:30 UTC",
+  "updated": "2026-11-20 20:45 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3514.5,
+  "price": 3508.94,
   "stance": "Strategy: the BUY plan from 20:16 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3502.91,
+      "entry_high": 3503.49,
+      "sl": 3498.49,
+      "tp1": 3522.04,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.46,
+      "style": "oil_shock",
+      "favored": false,
+      "ready": false,
+      "status": "invalid",
+      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
+      "created_at": "2026-11-20T20:16:13.704473+00:00",
+      "checked_at": "2026-11-20T20:45:17.152244+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3626.19,
+      "entry_high": 3626.77,
+      "sl": 3631.19,
+      "tp1": 3607.64,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.22,
+      "style": "trend_align",
+      "favored": true,
+      "ready": false,
+      "status": "far",
+      "reason": "Price is 117.25 away from the entry (14.6 ATR). Unlikely to fill soon.",
+      "created_at": "2026-11-20T20:16:13.704473+00:00",
+      "checked_at": "2026-11-20T20:45:17.152244+00:00"
+    }
+  ],
+  "active": [
     {
       "side": "BUY",
       "entry_low": 3502.91,
@@ -21,57 +61,40 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-20T20:16:13.704473+00:00",
-      "checked_at": "2026-11-20T20:30:41.901637+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3625.95,
-      "entry_high": 3626.77,
-      "sl": 3630.95,
-      "tp1": 3608.01,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.16,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "far",
-      "reason": "Price is 111.45 away from the entry (14.7 ATR). Unlikely to fill soon.",
-      "created_at": "2026-11-20T20:16:13.704473+00:00",
-      "checked_at": "2026-11-20T20:30:41.901637+00:00"
+      "checked_at": "2026-11-20T20:33:45.114301+00:00",
+      "entry": 3503.73,
+      "entered_at": "2026-11-20T20:33:45.114301+00:00",
+      "closed": null
     }
   ],
-  "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "down",
     "session": "newyork",
-    "vwap": 3555.239532762444,
-    "atr": 7.592142857142887,
+    "vwap": 3554.6272528862764,
+    "atr": 8.032857142857178,
     "day_low": 3502.91,
     "day_high": 3626.77,
-    "range_pos": 0.09357338931051294
+    "range_pos": 0.04868399806233
   },
   "dxy": {
     "ok": true,
-    "last": 103.81199645996094,
-    "pct": -0.07123686138907767,
+    "last": 103.86299896240234,
+    "pct": -0.022142179081244245,
     "state": "flat",
-    "corr": -0.4473374755222126
+    "corr": -0.48291505919020145
   },
   "oil": {
     "ok": true,
-    "last": 83.25,
-    "pct": 0.5799243402214194,
+    "last": 83.69999694824219,
+    "pct": 1.1235959198914462,
     "state": "up",
-    "corr": 0.12655817514023376
+    "corr": 0.08745365320555765
   },
   "news": {
-    "usd": 0.47281489748058303,
-    "oil": 0.027817087251431956,
+    "usd": 0.5094823754316317,
+    "oil": 0.03465699670260333,
     "shock": true,
     "usd_headlines": [
       "US Dollar Weekly Forecast: DXY eyes 104.00 amid hawkish Fed - FXStreet",
@@ -87,34 +110,34 @@
   "events": [],
   "scorecard": [
     {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.45539966272511667,
+      "trust": 0.9322684373111144
+    },
+    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.420539801971017,
-      "trust": 0.7509639320911017
+      "score": 0.39172214716010495,
+      "trust": 0.699503834214473
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.2171067401742777,
+      "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.16424083174141058,
-      "trust": 0.858291615688213
+      "score": 0.20632582358319163,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.10977816654964481,
-      "trust": 1.097781665496448
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.05766235791687537,
-      "trust": 0.7207794739609421
     }
   ],
   "record": {
