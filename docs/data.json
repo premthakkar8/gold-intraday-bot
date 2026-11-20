@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-20 15:22 UTC",
+  "updated": "2026-11-20 15:37 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3541.43,
+  "price": 3554.76,
   "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
@@ -10,28 +10,28 @@
     "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3564.5654537116793,
-    "atr": 10.600000000000007,
+    "vwap": 3564.0985109453686,
+    "atr": 11.790714285714298,
     "day_low": 3514.67,
     "day_high": 3626.77,
-    "range_pos": 0.23871543264941825
+    "range_pos": 0.3576271186440694
   },
   "dxy": {
     "ok": true,
-    "last": 103.72699737548828,
-    "pct": -0.1530564358979142,
+    "last": 103.72000122070312,
+    "pct": -0.1597908897013971,
     "state": "down",
-    "corr": -0.035897948560563074
+    "corr": -0.08027304075755186
   },
   "oil": {
     "ok": true,
-    "last": 81.80999755859375,
-    "pct": -1.1598394628581574,
+    "last": 81.38999938964844,
+    "pct": -1.6672674995614736,
     "state": "down",
-    "corr": -0.16351599461394814
+    "corr": -0.050827984538156304
   },
   "news": {
-    "usd": 0.4915172963872426,
+    "usd": 0.49262372579929864,
     "oil": 1.0,
     "shock": true,
     "usd_headlines": [
@@ -47,20 +47,6 @@
   },
   "events": [
     {
-      "title": "Revised UoM Consumer Sentiment",
-      "when": "Fri 15:00 UTC",
-      "impact": "Medium",
-      "forecast": "51.7",
-      "previous": "51.0"
-    },
-    {
-      "title": "Revised UoM Inflation Expectations",
-      "when": "Fri 15:00 UTC",
-      "impact": "Medium",
-      "forecast": "",
-      "previous": "4.3%"
-    },
-    {
       "title": "President Trump Speaks",
       "when": "Fri 17:00 UTC",
       "impact": "Medium",
@@ -72,8 +58,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.5847244750471605,
-      "trust": 0.9281340873764452
+      "score": 0.584788655977177,
+      "trust": 0.9282359618685349
     },
     {
       "style": "Stand aside",
@@ -84,14 +70,14 @@
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.12783363078386856,
-      "trust": 0.8544418984048826
+      "score": 0.1402687967778739,
+      "trust": 0.8546482362516892
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11937265128134678,
-      "trust": 1.1937265128134678
+      "score": 0.11934518931867673,
+      "trust": 1.1934518931867673
     },
     {
       "style": "Trade with the intraday trend",
