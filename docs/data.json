@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-20 15:52 UTC",
+  "updated": "2026-11-20 16:06 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3552.1,
+  "price": 3545.65,
   "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
@@ -10,28 +10,28 @@
     "structure": "down",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3563.9395363031176,
-    "atr": 11.643571428571477,
+    "vwap": 3563.642907350362,
+    "atr": 11.575714285714346,
     "day_low": 3514.67,
     "day_high": 3626.77,
-    "range_pos": 0.33389830508474455
+    "range_pos": 0.27636039250669087
   },
   "dxy": {
     "ok": true,
-    "last": 103.64900207519531,
-    "pct": -0.22813421259693903,
+    "last": 103.73300170898438,
+    "pct": -0.1472767029171715,
     "state": "down",
-    "corr": -0.18730366020739878
+    "corr": -0.16558806615140662
   },
   "oil": {
     "ok": true,
-    "last": 81.51000213623047,
-    "pct": -1.5222841101099482,
+    "last": 81.9000015258789,
+    "pct": -1.051099616373343,
     "state": "down",
-    "corr": 0.01750810229926718
+    "corr": 0.014068647723750041
   },
   "news": {
-    "usd": 0.5731862031416332,
+    "usd": 0.5744509603419821,
     "oil": 1.0,
     "shock": true,
     "usd_headlines": [
@@ -40,9 +40,9 @@
       "US Dollar Falls Early Friday Ahead of Waller, Michigan, State Unemployment - marketscreener.com"
     ],
     "oil_headlines": [
-      "Crude Oil Rises As Trump Weighs Additional Military Strikes Against Iran Reports By Kedia Advisory - Investing.com India",
       "Oil Prices Today, November 20, 2026: Brent Crude Rises 0.3% to $92.2 But Stays On Course For Weekly Decline - HDFC Sky",
-      "Oil prices rise on Houthi attacks on Riyadh, supply disruption concerns - Business Standard"
+      "Oil prices rise on Houthi attacks on Riyadh, supply disruption concerns - Business Standard",
+      "Crude Oil Rises As Trump Weighs Additional Military Strikes Against Iran Reports By Kedia Advisory - Investing.com India"
     ]
   },
   "events": [
@@ -58,25 +58,19 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6210569004422583,
-      "trust": 0.817180132160866
+      "score": 0.5996937074722919,
+      "trust": 0.7890706677266999
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.5890451861594229,
-      "trust": 0.9311109338684171
+      "score": 0.5886256421838738,
+      "trust": 0.9312071719600847
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.23932301836119246,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.19473323109011179,
+      "score": 0.1723869504278991,
       "trust": 1.0
     },
     {
@@ -84,13 +78,19 @@
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.0814,
+      "trust": 1.0
     }
   ],
   "record": {
-    "graded": 201,
+    "graded": 202,
     "wins": 54,
-    "losses": 103,
+    "losses": 104,
     "scratches": 44,
-    "avg_r": -0.14622515725178703
+    "avg_r": -0.15045176538420393
   }
 }

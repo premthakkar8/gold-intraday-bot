@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-20T15:52:07.552966+00:00",
-  "atr": 11.643571428571477,
-  "price": 3539.89,
+  "updated_at": "2026-11-20T16:06:38.834526+00:00",
+  "atr": 11.575714285714346,
+  "price": 3545.83,
   "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3552.10 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3563.94, ATR 11.64, day range 3514.67-3626.77.",
-    "DXY 103.65 (-0.23% today, down), gold-dollar corr -0.19.",
-    "WTI 81.51 (-1.52% today, down), gold-oil corr +0.02.",
+    "Gold 3545.65 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3563.64, ATR 11.58, day range 3514.67-3626.77.",
+    "DXY 103.73 (-0.15% today, down), gold-dollar corr -0.17.",
+    "WTI 81.90 (-1.05% today, down), gold-oil corr +0.01.",
     "Headlines: dollar +0.57, oil +1.00, fresh shock.",
     "Dollar: US Dollar: How are hawkish Fed risks and safe-haven demand supporting USD? \u2013 OCBC - www.tmgm.com",
-    "Oil: Crude Oil Rises As Trump Weighs Additional Military Strikes Against Iran Reports By Kedia Advisory - Investing.com India",
+    "Oil: Oil Prices Today, November 20, 2026: Brent Crude Rises 0.3% to $92.2 But Stays On Course For Weekly Decline - HDFC Sky",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -37,5 +37,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-20T16:05:14.001279+00:00"
+  "last_check": "2026-11-20T16:19:45.798943+00:00"
 }
