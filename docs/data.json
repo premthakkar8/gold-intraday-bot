@@ -1,38 +1,77 @@
 {
-  "updated": "2026-11-20 00:42 UTC",
+  "updated": "2026-11-20 00:57 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3597.01,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.38). Take an entry only if price reaches it.",
-  "setups": [],
+  "price": 3593.61,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.32). Take an entry only if price reaches it.",
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3585.98,
+      "entry_high": 3586.3,
+      "sl": 3581.3,
+      "tp1": 3605.51,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-20T00:57:28.989787+00:00",
+      "checked_at": "2026-11-20T00:57:28.989787+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3626.45,
+      "entry_high": 3626.77,
+      "sl": 3631.45,
+      "tp1": 3607.24,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.32,
+      "style": "trend_align",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.32 (Trade with the intraday trend).",
+      "created_at": "2026-11-20T00:57:28.989787+00:00",
+      "checked_at": "2026-11-20T00:57:28.989787+00:00"
+    }
+  ],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "down",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3656.256440430594,
-    "atr": 10.387857142857099,
-    "day_low": 3590.69,
-    "day_high": 3692.27,
-    "range_pos": 0.062216971844853
+    "vwap": 3607.2174278068214,
+    "atr": 8.517142857142776,
+    "day_low": 3585.98,
+    "day_high": 3626.77,
+    "range_pos": 0.18705565089483
   },
   "dxy": {
     "ok": true,
-    "last": 103.92400360107422,
-    "pct": 0.11271339642373093,
-    "state": "up",
-    "corr": -0.41458285989277743
+    "last": 103.88300323486328,
+    "pct": 0.013478457018559431,
+    "state": "flat",
+    "corr": 0.18845208239861885
   },
   "oil": {
     "ok": true,
-    "last": 82.83000183105469,
-    "pct": 0.0724963035181032,
+    "last": 82.79000091552734,
+    "pct": 0.024168507034261485,
     "state": "flat",
-    "corr": 0.23192843463058374
+    "corr": 0.24912768038697092
   },
   "news": {
-    "usd": 0.25726335954178636,
-    "oil": -0.5100646093321854,
+    "usd": 0.25738233880619404,
+    "oil": -0.505295013168381,
     "shock": true,
     "usd_headlines": [
       "Correction to Treasury Yields Fall Headline - marketscreener.com",
@@ -63,28 +102,28 @@
   ],
   "scorecard": [
     {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.4156137621165227,
-      "trust": 0.7421674323509333
-    },
-    {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.38226659893650006,
-      "trust": 0.9443344835387845
+      "score": 0.32188520966215145,
+      "trust": 0.9378939675470612
     },
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.1473598202979811,
-      "trust": 0.9364623135433265
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.3102724985852573,
+      "trust": 0.5540580331879594
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11097684715583646,
-      "trust": 0.9248070596319705
+      "score": 0.12,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "flat",
+      "score": 0.10919161667611206,
+      "trust": 0.9099301389676006
     },
     {
       "style": "Fade the session range",
@@ -94,10 +133,10 @@
     }
   ],
   "record": {
-    "graded": 190,
+    "graded": 191,
     "wins": 51,
-    "losses": 98,
+    "losses": 99,
     "scratches": 41,
-    "avg_r": -0.15995398214531154
+    "avg_r": -0.16435212883565023
   }
 }
