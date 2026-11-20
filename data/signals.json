@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-20T04:52:34.648029+00:00",
-  "atr": 7.00428571428571,
-  "price": 3522.19,
+  "updated_at": "2026-11-20T05:07:15.288071+00:00",
+  "atr": 7.284999999999984,
+  "price": 3519.25,
   "stance": "Strategy: the BUY plan from 04:37 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3517.42,
-      "entry_high": 3518.57,
-      "sl": 3513.57,
-      "tp1": 3535.7,
+      "entry_high": 3518.41,
+      "sl": 3513.41,
+      "tp1": 3535.93,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "valid",
       "reason": "Score 0.50 (Trade the oil shock), dollar softer -0.09%, oil supply news +0.68, price below VWAP.",
       "created_at": "2026-11-20T04:37:57.650467+00:00",
-      "checked_at": "2026-11-20T05:05:40.808871+00:00"
+      "checked_at": "2026-11-20T05:20:23.473343+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3625.62,
+      "entry_low": 3625.78,
       "entry_high": 3626.77,
-      "sl": 3630.62,
-      "tp1": 3608.49,
+      "sl": 3630.78,
+      "tp1": 3608.26,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -38,43 +38,21 @@
       "favored": false,
       "ready": false,
       "status": "far",
-      "reason": "Price is 96.27 away from the entry (13.7 ATR). Unlikely to fill soon.",
+      "reason": "Price is 99.68 away from the entry (13.7 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-20T04:37:57.650467+00:00",
-      "checked_at": "2026-11-20T05:05:40.808871+00:00"
+      "checked_at": "2026-11-20T05:20:23.473343+00:00"
     }
   ],
   "research": [
-    "Gold 3529.35 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3561.97, ATR 7.00, day range 3517.42-3626.77.",
-    "DXY 103.79 (-0.09% today, down), gold-dollar corr +0.32.",
-    "WTI 83.02 (+0.30% today, flat), gold-oil corr +0.30.",
+    "Gold 3526.10 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3560.70, ATR 7.28, day range 3517.42-3626.77.",
+    "DXY 103.79 (-0.09% today, down), gold-dollar corr +0.35.",
+    "WTI 83.01 (+0.29% today, flat), gold-oil corr +0.30.",
     "Headlines: dollar +0.18, oil +0.68, fresh shock.",
     "Dollar: Euro faces pressure as Fed rate hike bets strengthen US Dollar - FXStreet",
     "Oil: Crude Oil Rises As Trump Weighs Additional Military Strikes Against Iran Reports By Kedia Advisory - Investing.com India",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
-    {
-      "side": "BUY",
-      "entry_low": 3667.61,
-      "entry_high": 3669.3,
-      "sl": 3664.3,
-      "tp1": 3685.07,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.74,
-      "style": "range_fade",
-      "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.74 (Fade the session range), price below VWAP.",
-      "created_at": "2026-11-19T16:07:33.356747+00:00",
-      "checked_at": "2026-11-19T17:07:40.660898+00:00",
-      "entry": 3669.3,
-      "entered_at": "2026-11-19T17:07:40.660898+00:00",
-      "closed": "tp"
-    },
     {
       "side": "BUY",
       "entry_low": 3661.97,
@@ -140,7 +118,29 @@
       "entry": 3586.3,
       "entered_at": "2026-11-20T00:58:35.568935+00:00",
       "closed": "tp"
+    },
+    {
+      "side": "BUY",
+      "entry_low": 3517.42,
+      "entry_high": 3518.41,
+      "sl": 3513.41,
+      "tp1": 3535.93,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.5,
+      "style": "oil_shock",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.50 (Trade the oil shock), dollar softer -0.09%, oil supply news +0.68, price below VWAP.",
+      "created_at": "2026-11-20T04:37:57.650467+00:00",
+      "checked_at": "2026-11-20T05:14:21.635200+00:00",
+      "entry": 3518.41,
+      "entered_at": "2026-11-20T05:14:21.635200+00:00",
+      "closed": null
     }
   ],
-  "last_check": "2026-11-20T05:05:40.808871+00:00"
+  "last_check": "2026-11-20T05:20:23.473343+00:00"
 }
