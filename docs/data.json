@@ -1,100 +1,38 @@
 {
-  "updated": "2026-11-20 20:45 UTC",
+  "updated": "2026-11-20 20:59 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3508.94,
-  "stance": "Strategy: the BUY plan from 20:16 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 3502.91,
-      "entry_high": 3503.49,
-      "sl": 3498.49,
-      "tp1": 3522.04,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.46,
-      "style": "oil_shock",
-      "favored": false,
-      "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
-      "created_at": "2026-11-20T20:16:13.704473+00:00",
-      "checked_at": "2026-11-20T20:45:17.152244+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3626.19,
-      "entry_high": 3626.77,
-      "sl": 3631.19,
-      "tp1": 3607.64,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.22,
-      "style": "trend_align",
-      "favored": true,
-      "ready": false,
-      "status": "far",
-      "reason": "Price is 117.25 away from the entry (14.6 ATR). Unlikely to fill soon.",
-      "created_at": "2026-11-20T20:16:13.704473+00:00",
-      "checked_at": "2026-11-20T20:45:17.152244+00:00"
-    }
-  ],
-  "active": [
-    {
-      "side": "BUY",
-      "entry_low": 3502.91,
-      "entry_high": 3503.73,
-      "sl": 3498.73,
-      "tp1": 3521.67,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-20T20:16:13.704473+00:00",
-      "checked_at": "2026-11-20T20:33:45.114301+00:00",
-      "entry": 3503.73,
-      "entered_at": "2026-11-20T20:33:45.114301+00:00",
-      "closed": null
-    }
-  ],
+  "price": 3525.08,
+  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
+  "setups": [],
+  "active": [],
   "blackout": null,
   "chart": {
     "structure": "down",
     "htf": "down",
     "session": "newyork",
-    "vwap": 3554.6272528862764,
-    "atr": 8.032857142857178,
+    "vwap": 3554.1661115563925,
+    "atr": 9.690714285714323,
     "day_low": 3502.91,
     "day_high": 3626.77,
-    "range_pos": 0.04868399806233
+    "range_pos": 0.17899241078637212
   },
   "dxy": {
     "ok": true,
-    "last": 103.86299896240234,
-    "pct": -0.022142179081244245,
+    "last": 103.87200164794922,
+    "pct": -0.013476251613294589,
     "state": "flat",
-    "corr": -0.48291505919020145
+    "corr": -0.43918372187116567
   },
   "oil": {
     "ok": true,
-    "last": 83.69999694824219,
-    "pct": 1.1235959198914462,
+    "last": 84.02999877929688,
+    "pct": 1.5222933276946295,
     "state": "up",
-    "corr": 0.08745365320555765
+    "corr": 0.2092131833985825
   },
   "news": {
-    "usd": 0.5094823754316317,
-    "oil": 0.03465699670260333,
+    "usd": 0.43917940665542826,
+    "oil": 0.041609267176303415,
     "shock": true,
     "usd_headlines": [
       "US Dollar Weekly Forecast: DXY eyes 104.00 amid hawkish Fed - FXStreet",
@@ -112,25 +50,25 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.45539966272511667,
-      "trust": 0.9322684373111144
+      "score": 0.5420594929831458,
+      "trust": 0.9323637710699768
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.39172214716010495,
-      "trust": 0.699503834214473
+      "score": 0.39172214716010484,
+      "trust": 0.6995038342144728
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.2171067401742777,
+      "score": 0.3235669492150064,
       "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.20632582358319163,
+      "score": 0.18116212825463626,
       "trust": 1.0
     },
     {
@@ -141,10 +79,10 @@
     }
   ],
   "record": {
-    "graded": 207,
-    "wins": 54,
+    "graded": 208,
+    "wins": 55,
     "losses": 109,
     "scratches": 44,
-    "avg_r": -0.17097225414303957
+    "avg_r": -0.15091950292119805
   }
 }
