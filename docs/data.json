@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-20 02:25 UTC",
+  "updated": "2026-11-20 02:40 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3533.95,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.33). Take an entry only if price reaches it.",
+  "price": 3546.49,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.11). Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
   "blackout": null,
@@ -10,34 +10,34 @@
     "structure": "down",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3583.985721170753,
-    "atr": 12.321428571428603,
-    "day_low": 3531.78,
+    "vwap": 3579.399095856698,
+    "atr": 12.990000000000009,
+    "day_low": 3526.4,
     "day_high": 3626.77,
-    "range_pos": 0.022844509948411654
+    "range_pos": 0.20015941018232253
   },
   "dxy": {
     "ok": true,
-    "last": 103.9469985961914,
-    "pct": 0.0587153305985233,
+    "last": 103.89800262451172,
+    "pct": 0.011552121955156616,
     "state": "flat",
-    "corr": 0.17954113102576694
+    "corr": 0.2357475283382129
   },
   "oil": {
     "ok": true,
-    "last": 82.88999938964844,
-    "pct": 0.14498338945152514,
+    "last": 82.86000061035156,
+    "pct": 0.10873984648481416,
     "state": "flat",
-    "corr": 0.16748349806628726
+    "corr": 0.19674507129523883
   },
   "news": {
-    "usd": 0.3330121459588593,
+    "usd": 0.48379117504348157,
     "oil": 0.0,
     "shock": true,
     "usd_headlines": [
       "Euro faces pressure as Fed rate hike bets strengthen US Dollar - FXStreet",
       "Fed's Paulson backs further rate hikes, says shared understanding beats guidance - Wichita Eagle",
-      "Treasury Yields Fall as Anthropic Fails to Sustain Risk Appetite - WSJ"
+      "Gold Steadies Near 14-Month Low as Fed Signals More Rate Hikes - Bloomberg.com"
     ],
     "oil_headlines": [
       "Crude Oil Forecast: WTI Struggles as US Inventories Rise - FXEmpire",
@@ -62,28 +62,28 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.33278693418330935,
-      "trust": 0.9696588991355165
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.2948838941034221,
-      "trust": 0.5265783823275394
+      "score": 0.29488389410342203,
+      "trust": 0.5265783823275393
     },
     {
       "style": "Trade with the dollar",
-      "bias": "flat",
-      "score": 0.1046885144174214,
+      "bias": "short",
+      "score": 0.11316523835483108,
       "trust": 0.872404286811845
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.09431844969841423,
-      "trust": 0.9431844969841422
+      "score": 0.09432655035955698,
+      "trust": 0.9432655035955697
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.08319673354582734,
+      "trust": 0.9696588991355165
     },
     {
       "style": "Trade the oil shock",
