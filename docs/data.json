@@ -1,78 +1,39 @@
 {
-  "updated": "2026-11-20 19:32 UTC",
+  "updated": "2026-11-20 19:47 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3512.6,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.47). Take an entry only if price reaches it.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 3502.91,
-      "entry_high": 3502.94,
-      "sl": 3497.94,
-      "tp1": 3522.87,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.47,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.47 (Trade the oil shock), oil supply news +1.00, price below VWAP.",
-      "created_at": "2026-11-20T19:32:26.384590+00:00",
-      "checked_at": "2026-11-20T19:32:26.384590+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3626.74,
-      "entry_high": 3626.77,
-      "sl": 3631.74,
-      "tp1": 3606.81,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "far",
-      "reason": "Price is 114.14 away from the entry (12.6 ATR). Unlikely to fill soon.",
-      "created_at": "2026-11-20T19:32:26.384590+00:00",
-      "checked_at": "2026-11-20T19:32:26.384590+00:00"
-    }
-  ],
+  "price": 3527.88,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.45). Take an entry only if price reaches it.",
+  "setups": [],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "down",
     "session": "newyork",
-    "vwap": 3557.2082056753998,
-    "atr": 9.044999999999975,
+    "vwap": 3556.742326677769,
+    "atr": 9.119285714285686,
     "day_low": 3502.91,
     "day_high": 3626.77,
-    "range_pos": 0.07823348942354307
+    "range_pos": 0.20159857904085443
   },
   "dxy": {
     "ok": true,
-    "last": 103.86499786376953,
-    "pct": -0.02021804942310627,
+    "last": 103.83100128173828,
+    "pct": -0.052942941624109376,
     "state": "flat",
-    "corr": -0.35868962984564934
+    "corr": -0.20092525175049872
   },
   "oil": {
     "ok": true,
-    "last": 83.27999877929688,
-    "pct": 0.6161678831881303,
-    "state": "up",
-    "corr": 0.2552522533352399
+    "last": 82.87000274658203,
+    "pct": 0.12082410000194492,
+    "state": "flat",
+    "corr": 0.21699327323881995
   },
   "news": {
-    "usd": 0.29015489690020035,
+    "usd": 0.32910888163596375,
     "oil": 1.0,
-    "shock": true,
+    "shock": false,
     "usd_headlines": [
       "US Dollar Weekly Forecast: DXY eyes 104.00 amid hawkish Fed - FXStreet",
       "Fed\u2019s Paulson Argues for Deliberate Rate Hikes to Tame Inflation - Bloomberg.com",
@@ -87,31 +48,31 @@
   "events": [],
   "scorecard": [
     {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.44804590389194443,
+      "trust": 0.9331349469068055
+    },
+    {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.4730858848209337,
-      "trust": 0.7079073685323168
+      "score": 0.41263104181033866,
+      "trust": 0.7083198978888635
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.34666943316784465,
-      "trust": 0.6190525592282939
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.11891251969698842,
-      "trust": 1.1891251969698842
+      "score": 0.27994029421706124,
+      "trust": 0.8233538065207684
     },
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.10294789645364934,
-      "trust": 0.8578991371137445
+      "score": 0.10228561037929837,
+      "trust": 0.8523800864941531
     },
     {
-      "style": "Trade with the intraday trend",
+      "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
