@@ -1,48 +1,48 @@
 {
-  "updated": "2026-11-20 16:06 UTC",
+  "updated": "2026-11-20 16:21 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3545.65,
-  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
+  "price": 3546.12,
+  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3563.642907350362,
-    "atr": 11.575714285714346,
+    "vwap": 3563.4129727437216,
+    "atr": 11.362142857142933,
     "day_low": 3514.67,
     "day_high": 3626.77,
-    "range_pos": 0.27636039250669087
+    "range_pos": 0.28055307760927606
   },
   "dxy": {
     "ok": true,
-    "last": 103.73300170898438,
-    "pct": -0.1472767029171715,
+    "last": 103.72799682617188,
+    "pct": -0.1520943710688452,
     "state": "down",
-    "corr": -0.16558806615140662
+    "corr": -0.18663059448192765
   },
   "oil": {
     "ok": true,
-    "last": 81.9000015258789,
-    "pct": -1.051099616373343,
+    "last": 81.94999694824219,
+    "pct": -0.990696783957052,
     "state": "down",
-    "corr": 0.014068647723750041
+    "corr": 0.13923111133534172
   },
   "news": {
-    "usd": 0.5744509603419821,
+    "usd": 0.35475746514124135,
     "oil": 1.0,
     "shock": true,
     "usd_headlines": [
+      "Treasury yields fall as bond market tracks risk assets, not Fed rhetoric - Investing.com",
       "US Dollar: How are hawkish Fed risks and safe-haven demand supporting USD? \u2013 OCBC - www.tmgm.com",
-      "Colombia\u2019s Dollar Surges on Friday - ColombiaOne.com",
-      "US Dollar Falls Early Friday Ahead of Waller, Michigan, State Unemployment - marketscreener.com"
+      "Colombia\u2019s Dollar Surges on Friday - ColombiaOne.com"
     ],
     "oil_headlines": [
       "Oil Prices Today, November 20, 2026: Brent Crude Rises 0.3% to $92.2 But Stays On Course For Weekly Decline - HDFC Sky",
-      "Oil prices rise on Houthi attacks on Riyadh, supply disruption concerns - Business Standard",
-      "Crude Oil Rises As Trump Weighs Additional Military Strikes Against Iran Reports By Kedia Advisory - Investing.com India"
+      "Crude Oil Rises As Trump Weighs Additional Military Strikes Against Iran Reports By Kedia Advisory - Investing.com India",
+      "Oil prices rise on Houthi attacks on Riyadh, supply disruption concerns - Business Standard"
     ]
   },
   "events": [
@@ -56,41 +56,41 @@
   ],
   "scorecard": [
     {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.5996937074722919,
-      "trust": 0.7890706677266999
-    },
-    {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.5886256421838738,
-      "trust": 0.9312071719600847
+      "score": 0.6043721002451602,
+      "trust": 0.9285394650776775
+    },
+    {
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.4579416855298868,
+      "trust": 0.8177530098747977
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.1723869504278991,
-      "trust": 1.0
+      "score": 0.15439409417018612,
+      "trust": 0.8552629553770448
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.11926337498391291,
+      "trust": 1.192633749839129
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.0814,
+      "bias": "flat",
+      "score": 0.1,
       "trust": 1.0
     }
   ],
   "record": {
-    "graded": 202,
+    "graded": 203,
     "wins": 54,
-    "losses": 104,
+    "losses": 105,
     "scratches": 44,
-    "avg_r": -0.15045176538420393
+    "avg_r": -0.15463673205718814
   }
 }
