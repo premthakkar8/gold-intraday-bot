@@ -1451,3 +1451,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-20 13:10 UTC  live: gold 3574.01 | graded: e8b9ad20 long oil_shock -> scratch (price never reached the entry zone) | opened stand aside c350f397
 2026-11-20 13:25 UTC  live: gold 3556.29 | graded: c350f397 stand aside -> loss (-1.00R) | opened stand aside 7f3bcedf
 2026-11-20 13:39 UTC  live: gold 3558.79 | graded: 7f3bcedf stand aside -> loss (-1.00R) | opened stand aside c3a588db
+2026-11-20 13:54 UTC  live: gold 3566.75 | holding flat stand_aside c3a588db | new read flat stand_aside not opened
