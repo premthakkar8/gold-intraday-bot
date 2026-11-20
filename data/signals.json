@@ -1,53 +1,14 @@
 {
-  "updated_at": "2026-11-20T05:51:11.445966+00:00",
-  "atr": 8.741428571428546,
-  "price": 3552.38,
-  "stance": "Strategy: BUY is the trade (Trade the oil shock, confidence 58%).",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 3514.67,
-      "entry_high": 3514.86,
-      "sl": 3509.86,
-      "tp1": 3534.38,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.69,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.69 (Trade the oil shock), oil supply news +0.76, price below VWAP.",
-      "created_at": "2026-11-20T04:37:57.650467+00:00",
-      "checked_at": "2026-11-20T06:04:19.075666+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3626.58,
-      "entry_high": 3626.77,
-      "sl": 3631.58,
-      "tp1": 3607.06,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.07,
-      "style": "dollar_lead",
-      "favored": false,
-      "ready": false,
-      "status": "far",
-      "reason": "Price is 81.76 away from the entry (9.4 ATR). Unlikely to fill soon.",
-      "created_at": "2026-11-20T04:37:57.650467+00:00",
-      "checked_at": "2026-11-20T06:04:19.075666+00:00"
-    }
-  ],
+  "updated_at": "2026-11-20T06:05:49.606552+00:00",
+  "atr": 10.34214285714279,
+  "price": 3559.95,
+  "stance": "Strategy: the BUY plan from 05:51 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
+  "setups": [],
   "research": [
-    "Gold 3544.82 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3555.96, ATR 8.74, day range 3514.67-3626.77.",
-    "DXY 103.81 (-0.07% today, flat), gold-dollar corr +0.44.",
-    "WTI 82.88 (+0.13% today, flat), gold-oil corr +0.25.",
-    "Headlines: dollar +0.39, oil +0.76, fresh shock.",
+    "Gold 3549.06 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3555.66, ATR 10.34, day range 3514.67-3626.77.",
+    "DXY 103.80 (-0.09% today, down), gold-dollar corr +0.38.",
+    "WTI 82.62 (-0.18% today, flat), gold-oil corr +0.17.",
+    "Headlines: dollar +0.36, oil +0.67, fresh shock.",
     "Dollar: Gold Prices Plunge Over 7% This Week, Head for Worst Fall Since March as Fed Rate Hike Fears Deepen - Kotak Neo",
     "Oil: Crude Oil Rises As Trump Weighs Additional Military Strikes Against Iran Reports By Kedia Advisory - Investing.com India",
     "No high-impact US release in the next 24 hours."
@@ -142,5 +103,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-20T06:04:19.075666+00:00"
+  "last_check": "2026-11-20T06:18:55.662301+00:00"
 }
