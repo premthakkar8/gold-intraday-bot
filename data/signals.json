@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-20T15:37:28.815155+00:00",
-  "atr": 11.790714285714298,
-  "price": 3554.75,
-  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
+  "updated_at": "2026-11-20T15:52:07.552966+00:00",
+  "atr": 11.643571428571477,
+  "price": 3539.89,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3554.76 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3564.10, ATR 11.79, day range 3514.67-3626.77.",
-    "DXY 103.72 (-0.16% today, down), gold-dollar corr -0.08.",
-    "WTI 81.39 (-1.67% today, down), gold-oil corr -0.05.",
-    "Headlines: dollar +0.49, oil +1.00, fresh shock.",
-    "Dollar: Colombia\u2019s Dollar Surges on Friday - ColombiaOne.com",
+    "Gold 3552.10 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3563.94, ATR 11.64, day range 3514.67-3626.77.",
+    "DXY 103.65 (-0.23% today, down), gold-dollar corr -0.19.",
+    "WTI 81.51 (-1.52% today, down), gold-oil corr +0.02.",
+    "Headlines: dollar +0.57, oil +1.00, fresh shock.",
+    "Dollar: US Dollar: How are hawkish Fed risks and safe-haven demand supporting USD? \u2013 OCBC - www.tmgm.com",
     "Oil: Crude Oil Rises As Trump Weighs Additional Military Strikes Against Iran Reports By Kedia Advisory - Investing.com India",
     "No high-impact US release in the next 24 hours."
   ],
@@ -37,5 +37,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-20T15:50:38.678225+00:00"
+  "last_check": "2026-11-20T16:05:14.001279+00:00"
 }
