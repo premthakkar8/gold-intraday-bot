@@ -1,81 +1,73 @@
 {
-  "updated": "2026-11-20 19:47 UTC",
+  "updated": "2026-11-20 20:01 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3527.88,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.45). Take an entry only if price reaches it.",
+  "price": 3518.65,
+  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "down",
     "session": "newyork",
-    "vwap": 3556.742326677769,
-    "atr": 9.119285714285686,
+    "vwap": 3556.2684808941563,
+    "atr": 9.200000000000014,
     "day_low": 3502.91,
     "day_high": 3626.77,
-    "range_pos": 0.20159857904085443
+    "range_pos": 0.12707896011626207
   },
   "dxy": {
     "ok": true,
-    "last": 103.83100128173828,
-    "pct": -0.052942941624109376,
+    "last": 103.81199645996094,
+    "pct": -0.07123686138907767,
     "state": "flat",
-    "corr": -0.20092525175049872
+    "corr": -0.29366142293421427
   },
   "oil": {
     "ok": true,
-    "last": 82.87000274658203,
-    "pct": 0.12082410000194492,
-    "state": "flat",
-    "corr": 0.21699327323881995
+    "last": 83.12000274658203,
+    "pct": 0.4228659148374446,
+    "state": "up",
+    "corr": 0.2835980600129994
   },
   "news": {
-    "usd": 0.32910888163596375,
-    "oil": 1.0,
+    "usd": 0.0,
+    "oil": 0.0,
     "shock": false,
-    "usd_headlines": [
-      "US Dollar Weekly Forecast: DXY eyes 104.00 amid hawkish Fed - FXStreet",
-      "Fed\u2019s Paulson Argues for Deliberate Rate Hikes to Tame Inflation - Bloomberg.com",
-      "Gold declines as strong US dollar and rate hike expectations challenge appeal - Traders Union"
-    ],
-    "oil_headlines": [
-      "Oil Prices Today, November 20, 2026: Brent Crude Rises 0.3% to $92.2 But Stays On Course For Weekly Decline - HDFC Sky",
-      "Oil prices rise on Houthi attacks on Riyadh, supply disruption concerns - Business Standard",
-      "Crude Oil Rises As Trump Weighs Additional Military Strikes Against Iran Reports By Kedia Advisory - Investing.com India"
-    ]
+    "usd_headlines": [],
+    "oil_headlines": []
   },
   "events": [],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
+      "style": "Fade the session range",
       "bias": "long",
-      "score": 0.44804590389194443,
-      "trust": 0.9331349469068055
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.41263104181033866,
-      "trust": 0.7083198978888635
+      "score": 0.8125549723739801,
+      "trust": 1.2391684981867226
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.27994029421706124,
-      "trust": 0.8233538065207684
+      "score": 0.17758016362503298,
+      "trust": 0.8071825619319681
     },
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.10228561037929837,
-      "trust": 0.8523800864941531
+      "score": 0.10299587296074361,
+      "trust": 0.8582989413395301
     },
     {
-      "style": "Fade the session range",
+      "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.06252375069431197,
+      "trust": 0.7815468836788997
     }
   ],
   "record": {

@@ -1,16 +1,14 @@
 {
-  "updated_at": "2026-11-20T19:47:07.229414+00:00",
-  "atr": 9.119285714285686,
-  "price": 3518.38,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.45). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-20T20:01:42.368844+00:00",
+  "atr": 9.200000000000014,
+  "price": 3514.07,
+  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3527.88 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3556.74, ATR 9.12, day range 3502.91-3626.77.",
-    "DXY 103.83 (-0.05% today, flat), gold-dollar corr -0.20.",
-    "WTI 82.87 (+0.12% today, flat), gold-oil corr +0.22.",
-    "Headlines: dollar +0.33, oil +1.00.",
-    "Dollar: US Dollar Weekly Forecast: DXY eyes 104.00 amid hawkish Fed - FXStreet",
-    "Oil: Oil Prices Today, November 20, 2026: Brent Crude Rises 0.3% to $92.2 But Stays On Course For Weekly Decline - HDFC Sky",
+    "Gold 3518.65 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3556.27, ATR 9.20, day range 3502.91-3626.77.",
+    "DXY 103.81 (-0.07% today, flat), gold-dollar corr -0.29.",
+    "WTI 83.12 (+0.42% today, up), gold-oil corr +0.28.",
+    "Headlines: dollar +0.00, oil +0.00.",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -37,5 +35,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-20T20:00:15.725691+00:00"
+  "last_check": "2026-11-20T20:14:48.415512+00:00"
 }
