@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-20T07:48:24.910237+00:00",
-  "atr": 7.491428571428547,
-  "price": 3571.63,
-  "stance": "Strategy: the BUY plan from 05:51 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
+  "updated_at": "2026-11-20T08:03:01.997171+00:00",
+  "atr": 8.524285714285693,
+  "price": 3572.43,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3514.67,
-      "entry_high": 3515.55,
-      "sl": 3510.55,
-      "tp1": 3533.35,
+      "entry_high": 3514.98,
+      "sl": 3509.98,
+      "tp1": 3534.2,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,62 +19,40 @@
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 48.82 away from the entry (6.5 ATR). Unlikely to fill soon.",
+      "reason": "Price is 62.29 away from the entry (7.3 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-20T07:18:51.622843+00:00",
-      "checked_at": "2026-11-20T08:01:32.612687+00:00"
+      "checked_at": "2026-11-20T08:16:08.685342+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3625.89,
+      "entry_low": 3626.46,
       "entry_high": 3626.77,
-      "sl": 3630.89,
-      "tp1": 3608.09,
+      "sl": 3631.46,
+      "tp1": 3607.24,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.29,
+      "score": 0.4,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "far",
-      "reason": "Price is 61.52 away from the entry (8.2 ATR). Unlikely to fill soon.",
+      "reason": "Price is 51.17 away from the entry (6.0 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-20T07:18:51.622843+00:00",
-      "checked_at": "2026-11-20T08:01:32.612687+00:00"
+      "checked_at": "2026-11-20T08:16:08.685342+00:00"
     }
   ],
   "research": [
-    "Gold 3564.37 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3555.51, ATR 7.49, day range 3514.67-3626.77.",
-    "DXY 103.71 (-0.17% today, down), gold-dollar corr +0.17.",
-    "WTI 82.83 (+0.07% today, flat), gold-oil corr +0.16.",
+    "Gold 3577.27 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3555.95, ATR 8.52, day range 3514.67-3626.77.",
+    "DXY 103.73 (-0.15% today, down), gold-dollar corr +0.45.",
+    "WTI 82.57 (-0.24% today, flat), gold-oil corr +0.16.",
     "Headlines: dollar +0.38, oil +1.00, fresh shock.",
     "Dollar: U.S. Treasury Yields Fall as Investors Seek Safe-Haven Assets - marketscreener.com",
     "Oil: Crude Oil Rises As Trump Weighs Additional Military Strikes Against Iran Reports By Kedia Advisory - Investing.com India",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
-    {
-      "side": "BUY",
-      "entry_low": 3661.97,
-      "entry_high": 3664.9,
-      "sl": 3659.9,
-      "tp1": 3677.57,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-19T20:03:37.826444+00:00",
-      "checked_at": "2026-11-19T20:04:46.889696+00:00",
-      "entry": 3664.9,
-      "entered_at": "2026-11-19T20:04:46.889696+00:00",
-      "closed": "sl"
-    },
     {
       "side": "BUY",
       "entry_low": 3620.07,
@@ -142,5 +120,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-20T08:01:32.612687+00:00"
+  "last_check": "2026-11-20T08:16:08.685342+00:00"
 }

@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-20 07:48 UTC",
+  "updated": "2026-11-20 08:03 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3564.37,
-  "stance": "Strategy: the BUY plan from 05:51 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3577.27,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3514.67,
-      "entry_high": 3515.55,
-      "sl": 3510.55,
-      "tp1": 3533.35,
+      "entry_high": 3514.98,
+      "sl": 3509.98,
+      "tp1": 3534.2,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,28 +19,28 @@
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 48.82 away from the entry (6.5 ATR). Unlikely to fill soon.",
+      "reason": "Price is 62.29 away from the entry (7.3 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-20T07:18:51.622843+00:00",
-      "checked_at": "2026-11-20T07:48:24.910237+00:00"
+      "checked_at": "2026-11-20T08:03:01.997171+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3625.89,
+      "entry_low": 3626.46,
       "entry_high": 3626.77,
-      "sl": 3630.89,
-      "tp1": 3608.09,
+      "sl": 3631.46,
+      "tp1": 3607.24,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.29,
+      "score": 0.4,
       "style": "trend_align",
       "favored": false,
       "ready": false,
-      "status": "far",
-      "reason": "Price is 61.52 away from the entry (8.2 ATR). Unlikely to fill soon.",
+      "status": "valid",
+      "reason": "Score 0.40 (Trade with the intraday trend), hawkish dollar news +0.38, price above VWAP.",
       "created_at": "2026-11-20T07:18:51.622843+00:00",
-      "checked_at": "2026-11-20T07:48:24.910237+00:00"
+      "checked_at": "2026-11-20T08:03:01.997171+00:00"
     }
   ],
   "active": [],
@@ -49,28 +49,28 @@
     "structure": "down",
     "htf": "sideways",
     "session": "london",
-    "vwap": 3555.5094723900706,
-    "atr": 7.491428571428547,
+    "vwap": 3555.9513056229334,
+    "atr": 8.524285714285693,
     "day_low": 3514.67,
     "day_high": 3626.77,
-    "range_pos": 0.4433541480820683
+    "range_pos": 0.5584299732381799
   },
   "dxy": {
     "ok": true,
-    "last": 103.70700073242188,
-    "pct": -0.1723050764856227,
+    "last": 103.7300033569336,
+    "pct": -0.15016289740437846,
     "state": "down",
-    "corr": 0.17249306196681313
+    "corr": 0.4489279585780464
   },
   "oil": {
     "ok": true,
-    "last": 82.83000183105469,
-    "pct": 0.0724963035181032,
+    "last": 82.56999969482422,
+    "pct": -0.24162976483452728,
     "state": "flat",
-    "corr": 0.160204769630985
+    "corr": 0.15534584435898174
   },
   "news": {
-    "usd": 0.3780186718500446,
+    "usd": 0.3791927501660799,
     "oil": 1.0,
     "shock": true,
     "usd_headlines": [
@@ -103,26 +103,26 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6677907891583384,
-      "trust": 0.8786720909978137
+      "score": 0.6677907891583383,
+      "trust": 0.8786720909978136
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.6062920814220399,
-      "trust": 0.9270085748340544
+      "score": 0.6056835017679815,
+      "trust": 0.9271112228702559
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.28978572914498807,
+      "score": 0.4,
       "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.16691917403731105,
-      "trust": 1.0637142974794276
+      "score": 0.10411605657748822,
+      "trust": 1.0636246958926747
     },
     {
       "style": "Fade the session range",
@@ -132,10 +132,10 @@
     }
   ],
   "record": {
-    "graded": 193,
+    "graded": 194,
     "wins": 53,
     "losses": 99,
-    "scratches": 41,
-    "avg_r": -0.1367422622155917
+    "scratches": 42,
+    "avg_r": -0.13603740519386182
   }
 }
