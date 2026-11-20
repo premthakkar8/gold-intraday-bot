@@ -1,43 +1,43 @@
 {
-  "updated": "2026-11-20 06:49 UTC",
+  "updated": "2026-11-20 07:04 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3557.77,
+  "price": 3554.47,
   "stance": "Strategy: the BUY plan from 05:51 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "sideways",
-    "session": "asia",
-    "vwap": 3555.7263622859286,
-    "atr": 11.477857142857081,
+    "session": "london",
+    "vwap": 3555.814359357737,
+    "atr": 9.470714285714264,
     "day_low": 3514.67,
     "day_high": 3626.77,
-    "range_pos": 0.38447814451382645
+    "range_pos": 0.35504014272970347
   },
   "dxy": {
     "ok": true,
     "last": 103.7300033569336,
     "pct": -0.15016289740437846,
     "state": "down",
-    "corr": 0.3720627543496694
+    "corr": 0.3292388605853355
   },
   "oil": {
     "ok": true,
-    "last": 82.86000061035156,
-    "pct": 0.10873984648481416,
+    "last": 82.93000030517578,
+    "pct": 0.19331118593536684,
     "state": "flat",
-    "corr": 0.17118917413183599
+    "corr": 0.17579435420123446
   },
   "news": {
-    "usd": 0.5225552474481833,
-    "oil": 0.6524409238898506,
+    "usd": 0.5997224106821817,
+    "oil": 0.647704717927712,
     "shock": true,
     "usd_headlines": [
+      "Gold Heads For Worst Week In 8 Months As Dollar Strengthens, Fed Rate Hike Bets Rise - Forbes Middle East",
       "Gold Prices Plunge Over 7% This Week, Head for Worst Fall Since March as Fed Rate Hike Fears Deepen - Kotak Neo",
-      "Euro faces pressure as Fed rate hike bets strengthen US Dollar - FXStreet",
-      "Federal Reserve Official Admits \u2018Inflation Is Too High,\u2019 Signals More Interest Rate Hikes Are Coming - Yahoo Finance"
+      "Euro faces pressure as Fed rate hike bets strengthen US Dollar - FXStreet"
     ],
     "oil_headlines": [
       "Crude Oil Rises As Trump Weighs Additional Military Strikes Against Iran Reports By Kedia Advisory - Investing.com India",
@@ -63,34 +63,34 @@
   ],
   "scorecard": [
     {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.6322908144148358,
-      "trust": 1.3611676801640424
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4973686537437286,
-      "trust": 0.888158310256658
+      "score": 0.5554829073627068,
+      "trust": 0.9919337631476906
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.4303745290778925,
+      "trust": 0.9303247973520667
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.18392320930939277,
+      "trust": 0.9995826592901779
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.10100767923909766,
-      "trust": 1.0318702575289365
+      "score": 0.10155967442425275,
+      "trust": 1.0375093081254008
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.09995820714269074,
-      "trust": 0.9995820714269074
     }
   ],
   "record": {

@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-20T06:49:34.906524+00:00",
-  "atr": 11.477857142857081,
-  "price": 3559.04,
+  "updated_at": "2026-11-20T07:04:12.186404+00:00",
+  "atr": 9.470714285714264,
+  "price": 3557.95,
   "stance": "Strategy: the BUY plan from 05:51 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [],
   "research": [
-    "Gold 3557.77 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3555.73, ATR 11.48, day range 3514.67-3626.77.",
-    "DXY 103.73 (-0.15% today, down), gold-dollar corr +0.37.",
-    "WTI 82.86 (+0.11% today, flat), gold-oil corr +0.17.",
-    "Headlines: dollar +0.52, oil +0.65, fresh shock.",
-    "Dollar: Gold Prices Plunge Over 7% This Week, Head for Worst Fall Since March as Fed Rate Hike Fears Deepen - Kotak Neo",
+    "Gold 3554.47 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3555.81, ATR 9.47, day range 3514.67-3626.77.",
+    "DXY 103.73 (-0.15% today, down), gold-dollar corr +0.33.",
+    "WTI 82.93 (+0.19% today, flat), gold-oil corr +0.18.",
+    "Headlines: dollar +0.60, oil +0.65, fresh shock.",
+    "Dollar: Gold Heads For Worst Week In 8 Months As Dollar Strengthens, Fed Rate Hike Bets Rise - Forbes Middle East",
     "Oil: Crude Oil Rises As Trump Weighs Additional Military Strikes Against Iran Reports By Kedia Advisory - Investing.com India",
     "No high-impact US release in the next 24 hours."
   ],
@@ -103,5 +103,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-20T07:02:42.577256+00:00"
+  "last_check": "2026-11-20T07:17:19.998265+00:00"
 }
