@@ -1,73 +1,120 @@
 {
-  "updated": "2026-11-20 20:01 UTC",
+  "updated": "2026-11-20 20:16 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3518.65,
-  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
-  "setups": [],
+  "price": 3515.64,
+  "stance": "Strategy: BUY is the trade (Fade the session range, confidence 58%).",
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3502.91,
+      "entry_high": 3503.9,
+      "sl": 3498.9,
+      "tp1": 3521.43,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.77,
+      "style": "range_fade",
+      "favored": true,
+      "ready": true,
+      "status": "valid",
+      "reason": "Score 0.77 (Fade the session range), oil supply news +1.00, price below VWAP.",
+      "created_at": "2026-11-20T20:16:13.704473+00:00",
+      "checked_at": "2026-11-20T20:16:13.704473+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3625.78,
+      "entry_high": 3626.77,
+      "sl": 3630.78,
+      "tp1": 3608.25,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.21,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "far",
+      "reason": "Price is 110.14 away from the entry (15.1 ATR). Unlikely to fill soon.",
+      "created_at": "2026-11-20T20:16:13.704473+00:00",
+      "checked_at": "2026-11-20T20:16:13.704473+00:00"
+    }
+  ],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
     "htf": "down",
     "session": "newyork",
-    "vwap": 3556.2684808941563,
-    "atr": 9.200000000000014,
+    "vwap": 3555.743300747672,
+    "atr": 7.295714285714309,
     "day_low": 3502.91,
     "day_high": 3626.77,
-    "range_pos": 0.12707896011626207
+    "range_pos": 0.10277732924269341
   },
   "dxy": {
     "ok": true,
-    "last": 103.81199645996094,
-    "pct": -0.07123686138907767,
+    "last": 103.82599639892578,
+    "pct": -0.05776060977578308,
     "state": "flat",
-    "corr": -0.29366142293421427
+    "corr": -0.3309568556662435
   },
   "oil": {
     "ok": true,
-    "last": 83.12000274658203,
-    "pct": 0.4228659148374446,
-    "state": "up",
-    "corr": 0.2835980600129994
+    "last": 83.05000305175781,
+    "pct": 0.338294575386892,
+    "state": "flat",
+    "corr": 0.16209069402807216
   },
   "news": {
-    "usd": 0.0,
-    "oil": 0.0,
+    "usd": 0.42808424112652826,
+    "oil": 1.0,
     "shock": false,
-    "usd_headlines": [],
-    "oil_headlines": []
+    "usd_headlines": [
+      "US Dollar Weekly Forecast: DXY eyes 104.00 amid hawkish Fed - FXStreet",
+      "Fed\u2019s Paulson Argues for Deliberate Rate Hikes to Tame Inflation - Bloomberg.com",
+      "Gold declines as strong US dollar and rate hike expectations challenge appeal - Traders Union"
+    ],
+    "oil_headlines": [
+      "Oil Prices Today, November 20, 2026: Brent Crude Rises 0.3% to $92.2 But Stays On Course For Weekly Decline - HDFC Sky",
+      "Oil prices rise on Houthi attacks on Riyadh, supply disruption concerns - Business Standard",
+      "Crude Oil Rises As Trump Weighs Additional Military Strikes Against Iran Reports By Kedia Advisory - Investing.com India"
+    ]
   },
   "events": [],
   "scorecard": [
     {
       "style": "Fade the session range",
       "bias": "long",
-      "score": 0.8125549723739801,
-      "trust": 1.2391684981867226
+      "score": 0.7684481080640282,
+      "trust": 1.2685674645263203
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.5137178668039141,
+      "trust": 0.8944901585697045
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.2132356957406154,
+      "trust": 0.9837894978167118
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.17758016362503298,
-      "trust": 0.8071825619319681
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "flat",
-      "score": 0.10299587296074361,
-      "trust": 0.8582989413395301
+      "score": 0.14445914385011785,
+      "trust": 0.6566324720459902
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.06252375069431197,
-      "trust": 0.7815468836788997
+      "score": 0.09996132980224497,
+      "trust": 0.9996132980224496
     }
   ],
   "record": {
