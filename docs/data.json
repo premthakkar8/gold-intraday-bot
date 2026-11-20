@@ -1,82 +1,43 @@
 {
-  "updated": "2026-11-20 00:57 UTC",
+  "updated": "2026-11-20 01:12 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3593.61,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.32). Take an entry only if price reaches it.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 3585.98,
-      "entry_high": 3586.3,
-      "sl": 3581.3,
-      "tp1": 3605.51,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-20T00:57:28.989787+00:00",
-      "checked_at": "2026-11-20T00:57:28.989787+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3626.45,
-      "entry_high": 3626.77,
-      "sl": 3631.45,
-      "tp1": 3607.24,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.32,
-      "style": "trend_align",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.32 (Trade with the intraday trend).",
-      "created_at": "2026-11-20T00:57:28.989787+00:00",
-      "checked_at": "2026-11-20T00:57:28.989787+00:00"
-    }
-  ],
+  "price": 3606.5,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.18). Take an entry only if price reaches it.",
+  "setups": [],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "down",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3607.2174278068214,
-    "atr": 8.517142857142776,
-    "day_low": 3585.98,
+    "vwap": 3604.989125911476,
+    "atr": 10.271428571428487,
+    "day_low": 3582.4,
     "day_high": 3626.77,
-    "range_pos": 0.18705565089483
+    "range_pos": 0.5431597926526925
   },
   "dxy": {
     "ok": true,
-    "last": 103.88300323486328,
-    "pct": 0.013478457018559431,
+    "last": 103.86900329589844,
+    "pct": -0.01636244610050155,
     "state": "flat",
-    "corr": 0.18845208239861885
+    "corr": 0.15064106971610955
   },
   "oil": {
     "ok": true,
-    "last": 82.79000091552734,
-    "pct": 0.024168507034261485,
+    "last": 82.55999755859375,
+    "pct": -0.2537140183516581,
     "state": "flat",
-    "corr": 0.24912768038697092
+    "corr": 0.23250680776544902
   },
   "news": {
-    "usd": 0.25738233880619404,
-    "oil": -0.505295013168381,
+    "usd": 0.16224270853405418,
+    "oil": -0.5004606529290562,
     "shock": true,
     "usd_headlines": [
       "Correction to Treasury Yields Fall Headline - marketscreener.com",
       "Treasury Yields Fall as Anthropic Fails to Sustain Risk Appetite - WSJ",
-      "Gold Price Hits 14-Month Low as Fed Rate Hike Fears Strengthen US Dollar - Investing News Network"
+      "Crude Oil Erases Early Gains on Less Hawkish Trump - Barchart.com"
     ],
     "oil_headlines": [
       "Crude Oil Forecast: WTI Struggles as US Inventories Rise - FXEmpire",
@@ -102,16 +63,16 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.32188520966215145,
-      "trust": 0.9378939675470612
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
       "score": 0.3102724985852573,
       "trust": 0.5540580331879594
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.1833656822590627,
+      "trust": 0.9378939675470612
     },
     {
       "style": "Trade the oil shock",
