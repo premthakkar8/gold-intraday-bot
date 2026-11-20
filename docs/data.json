@@ -1,82 +1,82 @@
 {
-  "updated": "2026-11-20 07:33 UTC",
+  "updated": "2026-11-20 07:48 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3548.92,
+  "price": 3564.37,
   "stance": "Strategy: the BUY plan from 05:51 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3514.67,
-      "entry_high": 3515.92,
-      "sl": 3510.92,
-      "tp1": 3532.8,
+      "entry_high": 3515.55,
+      "sl": 3510.55,
+      "tp1": 3533.35,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.85,
+      "score": 0.61,
       "style": "oil_shock",
       "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.85 (Trade the oil shock), dollar softer -0.14%, oil supply news +1.00, price below VWAP.",
+      "ready": false,
+      "status": "far",
+      "reason": "Price is 48.82 away from the entry (6.5 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-20T07:18:51.622843+00:00",
-      "checked_at": "2026-11-20T07:33:27.196876+00:00"
+      "checked_at": "2026-11-20T07:48:24.910237+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3625.52,
+      "entry_low": 3625.89,
       "entry_high": 3626.77,
-      "sl": 3630.52,
-      "tp1": 3608.64,
+      "sl": 3630.89,
+      "tp1": 3608.09,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.29,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "far",
-      "reason": "Price is 76.60 away from the entry (11.2 ATR). Unlikely to fill soon.",
+      "reason": "Price is 61.52 away from the entry (8.2 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-20T07:18:51.622843+00:00",
-      "checked_at": "2026-11-20T07:33:27.196876+00:00"
+      "checked_at": "2026-11-20T07:48:24.910237+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "sideways",
     "session": "london",
-    "vwap": 3555.6715924442847,
-    "atr": 6.818571428571464,
+    "vwap": 3555.5094723900706,
+    "atr": 7.491428571428547,
     "day_low": 3514.67,
     "day_high": 3626.77,
-    "range_pos": 0.30553077609277457
+    "range_pos": 0.4433541480820683
   },
   "dxy": {
     "ok": true,
-    "last": 103.74400329589844,
-    "pct": -0.1366866457910839,
+    "last": 103.70700073242188,
+    "pct": -0.1723050764856227,
     "state": "down",
-    "corr": 0.36466290920916467
+    "corr": 0.17249306196681313
   },
   "oil": {
     "ok": true,
-    "last": 83.05999755859375,
-    "pct": 0.35036961131934147,
+    "last": 82.83000183105469,
+    "pct": 0.0724963035181032,
     "state": "flat",
-    "corr": 0.19943329001007365
+    "corr": 0.160204769630985
   },
   "news": {
-    "usd": 0.39296045693307596,
+    "usd": 0.3780186718500446,
     "oil": 1.0,
     "shock": true,
     "usd_headlines": [
       "U.S. Treasury Yields Fall as Investors Seek Safe-Haven Assets - marketscreener.com",
       "Gold Heads For Worst Week In 8 Months As Dollar Strengthens, Fed Rate Hike Bets Rise - Forbes Middle East",
-      "Euro faces pressure as Fed rate hike bets strengthen US Dollar - FXStreet"
+      "Gold Prices Plunge Over 7% This Week, Head for Worst Fall Since March as Fed Rate Hike Fears Deepen - Kotak Neo"
     ],
     "oil_headlines": [
       "Crude Oil Rises As Trump Weighs Additional Military Strikes Against Iran Reports By Kedia Advisory - Investing.com India",
@@ -101,34 +101,34 @@
   ],
   "scorecard": [
     {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.8493307738029807,
-      "trust": 1.2870305754024907
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5955054528896051,
-      "trust": 1.0634025944457233
+      "score": 0.6677907891583384,
+      "trust": 0.8786720909978137
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.6062920814220399,
+      "trust": 0.9270085748340544
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
+      "bias": "short",
+      "score": 0.28978572914498807,
       "trust": 1.0
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "long",
+      "score": 0.16691917403731105,
+      "trust": 1.0637142974794276
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.09583657268767178,
-      "trust": 1.0576728669278057
     }
   ],
   "record": {
