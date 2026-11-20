@@ -1,110 +1,87 @@
 {
-  "updated": "2026-11-20 05:36 UTC",
+  "updated": "2026-11-20 05:51 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3525.83,
-  "stance": "Strategy: the BUY plan from 04:37 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3544.82,
+  "stance": "Strategy: BUY is the trade (Trade the oil shock, confidence 58%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3514.67,
-      "entry_high": 3515.64,
-      "sl": 3510.64,
-      "tp1": 3533.21,
+      "entry_high": 3514.86,
+      "sl": 3509.86,
+      "tp1": 3534.38,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.49,
+      "score": 0.69,
       "style": "oil_shock",
       "favored": true,
-      "ready": false,
+      "ready": true,
       "status": "valid",
-      "reason": "Score 0.49 (Trade the oil shock), dollar softer -0.09%, oil supply news +0.67, price below VWAP.",
+      "reason": "Score 0.69 (Trade the oil shock), oil supply news +0.76, price below VWAP.",
       "created_at": "2026-11-20T04:37:57.650467+00:00",
-      "checked_at": "2026-11-20T05:36:32.687559+00:00"
+      "checked_at": "2026-11-20T05:51:11.445966+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3625.8,
+      "entry_low": 3626.58,
       "entry_high": 3626.77,
-      "sl": 3630.8,
-      "tp1": 3608.23,
+      "sl": 3631.58,
+      "tp1": 3607.06,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.05,
-      "style": "trend_align",
+      "score": 0.07,
+      "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "far",
-      "reason": "Price is 99.97 away from the entry (13.7 ATR). Unlikely to fill soon.",
+      "reason": "Price is 81.76 away from the entry (9.4 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-20T04:37:57.650467+00:00",
-      "checked_at": "2026-11-20T05:36:32.687559+00:00"
+      "checked_at": "2026-11-20T05:51:11.445966+00:00"
     }
   ],
-  "active": [
-    {
-      "side": "BUY",
-      "entry_low": 3517.42,
-      "entry_high": 3518.41,
-      "sl": 3513.41,
-      "tp1": 3535.93,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.5,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.50 (Trade the oil shock), dollar softer -0.09%, oil supply news +0.68, price below VWAP.",
-      "created_at": "2026-11-20T04:37:57.650467+00:00",
-      "checked_at": "2026-11-20T05:14:21.635200+00:00",
-      "entry": 3518.41,
-      "entered_at": "2026-11-20T05:14:21.635200+00:00",
-      "closed": null
-    }
-  ],
+  "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3557.3277030479344,
-    "atr": 7.3192857142857,
+    "vwap": 3555.963380453084,
+    "atr": 8.741428571428546,
     "day_low": 3514.67,
     "day_high": 3626.77,
-    "range_pos": 0.09955396966993633
+    "range_pos": 0.2689562890276549
   },
   "dxy": {
     "ok": true,
-    "last": 103.79299926757812,
-    "pct": -0.0895234371477172,
-    "state": "down",
-    "corr": 0.4358825367731696
+    "last": 103.81400299072266,
+    "pct": -0.06930538772461092,
+    "state": "flat",
+    "corr": 0.44050458254278924
   },
   "oil": {
     "ok": true,
-    "last": 82.9000015258789,
-    "pct": 0.15706764296865586,
+    "last": 82.87999725341797,
+    "pct": 0.1328991359343944,
     "state": "flat",
-    "corr": 0.27697423000873417
+    "corr": 0.2519359286303059
   },
   "news": {
-    "usd": 0.1608015840469709,
-    "oil": 0.6694013088821201,
+    "usd": 0.3892042741357391,
+    "oil": 0.7622998584156367,
     "shock": true,
     "usd_headlines": [
+      "Gold Prices Plunge Over 7% This Week, Head for Worst Fall Since March as Fed Rate Hike Fears Deepen - Kotak Neo",
       "Euro faces pressure as Fed rate hike bets strengthen US Dollar - FXStreet",
-      "Policymakers want rate hike but disagree on pace - Axios",
-      "Correction to Treasury Yields Fall Headline - marketscreener.com"
+      "Policymakers want rate hike but disagree on pace - Axios"
     ],
     "oil_headlines": [
       "Crude Oil Rises As Trump Weighs Additional Military Strikes Against Iran Reports By Kedia Advisory - Investing.com India",
-      "Oil Price Today (November 20): Brent crude rises to $93 as fresh Houthi attacks heighten worries. What are - The Economic Times",
-      "Crude Oil Forecast: WTI Struggles as US Inventories Rise - FXEmpire"
+      "Oil prices rise on Houthi attacks on Riyadh, supply disruption concerns - Business Standard",
+      "Oil Price Today (November 20): Brent crude rises to $93 as fresh Houthi attacks heighten worries. What are - The Economic Times"
     ]
   },
   "events": [
@@ -125,41 +102,41 @@
   ],
   "scorecard": [
     {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.6166840093257787,
-      "trust": 0.8114263280602352
-    },
-    {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.4897168543864762,
-      "trust": 1.0
+      "score": 0.692505030923629,
+      "trust": 1.2894482489867864
+    },
+    {
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.41375749094324926,
+      "trust": 0.7388526623986593
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.0814283200747091,
-      "trust": 1.0
+      "score": 0.11361490824930087,
+      "trust": 1.1361490824930087
     },
     {
       "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.07892463907642827,
+      "trust": 0.7892463907642826
+    },
+    {
+      "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.05208279103417699,
-      "trust": 0.946959836985036
+      "score": 0.06845266099604554,
+      "trust": 0.9370815449366684
     }
   ],
   "record": {
-    "graded": 192,
-    "wins": 52,
+    "graded": 193,
+    "wins": 53,
     "losses": 99,
     "scratches": 41,
-    "avg_r": -0.15828779483129787
+    "avg_r": -0.1367422622155917
   }
 }
