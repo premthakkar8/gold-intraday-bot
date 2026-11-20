@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-20T14:53:19.283087+00:00",
-  "atr": 9.798571428571417,
-  "price": 3567.55,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.20). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-20T15:08:01.904317+00:00",
+  "atr": 10.235714285714234,
+  "price": 3543.95,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.13). Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3567.86 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3564.56, ATR 9.80, day range 3514.67-3626.77.",
-    "DXY 103.74 (-0.14% today, down), gold-dollar corr -0.11.",
-    "WTI 81.72 (-1.27% today, down), gold-oil corr -0.21.",
-    "Headlines: dollar +0.29, oil +0.21, fresh shock.",
+    "Gold 3574.19 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3564.78, ATR 10.24, day range 3514.67-3626.77.",
+    "DXY 103.76 (-0.12% today, down), gold-dollar corr -0.07.",
+    "WTI 81.75 (-1.23% today, down), gold-oil corr -0.16.",
+    "Headlines: dollar +0.49, oil +0.20, fresh shock.",
     "Dollar: Colombia\u2019s Dollar Surges on Friday - ColombiaOne.com",
     "Oil: Oil prices remain under pressure as focus shifts from supply disruptions to demand concerns. What's next? - investingLive",
     "No high-impact US release in the next 24 hours."
@@ -37,5 +37,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-20T15:06:27.041358+00:00"
+  "last_check": "2026-11-20T15:21:10.732738+00:00"
 }
