@@ -1,53 +1,14 @@
 {
-  "updated_at": "2026-11-20T14:38:37.797453+00:00",
-  "atr": 8.674999999999955,
-  "price": 3571.3,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.18). Take an entry only if price reaches it.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 3514.67,
-      "entry_high": 3514.9,
-      "sl": 3509.9,
-      "tp1": 3534.33,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.18,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-20T07:18:51.622843+00:00",
-      "checked_at": "2026-11-20T14:51:45.403988+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3626.54,
-      "entry_high": 3626.77,
-      "sl": 3631.54,
-      "tp1": 3607.11,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-20T07:18:51.622843+00:00",
-      "checked_at": "2026-11-20T14:51:45.403988+00:00"
-    }
-  ],
+  "updated_at": "2026-11-20T14:53:19.283087+00:00",
+  "atr": 9.798571428571417,
+  "price": 3567.55,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.20). Take an entry only if price reaches it.",
+  "setups": [],
   "research": [
-    "Gold 3574.72 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3564.41, ATR 8.67, day range 3514.67-3626.77.",
-    "DXY 103.73 (-0.15% today, down), gold-dollar corr -0.20.",
-    "WTI 82.01 (-0.92% today, down), gold-oil corr -0.09.",
-    "Headlines: dollar +0.44, oil +0.22, fresh shock.",
+    "Gold 3567.86 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3564.56, ATR 9.80, day range 3514.67-3626.77.",
+    "DXY 103.74 (-0.14% today, down), gold-dollar corr -0.11.",
+    "WTI 81.72 (-1.27% today, down), gold-oil corr -0.21.",
+    "Headlines: dollar +0.29, oil +0.21, fresh shock.",
     "Dollar: Colombia\u2019s Dollar Surges on Friday - ColombiaOne.com",
     "Oil: Oil prices remain under pressure as focus shifts from supply disruptions to demand concerns. What's next? - investingLive",
     "No high-impact US release in the next 24 hours."
@@ -76,5 +37,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-20T14:51:45.403988+00:00"
+  "last_check": "2026-11-20T15:06:27.041358+00:00"
 }

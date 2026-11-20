@@ -1,77 +1,38 @@
 {
-  "updated": "2026-11-20 14:38 UTC",
+  "updated": "2026-11-20 14:53 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3574.72,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.18). Take an entry only if price reaches it.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 3514.67,
-      "entry_high": 3514.9,
-      "sl": 3509.9,
-      "tp1": 3534.33,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.18,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-20T07:18:51.622843+00:00",
-      "checked_at": "2026-11-20T14:38:37.797453+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3626.54,
-      "entry_high": 3626.77,
-      "sl": 3631.54,
-      "tp1": 3607.11,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-20T07:18:51.622843+00:00",
-      "checked_at": "2026-11-20T14:38:37.797453+00:00"
-    }
-  ],
+  "price": 3567.86,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.20). Take an entry only if price reaches it.",
+  "setups": [],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3564.411557988576,
-    "atr": 8.674999999999955,
+    "vwap": 3564.5601983062193,
+    "atr": 9.798571428571417,
     "day_low": 3514.67,
     "day_high": 3626.77,
-    "range_pos": 0.5356824264049935
+    "range_pos": 0.47448706512042904
   },
   "dxy": {
     "ok": true,
-    "last": 103.72899627685547,
-    "pct": -0.15113230623977622,
+    "last": 103.73699951171875,
+    "pct": -0.14342844360089557,
     "state": "down",
-    "corr": -0.1981457500755571
+    "corr": -0.10785307842230506
   },
   "oil": {
     "ok": true,
-    "last": 82.01000213623047,
-    "pct": -0.9182004804389488,
+    "last": 81.72000122070312,
+    "pct": -1.26857009175829,
     "state": "down",
-    "corr": -0.0851466925693678
+    "corr": -0.20601447306913098
   },
   "news": {
-    "usd": 0.43594296408833355,
-    "oil": 0.2163187873824544,
+    "usd": 0.28820521374428043,
+    "oil": 0.20837932915757115,
     "shock": true,
     "usd_headlines": [
       "Colombia\u2019s Dollar Surges on Friday - ColombiaOne.com",
@@ -117,14 +78,14 @@
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.18212256595853277,
-      "trust": 0.9995838565972028
+      "score": 0.19653572686693338,
+      "trust": 0.9995844447536759
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11238093446962193,
-      "trust": 0.9365077872468495
+      "score": 0.11239170287945313,
+      "trust": 0.9365975239954428
     },
     {
       "style": "Trade with the intraday trend",
@@ -135,8 +96,8 @@
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.09470560915123227,
-      "trust": 0.9470560915123227
+      "score": 0.09471309198101485,
+      "trust": 0.9471309198101485
     }
   ],
   "record": {
