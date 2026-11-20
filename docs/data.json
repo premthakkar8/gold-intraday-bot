@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-20 10:14 UTC",
+  "updated": "2026-11-20 10:29 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3576.23,
-  "stance": "Strategy: the BUY plan from 08:17 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3581.34,
+  "stance": "Strategy: wait. Two approaches want opposite trades and neither has a clear lead. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3514.67,
-      "entry_high": 3516.24,
-      "sl": 3511.24,
-      "tp1": 3532.31,
+      "entry_high": 3516.67,
+      "sl": 3511.67,
+      "tp1": 3531.68,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.56,
+      "score": 0.53,
       "style": "oil_shock",
-      "favored": true,
+      "favored": false,
       "ready": false,
       "status": "invalid",
       "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-20T07:18:51.622843+00:00",
-      "checked_at": "2026-11-20T10:14:51.578739+00:00"
+      "checked_at": "2026-11-20T10:29:28.447964+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3625.2,
+      "entry_low": 3624.77,
       "entry_high": 3626.77,
-      "sl": 3630.2,
-      "tp1": 3609.13,
+      "sl": 3629.77,
+      "tp1": 3609.76,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.17,
+      "score": 0.59,
       "style": "trend_align",
-      "favored": false,
+      "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-20T07:18:51.622843+00:00",
-      "checked_at": "2026-11-20T10:14:51.578739+00:00"
+      "checked_at": "2026-11-20T10:29:28.447964+00:00"
     }
   ],
   "active": [],
@@ -49,28 +49,28 @@
     "structure": "down",
     "htf": "down",
     "session": "london",
-    "vwap": 3560.1325828520785,
-    "atr": 6.235714285714331,
+    "vwap": 3560.4941272708675,
+    "atr": 5.462857142857176,
     "day_low": 3514.67,
     "day_high": 3626.77,
-    "range_pos": 0.5491525423728814
+    "range_pos": 0.5947368421052643
   },
   "dxy": {
     "ok": true,
-    "last": 103.78299713134766,
-    "pct": -0.09915142944473584,
-    "state": "down",
-    "corr": -0.0014070157095312328
+    "last": 103.85600280761719,
+    "pct": -0.028876632884727155,
+    "state": "flat",
+    "corr": 0.013254043541093666
   },
   "oil": {
     "ok": true,
-    "last": 81.02999877929688,
-    "pct": -2.1022084503313674,
+    "last": 81.05999755859375,
+    "pct": -2.065964907364657,
     "state": "down",
-    "corr": 0.12706693439214206
+    "corr": 0.0513420153119372
   },
   "news": {
-    "usd": 0.5030787958005618,
+    "usd": 0.5004147465431664,
     "oil": 1.0,
     "shock": true,
     "usd_headlines": [
@@ -102,28 +102,28 @@
   ],
   "scorecard": [
     {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.7012933956315354,
-      "trust": 0.9227544679362307
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.5932691032433686,
+      "trust": 0.8828409274454887
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.5561587072797863,
-      "trust": 0.8568678902859239
+      "score": 0.5312772400021234,
+      "trust": 0.833112992067975
     },
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.16929542851191823,
-      "trust": 1.0
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.4266601165191985,
+      "trust": 0.7618930652128544
     },
     {
       "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.10078371887065496,
-      "trust": 1.0
+      "bias": "short",
+      "score": 0.25526218982374,
+      "trust": 1.0463615470437022
     },
     {
       "style": "Fade the session range",
@@ -133,10 +133,10 @@
     }
   ],
   "record": {
-    "graded": 194,
+    "graded": 195,
     "wins": 53,
     "losses": 99,
-    "scratches": 42,
-    "avg_r": -0.13603740519386182
+    "scratches": 43,
+    "avg_r": -0.13533977747491893
   }
 }

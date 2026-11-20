@@ -1437,3 +1437,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-20 09:45 UTC  live: gold 3575.15 | holding long oil_shock e80b170e | new read long oil_shock not opened
 2026-11-20 10:00 UTC  live: gold 3567.98 | holding long oil_shock e80b170e | new read flat stand_aside not opened
 2026-11-20 10:14 UTC  live: gold 3576.23 | holding long oil_shock e80b170e | new read flat stand_aside not opened
+2026-11-20 10:29 UTC  live: gold 3581.34 | graded: e80b170e long oil_shock -> scratch (price never reached the entry zone) | opened stand aside 99b99eb6
