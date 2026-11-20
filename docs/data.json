@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-20 16:21 UTC",
+  "updated": "2026-11-20 16:36 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3546.12,
+  "price": 3547.35,
   "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
@@ -10,40 +10,32 @@
     "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3563.4129727437216,
-    "atr": 11.362142857142933,
+    "vwap": 3563.092209027593,
+    "atr": 9.84000000000008,
     "day_low": 3514.67,
     "day_high": 3626.77,
-    "range_pos": 0.28055307760927606
+    "range_pos": 0.29152542372881235
   },
   "dxy": {
     "ok": true,
-    "last": 103.72799682617188,
-    "pct": -0.1520943710688452,
+    "last": 103.74700164794922,
+    "pct": -0.1338004513038769,
     "state": "down",
-    "corr": -0.18663059448192765
+    "corr": -0.1497149541716668
   },
   "oil": {
     "ok": true,
-    "last": 81.94999694824219,
-    "pct": -0.990696783957052,
+    "last": 81.83000183105469,
+    "pct": -1.1356709558238958,
     "state": "down",
-    "corr": 0.13923111133534172
+    "corr": 0.1723690363386969
   },
   "news": {
-    "usd": 0.35475746514124135,
-    "oil": 1.0,
-    "shock": true,
-    "usd_headlines": [
-      "Treasury yields fall as bond market tracks risk assets, not Fed rhetoric - Investing.com",
-      "US Dollar: How are hawkish Fed risks and safe-haven demand supporting USD? \u2013 OCBC - www.tmgm.com",
-      "Colombia\u2019s Dollar Surges on Friday - ColombiaOne.com"
-    ],
-    "oil_headlines": [
-      "Oil Prices Today, November 20, 2026: Brent Crude Rises 0.3% to $92.2 But Stays On Course For Weekly Decline - HDFC Sky",
-      "Crude Oil Rises As Trump Weighs Additional Military Strikes Against Iran Reports By Kedia Advisory - Investing.com India",
-      "Oil prices rise on Houthi attacks on Riyadh, supply disruption concerns - Business Standard"
-    ]
+    "usd": 0.0,
+    "oil": 0.0,
+    "shock": false,
+    "usd_headlines": [],
+    "oil_headlines": []
   },
   "events": [
     {
@@ -56,28 +48,28 @@
   ],
   "scorecard": [
     {
-      "style": "Trade the oil shock",
+      "style": "Fade the session range",
       "bias": "long",
-      "score": 0.6043721002451602,
-      "trust": 0.9285394650776775
-    },
-    {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.4579416855298868,
-      "trust": 0.8177530098747977
+      "score": 0.5146850132076566,
+      "trust": 1.0515852095540945
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.15439409417018612,
-      "trust": 0.8552629553770448
+      "score": 0.26442938563649654,
+      "trust": 1.0
     },
     {
-      "style": "Fade the session range",
+      "style": "Stand aside",
       "bias": "flat",
-      "score": 0.11926337498391291,
-      "trust": 1.192633749839129
+      "score": 0.17981247686743002,
+      "trust": 0.8173294403065001
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.12,
+      "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
