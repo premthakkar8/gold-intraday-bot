@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-20 10:58 UTC",
+  "updated": "2026-11-20 11:13 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3586.47,
-  "stance": "Strategy: BUY is the trade (Trade the oil shock, confidence 58%).",
+  "price": 3586.61,
+  "stance": "Strategy: the BUY plan from 10:58 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3514.67,
-      "entry_high": 3516.66,
-      "sl": 3511.66,
-      "tp1": 3531.68,
+      "entry_high": 3516.84,
+      "sl": 3511.84,
+      "tp1": 3531.41,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.6,
+      "score": 0.61,
       "style": "oil_shock",
       "favored": true,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-20T07:18:51.622843+00:00",
-      "checked_at": "2026-11-20T10:58:47.037797+00:00"
+      "checked_at": "2026-11-20T11:13:26.587587+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3624.78,
+      "entry_low": 3624.6,
       "entry_high": 3626.77,
-      "sl": 3629.78,
-      "tp1": 3609.76,
+      "sl": 3629.6,
+      "tp1": 3610.03,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.24,
+      "score": 0.3,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-20T07:18:51.622843+00:00",
-      "checked_at": "2026-11-20T10:58:47.037797+00:00"
+      "checked_at": "2026-11-20T11:13:26.587587+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "london",
-    "vwap": 3561.534516537844,
-    "atr": 5.4714285714285,
+    "vwap": 3561.988599087241,
+    "atr": 5.139285714285701,
     "day_low": 3514.67,
     "day_high": 3626.77,
-    "range_pos": 0.6404995539696681
+    "range_pos": 0.6417484388938458
   },
   "dxy": {
     "ok": true,
     "last": 103.87899780273438,
     "pct": -0.00674179780981168,
     "state": "flat",
-    "corr": -0.08318053889321264
+    "corr": -0.06365810192732152
   },
   "oil": {
     "ok": true,
-    "last": 81.47000122070312,
-    "pct": -1.5706119065937898,
+    "last": 81.56999969482422,
+    "pct": -1.4497970241765263,
     "state": "down",
-    "corr": 0.1297477567978162
+    "corr": 0.1587594111732963
   },
   "news": {
-    "usd": 0.4472973415186327,
+    "usd": 0.5869036553205382,
     "oil": 1.0,
     "shock": true,
     "usd_headlines": [
+      "A \u2018Shock\u2019 Rate Hike by the Fed? In This Economy? - Bloomberg.com",
       "US Dollar: Hawkish Fed risks and safe-haven demand support USD \u2013 OCBC - FXStreet",
-      "Swiss Franc stays firm as US Dollar slips despite hawkish Fed outlook - www.tmgm.com",
-      "U.S. Treasury Yields Fall as Investors Seek Safe-Haven Assets - marketscreener.com"
+      "Swiss Franc stays firm as US Dollar slips despite hawkish Fed outlook - www.tmgm.com"
     ],
     "oil_headlines": [
       "Crude Oil Rises As Trump Weighs Additional Military Strikes Against Iran Reports By Kedia Advisory - Investing.com India",
@@ -104,19 +104,19 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.6029178711339012,
-      "trust": 0.9283340970418803
+      "score": 0.6070238261776172,
+      "trust": 0.9284351637938768
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.3853271784608279,
+      "score": 0.45413560318597573,
       "trust": 0.6880842472514783
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.23917078169675587,
+      "score": 0.3019149246949235,
       "trust": 0.9969921351525705
     },
     {
@@ -128,8 +128,8 @@
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.08376952513965133,
-      "trust": 0.8376952513965132
+      "score": 0.08379241414697264,
+      "trust": 0.8379241414697263
     }
   ],
   "record": {
