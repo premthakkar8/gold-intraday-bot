@@ -1,41 +1,19 @@
 {
-  "updated_at": "2026-11-20T03:24:32.108145+00:00",
-  "atr": 13.89285714285711,
-  "price": 3534.7,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.44). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-20T03:39:10.177069+00:00",
+  "atr": 13.597857142857135,
+  "price": 3553.2,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.09). Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3519.49 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3570.16, ATR 13.89, day range 3519.32-3626.77.",
-    "DXY 103.86 (-0.02% today, flat), gold-dollar corr +0.28.",
-    "WTI 82.74 (-0.04% today, flat), gold-oil corr +0.28.",
-    "Headlines: dollar +0.31, oil +0.58, fresh shock.",
+    "Gold 3536.85 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3567.42, ATR 13.60, day range 3517.42-3626.77.",
+    "DXY 103.85 (-0.04% today, flat), gold-dollar corr +0.26.",
+    "WTI 82.75 (-0.02% today, flat), gold-oil corr +0.25.",
+    "Headlines: dollar +0.31, oil +0.00, fresh shock.",
     "Dollar: Euro faces pressure as Fed rate hike bets strengthen US Dollar - FXStreet",
-    "Oil: Oil Price Today (November 20): Brent crude rises to $93 as fresh Houthi attacks heighten worries. What are - The Economic Times",
+    "Oil: Crude Oil Forecast: WTI Struggles as US Inventories Rise - FXEmpire",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
-    {
-      "side": "BUY",
-      "entry_low": 3684.2,
-      "entry_high": 3685.33,
-      "sl": 3680.33,
-      "tp1": 3702.5,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-19T15:38:04.315511+00:00",
-      "checked_at": "2026-11-19T15:39:08.552523+00:00",
-      "entry": 3685.33,
-      "entered_at": "2026-11-19T15:39:08.552523+00:00",
-      "closed": "sl"
-    },
     {
       "side": "BUY",
       "entry_low": 3681.31,
@@ -169,5 +147,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-20T03:37:39.379002+00:00"
+  "last_check": "2026-11-20T03:52:17.209559+00:00"
 }
