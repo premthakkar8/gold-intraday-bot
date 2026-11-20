@@ -1,43 +1,82 @@
 {
-  "updated": "2026-11-20 19:17 UTC",
+  "updated": "2026-11-20 19:32 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3516.65,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.48). Take an entry only if price reaches it.",
-  "setups": [],
+  "price": 3512.6,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.47). Take an entry only if price reaches it.",
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3502.91,
+      "entry_high": 3502.94,
+      "sl": 3497.94,
+      "tp1": 3522.87,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.47,
+      "style": "oil_shock",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.47 (Trade the oil shock), oil supply news +1.00, price below VWAP.",
+      "created_at": "2026-11-20T19:32:26.384590+00:00",
+      "checked_at": "2026-11-20T19:32:26.384590+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3626.74,
+      "entry_high": 3626.77,
+      "sl": 3631.74,
+      "tp1": 3606.81,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "far",
+      "reason": "Price is 114.14 away from the entry (12.6 ATR). Unlikely to fill soon.",
+      "created_at": "2026-11-20T19:32:26.384590+00:00",
+      "checked_at": "2026-11-20T19:32:26.384590+00:00"
+    }
+  ],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
     "htf": "down",
     "session": "newyork",
-    "vwap": 3557.7808800854973,
-    "atr": 9.362857142857106,
+    "vwap": 3557.2082056753998,
+    "atr": 9.044999999999975,
     "day_low": 3502.91,
     "day_high": 3626.77,
-    "range_pos": 0.11093169707734718
+    "range_pos": 0.07823348942354307
   },
   "dxy": {
     "ok": true,
-    "last": 103.85399627685547,
-    "pct": -0.0308081065491939,
+    "last": 103.86499786376953,
+    "pct": -0.02021804942310627,
     "state": "flat",
-    "corr": -0.31212828055023
+    "corr": -0.35868962984564934
   },
   "oil": {
     "ok": true,
-    "last": 83.1500015258789,
-    "pct": 0.4591094578041556,
+    "last": 83.27999877929688,
+    "pct": 0.6161678831881303,
     "state": "up",
-    "corr": 0.35676661983795055
+    "corr": 0.2552522533352399
   },
   "news": {
-    "usd": 0.3286913248766538,
+    "usd": 0.29015489690020035,
     "oil": 1.0,
     "shock": true,
     "usd_headlines": [
+      "US Dollar Weekly Forecast: DXY eyes 104.00 amid hawkish Fed - FXStreet",
       "Fed\u2019s Paulson Argues for Deliberate Rate Hikes to Tame Inflation - Bloomberg.com",
-      "Gold declines as strong US dollar and rate hike expectations challenge appeal - Traders Union",
-      "Nearly 2% gain for US Dollar vs Colombian Peso as bullish momentum builds on rate hike expectations - Traders Union"
+      "Gold declines as strong US dollar and rate hike expectations challenge appeal - Traders Union"
     ],
     "oil_headlines": [
       "Oil Prices Today, November 20, 2026: Brent Crude Rises 0.3% to $92.2 But Stays On Course For Weekly Decline - HDFC Sky",
@@ -50,26 +89,26 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.48358462808008973,
-      "trust": 0.7074967382570453
+      "score": 0.4730858848209337,
+      "trust": 0.7079073685323168
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.3466694331678446,
-      "trust": 0.6190525592282938
+      "score": 0.34666943316784465,
+      "trust": 0.6190525592282939
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11893910733506141,
-      "trust": 1.1893910733506141
+      "score": 0.11891251969698842,
+      "trust": 1.1891251969698842
     },
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.10292392422970786,
-      "trust": 0.8576993685808989
+      "score": 0.10294789645364934,
+      "trust": 0.8578991371137445
     },
     {
       "style": "Trade with the intraday trend",
