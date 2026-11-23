@@ -1577,3 +1577,5 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-23 16:55 UTC  live: gold 3664.85 | holding short dollar_lead ac10972c | new read short dollar_lead not opened
 2026-11-23 17:10 UTC  live: gold 3662.80 | holding short dollar_lead ac10972c | new read short dollar_lead not opened
 2026-11-23 17:24 UTC  live: gold 3664.07 | holding short dollar_lead ac10972c | new read short dollar_lead not opened
+2026-11-23 17:40 UTC  live: gold 3659.77 | holding short dollar_lead ac10972c | new read short dollar_lead not opened
+2026-11-23 17:43 UTC  live: SELL now expired: Signal is 120 minutes old without an entry. Waiting for a fresh one.
