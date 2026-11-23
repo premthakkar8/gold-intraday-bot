@@ -1,73 +1,73 @@
 {
-  "updated": "2026-11-23 04:11 UTC",
+  "updated": "2026-11-23 04:26 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3604.57,
+  "price": 3607.36,
   "stance": "Strategy: the BUY plan from 02:29 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3570.71,
-      "sl": 3565.71,
-      "tp1": 3584.74,
+      "entry_high": 3571.06,
+      "sl": 3566.06,
+      "tp1": 3584.21,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.13,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "far",
-      "reason": "Price is 33.86 away from the entry (7.1 ATR). Unlikely to fill soon.",
+      "reason": "Price is 36.30 away from the entry (8.8 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T04:11:58.775692+00:00"
+      "checked_at": "2026-11-23T04:26:42.975254+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3628.26,
+      "entry_low": 3627.91,
       "entry_high": 3630.65,
-      "sl": 3633.26,
-      "tp1": 3614.23,
+      "sl": 3632.91,
+      "tp1": 3614.76,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.62,
+      "score": 0.66,
       "style": "oil_shock",
       "favored": true,
       "ready": true,
       "status": "valid",
-      "reason": "Score 0.62 (Trade the oil shock), hawkish dollar news +1.00, price above VWAP.",
+      "reason": "Score 0.66 (Trade the oil shock), hawkish dollar news +1.00, price above VWAP.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T04:11:58.775692+00:00"
+      "checked_at": "2026-11-23T04:26:42.975254+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3594.1339807886447,
-    "atr": 4.752142857142904,
+    "vwap": 3594.697236389699,
+    "atr": 4.11000000000003,
     "day_low": 3568.32,
     "day_high": 3630.65,
-    "range_pos": 0.5815819027755502
+    "range_pos": 0.6263436547408954
   },
   "dxy": {
     "ok": true,
-    "last": 103.76899719238281,
-    "pct": -0.07703668962339447,
+    "last": 103.79499816894531,
+    "pct": -0.05199939816463723,
     "state": "flat",
-    "corr": -0.013300938498240263
+    "corr": -0.10924828726319749
   },
   "oil": {
     "ok": true,
-    "last": 83.33000183105469,
-    "pct": 0.5672232889706358,
+    "last": 83.62000274658203,
+    "pct": 0.9172123227519298,
     "state": "up",
-    "corr": 0.4268101355404681
+    "corr": 0.4105389840050801
   },
   "news": {
     "usd": 1.0,
@@ -109,32 +109,32 @@
     {
       "style": "Trade the oil shock",
       "bias": "short",
-      "score": 0.6245348875840061,
-      "trust": 0.8998782736392428
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.4554348577148404,
-      "trust": 0.9275819664803681
+      "score": 0.6573002350342274,
+      "trust": 0.9504315183315715
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.45455748222639114,
-      "trust": 0.6887234579187744
+      "score": 0.4763837766396869,
+      "trust": 0.7217936009692225
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.44888504664158335,
+      "trust": 0.8696328183662725
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.12720531687771605,
+      "trust": 0.8154186979340772
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.12098297611007912,
-      "trust": 1.209829761100791
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.0888362007413443,
-      "trust": 0.8883620074134428
+      "score": 0.11361442935979325,
+      "trust": 1.1361442935979325
     }
   ],
   "record": {
