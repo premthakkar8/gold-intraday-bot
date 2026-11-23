@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-23T06:53:24.589554+00:00",
-  "atr": 5.3871428571427975,
-  "price": 3630.55,
+  "updated_at": "2026-11-23T07:08:02.841730+00:00",
+  "atr": 5.528571428571403,
+  "price": 3635.07,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.11). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3570.36,
-      "sl": 3565.36,
-      "tp1": 3585.26,
+      "entry_high": 3570.28,
+      "sl": 3565.28,
+      "tp1": 3585.38,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T07:06:31.469699+00:00"
+      "checked_at": "2026-11-23T07:21:09.125022+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3628.61,
-      "entry_high": 3630.65,
-      "sl": 3633.61,
-      "tp1": 3613.71,
+      "entry_low": 3629.78,
+      "entry_high": 3631.74,
+      "sl": 3634.78,
+      "tp1": 3614.68,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,14 +40,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T07:06:31.469699+00:00"
+      "checked_at": "2026-11-23T07:21:09.125022+00:00"
     }
   ],
   "research": [
-    "Gold 3623.34 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3601.90, ATR 5.39, day range 3568.32-3630.65.",
-    "DXY 103.62 (-0.22% today, down), gold-dollar corr +0.20.",
-    "WTI 83.32 (+0.56% today, up), gold-oil corr +0.54.",
-    "Headlines: dollar +0.79, oil -0.17, fresh shock.",
+    "Gold 3629.51 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3602.66, ATR 5.53, day range 3568.32-3631.74.",
+    "DXY 103.63 (-0.21% today, down), gold-dollar corr -0.07.",
+    "WTI 83.24 (+0.43% today, up), gold-oil corr +0.47.",
+    "Headlines: dollar +0.78, oil -0.08, fresh shock.",
     "Dollar: Crypto Market Analysis Today (November 23, 2026): Bitcoin Retests Power Law Support as the US Dollar Strengthens - Pintu",
     "Oil: Crude oil rises marginally as AI selloff weighs on markets, Gulf attacks support prices; Brent at $90, WTI at $83- Moneycontrol.com - LinkedIn",
     "No high-impact US release in the next 24 hours."
@@ -76,5 +76,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-23T07:06:31.469699+00:00"
+  "last_check": "2026-11-23T07:21:09.125022+00:00"
 }
