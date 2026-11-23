@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-23 16:11 UTC",
+  "updated": "2026-11-23 16:26 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3667.19,
-  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
+  "price": 3672.47,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.45). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3569.17,
-      "sl": 3564.17,
-      "tp1": 3587.05,
+      "entry_high": 3569.68,
+      "sl": 3564.68,
+      "tp1": 3586.28,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,59 +19,59 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.55% with hawkish news (+0.59) and gold is moving against it (corr -0.34). Buying fights the dollar.",
+      "reason": "Dollar is up +0.64% with hawkish news (+0.58) and gold is moving against it (corr -0.33). Buying fights the dollar.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T16:11:20.189209+00:00"
+      "checked_at": "2026-11-23T16:26:04.546780+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3688.81,
+      "entry_low": 3688.3,
       "entry_high": 3689.66,
-      "sl": 3693.81,
-      "tp1": 3670.93,
+      "sl": 3693.3,
+      "tp1": 3671.7,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.54,
+      "score": 0.45,
       "style": "oil_shock",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.54 (Trade the oil shock), dollar firmer +0.55%, hawkish dollar news +0.59, price above VWAP.",
+      "reason": "Score 0.45 (Trade the oil shock), dollar firmer +0.64%, hawkish dollar news +0.58, price above VWAP.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T16:11:20.189209+00:00"
+      "checked_at": "2026-11-23T16:26:04.546780+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "up",
     "session": "overlap",
-    "vwap": 3621.216793853453,
-    "atr": 7.545714285714309,
+    "vwap": 3622.1495956925055,
+    "atr": 6.619999999999989,
     "day_low": 3568.32,
     "day_high": 3689.66,
-    "range_pos": 0.8148178671501578
+    "range_pos": 0.8583319597824287
   },
   "dxy": {
     "ok": true,
-    "last": 104.42400360107422,
-    "pct": 0.5536929417171821,
+    "last": 104.51599884033203,
+    "pct": 0.6422785228233131,
     "state": "up",
-    "corr": -0.34383577092777695
+    "corr": -0.3330341849299756
   },
   "oil": {
     "ok": true,
-    "last": 80.01000213623047,
-    "pct": -3.462832061169188,
+    "last": 80.16999816894531,
+    "pct": -3.2464427004483905,
     "state": "down",
-    "corr": 0.5692363618073646
+    "corr": 0.5847596956977802
   },
   "news": {
-    "usd": 0.592337820079654,
-    "oil": -0.8064219219734436,
+    "usd": 0.5827111724884728,
+    "oil": -0.802698769483769,
     "shock": true,
     "usd_headlines": [
       "Canadian Dollar weakens as Nvidia rally lifts the US Dollar - FXStreet",
@@ -97,39 +97,39 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5591048687072456,
-      "trust": 0.8222130422165376
+      "score": 0.46753137599941486,
+      "trust": 0.8348774571418122
     },
     {
       "style": "Trade the oil shock",
       "bias": "short",
-      "score": 0.5433490619149153,
-      "trust": 0.8923196521388994
+      "score": 0.4549661400166365,
+      "trust": 0.7468276861038989
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.4278747019992544,
-      "trust": 0.7827822574288184
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.4155596709235491,
-      "trust": 1.0
+      "score": 0.3810021712528877,
+      "trust": 0.7025306941234554
     },
     {
       "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.11270349501135708,
+      "trust": 1.1270349501135708
+    },
+    {
+      "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
     }
   ],
   "record": {
-    "graded": 227,
+    "graded": 228,
     "wins": 58,
-    "losses": 123,
+    "losses": 124,
     "scratches": 46,
-    "avg_r": -0.18674562382206694
+    "avg_r": -0.19031252898074208
   }
 }
