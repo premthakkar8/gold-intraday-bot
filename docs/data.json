@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-23 10:33 UTC",
+  "updated": "2026-11-23 10:48 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3619.38,
+  "price": 3622.89,
   "stance": "Strategy: the SELL plan from 10:04 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3571.31,
-      "sl": 3566.31,
-      "tp1": 3583.83,
+      "entry_high": 3571.4,
+      "sl": 3566.4,
+      "tp1": 3583.7,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.81,
+      "score": 0.22,
       "style": "trend_align",
-      "favored": true,
-      "ready": true,
+      "favored": false,
+      "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T10:33:23.017184+00:00"
+      "checked_at": "2026-11-23T10:48:05.870249+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3634.04,
+      "entry_low": 3633.95,
       "entry_high": 3637.03,
-      "sl": 3639.04,
-      "tp1": 3621.52,
+      "sl": 3638.95,
+      "tp1": 3621.65,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.3,
+      "score": 0.38,
       "style": "dollar_lead",
-      "favored": false,
+      "favored": true,
       "ready": false,
       "status": "invalid",
       "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-23T07:22:45.106999+00:00",
-      "checked_at": "2026-11-23T10:33:23.017184+00:00"
+      "checked_at": "2026-11-23T10:48:05.870249+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "up",
     "htf": "up",
     "session": "london",
-    "vwap": 3607.054756237092,
-    "atr": 3.649285714285757,
+    "vwap": 3607.2923705257613,
+    "atr": 3.4935714285714505,
     "day_low": 3568.32,
     "day_high": 3637.03,
-    "range_pos": 0.7431232717217278
+    "range_pos": 0.7942075389317375
   },
   "dxy": {
     "ok": true,
-    "last": 103.86100006103516,
-    "pct": 0.011556238105817232,
+    "last": 103.85299682617188,
+    "pct": 0.0038496304942455374,
     "state": "flat",
-    "corr": -0.12822681039405012
+    "corr": -0.12131737187797907
   },
   "oil": {
     "ok": true,
-    "last": 83.05999755859375,
-    "pct": 0.21718184259273493,
+    "last": 82.83000183105469,
+    "pct": -0.03620417460282676,
     "state": "flat",
-    "corr": -0.14731782613224673
+    "corr": -0.14509181488668368
   },
   "news": {
-    "usd": 0.4328853287797324,
-    "oil": -0.3460534232857493,
+    "usd": 0.5717855375590514,
+    "oil": -0.34630871198814056,
     "shock": false,
     "usd_headlines": [
       "Gold price today jumps 2.8% as Treasury yields ease: can the rally last? - Invezz",
-      "EUR/USD edges higher as Treasury yields fall, but dollar trend keeps euro under pressure - VT Markets",
-      "Treasury yields jump as stock futures rebound, investors await New York Fed President Williams speech - CNBC"
+      "US Treasury yields rise as investors eye Fed ra... - Pluang",
+      "EUR/USD edges higher as Treasury yields fall, but dollar trend keeps euro under pressure - VT Markets"
     ],
     "oil_headlines": [
       "Brent Oil Falls 0.5% as Middle East Supply Risks Persist - grafa.com",
@@ -109,28 +109,28 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.8110997213281075,
-      "trust": 0.9655949063429851
-    },
-    {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.29705504490011025,
+      "score": 0.377057797363507,
       "trust": 0.9105000195942565
     },
     {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.10559925055439486,
-      "trust": 1.0559925055439485
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.22373590109281477,
+      "trust": 0.9655949063429851
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.10237085133354917,
-      "trust": 0.4653220515161326
+      "score": 0.14890305648516247,
+      "trust": 0.4653220515161327
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.10559132458332819,
+      "trust": 1.0559132458332818
     },
     {
       "style": "Trade the oil shock",
