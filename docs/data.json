@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-23 14:28 UTC",
+  "updated": "2026-11-23 14:42 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3684.93,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.36). Take an entry only if price reaches it.",
+  "price": 3666.66,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.45). Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
   "blackout": null,
@@ -10,39 +10,39 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3612.9909393197277,
-    "atr": 11.988571428571342,
+    "vwap": 3614.5492161528537,
+    "atr": 13.351428571428512,
     "day_low": 3568.32,
-    "day_high": 3686.42,
-    "range_pos": 0.9873835732430124
+    "day_high": 3689.66,
+    "range_pos": 0.8104499752760832
   },
   "dxy": {
     "ok": true,
     "last": 104.10199737548828,
     "pct": 0.2436213679764814,
     "state": "up",
-    "corr": -0.352809295564915
+    "corr": -0.3747815955539993
   },
   "oil": {
     "ok": true,
-    "last": 82.0999984741211,
-    "pct": -0.9411182494515682,
+    "last": 82.02999877929688,
+    "pct": -1.025577343495918,
     "state": "down",
-    "corr": 0.6566237753533413
+    "corr": 0.596351247688446
   },
   "news": {
-    "usd": 0.6529505324638615,
-    "oil": -0.2988064073176663,
+    "usd": 0.7505845276110763,
+    "oil": -0.791730738099795,
     "shock": true,
     "usd_headlines": [
       "U.S. Treasury Yields Rise, European Bond Yields Edge Lower - WSJ",
       "US Dollar: Fed rate hike bets support Dollar outlook - BBH - FXStreet",
-      "U.S. Treasury Yields Rise and Stock Futures Rebound as Investors Await John C. Williams\u2019 Remarks - Binance"
+      "Sri Lanka rupee at 332.45/60 to US dollar spot, bond yields rise - EconomyNext"
     ],
     "oil_headlines": [
+      "Oil Prices Today: Brent Crude Falls to $91.11, WTI Drops 1.51% to $82.15 - Arbiterz",
       "Crude oil remains under pressure as demand concerns continue to weigh despite high US-Iran tensions - investingLive",
-      "Goldman Lowers Oil Price Forecasts on Deal to Reopen Strait of Hormuz - EnergyNow.com",
-      "Crude Oil Falls as Global Selloff Offsets Middle East Risks - HDFC Sky"
+      "Brent Oil Falls 0.5% as Middle East Supply Risks Persist - grafa.com"
     ]
   },
   "events": [
@@ -70,34 +70,34 @@
   ],
   "scorecard": [
     {
+      "style": "Trade the oil shock",
+      "bias": "short",
+      "score": 0.4502312001076794,
+      "trust": 0.7443011761479221
+    },
+    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.45907866143469417,
-      "trust": 0.8197833239905252
+      "score": 0.44888064101247777,
+      "trust": 0.8015725732365674
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.35542662454892754,
-      "trust": 0.7803417026167516
+      "score": 0.33432624507727954,
+      "trust": 0.7025306941234554
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.1128302683781916,
+      "trust": 1.128302683781916
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.09650352380280064,
-      "trust": 0.9650352380280063
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.08973727473061634,
-      "trust": 0.7478106227551362
     }
   ],
   "record": {

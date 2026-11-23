@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-23T14:28:17.021768+00:00",
-  "atr": 11.988571428571342,
-  "price": 3662.91,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.36). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-23T14:42:55.766777+00:00",
+  "atr": 13.351428571428512,
+  "price": 3672.05,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.45). Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3684.93 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3612.99, ATR 11.99, day range 3568.32-3686.42.",
-    "DXY 104.10 (+0.24% today, up), gold-dollar corr -0.35.",
-    "WTI 82.10 (-0.94% today, down), gold-oil corr +0.66.",
-    "Headlines: dollar +0.65, oil -0.30, fresh shock.",
+    "Gold 3666.66 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3614.55, ATR 13.35, day range 3568.32-3689.66.",
+    "DXY 104.10 (+0.24% today, up), gold-dollar corr -0.37.",
+    "WTI 82.03 (-1.03% today, down), gold-oil corr +0.60.",
+    "Headlines: dollar +0.75, oil -0.79, fresh shock.",
     "Dollar: U.S. Treasury Yields Rise, European Bond Yields Edge Lower - WSJ",
-    "Oil: Crude oil remains under pressure as demand concerns continue to weigh despite high US-Iran tensions - investingLive",
+    "Oil: Oil Prices Today: Brent Crude Falls to $91.11, WTI Drops 1.51% to $82.15 - Arbiterz",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -37,5 +37,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-23T14:41:37.786395+00:00"
+  "last_check": "2026-11-23T14:56:03.102758+00:00"
 }
