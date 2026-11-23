@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-23T02:44:13.203715+00:00",
-  "atr": 7.3871428571428295,
-  "price": 3591.43,
+  "updated_at": "2026-11-23T02:58:47.626414+00:00",
+  "atr": 6.881428571428581,
+  "price": 3606.19,
   "stance": "Strategy: the BUY plan from 02:29 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3569.26,
-      "sl": 3564.26,
-      "tp1": 3586.91,
+      "entry_high": 3569.54,
+      "sl": 3564.54,
+      "tp1": 3586.5,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.6,
-      "style": "range_fade",
+      "score": 0.17,
+      "style": "dollar_lead",
       "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.60 (Fade the session range), dollar softer -0.13%, price below VWAP.",
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.17. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T02:57:20.368114+00:00"
+      "checked_at": "2026-11-23T03:11:54.005186+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3629.71,
+      "entry_low": 3629.43,
       "entry_high": 3630.65,
-      "sl": 3634.71,
-      "tp1": 3612.06,
+      "sl": 3634.43,
+      "tp1": 3612.47,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -37,16 +37,16 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "valid",
-      "reason": "Price 3590.39 is back within reach of the entry.",
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T02:57:20.368114+00:00"
+      "checked_at": "2026-11-23T03:11:54.005186+00:00"
     }
   ],
   "research": [
-    "Gold 3578.44 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3591.14, ATR 7.39, day range 3568.32-3630.65.",
-    "DXY 103.71 (-0.13% today, down), gold-dollar corr -0.06.",
-    "WTI 83.06 (+0.22% today, flat), gold-oil corr -0.25.",
+    "Gold 3592.10 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3590.89, ATR 6.88, day range 3568.32-3630.65.",
+    "DXY 103.73 (-0.11% today, down), gold-dollar corr -0.07.",
+    "WTI 82.89 (+0.04% today, flat), gold-oil corr -0.26.",
     "Headlines: dollar +1.00, oil -1.00.",
     "Dollar: Gold Rebounds From 14-Month Low As Fed Rate Hike Bets Ease - BusinessToday Malaysia",
     "Oil: Commodity Corner: Crude oil slips on supply concerns; gold rebounds as Fed rate hike bets ease - Moneycontrol.com",
@@ -76,5 +76,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-23T02:57:20.368114+00:00"
+  "last_check": "2026-11-23T03:11:54.005186+00:00"
 }
