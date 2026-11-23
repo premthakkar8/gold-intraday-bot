@@ -1541,3 +1541,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-23 08:26 UTC  live: SELL valid again
 2026-11-23 08:36 UTC  live: gold 3607.29 | graded: 04a031fe stand aside -> loss (-1.00R) | opened stand aside 10c5d23a
 2026-11-23 08:51 UTC  live: gold 3612.07 | graded: 10c5d23a stand aside -> loss (-1.00R) | opened stand aside 5dfd52c5
+2026-11-23 09:05 UTC  live: gold 3612.04 | holding flat stand_aside 5dfd52c5 | new read flat stand_aside not opened
