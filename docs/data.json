@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-23 14:42 UTC",
+  "updated": "2026-11-23 14:57 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3666.66,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.45). Take an entry only if price reaches it.",
+  "price": 3668.09,
+  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
   "blackout": null,
@@ -10,34 +10,33 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3614.5492161528537,
-    "atr": 13.351428571428512,
+    "vwap": 3615.8422265329023,
+    "atr": 13.932857142857172,
     "day_low": 3568.32,
     "day_high": 3689.66,
-    "range_pos": 0.8104499752760832
+    "range_pos": 0.8222350420306596
   },
   "dxy": {
     "ok": true,
-    "last": 104.10199737548828,
-    "pct": 0.2436213679764814,
+    "last": 104.13800048828125,
+    "pct": 0.2782900822939331,
     "state": "up",
-    "corr": -0.3747815955539993
+    "corr": -0.3876807327797487
   },
   "oil": {
     "ok": true,
-    "last": 82.02999877929688,
-    "pct": -1.025577343495918,
+    "last": 81.94999694824219,
+    "pct": -1.0982424033384448,
     "state": "down",
-    "corr": 0.596351247688446
+    "corr": 0.621493995780111
   },
   "news": {
-    "usd": 0.7505845276110763,
-    "oil": -0.791730738099795,
-    "shock": true,
+    "usd": 1.0,
+    "oil": -0.7942479924414532,
+    "shock": false,
     "usd_headlines": [
-      "U.S. Treasury Yields Rise, European Bond Yields Edge Lower - WSJ",
-      "US Dollar: Fed rate hike bets support Dollar outlook - BBH - FXStreet",
-      "Sri Lanka rupee at 332.45/60 to US dollar spot, bond yields rise - EconomyNext"
+      "WTI and Brent Crude Oil Prices Fall as Bessent Challenges Fed's Hawkish Rate Expectations - FXLeaders",
+      "Commodity Corner: Crude oil slips on supply concerns; gold rebounds as Fed rate hike bets ease - Moneycontrol.com"
     ],
     "oil_headlines": [
       "Oil Prices Today: Brent Crude Falls to $91.11, WTI Drops 1.51% to $82.15 - Arbiterz",
@@ -70,28 +69,28 @@
   ],
   "scorecard": [
     {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.5152990918988988,
+      "trust": 0.7025306941234553
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "short",
+      "score": 0.46402419341686335,
+      "trust": 1.128122838540763
+    },
+    {
       "style": "Trade the oil shock",
       "bias": "short",
-      "score": 0.4502312001076794,
-      "trust": 0.7443011761479221
+      "score": 0.39471463416766933,
+      "trust": 0.7446595959041012
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.44888064101247777,
-      "trust": 0.8015725732365674
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.33432624507727954,
-      "trust": 0.7025306941234554
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.1128302683781916,
-      "trust": 1.128302683781916
+      "score": 0.17634596611204484,
+      "trust": 0.8015725732365675
     },
     {
       "style": "Trade with the intraday trend",
