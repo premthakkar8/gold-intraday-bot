@@ -1,82 +1,82 @@
 {
-  "updated": "2026-11-23 10:18 UTC",
+  "updated": "2026-11-23 10:33 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3620.28,
+  "price": 3619.38,
   "stance": "Strategy: the SELL plan from 10:04 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3570.74,
-      "sl": 3565.74,
-      "tp1": 3584.69,
+      "entry_high": 3571.31,
+      "sl": 3566.31,
+      "tp1": 3583.83,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T10:18:45.540612+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3634.61,
-      "entry_high": 3637.03,
-      "sl": 3639.61,
-      "tp1": 3620.66,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.57,
-      "style": "range_fade",
+      "score": 0.81,
+      "style": "trend_align",
       "favored": true,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-23T02:29:32.388454+00:00",
+      "checked_at": "2026-11-23T10:33:23.017184+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3634.04,
+      "entry_high": 3637.03,
+      "sl": 3639.04,
+      "tp1": 3621.52,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.3,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "invalid",
+      "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-23T07:22:45.106999+00:00",
-      "checked_at": "2026-11-23T10:18:45.540612+00:00"
+      "checked_at": "2026-11-23T10:33:23.017184+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "up",
     "session": "london",
-    "vwap": 3606.828096979585,
-    "atr": 4.686428571428613,
+    "vwap": 3607.054756237092,
+    "atr": 3.649285714285757,
     "day_low": 3568.32,
     "day_high": 3637.03,
-    "range_pos": 0.7562218017755786
+    "range_pos": 0.7431232717217278
   },
   "dxy": {
     "ok": true,
-    "last": 103.81500244140625,
-    "pct": -0.0327365524472483,
+    "last": 103.86100006103516,
+    "pct": 0.011556238105817232,
     "state": "flat",
-    "corr": -0.12414353592875318
+    "corr": -0.12822681039405012
   },
   "oil": {
     "ok": true,
-    "last": 83.1500015258789,
-    "pct": 0.34998903378129403,
+    "last": 83.05999755859375,
+    "pct": 0.21718184259273493,
     "state": "flat",
-    "corr": -0.08190678403385382
+    "corr": -0.14731782613224673
   },
   "news": {
-    "usd": 0.5360960825831913,
-    "oil": -0.3458094523096011,
+    "usd": 0.4328853287797324,
+    "oil": -0.3460534232857493,
     "shock": false,
     "usd_headlines": [
       "Gold price today jumps 2.8% as Treasury yields ease: can the rally last? - Invezz",
-      "Federal Reserve: Consecutive hikes and sticky inflation \u2013 TD Securities - FXStreet",
-      "US Dollar: Hawkish Fed support keeps Greenback bid \u2013 ING - FXStreet"
+      "EUR/USD edges higher as Treasury yields fall, but dollar trend keeps euro under pressure - VT Markets",
+      "Treasury yields jump as stock futures rebound, investors await New York Fed President Williams speech - CNBC"
     ],
     "oil_headlines": [
       "Brent Oil Falls 0.5% as Middle East Supply Risks Persist - grafa.com",
@@ -109,34 +109,34 @@
   ],
   "scorecard": [
     {
-      "style": "Fade the session range",
-      "bias": "short",
-      "score": 0.5692916620008552,
-      "trust": 1.1372628207255477
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.8110997213281075,
+      "trust": 0.9655949063429851
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.38809361078822646,
-      "trust": 0.9902552773841279
+      "score": 0.29705504490011025,
+      "trust": 0.9105000195942565
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.10559925055439486,
+      "trust": 1.0559925055439485
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.12496688080305424,
-      "trust": 0.5680312763775193
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.10237085133354917,
+      "trust": 0.4653220515161326
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.06860355447760501,
-      "trust": 0.8575444309700626
+      "score": 0.08,
+      "trust": 1.0
     }
   ],
   "record": {
