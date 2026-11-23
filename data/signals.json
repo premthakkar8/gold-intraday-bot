@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-23T01:30:47.099372+00:00",
-  "atr": 11.340714285714284,
-  "price": 3612.48,
-  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
+  "updated_at": "2026-11-23T01:45:31.984383+00:00",
+  "atr": 12.365714285714278,
+  "price": 3603.67,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.30). Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3614.91 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3587.89, ATR 11.34, day range 3568.32-3630.65.",
-    "DXY 103.75 (-0.10% today, down), gold-dollar corr -0.11.",
-    "WTI 83.23 (+0.42% today, up), gold-oil corr -0.15.",
-    "Headlines: dollar +0.30, oil +1.00.",
-    "Dollar: Treasury Yields Fall, German Bunds\u2019 Tick Higher - WSJ",
-    "Oil: Goldman Lowers Oil Price Forecasts on Deal to Reopen Strait of Hormuz - EnergyNow.com",
+    "Gold 3610.51 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3591.34, ATR 12.37, day range 3568.32-3630.65.",
+    "DXY 103.77 (-0.08% today, flat), gold-dollar corr -0.10.",
+    "WTI 83.15 (+0.35% today, flat), gold-oil corr -0.12.",
+    "Headlines: dollar +0.48, oil +0.00.",
+    "Dollar: Ringgit Opens Higher On Stronger Trade Performance, US Dollar Gains Limit Upside - BusinessToday Malaysia",
+    "Oil: WTI and Brent Crude Oil Prices Slide as Bessent Challenges Fed's Hawkish Rate Expectations - FXLeaders",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -37,5 +37,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-23T01:43:52.868730+00:00"
+  "last_check": "2026-11-23T01:58:41.264891+00:00"
 }

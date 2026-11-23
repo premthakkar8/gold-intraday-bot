@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-23 01:30 UTC",
+  "updated": "2026-11-23 01:45 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3614.91,
-  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
+  "price": 3610.51,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.30). Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
   "blackout": null,
@@ -10,37 +10,38 @@
     "structure": "up",
     "htf": "down",
     "session": "asia",
-    "vwap": 3587.8940982866266,
-    "atr": 11.340714285714284,
+    "vwap": 3591.3359408415,
+    "atr": 12.365714285714278,
     "day_low": 3568.32,
     "day_high": 3630.65,
-    "range_pos": 0.747473126905178
+    "range_pos": 0.676881116637255
   },
   "dxy": {
     "ok": true,
-    "last": 103.74700164794922,
-    "pct": -0.09821700396482555,
-    "state": "down",
-    "corr": -0.10939445274815636
+    "last": 103.76699829101562,
+    "pct": -0.07896150487051724,
+    "state": "flat",
+    "corr": -0.09985841627702148
   },
   "oil": {
     "ok": true,
-    "last": 83.2300033569336,
-    "pct": 0.4223046755725981,
-    "state": "up",
-    "corr": -0.15078822249133647
+    "last": 83.1500015258789,
+    "pct": 0.34998903378129403,
+    "state": "flat",
+    "corr": -0.11700723485661607
   },
   "news": {
-    "usd": 0.3016355635120276,
-    "oil": 1.0,
+    "usd": 0.4837513942708427,
+    "oil": 0.0,
     "shock": false,
     "usd_headlines": [
+      "Ringgit Opens Higher On Stronger Trade Performance, US Dollar Gains Limit Upside - BusinessToday Malaysia",
       "Treasury Yields Fall, German Bunds\u2019 Tick Higher - WSJ",
-      "WTI and Brent Crude Oil Prices Slide as Bessent Challenges Fed's Hawkish Rate Expectations - FXLeaders",
-      "NEAR rises as Federal Reserve's hawkish tone weighs on non-yielding crypto demand - Traders Union"
+      "WTI and Brent Crude Oil Prices Slide as Bessent Challenges Fed's Hawkish Rate Expectations - FXLeaders"
     ],
     "oil_headlines": [
-      "Goldman Lowers Oil Price Forecasts on Deal to Reopen Strait of Hormuz - EnergyNow.com"
+      "WTI and Brent Crude Oil Prices Slide as Bessent Challenges Fed's Hawkish Rate Expectations - FXLeaders",
+      "WTI crude oil prices may trend lower - The Business Times"
     ]
   },
   "events": [
@@ -61,34 +62,34 @@
   ],
   "scorecard": [
     {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.631699781960573,
-      "trust": 1.1485450581101326
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.304121969397537,
+      "trust": 0.8704398199317311
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.5761397521402261,
-      "trust": 0.9634444015722842
+      "score": 0.2597275450833416,
+      "trust": 0.8820533483369029
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.31524418681416316,
-      "trust": 0.9271887847475389
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.1958484895323207,
-      "trust": 0.9573803628235024
+      "score": 0.2435901386915933,
+      "trust": 0.7164415843870392
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.0962371148136077,
+      "trust": 0.9623711481360768
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.07997719059572157,
+      "trust": 0.9997148824465196
     }
   ],
   "record": {
