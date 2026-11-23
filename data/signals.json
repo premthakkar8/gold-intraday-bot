@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-23T14:57:29.997479+00:00",
-  "atr": 13.932857142857172,
-  "price": 3663.04,
-  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
+  "updated_at": "2026-11-23T15:12:11.605974+00:00",
+  "atr": 11.233571428571427,
+  "price": 3680.27,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.45). Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3668.09 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3615.84, ATR 13.93, day range 3568.32-3689.66.",
-    "DXY 104.14 (+0.28% today, up), gold-dollar corr -0.39.",
-    "WTI 81.95 (-1.10% today, down), gold-oil corr +0.62.",
-    "Headlines: dollar +1.00, oil -0.79.",
-    "Dollar: WTI and Brent Crude Oil Prices Fall as Bessent Challenges Fed's Hawkish Rate Expectations - FXLeaders",
+    "Gold 3663.73 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3616.98, ATR 11.23, day range 3568.32-3689.66.",
+    "DXY 104.22 (+0.36% today, up), gold-dollar corr -0.39.",
+    "WTI 81.62 (-1.50% today, down), gold-oil corr +0.61.",
+    "Headlines: dollar +0.68, oil -0.80, fresh shock.",
+    "Dollar: U.S. Treasury yields rise as Nvidia's board reinstates Jensen Huang as CEO - Quartz",
     "Oil: Oil Prices Today: Brent Crude Falls to $91.11, WTI Drops 1.51% to $82.15 - Arbiterz",
     "No high-impact US release in the next 24 hours."
   ],
@@ -37,5 +37,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-23T15:10:37.809087+00:00"
+  "last_check": "2026-11-23T15:25:18.103830+00:00"
 }
