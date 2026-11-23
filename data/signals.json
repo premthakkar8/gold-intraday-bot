@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-11-23T05:10:48.398953+00:00",
-  "atr": 3.5742857142857116,
-  "price": 3613.42,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.32). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-23T05:25:32.624554+00:00",
+  "atr": 3.7028571428571206,
+  "price": 3622.57,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.10). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3571.35,
-      "sl": 3566.35,
-      "tp1": 3583.77,
+      "entry_high": 3571.28,
+      "sl": 3566.28,
+      "tp1": 3583.87,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.15,
-      "style": "trend_align",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T05:23:55.947716+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3627.62,
-      "entry_high": 3630.65,
-      "sl": 3632.62,
-      "tp1": 3615.2,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.32,
+      "score": 0.1,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T05:23:55.947716+00:00"
+      "checked_at": "2026-11-23T05:38:41.899197+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3627.69,
+      "entry_high": 3630.65,
+      "sl": 3632.69,
+      "tp1": 3615.1,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-23T02:29:32.388454+00:00",
+      "checked_at": "2026-11-23T05:38:41.899197+00:00"
     }
   ],
   "research": [
-    "Gold 3607.28 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3596.12, ATR 3.57, day range 3568.32-3630.65.",
-    "DXY 103.77 (-0.08% today, flat), gold-dollar corr -0.00.",
-    "WTI 83.49 (+0.74% today, up), gold-oil corr -0.07.",
-    "Headlines: dollar +0.81, oil -0.30, fresh shock.",
+    "Gold 3614.27 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3596.68, ATR 3.70, day range 3568.32-3630.65.",
+    "DXY 103.75 (-0.10% today, down), gold-dollar corr +0.14.",
+    "WTI 83.42 (+0.68% today, up), gold-oil corr +0.05.",
+    "Headlines: dollar +0.81, oil -0.17, fresh shock.",
     "Dollar: Sri Lanka rupee at 332.45/60 to US dollar spot, bond yields rise - EconomyNext",
-    "Oil: Crude Oil Falls on Strong Middle East Exports Despite Houthi Attacks on Riyadh By Kedia Advisory - Investing.com India",
+    "Oil: Crude oil rises marginally as AI selloff weighs on markets, Gulf attacks support prices; Brent at $90, WTI at $83- Moneycontrol.com - LinkedIn",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -76,5 +76,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-23T05:23:55.947716+00:00"
+  "last_check": "2026-11-23T05:38:41.899197+00:00"
 }
