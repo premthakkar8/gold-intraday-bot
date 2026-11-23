@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-23 17:09 UTC",
+  "updated": "2026-11-23 17:24 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3662.8,
+  "price": 3664.07,
   "stance": "Strategy: the SELL plan from 16:40 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3569.62,
-      "sl": 3564.62,
-      "tp1": 3586.37,
+      "entry_high": 3569.86,
+      "sl": 3564.86,
+      "tp1": 3586.0,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,28 +19,28 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.56% with hawkish news (+0.58) and gold is moving against it (corr -0.38). Buying fights the dollar.",
+      "reason": "Dollar is up +0.59% with hawkish news (+0.66) and gold is moving against it (corr -0.41). Buying fights the dollar.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T17:09:56.790191+00:00"
+      "checked_at": "2026-11-23T17:24:36.940640+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3688.36,
+      "entry_low": 3688.12,
       "entry_high": 3689.66,
-      "sl": 3693.36,
-      "tp1": 3671.61,
+      "sl": 3693.12,
+      "tp1": 3671.98,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.58,
+      "score": 0.6,
       "style": "dollar_lead",
       "favored": true,
       "ready": true,
       "status": "valid",
-      "reason": "Score 0.58 (Trade with the dollar), dollar firmer +0.56%, hawkish dollar news +0.58, price above VWAP.",
+      "reason": "Score 0.60 (Trade with the dollar), dollar firmer +0.59%, hawkish dollar news +0.66, price above VWAP.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T17:09:56.790191+00:00"
+      "checked_at": "2026-11-23T17:24:36.940640+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "up",
     "session": "newyork",
-    "vwap": 3624.3597613439088,
-    "atr": 6.7214285714285325,
+    "vwap": 3624.9935370801572,
+    "atr": 6.284285714285618,
     "day_low": 3568.32,
     "day_high": 3689.66,
-    "range_pos": 0.778638536344159
+    "range_pos": 0.7891049942310883
   },
   "dxy": {
     "ok": true,
-    "last": 104.43099975585938,
-    "pct": 0.5604297950821118,
+    "last": 104.45800018310547,
+    "pct": 0.5864294941644304,
     "state": "up",
-    "corr": -0.381621057756816
+    "corr": -0.4120367641007309
   },
   "oil": {
     "ok": true,
-    "last": 80.33999633789062,
-    "pct": -3.0646730208748822,
+    "last": 80.93000030517578,
+    "pct": -2.3527956236289205,
     "state": "down",
-    "corr": 0.5589919400861665
+    "corr": 0.4962010716300255
   },
   "news": {
-    "usd": 0.5821194291593743,
-    "oil": -0.838880883802659,
+    "usd": 0.6559457875070561,
+    "oil": -0.836840540774008,
     "shock": false,
     "usd_headlines": [
       "Treasury Yields Rise as Huang Returns as CEO, European Bond Yields Slip - WSJ",
@@ -97,20 +97,20 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5768226924902673,
+      "score": 0.5966303699588205,
       "trust": 0.7794993356702818
     },
     {
       "style": "Trade the oil shock",
       "bias": "short",
-      "score": 0.5264431745935955,
-      "trust": 0.9655374987187464
+      "score": 0.5162916228073744,
+      "trust": 0.9655861325858156
     },
     {
       "style": "Fade the session range",
       "bias": "short",
-      "score": 0.4215505477724356,
-      "trust": 1.1483951382293605
+      "score": 0.4303185094506828,
+      "trust": 1.148185721351361
     },
     {
       "style": "Stand aside",
