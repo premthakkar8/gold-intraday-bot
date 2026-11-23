@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-23T06:38:45.130714+00:00",
-  "atr": 5.8899999999999375,
-  "price": 3624.85,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.09). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-23T06:53:24.589554+00:00",
+  "atr": 5.3871428571427975,
+  "price": 3630.55,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.11). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3570.08,
-      "sl": 3565.08,
-      "tp1": 3585.68,
+      "entry_high": 3570.36,
+      "sl": 3565.36,
+      "tp1": 3585.26,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.09,
+      "score": 0.11,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T06:51:53.379738+00:00"
+      "checked_at": "2026-11-23T07:06:31.469699+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3628.89,
+      "entry_low": 3628.61,
       "entry_high": 3630.65,
-      "sl": 3633.89,
-      "tp1": 3613.29,
+      "sl": 3633.61,
+      "tp1": 3613.71,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,15 +40,15 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T06:51:53.379738+00:00"
+      "checked_at": "2026-11-23T07:06:31.469699+00:00"
     }
   ],
   "research": [
-    "Gold 3619.63 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3601.09, ATR 5.89, day range 3568.32-3630.65.",
-    "DXY 103.65 (-0.19% today, down), gold-dollar corr +0.00.",
-    "WTI 83.52 (+0.77% today, up), gold-oil corr +0.48.",
-    "Headlines: dollar +1.00, oil -0.17, fresh shock.",
-    "Dollar: Sri Lanka rupee at 332.45/60 to US dollar spot, bond yields rise - EconomyNext",
+    "Gold 3623.34 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3601.90, ATR 5.39, day range 3568.32-3630.65.",
+    "DXY 103.62 (-0.22% today, down), gold-dollar corr +0.20.",
+    "WTI 83.32 (+0.56% today, up), gold-oil corr +0.54.",
+    "Headlines: dollar +0.79, oil -0.17, fresh shock.",
+    "Dollar: Crypto Market Analysis Today (November 23, 2026): Bitcoin Retests Power Law Support as the US Dollar Strengthens - Pintu",
     "Oil: Crude oil rises marginally as AI selloff weighs on markets, Gulf attacks support prices; Brent at $90, WTI at $83- Moneycontrol.com - LinkedIn",
     "No high-impact US release in the next 24 hours."
   ],
@@ -76,5 +76,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-23T06:51:53.379738+00:00"
+  "last_check": "2026-11-23T07:06:31.469699+00:00"
 }
