@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-23 19:37 UTC",
+  "updated": "2026-11-23 19:51 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3645.95,
+  "price": 3640.5,
   "stance": "Strategy: the SELL plan from 18:53 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3570.85,
-      "sl": 3565.85,
-      "tp1": 3584.53,
+      "entry_high": 3570.82,
+      "sl": 3565.82,
+      "tp1": 3584.56,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,16 +19,16 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.48% with hawkish news (+0.61) and gold is moving against it (corr -0.32). Buying fights the dollar.",
+      "reason": "Dollar is up +0.51% with hawkish news (+0.53) and gold is moving against it (corr -0.37). Buying fights the dollar.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T19:37:10.985752+00:00"
+      "checked_at": "2026-11-23T19:51:46.560120+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3687.13,
+      "entry_low": 3687.16,
       "entry_high": 3689.66,
-      "sl": 3692.13,
-      "tp1": 3673.45,
+      "sl": 3692.16,
+      "tp1": 3673.42,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T19:37:10.985752+00:00"
+      "checked_at": "2026-11-23T19:51:46.560120+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "sideways",
     "htf": "up",
     "session": "newyork",
-    "vwap": 3628.318989568407,
-    "atr": 4.494285714285687,
+    "vwap": 3628.4818577477467,
+    "atr": 4.538571428571361,
     "day_low": 3568.32,
     "day_high": 3689.66,
-    "range_pos": 0.6397725399703301
+    "range_pos": 0.5948574254161861
   },
   "dxy": {
     "ok": true,
-    "last": 104.35099792480469,
-    "pct": 0.4833931054587173,
+    "last": 104.3759994506836,
+    "pct": 0.5074679892939131,
     "state": "up",
-    "corr": -0.32457255383608213
+    "corr": -0.3701610619648267
   },
   "oil": {
     "ok": true,
     "last": 80.08999633789062,
-    "pct": -3.342993304437516,
+    "pct": -3.366313957511967,
     "state": "down",
-    "corr": -0.2747337881868522
+    "corr": -0.22984719626091743
   },
   "news": {
-    "usd": 0.6070402841762914,
-    "oil": -0.8157550976079249,
+    "usd": 0.5314825921107246,
+    "oil": -0.7938292021346405,
     "shock": true,
     "usd_headlines": [
+      "Treasury Yields Fall, German Bunds\u2019 Tick Higher - WSJ",
       "Treasury Yields Rise as Huang Returns as CEO, European Bond Yields Slip - WSJ",
-      "Canadian Dollar weakens as Nvidia rally lifts the US Dollar - FXStreet",
-      "U.S. Treasury yields rise as Nvidia's board reinstates Jensen Huang as CEO - Quartz"
+      "FX weekly: Dollar strengthens as Fed bets weigh on major currencies - TradingView"
     ],
     "oil_headlines": [
       "Crude Oil Falls as Middle East Supply Rises While Geopolitical Risks Persist - kalkine.ca",
@@ -103,20 +103,20 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.46204817423301936,
-      "trust": 0.8497338641151959
+      "score": 0.4625863358191591,
+      "trust": 0.8497338641151958
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11592270513387941,
-      "trust": 0.9660225427823285
+      "score": 0.11592842916316372,
+      "trust": 0.9660702430263644
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11463065440128475,
-      "trust": 1.1463065440128475
+      "score": 0.11461011473050023,
+      "trust": 1.1461011473050022
     },
     {
       "style": "Trade with the intraday trend",
