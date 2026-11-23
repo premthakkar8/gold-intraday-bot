@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-23T13:29:49.264338+00:00",
-  "atr": 5.317142857142861,
-  "price": 3618.0,
+  "updated_at": "2026-11-23T13:44:31.752787+00:00",
+  "atr": 6.132142857142786,
+  "price": 3658.49,
   "stance": "Strategy: the SELL plan from 12:31 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3570.4,
-      "sl": 3565.4,
-      "tp1": 3585.21,
+      "entry_high": 3569.95,
+      "sl": 3564.95,
+      "tp1": 3585.88,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,34 +21,34 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T13:42:56.554693+00:00"
+      "checked_at": "2026-11-23T13:57:39.074258+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3634.95,
+      "entry_low": 3635.4,
       "entry_high": 3637.03,
-      "sl": 3639.95,
-      "tp1": 3620.14,
+      "sl": 3640.4,
+      "tp1": 3619.47,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.57,
-      "style": "range_fade",
+      "score": 0.31,
+      "style": "dollar_lead",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T07:22:45.106999+00:00",
-      "checked_at": "2026-11-23T13:42:56.554693+00:00"
+      "checked_at": "2026-11-23T13:57:39.074258+00:00"
     }
   ],
   "research": [
-    "Gold 3628.06 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3609.68, ATR 5.32, day range 3568.32-3637.03.",
-    "DXY 104.07 (+0.21% today, up), gold-dollar corr -0.16.",
-    "WTI 81.93 (-1.15% today, down), gold-oil corr -0.25.",
-    "Headlines: dollar +0.71, oil -0.78.",
-    "Dollar: US Dollar: Fed rate hike bets support Dollar outlook - BBH - www.tmgm.com",
+    "Gold 3619.55 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3609.89, ATR 6.13, day range 3568.32-3637.03.",
+    "DXY 104.06 (+0.20% today, up), gold-dollar corr -0.14.",
+    "WTI 81.71 (-1.39% today, down), gold-oil corr -0.32.",
+    "Headlines: dollar +0.66, oil -0.78, fresh shock.",
+    "Dollar: US Dollar: Fed rate hike bets support Dollar outlook - BBH - FXStreet",
     "Oil: Oil Prices Today: Brent Crude Falls to $91.11, WTI Drops 1.51% to $82.15 - Arbiterz",
     "No high-impact US release in the next 24 hours."
   ],
@@ -76,5 +76,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-23T13:42:56.554693+00:00"
+  "last_check": "2026-11-23T13:57:39.074258+00:00"
 }
