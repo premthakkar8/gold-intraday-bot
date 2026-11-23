@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-23 02:00 UTC",
+  "updated": "2026-11-23 02:14 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3601.1,
+  "price": 3585.4,
   "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
@@ -10,34 +10,34 @@
     "structure": "up",
     "htf": "down",
     "session": "asia",
-    "vwap": 3592.966571584288,
-    "atr": 12.229285714285718,
+    "vwap": 3592.966917585688,
+    "atr": 12.291428571428598,
     "day_low": 3568.32,
     "day_high": 3630.65,
-    "range_pos": 0.5259104764960658
+    "range_pos": 0.2740253489491408
   },
   "dxy": {
     "ok": true,
-    "last": 103.75700378417969,
-    "pct": -0.08858558110613109,
+    "last": 103.74400329589844,
+    "pct": -0.10110422683550971,
     "state": "down",
-    "corr": -0.01710715471445768
+    "corr": -0.05619563270129783
   },
   "oil": {
     "ok": true,
-    "last": 83.36000061035156,
-    "pct": 0.6034274635734626,
+    "last": 83.27999877929688,
+    "pct": 0.4826273396895054,
     "state": "up",
-    "corr": -0.10161606441687393
+    "corr": -0.25698820816003415
   },
   "news": {
-    "usd": 0.5921514953672581,
+    "usd": 1.0,
     "oil": -1.0,
     "shock": false,
     "usd_headlines": [
       "Commodity Corner: Crude oil slips on supply concerns; gold rebounds as Fed rate hike bets ease - Moneycontrol.com",
       "Ringgit Opens Higher On Stronger Trade Performance, US Dollar Gains Limit Upside - BusinessToday Malaysia",
-      "Treasury Yields Fall, German Bunds\u2019 Tick Higher - WSJ"
+      "WTI and Brent Crude Oil Prices Slide as Bessent Challenges Fed's Hawkish Rate Expectations - FXLeaders"
     ],
     "oil_headlines": [
       "Commodity Corner: Crude oil slips on supply concerns; gold rebounds as Fed rate hike bets ease - Moneycontrol.com"
@@ -63,8 +63,8 @@
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.5303885183480279,
-      "trust": 0.8869373216522205
+      "score": 0.5304841330126294,
+      "trust": 0.8870972123957012
     },
     {
       "style": "Stand aside",
@@ -75,14 +75,14 @@
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.12069491307088864,
-      "trust": 0.9436175467075707
+      "score": 0.14318501442436984,
+      "trust": 0.9436972815281846
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11995444581294346,
-      "trust": 0.9996203817745288
+      "score": 0.11995451023466903,
+      "trust": 0.999620918622242
     },
     {
       "style": "Fade the session range",

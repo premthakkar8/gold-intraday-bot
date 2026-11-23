@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-23T02:00:15.469355+00:00",
-  "atr": 12.229285714285718,
-  "price": 3589.3,
+  "updated_at": "2026-11-23T02:14:57.471425+00:00",
+  "atr": 12.291428571428598,
+  "price": 3583.71,
   "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3601.10 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3592.97, ATR 12.23, day range 3568.32-3630.65.",
-    "DXY 103.76 (-0.09% today, down), gold-dollar corr -0.02.",
-    "WTI 83.36 (+0.60% today, up), gold-oil corr -0.10.",
-    "Headlines: dollar +0.59, oil -1.00.",
+    "Gold 3585.40 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3592.97, ATR 12.29, day range 3568.32-3630.65.",
+    "DXY 103.74 (-0.10% today, down), gold-dollar corr -0.06.",
+    "WTI 83.28 (+0.48% today, up), gold-oil corr -0.26.",
+    "Headlines: dollar +1.00, oil -1.00.",
     "Dollar: Commodity Corner: Crude oil slips on supply concerns; gold rebounds as Fed rate hike bets ease - Moneycontrol.com",
     "Oil: Commodity Corner: Crude oil slips on supply concerns; gold rebounds as Fed rate hike bets ease - Moneycontrol.com",
     "No high-impact US release in the next 24 hours."
@@ -37,5 +37,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-23T02:13:21.860291+00:00"
+  "last_check": "2026-11-23T02:28:05.495274+00:00"
 }
