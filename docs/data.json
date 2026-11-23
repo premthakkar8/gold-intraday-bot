@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-23 07:37 UTC",
+  "updated": "2026-11-23 07:51 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3626.74,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.11). Take an entry only if price reaches it.",
+  "price": 3624.61,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3570.62,
-      "sl": 3565.62,
-      "tp1": 3584.87,
+      "entry_high": 3570.8,
+      "sl": 3565.8,
+      "tp1": 3584.61,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.11,
+      "score": 0.4,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T07:37:23.741323+00:00"
+      "checked_at": "2026-11-23T07:51:57.507748+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3634.73,
+      "entry_low": 3634.55,
       "entry_high": 3637.03,
-      "sl": 3639.73,
-      "tp1": 3620.48,
+      "sl": 3639.55,
+      "tp1": 3620.74,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-23T07:22:45.106999+00:00",
-      "checked_at": "2026-11-23T07:37:23.741323+00:00"
+      "checked_at": "2026-11-23T07:51:57.507748+00:00"
     }
   ],
   "active": [
@@ -72,34 +72,33 @@
     "structure": "up",
     "htf": "sideways",
     "session": "london",
-    "vwap": 3604.243893016182,
-    "atr": 4.9135714285714585,
+    "vwap": 3604.789768410801,
+    "atr": 4.590000000000016,
     "day_low": 3568.32,
     "day_high": 3637.03,
-    "range_pos": 0.8502401397176479
+    "range_pos": 0.8192402852568758
   },
   "dxy": {
     "ok": true,
-    "last": 103.5979995727539,
-    "pct": -0.24169655272935864,
+    "last": 103.61699676513672,
+    "pct": -0.2234034612586117,
     "state": "down",
-    "corr": 0.2314950030303354
+    "corr": -0.028350867740384905
   },
   "oil": {
     "ok": true,
-    "last": 82.91999816894531,
-    "pct": 0.07240834920565352,
+    "last": 82.94999694824219,
+    "pct": 0.08445909404434973,
     "state": "flat",
-    "corr": 0.5011689320513858
+    "corr": 0.37279522527243414
   },
   "news": {
     "usd": 1.0,
-    "oil": -0.1686724672440933,
+    "oil": -0.16814244491068164,
     "shock": true,
     "usd_headlines": [
-      "Crypto Market Analysis Today (November 23, 2026): Bitcoin Retests Power Law Support as the US Dollar Strengthens - Pintu",
-      "Sri Lanka rupee at 332.45/60 to US dollar spot, bond yields rise - EconomyNext",
-      "Gold Falls as Hawkish Fed Expectations Lift the Dollar and U.S. Treasury Yields By Kedia Advisory - Investing.com India"
+      "Commodity Corner: Crude oil slips on supply concerns; gold rebounds as Fed rate hike bets ease - Moneycontrol.com",
+      "WTI and Brent Crude Oil Prices Slide as Bessent Challenges Fed's Hawkish Rate Expectations - FXLeaders"
     ],
     "oil_headlines": [
       "Crude oil rises marginally as AI selloff weighs on markets, Gulf attacks support prices; Brent at $90, WTI at $83- Moneycontrol.com - LinkedIn",
@@ -134,26 +133,26 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5381063962589275,
-      "trust": 0.9609042790337992
+      "score": 0.5381063962589276,
+      "trust": 0.9609042790337993
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.10784823375490966,
+      "score": 0.4048000000000001,
       "trust": 1.0
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.10340212344168019,
-      "trust": 0.8933352715153868
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "long",
+      "score": 0.09941037934698962,
+      "trust": 0.8934847069193432
     },
     {
       "style": "Trade the oil shock",
