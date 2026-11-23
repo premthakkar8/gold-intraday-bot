@@ -1,82 +1,82 @@
 {
-  "updated": "2026-11-23 09:20 UTC",
+  "updated": "2026-11-23 09:34 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3623.26,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.07). Take an entry only if price reaches it.",
+  "price": 3614.8,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.18). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3570.81,
-      "sl": 3565.81,
-      "tp1": 3584.58,
+      "entry_high": 3570.62,
+      "sl": 3565.62,
+      "tp1": 3584.88,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.07,
-      "style": "dollar_lead",
-      "favored": false,
+      "score": 0.18,
+      "style": "trend_align",
+      "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T09:20:16.019933+00:00"
+      "checked_at": "2026-11-23T09:34:53.719292+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3634.54,
+      "entry_low": 3634.73,
       "entry_high": 3637.03,
-      "sl": 3639.54,
-      "tp1": 3620.77,
+      "sl": 3639.73,
+      "tp1": 3620.47,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
       "style": "range_fade",
-      "favored": true,
+      "favored": false,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T07:22:45.106999+00:00",
-      "checked_at": "2026-11-23T09:20:16.019933+00:00"
+      "checked_at": "2026-11-23T09:34:53.719292+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "sideways",
     "session": "london",
-    "vwap": 3605.8196270692906,
-    "atr": 4.558571428571407,
+    "vwap": 3606.1203031367872,
+    "atr": 4.915714285714265,
     "day_low": 3568.32,
     "day_high": 3637.03,
-    "range_pos": 0.7995924901761028
+    "range_pos": 0.676466307669917
   },
   "dxy": {
     "ok": true,
-    "last": 103.7490005493164,
-    "pct": -0.09629218871770277,
+    "last": 103.73799896240234,
+    "pct": -0.10688601919995862,
     "state": "down",
-    "corr": -0.083830629784878
+    "corr": -0.08435920166205323
   },
   "oil": {
     "ok": true,
-    "last": 82.93000030517578,
-    "pct": 0.06033186946775673,
+    "last": 82.76000213623047,
+    "pct": -0.14478175816125693,
     "state": "flat",
-    "corr": -0.029034550861034118
+    "corr": -0.027238104515949223
   },
   "news": {
-    "usd": 0.46081790913695764,
-    "oil": -0.344920577847816,
+    "usd": 0.6208494406075393,
+    "oil": -0.34513078481008774,
     "shock": true,
     "usd_headlines": [
-      "Treasury Yields Fall, German Bunds\u2019 Tick Higher - WSJ",
       "Sri Lanka rupee at 332.45/60 to US dollar spot, bond yields rise - EconomyNext",
-      "Crypto Market Analysis Today (November 23, 2026): Bitcoin Retests Power Law Support as the US Dollar Strengthens - Pintu"
+      "Crypto Market Analysis Today (November 23, 2026): Bitcoin Retests Power Law Support as the US Dollar Strengthens - Pintu",
+      "EUR/USD edges higher as Treasury yields fall, but dollar trend keeps euro under pressure - VT Markets"
     ],
     "oil_headlines": [
       "Brent Oil Falls 0.5% as Middle East Supply Risks Persist - grafa.com",
@@ -111,17 +111,23 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.38277074039228093,
-      "trust": 0.6835191792719302
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.10563880254696895,
-      "trust": 1.0563880254696894
+      "score": 0.35731281826168,
+      "trust": 0.6380586040387142
     },
     {
       "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.18400000000000002,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "long",
+      "score": 0.11107473885146256,
+      "trust": 0.8945350368464564
+    },
+    {
+      "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
@@ -129,21 +135,15 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09138028795999548,
-      "trust": 1.1422535994999434
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.06637547493953529,
-      "trust": 1.0413825950137114
+      "score": 0.08,
+      "trust": 1.0
     }
   ],
   "record": {
-    "graded": 221,
+    "graded": 222,
     "wins": 57,
-    "losses": 119,
+    "losses": 120,
     "scratches": 45,
-    "avg_r": -0.17824098012492848
+    "avg_r": -0.18194259733157295
   }
 }
