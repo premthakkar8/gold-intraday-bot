@@ -1,88 +1,139 @@
 {
-  "updated": "2026-11-20 20:59 UTC",
+  "updated": "2026-11-23 01:01 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3525.08,
-  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
-  "setups": [],
+  "price": 3574.4,
+  "stance": "Strategy: wait. Two approaches want opposite trades and neither has a clear lead. Take an entry only if price reaches it.",
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3568.32,
+      "entry_high": 3569.38,
+      "sl": 3564.38,
+      "tp1": 3575.0,
+      "tp2": 3585.18,
+      "rr": 1.4,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.59,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.59 (Fade the session range), price below VWAP.",
+      "created_at": "2026-11-23T01:01:27.242804+00:00",
+      "checked_at": "2026-11-23T01:01:27.242804+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3584.12,
+      "entry_high": 3585.18,
+      "sl": 3589.12,
+      "tp1": 3575.0,
+      "tp2": 3568.32,
+      "rr": 2.2,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.65,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.65 (Trade with the dollar), hawkish dollar news +1.00.",
+      "created_at": "2026-11-23T01:01:27.242804+00:00",
+      "checked_at": "2026-11-23T01:01:27.242804+00:00"
+    }
+  ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
-    "htf": "down",
-    "session": "newyork",
-    "vwap": 3554.1661115563925,
-    "atr": 9.690714285714323,
-    "day_low": 3502.91,
-    "day_high": 3626.77,
-    "range_pos": 0.17899241078637212
+    "structure": "sideways",
+    "htf": "sideways",
+    "session": "asia",
+    "vwap": 3575.0020161112525,
+    "atr": 7.159999999999984,
+    "day_low": 3568.32,
+    "day_high": 3585.18,
+    "range_pos": 0.3606168446026124
   },
   "dxy": {
     "ok": true,
-    "last": 103.87200164794922,
-    "pct": -0.013476251613294589,
+    "last": 103.77799987792969,
+    "pct": -0.06836767438826138,
     "state": "flat",
-    "corr": -0.43918372187116567
+    "corr": -0.12582266238815562
   },
   "oil": {
     "ok": true,
-    "last": 84.02999877929688,
-    "pct": 1.5222933276946295,
-    "state": "up",
-    "corr": 0.2092131833985825
+    "last": 82.87000274658203,
+    "pct": -0.012059009612871732,
+    "state": "flat",
+    "corr": -0.30441375478051375
   },
   "news": {
-    "usd": 0.43917940665542826,
-    "oil": 0.041609267176303415,
-    "shock": true,
+    "usd": 1.0,
+    "oil": 0.0,
+    "shock": false,
     "usd_headlines": [
-      "US Dollar Weekly Forecast: DXY eyes 104.00 amid hawkish Fed - FXStreet",
-      "Fed\u2019s Paulson Argues for Deliberate Rate Hikes to Tame Inflation - Bloomberg.com",
-      "Gold declines as strong US dollar and rate hike expectations challenge appeal - Traders Union"
+      "WTI and Brent Crude Oil Prices Slide as Bessent Challenges Fed's Hawkish Rate Expectations - FXLeaders"
     ],
     "oil_headlines": [
-      "Mars Crude Slips to Discount Against WTI - Wisevoter",
-      "Oil Prices Today, November 20, 2026: Brent Crude Rises 0.3% to $92.2 But Stays On Course For Weekly Decline - HDFC Sky",
-      "Oil prices rise on Houthi attacks on Riyadh, supply disruption concerns - Business Standard"
+      "WTI crude oil prices may trend lower - The Business Times",
+      "WTI and Brent Crude Oil Prices Slide as Bessent Challenges Fed's Hawkish Rate Expectations - FXLeaders"
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "title": "Flash Manufacturing PMI",
+      "when": "Mon 14:45 UTC",
+      "impact": "Medium",
+      "forecast": "54.5",
+      "previous": "56.0"
+    },
+    {
+      "title": "Flash Services PMI",
+      "when": "Mon 14:45 UTC",
+      "impact": "Medium",
+      "forecast": "55.6",
+      "previous": "57.9"
+    }
+  ],
   "scorecard": [
     {
-      "style": "Trade the oil shock",
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.6454631444914494,
+      "trust": 0.9300113363891853
+    },
+    {
+      "style": "Fade the session range",
       "bias": "long",
-      "score": 0.5420594929831458,
-      "trust": 0.9323637710699768
+      "score": 0.5933152143638198,
+      "trust": 1.149750205375134
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.39172214716010484,
-      "trust": 0.6995038342144728
+      "score": 0.22717297978367618,
+      "trust": 0.7099155618239881
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.3235669492150064,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.18116212825463626,
-      "trust": 1.0
-    },
-    {
-      "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.09630559059991711,
+      "trust": 0.963055905999171
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.07907232743024023,
+      "trust": 0.9884040928780028
     }
   ],
   "record": {
-    "graded": 208,
-    "wins": 55,
+    "graded": 209,
+    "wins": 56,
     "losses": 109,
     "scratches": 44,
-    "avg_r": -0.15091950292119805
+    "avg_r": -0.1454127110411923
   }
 }

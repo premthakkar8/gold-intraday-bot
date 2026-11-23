@@ -1486,3 +1486,7 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-20 20:45 UTC  live: gold 3508.94 | holding long range_fade da41156c | new read flat stand_aside not opened
 2026-11-20 20:49 UTC  live: BUY TP hit
 2026-11-20 20:59 UTC  live: gold 3525.08 | graded: da41156c long range_fade -> win (+4.00R) target hit | opened stand aside cfb9dcb1
+2026-11-23 01:01 UTC  live: gold 3574.40 | graded: cfb9dcb1 stand aside -> win (+1.00R) | opened stand aside bdb9055c
+2026-11-23 01:02 UTC  live: BUY entry reached at 3578.03
+2026-11-23 01:02 UTC  live: BUY TP hit
+2026-11-23 01:05 UTC  live: SELL now invalid: Price 3593.17 broke above the SL 3589.12 before the entry triggered.
