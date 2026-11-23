@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-23T14:13:37.360005+00:00",
-  "atr": 10.851428571428512,
-  "price": 3685.8,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.46). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-23T14:28:17.021768+00:00",
+  "atr": 11.988571428571342,
+  "price": 3662.91,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.36). Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3661.24 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3611.46, ATR 10.85, day range 3568.32-3665.88.",
-    "DXY 104.13 (+0.27% today, up), gold-dollar corr -0.29.",
-    "WTI 82.01 (-1.03% today, down), gold-oil corr +0.67.",
-    "Headlines: dollar +0.66, oil -0.79, fresh shock.",
+    "Gold 3684.93 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3612.99, ATR 11.99, day range 3568.32-3686.42.",
+    "DXY 104.10 (+0.24% today, up), gold-dollar corr -0.35.",
+    "WTI 82.10 (-0.94% today, down), gold-oil corr +0.66.",
+    "Headlines: dollar +0.65, oil -0.30, fresh shock.",
     "Dollar: U.S. Treasury Yields Rise, European Bond Yields Edge Lower - WSJ",
-    "Oil: Oil Prices Today: Brent Crude Falls to $91.11, WTI Drops 1.51% to $82.15 - Arbiterz",
+    "Oil: Crude oil remains under pressure as demand concerns continue to weigh despite high US-Iran tensions - investingLive",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -37,5 +37,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-23T14:26:44.890410+00:00"
+  "last_check": "2026-11-23T14:41:37.786395+00:00"
 }
