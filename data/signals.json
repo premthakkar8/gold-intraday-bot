@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-23T15:56:40.133399+00:00",
-  "atr": 8.04500000000004,
-  "price": 3667.83,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.45). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-23T16:11:20.189209+00:00",
+  "atr": 7.545714285714309,
+  "price": 3672.05,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3568.9,
-      "sl": 3563.9,
-      "tp1": 3587.46,
+      "entry_high": 3569.17,
+      "sl": 3564.17,
+      "tp1": 3587.05,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,35 +19,35 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.43% with hawkish news (+0.57) and gold is moving against it (corr -0.35). Buying fights the dollar.",
+      "reason": "Dollar is up +0.55% with hawkish news (+0.59) and gold is moving against it (corr -0.34). Buying fights the dollar.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T16:09:46.811328+00:00"
+      "checked_at": "2026-11-23T16:24:27.003899+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3689.08,
+      "entry_low": 3688.81,
       "entry_high": 3689.66,
-      "sl": 3694.08,
-      "tp1": 3670.52,
+      "sl": 3693.81,
+      "tp1": 3670.93,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.45,
+      "score": 0.54,
       "style": "oil_shock",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.45 (Trade the oil shock), dollar firmer +0.43%, hawkish dollar news +0.57, price above VWAP.",
+      "reason": "Score 0.54 (Trade the oil shock), dollar firmer +0.55%, hawkish dollar news +0.59, price above VWAP.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T16:09:46.811328+00:00"
+      "checked_at": "2026-11-23T16:24:27.003899+00:00"
     }
   ],
   "research": [
-    "Gold 3667.98 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3620.28, ATR 8.05, day range 3568.32-3689.66.",
-    "DXY 104.29 (+0.43% today, up), gold-dollar corr -0.35.",
-    "WTI 80.44 (-2.94% today, down), gold-oil corr +0.56.",
-    "Headlines: dollar +0.57, oil -0.81, fresh shock.",
+    "Gold 3667.19 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 3621.22, ATR 7.55, day range 3568.32-3689.66.",
+    "DXY 104.42 (+0.55% today, up), gold-dollar corr -0.34.",
+    "WTI 80.01 (-3.46% today, down), gold-oil corr +0.57.",
+    "Headlines: dollar +0.59, oil -0.81, fresh shock.",
     "Dollar: Canadian Dollar weakens as Nvidia rally lifts the US Dollar - FXStreet",
     "Oil: Oil Prices Today: Brent Crude Falls to $91.11, WTI Drops 1.51% to $82.15 - Arbiterz",
     "No high-impact US release in the next 24 hours."
@@ -76,5 +76,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-23T16:09:46.811328+00:00"
+  "last_check": "2026-11-23T16:24:27.003899+00:00"
 }
