@@ -1495,3 +1495,11 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-23 01:45 UTC  live: gold 3610.51 | holding flat stand_aside 33339518 | new read flat stand_aside not opened
 2026-11-23 02:00 UTC  live: gold 3601.10 | holding flat stand_aside 33339518 | new read flat stand_aside not opened
 2026-11-23 02:15 UTC  live: gold 3585.40 | holding flat stand_aside 33339518 | new read flat stand_aside not opened
+2026-11-23 02:29 UTC  live: gold 3583.60 | opened long trend_align 30df153a zone 3568.32-3568.60 stop 3563.60 target 3587.90 units 1 risk 5.00 USD tier normal conf 0.51
+2026-11-23 02:30 UTC  live: SELL now far: Price is 51.69 away from the entry (6.0 ATR). Unlikely to fill soon.
+2026-11-23 02:31 UTC  live: SELL valid again
+2026-11-23 02:33 UTC  live: SELL now far: Price is 52.12 away from the entry (6.1 ATR). Unlikely to fill soon.
+2026-11-23 02:34 UTC  live: SELL valid again
+2026-11-23 02:36 UTC  live: SELL now far: Price is 51.94 away from the entry (6.1 ATR). Unlikely to fill soon.
+2026-11-23 02:40 UTC  live: SELL valid again
+2026-11-23 02:42 UTC  live: SELL now far: Price is 52.28 away from the entry (6.1 ATR). Unlikely to fill soon.

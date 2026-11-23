@@ -1,15 +1,54 @@
 {
-  "updated_at": "2026-11-23T02:14:57.471425+00:00",
-  "atr": 12.291428571428598,
-  "price": 3583.71,
-  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
-  "setups": [],
+  "updated_at": "2026-11-23T02:29:32.388454+00:00",
+  "atr": 8.576428571428616,
+  "price": 3578.09,
+  "stance": "Strategy: BUY is the trade (Trade with the intraday trend, confidence 51%).",
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3568.32,
+      "entry_high": 3568.6,
+      "sl": 3563.6,
+      "tp1": 3587.9,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.51,
+      "style": "trend_align",
+      "favored": true,
+      "ready": true,
+      "status": "valid",
+      "reason": "Score 0.51 (Trade with the intraday trend), dollar softer -0.10%, price below VWAP.",
+      "created_at": "2026-11-23T02:29:32.388454+00:00",
+      "checked_at": "2026-11-23T02:42:39.309834+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3630.37,
+      "entry_high": 3630.65,
+      "sl": 3635.37,
+      "tp1": 3611.07,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "far",
+      "reason": "Price is 52.28 away from the entry (6.1 ATR). Unlikely to fill soon.",
+      "created_at": "2026-11-23T02:29:32.388454+00:00",
+      "checked_at": "2026-11-23T02:42:39.309834+00:00"
+    }
+  ],
   "research": [
-    "Gold 3585.40 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3592.97, ATR 12.29, day range 3568.32-3630.65.",
-    "DXY 103.74 (-0.10% today, down), gold-dollar corr -0.06.",
-    "WTI 83.28 (+0.48% today, up), gold-oil corr -0.26.",
+    "Gold 3583.60 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3592.31, ATR 8.58, day range 3568.32-3630.65.",
+    "DXY 103.74 (-0.10% today, down), gold-dollar corr -0.07.",
+    "WTI 83.15 (+0.33% today, flat), gold-oil corr -0.24.",
     "Headlines: dollar +1.00, oil -1.00.",
-    "Dollar: Commodity Corner: Crude oil slips on supply concerns; gold rebounds as Fed rate hike bets ease - Moneycontrol.com",
+    "Dollar: Gold Rebounds From 14-Month Low As Fed Rate Hike Bets Ease - BusinessToday Malaysia",
     "Oil: Commodity Corner: Crude oil slips on supply concerns; gold rebounds as Fed rate hike bets ease - Moneycontrol.com",
     "No high-impact US release in the next 24 hours."
   ],
@@ -37,5 +76,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-23T02:28:05.495274+00:00"
+  "last_check": "2026-11-23T02:42:39.309834+00:00"
 }
