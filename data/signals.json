@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-23T20:35:38.981835+00:00",
-  "atr": 4.27071428571425,
-  "price": 3636.31,
+  "updated_at": "2026-11-23T20:50:23.109878+00:00",
+  "atr": 3.869285714285752,
+  "price": 3636.15,
   "stance": "Strategy: the SELL plan from 18:53 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3570.97,
-      "sl": 3565.97,
-      "tp1": 3584.34,
+      "entry_high": 3571.19,
+      "sl": 3566.19,
+      "tp1": 3584.01,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -18,40 +18,40 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "invalid",
-      "reason": "Dollar is up +0.47% with hawkish news (+0.52) and gold is moving against it (corr -0.53). Buying fights the dollar.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T20:48:48.973874+00:00"
+      "checked_at": "2026-11-23T20:59:29.161863+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3687.01,
+      "entry_low": 3686.79,
       "entry_high": 3689.66,
-      "sl": 3692.01,
-      "tp1": 3673.64,
+      "sl": 3691.79,
+      "tp1": 3673.97,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.58,
+      "score": 0.56,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T20:48:48.973874+00:00"
+      "checked_at": "2026-11-23T20:59:29.161863+00:00"
     }
   ],
   "research": [
-    "Gold 3640.87 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 3628.95, ATR 4.27, day range 3568.32-3689.66.",
-    "DXY 104.34 (+0.47% today, up), gold-dollar corr -0.53.",
-    "WTI 80.02 (-3.43% today, down), gold-oil corr -0.30.",
-    "Headlines: dollar +0.52, oil -0.83, fresh shock.",
-    "Dollar: Treasury Yields Rise as Huang Returns as CEO, European Bond Yields Slip - WSJ",
+    "Gold 3634.33 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3629.06, ATR 3.87, day range 3568.32-3689.66.",
+    "DXY 104.35 (+0.48% today, up), gold-dollar corr -0.53.",
+    "WTI 80.08 (-3.38% today, down), gold-oil corr -0.42.",
+    "Headlines: dollar +0.33, oil -0.82, fresh shock.",
+    "Dollar: Treasury Yields Fall, German Bunds\u2019 Tick Higher - WSJ",
     "Oil: Gas prices fall ahead of Thanksgiving as crude oil slides - Olean Times Herald",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [],
-  "last_check": "2026-11-23T20:48:48.973874+00:00"
+  "last_check": "2026-11-23T20:59:29.161863+00:00"
 }
