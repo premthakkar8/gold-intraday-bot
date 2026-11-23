@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-23 16:55 UTC",
+  "updated": "2026-11-23 17:09 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3664.85,
+  "price": 3662.8,
   "stance": "Strategy: the SELL plan from 16:40 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3570.12,
-      "sl": 3565.12,
-      "tp1": 3585.63,
+      "entry_high": 3569.62,
+      "sl": 3564.62,
+      "tp1": 3586.37,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,28 +19,28 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.57% with hawkish news (+0.53) and gold is moving against it (corr -0.35). Buying fights the dollar.",
+      "reason": "Dollar is up +0.56% with hawkish news (+0.58) and gold is moving against it (corr -0.38). Buying fights the dollar.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T16:55:11.011352+00:00"
+      "checked_at": "2026-11-23T17:09:56.790191+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3687.86,
+      "entry_low": 3688.36,
       "entry_high": 3689.66,
-      "sl": 3692.86,
-      "tp1": 3672.35,
+      "sl": 3693.36,
+      "tp1": 3671.61,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.5,
+      "score": 0.58,
       "style": "dollar_lead",
       "favored": true,
       "ready": true,
       "status": "valid",
-      "reason": "Score 0.50 (Trade with the dollar), dollar firmer +0.57%, hawkish dollar news +0.53, price above VWAP.",
+      "reason": "Score 0.58 (Trade with the dollar), dollar firmer +0.56%, hawkish dollar news +0.58, price above VWAP.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T16:55:11.011352+00:00"
+      "checked_at": "2026-11-23T17:09:56.790191+00:00"
     }
   ],
   "active": [],
@@ -48,35 +48,35 @@
   "chart": {
     "structure": "sideways",
     "htf": "up",
-    "session": "overlap",
-    "vwap": 3623.680907137068,
-    "atr": 5.824999999999981,
+    "session": "newyork",
+    "vwap": 3624.3597613439088,
+    "atr": 6.7214285714285325,
     "day_low": 3568.32,
     "day_high": 3689.66,
-    "range_pos": 0.7955332124608537
+    "range_pos": 0.778638536344159
   },
   "dxy": {
     "ok": true,
-    "last": 104.43900299072266,
-    "pct": 0.5681364026936834,
+    "last": 104.43099975585938,
+    "pct": 0.5604297950821118,
     "state": "up",
-    "corr": -0.3496493334488403
+    "corr": -0.381621057756816
   },
   "oil": {
     "ok": true,
-    "last": 80.37000274658203,
-    "pct": -3.028468375983718,
+    "last": 80.33999633789062,
+    "pct": -3.0646730208748822,
     "state": "down",
-    "corr": 0.5610189537295753
+    "corr": 0.5589919400861665
   },
   "news": {
-    "usd": 0.5250453820812396,
-    "oil": -0.8408833943987637,
+    "usd": 0.5821194291593743,
+    "oil": -0.838880883802659,
     "shock": false,
     "usd_headlines": [
-      "Treasury Yields Rise as Huang Returns as CEO, European Bond Yields Slip -- Update - www.marketscreener.com",
-      "New Zealand Dollar slides to 2009 lows as US Dollar index surges - FXStreet",
-      "Canadian Dollar weakens as Nvidia rally lifts the US Dollar - FXStreet"
+      "Treasury Yields Rise as Huang Returns as CEO, European Bond Yields Slip - WSJ",
+      "Canadian Dollar weakens as Nvidia rally lifts the US Dollar - FXStreet",
+      "U.S. Treasury yields rise as Nvidia's board reinstates Jensen Huang as CEO - Quartz"
     ],
     "oil_headlines": [
       "Crude Oil Falls as Middle East Supply Rises While Geopolitical Risks Persist - kalkine.ca",
@@ -97,26 +97,26 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5039859255891287,
-      "trust": 0.7025306941234553
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "short",
-      "score": 0.42758887935502743,
-      "trust": 1.1266794691370308
+      "score": 0.5768226924902673,
+      "trust": 0.7794993356702818
     },
     {
       "style": "Trade the oil shock",
       "bias": "short",
-      "score": 0.4086321892355994,
-      "trust": 0.7475361363476797
+      "score": 0.5264431745935955,
+      "trust": 0.9655374987187464
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "short",
+      "score": 0.4215505477724356,
+      "trust": 1.1483951382293605
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.18367304057119865,
-      "trust": 0.834877457141812
+      "score": 0.19191824120318146,
+      "trust": 0.872355641832643
     },
     {
       "style": "Trade with the intraday trend",
