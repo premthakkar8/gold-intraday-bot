@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-23 01:45 UTC",
+  "updated": "2026-11-23 02:00 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3610.51,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.30). Take an entry only if price reaches it.",
+  "price": 3601.1,
+  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
   "blackout": null,
@@ -10,38 +10,37 @@
     "structure": "up",
     "htf": "down",
     "session": "asia",
-    "vwap": 3591.3359408415,
-    "atr": 12.365714285714278,
+    "vwap": 3592.966571584288,
+    "atr": 12.229285714285718,
     "day_low": 3568.32,
     "day_high": 3630.65,
-    "range_pos": 0.676881116637255
+    "range_pos": 0.5259104764960658
   },
   "dxy": {
     "ok": true,
-    "last": 103.76699829101562,
-    "pct": -0.07896150487051724,
-    "state": "flat",
-    "corr": -0.09985841627702148
+    "last": 103.75700378417969,
+    "pct": -0.08858558110613109,
+    "state": "down",
+    "corr": -0.01710715471445768
   },
   "oil": {
     "ok": true,
-    "last": 83.1500015258789,
-    "pct": 0.34998903378129403,
-    "state": "flat",
-    "corr": -0.11700723485661607
+    "last": 83.36000061035156,
+    "pct": 0.6034274635734626,
+    "state": "up",
+    "corr": -0.10161606441687393
   },
   "news": {
-    "usd": 0.4837513942708427,
-    "oil": 0.0,
+    "usd": 0.5921514953672581,
+    "oil": -1.0,
     "shock": false,
     "usd_headlines": [
+      "Commodity Corner: Crude oil slips on supply concerns; gold rebounds as Fed rate hike bets ease - Moneycontrol.com",
       "Ringgit Opens Higher On Stronger Trade Performance, US Dollar Gains Limit Upside - BusinessToday Malaysia",
-      "Treasury Yields Fall, German Bunds\u2019 Tick Higher - WSJ",
-      "WTI and Brent Crude Oil Prices Slide as Bessent Challenges Fed's Hawkish Rate Expectations - FXLeaders"
+      "Treasury Yields Fall, German Bunds\u2019 Tick Higher - WSJ"
     ],
     "oil_headlines": [
-      "WTI and Brent Crude Oil Prices Slide as Bessent Challenges Fed's Hawkish Rate Expectations - FXLeaders",
-      "WTI crude oil prices may trend lower - The Business Times"
+      "Commodity Corner: Crude oil slips on supply concerns; gold rebounds as Fed rate hike bets ease - Moneycontrol.com"
     ]
   },
   "events": [
@@ -62,34 +61,34 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.304121969397537,
-      "trust": 0.8704398199317311
-    },
-    {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.2597275450833416,
-      "trust": 0.8820533483369029
+      "score": 0.5303885183480279,
+      "trust": 0.8869373216522205
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.2435901386915933,
-      "trust": 0.7164415843870392
+      "score": 0.36352659657155617,
+      "trust": 1.069195872269283
     },
     {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.0962371148136077,
-      "trust": 0.9623711481360768
+      "style": "Trade with the dollar",
+      "bias": "long",
+      "score": 0.12069491307088864,
+      "trust": 0.9436175467075707
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07997719059572157,
-      "trust": 0.9997148824465196
+      "score": 0.11995444581294346,
+      "trust": 0.9996203817745288
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
     }
   ],
   "record": {

@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-23T01:45:31.984383+00:00",
-  "atr": 12.365714285714278,
-  "price": 3603.67,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.30). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-23T02:00:15.469355+00:00",
+  "atr": 12.229285714285718,
+  "price": 3589.3,
+  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3610.51 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3591.34, ATR 12.37, day range 3568.32-3630.65.",
-    "DXY 103.77 (-0.08% today, flat), gold-dollar corr -0.10.",
-    "WTI 83.15 (+0.35% today, flat), gold-oil corr -0.12.",
-    "Headlines: dollar +0.48, oil +0.00.",
-    "Dollar: Ringgit Opens Higher On Stronger Trade Performance, US Dollar Gains Limit Upside - BusinessToday Malaysia",
-    "Oil: WTI and Brent Crude Oil Prices Slide as Bessent Challenges Fed's Hawkish Rate Expectations - FXLeaders",
+    "Gold 3601.10 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3592.97, ATR 12.23, day range 3568.32-3630.65.",
+    "DXY 103.76 (-0.09% today, down), gold-dollar corr -0.02.",
+    "WTI 83.36 (+0.60% today, up), gold-oil corr -0.10.",
+    "Headlines: dollar +0.59, oil -1.00.",
+    "Dollar: Commodity Corner: Crude oil slips on supply concerns; gold rebounds as Fed rate hike bets ease - Moneycontrol.com",
+    "Oil: Commodity Corner: Crude oil slips on supply concerns; gold rebounds as Fed rate hike bets ease - Moneycontrol.com",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -37,5 +37,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-23T01:58:41.264891+00:00"
+  "last_check": "2026-11-23T02:13:21.860291+00:00"
 }
