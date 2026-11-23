@@ -1,15 +1,16 @@
 {
-  "updated_at": "2026-11-23T01:16:10.063953+00:00",
-  "atr": 10.0414285714285,
-  "price": 3614.05,
+  "updated_at": "2026-11-23T01:30:47.099372+00:00",
+  "atr": 11.340714285714284,
+  "price": 3612.48,
   "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3615.45 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3581.09, ATR 10.04, day range 3568.32-3622.00.",
-    "DXY 103.78 (-0.07% today, flat), gold-dollar corr -0.12.",
-    "WTI 83.13 (+0.30% today, flat), gold-oil corr -0.24.",
-    "Headlines: dollar -0.05, oil +0.00.",
+    "Gold 3614.91 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3587.89, ATR 11.34, day range 3568.32-3630.65.",
+    "DXY 103.75 (-0.10% today, down), gold-dollar corr -0.11.",
+    "WTI 83.23 (+0.42% today, up), gold-oil corr -0.15.",
+    "Headlines: dollar +0.30, oil +1.00.",
     "Dollar: Treasury Yields Fall, German Bunds\u2019 Tick Higher - WSJ",
+    "Oil: Goldman Lowers Oil Price Forecasts on Deal to Reopen Strait of Hormuz - EnergyNow.com",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -36,5 +37,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-23T01:29:16.225930+00:00"
+  "last_check": "2026-11-23T01:43:52.868730+00:00"
 }

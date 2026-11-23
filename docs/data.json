@@ -1,44 +1,47 @@
 {
-  "updated": "2026-11-23 01:16 UTC",
+  "updated": "2026-11-23 01:30 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3615.45,
+  "price": 3614.91,
   "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "down",
     "session": "asia",
-    "vwap": 3581.0881260904966,
-    "atr": 10.0414285714285,
+    "vwap": 3587.8940982866266,
+    "atr": 11.340714285714284,
     "day_low": 3568.32,
-    "day_high": 3622.0,
-    "range_pos": 0.8779806259314419
+    "day_high": 3630.65,
+    "range_pos": 0.747473126905178
   },
   "dxy": {
     "ok": true,
-    "last": 103.7750015258789,
-    "pct": -0.07125489725894554,
-    "state": "flat",
-    "corr": -0.11680137125072067
+    "last": 103.74700164794922,
+    "pct": -0.09821700396482555,
+    "state": "down",
+    "corr": -0.10939445274815636
   },
   "oil": {
     "ok": true,
-    "last": 83.12999725341797,
-    "pct": 0.3016409366370847,
-    "state": "flat",
-    "corr": -0.23571136507535084
+    "last": 83.2300033569336,
+    "pct": 0.4223046755725981,
+    "state": "up",
+    "corr": -0.15078822249133647
   },
   "news": {
-    "usd": -0.045617612784329895,
-    "oil": 0.0,
+    "usd": 0.3016355635120276,
+    "oil": 1.0,
     "shock": false,
     "usd_headlines": [
       "Treasury Yields Fall, German Bunds\u2019 Tick Higher - WSJ",
+      "WTI and Brent Crude Oil Prices Slide as Bessent Challenges Fed's Hawkish Rate Expectations - FXLeaders",
       "NEAR rises as Federal Reserve's hawkish tone weighs on non-yielding crypto demand - Traders Union"
     ],
-    "oil_headlines": []
+    "oil_headlines": [
+      "Goldman Lowers Oil Price Forecasts on Deal to Reopen Strait of Hormuz - EnergyNow.com"
+    ]
   },
   "events": [
     {
@@ -58,34 +61,34 @@
   ],
   "scorecard": [
     {
-      "style": "Fade the session range",
-      "bias": "short",
-      "score": 0.780569668852279,
-      "trust": 1.174512039876335
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.631699781960573,
+      "trust": 1.1485450581101326
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.5761397521402261,
+      "trust": 0.9634444015722842
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.15519485836182184,
-      "trust": 0.7054311743719175
+      "score": 0.31524418681416316,
+      "trust": 0.9271887847475389
     },
     {
       "style": "Trade with the dollar",
-      "bias": "flat",
-      "score": 0.1143341172117308,
-      "trust": 0.9527843100977567
+      "bias": "long",
+      "score": 0.1958484895323207,
+      "trust": 0.9573803628235024
     },
     {
-      "style": "Trade with the intraday trend",
+      "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.0963108200005152,
-      "trust": 0.963108200005152
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.07907364054174623,
-      "trust": 0.9884205067718278
+      "score": 0.1,
+      "trust": 1.0
     }
   ],
   "record": {
