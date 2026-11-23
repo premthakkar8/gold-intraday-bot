@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-23T08:06:32.099084+00:00",
-  "atr": 5.417142857142835,
-  "price": 3601.73,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.25). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-23T08:21:26.951346+00:00",
+  "atr": 4.815714285714226,
+  "price": 3611.4,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.24). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3570.34,
-      "sl": 3565.34,
-      "tp1": 3585.29,
+      "entry_high": 3570.67,
+      "sl": 3565.67,
+      "tp1": 3584.79,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.25,
+      "score": 0.24,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T08:19:38.106449+00:00"
+      "checked_at": "2026-11-23T08:34:36.440534+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3635.01,
+      "entry_low": 3634.68,
       "entry_high": 3637.03,
-      "sl": 3640.01,
-      "tp1": 3620.06,
+      "sl": 3639.68,
+      "tp1": 3620.56,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -37,18 +37,18 @@
       "style": "range_fade",
       "favored": true,
       "ready": false,
-      "status": "far",
-      "reason": "Price is 33.22 away from the entry (6.1 ATR). Unlikely to fill soon.",
+      "status": "valid",
+      "reason": "Price 3606.05 is back within reach of the entry.",
       "created_at": "2026-11-23T07:22:45.106999+00:00",
-      "checked_at": "2026-11-23T08:19:38.106449+00:00"
+      "checked_at": "2026-11-23T08:34:36.440534+00:00"
     }
   ],
   "research": [
-    "Gold 3608.33 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3605.17, ATR 5.42, day range 3568.32-3637.03.",
-    "DXY 103.64 (-0.21% today, down), gold-dollar corr -0.27.",
-    "WTI 83.02 (+0.17% today, flat), gold-oil corr +0.05.",
-    "Headlines: dollar +0.63, oil -0.17, fresh shock.",
-    "Dollar: Crypto Market Analysis Today (November 23, 2026): Bitcoin Retests Power Law Support as the US Dollar Strengthens - Pintu",
+    "Gold 3602.71 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3605.14, ATR 4.82, day range 3568.32-3637.03.",
+    "DXY 103.67 (-0.17% today, down), gold-dollar corr -0.36.",
+    "WTI 83.13 (+0.33% today, flat), gold-oil corr -0.06.",
+    "Headlines: dollar +0.80, oil -0.17, fresh shock.",
+    "Dollar: Sri Lanka rupee at 332.45/60 to US dollar spot, bond yields rise - EconomyNext",
     "Oil: Crude oil rises marginally as AI selloff weighs on markets, Gulf attacks support prices; Brent at $90, WTI at $83- Moneycontrol.com - LinkedIn",
     "No high-impact US release in the next 24 hours."
   ],
@@ -98,5 +98,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-23T08:19:38.106449+00:00"
+  "last_check": "2026-11-23T08:34:36.440534+00:00"
 }
