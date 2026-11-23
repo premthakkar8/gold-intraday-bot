@@ -1,43 +1,82 @@
 {
-  "updated": "2026-11-23 15:27 UTC",
+  "updated": "2026-11-23 15:42 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3678.06,
-  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
-  "setups": [],
+  "price": 3675.64,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.45). Take an entry only if price reaches it.",
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3568.32,
+      "entry_high": 3568.36,
+      "sl": 3563.36,
+      "tp1": 3588.26,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "invalid",
+      "reason": "Dollar is up +0.41% with hawkish news (+0.55) and gold is moving against it (corr -0.34). Buying fights the dollar.",
+      "created_at": "2026-11-23T15:42:05.250304+00:00",
+      "checked_at": "2026-11-23T15:42:05.250304+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3689.62,
+      "entry_high": 3689.66,
+      "sl": 3694.62,
+      "tp1": 3669.72,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.45,
+      "style": "oil_shock",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.45 (Trade the oil shock), dollar firmer +0.41%, hawkish dollar news +0.55, price above VWAP.",
+      "created_at": "2026-11-23T15:42:05.250304+00:00",
+      "checked_at": "2026-11-23T15:42:05.250304+00:00"
+    }
+  ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3618.0976104805445,
-    "atr": 10.582857142857165,
+    "vwap": 3619.2820547527917,
+    "atr": 9.021428571428617,
     "day_low": 3568.32,
     "day_high": 3689.66,
-    "range_pos": 0.9044008570957645
+    "range_pos": 0.8844568979726387
   },
   "dxy": {
     "ok": true,
-    "last": 104.30599975585938,
-    "pct": 0.44006272252921314,
+    "last": 104.2750015258789,
+    "pct": 0.41021339295264897,
     "state": "up",
-    "corr": -0.393620353710166
+    "corr": -0.3414795767713489
   },
   "oil": {
     "ok": true,
-    "last": 80.52999877929688,
-    "pct": -2.811974190069707,
+    "last": 80.7300033569336,
+    "pct": -2.594104690798248,
     "state": "down",
-    "corr": 0.5870148331266545
+    "corr": 0.5669417802003848
   },
   "news": {
-    "usd": 0.7768669668260996,
-    "oil": -0.7996762187399958,
+    "usd": 0.5531313919628164,
+    "oil": -0.8026219221887332,
     "shock": true,
     "usd_headlines": [
+      "Canadian Dollar weakens as Nvidia rally lifts the US Dollar - FXStreet",
       "U.S. Treasury yields rise as Nvidia's board reinstates Jensen Huang as CEO - Quartz",
-      "U.S. Treasury Yields Rise, European Bond Yields Edge Lower - WSJ",
-      "US Dollar: Fed rate hike bets support Dollar outlook - BBH - FXStreet"
+      "U.S. Treasury Yields Rise, European Bond Yields Edge Lower - WSJ"
     ],
     "oil_headlines": [
       "Oil Prices Today: Brent Crude Falls to $91.11, WTI Drops 1.51% to $82.15 - Arbiterz",
@@ -58,29 +97,29 @@
     {
       "style": "Trade the oil shock",
       "bias": "short",
-      "score": 0.5421383351308409,
-      "trust": 0.891859506353394
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.45922617717958003,
-      "trust": 0.7818540302196149
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.442568230905163,
-      "trust": 1.0
+      "score": 0.4522869320196674,
+      "trust": 0.7457532861122242
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4352103044198527,
-      "trust": 0.777161257892594
+      "score": 0.44888064101247777,
+      "trust": 0.8015725732365674
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.37944251677670343,
+      "trust": 0.7025306941234554
     },
     {
       "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.11275740546753768,
+      "trust": 1.1275740546753767
+    },
+    {
+      "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0

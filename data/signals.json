@@ -1,15 +1,54 @@
 {
-  "updated_at": "2026-11-23T15:27:02.580694+00:00",
-  "atr": 10.582857142857165,
-  "price": 3674.56,
-  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
-  "setups": [],
+  "updated_at": "2026-11-23T15:42:05.250304+00:00",
+  "atr": 9.021428571428617,
+  "price": 3667.9,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.45). Take an entry only if price reaches it.",
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3568.32,
+      "entry_high": 3568.36,
+      "sl": 3563.36,
+      "tp1": 3588.26,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "invalid",
+      "reason": "Dollar is up +0.41% with hawkish news (+0.55) and gold is moving against it (corr -0.34). Buying fights the dollar.",
+      "created_at": "2026-11-23T15:42:05.250304+00:00",
+      "checked_at": "2026-11-23T15:55:11.128094+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3689.62,
+      "entry_high": 3689.66,
+      "sl": 3694.62,
+      "tp1": 3669.72,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.45,
+      "style": "oil_shock",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.45 (Trade the oil shock), dollar firmer +0.41%, hawkish dollar news +0.55, price above VWAP.",
+      "created_at": "2026-11-23T15:42:05.250304+00:00",
+      "checked_at": "2026-11-23T15:55:11.128094+00:00"
+    }
+  ],
   "research": [
-    "Gold 3678.06 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3618.10, ATR 10.58, day range 3568.32-3689.66.",
-    "DXY 104.31 (+0.44% today, up), gold-dollar corr -0.39.",
-    "WTI 80.53 (-2.81% today, down), gold-oil corr +0.59.",
-    "Headlines: dollar +0.78, oil -0.80, fresh shock.",
-    "Dollar: U.S. Treasury yields rise as Nvidia's board reinstates Jensen Huang as CEO - Quartz",
+    "Gold 3675.64 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3619.28, ATR 9.02, day range 3568.32-3689.66.",
+    "DXY 104.28 (+0.41% today, up), gold-dollar corr -0.34.",
+    "WTI 80.73 (-2.59% today, down), gold-oil corr +0.57.",
+    "Headlines: dollar +0.55, oil -0.80, fresh shock.",
+    "Dollar: Canadian Dollar weakens as Nvidia rally lifts the US Dollar - FXStreet",
     "Oil: Oil Prices Today: Brent Crude Falls to $91.11, WTI Drops 1.51% to $82.15 - Arbiterz",
     "No high-impact US release in the next 24 hours."
   ],
@@ -37,5 +76,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-23T15:40:11.755619+00:00"
+  "last_check": "2026-11-23T15:55:11.128094+00:00"
 }
