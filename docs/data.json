@@ -1,82 +1,82 @@
 {
-  "updated": "2026-11-23 09:49 UTC",
+  "updated": "2026-11-23 10:04 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3615.38,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
+  "price": 3619.1,
+  "stance": "Strategy: SELL is the trade (Fade the session range, confidence 51%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3570.7,
-      "sl": 3565.7,
-      "tp1": 3584.75,
+      "entry_high": 3570.75,
+      "sl": 3565.75,
+      "tp1": 3584.67,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.38,
-      "style": "trend_align",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T09:49:29.812246+00:00"
+      "checked_at": "2026-11-23T10:04:05.450693+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3634.65,
+      "entry_low": 3634.6,
       "entry_high": 3637.03,
-      "sl": 3639.65,
-      "tp1": 3620.6,
+      "sl": 3639.6,
+      "tp1": 3620.68,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.4,
-      "style": "dollar_lead",
+      "score": 0.51,
+      "style": "range_fade",
       "favored": true,
-      "ready": false,
+      "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T07:22:45.106999+00:00",
-      "checked_at": "2026-11-23T09:49:29.812246+00:00"
+      "checked_at": "2026-11-23T10:04:05.450693+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
-    "htf": "sideways",
+    "structure": "sideways",
+    "htf": "up",
     "session": "london",
-    "vwap": 3606.3338544843755,
-    "atr": 4.759999999999991,
+    "vwap": 3606.536592227135,
+    "atr": 4.671428571428545,
     "day_low": 3568.32,
     "day_high": 3637.03,
-    "range_pos": 0.6849075825935078
+    "range_pos": 0.7390481734827495
   },
   "dxy": {
     "ok": true,
-    "last": 103.76799774169922,
-    "pct": -0.07799909724695585,
+    "last": 103.77200317382812,
+    "pct": -0.07414212012962969,
     "state": "flat",
-    "corr": -0.106286752940659
+    "corr": -0.11891258572949903
   },
   "oil": {
     "ok": true,
-    "last": 83.19000244140625,
-    "pct": 0.3982643357758568,
-    "state": "flat",
-    "corr": -0.034826178669980216
+    "last": 83.31999969482422,
+    "pct": 0.5308909941935409,
+    "state": "up",
+    "corr": -0.09789688908235251
   },
   "news": {
-    "usd": 0.6192954571131977,
-    "oil": -0.3453483532134811,
+    "usd": 0.493420523396071,
+    "oil": -0.3455739778635319,
     "shock": false,
     "usd_headlines": [
-      "Sri Lanka rupee at 332.45/60 to US dollar spot, bond yields rise - EconomyNext",
-      "Crypto Market Analysis Today (November 23, 2026): Bitcoin Retests Power Law Support as the US Dollar Strengthens - Pintu",
-      "EUR/USD edges higher as Treasury yields fall, but dollar trend keeps euro under pressure - VT Markets"
+      "Gold price today jumps 2.8% as Treasury yields ease: can the rally last? - Invezz",
+      "US Dollar: Hawkish Fed support keeps Greenback bid \u2013 ING - FXStreet",
+      "Sri Lanka rupee at 332.45/60 to US dollar spot, bond yields rise - EconomyNext"
     ],
     "oil_headlines": [
       "Brent Oil Falls 0.5% as Middle East Supply Risks Persist - grafa.com",
@@ -109,34 +109,34 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the dollar",
+      "style": "Fade the session range",
       "bias": "short",
-      "score": 0.40038547351580833,
-      "trust": 0.9105000195942565
+      "score": 0.5109572975435949,
+      "trust": 1.0959280137563283
     },
     {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.3768697002678468,
-      "trust": 0.9655949063429851
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.34135956015386604,
+      "trust": 0.9420902299380018
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.14890305648516244,
-      "trust": 0.4653220515161326
+      "score": 0.13670902652865252,
+      "trust": 0.6214046660393296
     },
     {
-      "style": "Fade the session range",
+      "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.10562295741500315,
-      "trust": 1.0562295741500314
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.08,
-      "trust": 1.0
+      "score": 0.07275659153544074,
+      "trust": 0.9094573941930093
     }
   ],
   "record": {
