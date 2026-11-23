@@ -1,34 +1,15 @@
 {
-  "updated": "2026-11-23 02:58 UTC",
+  "updated": "2026-11-23 03:13 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3592.1,
+  "price": 3604.59,
   "stance": "Strategy: the BUY plan from 02:29 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3569.54,
-      "sl": 3564.54,
-      "tp1": 3586.5,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.17,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.17. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T02:58:47.626414+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3629.43,
-      "entry_high": 3630.65,
-      "sl": 3634.43,
-      "tp1": 3612.47,
+      "entry_high": 3569.57,
+      "sl": 3564.57,
+      "tp1": 3586.45,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,34 +21,53 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T02:58:47.626414+00:00"
+      "checked_at": "2026-11-23T03:13:28.672470+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3629.4,
+      "entry_high": 3630.65,
+      "sl": 3634.4,
+      "tp1": 3612.52,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.62,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": true,
+      "status": "valid",
+      "reason": "Score 0.62 (Trade with the dollar), hawkish dollar news +1.00, price above VWAP.",
+      "created_at": "2026-11-23T02:29:32.388454+00:00",
+      "checked_at": "2026-11-23T03:13:28.672470+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
-    "htf": "down",
+    "htf": "sideways",
     "session": "asia",
-    "vwap": 3590.894331949669,
-    "atr": 6.881428571428581,
+    "vwap": 3591.297464507988,
+    "atr": 6.822142857142873,
     "day_low": 3568.32,
     "day_high": 3630.65,
-    "range_pos": 0.3815177282207568
+    "range_pos": 0.581902775549495
   },
   "dxy": {
     "ok": true,
-    "last": 103.73200225830078,
-    "pct": -0.11266046494132692,
-    "state": "down",
-    "corr": -0.0727901426887105
+    "last": 103.77300262451172,
+    "pct": -0.0731797125060683,
+    "state": "flat",
+    "corr": -0.041382340035212364
   },
   "oil": {
     "ok": true,
-    "last": 82.88999938964844,
-    "pct": 0.03620417460282676,
+    "last": 83.08999633789062,
+    "pct": 0.25337728213304916,
     "state": "flat",
-    "corr": -0.2564494914601168
+    "corr": -0.24126222608958517
   },
   "news": {
     "usd": 1.0,
@@ -96,38 +96,45 @@
       "impact": "Medium",
       "forecast": "55.6",
       "previous": "57.9"
+    },
+    {
+      "title": "CB Consumer Confidence",
+      "when": "Tue 15:00 UTC",
+      "impact": "Medium",
+      "forecast": "92.1",
+      "previous": "91.7"
     }
   ],
   "scorecard": [
     {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.6226755237054864,
+      "trust": 0.9370815449366684
+    },
+    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.19636410433695206,
-      "trust": 0.8925641106225094
+      "score": 0.2259091831748969,
+      "trust": 0.7059661974215528
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.18577069399025273,
-      "trust": 1.1610668374390796
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.17362308318851016,
-      "trust": 1.0318702575289365
+      "score": 0.20031883771644965,
+      "trust": 1.2519927357278102
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.14321133007478437,
-      "trust": 1.1934277506232032
+      "score": 0.12242424925012577,
+      "trust": 1.0202020770843814
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.0999718075220864,
-      "trust": 0.9997180752208639
+      "score": 0.08514416679324188,
+      "trust": 0.8514416679324188
     }
   ],
   "record": {
