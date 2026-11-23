@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-23 11:46 UTC",
+  "updated": "2026-11-23 12:01 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3621.81,
+  "price": 3620.13,
   "stance": "Strategy: the SELL plan from 10:04 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3571.74,
-      "sl": 3566.74,
-      "tp1": 3583.19,
+      "entry_high": 3571.88,
+      "sl": 3566.88,
+      "tp1": 3582.98,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,65 +21,65 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T11:46:59.416984+00:00"
+      "checked_at": "2026-11-23T12:01:42.263235+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3633.61,
+      "entry_low": 3633.47,
       "entry_high": 3637.03,
-      "sl": 3638.61,
-      "tp1": 3622.16,
+      "sl": 3638.47,
+      "tp1": 3622.37,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.4,
+      "score": 0.2,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T07:22:45.106999+00:00",
-      "checked_at": "2026-11-23T11:46:59.416984+00:00"
+      "checked_at": "2026-11-23T12:01:42.263235+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
-    "htf": "up",
-    "session": "london",
-    "vwap": 3608.284338985384,
-    "atr": 2.867857142857052,
+    "htf": "sideways",
+    "session": "overlap",
+    "vwap": 3608.487963106519,
+    "atr": 2.6228571428570313,
     "day_low": 3568.32,
     "day_high": 3637.03,
-    "range_pos": 0.7784893028671191
+    "range_pos": 0.7540387134332691
   },
   "dxy": {
     "ok": true,
-    "last": 103.90599822998047,
-    "pct": 0.05488662103532139,
-    "state": "flat",
-    "corr": -0.09470091362931111
+    "last": 103.93699645996094,
+    "pct": 0.08473595061188553,
+    "state": "up",
+    "corr": -0.09971327379663754
   },
   "oil": {
     "ok": true,
-    "last": 82.0,
-    "pct": -1.037895973952146,
+    "last": 82.1500015258789,
+    "pct": -0.856865893365631,
     "state": "down",
-    "corr": -0.17843060356247156
+    "corr": -0.17852236768387625
   },
   "news": {
-    "usd": 0.7434834756470858,
-    "oil": -0.2710015776481717,
+    "usd": 0.6111851915053945,
+    "oil": -0.7135004696125095,
     "shock": true,
     "usd_headlines": [
+      "US dollar drops noticeably to 168,000 dinars across Baghdad, Erbil, and Basra markets - IraqiNews",
       "Ringgit closes slightly lower against US dollar as investors eye Fed's hawkish stance - The Star",
-      "U.S. Treasury yields rise as Wall Street rebound lifts rate outlook focus - Traders Union",
-      "Sri Lanka rupee at 332.45/60 to US dollar spot, bond yields rise - EconomyNext"
+      "U.S. Treasury yields rise as Wall Street rebound lifts rate outlook focus - Traders Union"
     ],
     "oil_headlines": [
-      "Goldman Lowers Oil Price Forecasts on Deal to Reopen Strait of Hormuz - EnergyNow.com",
+      "Crude oil remains under pressure as demand concerns continue to weigh despite high US-Iran tensions - investingLive",
       "Brent Oil Falls 0.5% as Middle East Supply Risks Persist - grafa.com",
       "Crude Oil Falls as Global Selloff Offsets Middle East Risks - HDFC Sky"
     ]
@@ -109,22 +109,22 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.4030380859608038,
-      "trust": 1.0406160856205617
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.3879147366369181,
-      "trust": 0.5877496009650274
+      "score": 0.4623706388234472,
+      "trust": 0.82566185504187
     },
     {
-      "style": "Trade the oil shock",
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.19807184507446646,
+      "trust": 0.8628243784864917
+    },
+    {
+      "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.12,
-      "trust": 1.0
+      "score": 0.11303096312126693,
+      "trust": 1.1303096312126693
     },
     {
       "style": "Trade with the intraday trend",
@@ -133,10 +133,10 @@
       "trust": 1.0
     },
     {
-      "style": "Fade the session range",
+      "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09691133356109496,
-      "trust": 0.9691133356109496
+      "score": 0.08883617540442383,
+      "trust": 0.740301461703532
     }
   ],
   "record": {
