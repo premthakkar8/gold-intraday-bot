@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-23 03:42 UTC",
+  "updated": "2026-11-23 03:57 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3606.54,
+  "price": 3608.34,
   "stance": "Strategy: the BUY plan from 02:29 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3570.01,
-      "sl": 3565.01,
-      "tp1": 3585.78,
+      "entry_high": 3570.23,
+      "sl": 3565.23,
+      "tp1": 3585.45,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.12,
+      "score": 0.07,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "far",
-      "reason": "Price is 36.53 away from the entry (6.1 ATR). Unlikely to fill soon.",
+      "reason": "Price is 38.11 away from the entry (6.8 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T03:42:37.818652+00:00"
+      "checked_at": "2026-11-23T03:57:19.229013+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3628.96,
+      "entry_low": 3628.74,
       "entry_high": 3630.65,
-      "sl": 3633.96,
-      "tp1": 3613.19,
+      "sl": 3633.74,
+      "tp1": 3613.52,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.66,
+      "score": 0.76,
       "style": "oil_shock",
       "favored": true,
       "ready": true,
       "status": "valid",
-      "reason": "Score 0.66 (Trade the oil shock), hawkish dollar news +1.00, price above VWAP.",
+      "reason": "Score 0.76 (Trade the oil shock), hawkish dollar news +1.00, price above VWAP.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T03:42:37.818652+00:00"
+      "checked_at": "2026-11-23T03:57:19.229013+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3592.9715257998105,
-    "atr": 6.010000000000089,
+    "vwap": 3593.6019170831423,
+    "atr": 5.613571428571471,
     "day_low": 3568.32,
     "day_high": 3630.65,
-    "range_pos": 0.6131878710091424
+    "range_pos": 0.642066420664207
   },
   "dxy": {
     "ok": true,
-    "last": 103.75,
-    "pct": -0.09532978109414139,
+    "last": 103.76499938964844,
+    "pct": -0.08088632011764,
     "state": "down",
-    "corr": -0.023665755732597646
+    "corr": 0.023718116721818804
   },
   "oil": {
     "ok": true,
-    "last": 83.23999786376953,
-    "pct": 0.45860155758977433,
+    "last": 83.2300033569336,
+    "pct": 0.4223046755725981,
     "state": "up",
-    "corr": 0.35767877742489906
+    "corr": 0.4004502132961459
   },
   "news": {
     "usd": 1.0,
     "oil": -1.0,
-    "shock": false,
+    "shock": true,
     "usd_headlines": [
+      "Gold Rebounds as Traders Pare Bets on Near-Term Fed Rate Hikes - Bloomberg.com",
       "Gold Rebounds From 14-Month Low As Fed Rate Hike Bets Ease - BusinessToday Malaysia",
-      "Dollar Retreats From 19-Month High, Traders Scale Back Fed Rate Hike Bets - BusinessToday Malaysia",
-      "Commodity Corner: Crude oil slips on supply concerns; gold rebounds as Fed rate hike bets ease - Moneycontrol.com"
+      "Dollar Retreats From 19-Month High, Traders Scale Back Fed Rate Hike Bets - BusinessToday Malaysia"
     ],
     "oil_headlines": [
       "Commodity Corner: Crude oil slips on supply concerns; gold rebounds as Fed rate hike bets ease - Moneycontrol.com"
@@ -109,32 +109,32 @@
     {
       "style": "Trade the oil shock",
       "bias": "short",
-      "score": 0.6615733159120903,
-      "trust": 1.095951834657392
+      "score": 0.7561872031906323,
+      "trust": 1.0958162326593057
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.19485027284114478,
+      "score": 0.49598251268655036,
       "trust": 0.8856830583688399
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.18187573463784573,
-      "trust": 1.1367233414865359
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.1169671423827115,
-      "trust": 0.8557742708148219
+      "score": 0.1136530119977465,
+      "trust": 1.136530119977465
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "long",
+      "score": 0.07395481117494225,
+      "trust": 0.8559780949222275
     }
   ],
   "record": {
