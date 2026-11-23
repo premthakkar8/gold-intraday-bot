@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-23 16:26 UTC",
+  "updated": "2026-11-23 16:40 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3672.47,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.45). Take an entry only if price reaches it.",
+  "price": 3664.82,
+  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 50%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3569.68,
-      "sl": 3564.68,
-      "tp1": 3586.28,
+      "entry_high": 3569.97,
+      "sl": 3564.97,
+      "tp1": 3585.85,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,28 +19,28 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.64% with hawkish news (+0.58) and gold is moving against it (corr -0.33). Buying fights the dollar.",
+      "reason": "Dollar is up +0.58% with hawkish news (+0.53) and gold is moving against it (corr -0.35). Buying fights the dollar.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T16:26:04.546780+00:00"
+      "checked_at": "2026-11-23T16:40:39.997972+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3688.3,
+      "entry_low": 3688.01,
       "entry_high": 3689.66,
-      "sl": 3693.3,
-      "tp1": 3671.7,
+      "sl": 3693.01,
+      "tp1": 3672.13,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.45,
-      "style": "oil_shock",
+      "score": 0.5,
+      "style": "dollar_lead",
       "favored": true,
-      "ready": false,
+      "ready": true,
       "status": "valid",
-      "reason": "Score 0.45 (Trade the oil shock), dollar firmer +0.64%, hawkish dollar news +0.58, price above VWAP.",
+      "reason": "Score 0.50 (Trade with the dollar), dollar firmer +0.58%, hawkish dollar news +0.53, price above VWAP.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T16:26:04.546780+00:00"
+      "checked_at": "2026-11-23T16:40:39.997972+00:00"
     }
   ],
   "active": [],
@@ -49,39 +49,39 @@
     "structure": "sideways",
     "htf": "up",
     "session": "overlap",
-    "vwap": 3622.1495956925055,
-    "atr": 6.619999999999989,
+    "vwap": 3622.9881929270114,
+    "atr": 6.096428571428565,
     "day_low": 3568.32,
     "day_high": 3689.66,
-    "range_pos": 0.8583319597824287
+    "range_pos": 0.7952859732981724
   },
   "dxy": {
     "ok": true,
-    "last": 104.51599884033203,
-    "pct": 0.6422785228233131,
+    "last": 104.4469985961914,
+    "pct": 0.5758356636821744,
     "state": "up",
-    "corr": -0.3330341849299756
+    "corr": -0.34678923205441337
   },
   "oil": {
     "ok": true,
-    "last": 80.16999816894531,
-    "pct": -3.2464427004483905,
+    "last": 80.19000244140625,
+    "pct": -3.2456502185764533,
     "state": "down",
-    "corr": 0.5847596956977802
+    "corr": 0.5735319561148589
   },
   "news": {
-    "usd": 0.5827111724884728,
-    "oil": -0.802698769483769,
-    "shock": true,
+    "usd": 0.5302451317395536,
+    "oil": -0.8428045705721876,
+    "shock": false,
     "usd_headlines": [
+      "New Zealand Dollar slides to 2009 lows as US Dollar index surges - FXStreet",
       "Canadian Dollar weakens as Nvidia rally lifts the US Dollar - FXStreet",
-      "U.S. Treasury yields rise as Nvidia's board reinstates Jensen Huang as CEO - Quartz",
-      "U.S. Treasury Yields Rise, European Bond Yields Edge Lower - WSJ"
+      "U.S. Treasury yields rise as Nvidia's board reinstates Jensen Huang as CEO - Quartz"
     ],
     "oil_headlines": [
+      "Crude Oil Falls as Middle East Supply Rises While Geopolitical Risks Persist - kalkine.ca",
       "Oil Prices Today: Brent Crude Falls to $91.11, WTI Drops 1.51% to $82.15 - Arbiterz",
-      "Crude oil remains under pressure as demand concerns continue to weigh despite high US-Iran tensions - investingLive",
-      "Brent Oil Falls 0.5% as Middle East Supply Risks Persist - grafa.com"
+      "Crude oil remains under pressure as demand concerns continue to weigh despite high US-Iran tensions - investingLive"
     ]
   },
   "events": [
@@ -95,28 +95,28 @@
   ],
   "scorecard": [
     {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.46753137599941486,
-      "trust": 0.8348774571418122
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.5040132641802119,
+      "trust": 0.7025306941234553
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "short",
+      "score": 0.42745106354805407,
+      "trust": 1.126856633466282
     },
     {
       "style": "Trade the oil shock",
       "bias": "short",
-      "score": 0.4549661400166365,
-      "trust": 0.7468276861038989
+      "score": 0.4106311179191249,
+      "trust": 0.7471830594728806
     },
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.3810021712528877,
-      "trust": 0.7025306941234554
-    },
-    {
-      "style": "Fade the session range",
+      "style": "Stand aside",
       "bias": "flat",
-      "score": 0.11270349501135708,
-      "trust": 1.1270349501135708
+      "score": 0.18367304057119868,
+      "trust": 0.8348774571418122
     },
     {
       "style": "Trade with the intraday trend",
