@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-23T19:07:47.370136+00:00",
-  "atr": 4.342857142857123,
-  "price": 3657.44,
+  "updated_at": "2026-11-23T19:22:28.880960+00:00",
+  "atr": 4.3407142857142516,
+  "price": 3648.23,
   "stance": "Strategy: the SELL plan from 18:53 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
@@ -21,7 +21,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T19:20:56.503304+00:00"
+      "checked_at": "2026-11-23T19:35:35.579069+00:00"
     },
     {
       "side": "SELL",
@@ -33,48 +33,25 @@
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.7,
+      "score": 0.46,
       "style": "dollar_lead",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T19:20:56.503304+00:00"
+      "checked_at": "2026-11-23T19:35:35.579069+00:00"
     }
   ],
   "research": [
-    "Gold 3656.93 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 3627.71, ATR 4.34, day range 3568.32-3689.66.",
-    "DXY 104.43 (+0.56% today, up), gold-dollar corr -0.24.",
-    "WTI 80.55 (-2.79% today, down), gold-oil corr -0.04.",
-    "Headlines: dollar +0.63, oil -0.82.",
+    "Gold 3654.34 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3628.05, ATR 4.34, day range 3568.32-3689.66.",
+    "DXY 104.39 (+0.53% today, up), gold-dollar corr -0.29.",
+    "WTI 80.26 (-3.14% today, down), gold-oil corr -0.20.",
+    "Headlines: dollar +0.61, oil -0.82, fresh shock.",
     "Dollar: Treasury Yields Rise as Huang Returns as CEO, European Bond Yields Slip - WSJ",
     "Oil: Crude Oil Falls as Middle East Supply Rises While Geopolitical Risks Persist - kalkine.ca",
     "No high-impact US release in the next 24 hours."
   ],
-  "active": [
-    {
-      "side": "SELL",
-      "entry_low": 3634.88,
-      "entry_high": 3637.03,
-      "sl": 3639.88,
-      "tp1": 3620.25,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-23T07:22:45.106999+00:00",
-      "checked_at": "2026-11-23T07:23:48.020007+00:00",
-      "entry": 3634.88,
-      "entered_at": "2026-11-23T07:23:48.020007+00:00",
-      "closed": "tp"
-    }
-  ],
-  "last_check": "2026-11-23T19:20:56.503304+00:00"
+  "active": [],
+  "last_check": "2026-11-23T19:35:35.579069+00:00"
 }
