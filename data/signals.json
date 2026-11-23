@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T22:15:48.047180+00:00",
+  "updated_at": "2026-11-23T22:30:33.836867+00:00",
   "atr": 3.149999999999961,
   "price": 3635.97,
   "stance": "Strategy: the SELL plan from 22:01 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
@@ -19,9 +19,9 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.47% with hawkish news (+0.63) and gold is moving against it (corr -0.39). Buying fights the dollar.",
+      "reason": "Dollar is up +0.48% with hawkish news (+0.61) and gold is moving against it (corr -0.39). Buying fights the dollar.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T22:15:48.047180+00:00"
+      "checked_at": "2026-11-23T22:30:33.836867+00:00"
     },
     {
       "side": "SELL",
@@ -40,14 +40,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T22:15:48.047180+00:00"
+      "checked_at": "2026-11-23T22:30:33.836867+00:00"
     }
   ],
   "research": [
     "Gold 3635.97 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 3629.24, ATR 3.15, day range 3568.32-3689.66.",
-    "DXY 104.34 (+0.47% today, up), gold-dollar corr -0.39.",
-    "WTI 80.25 (-3.17% today, down), gold-oil corr -0.17.",
-    "Headlines: dollar +0.63, oil -0.77, fresh shock.",
+    "DXY 104.35 (+0.48% today, up), gold-dollar corr -0.39.",
+    "WTI 80.25 (-3.15% today, down), gold-oil corr -0.18.",
+    "Headlines: dollar +0.61, oil -1.00, fresh shock.",
     "Dollar: Treasury Yields Rise After Huang Returns as Nvidia CEO; European Bond Yields Slip - WSJ",
     "Oil: Gas prices fall ahead of Thanksgiving as crude oil slides - Olean Times Herald",
     "No high-impact US release in the next 24 hours."
