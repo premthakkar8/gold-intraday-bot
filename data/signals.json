@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-23T12:01:42.263235+00:00",
-  "atr": 2.6228571428570313,
-  "price": 3615.4,
-  "stance": "Strategy: the SELL plan from 10:04 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
+  "updated_at": "2026-11-23T12:16:24.006076+00:00",
+  "atr": 2.754999999999914,
+  "price": 3614.3,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3571.88,
-      "sl": 3566.88,
-      "tp1": 3582.98,
+      "entry_high": 3571.8,
+      "sl": 3566.8,
+      "tp1": 3583.09,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,34 +21,34 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T12:14:49.094786+00:00"
+      "checked_at": "2026-11-23T12:29:30.621761+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3633.47,
+      "entry_low": 3633.55,
       "entry_high": 3637.03,
-      "sl": 3638.47,
-      "tp1": 3622.37,
+      "sl": 3638.55,
+      "tp1": 3622.26,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.2,
+      "score": 0.31,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T07:22:45.106999+00:00",
-      "checked_at": "2026-11-23T12:14:49.094786+00:00"
+      "checked_at": "2026-11-23T12:29:30.621761+00:00"
     }
   ],
   "research": [
-    "Gold 3620.13 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3608.49, ATR 2.62, day range 3568.32-3637.03.",
-    "DXY 103.94 (+0.08% today, up), gold-dollar corr -0.10.",
-    "WTI 82.15 (-0.86% today, down), gold-oil corr -0.18.",
-    "Headlines: dollar +0.61, oil -0.71, fresh shock.",
-    "Dollar: US dollar drops noticeably to 168,000 dinars across Baghdad, Erbil, and Basra markets - IraqiNews",
+    "Gold 3615.41 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3608.66, ATR 2.75, day range 3568.32-3637.03.",
+    "DXY 103.92 (+0.07% today, flat), gold-dollar corr -0.05.",
+    "WTI 82.40 (-0.58% today, down), gold-oil corr -0.12.",
+    "Headlines: dollar +0.64, oil -0.71, fresh shock.",
+    "Dollar: Sri Lanka rupee closes at 332.55/60 to US dollar spot, bond yields rise - EconomyNext",
     "Oil: Crude oil remains under pressure as demand concerns continue to weigh despite high US-Iran tensions - investingLive",
     "No high-impact US release in the next 24 hours."
   ],
@@ -98,5 +98,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-23T12:14:49.094786+00:00"
+  "last_check": "2026-11-23T12:29:30.621761+00:00"
 }
