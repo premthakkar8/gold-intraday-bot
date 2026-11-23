@@ -1503,3 +1503,7 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-23 02:36 UTC  live: SELL now far: Price is 51.94 away from the entry (6.1 ATR). Unlikely to fill soon.
 2026-11-23 02:40 UTC  live: SELL valid again
 2026-11-23 02:42 UTC  live: SELL now far: Price is 52.28 away from the entry (6.1 ATR). Unlikely to fill soon.
+2026-11-23 02:44 UTC  live: gold 3578.44 | holding long trend_align 30df153a | new read long range_fade not opened
+2026-11-23 02:50 UTC  live: SELL valid again
+2026-11-23 02:51 UTC  live: SELL now far: Price is 44.55 away from the entry (6.0 ATR). Unlikely to fill soon.
+2026-11-23 02:52 UTC  live: SELL valid again
