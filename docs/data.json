@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-23 06:24 UTC",
+  "updated": "2026-11-23 06:38 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3615.23,
+  "price": 3619.63,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.09). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3569.77,
-      "sl": 3564.77,
-      "tp1": 3586.14,
+      "entry_high": 3570.08,
+      "sl": 3565.08,
+      "tp1": 3585.68,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T06:24:02.920804+00:00"
+      "checked_at": "2026-11-23T06:38:45.130714+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3629.2,
+      "entry_low": 3628.89,
       "entry_high": 3630.65,
-      "sl": 3634.2,
-      "tp1": 3612.83,
+      "sl": 3633.89,
+      "tp1": 3613.29,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T02:29:32.388454+00:00",
-      "checked_at": "2026-11-23T06:24:02.920804+00:00"
+      "checked_at": "2026-11-23T06:38:45.130714+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3600.4843717304,
-    "atr": 6.445714285714173,
+    "vwap": 3601.0948922162047,
+    "atr": 5.8899999999999375,
     "day_low": 3568.32,
     "day_high": 3630.65,
-    "range_pos": 0.7526070912883027
+    "range_pos": 0.823199101556233
   },
   "dxy": {
     "ok": true,
-    "last": 103.66000366210938,
-    "pct": -0.1819905469531497,
+    "last": 103.65499877929688,
+    "pct": -0.18680993169403723,
     "state": "down",
-    "corr": 0.04460739424948202
+    "corr": 0.003832893877217408
   },
   "oil": {
     "ok": true,
-    "last": 83.29000091552734,
-    "pct": 0.49469555465322657,
+    "last": 83.5199966430664,
+    "pct": 0.7722000613628688,
     "state": "up",
-    "corr": 0.4762725018955817
+    "corr": 0.4806655060223406
   },
   "news": {
-    "usd": 0.7842899450649378,
-    "oil": -0.1710946055157226,
+    "usd": 1.0,
+    "oil": -0.17063954006033186,
     "shock": true,
     "usd_headlines": [
       "Sri Lanka rupee at 332.45/60 to US dollar spot, bond yields rise - EconomyNext",
       "Gold Falls as Hawkish Fed Expectations Lift the Dollar and U.S. Treasury Yields By Kedia Advisory - Investing.com India",
-      "Treasury Yields Fall, German Bunds\u2019 Tick Higher - WSJ"
+      "Gold Rebounds From 14-Month Low As Fed Rate Hike Bets Ease - BusinessToday Malaysia"
     ],
     "oil_headlines": [
       "Crude oil rises marginally as AI selloff weighs on markets, Gulf attacks support prices; Brent at $90, WTI at $83- Moneycontrol.com - LinkedIn",
@@ -115,28 +115,28 @@
       "trust": 0.6234087183369335
     },
     {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.13207355572970864,
+      "trust": 1.1006129644142386
+    },
+    {
       "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
     },
     {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.09060138907679953,
-      "trust": 0.9060138907679952
-    },
-    {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.09041598920726496,
+      "score": 0.09246078530447009,
       "trust": 1.0
     },
     {
-      "style": "Trade the oil shock",
+      "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.08806043873183224,
-      "trust": 1.100755484147903
+      "score": 0.09061468351468464,
+      "trust": 0.9061468351468464
     }
   ],
   "record": {
