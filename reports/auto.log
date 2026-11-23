@@ -1574,3 +1574,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-23 16:11 UTC  live: gold 3667.19 | graded: 0de63d28 stand aside -> win (+1.00R) | opened stand aside 83f5c2fc
 2026-11-23 16:26 UTC  live: gold 3672.47 | graded: 83f5c2fc stand aside -> loss (-1.00R) | opened stand aside 4b989af4
 2026-11-23 16:40 UTC  live: gold 3664.82 | opened short dollar_lead ac10972c zone 3688.01-3689.66 stop 3693.01 target 3672.13 units 1 risk 5.00 USD tier normal conf 0.50
+2026-11-23 16:55 UTC  live: gold 3664.85 | holding short dollar_lead ac10972c | new read short dollar_lead not opened

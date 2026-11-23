@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-23T16:40:39.997972+00:00",
-  "atr": 6.096428571428565,
-  "price": 3662.69,
-  "stance": "Strategy: SELL is the trade (Trade with the dollar, confidence 50%).",
+  "updated_at": "2026-11-23T16:55:11.011352+00:00",
+  "atr": 5.824999999999981,
+  "price": 3663.78,
+  "stance": "Strategy: the SELL plan from 16:40 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3569.97,
-      "sl": 3564.97,
-      "tp1": 3585.85,
+      "entry_high": 3570.12,
+      "sl": 3565.12,
+      "tp1": 3585.63,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,16 +19,16 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.58% with hawkish news (+0.53) and gold is moving against it (corr -0.35). Buying fights the dollar.",
+      "reason": "Dollar is up +0.57% with hawkish news (+0.53) and gold is moving against it (corr -0.35). Buying fights the dollar.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T16:53:46.514068+00:00"
+      "checked_at": "2026-11-23T17:08:17.327583+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3688.01,
+      "entry_low": 3687.86,
       "entry_high": 3689.66,
-      "sl": 3693.01,
-      "tp1": 3672.13,
+      "sl": 3692.86,
+      "tp1": 3672.35,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -38,17 +38,17 @@
       "favored": true,
       "ready": true,
       "status": "valid",
-      "reason": "Score 0.50 (Trade with the dollar), dollar firmer +0.58%, hawkish dollar news +0.53, price above VWAP.",
+      "reason": "Score 0.50 (Trade with the dollar), dollar firmer +0.57%, hawkish dollar news +0.53, price above VWAP.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T16:53:46.514068+00:00"
+      "checked_at": "2026-11-23T17:08:17.327583+00:00"
     }
   ],
   "research": [
-    "Gold 3664.82 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3622.99, ATR 6.10, day range 3568.32-3689.66.",
-    "DXY 104.45 (+0.58% today, up), gold-dollar corr -0.35.",
-    "WTI 80.19 (-3.25% today, down), gold-oil corr +0.57.",
+    "Gold 3664.85 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3623.68, ATR 5.82, day range 3568.32-3689.66.",
+    "DXY 104.44 (+0.57% today, up), gold-dollar corr -0.35.",
+    "WTI 80.37 (-3.03% today, down), gold-oil corr +0.56.",
     "Headlines: dollar +0.53, oil -0.84.",
-    "Dollar: New Zealand Dollar slides to 2009 lows as US Dollar index surges - FXStreet",
+    "Dollar: Treasury Yields Rise as Huang Returns as CEO, European Bond Yields Slip -- Update - www.marketscreener.com",
     "Oil: Crude Oil Falls as Middle East Supply Rises While Geopolitical Risks Persist - kalkine.ca",
     "No high-impact US release in the next 24 hours."
   ],
@@ -76,5 +76,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-23T16:53:46.514068+00:00"
+  "last_check": "2026-11-23T17:08:17.327583+00:00"
 }
