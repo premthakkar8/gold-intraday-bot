@@ -98,7 +98,7 @@ pre { white-space:pre-wrap; font:13px/1.55 ui-monospace, Consolas, monospace; co
       <div class="brand">Gold intraday <small>VANTAGE:XAUUSD · alerts only</small></div>
       <div class="price">3635.97</div>
     </div>
-    <div class="updated">Updated 2026-11-23 22:01 UTC<br>Re-analysed every 15 min · price checked every minute</div>
+    <div class="updated">Updated 2026-11-23 22:15 UTC<br>Re-analysed every 15 min · price checked every minute</div>
   </div>
 
   <section class="hero">
@@ -107,16 +107,16 @@ pre { white-space:pre-wrap; font:13px/1.55 ui-monospace, Consolas, monospace; co
       <div class="big">WAIT</div>
       <div class="line">No signal is valid right now. Both setups failed their latest check.</div>
       
-      <p class="stance">Strategy: SELL is the trade (Trade with the dollar, confidence 58%).</p>
+      <p class="stance">Strategy: the SELL plan from 22:01 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.</p>
       
     </div>
     <div class="setups">
 <article class="setup sell dim">
   <header>
     <div class="side">SELL <small>XAUUSD</small></div>
-    <span class="tag tag-ready">Strategy trade</span>
+    <span class="tag tag-fav">Favored</span>
   </header>
-  <div class="check st-expired"><b>Expired</b><span>Signal is 120 minutes old without an entry. Waiting for a fresh one.</span><small>checked 22:01 UTC</small></div>
+  <div class="check st-expired"><b>Expired</b><span>Signal is 120 minutes old without an entry. Waiting for a fresh one.</span><small>checked 22:15 UTC</small></div>
   <div class="levels">
     <div class="lvl"><span>Entry</span><b>3686.39 – 3689.66</b></div>
     <div class="lvl"><span>Stop loss</span><b class="sl">3691.39</b></div>
@@ -127,7 +127,7 @@ pre { white-space:pre-wrap; font:13px/1.55 ui-monospace, Consolas, monospace; co
     <div><span>R:R</span><b>1:4.0</b></div>
     <div><span>Risk</span><b>$5.00</b></div>
     <div><span>Size</span><b>1 oz</b></div>
-    <div class="meter" title="Strategy score 0.64"><i style="width:64%"></i><em>score 0.64</em></div>
+    <div class="meter" title="Strategy score 0.56"><i style="width:56%"></i><em>score 0.56</em></div>
   </footer>
   <p class="why">Trade with the dollar</p>
 </article>
@@ -136,7 +136,7 @@ pre { white-space:pre-wrap; font:13px/1.55 ui-monospace, Consolas, monospace; co
     <div class="side">BUY <small>XAUUSD</small></div>
     <span class="tag">Other side</span>
   </header>
-  <div class="check st-expired"><b>Expired</b><span>Signal is 120 minutes old without an entry. Waiting for a fresh one.</span><small>checked 22:01 UTC</small></div>
+  <div class="check st-invalid"><b>Invalid</b><span>Dollar is up +0.47% with hawkish news (+0.63) and gold is moving against it (corr -0.39). Buying fights the dollar.</span><small>checked 22:15 UTC</small></div>
   <div class="levels">
     <div class="lvl"><span>Entry</span><b>3568.32 – 3571.59</b></div>
     <div class="lvl"><span>Stop loss</span><b class="sl">3566.59</b></div>
@@ -154,7 +154,7 @@ pre { white-space:pre-wrap; font:13px/1.55 ui-monospace, Consolas, monospace; co
   </section>
 
   <h2>Market data</h2>
-  <div class="tiles"><div class="tile "><span>Gold</span><b>3635.97</b><small>VWAP 3629.24</small></div><div class="tile "><span>Day range</span><b>3568.32 – 3689.66</b><small><i class="range"><i style="left:56%"></i></i></small></div><div class="tile "><span>Trend</span><b>down / up</b><small>5-minute / 1-hour</small></div><div class="tile "><span>ATR (5m)</span><b>3.15</b><small>late session</small></div><div class="tile down"><span>Dollar index</span><b>104.33</b><small>+0.46% today · corr -0.44</small></div><div class="tile down"><span>WTI oil</span><b>80.35</b><small>-3.05% today · corr -0.16</small></div><div class="tile flat"><span>News: dollar</span><b>+0.00</b><small>neutral</small></div><div class="tile flat"><span>News: oil</span><b>+0.00</b><small>neutral</small></div></div>
+  <div class="tiles"><div class="tile "><span>Gold</span><b>3635.97</b><small>VWAP 3629.24</small></div><div class="tile "><span>Day range</span><b>3568.32 – 3689.66</b><small><i class="range"><i style="left:56%"></i></i></small></div><div class="tile "><span>Trend</span><b>down / up</b><small>5-minute / 1-hour</small></div><div class="tile "><span>ATR (5m)</span><b>3.15</b><small>late session</small></div><div class="tile down"><span>Dollar index</span><b>104.34</b><small>+0.47% today · corr -0.39</small></div><div class="tile down"><span>WTI oil</span><b>80.25</b><small>-3.17% today · corr -0.17</small></div><div class="tile down"><span>News: dollar</span><b>+0.63</b><small>hawkish, gold headwind</small></div><div class="tile down"><span>News: oil</span><b>-0.77</b><small>bearish crude · fresh shock</small></div></div>
 
   <h2>Charts</h2>
   <div class="charts">
@@ -168,7 +168,7 @@ pre { white-space:pre-wrap; font:13px/1.55 ui-monospace, Consolas, monospace; co
     "backgroundColor": "#11151c", "gridColor": "rgba(255,255,255,0.04)", "container_id": "tv_gold"});
   </script>
 </div></div>
-    <div class="panel"><h3>Strategy levels · green band = buy entry, red band = sell entry, solid red = stop, dashed green = target</h3><img src="chart.png?v=1795471288" alt="Strategy levels on the gold chart"></div>
+    <div class="panel"><h3>Strategy levels · green band = buy entry, red band = sell entry, solid red = stop, dashed green = target</h3><img src="chart.png?v=1795472151" alt="Strategy levels on the gold chart"></div>
   </div>
 
   <div class="grid2">
@@ -178,14 +178,14 @@ pre { white-space:pre-wrap; font:13px/1.55 ui-monospace, Consolas, monospace; co
     </div>
     <div>
       <h2>Headlines behind the signal</h2>
-      <div class="panel"><p class="muted">No scored headlines.</p></div>
+      <div class="panel"><ul class="headlines"><li><span class="hl-tag">Dollar</span>Treasury Yields Rise After Huang Returns as Nvidia CEO; European Bond Yields Slip - WSJ</li><li><span class="hl-tag">Dollar</span>TREASURIES-Shorter-dated Treasury yields rise as Nvidia brings back CEO Huang - marketscreener.com</li><li><span class="hl-tag">Oil</span>Gas prices fall ahead of Thanksgiving as crude oil slides - Olean Times Herald</li><li><span class="hl-tag">Oil</span>Crude Oil Falls as Middle East Supply Rises While Geopolitical Risks Persist - kalkine.ca</li></ul></div>
     </div>
   </div>
 
   <div class="grid2">
     <div>
       <h2>How each approach scores now</h2>
-      <div class="panel"><ul class="scores"><li><span>Trade with the dollar</span><i class="bar"><i style="width:64%"></i></i><b>0.64</b><small>short</small></li><li><span>Stand aside</span><i class="bar"><i style="width:28%"></i></i><b>0.28</b><small>flat</small></li><li><span>Trade with the intraday trend</span><i class="bar"><i style="width:18%"></i></i><b>0.18</b><small>short</small></li><li><span>Trade the oil shock</span><i class="bar"><i style="width:11%"></i></i><b>0.11</b><small>flat</small></li><li><span>Fade the session range</span><i class="bar"><i style="width:10%"></i></i><b>0.10</b><small>flat</small></li></ul></div>
+      <div class="panel"><ul class="scores"><li><span>Trade with the dollar</span><i class="bar"><i style="width:56%"></i></i><b>0.56</b><small>short</small></li><li><span>Stand aside</span><i class="bar"><i style="width:56%"></i></i><b>0.56</b><small>flat</small></li><li><span>Trade with the intraday trend</span><i class="bar"><i style="width:14%"></i></i><b>0.14</b><small>short</small></li><li><span>Trade the oil shock</span><i class="bar"><i style="width:11%"></i></i><b>0.11</b><small>flat</small></li><li><span>Fade the session range</span><i class="bar"><i style="width:10%"></i></i><b>0.10</b><small>flat</small></li></ul></div>
     </div>
     <div>
       <h2>Track record</h2>
@@ -197,59 +197,70 @@ pre { white-space:pre-wrap; font:13px/1.55 ui-monospace, Consolas, monospace; co
   <details>
     <summary>Full analysis</summary>
     <pre>GOLD INTRADAY BRIEF
-2026-11-23 22:01 UTC
+2026-11-23 22:15 UTC
 Gold: VANTAGE:XAUUSD    Dollar index: DX-Y.NYB    WTI: CL=F
 This plan is rebuilt on every run. The journal changes which approach is trusted. It does not freeze a strategy.
 Gold prices are the VANTAGE:XAUUSD chart on TradingView (https://www.tradingview.com/chart/?symbol=VANTAGE%3AXAUUSD). That is the Vantage XAUUSD gold CFD, so these levels match that chart rather than COMEX futures.
-usd headlines unavailable (HTTPError); oil headlines unavailable (HTTPError)
 
-PLAN
-Trade with the dollar  |  SHORT  |  confidence 0.58  |  id 6866c623
-Chosen because it cleared the bar and led the other approaches.
-DXY is up (+0.46% this UTC day). Recent 5-minute returns correlate -0.44 with the dollar. Dollar headlines score +0.00. Oil is down and is not the reason for the trade. The plan is to sell rallies in 3686.39 to 3689.66. The idea is void through 3691.39, and also if the dollar move itself fades. The entry zone was tightened toward the invalidation so the smallest size fits the risk limit.
+RUNNING PLAN
+Trade with the dollar SHORT from 22:01 UTC (plan 6866c623) is still running.
+Entry zone 3686.39 to 3689.66. Invalidation 3691.39. Target 3674.56.
+Size 1 units, 5.00 USD at risk, normal tier.
+It stays in charge until its invalidation, its target, or 120 minutes from 22:01 UTC. The read below is shown for information and was not opened.
+
+NEW READ (not opened)
+Stand aside  |  FLAT  |  confidence 0.56  |  id 39e2d365
+Standing aside. The headline shock is larger than the lead of the best trade.
+Fresh headline shock is in the tape. Trade with the dollar leads standing aside by only 0.00, which is not enough to take a trade while that headline is live. No position. Run a new brief when the price has absorbed the headline, or when the dollar move fades.
+No position at the current price.
 SELL XAUUSD
 Entry: 3686.39 - 3689.66
 SL: 3691.39
 TP1: 3674.56
-Normal tier: risk budget 5.00 USD, targets capped at 1:4.
-Size 1 units (0.01 lot of XAUUSD at 1 unit = 1 oz). Loss at invalidation from the worst fill in the zone: 5.00 USD (5.0% of 100 USD). Stop distance 5.00. This is not an order.
-Price is 3635.97, outside the entry zone. Wait for that zone. This is not a market order.
-There is not enough graded history for this kind of session. Treat the plan as a draft.
+This is the order only if price trades into the entry. Do not enter at the current price.
 
 WHAT WOULD CHANGE IT
 - This plan is graded after 120 minutes, or sooner if price hits the invalidation or the target.
 - Running the brief again before that replaces this plan and does not grade it.
-- Price through 3691.39 kills the idea.
-- If the dollar index gives its session move back and is flat again, cancel the idea even if the stop is intact.
+- Run a new brief if price moves back toward the middle of the day range. Do not trade this extreme only because the dollar has already moved.
+- If the dollar gives its session move back and is flat again, that dollar idea is finished for this session.
+- A headline that flips the dollar or oil story means you run a new brief before entering.
 
 CHART
 Gold 3635.97 in late session (21:00-24:00 UTC). 5-minute structure is down. 1-hour structure is up.
 UTC-day range 3568.32 to 3689.66. Price is 56% of the way up that range, above VWAP 3629.24. ATR 3.15. Short-range volatility over longer-range volatility is 0.69.
 
 DOLLAR
-DXY 104.33 (+0.46% this UTC day, up). Correlation of recent 5-minute returns with gold is -0.44. Gold is responding the usual way to a firmer dollar.
+DXY 104.34 (+0.47% this UTC day, up). Correlation of recent 5-minute returns with gold is -0.39. Gold is responding the usual way to a firmer dollar.
 
 OIL
-WTI 80.35 (-3.05% this UTC day, down). Correlation of recent 5-minute returns with gold is -0.16. Falling oil is not automatically a gold short. It matters when gold is actually following it.
+WTI 80.25 (-3.17% this UTC day, down). Correlation of recent 5-minute returns with gold is -0.17. Falling oil is not automatically a gold short. It matters when gold is actually following it.
 
 HEADLINES
-Dollar-headline score +0.00 (no clear dollar impulse in the wording). Oil-headline score +0.00 (no clear oil impulse in the wording). Fresh shock wording: no.
-No headlines were available. The plan is using price only.
+Dollar-headline score +0.63 (wording supports a stronger dollar, usually a headwind for gold). Oil-headline score -0.77 (wording supports lower crude). Fresh shock wording: yes.
+Dollar headlines:
+- Treasury Yields Rise After Huang Returns as Nvidia CEO; European Bond Yields Slip - WSJ
+- TREASURIES-Shorter-dated Treasury yields rise as Nvidia brings back CEO Huang - marketscreener.com
+- Treasury Yields Rise as Huang Returns as CEO, European Bond Yields Slip -- Update - marketscreener.com
+Oil headlines:
+- Gas prices fall ahead of Thanksgiving as crude oil slides - Olean Times Herald
+- Crude Oil Falls as Middle East Supply Rises While Geopolitical Risks Persist - kalkine.ca
+- Crude oil remains under pressure as demand concerns continue to weigh despite high US-Iran tensions - investingLive
 
 WHY THIS APPROACH
 Adjusted score = how the setup looks now, times the journal. A trade needs at least 0.50. Journal half-life is 5 days, so a lesson from a month ago barely counts.
-&gt; Trade with the dollar            0.64 x 1.00 = 0.64  short
-  Stand aside                      0.34 x 0.82 = 0.28  flat
-  Trade with the intraday trend    0.18 x 1.00 = 0.18  short
-  Trade the oil shock              0.12 x 0.96 = 0.11  flat
+  Trade with the dollar            0.56 x 1.00 = 0.56  short
+&gt; Stand aside                      0.68 x 0.82 = 0.56  flat
+  Trade with the intraday trend    0.14 x 1.00 = 0.14  short
+  Trade the oil shock              0.12 x 0.90 = 0.11  flat
   Fade the session range           0.10 x 1.00 = 0.10  flat
-0 wins, 0 losses, 1 scratches on similar days (effective weight 0.6). Trust multiplier 1.00.
-0 wins, 1 losses, 0 scratches on similar days (effective weight 0.1). Trust multiplier 0.96.
-0 wins, 0 losses, 3 scratches on similar days (effective weight 0.5). Trust multiplier 1.00.
-6 wins, 9 losses, 1 scratches on similar days (effective weight 4.1). Trust multiplier 0.82.
+0 wins, 0 losses, 2 scratches on similar days (effective weight 1.4). Trust multiplier 1.00.
+0 wins, 2 losses, 2 scratches on similar days (effective weight 0.4). Trust multiplier 0.90.
+0 wins, 0 losses, 3 scratches on similar days (effective weight 0.7). Trust multiplier 1.00.
+15 wins, 27 losses, 1 scratches on similar days (effective weight 12.1). Trust multiplier 0.82.
 
 GRADED THIS RUN
-13525ced short dollar_lead -&gt; scratch (price never reached the entry zone)
+Nothing finished its stop, target, or time window on this run.
 
 The next run reads the chart, the dollar, and oil again from scratch. Only the graded results carry forward, and they decay.
 
