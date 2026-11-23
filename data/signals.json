@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-23T23:29:04.219369+00:00",
-  "atr": 3.5435714285713726,
-  "price": 3630.12,
+  "updated_at": "2026-11-23T23:43:42.592360+00:00",
+  "atr": 4.078571428571422,
+  "price": 3627.71,
   "stance": "Strategy: the SELL plan from 22:01 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3571.37,
-      "sl": 3566.37,
-      "tp1": 3583.74,
+      "entry_high": 3571.08,
+      "sl": 3566.08,
+      "tp1": 3584.18,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,39 +19,39 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.45% with hawkish news (+0.75) and gold is moving against it (corr -0.38). Buying fights the dollar.",
+      "reason": "Dollar is up +0.45% with hawkish news (+0.67) and gold is moving against it (corr -0.38). Buying fights the dollar.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T23:42:11.421503+00:00"
+      "checked_at": "2026-11-23T23:56:49.910388+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3686.61,
+      "entry_low": 3686.9,
       "entry_high": 3689.66,
-      "sl": 3691.61,
-      "tp1": 3674.24,
+      "sl": 3691.9,
+      "tp1": 3673.8,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.51,
+      "score": 0.57,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T23:42:11.421503+00:00"
+      "checked_at": "2026-11-23T23:56:49.910388+00:00"
     }
   ],
   "research": [
-    "Gold 3633.93 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3629.29, ATR 3.54, day range 3568.32-3689.66.",
+    "Gold 3627.99 (VANTAGE:XAUUSD). 5m down, 1h up. VWAP 3629.31, ATR 4.08, day range 3568.32-3689.66.",
     "DXY 104.32 (+0.45% today, up), gold-dollar corr -0.38.",
-    "WTI 80.30 (-3.11% today, down), gold-oil corr -0.27.",
-    "Headlines: dollar +0.75, oil -1.00, fresh shock.",
+    "WTI 80.30 (-3.09% today, down), gold-oil corr -0.23.",
+    "Headlines: dollar +0.67, oil -1.00, fresh shock.",
     "Dollar: The U.S. dollar's bullish trend is not yet over! Goldman Sachs: Federal Reserve rate hikes will continue to provide support, with a moderate cooling expected...",
     "Oil: Gas prices fall ahead of Thanksgiving as crude oil slides - Olean Times Herald",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [],
-  "last_check": "2026-11-23T23:42:11.421503+00:00"
+  "last_check": "2026-11-23T23:56:49.910388+00:00"
 }
