@@ -1,85 +1,44 @@
 {
-  "updated": "2026-11-23 01:01 UTC",
+  "updated": "2026-11-23 01:16 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3574.4,
-  "stance": "Strategy: wait. Two approaches want opposite trades and neither has a clear lead. Take an entry only if price reaches it.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 3568.32,
-      "entry_high": 3569.38,
-      "sl": 3564.38,
-      "tp1": 3575.0,
-      "tp2": 3585.18,
-      "rr": 1.4,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.59,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.59 (Fade the session range), price below VWAP.",
-      "created_at": "2026-11-23T01:01:27.242804+00:00",
-      "checked_at": "2026-11-23T01:01:27.242804+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3584.12,
-      "entry_high": 3585.18,
-      "sl": 3589.12,
-      "tp1": 3575.0,
-      "tp2": 3568.32,
-      "rr": 2.2,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.65,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.65 (Trade with the dollar), hawkish dollar news +1.00.",
-      "created_at": "2026-11-23T01:01:27.242804+00:00",
-      "checked_at": "2026-11-23T01:01:27.242804+00:00"
-    }
-  ],
+  "price": 3615.45,
+  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
+  "setups": [],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
-    "htf": "sideways",
+    "htf": "down",
     "session": "asia",
-    "vwap": 3575.0020161112525,
-    "atr": 7.159999999999984,
+    "vwap": 3581.0881260904966,
+    "atr": 10.0414285714285,
     "day_low": 3568.32,
-    "day_high": 3585.18,
-    "range_pos": 0.3606168446026124
+    "day_high": 3622.0,
+    "range_pos": 0.8779806259314419
   },
   "dxy": {
     "ok": true,
-    "last": 103.77799987792969,
-    "pct": -0.06836767438826138,
+    "last": 103.7750015258789,
+    "pct": -0.07125489725894554,
     "state": "flat",
-    "corr": -0.12582266238815562
+    "corr": -0.11680137125072067
   },
   "oil": {
     "ok": true,
-    "last": 82.87000274658203,
-    "pct": -0.012059009612871732,
+    "last": 83.12999725341797,
+    "pct": 0.3016409366370847,
     "state": "flat",
-    "corr": -0.30441375478051375
+    "corr": -0.23571136507535084
   },
   "news": {
-    "usd": 1.0,
+    "usd": -0.045617612784329895,
     "oil": 0.0,
     "shock": false,
     "usd_headlines": [
-      "WTI and Brent Crude Oil Prices Slide as Bessent Challenges Fed's Hawkish Rate Expectations - FXLeaders"
+      "Treasury Yields Fall, German Bunds\u2019 Tick Higher - WSJ",
+      "NEAR rises as Federal Reserve's hawkish tone weighs on non-yielding crypto demand - Traders Union"
     ],
-    "oil_headlines": [
-      "WTI crude oil prices may trend lower - The Business Times",
-      "WTI and Brent Crude Oil Prices Slide as Bessent Challenges Fed's Hawkish Rate Expectations - FXLeaders"
-    ]
+    "oil_headlines": []
   },
   "events": [
     {
@@ -99,41 +58,41 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.6454631444914494,
-      "trust": 0.9300113363891853
-    },
-    {
       "style": "Fade the session range",
-      "bias": "long",
-      "score": 0.5933152143638198,
-      "trust": 1.149750205375134
+      "bias": "short",
+      "score": 0.780569668852279,
+      "trust": 1.174512039876335
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.22717297978367618,
-      "trust": 0.7099155618239881
+      "score": 0.15519485836182184,
+      "trust": 0.7054311743719175
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "flat",
+      "score": 0.1143341172117308,
+      "trust": 0.9527843100977567
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.09630559059991711,
-      "trust": 0.963055905999171
+      "score": 0.0963108200005152,
+      "trust": 0.963108200005152
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07907232743024023,
-      "trust": 0.9884040928780028
+      "score": 0.07907364054174623,
+      "trust": 0.9884205067718278
     }
   ],
   "record": {
-    "graded": 209,
+    "graded": 210,
     "wins": 56,
-    "losses": 109,
+    "losses": 110,
     "scratches": 44,
-    "avg_r": -0.1454127110411923
+    "avg_r": -0.14948217432194855
   }
 }

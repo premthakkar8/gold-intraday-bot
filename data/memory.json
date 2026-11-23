@@ -6511,7 +6511,7 @@
     {
       "id": "bdb9055c",
       "opened_at": "2026-11-23T01:01:27.242804+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-11-23T01:16:10.063953+00:00",
       "horizon_minutes": 120,
       "regime": {
         "dxy": "flat",
@@ -6528,6 +6528,33 @@
       "target": null,
       "price_at_plan": 3574.4,
       "atr": 7.159999999999984,
+      "outcome": "loss",
+      "r_multiple": -1.0,
+      "tier": null,
+      "units": null,
+      "risk_usd": null,
+      "confidence": 0.3
+    },
+    {
+      "id": "33339518",
+      "opened_at": "2026-11-23T01:16:10.063953+00:00",
+      "resolved_at": null,
+      "horizon_minutes": 120,
+      "regime": {
+        "dxy": "flat",
+        "oil": "flat",
+        "structure": "sideways",
+        "news": "quiet",
+        "session": "asia"
+      },
+      "style": "stand_aside",
+      "bias": "flat",
+      "entry_low": null,
+      "entry_high": null,
+      "invalidation": null,
+      "target": null,
+      "price_at_plan": 3615.45,
+      "atr": 10.0414285714285,
       "outcome": null,
       "r_multiple": null,
       "tier": null,

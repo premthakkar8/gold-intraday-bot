@@ -1,55 +1,15 @@
 {
-  "updated_at": "2026-11-23T01:01:27.242804+00:00",
-  "atr": 7.159999999999984,
-  "price": 3609.71,
-  "stance": "Strategy: wait. Two approaches want opposite trades and neither has a clear lead. Take an entry only if price reaches it.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 3568.32,
-      "entry_high": 3569.38,
-      "sl": 3564.38,
-      "tp1": 3575.0,
-      "tp2": 3585.18,
-      "rr": 1.4,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.59,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.59 (Fade the session range), price below VWAP.",
-      "created_at": "2026-11-23T01:01:27.242804+00:00",
-      "checked_at": "2026-11-23T01:14:35.321525+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3584.12,
-      "entry_high": 3585.18,
-      "sl": 3589.12,
-      "tp1": 3575.0,
-      "tp2": 3568.32,
-      "rr": 2.2,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.65,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "invalid",
-      "reason": "Price 3593.17 broke above the SL 3589.12 before the entry triggered.",
-      "created_at": "2026-11-23T01:01:27.242804+00:00",
-      "checked_at": "2026-11-23T01:14:35.321525+00:00"
-    }
-  ],
+  "updated_at": "2026-11-23T01:16:10.063953+00:00",
+  "atr": 10.0414285714285,
+  "price": 3614.05,
+  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
+  "setups": [],
   "research": [
-    "Gold 3574.40 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3575.00, ATR 7.16, day range 3568.32-3585.18.",
-    "DXY 103.78 (-0.07% today, flat), gold-dollar corr -0.13.",
-    "WTI 82.87 (-0.01% today, flat), gold-oil corr -0.30.",
-    "Headlines: dollar +1.00, oil +0.00.",
-    "Dollar: WTI and Brent Crude Oil Prices Slide as Bessent Challenges Fed's Hawkish Rate Expectations - FXLeaders",
-    "Oil: WTI crude oil prices may trend lower - The Business Times",
+    "Gold 3615.45 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3581.09, ATR 10.04, day range 3568.32-3622.00.",
+    "DXY 103.78 (-0.07% today, flat), gold-dollar corr -0.12.",
+    "WTI 83.13 (+0.30% today, flat), gold-oil corr -0.24.",
+    "Headlines: dollar -0.05, oil +0.00.",
+    "Dollar: Treasury Yields Fall, German Bunds\u2019 Tick Higher - WSJ",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -76,5 +36,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-23T01:14:35.321525+00:00"
+  "last_check": "2026-11-23T01:29:16.225930+00:00"
 }
