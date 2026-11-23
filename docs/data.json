@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-23 20:20 UTC",
+  "updated": "2026-11-23 20:35 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3639.02,
+  "price": 3640.87,
   "stance": "Strategy: the SELL plan from 18:53 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3568.32,
-      "entry_high": 3571.16,
-      "sl": 3566.16,
-      "tp1": 3584.06,
+      "entry_high": 3570.97,
+      "sl": 3565.97,
+      "tp1": 3584.34,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,16 +19,16 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.46% with hawkish news (+0.52) and gold is moving against it (corr -0.52). Buying fights the dollar.",
+      "reason": "Dollar is up +0.47% with hawkish news (+0.52) and gold is moving against it (corr -0.53). Buying fights the dollar.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T20:20:59.048445+00:00"
+      "checked_at": "2026-11-23T20:35:38.981835+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3686.82,
+      "entry_low": 3687.01,
       "entry_high": 3689.66,
-      "sl": 3691.82,
-      "tp1": 3673.92,
+      "sl": 3692.01,
+      "tp1": 3673.64,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T20:20:59.048445+00:00"
+      "checked_at": "2026-11-23T20:35:38.981835+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "down",
     "htf": "up",
     "session": "newyork",
-    "vwap": 3628.791181186872,
-    "atr": 3.931428571428569,
+    "vwap": 3628.95015659722,
+    "atr": 4.27071428571425,
     "day_low": 3568.32,
     "day_high": 3689.66,
-    "range_pos": 0.582660293390473
+    "range_pos": 0.5979067084226134
   },
   "dxy": {
     "ok": true,
-    "last": 104.32599639892578,
-    "pct": 0.4593182216235214,
+    "last": 104.33899688720703,
+    "pct": 0.47183686735290004,
     "state": "up",
-    "corr": -0.5171116532907473
+    "corr": -0.5267884777447551
   },
   "oil": {
     "ok": true,
-    "last": 79.93000030517578,
-    "pct": -3.536085304843386,
+    "last": 80.0199966430664,
+    "pct": -3.4274727810349055,
     "state": "down",
-    "corr": -0.3086544306458635
+    "corr": -0.3028377706564072
   },
   "news": {
-    "usd": 0.5222705664359364,
-    "oil": -0.7870440593675074,
+    "usd": 0.5196738743254299,
+    "oil": -0.834532323948323,
     "shock": true,
     "usd_headlines": [
       "Treasury Yields Rise as Huang Returns as CEO, European Bond Yields Slip - WSJ",
@@ -79,9 +79,9 @@
       "U.S. Treasury yields rise as Nvidia's board reinstates Jensen Huang as CEO - Quartz"
     ],
     "oil_headlines": [
+      "Gas prices fall ahead of Thanksgiving as crude oil slides - Olean Times Herald",
       "Crude Oil Falls as Middle East Supply Rises While Geopolitical Risks Persist - kalkine.ca",
-      "Oil Prices Today: Brent Crude Falls to $91.11, WTI Drops 1.51% to $82.15 - Arbiterz",
-      "Crude oil remains under pressure as demand concerns continue to weigh despite high US-Iran tensions - investingLive"
+      "Oil Prices Today: Brent Crude Falls to $91.11, WTI Drops 1.51% to $82.15 - Arbiterz"
     ]
   },
   "events": [
@@ -97,7 +97,7 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.5815823939542116,
+      "score": 0.5837330565568127,
       "trust": 1.0
     },
     {
@@ -109,14 +109,14 @@
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.24226585623679267,
+      "score": 0.11960000000000003,
       "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11800116475744535,
-      "trust": 0.983343039645378
+      "score": 0.11800398484092729,
+      "trust": 0.9833665403410609
     },
     {
       "style": "Fade the session range",
