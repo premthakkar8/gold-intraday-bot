@@ -1,55 +1,15 @@
 {
-  "updated": "2026-11-24 20:28 UTC",
+  "updated": "2026-11-24 20:42 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3552.21,
-  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
+  "price": 3550.87,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.45). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3551.9,
-      "entry_high": 3554.74,
-      "sl": 3549.74,
-      "tp1": 3567.64,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.59,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
-      "created_at": "2026-11-24T18:45:48.253084+00:00",
-      "checked_at": "2026-11-24T20:28:17.687621+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3675.46,
-      "entry_high": 3678.3,
-      "sl": 3680.46,
-      "tp1": 3662.56,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.24,
-      "style": "trend_align",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-24T16:19:16.139337+00:00",
-      "checked_at": "2026-11-24T20:28:17.687621+00:00"
-    }
-  ],
-  "active": [
-    {
-      "side": "BUY",
-      "entry_low": 3552.86,
-      "entry_high": 3555.6,
-      "sl": 3550.6,
-      "tp1": 3568.75,
+      "entry_low": 3546.76,
+      "entry_high": 3549.58,
+      "sl": 3544.58,
+      "tp1": 3562.54,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -58,43 +18,60 @@
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "valid",
-      "reason": "Score 0.45 (Trade with the dollar), dollar softer -0.48%, price below VWAP.",
-      "created_at": "2026-11-24T18:45:48.253084+00:00",
-      "checked_at": "2026-11-24T19:30:49.319212+00:00",
-      "entry": 3555.6,
-      "entered_at": "2026-11-24T19:30:49.319212+00:00",
-      "closed": null
+      "status": "invalid",
+      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
+      "created_at": "2026-11-24T20:42:59.303112+00:00",
+      "checked_at": "2026-11-24T20:42:59.303112+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3675.48,
+      "entry_high": 3678.3,
+      "sl": 3680.48,
+      "tp1": 3662.52,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.1,
+      "style": "trend_align",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-24T16:19:16.139337+00:00",
+      "checked_at": "2026-11-24T20:42:59.303112+00:00"
     }
   ],
+  "active": [],
   "blackout": null,
   "chart": {
     "structure": "down",
     "htf": "down",
     "session": "newyork",
-    "vwap": 3613.5944707227445,
-    "atr": 3.923571428571417,
-    "day_low": 3551.9,
+    "vwap": 3612.852991999315,
+    "atr": 3.9699999999999624,
+    "day_low": 3546.76,
     "day_high": 3678.3,
-    "range_pos": 0.0024525316455691866
+    "range_pos": 0.03124524859358122
   },
   "dxy": {
     "ok": true,
-    "last": 103.80000305175781,
-    "pct": -0.4870150055683726,
+    "last": 103.80400085449219,
+    "pct": -0.4831823150884101,
     "state": "down",
-    "corr": 0.025076816671069303
+    "corr": 0.041628156610113355
   },
   "oil": {
     "ok": true,
-    "last": 81.56999969482422,
-    "pct": 1.3543691506279225,
+    "last": 81.5,
+    "pct": 1.2673914022377217,
     "state": "up",
-    "corr": 0.28376239449911905
+    "corr": 0.18982114442021042
   },
   "news": {
-    "usd": -0.5545473213718125,
-    "oil": 0.0,
+    "usd": -0.5557167285957917,
+    "oil": -0.33333333333333337,
     "shock": true,
     "usd_headlines": [
       "US Dollar Weakens Against Canada's Loonie as Treasury Yields Edge Down - marketscreener.com",
@@ -134,25 +111,25 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.7062765042150073,
-      "trust": 0.9293111897565886
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.5925643591748679,
-      "trust": 1.0
+      "score": 0.760200628195514,
+      "trust": 1.0002639844677816
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.4506820982057719,
+      "score": 0.4508575092893688,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.12,
       "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.2404906608410618,
+      "score": 0.10398186397984777,
       "trust": 1.0
     },
     {
@@ -163,10 +140,10 @@
     }
   ],
   "record": {
-    "graded": 247,
-    "wins": 64,
+    "graded": 248,
+    "wins": 65,
     "losses": 133,
     "scratches": 50,
-    "avg_r": -0.1878188526623854
+    "avg_r": -0.1830292605145532
   }
 }
