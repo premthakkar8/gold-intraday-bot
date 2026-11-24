@@ -1,18 +1,57 @@
 {
-  "updated_at": "2026-11-24T02:09:43.148270+00:00",
-  "atr": 9.342142857142822,
-  "price": 3652.89,
-  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
-  "setups": [],
+  "updated_at": "2026-11-24T02:24:16.748150+00:00",
+  "atr": 8.470714285714232,
+  "price": 3651.83,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.13). Take an entry only if price reaches it.",
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3625.64,
+      "entry_high": 3625.98,
+      "sl": 3620.98,
+      "tp1": 3645.13,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.13,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.13. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-24T02:24:16.748150+00:00",
+      "checked_at": "2026-11-24T02:37:22.902189+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3677.96,
+      "entry_high": 3678.3,
+      "sl": 3682.96,
+      "tp1": 3658.81,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-24T02:24:16.748150+00:00",
+      "checked_at": "2026-11-24T02:37:22.902189+00:00"
+    }
+  ],
   "research": [
-    "Gold 3652.89 (VANTAGE:XAUUSD). 5m up, 1h up. VWAP 3656.41, ATR 9.34, day range 3625.64-3678.30.",
-    "DXY 104.22 (-0.09% today, down), gold-dollar corr -0.26.",
-    "WTI 80.02 (-0.57% today, down), gold-oil corr -0.34.",
-    "Headlines: dollar +0.87, oil -1.00, fresh shock.",
+    "Gold 3652.06 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3656.40, ATR 8.47, day range 3625.64-3678.30.",
+    "DXY 104.21 (-0.09% today, down), gold-dollar corr -0.27.",
+    "WTI 80.03 (-0.56% today, down), gold-oil corr -0.25.",
+    "Headlines: dollar +0.93, oil -1.00, fresh shock.",
     "Dollar: Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
-    "Oil: Gas prices fall ahead of Thanksgiving as crude oil slides - Olean Times Herald",
+    "Oil: WTI Crude Oil Drops Below $80 as Concerns Over Supply Surplus Weigh Down Prices - KuCoin",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [],
-  "last_check": "2026-11-24T02:08:03.592667+00:00"
+  "last_check": "2026-11-24T02:37:22.902189+00:00"
 }

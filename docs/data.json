@@ -1,37 +1,76 @@
 {
-  "updated": "2026-11-24 02:09 UTC",
+  "updated": "2026-11-24 02:24 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3652.89,
-  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
-  "setups": [],
+  "price": 3652.06,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.13). Take an entry only if price reaches it.",
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3625.64,
+      "entry_high": 3625.98,
+      "sl": 3620.98,
+      "tp1": 3645.13,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.13,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.13. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-24T02:24:16.748150+00:00",
+      "checked_at": "2026-11-24T02:24:16.748150+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3677.96,
+      "entry_high": 3678.3,
+      "sl": 3682.96,
+      "tp1": 3658.81,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-24T02:24:16.748150+00:00",
+      "checked_at": "2026-11-24T02:24:16.748150+00:00"
+    }
+  ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "up",
     "session": "asia",
-    "vwap": 3656.4114205658707,
-    "atr": 9.342142857142822,
+    "vwap": 3656.397645326254,
+    "atr": 8.470714285714232,
     "day_low": 3625.64,
     "day_high": 3678.3,
-    "range_pos": 0.517470565894414
+    "range_pos": 0.5017090770983653
   },
   "dxy": {
     "ok": true,
-    "last": 104.21700286865234,
-    "pct": -0.08723759418800282,
+    "last": 104.21099853515625,
+    "pct": -0.09299394420275577,
     "state": "down",
-    "corr": -0.2646118617619979
+    "corr": -0.26772937865770285
   },
   "oil": {
     "ok": true,
-    "last": 80.0199966430664,
-    "pct": -0.5715788949797013,
+    "last": 80.02999877929688,
+    "pct": -0.5591507938200769,
     "state": "down",
-    "corr": -0.3363593319368331
+    "corr": -0.24941243741060926
   },
   "news": {
-    "usd": 0.8664958481332802,
+    "usd": 0.9291495176300701,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
@@ -40,9 +79,9 @@
       "GLOBAL MARKETS-Wall Street soars on Huang's return to Nvidia, Treasury yields rise - Devdiscourse"
     ],
     "oil_headlines": [
-      "Gas prices fall ahead of Thanksgiving as crude oil slides - Olean Times Herald",
-      "Crude Oil Falls as Middle East Supply Rises While Geopolitical Risks Persist - kalkine.ca",
-      "Crude oil remains under pressure as demand concerns continue to weigh despite high US-Iran tensions - investingLive"
+      "WTI Crude Oil Drops Below $80 as Concerns Over Supply Surplus Weigh Down Prices - KuCoin",
+      "[Global Oil Prices] Plunge More Than 3% ... Brent Crude Falls Below $90 - \ud30c\uc774\ub0b8\uc15c\ub274\uc2a4",
+      "Gas prices fall ahead of Thanksgiving as crude oil slides - Olean Times Herald"
     ]
   },
   "events": [
@@ -77,34 +116,34 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.6927716832028022,
-      "trust": 0.8836373510239824
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.34676607334264115,
-      "trust": 0.619225130969002
+      "score": 0.4255230631470889,
+      "trust": 0.7598626127626587
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.141473458712129,
-      "trust": 0.9632821580156391
+      "score": 0.12941716093383912,
+      "trust": 0.8516452152897651
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11483112410198967,
-      "trust": 0.9569260341832473
+      "score": 0.11509814041111285,
+      "trust": 0.9591511700926072
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.0948430501401925,
+      "trust": 0.9484305014019249
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.09020468214260993,
+      "trust": 0.9020468214260993
     }
   ],
   "record": {
