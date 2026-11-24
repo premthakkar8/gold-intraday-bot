@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-24T23:29:10.857243+00:00",
-  "atr": 3.5571428571428703,
-  "price": 3553.61,
+  "updated_at": "2026-11-24T23:43:46.162715+00:00",
+  "atr": 4.43357142857144,
+  "price": 3549.47,
   "stance": "Strategy: the BUY plan from 22:01 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3546.76,
-      "entry_high": 3549.8,
-      "sl": 3544.8,
-      "tp1": 3562.19,
+      "entry_high": 3549.32,
+      "sl": 3544.32,
+      "tp1": 3562.92,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T20:42:59.303112+00:00",
-      "checked_at": "2026-11-24T23:42:17.826866+00:00"
+      "checked_at": "2026-11-24T23:56:53.488835+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3675.26,
+      "entry_low": 3675.74,
       "entry_high": 3678.3,
-      "sl": 3680.26,
-      "tp1": 3662.87,
+      "sl": 3680.74,
+      "tp1": 3662.14,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,13 +40,13 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T16:19:16.139337+00:00",
-      "checked_at": "2026-11-24T23:42:17.826866+00:00"
+      "checked_at": "2026-11-24T23:56:53.488835+00:00"
     }
   ],
   "research": [
-    "Gold 3568.03 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3609.66, ATR 3.56, day range 3546.76-3678.30.",
+    "Gold 3557.21 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3609.21, ATR 4.43, day range 3546.76-3678.30.",
     "DXY 103.85 (-0.44% today, down), gold-dollar corr -0.14.",
-    "WTI 81.63 (+1.43% today, up), gold-oil corr +0.07.",
+    "WTI 81.62 (+1.42% today, up), gold-oil corr +0.07.",
     "Headlines: dollar -1.00, oil +1.00, fresh shock.",
     "Dollar: US Dollar Weakens Against Canada's Loonie as Treasury Yields Edge Down - marketscreener.com",
     "Oil: Scott Bessent Unleashes Fresh Iran Sanctions as Tehran Warns Tankers Against Using Strait of Hormuz: Crud - Benzinga",
@@ -120,5 +120,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-24T23:42:17.826866+00:00"
+  "last_check": "2026-11-24T23:56:53.488835+00:00"
 }
