@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-11-24T17:03:17.181194+00:00",
-  "atr": 6.692857142857195,
-  "price": 3567.72,
+  "updated_at": "2026-11-24T17:17:53.265574+00:00",
+  "atr": 6.530714285714306,
+  "price": 3566.81,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.46). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3559.07,
-      "entry_high": 3560.39,
-      "sl": 3555.39,
-      "tp1": 3577.09,
+      "entry_high": 3560.48,
+      "sl": 3555.48,
+      "tp1": 3576.96,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.46,
-      "style": "dollar_lead",
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.46 (Trade with the dollar), dollar softer -0.41%, price below VWAP.",
+      "reason": "Score 0.46 (Trade with the intraday trend), dollar softer -0.48%, price below VWAP.",
       "created_at": "2026-11-24T16:19:16.139337+00:00",
-      "checked_at": "2026-11-24T17:16:23.719631+00:00"
+      "checked_at": "2026-11-24T17:31:00.057505+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3676.98,
+      "entry_low": 3676.89,
       "entry_high": 3678.3,
-      "sl": 3681.98,
-      "tp1": 3660.28,
+      "sl": 3681.89,
+      "tp1": 3660.41,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.28,
+      "style": "oil_shock",
       "favored": false,
       "ready": false,
       "status": "far",
-      "reason": "Price is 113.11 away from the entry (16.9 ATR). Unlikely to fill soon.",
+      "reason": "Price is 110.15 away from the entry (16.9 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-24T16:19:16.139337+00:00",
-      "checked_at": "2026-11-24T17:16:23.719631+00:00"
+      "checked_at": "2026-11-24T17:31:00.057505+00:00"
     }
   ],
   "research": [
-    "Gold 3563.87 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3624.50, ATR 6.69, day range 3559.07-3678.30.",
-    "DXY 103.88 (-0.41% today, down), gold-dollar corr -0.16.",
-    "WTI 80.79 (+0.39% today, flat), gold-oil corr +0.30.",
-    "Headlines: dollar -0.36, oil -0.18, fresh shock.",
-    "Dollar: Shafaq News..Dollar falls in Baghdad, Erbil markets - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
-    "Oil: Scott Bessent Unleashes Fresh Iran Sanctions as Tehran Warns Tankers Against Using Strait of Hormuz: Crud - Benzinga",
+    "Gold 3566.74 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3623.61, ATR 6.53, day range 3559.07-3678.30.",
+    "DXY 103.81 (-0.48% today, down), gold-dollar corr -0.18.",
+    "WTI 80.65 (+0.21% today, flat), gold-oil corr +0.34.",
+    "Headlines: dollar -0.15, oil -0.69, fresh shock.",
+    "Dollar: US dollar gains as renewed AI euphoria fuels Fed hike bets - The Business Times",
+    "Oil: Crude oil prices extend losses, drop 23% in November; Brent crude drops 3%; WTI dips below $80 per barrel - Upstox",
     "Next high-impact US release: Core PCE Price Index m/m Wed 13:30 UTC."
   ],
   "active": [
@@ -142,5 +142,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-24T17:16:23.719631+00:00"
+  "last_check": "2026-11-24T17:31:00.057505+00:00"
 }
