@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-24T04:21:16.723550+00:00",
-  "atr": 4.02071428571425,
-  "price": 3624.9,
+  "updated_at": "2026-11-24T04:35:52.840825+00:00",
+  "atr": 3.596428571428565,
+  "price": 3635.84,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.20). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3625.64,
-      "entry_high": 3628.43,
-      "sl": 3623.43,
-      "tp1": 3641.46,
+      "entry_low": 3624.86,
+      "entry_high": 3627.88,
+      "sl": 3622.88,
+      "tp1": 3640.33,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T02:24:16.748150+00:00",
-      "checked_at": "2026-11-24T04:34:23.013505+00:00"
+      "checked_at": "2026-11-24T04:48:59.345521+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3675.51,
+      "entry_low": 3675.28,
       "entry_high": 3678.3,
-      "sl": 3680.51,
-      "tp1": 3662.48,
+      "sl": 3680.28,
+      "tp1": 3662.83,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,18 +40,18 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T02:24:16.748150+00:00",
-      "checked_at": "2026-11-24T04:34:23.013505+00:00"
+      "checked_at": "2026-11-24T04:48:59.345521+00:00"
     }
   ],
   "research": [
-    "Gold 3632.32 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3649.14, ATR 4.02, day range 3625.64-3678.30.",
-    "DXY 104.29 (-0.02% today, flat), gold-dollar corr -0.27.",
-    "WTI 79.85 (-0.78% today, down), gold-oil corr -0.18.",
-    "Headlines: dollar +0.73, oil -1.00, fresh shock.",
+    "Gold 3626.39 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3648.40, ATR 3.60, day range 3624.86-3678.30.",
+    "DXY 104.29 (-0.02% today, flat), gold-dollar corr -0.28.",
+    "WTI 79.84 (-0.80% today, down), gold-oil corr -0.23.",
+    "Headlines: dollar +0.69, oil -1.00, fresh shock.",
     "Dollar: Treasury Yields Fall, German Bunds\u2019 Tick Higher - WSJ",
     "Oil: Crude oil falls below $90 as depot petrol prices slide to N1,060 - Daily Trust",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [],
-  "last_check": "2026-11-24T04:34:23.013505+00:00"
+  "last_check": "2026-11-24T04:48:59.345521+00:00"
 }
