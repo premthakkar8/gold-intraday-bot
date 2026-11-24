@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-24T12:10:18.320201+00:00",
-  "atr": 3.8807142857142156,
-  "price": 3626.26,
+  "updated_at": "2026-11-24T12:24:52.351642+00:00",
+  "atr": 3.899999999999961,
+  "price": 3637.27,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.48). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3607.53,
-      "entry_high": 3610.4,
-      "sl": 3605.4,
-      "tp1": 3623.23,
+      "entry_high": 3610.39,
+      "sl": 3605.39,
+      "tp1": 3623.25,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T08:30:28.601666+00:00",
-      "checked_at": "2026-11-24T12:23:24.195567+00:00"
+      "checked_at": "2026-11-24T12:37:59.703963+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3675.43,
+      "entry_low": 3675.45,
       "entry_high": 3678.3,
-      "sl": 3680.43,
-      "tp1": 3662.6,
+      "sl": 3680.45,
+      "tp1": 3662.58,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,15 +40,15 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T02:24:16.748150+00:00",
-      "checked_at": "2026-11-24T12:23:24.195567+00:00"
+      "checked_at": "2026-11-24T12:37:59.703963+00:00"
     }
   ],
   "research": [
-    "Gold 3622.90 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3634.36, ATR 3.88, day range 3607.53-3678.30.",
-    "DXY 103.95 (-0.34% today, down), gold-dollar corr -0.23.",
-    "WTI 80.40 (-0.10% today, flat), gold-oil corr -0.07.",
-    "Headlines: dollar +1.00, oil -0.64, fresh shock.",
-    "Dollar: 'Several years' of strong jobs, low inflation still ahead: US Federal Reserve - Yeni Safak English",
+    "Gold 3625.55 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3634.19, ATR 3.90, day range 3607.53-3678.30.",
+    "DXY 103.96 (-0.33% today, down), gold-dollar corr -0.27.",
+    "WTI 80.18 (-0.37% today, flat), gold-oil corr -0.05.",
+    "Headlines: dollar +1.00, oil -0.72, fresh shock.",
+    "Dollar: Canadian Dollar Faces Pressure as Oil Falls and the US Dollar Strengthens - kalkine.co.uk",
     "Oil: Crude oil prices extend losses, drop 23% in November; Brent crude drops 3%; WTI dips below $80 per barrel - Upstox",
     "No high-impact US release in the next 24 hours."
   ],
@@ -120,5 +120,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-24T12:23:24.195567+00:00"
+  "last_check": "2026-11-24T12:37:59.703963+00:00"
 }
