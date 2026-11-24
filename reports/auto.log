@@ -1709,3 +1709,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-24 22:01 UTC  live: gold 3555.62 | opened long oil_shock 8f8c8eeb zone 3546.76-3550.21 stop 3545.21 target 3561.59 units 1 risk 5.00 USD tier normal conf 0.58
 2026-11-24 22:02 UTC  live: BUY entry reached at 3555.62
 2026-11-24 22:16 UTC  live: gold 3555.62 | holding long oil_shock 8f8c8eeb | new read long oil_shock not opened
+2026-11-24 22:30 UTC  live: gold 3555.62 | holding long oil_shock 8f8c8eeb | new read long oil_shock not opened
