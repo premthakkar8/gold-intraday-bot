@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-24T18:16:35.871515+00:00",
-  "atr": 4.557857142857139,
-  "price": 3562.62,
+  "updated_at": "2026-11-24T18:31:11.761763+00:00",
+  "atr": 3.7564285714285495,
+  "price": 3557.58,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.44). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3559.07,
-      "entry_high": 3561.56,
-      "sl": 3556.56,
-      "tp1": 3575.33,
+      "entry_high": 3562.0,
+      "sl": 3557.0,
+      "tp1": 3574.67,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,60 +21,38 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T16:19:16.139337+00:00",
-      "checked_at": "2026-11-24T18:29:42.718468+00:00"
+      "checked_at": "2026-11-24T18:44:20.068806+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3675.81,
+      "entry_low": 3675.37,
       "entry_high": 3678.3,
-      "sl": 3680.81,
-      "tp1": 3662.04,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.26,
-      "style": "oil_shock",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-24T16:19:16.139337+00:00",
-      "checked_at": "2026-11-24T18:29:42.718468+00:00"
-    }
-  ],
-  "research": [
-    "Gold 3563.09 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3620.29, ATR 4.56, day range 3559.07-3678.30.",
-    "DXY 103.76 (-0.52% today, down), gold-dollar corr -0.10.",
-    "WTI 81.42 (+1.17% today, up), gold-oil corr +0.30.",
-    "Headlines: dollar -0.60, oil -0.65, fresh shock.",
-    "Dollar: Shafaq News..Dollar falls in Baghdad, Erbil markets - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
-    "Oil: Crude oil prices extend losses, drop 23% in November; Brent crude drops 3%; WTI dips below $80 per barrel - Upstox",
-    "Next high-impact US release: Core PCE Price Index m/m Wed 13:30 UTC."
-  ],
-  "active": [
-    {
-      "side": "BUY",
-      "entry_low": 3617.1,
-      "entry_high": 3618.27,
-      "sl": 3613.27,
-      "tp1": 3635.35,
+      "sl": 3680.37,
+      "tp1": 3662.7,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
       "style": "range_fade",
-      "favored": true,
+      "favored": false,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-24T06:18:35.932836+00:00",
-      "checked_at": "2026-11-24T06:39:11.506463+00:00",
-      "entry": 3618.27,
-      "entered_at": "2026-11-24T06:39:11.506463+00:00",
-      "closed": "sl"
-    },
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-24T16:19:16.139337+00:00",
+      "checked_at": "2026-11-24T18:44:20.068806+00:00"
+    }
+  ],
+  "research": [
+    "Gold 3562.07 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3619.50, ATR 3.76, day range 3559.07-3678.30.",
+    "DXY 103.82 (-0.47% today, down), gold-dollar corr -0.08.",
+    "WTI 81.55 (+1.33% today, up), gold-oil corr +0.30.",
+    "Headlines: dollar -0.60, oil -0.39, fresh shock.",
+    "Dollar: Shafaq News..Dollar falls in Baghdad, Erbil markets - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
+    "Oil: Crude oil prices extend losses, drop 23% in November; Brent crude drops 3%; WTI dips below $80 per barrel - Upstox",
+    "Next high-impact US release: Core PCE Price Index m/m Wed 13:30 UTC."
+  ],
+  "active": [
     {
       "side": "BUY",
       "entry_low": 3607.53,
@@ -120,5 +98,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-24T18:29:42.718468+00:00"
+  "last_check": "2026-11-24T18:44:20.068806+00:00"
 }
