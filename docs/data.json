@@ -1,55 +1,15 @@
 {
-  "updated": "2026-11-24 08:15 UTC",
+  "updated": "2026-11-24 08:30 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3620.71,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.21). Take an entry only if price reaches it.",
+  "price": 3612.13,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.20). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3613.71,
-      "entry_high": 3616.03,
-      "sl": 3611.03,
-      "tp1": 3630.23,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.21,
-      "style": "trend_align",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.21. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-24T06:18:35.932836+00:00",
-      "checked_at": "2026-11-24T08:15:39.805456+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3675.98,
-      "entry_high": 3678.3,
-      "sl": 3680.98,
-      "tp1": 3661.78,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.21,
-      "style": "dollar_lead",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-24T02:24:16.748150+00:00",
-      "checked_at": "2026-11-24T08:15:39.805456+00:00"
-    }
-  ],
-  "active": [
-    {
-      "side": "BUY",
-      "entry_low": 3617.1,
-      "entry_high": 3618.27,
-      "sl": 3613.27,
-      "tp1": 3635.35,
+      "entry_low": 3607.53,
+      "entry_high": 3609.42,
+      "sl": 3604.42,
+      "tp1": 3624.7,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -60,50 +20,67 @@
       "ready": false,
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-24T06:18:35.932836+00:00",
-      "checked_at": "2026-11-24T06:39:11.506463+00:00",
-      "entry": 3618.27,
-      "entered_at": "2026-11-24T06:39:11.506463+00:00",
-      "closed": null
+      "created_at": "2026-11-24T08:30:28.601666+00:00",
+      "checked_at": "2026-11-24T08:30:28.601666+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3676.41,
+      "entry_high": 3678.3,
+      "sl": 3681.41,
+      "tp1": 3661.13,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.2,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-24T02:24:16.748150+00:00",
+      "checked_at": "2026-11-24T08:30:28.601666+00:00"
     }
   ],
+  "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
-    "htf": "down",
+    "structure": "sideways",
+    "htf": "sideways",
     "session": "london",
-    "vwap": 3639.317332214445,
-    "atr": 4.872857142857096,
-    "day_low": 3613.71,
+    "vwap": 3638.6646053204736,
+    "atr": 5.65499999999994,
+    "day_low": 3607.53,
     "day_high": 3678.3,
-    "range_pos": 0.10837590958352662
+    "range_pos": 0.06499929348593911
   },
   "dxy": {
     "ok": true,
-    "last": 104.31500244140625,
-    "pct": 0.006714522634743573,
+    "last": 104.33300018310547,
+    "pct": 0.023968944089384193,
     "state": "flat",
-    "corr": -0.23525376906353715
+    "corr": -0.208185141144767
   },
   "oil": {
     "ok": true,
-    "last": 79.94999694824219,
-    "pct": -0.6585566433699018,
+    "last": 79.80999755859375,
+    "pct": -0.8325121401503032,
     "state": "down",
-    "corr": 0.11360904921595012
+    "corr": 0.0964911786294305
   },
   "news": {
-    "usd": 0.7778320631265081,
-    "oil": -0.6205700392796876,
+    "usd": 0.7316514523729242,
+    "oil": -0.6180934733742959,
     "shock": true,
     "usd_headlines": [
       "Canadian Dollar Faces Pressure as Oil Falls and the US Dollar Strengthens - kalkine.co.uk",
-      "Fed rate hike bets underpin US Dollar outlook - BBH - www.tmgm.com",
-      "Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters"
+      "Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
+      "The U.S. dollar's bullish trend is not yet over! Goldman Sachs: Federal Reserve rate hikes will continue to provide support, with a moderate cooling expected..."
     ],
     "oil_headlines": [
       "Scott Bessent Unleashes Fresh Iran Sanctions as Tehran Warns Tankers Against Using Strait of Hormuz: Crud - Benzinga",
-      "Brent Crude Falls Below $90: What Is Happening in the Global Market - TengriNews",
+      "Crude Oil Slips Below $89 To Three-Month Low As Supply Surplus Concerns Mount - Free Press Journal",
       "Canadian Dollar Faces Pressure as Oil Falls and the US Dollar Strengthens - kalkine.co.uk"
     ]
   },
@@ -141,32 +118,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5750178144131968,
-      "trust": 0.7372023261707651
+      "score": 0.5106550147484596,
+      "trust": 0.7737197193158479
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2103710362766568,
-      "trust": 0.8674343641658604
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.20688536288466833,
-      "trust": 0.873501884254316
+      "score": 0.1954149042579023,
+      "trust": 0.8637856803296659
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.114953784278515,
-      "trust": 0.9579482023209585
+      "score": 0.11498962176305888,
+      "trust": 0.9582468480254908
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.11483721760244592,
+      "trust": 1.1483721760244592
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.09054399016142152,
+      "trust": 0.9054399016142152
     }
   ],
   "record": {
