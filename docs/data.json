@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-24 19:59 UTC",
+  "updated": "2026-11-24 20:13 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3555.61,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
+  "price": 3556.99,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3552.86,
-      "entry_high": 3555.75,
-      "sl": 3550.75,
-      "tp1": 3568.53,
+      "entry_low": 3551.9,
+      "entry_high": 3554.56,
+      "sl": 3549.56,
+      "tp1": 3567.9,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.43,
-      "style": "dollar_lead",
+      "score": 0.58,
+      "style": "oil_shock",
       "favored": true,
       "ready": false,
-      "status": "valid",
-      "reason": "Score 0.43 (Trade with the dollar), dollar softer -0.47%, price below VWAP.",
+      "status": "invalid",
+      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-24T18:45:48.253084+00:00",
-      "checked_at": "2026-11-24T19:59:00.118655+00:00"
+      "checked_at": "2026-11-24T20:13:40.024351+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3675.41,
+      "entry_low": 3675.64,
       "entry_high": 3678.3,
-      "sl": 3680.41,
-      "tp1": 3662.63,
+      "sl": 3680.64,
+      "tp1": 3662.3,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.08,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T16:19:16.139337+00:00",
-      "checked_at": "2026-11-24T19:59:00.118655+00:00"
+      "checked_at": "2026-11-24T20:13:40.024351+00:00"
     }
   ],
   "active": [
@@ -69,42 +69,41 @@
   ],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "down",
     "session": "newyork",
-    "vwap": 3614.967661778775,
-    "atr": 3.84499999999993,
-    "day_low": 3552.86,
+    "vwap": 3614.264766187653,
+    "atr": 4.245714285714257,
+    "day_low": 3551.9,
     "day_high": 3678.3,
-    "range_pos": 0.021922831632653052
+    "range_pos": 0.040268987341769674
   },
   "dxy": {
     "ok": true,
-    "last": 103.81900024414062,
-    "pct": -0.46880241149374136,
+    "last": 103.81800079345703,
+    "pct": -0.469760584113732,
     "state": "down",
-    "corr": 0.048303026084689483
+    "corr": -0.013763827164673711
   },
   "oil": {
     "ok": true,
-    "last": 81.88999938964844,
-    "pct": 1.7519830689636375,
+    "last": 81.55000305175781,
+    "pct": 1.3295224281722586,
     "state": "up",
-    "corr": 0.23285535577427705
+    "corr": 0.23257542627805475
   },
   "news": {
-    "usd": -0.6955830021615582,
-    "oil": -0.6861005692139582,
+    "usd": -0.5534309170663152,
+    "oil": 0.0,
     "shock": true,
     "usd_headlines": [
       "US Dollar Weakens Against Canada's Loonie as Treasury Yields Edge Down - marketscreener.com",
-      "Shafaq News..Dollar falls in Baghdad, Erbil markets - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
-      "US dollar gains as renewed AI euphoria fuels Fed hike bets - The Business Times"
+      "US dollar gains as renewed AI euphoria fuels Fed hike bets - The Business Times",
+      "U.S. Treasury Yields, European Bond Yields Fall as Oil Prices Remain Under Pressure -- Update - marketscreener.com"
     ],
     "oil_headlines": [
-      "Crude oil prices extend losses, drop 23% in November; Brent crude drops 3%; WTI dips below $80 per barrel - Upstox",
-      "Scott Bessent Unleashes Fresh Iran Sanctions as Tehran Warns Tankers Against Using Strait of Hormuz: Crud - Benzinga",
-      "WTI Crude Oil Drops Below $80 as Concerns Over Supply Surplus Weigh Down Prices - KuCoin"
+      "International Crude Oil Prices Plunge; WTI Crude Falls Below $80 Mark - Sunsirs",
+      "Scott Bessent Unleashes Fresh Iran Sanctions as Tehran Warns Tankers Against Using Strait of Hormuz: Crud - Benzinga"
     ]
   },
   "events": [
@@ -134,31 +133,31 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5163589950862033,
-      "trust": 0.9220696340825058
+      "score": 0.7062765042150074,
+      "trust": 0.9293111897565887
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.5848863139417082,
+      "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.43342654287694526,
-      "trust": 0.9185929234296821
+      "score": 0.4541276421906742,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.12354464761763802,
-      "trust": 1.2354464761763801
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.11961502083003457,
-      "trust": 0.9967918402502881
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
+      "bias": "short",
+      "score": 0.0814,
       "trust": 1.0
     }
   ],
