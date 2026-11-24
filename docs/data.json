@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-24 15:06 UTC",
+  "updated": "2026-11-24 15:20 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3610.43,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
+  "price": 3590.97,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.42). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3607.53,
-      "entry_high": 3608.61,
-      "sl": 3603.61,
-      "tp1": 3625.92,
+      "entry_low": 3582.64,
+      "entry_high": 3582.98,
+      "sl": 3577.98,
+      "tp1": 3602.13,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.4,
+      "score": 0.42,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-24T08:30:28.601666+00:00",
-      "checked_at": "2026-11-24T15:06:05.358195+00:00"
+      "status": "valid",
+      "reason": "Score 0.42 (Trade with the dollar), dollar softer -0.45%, price below VWAP.",
+      "created_at": "2026-11-24T15:20:35.307897+00:00",
+      "checked_at": "2026-11-24T15:20:35.307897+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3677.22,
+      "entry_low": 3677.96,
       "entry_high": 3678.3,
-      "sl": 3682.22,
-      "tp1": 3659.91,
+      "sl": 3682.96,
+      "tp1": 3658.81,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T02:24:16.748150+00:00",
-      "checked_at": "2026-11-24T15:06:05.358195+00:00"
+      "checked_at": "2026-11-24T15:20:35.307897+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3632.4737554899557,
-    "atr": 7.135714285714292,
-    "day_low": 3607.53,
+    "vwap": 3631.7794906666245,
+    "atr": 8.468571428571424,
+    "day_low": 3582.64,
     "day_high": 3678.3,
-    "range_pos": 0.04097781545852249
+    "range_pos": 0.08707923897135585
   },
   "dxy": {
     "ok": true,
-    "last": 103.79499816894531,
-    "pct": -0.4918131829631349,
+    "last": 103.83699798583984,
+    "pct": -0.45154799003910073,
     "state": "down",
-    "corr": -0.2713659199836883
+    "corr": -0.3385229879550857
   },
   "oil": {
     "ok": true,
-    "last": 81.52999877929688,
-    "pct": 1.30466622585301,
+    "last": 81.29000091552734,
+    "pct": 1.0064581570671198,
     "state": "up",
-    "corr": 0.10571854797734526
+    "corr": 0.2364759885733808
   },
   "news": {
-    "usd": 0.29724947965797455,
-    "oil": -0.6374488368263829,
+    "usd": 0.14300030790169216,
+    "oil": -0.34366747052537844,
     "shock": true,
     "usd_headlines": [
       "US dollar gains as renewed AI euphoria fuels Fed hike bets - The Business Times",
@@ -81,7 +81,7 @@
     "oil_headlines": [
       "Crude oil prices extend losses, drop 23% in November; Brent crude drops 3%; WTI dips below $80 per barrel - Upstox",
       "Scott Bessent Unleashes Fresh Iran Sanctions as Tehran Warns Tankers Against Using Strait of Hormuz: Crud - Benzinga",
-      "Brent Crude Falls Below $90: What Is Happening in the Global Market - TengriNews"
+      "Iran supports unanimous OPEC output cut plan: Zangeneh - Yeni Safak English"
     ]
   },
   "events": [
@@ -118,26 +118,26 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4452602767517693,
-      "trust": 0.7951076370567308
+      "score": 0.4452602767517692,
+      "trust": 0.7951076370567307
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.40199605336700617,
-      "trust": 0.9162646661188112
+      "score": 0.4182019390440867,
+      "trust": 0.9163814657702022
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11114452170941083,
-      "trust": 1.1114452170941083
+      "score": 0.11112897658419015,
+      "trust": 1.1112897658419014
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.10442297624434202,
-      "trust": 0.8701914687028502
+      "score": 0.1044447041202582,
+      "trust": 0.8703725343354851
     },
     {
       "style": "Trade with the intraday trend",
