@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-23 23:58 UTC",
+  "updated": "2026-11-24 00:12 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3629.62,
-  "stance": "Strategy: the SELL plan from 22:01 UTC is still running (Trade with the dollar). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3628.61,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.29). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3568.32,
-      "entry_high": 3570.54,
-      "sl": 3565.54,
-      "tp1": 3584.99,
+      "entry_low": 3619.8,
+      "entry_high": 3621.74,
+      "sl": 3616.74,
+      "tp1": 3636.88,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,41 +19,41 @@
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.45% with hawkish news (+0.73) and gold is moving against it (corr -0.38). Buying fights the dollar.",
-      "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T23:58:21.827286+00:00"
+      "reason": "Dollar is up +0.45% with hawkish news (+0.72) and gold is moving against it (corr -0.38). Buying fights the dollar.",
+      "created_at": "2026-11-24T00:12:53.372391+00:00",
+      "checked_at": "2026-11-24T00:12:53.372391+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3687.44,
-      "entry_high": 3689.66,
-      "sl": 3692.44,
-      "tp1": 3672.99,
+      "entry_low": 3673.35,
+      "entry_high": 3675.29,
+      "sl": 3678.35,
+      "tp1": 3658.21,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.58,
+      "score": 0.29,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-23T15:42:05.250304+00:00",
-      "checked_at": "2026-11-23T23:58:21.827286+00:00"
+      "status": "far",
+      "reason": "Price is 44.74 away from the entry (8.1 ATR). Unlikely to fill soon.",
+      "created_at": "2026-11-24T00:12:53.372391+00:00",
+      "checked_at": "2026-11-24T00:12:53.372391+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "up",
-    "session": "late",
-    "vwap": 3629.278823998348,
-    "atr": 5.052857142857159,
-    "day_low": 3568.32,
-    "day_high": 3689.66,
-    "range_pos": 0.5051920224163498
+    "session": "asia",
+    "vwap": 3646.7241783516474,
+    "atr": 5.555000000000064,
+    "day_low": 3619.8,
+    "day_high": 3675.29,
+    "range_pos": 0.15876734546765148
   },
   "dxy": {
     "ok": true,
@@ -64,13 +64,13 @@
   },
   "oil": {
     "ok": true,
-    "last": 80.37000274658203,
-    "pct": -3.028468375983718,
-    "state": "down",
-    "corr": -0.17249862596853727
+    "last": 80.55999755859375,
+    "pct": 0.6999969482421875,
+    "state": "up",
+    "corr": -0.023786202680520032
   },
   "news": {
-    "usd": 0.7276331237659996,
+    "usd": 0.7229907108445335,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
@@ -95,41 +95,41 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.5768716426687808,
-      "trust": 1.0
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5600886180586213,
-      "trust": 0.8236597324391489
+      "score": 0.5286943435507393,
+      "trust": 0.9440970420548915
     },
     {
-      "style": "Trade with the intraday trend",
+      "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.27284797080217466,
-      "trust": 1.0
+      "score": 0.29048727434527877,
+      "trust": 0.9166632069985741
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.11214523347760125,
+      "trust": 1.1214523347760124
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.1080574796826197,
-      "trust": 0.9004789973551641
+      "score": 0.1077825736699498,
+      "trust": 0.8981881139162483
     },
     {
-      "style": "Fade the session range",
+      "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
     }
   ],
   "record": {
-    "graded": 230,
+    "graded": 231,
     "wins": 58,
     "losses": 124,
-    "scratches": 48,
-    "avg_r": -0.1886576374243878
+    "scratches": 49,
+    "avg_r": -0.1878409376952779
   }
 }
