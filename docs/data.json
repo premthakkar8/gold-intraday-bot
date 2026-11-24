@@ -1,77 +1,77 @@
 {
-  "updated": "2026-11-24 09:44 UTC",
+  "updated": "2026-11-24 09:58 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3625.01,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.22). Take an entry only if price reaches it.",
+  "price": 3621.51,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3607.53,
-      "entry_high": 3609.73,
-      "sl": 3604.73,
-      "tp1": 3624.24,
+      "entry_high": 3610.06,
+      "sl": 3605.06,
+      "tp1": 3623.74,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.5,
+      "style": "trend_align",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.50 (Trade with the intraday trend), dollar softer -0.10%, price below VWAP.",
+      "created_at": "2026-11-24T08:30:28.601666+00:00",
+      "checked_at": "2026-11-24T09:58:44.977645+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3675.77,
+      "entry_high": 3678.3,
+      "sl": 3680.77,
+      "tp1": 3662.09,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
       "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-24T08:30:28.601666+00:00",
-      "checked_at": "2026-11-24T09:44:08.941839+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3676.1,
-      "entry_high": 3678.3,
-      "sl": 3681.1,
-      "tp1": 3661.59,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.22,
-      "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T02:24:16.748150+00:00",
-      "checked_at": "2026-11-24T09:44:08.941839+00:00"
+      "checked_at": "2026-11-24T09:58:44.977645+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "sideways",
     "session": "london",
-    "vwap": 3636.3233179158965,
-    "atr": 5.098571428571404,
+    "vwap": 3636.005330638255,
+    "atr": 4.498571428571365,
     "day_low": 3607.53,
     "day_high": 3678.3,
-    "range_pos": 0.24699731524657373
+    "range_pos": 0.19754133107248864
   },
   "dxy": {
     "ok": true,
-    "last": 104.2249984741211,
-    "pct": -0.0795722132280777,
-    "state": "flat",
-    "corr": -0.23893512177092446
+    "last": 104.2030029296875,
+    "pct": -0.10065932516268089,
+    "state": "down",
+    "corr": -0.23244436752050385
   },
   "oil": {
     "ok": true,
-    "last": 80.0999984741211,
-    "pct": -0.4721730454298763,
+    "last": 79.87000274658203,
+    "pct": -0.7579530130561422,
     "state": "down",
-    "corr": -0.06036002859628823
+    "corr": -0.028571631611486684
   },
   "news": {
-    "usd": 0.8099111797958276,
-    "oil": -0.6753809218543259,
+    "usd": 0.785597920094498,
+    "oil": -0.6256297092196729,
     "shock": true,
     "usd_headlines": [
       "Canadian Dollar Faces Pressure as Oil Falls and the US Dollar Strengthens - kalkine.co.uk",
@@ -80,8 +80,8 @@
     ],
     "oil_headlines": [
       "Scott Bessent Unleashes Fresh Iran Sanctions as Tehran Warns Tankers Against Using Strait of Hormuz: Crud - Benzinga",
-      "Crude Oil Slips Below $89 To Three-Month Low As Supply Surplus Concerns Mount - Free Press Journal",
-      "Brent Crude Falls Below $90: What Is Happening in the Global Market - TengriNews"
+      "Brent Crude Falls Below $90: What Is Happening in the Global Market - TengriNews",
+      "Canadian Dollar Faces Pressure as Oil Falls and the US Dollar Strengthens - kalkine.co.uk"
     ]
   },
   "events": [
@@ -118,32 +118,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5439363747606816,
-      "trust": 0.8241460223646689
+      "score": 0.5146307971373653,
+      "trust": 0.9189835663167235
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.5027621837400955,
+      "trust": 0.9062400755672508
     },
     {
       "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.2173748566646226,
-      "trust": 0.8637856803296659
+      "bias": "long",
+      "score": 0.15046479659051676,
+      "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11502503199073906,
-      "trust": 0.9585419332561589
+      "score": 0.12,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11483721760244592,
-      "trust": 1.1483721760244592
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.0906108193398778,
-      "trust": 0.906108193398778
+      "score": 0.1,
+      "trust": 1.0
     }
   ],
   "record": {
