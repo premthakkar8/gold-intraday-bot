@@ -1,57 +1,57 @@
 {
-  "updated_at": "2026-11-24T00:27:33.114135+00:00",
-  "atr": 6.6885714285715165,
-  "price": 3655.83,
+  "updated_at": "2026-11-24T00:42:06.283263+00:00",
+  "atr": 7.359285714285826,
+  "price": 3659.18,
   "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3619.8,
-      "entry_high": 3621.12,
-      "sl": 3616.12,
-      "tp1": 3637.82,
+      "entry_high": 3620.75,
+      "sl": 3615.75,
+      "tp1": 3638.37,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.39,
+      "score": 0.21,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.45% with hawkish news (+0.85) and gold is moving against it (corr -0.38). Buying fights the dollar.",
+      "reason": "Dollar is up +0.45% with hawkish news (+0.82) and gold is moving against it (corr -0.38). Buying fights the dollar.",
       "created_at": "2026-11-24T00:12:53.372391+00:00",
-      "checked_at": "2026-11-24T00:40:39.994772+00:00"
+      "checked_at": "2026-11-24T00:55:12.944707+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3673.97,
-      "entry_high": 3675.29,
-      "sl": 3678.97,
-      "tp1": 3657.27,
+      "entry_low": 3667.25,
+      "entry_high": 3668.2,
+      "sl": 3672.25,
+      "tp1": 3649.63,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.55,
+      "score": 0.54,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "invalid",
       "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
-      "created_at": "2026-11-24T00:12:53.372391+00:00",
-      "checked_at": "2026-11-24T00:40:39.994772+00:00"
+      "created_at": "2026-11-24T00:42:06.283263+00:00",
+      "checked_at": "2026-11-24T00:55:12.944707+00:00"
     }
   ],
   "research": [
-    "Gold 3645.96 (VANTAGE:XAUUSD). 5m up, 1h up. VWAP 3645.55, ATR 6.69, day range 3619.80-3675.29.",
+    "Gold 3657.43 (VANTAGE:XAUUSD). 5m up, 1h up. VWAP 3644.94, ATR 7.36, day range 3619.80-3668.20.",
     "DXY 104.32 (+0.45% today, up), gold-dollar corr -0.38.",
-    "WTI 80.40 (-0.10% today, flat), gold-oil corr -0.09.",
-    "Headlines: dollar +0.85, oil -1.00, fresh shock.",
+    "WTI 80.47 (-0.01% today, flat), gold-oil corr -0.11.",
+    "Headlines: dollar +0.82, oil -1.00, fresh shock.",
     "Dollar: The U.S. dollar's bullish trend is not yet over! Goldman Sachs: Federal Reserve rate hikes will continue to provide support, with a moderate cooling expected...",
     "Oil: [Global Oil Prices] Plunge More Than 3% ... Brent Crude Falls Below $90 - \ud30c\uc774\ub0b8\uc15c\ub274\uc2a4",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [],
-  "last_check": "2026-11-24T00:40:39.994772+00:00"
+  "last_check": "2026-11-24T00:55:12.944707+00:00"
 }
