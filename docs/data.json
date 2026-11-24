@@ -1,38 +1,77 @@
 {
-  "updated": "2026-11-24 16:04 UTC",
+  "updated": "2026-11-24 16:19 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3568.49,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
-  "setups": [],
+  "price": 3563.19,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.42). Take an entry only if price reaches it.",
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3562.08,
+      "entry_high": 3562.18,
+      "sl": 3557.18,
+      "tp1": 3581.92,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.42,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "invalid",
+      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
+      "created_at": "2026-11-24T16:19:16.139337+00:00",
+      "checked_at": "2026-11-24T16:19:16.139337+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3678.2,
+      "entry_high": 3678.3,
+      "sl": 3683.2,
+      "tp1": 3658.46,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.25,
+      "style": "trend_align",
+      "favored": true,
+      "ready": false,
+      "status": "far",
+      "reason": "Price is 115.01 away from the entry (12.9 ATR). Unlikely to fill soon.",
+      "created_at": "2026-11-24T16:19:16.139337+00:00",
+      "checked_at": "2026-11-24T16:19:16.139337+00:00"
+    }
+  ],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "down",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3628.7624774320375,
-    "atr": 9.662857142857222,
-    "day_low": 3563.91,
+    "vwap": 3627.5824065624083,
+    "atr": 8.900000000000091,
+    "day_low": 3562.08,
     "day_high": 3678.3,
-    "range_pos": 0.04003846490077729
+    "range_pos": 0.009550851832732103
   },
   "dxy": {
     "ok": true,
     "last": 103.83100128173828,
     "pct": -0.45729702575904463,
     "state": "down",
-    "corr": -0.25313163417338574
+    "corr": -0.201712780247549
   },
   "oil": {
     "ok": true,
-    "last": 79.62000274658203,
-    "pct": -1.0685891830016565,
+    "last": 80.06999969482422,
+    "pct": -0.5094478690451644,
     "state": "down",
-    "corr": 0.2949860703636991
+    "corr": 0.2314734959420315
   },
   "news": {
-    "usd": 0.15819739577407854,
-    "oil": -0.36545496502313607,
+    "usd": 0.1634556588088639,
+    "oil": -0.3740736626986618,
     "shock": true,
     "usd_headlines": [
       "US dollar gains as renewed AI euphoria fuels Fed hike bets - The Business Times",
@@ -72,13 +111,13 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.47786132067202086,
-      "trust": 0.6287648956210801
+      "score": 0.5462223575611109,
+      "trust": 0.7187136283698827
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.4339470539705138,
+      "score": 0.4204496048149816,
       "trust": 1.0
     },
     {
@@ -96,15 +135,15 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.09949039522043003,
-      "trust": 0.8290866268369169
+      "score": 0.0995192378359398,
+      "trust": 0.829326981966165
     }
   ],
   "record": {
-    "graded": 245,
-    "wins": 63,
+    "graded": 246,
+    "wins": 64,
     "losses": 133,
     "scratches": 49,
-    "avg_r": -0.1934337004392212
+    "avg_r": -0.1885823439333707
   }
 }
