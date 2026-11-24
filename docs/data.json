@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-24 18:31 UTC",
+  "updated": "2026-11-24 18:45 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3562.07,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.44). Take an entry only if price reaches it.",
+  "price": 3553.51,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.46). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3559.07,
-      "entry_high": 3562.0,
-      "sl": 3557.0,
-      "tp1": 3574.67,
+      "entry_low": 3553.14,
+      "entry_high": 3555.86,
+      "sl": 3550.86,
+      "tp1": 3569.07,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.44,
+      "score": 0.46,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-24T16:19:16.139337+00:00",
-      "checked_at": "2026-11-24T18:31:11.761763+00:00"
+      "status": "invalid",
+      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
+      "created_at": "2026-11-24T18:45:48.253084+00:00",
+      "checked_at": "2026-11-24T18:45:48.253084+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3675.37,
+      "entry_low": 3675.58,
       "entry_high": 3678.3,
-      "sl": 3680.37,
-      "tp1": 3662.7,
+      "sl": 3680.58,
+      "tp1": 3662.37,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.25,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T16:19:16.139337+00:00",
-      "checked_at": "2026-11-24T18:31:11.761763+00:00"
+      "checked_at": "2026-11-24T18:45:48.253084+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "down",
     "session": "newyork",
-    "vwap": 3619.501146717274,
-    "atr": 3.7564285714285495,
-    "day_low": 3559.07,
+    "vwap": 3618.7415733105227,
+    "atr": 4.1521428571428,
+    "day_low": 3553.14,
     "day_high": 3678.3,
-    "range_pos": 0.02516145265453325
+    "range_pos": 0.0029562160434671195
   },
   "dxy": {
     "ok": true,
-    "last": 103.81700134277344,
-    "pct": -0.47071875673372265,
+    "last": 103.78399658203125,
+    "pct": -0.5023603960778411,
     "state": "down",
-    "corr": -0.0841624132688156
+    "corr": -0.021071700050623
   },
   "oil": {
     "ok": true,
-    "last": 81.55000305175781,
-    "pct": 1.3295224281722586,
+    "last": 81.91000366210938,
+    "pct": 1.7768392712828862,
     "state": "up",
-    "corr": 0.2998432213172554
+    "corr": 0.29783484027286977
   },
   "news": {
-    "usd": -0.6038361235269848,
-    "oil": -0.3942843122851801,
+    "usd": -0.5475814730110273,
+    "oil": -0.6953593618429434,
     "shock": true,
     "usd_headlines": [
-      "Shafaq News..Dollar falls in Baghdad, Erbil markets - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
+      "US Dollar Weakens Against Canada's Loonie as Treasury Yields Edge Down - marketscreener.com",
       "US dollar gains as renewed AI euphoria fuels Fed hike bets - The Business Times",
       "U.S. Treasury Yields, European Bond Yields Fall as Oil Prices Remain Under Pressure -- Update - marketscreener.com"
     ],
     "oil_headlines": [
       "Crude oil prices extend losses, drop 23% in November; Brent crude drops 3%; WTI dips below $80 per barrel - Upstox",
-      "International Crude Oil Prices Plunge; WTI Crude Falls Below $80 Mark - Sunsirs",
-      "Scott Bessent Unleashes Fresh Iran Sanctions as Tehran Warns Tankers Against Using Strait of Hormuz: Crud - Benzinga"
+      "Scott Bessent Unleashes Fresh Iran Sanctions as Tehran Warns Tankers Against Using Strait of Hormuz: Crud - Benzinga",
+      "WTI Crude Oil Drops Below $80 as Concerns Over Supply Surplus Weigh Down Prices - KuCoin"
     ]
   },
   "events": [
@@ -111,29 +111,29 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5163589950862033,
-      "trust": 0.9220696340825058
+      "score": 0.775358287020331,
+      "trust": 1.0202082723951724
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.44074714957216893,
-      "trust": 0.9179018631607156
+      "score": 0.45516854221494263,
+      "trust": 1.0
     },
     {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.12374451685752297,
-      "trust": 1.2374451685752297
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.24640000000000006,
+      "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.1196117527626877,
-      "trust": 0.9967646063557309
+      "score": 0.11527780583935521,
+      "trust": 0.9606483819946268
     },
     {
-      "style": "Trade with the intraday trend",
+      "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
