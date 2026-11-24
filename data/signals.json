@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-24T07:31:44.094643+00:00",
-  "atr": 5.601428571428512,
-  "price": 3624.06,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.26). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-24T07:46:27.128765+00:00",
+  "atr": 5.288571428571361,
+  "price": 3622.0,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.21). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3613.71,
-      "entry_high": 3615.63,
-      "sl": 3610.63,
-      "tp1": 3630.83,
+      "entry_high": 3615.8,
+      "sl": 3610.8,
+      "tp1": 3630.57,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,33 +21,33 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-24T06:18:35.932836+00:00",
-      "checked_at": "2026-11-24T07:44:50.285512+00:00"
+      "checked_at": "2026-11-24T07:59:34.462252+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3676.38,
+      "entry_low": 3676.21,
       "entry_high": 3678.3,
-      "sl": 3681.38,
-      "tp1": 3661.18,
+      "sl": 3681.21,
+      "tp1": 3661.44,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.26,
-      "style": "trend_align",
+      "score": 0.21,
+      "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T02:24:16.748150+00:00",
-      "checked_at": "2026-11-24T07:44:50.285512+00:00"
+      "checked_at": "2026-11-24T07:59:34.462252+00:00"
     }
   ],
   "research": [
-    "Gold 3617.96 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3640.85, ATR 5.60, day range 3613.71-3678.30.",
-    "DXY 104.35 (+0.04% today, flat), gold-dollar corr -0.18.",
-    "WTI 80.14 (-0.42% today, down), gold-oil corr +0.03.",
-    "Headlines: dollar +0.77, oil -0.59, fresh shock.",
+    "Gold 3623.36 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3640.32, ATR 5.29, day range 3613.71-3678.30.",
+    "DXY 104.36 (+0.05% today, flat), gold-dollar corr -0.24.",
+    "WTI 80.18 (-0.37% today, flat), gold-oil corr +0.07.",
+    "Headlines: dollar +0.72, oil -0.65, fresh shock.",
     "Dollar: Canadian Dollar Faces Pressure as Oil Falls and the US Dollar Strengthens - kalkine.co.uk",
     "Oil: Scott Bessent Unleashes Fresh Iran Sanctions as Tehran Warns Tankers Against Using Strait of Hormuz: Crud - Benzinga",
     "No high-impact US release in the next 24 hours."
@@ -98,5 +98,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-24T07:44:50.285512+00:00"
+  "last_check": "2026-11-24T07:59:34.462252+00:00"
 }
