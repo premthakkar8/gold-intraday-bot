@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-24T10:13:22.470644+00:00",
-  "atr": 4.328571428571389,
-  "price": 3618.69,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.15). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-24T10:27:55.620400+00:00",
+  "atr": 4.323571428571443,
+  "price": 3624.23,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.16). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
@@ -14,14 +14,14 @@
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.15,
+      "score": 0.16,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "weak",
-      "reason": "Strategy score is only 0.15. Take it only with a clear reaction at the entry.",
+      "reason": "Strategy score is only 0.16. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-24T08:30:28.601666+00:00",
-      "checked_at": "2026-11-24T10:26:30.795261+00:00"
+      "checked_at": "2026-11-24T10:41:04.059606+00:00"
     },
     {
       "side": "SELL",
@@ -40,15 +40,15 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T02:24:16.748150+00:00",
-      "checked_at": "2026-11-24T10:26:30.795261+00:00"
+      "checked_at": "2026-11-24T10:41:04.059606+00:00"
     }
   ],
   "research": [
-    "Gold 3622.12 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3635.67, ATR 4.33, day range 3607.53-3678.30.",
-    "DXY 104.18 (-0.12% today, down), gold-dollar corr -0.26.",
-    "WTI 80.10 (-0.47% today, down), gold-oil corr -0.06.",
-    "Headlines: dollar +0.85, oil -0.65, fresh shock.",
-    "Dollar: 'Several years' of strong jobs, low inflation still ahead: US Federal Reserve - Yeni Safak English",
+    "Gold 3621.78 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3635.38, ATR 4.32, day range 3607.53-3678.30.",
+    "DXY 104.17 (-0.14% today, down), gold-dollar corr -0.24.",
+    "WTI 80.03 (-0.56% today, down), gold-oil corr -0.07.",
+    "Headlines: dollar +0.82, oil -0.59, fresh shock.",
+    "Dollar: Canadian Dollar Faces Pressure as Oil Falls and the US Dollar Strengthens - kalkine.co.uk",
     "Oil: Scott Bessent Unleashes Fresh Iran Sanctions as Tehran Warns Tankers Against Using Strait of Hormuz: Crud - Benzinga",
     "No high-impact US release in the next 24 hours."
   ],
@@ -120,5 +120,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-24T10:26:30.795261+00:00"
+  "last_check": "2026-11-24T10:41:04.059606+00:00"
 }
