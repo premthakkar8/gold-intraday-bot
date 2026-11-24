@@ -1651,3 +1651,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-24 08:40 UTC  live: BUY TP hit
 2026-11-24 08:45 UTC  live: gold 3626.01 | holding flat stand_aside 175f4bfc | new read flat stand_aside not opened
 2026-11-24 09:00 UTC  live: gold 3619.01 | holding flat stand_aside 175f4bfc | new read flat stand_aside not opened
+2026-11-24 09:14 UTC  live: gold 3621.25 | graded: 175f4bfc stand aside -> win (+1.00R) | opened stand aside f64eb7b1
