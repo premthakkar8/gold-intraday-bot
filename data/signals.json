@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-11-24T22:30:38.079641+00:00",
   "atr": 2.8264285714285506,
-  "price": 3555.62,
+  "price": 3559.1,
   "stance": "Strategy: the BUY plan from 22:01 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
@@ -21,7 +21,7 @@
       "status": "valid",
       "reason": "Score 0.62 (Trade the oil shock), dollar softer -0.45%, oil supply news +1.00, price below VWAP.",
       "created_at": "2026-11-24T20:42:59.303112+00:00",
-      "checked_at": "2026-11-24T22:30:38.079641+00:00"
+      "checked_at": "2026-11-24T23:13:01.364095+00:00"
     },
     {
       "side": "SELL",
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T16:19:16.139337+00:00",
-      "checked_at": "2026-11-24T22:30:38.079641+00:00"
+      "checked_at": "2026-11-24T23:13:01.364095+00:00"
     }
   ],
   "research": [
@@ -117,8 +117,8 @@
       "checked_at": "2026-11-24T22:02:24.979040+00:00",
       "entry": 3550.21,
       "entered_at": "2026-11-24T22:02:24.979040+00:00",
-      "closed": null
+      "closed": "tp"
     }
   ],
-  "last_check": "2026-11-24T22:02:24.979040+00:00"
+  "last_check": "2026-11-24T23:13:01.364095+00:00"
 }

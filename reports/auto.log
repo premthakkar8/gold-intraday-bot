@@ -1711,3 +1711,5 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-24 22:16 UTC  live: gold 3555.62 | holding long oil_shock 8f8c8eeb | new read long oil_shock not opened
 2026-11-24 22:30 UTC  live: gold 3555.62 | holding long oil_shock 8f8c8eeb | new read long oil_shock not opened
 2026-11-24 22:45 UTC  live: latest gold bar is 50 minutes old, skipped
+2026-11-24 22:59 UTC  live: latest gold bar is 65 minutes old, skipped
+2026-11-24 23:00 UTC  live: BUY TP hit
