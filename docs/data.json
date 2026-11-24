@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-24 15:49 UTC",
+  "updated": "2026-11-24 16:04 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3582.55,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.44). Take an entry only if price reaches it.",
+  "price": 3568.49,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
   "blackout": null,
@@ -10,29 +10,29 @@
     "structure": "down",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3629.933218373347,
-    "atr": 9.290714285714362,
-    "day_low": 3580.39,
+    "vwap": 3628.7624774320375,
+    "atr": 9.662857142857222,
+    "day_low": 3563.91,
     "day_high": 3678.3,
-    "range_pos": 0.02206107649882854
+    "range_pos": 0.04003846490077729
   },
   "dxy": {
     "ok": true,
-    "last": 103.8740005493164,
-    "pct": -0.4160736602150198,
+    "last": 103.83100128173828,
+    "pct": -0.45729702575904463,
     "state": "down",
-    "corr": -0.2826289750802415
+    "corr": -0.25313163417338574
   },
   "oil": {
     "ok": true,
-    "last": 80.5,
-    "pct": 0.024846722455663862,
-    "state": "flat",
-    "corr": 0.29099093761470585
+    "last": 79.62000274658203,
+    "pct": -1.0685891830016565,
+    "state": "down",
+    "corr": 0.2949860703636991
   },
   "news": {
-    "usd": 0.15302089634236646,
-    "oil": -0.6586405397761765,
+    "usd": 0.15819739577407854,
+    "oil": -0.36545496502313607,
     "shock": true,
     "usd_headlines": [
       "US dollar gains as renewed AI euphoria fuels Fed hike bets - The Business Times",
@@ -42,7 +42,7 @@
     "oil_headlines": [
       "Crude oil prices extend losses, drop 23% in November; Brent crude drops 3%; WTI dips below $80 per barrel - Upstox",
       "Scott Bessent Unleashes Fresh Iran Sanctions as Tehran Warns Tankers Against Using Strait of Hormuz: Crud - Benzinga",
-      "Crude Oil Slips Below $89 To Three-Month Low As Supply Surplus Concerns Mount - Free Press Journal"
+      "Iran supports unanimous OPEC output cut plan: Zangeneh - Yeni Safak English"
     ]
   },
   "events": [
@@ -72,13 +72,13 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5403190612529435,
-      "trust": 0.7109461332275573
+      "score": 0.47786132067202086,
+      "trust": 0.6287648956210801
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.4416901059585634,
+      "score": 0.4339470539705138,
       "trust": 1.0
     },
     {
@@ -88,16 +88,16 @@
       "trust": 1.0
     },
     {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.11890951558822613,
-      "trust": 0.9909126299018844
-    },
-    {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.09949039522043003,
+      "trust": 0.8290866268369169
     }
   ],
   "record": {

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-24T15:49:57.084313+00:00",
-  "atr": 9.290714285714362,
-  "price": 3565.14,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.44). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-24T16:04:39.055339+00:00",
+  "atr": 9.662857142857222,
+  "price": 3568.66,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3582.55 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3629.93, ATR 9.29, day range 3580.39-3678.30.",
-    "DXY 103.87 (-0.42% today, down), gold-dollar corr -0.28.",
-    "WTI 80.50 (+0.02% today, flat), gold-oil corr +0.29.",
-    "Headlines: dollar +0.15, oil -0.66, fresh shock.",
+    "Gold 3568.49 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3628.76, ATR 9.66, day range 3563.91-3678.30.",
+    "DXY 103.83 (-0.46% today, down), gold-dollar corr -0.25.",
+    "WTI 79.62 (-1.07% today, down), gold-oil corr +0.29.",
+    "Headlines: dollar +0.16, oil -0.37, fresh shock.",
     "Dollar: US dollar gains as renewed AI euphoria fuels Fed hike bets - The Business Times",
     "Oil: Crude oil prices extend losses, drop 23% in November; Brent crude drops 3%; WTI dips below $80 per barrel - Upstox",
     "Next high-impact US release: Core PCE Price Index m/m Wed 13:30 UTC."
@@ -103,5 +103,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-24T16:03:05.326882+00:00"
+  "last_check": "2026-11-24T16:17:47.220468+00:00"
 }
