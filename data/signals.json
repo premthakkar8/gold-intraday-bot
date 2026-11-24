@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-24T19:44:21.291742+00:00",
-  "atr": 4.644285714285648,
-  "price": 3556.04,
+  "updated_at": "2026-11-24T19:59:00.118655+00:00",
+  "atr": 3.84499999999993,
+  "price": 3554.63,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3552.86,
-      "entry_high": 3555.31,
-      "sl": 3550.31,
-      "tp1": 3569.19,
+      "entry_high": 3555.75,
+      "sl": 3550.75,
+      "tp1": 3568.53,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "valid",
       "reason": "Score 0.43 (Trade with the dollar), dollar softer -0.47%, price below VWAP.",
       "created_at": "2026-11-24T18:45:48.253084+00:00",
-      "checked_at": "2026-11-24T19:57:27.332212+00:00"
+      "checked_at": "2026-11-24T20:12:06.396538+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3675.85,
+      "entry_low": 3675.41,
       "entry_high": 3678.3,
-      "sl": 3680.85,
-      "tp1": 3661.97,
+      "sl": 3680.41,
+      "tp1": 3662.63,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,14 +40,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T16:19:16.139337+00:00",
-      "checked_at": "2026-11-24T19:57:27.332212+00:00"
+      "checked_at": "2026-11-24T20:12:06.396538+00:00"
     }
   ],
   "research": [
-    "Gold 3557.71 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3615.70, ATR 4.64, day range 3552.86-3678.30.",
-    "DXY 103.81 (-0.47% today, down), gold-dollar corr -0.06.",
-    "WTI 81.98 (+1.86% today, up), gold-oil corr +0.25.",
-    "Headlines: dollar -0.55, oil -0.69, fresh shock.",
+    "Gold 3555.61 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3614.97, ATR 3.84, day range 3552.86-3678.30.",
+    "DXY 103.82 (-0.47% today, down), gold-dollar corr +0.05.",
+    "WTI 81.89 (+1.75% today, up), gold-oil corr +0.23.",
+    "Headlines: dollar -0.70, oil -0.69, fresh shock.",
     "Dollar: US Dollar Weakens Against Canada's Loonie as Treasury Yields Edge Down - marketscreener.com",
     "Oil: Crude oil prices extend losses, drop 23% in November; Brent crude drops 3%; WTI dips below $80 per barrel - Upstox",
     "Next high-impact US release: Core PCE Price Index m/m Wed 13:30 UTC."
@@ -120,5 +120,5 @@
       "closed": null
     }
   ],
-  "last_check": "2026-11-24T19:57:27.332212+00:00"
+  "last_check": "2026-11-24T20:12:06.396538+00:00"
 }

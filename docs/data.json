@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-24 19:44 UTC",
+  "updated": "2026-11-24 19:59 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3557.71,
+  "price": 3555.61,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3552.86,
-      "entry_high": 3555.31,
-      "sl": 3550.31,
-      "tp1": 3569.19,
+      "entry_high": 3555.75,
+      "sl": 3550.75,
+      "tp1": 3568.53,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "valid",
       "reason": "Score 0.43 (Trade with the dollar), dollar softer -0.47%, price below VWAP.",
       "created_at": "2026-11-24T18:45:48.253084+00:00",
-      "checked_at": "2026-11-24T19:44:21.291742+00:00"
+      "checked_at": "2026-11-24T19:59:00.118655+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3675.85,
+      "entry_low": 3675.41,
       "entry_high": 3678.3,
-      "sl": 3680.85,
-      "tp1": 3661.97,
+      "sl": 3680.41,
+      "tp1": 3662.63,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T16:19:16.139337+00:00",
-      "checked_at": "2026-11-24T19:44:21.291742+00:00"
+      "checked_at": "2026-11-24T19:59:00.118655+00:00"
     }
   ],
   "active": [
@@ -72,34 +72,34 @@
     "structure": "sideways",
     "htf": "down",
     "session": "newyork",
-    "vwap": 3615.6958631528787,
-    "atr": 4.644285714285648,
+    "vwap": 3614.967661778775,
+    "atr": 3.84499999999993,
     "day_low": 3552.86,
     "day_high": 3678.3,
-    "range_pos": 0.03866390306122375
+    "range_pos": 0.021922831632653052
   },
   "dxy": {
     "ok": true,
-    "last": 103.81300354003906,
-    "pct": -0.47455144721368525,
+    "last": 103.81900024414062,
+    "pct": -0.46880241149374136,
     "state": "down",
-    "corr": -0.05568013490705778
+    "corr": 0.048303026084689483
   },
   "oil": {
     "ok": true,
-    "last": 81.9800033569336,
-    "pct": 1.863817019673087,
+    "last": 81.88999938964844,
+    "pct": 1.7519830689636375,
     "state": "up",
-    "corr": 0.2546091324582702
+    "corr": 0.23285535577427705
   },
   "news": {
-    "usd": -0.5513258957230261,
-    "oil": -0.6879980532653391,
+    "usd": -0.6955830021615582,
+    "oil": -0.6861005692139582,
     "shock": true,
     "usd_headlines": [
       "US Dollar Weakens Against Canada's Loonie as Treasury Yields Edge Down - marketscreener.com",
-      "US dollar gains as renewed AI euphoria fuels Fed hike bets - The Business Times",
-      "U.S. Treasury Yields, European Bond Yields Fall as Oil Prices Remain Under Pressure -- Update - marketscreener.com"
+      "Shafaq News..Dollar falls in Baghdad, Erbil markets - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
+      "US dollar gains as renewed AI euphoria fuels Fed hike bets - The Business Times"
     ],
     "oil_headlines": [
       "Crude oil prices extend losses, drop 23% in November; Brent crude drops 3%; WTI dips below $80 per barrel - Upstox",
@@ -140,20 +140,20 @@
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.4269223018768778,
-      "trust": 0.9184780516225641
+      "score": 0.43342654287694526,
+      "trust": 0.9185929234296821
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.12357787097282705,
-      "trust": 1.2357787097282704
+      "score": 0.12354464761763802,
+      "trust": 1.2354464761763801
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11961447759405534,
-      "trust": 0.9967873132837946
+      "score": 0.11961502083003457,
+      "trust": 0.9967918402502881
     },
     {
       "style": "Trade with the intraday trend",
