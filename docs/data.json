@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-24 13:23 UTC",
+  "updated": "2026-11-24 13:38 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3631.17,
+  "price": 3622.49,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.46). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3607.53,
-      "entry_high": 3609.07,
-      "sl": 3604.07,
-      "tp1": 3625.23,
+      "entry_high": 3608.71,
+      "sl": 3603.71,
+      "tp1": 3625.76,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T08:30:28.601666+00:00",
-      "checked_at": "2026-11-24T13:23:35.172787+00:00"
+      "checked_at": "2026-11-24T13:38:09.665767+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3676.76,
+      "entry_low": 3677.12,
       "entry_high": 3678.3,
-      "sl": 3681.76,
-      "tp1": 3660.6,
+      "sl": 3682.12,
+      "tp1": 3660.07,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T02:24:16.748150+00:00",
-      "checked_at": "2026-11-24T13:23:35.172787+00:00"
+      "checked_at": "2026-11-24T13:38:09.665767+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "up",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3634.247376632992,
-    "atr": 6.2971428571428145,
+    "vwap": 3634.0639299871937,
+    "atr": 6.951428571428518,
     "day_low": 3607.53,
     "day_high": 3678.3,
-    "range_pos": 0.3340398473929614
+    "range_pos": 0.2113890066412263
   },
   "dxy": {
     "ok": true,
-    "last": 103.87000274658203,
-    "pct": -0.41990635069498233,
+    "last": 103.91000366210938,
+    "pct": -0.38155750301092944,
     "state": "down",
-    "corr": -0.158085367459256
+    "corr": -0.18712851456591162
   },
   "oil": {
     "ok": true,
-    "last": 80.29000091552734,
-    "pct": -0.23608652271493816,
+    "last": 80.63999938964844,
+    "pct": 0.1988022192360652,
     "state": "flat",
-    "corr": 0.14201336015764193
+    "corr": 0.16284405310955438
   },
   "news": {
-    "usd": 0.32087771156914136,
-    "oil": -0.6215823604146735,
+    "usd": 0.23694104116000453,
+    "oil": -0.6774240331869845,
     "shock": true,
     "usd_headlines": [
       "US dollar gains as renewed AI euphoria fuels Fed hike bets - The Business Times",
@@ -81,7 +81,7 @@
     "oil_headlines": [
       "Crude oil prices extend losses, drop 23% in November; Brent crude drops 3%; WTI dips below $80 per barrel - Upstox",
       "Scott Bessent Unleashes Fresh Iran Sanctions as Tehran Warns Tankers Against Using Strait of Hormuz: Crud - Benzinga",
-      "Brent Crude Falls Below $90: What Is Happening in the Global Market - TengriNews"
+      "Crude Oil Slips Below $89 To Three-Month Low As Supply Surplus Concerns Mount - Free Press Journal"
     ]
   },
   "events": [
@@ -118,26 +118,26 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6233402222432651,
-      "trust": 0.9166767974165663
+      "score": 0.6234196675521979,
+      "trust": 0.9167936287532321
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.464185321255482,
-      "trust": 0.9702870427581144
+      "score": 0.4642052523174972,
+      "trust": 0.9703287046770425
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.40899740895805475,
+      "score": 0.4166212350735518,
       "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11889404119708132,
-      "trust": 0.9907836766423443
+      "score": 0.11889559191334326,
+      "trust": 0.9907965992778605
     },
     {
       "style": "Fade the session range",
@@ -147,10 +147,10 @@
     }
   ],
   "record": {
-    "graded": 242,
-    "wins": 62,
+    "graded": 243,
+    "wins": 63,
     "losses": 131,
     "scratches": 49,
-    "avg_r": -0.1916994074694595
+    "avg_r": -0.1867952946815193
   }
 }

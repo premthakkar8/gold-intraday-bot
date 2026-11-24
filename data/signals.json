@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-24T13:23:35.172787+00:00",
-  "atr": 6.2971428571428145,
-  "price": 3623.62,
+  "updated_at": "2026-11-24T13:38:09.665767+00:00",
+  "atr": 6.951428571428518,
+  "price": 3617.93,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.46). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3607.53,
-      "entry_high": 3609.07,
-      "sl": 3604.07,
-      "tp1": 3625.23,
+      "entry_high": 3608.71,
+      "sl": 3603.71,
+      "tp1": 3625.76,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T08:30:28.601666+00:00",
-      "checked_at": "2026-11-24T13:36:41.513237+00:00"
+      "checked_at": "2026-11-24T13:51:16.080085+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3676.76,
+      "entry_low": 3677.12,
       "entry_high": 3678.3,
-      "sl": 3681.76,
-      "tp1": 3660.6,
+      "sl": 3682.12,
+      "tp1": 3660.07,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,17 +40,17 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T02:24:16.748150+00:00",
-      "checked_at": "2026-11-24T13:36:41.513237+00:00"
+      "checked_at": "2026-11-24T13:51:16.080085+00:00"
     }
   ],
   "research": [
-    "Gold 3631.17 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3634.25, ATR 6.30, day range 3607.53-3678.30.",
-    "DXY 103.87 (-0.42% today, down), gold-dollar corr -0.16.",
-    "WTI 80.29 (-0.24% today, flat), gold-oil corr +0.14.",
-    "Headlines: dollar +0.32, oil -0.62, fresh shock.",
+    "Gold 3622.49 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3634.06, ATR 6.95, day range 3607.53-3678.30.",
+    "DXY 103.91 (-0.38% today, down), gold-dollar corr -0.19.",
+    "WTI 80.64 (+0.20% today, flat), gold-oil corr +0.16.",
+    "Headlines: dollar +0.24, oil -0.68, fresh shock.",
     "Dollar: US dollar gains as renewed AI euphoria fuels Fed hike bets - The Business Times",
     "Oil: Crude oil prices extend losses, drop 23% in November; Brent crude drops 3%; WTI dips below $80 per barrel - Upstox",
-    "No high-impact US release in the next 24 hours."
+    "Next high-impact US release: Core PCE Price Index m/m Wed 13:30 UTC."
   ],
   "active": [
     {
@@ -120,5 +120,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-24T13:36:41.513237+00:00"
+  "last_check": "2026-11-24T13:51:16.080085+00:00"
 }
