@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-24 06:47 UTC",
+  "updated": "2026-11-24 07:02 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3624.83,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.20). Take an entry only if price reaches it.",
+  "price": 3620.67,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.22). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3613.71,
-      "entry_high": 3614.87,
-      "sl": 3609.87,
-      "tp1": 3631.97,
+      "entry_high": 3614.85,
+      "sl": 3609.85,
+      "tp1": 3632.0,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-24T06:18:35.932836+00:00",
-      "checked_at": "2026-11-24T06:47:51.795969+00:00"
+      "checked_at": "2026-11-24T07:02:32.592558+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3677.14,
+      "entry_low": 3677.16,
       "entry_high": 3678.3,
-      "sl": 3682.14,
-      "tp1": 3660.04,
+      "sl": 3682.16,
+      "tp1": 3660.01,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.2,
+      "score": 0.22,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T02:24:16.748150+00:00",
-      "checked_at": "2026-11-24T06:47:51.795969+00:00"
+      "checked_at": "2026-11-24T07:02:32.592558+00:00"
     }
   ],
   "active": [
@@ -69,42 +69,42 @@
   ],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "sideways",
-    "session": "asia",
-    "vwap": 3642.5571290776966,
-    "atr": 6.985714285714331,
+    "session": "london",
+    "vwap": 3642.017874361985,
+    "atr": 7.022857142857155,
     "day_low": 3613.71,
     "day_high": 3678.3,
-    "range_pos": 0.17216287350982917
+    "range_pos": 0.10775661867162131
   },
   "dxy": {
     "ok": true,
-    "last": 104.31400299072266,
-    "pct": 0.005756350014752933,
+    "last": 104.34100341796875,
+    "pct": 0.03164163934411841,
     "state": "flat",
-    "corr": -0.1101362124148985
+    "corr": -0.16824225094751927
   },
   "oil": {
     "ok": true,
-    "last": 79.68000030517578,
-    "pct": -0.9940395357710803,
+    "last": 79.95999908447266,
+    "pct": -0.6461285422102776,
     "state": "down",
-    "corr": 0.04950999180459701
+    "corr": 0.1559635336834988
   },
   "news": {
-    "usd": 0.8010040312857616,
-    "oil": -0.5467532745518421,
+    "usd": 0.8163078114209407,
+    "oil": -0.6242827771580673,
     "shock": true,
     "usd_headlines": [
       "Canadian Dollar Faces Pressure as Oil Falls and the US Dollar Strengthens - kalkine.co.uk",
-      "Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
-      "The U.S. dollar's bullish trend is not yet over! Goldman Sachs: Federal Reserve rate hikes will continue to provide support, with a moderate cooling expected..."
+      "Fed rate hike bets underpin US Dollar outlook - BBH - www.tmgm.com",
+      "Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters"
     ],
     "oil_headlines": [
       "Scott Bessent Unleashes Fresh Iran Sanctions as Tehran Warns Tankers Against Using Strait of Hormuz: Crud - Benzinga",
-      "Canadian Dollar Faces Pressure as Oil Falls and the US Dollar Strengthens - kalkine.co.uk",
-      "WTI Crude Oil Drops Below $80 as Concerns Over Supply Surplus Weigh Down Prices - KuCoin"
+      "Brent Crude Falls Below $90: What Is Happening in the Global Market - TengriNews",
+      "Canadian Dollar Faces Pressure as Oil Falls and the US Dollar Strengthens - kalkine.co.uk"
     ]
   },
   "events": [
@@ -141,39 +141,39 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.438986142179743,
-      "trust": 0.665130518454156
+      "score": 0.48928921840069295,
+      "trust": 0.7413473006071105
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.19915038978598315,
-      "trust": 0.8633558106385493
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.11660723726013522,
-      "trust": 1.1660723726013522
+      "score": 0.21727350874363918,
+      "trust": 0.89353211355523
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.11496769475199371,
-      "trust": 0.958064122933281
+      "score": 0.10826639396867183,
+      "trust": 0.9022199497389319
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.08724281197035251,
-      "trust": 0.8724281197035251
+      "bias": "short",
+      "score": 0.09243628216942501,
+      "trust": 0.9046360151792845
     }
   ],
   "record": {
-    "graded": 239,
-    "wins": 59,
+    "graded": 240,
+    "wins": 60,
     "losses": 131,
     "scratches": 49,
-    "avg_r": -0.20665797743769537
+    "avg_r": -0.2016302358650383
   }
 }
