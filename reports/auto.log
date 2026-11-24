@@ -1622,3 +1622,6 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-24 03:37 UTC  live: gold 3633.90 | graded: f2bba022 stand aside -> win (+1.00R) | opened stand aside 544a8515
 2026-11-24 03:52 UTC  live: gold 3633.67 | holding flat stand_aside 544a8515 | new read flat stand_aside not opened
 2026-11-24 04:06 UTC  live: gold 3630.54 | holding flat stand_aside 544a8515 | new read flat stand_aside not opened
+2026-11-24 04:21 UTC  live: gold 3632.32 | holding flat stand_aside 544a8515 | new read flat stand_aside not opened
+2026-11-24 04:24 UTC  live: BUY now expired: Signal is 120 minutes old without an entry. Waiting for a fresh one.
+2026-11-24 04:24 UTC  live: SELL now expired: Signal is 120 minutes old without an entry. Waiting for a fresh one.
