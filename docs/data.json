@@ -1,77 +1,38 @@
 {
-  "updated": "2026-11-24 15:35 UTC",
+  "updated": "2026-11-24 15:49 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3593.19,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 3582.64,
-      "entry_high": 3582.76,
-      "sl": 3577.76,
-      "tp1": 3602.46,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.43,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.43 (Trade with the dollar), dollar softer -0.46%, price below VWAP.",
-      "created_at": "2026-11-24T15:20:35.307897+00:00",
-      "checked_at": "2026-11-24T15:35:19.310166+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3678.18,
-      "entry_high": 3678.3,
-      "sl": 3683.18,
-      "tp1": 3658.48,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-24T02:24:16.748150+00:00",
-      "checked_at": "2026-11-24T15:35:19.310166+00:00"
-    }
-  ],
+  "price": 3582.55,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.44). Take an entry only if price reaches it.",
+  "setups": [],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3630.8922124430137,
-    "atr": 8.872142857142892,
-    "day_low": 3582.64,
+    "vwap": 3629.933218373347,
+    "atr": 9.290714285714362,
+    "day_low": 3580.39,
     "day_high": 3678.3,
-    "range_pos": 0.11028643111018344
+    "range_pos": 0.02206107649882854
   },
   "dxy": {
     "ok": true,
-    "last": 103.8239974975586,
-    "pct": -0.4640115483937882,
+    "last": 103.8740005493164,
+    "pct": -0.4160736602150198,
     "state": "down",
-    "corr": -0.2358755624732839
+    "corr": -0.2826289750802415
   },
   "oil": {
     "ok": true,
-    "last": 80.56999969482422,
-    "pct": 0.11182447084586453,
+    "last": 80.5,
+    "pct": 0.024846722455663862,
     "state": "flat",
-    "corr": 0.25225780943374454
+    "corr": 0.29099093761470585
   },
   "news": {
-    "usd": 0.249163658204169,
-    "oil": -0.6554460373488935,
+    "usd": 0.15302089634236646,
+    "oil": -0.6586405397761765,
     "shock": true,
     "usd_headlines": [
       "US dollar gains as renewed AI euphoria fuels Fed hike bets - The Business Times",
@@ -109,31 +70,31 @@
   ],
   "scorecard": [
     {
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.5403190612529435,
+      "trust": 0.7109461332275573
+    },
+    {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.4294173351492371,
+      "score": 0.4416901059585634,
       "trust": 1.0
     },
     {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.34816340206513297,
-      "trust": 0.6217203608305946
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.10473478158419242,
-      "trust": 1.047347815841924
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.24640000000000006,
+      "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.10402818969352892,
-      "trust": 0.8669015807794077
+      "score": 0.11890951558822613,
+      "trust": 0.9909126299018844
     },
     {
-      "style": "Trade with the intraday trend",
+      "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
