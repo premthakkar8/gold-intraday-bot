@@ -1,59 +1,59 @@
 {
-  "updated": "2026-11-24 00:12 UTC",
+  "updated": "2026-11-24 00:27 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3628.61,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.29). Take an entry only if price reaches it.",
+  "price": 3645.96,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3619.8,
-      "entry_high": 3621.74,
-      "sl": 3616.74,
-      "tp1": 3636.88,
+      "entry_high": 3621.12,
+      "sl": 3616.12,
+      "tp1": 3637.82,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.39,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "invalid",
-      "reason": "Dollar is up +0.45% with hawkish news (+0.72) and gold is moving against it (corr -0.38). Buying fights the dollar.",
+      "reason": "Dollar is up +0.45% with hawkish news (+0.85) and gold is moving against it (corr -0.38). Buying fights the dollar.",
       "created_at": "2026-11-24T00:12:53.372391+00:00",
-      "checked_at": "2026-11-24T00:12:53.372391+00:00"
+      "checked_at": "2026-11-24T00:27:33.114135+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3673.35,
+      "entry_low": 3673.97,
       "entry_high": 3675.29,
-      "sl": 3678.35,
-      "tp1": 3658.21,
+      "sl": 3678.97,
+      "tp1": 3657.27,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.29,
+      "score": 0.55,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "far",
-      "reason": "Price is 44.74 away from the entry (8.1 ATR). Unlikely to fill soon.",
+      "status": "invalid",
+      "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-24T00:12:53.372391+00:00",
-      "checked_at": "2026-11-24T00:12:53.372391+00:00"
+      "checked_at": "2026-11-24T00:27:33.114135+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "up",
     "session": "asia",
-    "vwap": 3646.7241783516474,
-    "atr": 5.555000000000064,
+    "vwap": 3645.546979793075,
+    "atr": 6.6885714285715165,
     "day_low": 3619.8,
     "day_high": 3675.29,
-    "range_pos": 0.15876734546765148
+    "range_pos": 0.4714362948278962
   },
   "dxy": {
     "ok": true,
@@ -64,24 +64,24 @@
   },
   "oil": {
     "ok": true,
-    "last": 80.55999755859375,
-    "pct": 0.6999969482421875,
-    "state": "up",
-    "corr": -0.023786202680520032
+    "last": 80.4000015258789,
+    "pct": -0.09940584954982498,
+    "state": "flat",
+    "corr": -0.09425457681239505
   },
   "news": {
-    "usd": 0.7229907108445335,
+    "usd": 0.8482159745980262,
     "oil": -1.0,
     "shock": true,
     "usd_headlines": [
       "The U.S. dollar's bullish trend is not yet over! Goldman Sachs: Federal Reserve rate hikes will continue to provide support, with a moderate cooling expected...",
-      "Wall Street soars on Huang's return to Nvidia, Treasury yields rise - Yahoo Finance",
-      "Wall Street soars on Huang's return to Nvidia, Treasury yields rise - The Lufkin Daily News"
+      "GLOBAL MARKETS-Wall Street soars on Huang's return to Nvidia, Treasury yields rise - Devdiscourse",
+      "Wall Street soars on Huang's return to Nvidia, Treasury yields rise - Yahoo Finance"
     ],
     "oil_headlines": [
+      "[Global Oil Prices] Plunge More Than 3% ... Brent Crude Falls Below $90 - \ud30c\uc774\ub0b8\uc15c\ub274\uc2a4",
       "Gas prices fall ahead of Thanksgiving as crude oil slides - Olean Times Herald",
-      "Crude Oil Falls as Middle East Supply Rises While Geopolitical Risks Persist - kalkine.ca",
-      "Brent Oil Falls 0.5% as Middle East Supply Risks Persist - grafa.com"
+      "Crude Oil Falls as Middle East Supply Rises While Geopolitical Risks Persist - kalkine.ca"
     ]
   },
   "events": [
@@ -97,39 +97,39 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5286943435507393,
-      "trust": 0.9440970420548915
+      "score": 0.6173374818532087,
+      "trust": 0.8122861603331694
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.29048727434527877,
-      "trust": 0.9166632069985741
+      "score": 0.5462329366987733,
+      "trust": 0.9181017047596781
     },
     {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.11214523347760125,
-      "trust": 1.1214523347760124
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.3891283309779528,
+      "trust": 0.8685900245043587
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.1077825736699498,
-      "trust": 0.8981881139162483
+      "score": 0.11309593897481952,
+      "trust": 0.9424661581234961
     },
     {
-      "style": "Trade with the intraday trend",
+      "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
     }
   ],
   "record": {
-    "graded": 231,
+    "graded": 232,
     "wins": 58,
-    "losses": 124,
+    "losses": 125,
     "scratches": 49,
-    "avg_r": -0.1878409376952779
+    "avg_r": -0.1913416233086603
   }
 }
