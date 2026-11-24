@@ -1,54 +1,54 @@
 {
-  "updated_at": "2026-11-24T16:19:16.139337+00:00",
-  "atr": 8.900000000000091,
-  "price": 3565.11,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.42). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-24T16:33:59.669512+00:00",
+  "atr": 8.214285714285811,
+  "price": 3572.72,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.47). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3562.08,
-      "entry_high": 3562.18,
-      "sl": 3557.18,
-      "tp1": 3581.92,
+      "entry_low": 3559.07,
+      "entry_high": 3559.55,
+      "sl": 3554.55,
+      "tp1": 3578.35,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.42,
+      "score": 0.47,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "invalid",
       "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-24T16:19:16.139337+00:00",
-      "checked_at": "2026-11-24T16:32:24.139408+00:00"
+      "checked_at": "2026-11-24T16:47:05.828886+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3678.2,
+      "entry_low": 3677.82,
       "entry_high": 3678.3,
-      "sl": 3683.2,
-      "tp1": 3658.46,
+      "sl": 3682.82,
+      "tp1": 3659.02,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.25,
+      "score": 0.08,
       "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 115.01 away from the entry (12.9 ATR). Unlikely to fill soon.",
+      "reason": "Price is 110.18 away from the entry (13.4 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-24T16:19:16.139337+00:00",
-      "checked_at": "2026-11-24T16:32:24.139408+00:00"
+      "checked_at": "2026-11-24T16:47:05.828886+00:00"
     }
   ],
   "research": [
-    "Gold 3563.19 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3627.58, ATR 8.90, day range 3562.08-3678.30.",
-    "DXY 103.83 (-0.46% today, down), gold-dollar corr -0.20.",
-    "WTI 80.07 (-0.51% today, down), gold-oil corr +0.23.",
-    "Headlines: dollar +0.16, oil -0.37, fresh shock.",
-    "Dollar: US dollar gains as renewed AI euphoria fuels Fed hike bets - The Business Times",
+    "Gold 3567.64 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3626.43, ATR 8.21, day range 3559.07-3678.30.",
+    "DXY 103.80 (-0.49% today, down), gold-dollar corr -0.19.",
+    "WTI 80.59 (+0.14% today, flat), gold-oil corr +0.29.",
+    "Headlines: dollar -0.36, oil -0.39, fresh shock.",
+    "Dollar: Shafaq News..Dollar falls in Baghdad, Erbil markets - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
     "Oil: Crude oil prices extend losses, drop 23% in November; Brent crude drops 3%; WTI dips below $80 per barrel - Upstox",
     "Next high-impact US release: Core PCE Price Index m/m Wed 13:30 UTC."
   ],
@@ -142,5 +142,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-24T16:32:24.139408+00:00"
+  "last_check": "2026-11-24T16:47:05.828886+00:00"
 }

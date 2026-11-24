@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-24 16:19 UTC",
+  "updated": "2026-11-24 16:33 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3563.19,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.42). Take an entry only if price reaches it.",
+  "price": 3567.64,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.47). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3562.08,
-      "entry_high": 3562.18,
-      "sl": 3557.18,
-      "tp1": 3581.92,
+      "entry_low": 3559.07,
+      "entry_high": 3559.55,
+      "sl": 3554.55,
+      "tp1": 3578.35,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.42,
+      "score": 0.47,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "invalid",
       "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-24T16:19:16.139337+00:00",
-      "checked_at": "2026-11-24T16:19:16.139337+00:00"
+      "checked_at": "2026-11-24T16:33:59.669512+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3678.2,
+      "entry_low": 3677.82,
       "entry_high": 3678.3,
-      "sl": 3683.2,
-      "tp1": 3658.46,
+      "sl": 3682.82,
+      "tp1": 3659.02,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.25,
+      "score": 0.08,
       "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 115.01 away from the entry (12.9 ATR). Unlikely to fill soon.",
+      "reason": "Price is 110.18 away from the entry (13.4 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-24T16:19:16.139337+00:00",
-      "checked_at": "2026-11-24T16:19:16.139337+00:00"
+      "checked_at": "2026-11-24T16:33:59.669512+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "down",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3627.5824065624083,
-    "atr": 8.900000000000091,
-    "day_low": 3562.08,
+    "vwap": 3626.430361260361,
+    "atr": 8.214285714285811,
+    "day_low": 3559.07,
     "day_high": 3678.3,
-    "range_pos": 0.009550851832732103
+    "range_pos": 0.07187788308311421
   },
   "dxy": {
     "ok": true,
-    "last": 103.83100128173828,
-    "pct": -0.45729702575904463,
+    "last": 103.7979965209961,
+    "pct": -0.48893866510316303,
     "state": "down",
-    "corr": -0.201712780247549
+    "corr": -0.19250409414043612
   },
   "oil": {
     "ok": true,
-    "last": 80.06999969482422,
-    "pct": -0.5094478690451644,
-    "state": "down",
-    "corr": 0.2314734959420315
+    "last": 80.58999633789062,
+    "pct": 0.1366711933015284,
+    "state": "flat",
+    "corr": 0.28711558247327623
   },
   "news": {
-    "usd": 0.1634556588088639,
-    "oil": -0.3740736626986618,
+    "usd": -0.36062430703165876,
+    "oil": -0.3857309915920082,
     "shock": true,
     "usd_headlines": [
+      "Shafaq News..Dollar falls in Baghdad, Erbil markets - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
       "US dollar gains as renewed AI euphoria fuels Fed hike bets - The Business Times",
-      "U.S. Treasury Yields, European Bond Yields Fall as Oil Prices Remain Under Pressure -- Update - marketscreener.com",
-      "US Dollar Falls Early Tuesday Before Philadelphia Fed Nonmanufacturing Index, Redbook - marketscreener.com"
+      "U.S. Treasury Yields, European Bond Yields Fall as Oil Prices Remain Under Pressure -- Update - marketscreener.com"
     ],
     "oil_headlines": [
       "Crude oil prices extend losses, drop 23% in November; Brent crude drops 3%; WTI dips below $80 per barrel - Upstox",
@@ -111,19 +111,19 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5462223575611109,
-      "trust": 0.7187136283698827
+      "score": 0.6402261881796166,
+      "trust": 0.842402879183706
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.4204496048149816,
+      "score": 0.47212597076661333,
       "trust": 1.0
     },
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.24640000000000006,
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.12,
       "trust": 1.0
     },
     {
@@ -133,10 +133,10 @@
       "trust": 1.0
     },
     {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.0995192378359398,
-      "trust": 0.829326981966165
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.0814,
+      "trust": 1.0
     }
   ],
   "record": {
