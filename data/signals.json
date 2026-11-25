@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-25T19:29:36.290726+00:00",
-  "atr": 10.00428571428584,
-  "price": 3545.71,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.14). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-25T19:44:12.180699+00:00",
+  "atr": 9.77714285714293,
+  "price": 3547.66,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.26). Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3550.65 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3516.74, ATR 10.00, day range 3426.66-3575.20.",
-    "DXY 103.61 (-0.24% today, down), gold-dollar corr -0.23.",
-    "WTI 83.65 (+2.49% today, up), gold-oil corr +0.11.",
-    "Headlines: dollar +0.50, oil -0.18, fresh shock.",
-    "Dollar: Update: US Equity Indexes Mixed While Treasury Yields Drop Amid Sharp Sell-Off in Chipmakers - \u5bcc\u9014\u725b\u725b",
+    "Gold 3538.83 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3517.15, ATR 9.78, day range 3426.66-3575.20.",
+    "DXY 103.61 (-0.24% today, down), gold-dollar corr -0.20.",
+    "WTI 83.65 (+2.49% today, up), gold-oil corr +0.20.",
+    "Headlines: dollar +0.53, oil -0.18, fresh shock.",
+    "Dollar: Fed survey shows continued growth and sticky inflation in recent weeks - Reuters",
     "Oil: CME : WTI Crude Oil futures top $83 as EIA reports inventory build. - www.marketscreener.com",
     "No high-impact US release in the next 24 hours."
   ],
@@ -37,5 +37,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-25T19:42:43.288108+00:00"
+  "last_check": "2026-11-25T19:57:19.937809+00:00"
 }
