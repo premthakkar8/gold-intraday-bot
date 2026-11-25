@@ -1,82 +1,82 @@
 {
-  "updated": "2026-11-25 08:14 UTC",
+  "updated": "2026-11-25 08:29 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3522.18,
+  "price": 3530.03,
   "stance": "Strategy: the BUY plan from 07:16 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3512.6,
-      "entry_high": 3514.66,
-      "sl": 3509.66,
-      "tp1": 3529.52,
+      "entry_high": 3514.4,
+      "sl": 3509.4,
+      "tp1": 3529.9,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.2,
-      "style": "trend_align",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": true,
       "ready": false,
       "status": "weak",
-      "reason": "Strategy score is only 0.20. Take it only with a clear reaction at the entry.",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-25T07:01:56.622684+00:00",
-      "checked_at": "2026-11-25T08:14:51.232865+00:00"
+      "checked_at": "2026-11-25T08:29:31.166783+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3573.14,
+      "entry_low": 3573.4,
       "entry_high": 3575.2,
-      "sl": 3578.14,
-      "tp1": 3558.28,
+      "sl": 3578.4,
+      "tp1": 3557.9,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.1,
+      "score": 0.13,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-25T02:39:10.590814+00:00",
-      "checked_at": "2026-11-25T08:14:51.232865+00:00"
+      "checked_at": "2026-11-25T08:29:31.166783+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "london",
-    "vwap": 3541.122753294504,
-    "atr": 5.35357142857148,
+    "vwap": 3540.7166551406613,
+    "atr": 5.814285714285721,
     "day_low": 3512.6,
     "day_high": 3575.2,
-    "range_pos": 0.1530351437699671
+    "range_pos": 0.27843450479233733
   },
   "dxy": {
     "ok": true,
-    "last": 104.04900360107422,
-    "pct": 0.17812253602300396,
+    "last": 104.05899810791016,
+    "pct": 0.18774522240966462,
     "state": "up",
-    "corr": -0.0827989028730532
+    "corr": -0.10520850442276876
   },
   "oil": {
     "ok": true,
-    "last": 80.18000030517578,
-    "pct": -1.7642763942035673,
+    "last": 80.4000015258789,
+    "pct": -1.4947331287050398,
     "state": "down",
-    "corr": 0.015170276039084158
+    "corr": 0.047586699207127624
   },
   "news": {
-    "usd": -0.6227444029381349,
-    "oil": 0.07649664736354955,
+    "usd": -0.1842006229229199,
+    "oil": 0.07764519208446281,
     "shock": true,
     "usd_headlines": [
+      "Pound to Dollar Forecast: GBP Climbs as BoE Turns Hawkish - CurrencyNews.co.uk",
       "Treasury yields fall as investors await key inflation signal - CNBC",
-      "U.S. Treasury Yields Fall Ahead of PCE Inflation Data - WSJ",
-      "Dollar rallies before key inflation reading; Aussie and sterling slump - Reuters"
+      "U.S. Treasury Yields Fall Ahead of PCE Inflation Data - WSJ"
     ],
     "oil_headlines": [
       "Oil Slips 1% as Supply Glut Prospect Offsets Middle East Disruption Fears - Business Post Nigeria",
@@ -111,32 +111,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.720515271044734,
-      "trust": 0.9480464092693869
+      "score": 0.524235287735218,
+      "trust": 0.9361344423843178
     },
     {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.1990175268360904,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.12,
-      "trust": 1.0
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.13123319780644793,
+      "trust": 0.9997844016533245
     },
     {
       "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.10270302178485234,
+      "trust": 1.0270302178485233
+    },
+    {
+      "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
     },
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.09831688921774931,
-      "trust": 0.9997840970435632
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.09396804402851032,
+      "trust": 0.7830670335709193
     }
   ],
   "record": {
