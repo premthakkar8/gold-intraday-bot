@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-25 12:08 UTC",
+  "updated": "2026-11-25 12:23 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3499.28,
+  "price": 3521.04,
   "stance": "Strategy: the SELL plan from 11:54 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3485.0,
-      "entry_high": 3485.87,
-      "sl": 3480.87,
-      "tp1": 3503.7,
+      "entry_high": 3485.02,
+      "sl": 3480.02,
+      "tp1": 3504.98,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.2,
+      "score": 0.35,
       "style": "oil_shock",
-      "favored": false,
+      "favored": true,
       "ready": false,
       "status": "invalid",
       "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-25T12:08:56.979426+00:00",
-      "checked_at": "2026-11-25T12:08:56.979426+00:00"
+      "checked_at": "2026-11-25T12:23:32.637236+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3574.33,
+      "entry_low": 3575.18,
       "entry_high": 3575.2,
-      "sl": 3579.33,
-      "tp1": 3556.5,
+      "sl": 3580.18,
+      "tp1": 3555.22,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.34,
+      "score": 0.32,
       "style": "trend_align",
-      "favored": true,
+      "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-25T02:39:10.590814+00:00",
-      "checked_at": "2026-11-25T12:08:56.979426+00:00"
+      "checked_at": "2026-11-25T12:23:32.637236+00:00"
     }
   ],
   "active": [],
@@ -49,39 +49,39 @@
     "structure": "down",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3536.5015467846492,
-    "atr": 7.514285714285734,
+    "vwap": 3536.0254403521967,
+    "atr": 9.062142857142849,
     "day_low": 3485.0,
     "day_high": 3575.2,
-    "range_pos": 0.15831485587583402
+    "range_pos": 0.3995565410199561
   },
   "dxy": {
     "ok": true,
-    "last": 104.02999877929688,
-    "pct": 0.1598247407640942,
-    "state": "up",
-    "corr": -0.32379713518827297
+    "last": 103.9469985961914,
+    "pct": 0.0799123703820471,
+    "state": "flat",
+    "corr": -0.33867913306219094
   },
   "oil": {
     "ok": true,
-    "last": 81.6500015258789,
-    "pct": 0.036754200303100636,
-    "state": "flat",
-    "corr": 0.010702755916688247
+    "last": 82.16000366210938,
+    "pct": 0.6616036478263377,
+    "state": "up",
+    "corr": 0.024680033917827394
   },
   "news": {
-    "usd": 0.23836441416199577,
-    "oil": 0.36828571527994763,
+    "usd": 0.2331530038360812,
+    "oil": 0.41777320100199167,
     "shock": true,
     "usd_headlines": [
-      "Gold Trades Near 15-Month Low as Federal Reserve Rate Hike Expectations Weigh on Prices - Yahoo Finance",
       "Treasury and European Government Bond Yields Fall Ahead of PCE Inflation Data - WSJ",
-      "US core PCE inflation set to heat up in October, prompting Federal Reserve rate hikes in 2027 - FXStreet"
+      "Most US Treasury Yields Fall Pre-Bell Ahead of Fed's Preferred Inflation Data, Q3 GDP Estimate, Durable Goods Orders - marketscreener.com",
+      "Gold Trades Near 15-Month Low as Federal Reserve Rate Hike Expectations Weigh on Prices - Yahoo Finance"
     ],
     "oil_headlines": [
+      "Above $81.00 again: WTI oil rises as Strait of Hormuz attacks intensify - www.tmgm.com",
       "WTI Oil returns above $81.00 as attacks in the Strait of Hormuz increase - FXStreet",
-      "Oil Slips 1% as Supply Glut Prospect Offsets Middle East Disruption Fears - Business Post Nigeria",
-      "Crude Oil Prices Rise as Shipping Risks Persist in the Key Strait of Hormuz By Kedia Advisory - Investing.com India"
+      "Oil Slips 1% as Supply Glut Prospect Offsets Middle East Disruption Fears - Business Post Nigeria"
     ]
   },
   "events": [
@@ -111,32 +111,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4539781550144687,
-      "trust": 0.8106752768115512
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.3415257597900839,
-      "trust": 0.7920356210345174
+      "score": 0.48435501757014154,
+      "trust": 0.8649196742323956
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.20416255679147444,
-      "trust": 1.0
+      "score": 0.35068786142333785,
+      "trust": 0.9644582514609259
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.31627754530767055,
+      "trust": 0.7923276056956595
     },
     {
       "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.16767746843070014,
-      "trust": 1.0
+      "bias": "flat",
+      "score": 0.11111453871261356,
+      "trust": 0.9259544892717797
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.10985488160787577,
+      "trust": 1.0985488160787575
     }
   ],
   "record": {
