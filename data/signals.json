@@ -1,63 +1,58 @@
 {
-  "updated_at": "2026-11-25T12:52:44.194206+00:00",
-  "atr": 9.289285714285663,
-  "price": 3512.69,
+  "updated_at": "2026-11-25T13:07:20.715026+00:00",
+  "atr": 7.994999999999924,
+  "price": 3500.8,
   "stance": "Strategy: the SELL plan from 11:54 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
-  "setups": [],
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3485.0,
+      "entry_high": 3485.6,
+      "sl": 3480.6,
+      "tp1": 3504.1,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.29,
+      "style": "oil_shock",
+      "favored": true,
+      "ready": false,
+      "status": "paused",
+      "reason": "Core PCE Price Index m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
+      "created_at": "2026-11-25T13:07:20.715026+00:00",
+      "checked_at": "2026-11-25T13:20:28.888970+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3574.6,
+      "entry_high": 3575.2,
+      "sl": 3579.6,
+      "tp1": 3556.1,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.14,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
+      "status": "paused",
+      "reason": "Core PCE Price Index m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
+      "created_at": "2026-11-25T13:07:20.715026+00:00",
+      "checked_at": "2026-11-25T13:20:28.888970+00:00"
+    }
+  ],
   "research": [
-    "Gold 3518.36 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3535.44, ATR 9.29, day range 3485.00-3575.20.",
-    "DXY 103.95 (+0.08% today, flat), gold-dollar corr -0.31.",
-    "WTI 82.36 (+0.91% today, up), gold-oil corr -0.01.",
-    "Headlines: dollar +0.18, oil +0.37, fresh shock.",
+    "Gold 3514.29 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3535.09, ATR 7.99, day range 3485.00-3575.20.",
+    "DXY 103.99 (+0.12% today, up), gold-dollar corr -0.28.",
+    "WTI 82.23 (+0.75% today, up), gold-oil corr +0.02.",
+    "Headlines: dollar +0.27, oil +0.26, fresh shock.",
     "Dollar: Why Is Gold Falling Today? Gold Drops Below $3,500 as Dollar Strengthens - Coinpaper",
     "Oil: WTI Oil returns above $81.00 as attacks in the Strait of Hormuz increase - FXStreet",
-    "Next high-impact US release: Core PCE Price Index m/m Wed 13:30 UTC."
+    "US event blackout: Core PCE Price Index m/m at 13:30 UTC. Do not enter until it passes."
   ],
   "active": [
-    {
-      "side": "BUY",
-      "entry_low": 3539.71,
-      "entry_high": 3541.1,
-      "sl": 3536.1,
-      "tp1": 3548.61,
-      "tp2": 3557.63,
-      "rr": 1.9,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.23,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.23. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-25T00:27:36.435248+00:00",
-      "checked_at": "2026-11-25T01:08:03.543692+00:00",
-      "entry": 3541.1,
-      "entered_at": "2026-11-25T01:08:03.543692+00:00",
-      "closed": "tp"
-    },
-    {
-      "side": "BUY",
-      "entry_low": 3536.16,
-      "entry_high": 3536.87,
-      "sl": 3531.87,
-      "tp1": 3547.71,
-      "tp2": 3555.1,
-      "rr": 2.4,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.46,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.46 (Trade with the dollar), price below VWAP.",
-      "created_at": "2026-11-25T01:11:31.022543+00:00",
-      "checked_at": "2026-11-25T01:12:34.457854+00:00",
-      "entry": 3536.87,
-      "entered_at": "2026-11-25T01:12:34.457854+00:00",
-      "closed": "tp"
-    },
     {
       "side": "SELL",
       "entry_low": 3558.31,
@@ -190,5 +185,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-25T13:05:51.757577+00:00"
+  "last_check": "2026-11-25T13:20:28.888970+00:00"
 }
