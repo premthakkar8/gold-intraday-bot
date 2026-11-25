@@ -1,40 +1,19 @@
 {
-  "updated_at": "2026-11-25T13:51:14.483456+00:00",
-  "atr": 9.930714285714235,
-  "price": 3480.37,
-  "stance": "Strategy: the SELL plan from 11:54 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
+  "updated_at": "2026-11-25T14:05:50.181583+00:00",
+  "atr": 10.92500000000002,
+  "price": 3478.56,
+  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3479.12 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3532.43, ATR 9.93, day range 3469.65-3575.20.",
-    "DXY 103.93 (+0.06% today, flat), gold-dollar corr -0.20.",
-    "WTI 82.69 (+1.31% today, up), gold-oil corr -0.08.",
-    "Headlines: dollar +0.25, oil +0.00, fresh shock.",
+    "Gold 3482.21 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3531.23, ATR 10.93, day range 3467.55-3575.20.",
+    "DXY 104.00 (+0.14% today, up), gold-dollar corr -0.23.",
+    "WTI 82.55 (+1.14% today, up), gold-oil corr -0.05.",
+    "Headlines: dollar +0.33, oil +0.54, fresh shock.",
     "Dollar: US Dollar Rebounds Near 20-Month High as Markets Anticipate December Fed Rate Hike - Cura\u00e7ao Chronicle",
-    "Next high-impact US release: Core PCE Price Index m/m Wed 13:30 UTC."
+    "Oil: WTI oil climbs back above $81.00 as attacks increase in the Strait of Hormuz - www.tmgm.com",
+    "No high-impact US release in the next 24 hours."
   ],
   "active": [
-    {
-      "side": "SELL",
-      "entry_low": 3558.31,
-      "entry_high": 3558.35,
-      "sl": 3563.31,
-      "tp1": 3546.57,
-      "tp2": 3538.41,
-      "rr": 2.4,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.6,
-      "style": "trend_align",
-      "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.60 (Trade with the intraday trend), price above VWAP.",
-      "created_at": "2026-11-25T00:56:55.667635+00:00",
-      "checked_at": "2026-11-25T02:12:53.506157+00:00",
-      "entry": 3558.31,
-      "entered_at": "2026-11-25T02:12:53.506157+00:00",
-      "closed": "sl"
-    },
     {
       "side": "SELL",
       "entry_low": 3564.62,
@@ -145,5 +124,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-25T14:04:21.492778+00:00"
+  "last_check": "2026-11-25T14:18:57.353165+00:00"
 }
