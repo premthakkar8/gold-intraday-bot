@@ -1,55 +1,53 @@
 {
-  "updated_at": "2026-11-25T10:40:43.742402+00:00",
-  "atr": 3.9199999999999755,
-  "price": 3529.47,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.25). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-25T10:55:20.024650+00:00",
+  "atr": 3.721428571428565,
+  "price": 3528.5,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.16). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3512.6,
-      "entry_high": 3515.44,
-      "sl": 3510.44,
-      "tp1": 3528.33,
+      "entry_high": 3515.55,
+      "sl": 3510.55,
+      "tp1": 3528.17,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.25,
+      "score": 0.08,
       "style": "trend_align",
-      "favored": true,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-25T07:01:56.622684+00:00",
-      "checked_at": "2026-11-25T10:53:50.601404+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3572.36,
-      "entry_high": 3575.2,
-      "sl": 3577.36,
-      "tp1": 3559.47,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.14,
-      "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-25T07:01:56.622684+00:00",
+      "checked_at": "2026-11-25T11:08:44.126079+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3572.25,
+      "entry_high": 3575.2,
+      "sl": 3577.25,
+      "tp1": 3559.63,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.16,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-25T02:39:10.590814+00:00",
-      "checked_at": "2026-11-25T10:53:50.601404+00:00"
+      "checked_at": "2026-11-25T11:08:44.126079+00:00"
     }
   ],
   "research": [
-    "Gold 3530.44 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3538.95, ATR 3.92, day range 3512.60-3575.20.",
-    "DXY 103.96 (+0.09% today, up), gold-dollar corr -0.35.",
-    "WTI 81.42 (-0.25% today, flat), gold-oil corr +0.01.",
-    "Headlines: dollar +0.25, oil +0.36, fresh shock.",
-    "Dollar: Gold Trades Near 15-Month Low as Federal Reserve Rate Hike Expectations Weigh on Prices - Yahoo Finance",
-    "Oil: WTI OIl returns above $81.00 as attacks in the Strait of Hormuz increase - FXStreet",
+    "Gold 3530.75 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3538.81, ATR 3.72, day range 3512.60-3575.20.",
+    "DXY 103.97 (+0.10% today, up), gold-dollar corr -0.34.",
+    "WTI 81.21 (-0.50% today, down), gold-oil corr +0.00.",
+    "Headlines: dollar +0.00, oil +0.00.",
     "Next high-impact US release: Core PCE Price Index m/m Wed 13:30 UTC."
   ],
   "active": [
@@ -229,5 +227,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-25T10:53:50.601404+00:00"
+  "last_check": "2026-11-25T11:08:44.126079+00:00"
 }
