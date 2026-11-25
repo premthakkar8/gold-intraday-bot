@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-24T23:58:27.190769+00:00",
-  "atr": 5.040714285714265,
-  "price": 3547.9,
-  "stance": "Strategy: the BUY plan from 22:01 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
+  "updated_at": "2026-11-25T00:12:57.005782+00:00",
+  "atr": 5.604285714285685,
+  "price": 3543.97,
+  "stance": "Strategy: BUY is the trade (Trade with the dollar, confidence 57%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3546.76,
-      "entry_high": 3548.99,
-      "sl": 3543.99,
-      "tp1": 3563.42,
-      "tp2": null,
-      "rr": 4.0,
+      "entry_high": 3548.68,
+      "sl": 3543.68,
+      "tp1": 3559.02,
+      "tp2": 3563.88,
+      "rr": 2.8,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.54,
+      "score": 0.57,
       "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
+      "favored": false,
+      "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T20:42:59.303112+00:00",
-      "checked_at": "2026-11-25T00:11:33.376232+00:00"
+      "checked_at": "2026-11-25T00:26:05.393966+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3676.07,
-      "entry_high": 3678.3,
-      "sl": 3681.07,
-      "tp1": 3661.64,
-      "tp2": null,
-      "rr": 4.0,
+      "entry_low": 3573.13,
+      "entry_high": 3575.05,
+      "sl": 3578.13,
+      "tp1": 3559.02,
+      "tp2": 3557.93,
+      "rr": 3.7,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
       "style": "range_fade",
-      "favored": false,
+      "favored": true,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-24T16:19:16.139337+00:00",
-      "checked_at": "2026-11-25T00:11:33.376232+00:00"
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-25T00:12:57.005782+00:00",
+      "checked_at": "2026-11-25T00:26:05.393966+00:00"
     }
   ],
   "research": [
-    "Gold 3551.41 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3608.71, ATR 5.04, day range 3546.76-3678.30.",
+    "Gold 3552.22 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3559.02, ATR 5.60, day range 3546.76-3575.05.",
     "DXY 103.85 (-0.44% today, down), gold-dollar corr -0.14.",
-    "WTI 81.64 (+1.44% today, up), gold-oil corr +0.02.",
+    "WTI 81.63 (+0.13% today, flat), gold-oil corr +0.01.",
     "Headlines: dollar -1.00, oil -1.00, fresh shock.",
     "Dollar: US Dollar Weakens Against Canada's Loonie as Treasury Yields Edge Down - marketscreener.com",
     "Oil: Crude oil prices extend losses, drop 23% in November; Brent crude drops 3%; WTI dips below $80 per barrel - Upstox",
@@ -120,5 +120,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-25T00:11:33.376232+00:00"
+  "last_check": "2026-11-25T00:26:05.393966+00:00"
 }
