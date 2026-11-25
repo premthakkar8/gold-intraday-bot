@@ -1,77 +1,77 @@
 {
-  "updated": "2026-11-25 09:13 UTC",
+  "updated": "2026-11-25 09:27 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3530.79,
-  "stance": "Strategy: the BUY plan from 07:16 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3527.15,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.09). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3512.6,
-      "entry_high": 3514.47,
-      "sl": 3509.47,
-      "tp1": 3529.79,
+      "entry_high": 3514.83,
+      "sl": 3509.83,
+      "tp1": 3529.26,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.1,
-      "style": "trend_align",
-      "favored": true,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-25T07:01:56.622684+00:00",
-      "checked_at": "2026-11-25T09:13:15.361691+00:00"
+      "checked_at": "2026-11-25T09:27:48.617736+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3573.33,
+      "entry_low": 3572.97,
       "entry_high": 3575.2,
-      "sl": 3578.33,
-      "tp1": 3558.01,
+      "sl": 3577.97,
+      "tp1": 3558.54,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.09,
       "style": "dollar_lead",
-      "favored": false,
+      "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-25T02:39:10.590814+00:00",
-      "checked_at": "2026-11-25T09:13:15.361691+00:00"
+      "checked_at": "2026-11-25T09:27:48.617736+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "london",
-    "vwap": 3540.2371964366025,
-    "atr": 5.689285714285721,
+    "vwap": 3539.9804506773057,
+    "atr": 5.0428571428571365,
     "day_low": 3512.6,
     "day_high": 3575.2,
-    "range_pos": 0.29057507987220577
+    "range_pos": 0.23242811501597768
   },
   "dxy": {
     "ok": true,
-    "last": 104.02200317382812,
-    "pct": 0.15212659165476564,
+    "last": 104.00399780273438,
+    "pct": 0.13479106503452193,
     "state": "up",
-    "corr": -0.19599826887901187
+    "corr": -0.20817661128315795
   },
   "oil": {
     "ok": true,
-    "last": 81.30000305175781,
-    "pct": -0.39206038232781026,
+    "last": 81.37000274658203,
+    "pct": -0.3062974658016281,
     "state": "flat",
-    "corr": 0.04316074321730942
+    "corr": 0.0932508293861554
   },
   "news": {
-    "usd": -0.5914907924608356,
-    "oil": 0.18371814104981601,
+    "usd": -0.5352225769310885,
+    "oil": 0.1834305006640292,
     "shock": true,
     "usd_headlines": [
       "Treasury yields fall as investors await key inflation signal - CNBC",
@@ -111,17 +111,17 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4516897332773153,
-      "trust": 0.5943285964175201
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.3795377914264455,
+      "trust": 0.6777460561186526
     },
     {
       "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.1042703110066524,
+      "trust": 1.042703110066524
+    },
+    {
+      "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
@@ -129,21 +129,21 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.0923428507832039,
-      "trust": 0.9199058236206459
+      "score": 0.09454168286912643,
+      "trust": 1.0011368849401903
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.0772474034251957,
-      "trust": 0.9655925428149463
+      "score": 0.08012030120801036,
+      "trust": 1.0015037651001295
     }
   ],
   "record": {
-    "graded": 258,
+    "graded": 259,
     "wins": 66,
     "losses": 141,
-    "scratches": 51,
-    "avg_r": -0.19901028337432589
+    "scratches": 52,
+    "avg_r": -0.19824190390183813
   }
 }
