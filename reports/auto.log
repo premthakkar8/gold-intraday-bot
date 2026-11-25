@@ -1816,3 +1816,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-25 22:02 UTC  live: SELL TP hit
 2026-11-25 22:16 UTC  live: gold 3588.61 | holding flat stand_aside 5c5141bd | new read flat stand_aside not opened
 2026-11-25 22:30 UTC  live: gold 3588.61 | holding flat stand_aside 5c5141bd | new read flat stand_aside not opened
+2026-11-25 22:44 UTC  live: latest gold bar is 50 minutes old, skipped
