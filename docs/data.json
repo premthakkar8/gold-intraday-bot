@@ -1,103 +1,88 @@
 {
-  "updated": "2026-11-25 11:54 UTC",
+  "updated": "2026-11-25 12:08 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3512.18,
-  "stance": "Strategy: SELL is the trade (Trade with the intraday trend, confidence 54%).",
+  "price": 3499.28,
+  "stance": "Strategy: the SELL plan from 11:54 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3508.77,
-      "entry_high": 3511.15,
-      "sl": 3506.15,
-      "tp1": 3525.21,
+      "entry_low": 3485.0,
+      "entry_high": 3485.87,
+      "sl": 3480.87,
+      "tp1": 3503.7,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.2,
+      "style": "oil_shock",
       "favored": false,
       "ready": false,
       "status": "invalid",
       "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
-      "created_at": "2026-11-25T11:39:20.315193+00:00",
-      "checked_at": "2026-11-25T11:54:05.854628+00:00"
+      "created_at": "2026-11-25T12:08:56.979426+00:00",
+      "checked_at": "2026-11-25T12:08:56.979426+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3572.82,
+      "entry_low": 3574.33,
       "entry_high": 3575.2,
-      "sl": 3577.82,
-      "tp1": 3558.76,
+      "sl": 3579.33,
+      "tp1": 3556.5,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.54,
+      "score": 0.34,
       "style": "trend_align",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-25T02:39:10.590814+00:00",
-      "checked_at": "2026-11-25T11:54:05.854628+00:00"
+      "checked_at": "2026-11-25T12:08:56.979426+00:00"
     }
   ],
-  "active": [
-    {
-      "side": "BUY",
-      "entry_low": 3509.04,
-      "entry_high": 3511.66,
-      "sl": 3506.66,
-      "tp1": 3525.11,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-25T11:39:20.315193+00:00",
-      "checked_at": "2026-11-25T11:40:23.478099+00:00",
-      "entry": 3511.66,
-      "entered_at": "2026-11-25T11:40:23.478099+00:00",
-      "closed": null
-    }
-  ],
+  "active": [],
   "blackout": null,
   "chart": {
     "structure": "down",
     "htf": "down",
-    "session": "london",
-    "vwap": 3537.4364370788367,
-    "atr": 4.772142857142918,
-    "day_low": 3508.77,
+    "session": "overlap",
+    "vwap": 3536.5015467846492,
+    "atr": 7.514285714285734,
+    "day_low": 3485.0,
     "day_high": 3575.2,
-    "range_pos": 0.05133222941441913
+    "range_pos": 0.15831485587583402
   },
   "dxy": {
     "ok": true,
-    "last": 104.02100372314453,
-    "pct": 0.15116432301609956,
+    "last": 104.02999877929688,
+    "pct": 0.1598247407640942,
     "state": "up",
-    "corr": -0.2720877070336456
+    "corr": -0.32379713518827297
   },
   "oil": {
     "ok": true,
-    "last": 81.56999969482422,
-    "pct": -0.06126323214306245,
+    "last": 81.6500015258789,
+    "pct": 0.036754200303100636,
     "state": "flat",
-    "corr": 0.0753516484057448
+    "corr": 0.010702755916688247
   },
   "news": {
-    "usd": 0.0,
-    "oil": 0.0,
-    "shock": false,
-    "usd_headlines": [],
-    "oil_headlines": []
+    "usd": 0.23836441416199577,
+    "oil": 0.36828571527994763,
+    "shock": true,
+    "usd_headlines": [
+      "Gold Trades Near 15-Month Low as Federal Reserve Rate Hike Expectations Weigh on Prices - Yahoo Finance",
+      "Treasury and European Government Bond Yields Fall Ahead of PCE Inflation Data - WSJ",
+      "US core PCE inflation set to heat up in October, prompting Federal Reserve rate hikes in 2027 - FXStreet"
+    ],
+    "oil_headlines": [
+      "WTI Oil returns above $81.00 as attacks in the Strait of Hormuz increase - FXStreet",
+      "Oil Slips 1% as Supply Glut Prospect Offsets Middle East Disruption Fears - Business Post Nigeria",
+      "Crude Oil Prices Rise as Shipping Risks Persist in the Key Strait of Hormuz By Kedia Advisory - Investing.com India"
+    ]
   },
   "events": [
     {
@@ -124,33 +109,33 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.539,
-      "trust": 1.0
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.19032318158951197,
-      "trust": 0.865105370861418
+      "score": 0.4539781550144687,
+      "trust": 0.8106752768115512
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.3415257597900839,
+      "trust": 0.7920356210345174
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.20416255679147444,
+      "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.1812716548796472,
+      "score": 0.16767746843070014,
       "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.08,
       "trust": 1.0
     }
   ],
