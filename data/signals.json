@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-25T15:04:16.412767+00:00",
-  "atr": 10.634285714285754,
-  "price": 3433.3,
-  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
+  "updated_at": "2026-11-25T15:18:56.431305+00:00",
+  "atr": 11.637142857142928,
+  "price": 3445.07,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.47). Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3468.80 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3526.16, ATR 10.63, day range 3454.21-3575.20.",
-    "DXY 103.93 (+0.06% today, flat), gold-dollar corr -0.23.",
-    "WTI 83.20 (+1.94% today, up), gold-oil corr -0.01.",
-    "Headlines: dollar +0.20, oil +0.55, fresh shock.",
-    "Dollar: Can Euro find traction as upbeat US economic data bolster hawkish Fed expectations? - www.tmgm.com",
-    "Oil: WTI oil climbs back above $81.00 as attacks increase in the Strait of Hormuz - www.tmgm.com",
+    "Gold 3431.56 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3524.71, ATR 11.64, day range 3428.65-3575.20.",
+    "DXY 103.96 (+0.09% today, up), gold-dollar corr -0.18.",
+    "WTI 83.40 (+2.18% today, up), gold-oil corr +0.04.",
+    "Headlines: dollar +0.59, oil +0.37, fresh shock.",
+    "Dollar: Euro struggles for traction as upbeat US economic data reinforce hawkish Fed outlook - www.tmgm.com",
+    "Oil: WTI Oil returns above $81.00 as attacks in the Strait of Hormuz increase - FXStreet",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -102,5 +102,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-25T15:17:23.673052+00:00"
+  "last_check": "2026-11-25T15:32:04.018357+00:00"
 }
