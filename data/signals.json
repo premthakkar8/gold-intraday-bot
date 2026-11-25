@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-24T23:43:46.162715+00:00",
-  "atr": 4.43357142857144,
-  "price": 3549.47,
+  "updated_at": "2026-11-24T23:58:27.190769+00:00",
+  "atr": 5.040714285714265,
+  "price": 3547.9,
   "stance": "Strategy: the BUY plan from 22:01 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3546.76,
-      "entry_high": 3549.32,
-      "sl": 3544.32,
-      "tp1": 3562.92,
+      "entry_high": 3548.99,
+      "sl": 3543.99,
+      "tp1": 3563.42,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.62,
-      "style": "oil_shock",
+      "score": 0.54,
+      "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T20:42:59.303112+00:00",
-      "checked_at": "2026-11-24T23:56:53.488835+00:00"
+      "checked_at": "2026-11-25T00:11:33.376232+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3675.74,
+      "entry_low": 3676.07,
       "entry_high": 3678.3,
-      "sl": 3680.74,
-      "tp1": 3662.14,
+      "sl": 3681.07,
+      "tp1": 3661.64,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,16 +40,16 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-24T16:19:16.139337+00:00",
-      "checked_at": "2026-11-24T23:56:53.488835+00:00"
+      "checked_at": "2026-11-25T00:11:33.376232+00:00"
     }
   ],
   "research": [
-    "Gold 3557.21 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3609.21, ATR 4.43, day range 3546.76-3678.30.",
+    "Gold 3551.41 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3608.71, ATR 5.04, day range 3546.76-3678.30.",
     "DXY 103.85 (-0.44% today, down), gold-dollar corr -0.14.",
-    "WTI 81.62 (+1.42% today, up), gold-oil corr +0.07.",
-    "Headlines: dollar -1.00, oil +1.00, fresh shock.",
+    "WTI 81.64 (+1.44% today, up), gold-oil corr +0.02.",
+    "Headlines: dollar -1.00, oil -1.00, fresh shock.",
     "Dollar: US Dollar Weakens Against Canada's Loonie as Treasury Yields Edge Down - marketscreener.com",
-    "Oil: Scott Bessent Unleashes Fresh Iran Sanctions as Tehran Warns Tankers Against Using Strait of Hormuz: Crud - Benzinga",
+    "Oil: Crude oil prices extend losses, drop 23% in November; Brent crude drops 3%; WTI dips below $80 per barrel - Upstox",
     "Next high-impact US release: Core PCE Price Index m/m Wed 13:30 UTC."
   ],
   "active": [
@@ -120,5 +120,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-24T23:56:53.488835+00:00"
+  "last_check": "2026-11-25T00:11:33.376232+00:00"
 }
