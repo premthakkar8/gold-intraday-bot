@@ -7753,7 +7753,7 @@
     {
       "id": "61e3aa2f",
       "opened_at": "2026-11-25T00:42:16.172249+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-11-25T00:56:55.667635+00:00",
       "horizon_minutes": 120,
       "regime": {
         "dxy": "down",
@@ -7770,12 +7770,39 @@
       "target": null,
       "price_at_plan": 3544.36,
       "atr": 6.647857142857122,
+      "outcome": "loss",
+      "r_multiple": -1.0,
+      "tier": null,
+      "units": null,
+      "risk_usd": null,
+      "confidence": 0.5217598522779234
+    },
+    {
+      "id": "095f5668",
+      "opened_at": "2026-11-25T00:56:55.667635+00:00",
+      "resolved_at": null,
+      "horizon_minutes": 120,
+      "regime": {
+        "dxy": "flat",
+        "oil": "flat",
+        "structure": "sideways",
+        "news": "usd",
+        "session": "asia"
+      },
+      "style": "stand_aside",
+      "bias": "flat",
+      "entry_low": null,
+      "entry_high": null,
+      "invalidation": null,
+      "target": null,
+      "price_at_plan": 3557.3,
+      "atr": 6.56642857142856,
       "outcome": null,
       "r_multiple": null,
       "tier": null,
       "units": null,
       "risk_usd": null,
-      "confidence": 0.5217598522779234
+      "confidence": 0.3883172835350146
     }
   ]
 }
