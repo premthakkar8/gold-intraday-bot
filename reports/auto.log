@@ -1749,3 +1749,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-25 04:21 UTC  live: gold 3557.26 | holding short trend_align 6af01166 | new read short trend_align not opened
 2026-11-25 04:36 UTC  live: gold 3551.10 | holding short trend_align 6af01166 | new read short trend_align not opened
 2026-11-25 04:39 UTC  live: SELL now expired: Signal is 120 minutes old without an entry. Waiting for a fresh one.
+2026-11-25 04:50 UTC  live: gold 3549.03 | graded: 6af01166 short trend_align -> scratch (price never reached the entry zone) | opened stand aside b0e3633d
