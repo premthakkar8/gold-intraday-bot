@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-25T15:18:56.431305+00:00",
-  "atr": 11.637142857142928,
-  "price": 3445.07,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.47). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-25T15:33:30.040708+00:00",
+  "atr": 13.317142857142958,
+  "price": 3441.94,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3431.56 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3524.71, ATR 11.64, day range 3428.65-3575.20.",
-    "DXY 103.96 (+0.09% today, up), gold-dollar corr -0.18.",
-    "WTI 83.40 (+2.18% today, up), gold-oil corr +0.04.",
-    "Headlines: dollar +0.59, oil +0.37, fresh shock.",
-    "Dollar: Euro struggles for traction as upbeat US economic data reinforce hawkish Fed outlook - www.tmgm.com",
-    "Oil: WTI Oil returns above $81.00 as attacks in the Strait of Hormuz increase - FXStreet",
+    "Gold 3447.17 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3522.93, ATR 13.32, day range 3426.66-3575.20.",
+    "DXY 103.99 (+0.12% today, up), gold-dollar corr -0.24.",
+    "WTI 83.09 (+1.80% today, up), gold-oil corr +0.10.",
+    "Headlines: dollar +0.65, oil +0.54, fresh shock.",
+    "Dollar: Silver price falls over 6% as US dollar strength and Fed rate hike prospects pressure metals - Traders Union",
+    "Oil: WTI oil climbs back above $81.00 as attacks increase in the Strait of Hormuz - www.tmgm.com",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -102,5 +102,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-25T15:32:04.018357+00:00"
+  "last_check": "2026-11-25T15:46:36.736290+00:00"
 }
