@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-25T14:20:27.510426+00:00",
-  "atr": 11.077857142857185,
-  "price": 3466.84,
-  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
+  "updated_at": "2026-11-25T14:35:00.549204+00:00",
+  "atr": 11.32285714285724,
+  "price": 3464.1,
+  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3479.11 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3530.24, ATR 11.08, day range 3467.55-3575.20.",
-    "DXY 103.94 (+0.07% today, flat), gold-dollar corr -0.25.",
-    "WTI 82.47 (+1.04% today, up), gold-oil corr -0.07.",
-    "Headlines: dollar +0.33, oil +0.55, fresh shock.",
+    "Gold 3466.06 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3529.00, ATR 11.32, day range 3460.24-3575.20.",
+    "DXY 103.93 (+0.06% today, flat), gold-dollar corr -0.24.",
+    "WTI 82.82 (+1.47% today, up), gold-oil corr -0.06.",
+    "Headlines: dollar +0.33, oil +0.27, fresh shock.",
     "Dollar: US Dollar Rebounds Near 20-Month High as Markets Anticipate December Fed Rate Hike - Cura\u00e7ao Chronicle",
-    "Oil: WTI oil climbs back above $81.00 as attacks increase in the Strait of Hormuz - www.tmgm.com",
+    "Oil: WTI Oil returns above $81.00 as attacks in the Strait of Hormuz increase - FXStreet",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -102,5 +102,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-25T14:33:36.203040+00:00"
+  "last_check": "2026-11-25T14:48:10.727751+00:00"
 }
