@@ -1,36 +1,36 @@
 {
-  "updated": "2026-11-25 00:56 UTC",
+  "updated": "2026-11-25 01:11 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3557.3,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.23). Take an entry only if price reaches it.",
+  "price": 3540.08,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.46). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3539.71,
-      "entry_high": 3541.1,
-      "sl": 3536.1,
-      "tp1": 3548.61,
-      "tp2": 3557.63,
-      "rr": 1.9,
+      "entry_low": 3536.16,
+      "entry_high": 3536.87,
+      "sl": 3531.87,
+      "tp1": 3547.71,
+      "tp2": 3555.1,
+      "rr": 2.4,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.23,
+      "score": 0.46,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.23. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-25T00:27:36.435248+00:00",
-      "checked_at": "2026-11-25T00:56:55.667635+00:00"
+      "status": "valid",
+      "reason": "Score 0.46 (Trade with the dollar), price below VWAP.",
+      "created_at": "2026-11-25T01:11:31.022543+00:00",
+      "checked_at": "2026-11-25T01:11:31.022543+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3556.96,
+      "entry_low": 3557.64,
       "entry_high": 3558.35,
-      "sl": 3561.96,
-      "tp1": 3548.61,
-      "tp2": 3540.43,
-      "rr": 2.1,
+      "sl": 3562.64,
+      "tp1": 3547.71,
+      "tp2": 3539.41,
+      "rr": 2.2,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
@@ -40,34 +40,34 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-25T00:56:55.667635+00:00",
-      "checked_at": "2026-11-25T00:56:55.667635+00:00"
+      "checked_at": "2026-11-25T01:11:31.022543+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "down",
     "session": "asia",
-    "vwap": 3548.6115328263913,
-    "atr": 6.56642857142856,
-    "day_low": 3539.71,
+    "vwap": 3547.7120927491233,
+    "atr": 7.807857142857172,
+    "day_low": 3536.16,
     "day_high": 3558.35,
-    "range_pos": 0.94366952789701
+    "range_pos": 0.1766561514195612
   },
   "dxy": {
     "ok": true,
-    "last": 103.85800170898438,
-    "pct": 0.048168785069175934,
+    "last": 103.85900115966797,
+    "pct": -0.0048113431933303474,
     "state": "flat",
-    "corr": -0.19033610952226915
+    "corr": -0.16084857672063202
   },
   "oil": {
     "ok": true,
     "last": 81.83999633789062,
     "pct": 0.26953391804168536,
     "state": "flat",
-    "corr": 0.06569305228623537
+    "corr": -0.04048749387509835
   },
   "news": {
     "usd": -1.0,
@@ -75,7 +75,7 @@
     "shock": true,
     "usd_headlines": [
       "US Dollar Weakens Against Canada's Loonie as Treasury Yields Edge Down - marketscreener.com",
-      "US Dollar Falls Early Tuesday Before Philadelphia Fed Nonmanufacturing Index, Redbook - Moomoo",
+      "US Dollar Falls Early Tuesday Before Philadelphia Fed Nonmanufacturing Index, Redbook - marketscreener.com",
       "U.S. Treasury Yields, European Bond Yields Fall as Oil Prices Remain Under Pressure -- Update - marketscreener.com"
     ],
     "oil_headlines": [
@@ -110,39 +110,39 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.3883172835350146,
-      "trust": 0.5883595205075979
+      "score": 0.46852250142510204,
+      "trust": 0.6006698736219257
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.2334917810406265,
-      "trust": 0.7898782433369895
+      "score": 0.4610917763329268,
+      "trust": 0.8704398199317313
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.3686932803158046,
+      "trust": 0.9090071013703269
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1108797566233101,
-      "trust": 1.1087975662331009
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.0971989409546199,
-      "trust": 0.9719894095461988
+      "score": 0.09713891230339092,
+      "trust": 0.9713891230339091
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07929664924449945,
-      "trust": 0.9912081155562431
+      "score": 0.07998265700314643,
+      "trust": 0.9997832125393302
     }
   ],
   "record": {
-    "graded": 252,
+    "graded": 253,
     "wins": 66,
-    "losses": 136,
+    "losses": 137,
     "scratches": 50,
-    "avg_r": -0.18390735361339713
+    "avg_r": -0.18713301624733628
   }
 }
