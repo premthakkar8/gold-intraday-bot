@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-25T20:42:20.484389+00:00",
-  "atr": 10.220714285714296,
-  "price": 3575.52,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.38). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-25T20:56:50.631219+00:00",
+  "atr": 9.79000000000003,
+  "price": 3573.67,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.33). Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3568.38 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3519.39, ATR 10.22, day range 3426.66-3587.85.",
-    "DXY 103.66 (-0.19% today, down), gold-dollar corr -0.31.",
-    "WTI 83.87 (+2.76% today, up), gold-oil corr +0.31.",
-    "Headlines: dollar +0.40, oil +0.03, fresh shock.",
+    "Gold 3577.84 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3520.08, ATR 9.79, day range 3426.66-3587.85.",
+    "DXY 103.69 (-0.17% today, down), gold-dollar corr -0.40.",
+    "WTI 83.91 (+2.81% today, up), gold-oil corr +0.34.",
+    "Headlines: dollar +0.43, oil +0.03, fresh shock.",
     "Dollar: Fed survey shows continued growth and sticky inflation in recent weeks - Reuters",
     "Oil: Oil edges higher over supply woes triggered by possible OPEC output cut - Yeni Safak English",
     "No high-impact US release in the next 24 hours."
@@ -59,5 +59,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-25T20:55:28.248937+00:00"
+  "last_check": "2026-11-25T20:59:54.114838+00:00"
 }
