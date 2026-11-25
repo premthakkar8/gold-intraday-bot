@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-25 07:16 UTC",
+  "updated": "2026-11-25 07:31 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3519.16,
-  "stance": "Strategy: BUY is the trade (Trade the oil shock, confidence 58%).",
+  "price": 3523.17,
+  "stance": "Strategy: the BUY plan from 07:16 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3512.6,
-      "entry_high": 3514.72,
-      "sl": 3509.72,
-      "tp1": 3529.42,
+      "entry_high": 3515.01,
+      "sl": 3510.01,
+      "tp1": 3528.99,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.62,
+      "score": 0.42,
       "style": "oil_shock",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "valid",
-      "reason": "Score 0.62 (Trade the oil shock), oil supply news +0.54, price below VWAP.",
+      "reason": "Score 0.42 (Trade the oil shock), oil supply news +0.55, price below VWAP.",
       "created_at": "2026-11-25T07:01:56.622684+00:00",
-      "checked_at": "2026-11-25T07:16:26.619176+00:00"
+      "checked_at": "2026-11-25T07:31:04.710053+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3573.08,
+      "entry_low": 3572.79,
       "entry_high": 3575.2,
-      "sl": 3578.08,
-      "tp1": 3558.38,
+      "sl": 3577.79,
+      "tp1": 3558.81,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.18,
-      "style": "trend_align",
+      "score": 0.11,
+      "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-25T02:39:10.590814+00:00",
-      "checked_at": "2026-11-25T07:16:26.619176+00:00"
+      "checked_at": "2026-11-25T07:31:04.710053+00:00"
     }
   ],
   "active": [
@@ -69,34 +69,38 @@
   ],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "london",
-    "vwap": 3543.5035750937327,
-    "atr": 5.241428571428612,
+    "vwap": 3542.801287571476,
+    "atr": 4.714285714285844,
     "day_low": 3512.6,
     "day_high": 3575.2,
-    "range_pos": 0.10479233226836988
+    "range_pos": 0.1688498402555939
   },
   "dxy": {
     "ok": true,
-    "last": 104.03399658203125,
-    "pct": 0.16367381531875846,
+    "last": 104.0199966430664,
+    "pct": 0.15019470881530628,
     "state": "up",
-    "corr": -0.03867440948244616
+    "corr": -0.06107746578001164
   },
   "oil": {
     "ok": true,
-    "last": 80.41999816894531,
-    "pct": -1.47023344432192,
+    "last": 80.58999633789062,
+    "pct": -1.261953410966455,
     "state": "down",
-    "corr": 0.06810591693205173
+    "corr": 0.08042731298707839
   },
   "news": {
-    "usd": 0.0,
-    "oil": 0.5448594471507522,
+    "usd": 0.11248786911049288,
+    "oil": 0.5455874542146277,
     "shock": true,
-    "usd_headlines": [],
+    "usd_headlines": [
+      "Dollar rallies before key inflation reading; Aussie and sterling slump - Global Banking & Finance Review",
+      "Dollar Falls With T-Note Yields - TradingView",
+      "US Dollar Weakens Against Canada's Loonie as Treasury Yields Edge Down - marketscreener.com"
+    ],
     "oil_headlines": [
       "Crude Oil Prices Rise as Shipping Risks Persist in the Key Strait of Hormuz By Kedia Advisory - Investing.com India",
       "Crude Oil Prices Slip As Brent Falls Below $91 Amid Rising Supply, Strait Of Hormuz Attacks And US-Iran - Free Press Journal",
@@ -128,27 +132,27 @@
   ],
   "scorecard": [
     {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.6170415525970787,
-      "trust": 0.9638023120110588
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4813187920879717,
-      "trust": 0.859497843014235
+      "score": 0.5386037883672027,
+      "trust": 0.9617924792271475
     },
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.18324775143091515,
-      "trust": 1.0
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.41601521491646687,
+      "trust": 0.6645955891043014
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.10888919492201257,
+      "score": 0.11423037276236425,
+      "trust": 0.9997831852491638
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.1,
       "trust": 1.0
     },
     {
