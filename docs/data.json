@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-25 19:58 UTC",
+  "updated": "2026-11-25 20:13 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3547.52,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.37). Take an entry only if price reaches it.",
+  "price": 3564.73,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.12). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3426.66,
-      "entry_high": 3426.67,
-      "sl": 3421.67,
-      "tp1": 3446.64,
+      "entry_high": 3426.72,
+      "sl": 3421.72,
+      "tp1": 3446.56,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.37,
-      "style": "oil_shock",
+      "score": 0.12,
+      "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 120.85 away from the entry (13.3 ATR). Unlikely to fill soon.",
+      "reason": "Price is 138.01 away from the entry (15.4 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-25T19:58:47.712218+00:00",
-      "checked_at": "2026-11-25T19:58:47.712218+00:00"
+      "checked_at": "2026-11-25T20:13:19.166700+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3575.19,
+      "entry_low": 3575.14,
       "entry_high": 3575.2,
-      "sl": 3580.19,
-      "tp1": 3555.22,
+      "sl": 3580.14,
+      "tp1": 3555.3,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-25T19:58:47.712218+00:00",
-      "checked_at": "2026-11-25T19:58:47.712218+00:00"
+      "checked_at": "2026-11-25T20:13:19.166700+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "down",
     "session": "newyork",
-    "vwap": 3517.4907855647366,
-    "atr": 9.068571428571497,
+    "vwap": 3517.9701437608032,
+    "atr": 8.975714285714373,
     "day_low": 3426.66,
     "day_high": 3575.2,
-    "range_pos": 0.8136528881109476
+    "range_pos": 0.9295139356402329
   },
   "dxy": {
     "ok": true,
-    "last": 103.63999938964844,
-    "pct": -0.2156657040552351,
+    "last": 103.67400360107422,
+    "pct": -0.18292653365420708,
     "state": "down",
-    "corr": -0.22306928061679665
+    "corr": -0.22714978537707936
   },
   "oil": {
     "ok": true,
-    "last": 83.5199966430664,
-    "pct": 2.3278532621269,
+    "last": 83.9000015258789,
+    "pct": 2.7934313925177534,
     "state": "up",
-    "corr": 0.19860527521548246
+    "corr": 0.23337935068268945
   },
   "news": {
-    "usd": 0.4192434425023852,
-    "oil": 0.10409910701763748,
+    "usd": 0.4330457178137338,
+    "oil": -0.18009543750656698,
     "shock": true,
     "usd_headlines": [
       "Fed survey shows continued growth and sticky inflation in recent weeks - Reuters",
@@ -94,14 +94,14 @@
     },
     {
       "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.3716547942977048,
-      "trust": 1.165482446069325
+      "bias": "flat",
+      "score": 0.13983014652998704,
+      "trust": 1.1652512210832253
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.13046837920324694,
+      "score": 0.11704891520433768,
       "trust": 1.0
     },
     {
