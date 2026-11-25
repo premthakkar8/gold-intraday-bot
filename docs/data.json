@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-25 20:27 UTC",
+  "updated": "2026-11-25 20:42 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3579.49,
+  "price": 3568.38,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.38). Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
@@ -10,29 +10,29 @@
     "structure": "sideways",
     "htf": "down",
     "session": "newyork",
-    "vwap": 3518.665006028274,
-    "atr": 9.445000000000034,
+    "vwap": 3519.390452840672,
+    "atr": 10.220714285714296,
     "day_low": 3426.66,
-    "day_high": 3581.0,
-    "range_pos": 0.9902164053388608
+    "day_high": 3587.85,
+    "range_pos": 0.8792108691606192
   },
   "dxy": {
     "ok": true,
-    "last": 103.66500091552734,
-    "pct": -0.19159429696432892,
+    "last": 103.66300201416016,
+    "pct": -0.19351883424166108,
     "state": "down",
-    "corr": -0.22993980603166317
+    "corr": -0.3127936296366984
   },
   "oil": {
     "ok": true,
-    "last": 84.05000305175781,
-    "pct": 2.9772117414900987,
+    "last": 83.87000274658203,
+    "pct": 2.7566771922146525,
     "state": "up",
-    "corr": 0.24465784409215396
+    "corr": 0.3086813331701925
   },
   "news": {
-    "usd": 0.39981948061930667,
-    "oil": 0.029218978904772652,
+    "usd": 0.4003923431363427,
+    "oil": 0.029648432015578145,
     "shock": true,
     "usd_headlines": [
       "Fed survey shows continued growth and sticky inflation in recent weeks - Reuters",
@@ -56,13 +56,13 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.37593408542405565,
-      "trust": 1.1650214091120794
+      "score": 0.38201181442131293,
+      "trust": 1.1647901606601179
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.12104877073723666,
+      "score": 0.13143494103700057,
       "trust": 1.0
     },
     {
