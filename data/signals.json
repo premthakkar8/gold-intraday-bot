@@ -1,56 +1,16 @@
 {
-  "updated_at": "2026-11-25T13:36:33.109561+00:00",
-  "atr": 8.515714285714207,
-  "price": 3483.89,
+  "updated_at": "2026-11-25T13:51:14.483456+00:00",
+  "atr": 9.930714285714235,
+  "price": 3480.37,
   "stance": "Strategy: the SELL plan from 11:54 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 3485.0,
-      "entry_high": 3485.32,
-      "sl": 3480.32,
-      "tp1": 3504.53,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.42,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "paused",
-      "reason": "Core PCE Price Index m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
-      "created_at": "2026-11-25T13:07:20.715026+00:00",
-      "checked_at": "2026-11-25T13:49:38.776095+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3574.88,
-      "entry_high": 3575.2,
-      "sl": 3579.88,
-      "tp1": 3555.67,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "paused",
-      "reason": "Core PCE Price Index m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
-      "created_at": "2026-11-25T13:07:20.715026+00:00",
-      "checked_at": "2026-11-25T13:49:38.776095+00:00"
-    }
-  ],
+  "setups": [],
   "research": [
-    "Gold 3486.16 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3533.71, ATR 8.52, day range 3485.00-3575.20.",
-    "DXY 103.94 (+0.08% today, flat), gold-dollar corr -0.30.",
-    "WTI 82.51 (+1.09% today, up), gold-oil corr -0.06.",
-    "Headlines: dollar +0.30, oil +0.26, fresh shock.",
+    "Gold 3479.12 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3532.43, ATR 9.93, day range 3469.65-3575.20.",
+    "DXY 103.93 (+0.06% today, flat), gold-dollar corr -0.20.",
+    "WTI 82.69 (+1.31% today, up), gold-oil corr -0.08.",
+    "Headlines: dollar +0.25, oil +0.00, fresh shock.",
     "Dollar: US Dollar Rebounds Near 20-Month High as Markets Anticipate December Fed Rate Hike - Cura\u00e7ao Chronicle",
-    "Oil: WTI Oil returns above $81.00 as attacks in the Strait of Hormuz increase - FXStreet",
-    "US event blackout: Core PCE Price Index m/m at 13:30 UTC. Do not enter until it passes."
+    "Next high-impact US release: Core PCE Price Index m/m Wed 13:30 UTC."
   ],
   "active": [
     {
@@ -185,5 +145,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-25T13:49:38.776095+00:00"
+  "last_check": "2026-11-25T14:04:21.492778+00:00"
 }

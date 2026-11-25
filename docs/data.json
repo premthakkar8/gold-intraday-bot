@@ -1,88 +1,45 @@
 {
-  "updated": "2026-11-25 13:36 UTC",
+  "updated": "2026-11-25 13:51 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3486.16,
+  "price": 3479.12,
   "stance": "Strategy: the SELL plan from 11:54 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 3485.0,
-      "entry_high": 3485.32,
-      "sl": 3480.32,
-      "tp1": 3504.53,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.42,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "paused",
-      "reason": "Core PCE Price Index m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
-      "created_at": "2026-11-25T13:07:20.715026+00:00",
-      "checked_at": "2026-11-25T13:36:33.109561+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3574.88,
-      "entry_high": 3575.2,
-      "sl": 3579.88,
-      "tp1": 3555.67,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "paused",
-      "reason": "Core PCE Price Index m/m at 13:30 UTC is a high-impact US release. Wait until it passes.",
-      "created_at": "2026-11-25T13:07:20.715026+00:00",
-      "checked_at": "2026-11-25T13:36:33.109561+00:00"
-    }
-  ],
+  "setups": [],
   "active": [],
-  "blackout": "Core PCE Price Index m/m at 13:30 UTC",
+  "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3533.7090408695826,
-    "atr": 8.515714285714207,
-    "day_low": 3485.0,
+    "vwap": 3532.425541965431,
+    "atr": 9.930714285714235,
+    "day_low": 3469.65,
     "day_high": 3575.2,
-    "range_pos": 0.012860310421284443
+    "range_pos": 0.08972051160587233
   },
   "dxy": {
     "ok": true,
-    "last": 103.94499969482422,
-    "pct": 0.07798783310471495,
+    "last": 103.92500305175781,
+    "pct": 0.058735114769266336,
     "state": "flat",
-    "corr": -0.30035486809308415
+    "corr": -0.20470879880832424
   },
   "oil": {
     "ok": true,
-    "last": 82.51000213623047,
-    "pct": 1.0904182304572485,
+    "last": 82.69000244140625,
+    "pct": 1.3109527797326945,
     "state": "up",
-    "corr": -0.05980380517967727
+    "corr": -0.08133789277353841
   },
   "news": {
-    "usd": 0.2974881003924973,
-    "oil": 0.2599421619390646,
+    "usd": 0.24862555276544834,
+    "oil": 0.0,
     "shock": true,
     "usd_headlines": [
       "US Dollar Rebounds Near 20-Month High as Markets Anticipate December Fed Rate Hike - Cura\u00e7ao Chronicle",
       "Why Is Gold Falling Today? Gold Drops Below $3,500 as Dollar Strengthens - Coinpaper",
       "Treasury yields fall in bull steepening as growth fears drive haven demand ahead of PCE data - Investing.com"
     ],
-    "oil_headlines": [
-      "WTI Oil returns above $81.00 as attacks in the Strait of Hormuz increase - FXStreet",
-      "Oil Slips 1% as Supply Glut Prospect Offsets Middle East Disruption Fears - Business Post Nigeria",
-      "Crude Oil Prices Rise as Shipping Risks Persist in the Key Strait of Hormuz By Kedia Advisory - Investing.com India"
-    ]
+    "oil_headlines": []
   },
   "events": [
     {
@@ -111,32 +68,32 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.424939145468857,
-      "trust": 0.9211159429548184
+      "score": 0.5130761838883703,
+      "trust": 0.9328657888879459
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.39292252137764655,
-      "trust": 0.7016473596029402
+      "score": 0.3748506262563362,
+      "trust": 0.669376118314886
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.3696000000000001,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11020445376868877,
-      "trust": 1.1020445376868877
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.11393540527216216,
+      "trust": 1.1393540527216215
     },
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.06870042127834045,
-      "trust": 0.5725035106528371
+      "score": 0.11118923995621659,
+      "trust": 0.9265769996351383
     }
   ],
   "record": {
