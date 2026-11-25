@@ -1,85 +1,86 @@
 {
-  "updated": "2026-11-25 00:12 UTC",
+  "updated": "2026-11-25 00:27 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3552.22,
-  "stance": "Strategy: BUY is the trade (Trade with the dollar, confidence 57%).",
+  "price": 3540.89,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.34). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3546.76,
-      "entry_high": 3548.68,
-      "sl": 3543.68,
-      "tp1": 3559.02,
-      "tp2": 3563.88,
-      "rr": 2.8,
+      "entry_low": 3539.71,
+      "entry_high": 3541.2,
+      "sl": 3536.2,
+      "tp1": 3557.47,
+      "tp2": null,
+      "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.57,
+      "score": 0.34,
       "style": "dollar_lead",
       "favored": false,
-      "ready": true,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-24T20:42:59.303112+00:00",
-      "checked_at": "2026-11-25T00:12:57.005782+00:00"
+      "ready": false,
+      "status": "invalid",
+      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
+      "created_at": "2026-11-25T00:27:36.435248+00:00",
+      "checked_at": "2026-11-25T00:27:36.435248+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3573.13,
-      "entry_high": 3575.05,
-      "sl": 3578.13,
-      "tp1": 3559.02,
-      "tp2": 3557.93,
-      "rr": 3.7,
+      "entry_low": 3572.42,
+      "entry_high": 3573.91,
+      "sl": 3577.42,
+      "tp1": 3557.97,
+      "tp2": 3556.15,
+      "rr": 3.6,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.25,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "reason": "Strategy score is only 0.25. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-25T00:12:57.005782+00:00",
-      "checked_at": "2026-11-25T00:12:57.005782+00:00"
+      "checked_at": "2026-11-25T00:27:36.435248+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "down",
     "session": "asia",
-    "vwap": 3559.018646281605,
-    "atr": 5.604285714285685,
-    "day_low": 3546.76,
-    "day_high": 3575.05,
-    "range_pos": 0.19300106044537252
+    "vwap": 3557.972403021124,
+    "atr": 6.3785714285714095,
+    "day_low": 3539.71,
+    "day_high": 3573.91,
+    "range_pos": 0.03450292397660358
   },
   "dxy": {
     "ok": true,
     "last": 103.8479995727539,
     "pct": -0.4410007769243946,
     "state": "down",
-    "corr": -0.14215620619821365
+    "corr": -0.14215620619821362
   },
   "oil": {
     "ok": true,
-    "last": 81.62999725341797,
-    "pct": 0.13493696624301627,
+    "last": 81.66999816894531,
+    "pct": 0.06125388468622037,
     "state": "flat",
-    "corr": 0.013051537141164157
+    "corr": -0.003575832012913224
   },
   "news": {
-    "usd": -1.0,
-    "oil": -1.0,
+    "usd": -0.5869155419521752,
+    "oil": 0.0,
     "shock": true,
     "usd_headlines": [
       "US Dollar Weakens Against Canada's Loonie as Treasury Yields Edge Down - marketscreener.com",
-      "U.S. Treasury Yields, European Bond Yields Fall as Oil Prices Remain Under Pressure -- Update - marketscreener.com",
-      "US Dollar Falls Early Tuesday Before Philadelphia Fed Nonmanufacturing Index, Redbook - Moomoo"
+      "US dollar gains as renewed AI euphoria fuels Fed hike bets - The Business Times",
+      "U.S. Treasury Yields, European Bond Yields Fall as Oil Prices Remain Under Pressure -- Update - marketscreener.com"
     ],
     "oil_headlines": [
-      "Crude oil prices extend losses, drop 23% in November; Brent crude drops 3%; WTI dips below $80 per barrel - Upstox"
+      "COMMENTARY: Middle East crude oil exports trend lower amid fake Iran stalemate - Reuters",
+      "RANKED: The Top Crude Oil Producers in 2025 \u2013 Visual Capitalist \u2013 See How Countries Rank - EnergyNow.com"
     ]
   },
   "events": [
@@ -107,41 +108,41 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.5724981330597351,
-      "trust": 1.0318702575289365
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.39916404359488733,
-      "trust": 0.7127929349908702
+      "score": 0.49659144014489526,
+      "trust": 0.6534097896643358
     },
     {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.15570495432568646,
-      "trust": 1.2975412860473872
+      "style": "Trade with the dollar",
+      "bias": "long",
+      "score": 0.34290191844917306,
+      "trust": 0.6957483977602748
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.24640000000000006,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11240303619479092,
-      "trust": 1.124030361947909
+      "score": 0.1,
+      "trust": 1.0
     },
     {
-      "style": "Trade with the intraday trend",
+      "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.0999782902346912,
-      "trust": 0.9997829023469119
+      "score": 0.08907844796576246,
+      "trust": 1.1134805995720307
     }
   ],
   "record": {
-    "graded": 249,
+    "graded": 250,
     "wins": 66,
-    "losses": 133,
+    "losses": 134,
     "scratches": 50,
-    "avg_r": -0.17407491209066697
+    "avg_r": -0.1773786124423043
   }
 }
