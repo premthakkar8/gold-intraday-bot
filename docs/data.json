@@ -1,77 +1,38 @@
 {
-  "updated": "2026-11-25 12:23 UTC",
+  "updated": "2026-11-25 12:38 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3521.04,
+  "price": 3528.73,
   "stance": "Strategy: the SELL plan from 11:54 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 3485.0,
-      "entry_high": 3485.02,
-      "sl": 3480.02,
-      "tp1": 3504.98,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.35,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
-      "created_at": "2026-11-25T12:08:56.979426+00:00",
-      "checked_at": "2026-11-25T12:23:32.637236+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3575.18,
-      "entry_high": 3575.2,
-      "sl": 3580.18,
-      "tp1": 3555.22,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.32,
-      "style": "trend_align",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-25T02:39:10.590814+00:00",
-      "checked_at": "2026-11-25T12:23:32.637236+00:00"
-    }
-  ],
+  "setups": [],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "down",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3536.0254403521967,
-    "atr": 9.062142857142849,
+    "vwap": 3535.7524584910693,
+    "atr": 9.450714285714282,
     "day_low": 3485.0,
     "day_high": 3575.2,
-    "range_pos": 0.3995565410199561
+    "range_pos": 0.4848115299334823
   },
   "dxy": {
     "ok": true,
-    "last": 103.9469985961914,
-    "pct": 0.0799123703820471,
+    "last": 103.94100189208984,
+    "pct": 0.07413875855005067,
     "state": "flat",
-    "corr": -0.33867913306219094
+    "corr": -0.34249623433609805
   },
   "oil": {
     "ok": true,
-    "last": 82.16000366210938,
-    "pct": 0.6616036478263377,
+    "last": 82.41999816894531,
+    "pct": 0.9801462820911047,
     "state": "up",
-    "corr": 0.024680033917827394
+    "corr": 0.044649203971809784
   },
   "news": {
-    "usd": 0.2331530038360812,
-    "oil": 0.41777320100199167,
+    "usd": 0.23246471648143213,
+    "oil": 0.3697692010543494,
     "shock": true,
     "usd_headlines": [
       "Treasury and European Government Bond Yields Fall Ahead of PCE Inflation Data - WSJ",
@@ -79,9 +40,9 @@
       "Gold Trades Near 15-Month Low as Federal Reserve Rate Hike Expectations Weigh on Prices - Yahoo Finance"
     ],
     "oil_headlines": [
-      "Above $81.00 again: WTI oil rises as Strait of Hormuz attacks intensify - www.tmgm.com",
       "WTI Oil returns above $81.00 as attacks in the Strait of Hormuz increase - FXStreet",
-      "Oil Slips 1% as Supply Glut Prospect Offsets Middle East Disruption Fears - Business Post Nigeria"
+      "Oil Slips 1% as Supply Glut Prospect Offsets Middle East Disruption Fears - Business Post Nigeria",
+      "Crude Oil Prices Rise as Shipping Risks Persist in the Key Strait of Hormuz By Kedia Advisory - Investing.com India"
     ]
   },
   "events": [
@@ -109,6 +70,12 @@
   ],
   "scorecard": [
     {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.5326403501131124,
+      "trust": 0.7926195686207027
+    },
+    {
       "style": "Stand aside",
       "bias": "flat",
       "score": 0.48435501757014154,
@@ -117,26 +84,20 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.35068786142333785,
-      "trust": 0.9644582514609259
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.31627754530767055,
-      "trust": 0.7923276056956595
+      "score": 0.4064193168455739,
+      "trust": 0.9645082189729748
     },
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.11111453871261356,
-      "trust": 0.9259544892717797
+      "score": 0.11112703062458151,
+      "trust": 0.9260585885381794
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.10985488160787577,
-      "trust": 1.0985488160787575
+      "score": 0.10984102680512342,
+      "trust": 1.0984102680512342
     }
   ],
   "record": {
