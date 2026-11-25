@@ -1757,3 +1757,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-25 05:50 UTC  live: BUY ran through entry and SL
 2026-11-25 06:03 UTC  live: gold 3519.80 | graded: ba6be955 long oil_shock -> loss (-1.00R) invalidation hit | opened stand aside ec27e68c
 2026-11-25 06:04 UTC  live: BUY entry reached at 3520.95
+2026-11-25 06:18 UTC  live: gold 3522.73 | holding flat stand_aside ec27e68c | new read flat stand_aside not opened
