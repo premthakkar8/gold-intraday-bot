@@ -1,41 +1,19 @@
 {
-  "updated_at": "2026-11-25T14:05:50.181583+00:00",
-  "atr": 10.92500000000002,
-  "price": 3478.56,
-  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
+  "updated_at": "2026-11-25T14:20:27.510426+00:00",
+  "atr": 11.077857142857185,
+  "price": 3466.84,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3482.21 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3531.23, ATR 10.93, day range 3467.55-3575.20.",
-    "DXY 104.00 (+0.14% today, up), gold-dollar corr -0.23.",
-    "WTI 82.55 (+1.14% today, up), gold-oil corr -0.05.",
-    "Headlines: dollar +0.33, oil +0.54, fresh shock.",
+    "Gold 3479.11 (VANTAGE:XAUUSD). 5m down, 1h down. VWAP 3530.24, ATR 11.08, day range 3467.55-3575.20.",
+    "DXY 103.94 (+0.07% today, flat), gold-dollar corr -0.25.",
+    "WTI 82.47 (+1.04% today, up), gold-oil corr -0.07.",
+    "Headlines: dollar +0.33, oil +0.55, fresh shock.",
     "Dollar: US Dollar Rebounds Near 20-Month High as Markets Anticipate December Fed Rate Hike - Cura\u00e7ao Chronicle",
     "Oil: WTI oil climbs back above $81.00 as attacks increase in the Strait of Hormuz - www.tmgm.com",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
-    {
-      "side": "SELL",
-      "entry_low": 3564.62,
-      "entry_high": 3565.14,
-      "sl": 3569.62,
-      "tp1": 3547.78,
-      "tp2": 3545.91,
-      "rr": 3.6,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.47,
-      "style": "trend_align",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.47 (Trade with the intraday trend), price above VWAP.",
-      "created_at": "2026-11-25T02:24:32.798601+00:00",
-      "checked_at": "2026-11-25T02:25:38.169270+00:00",
-      "entry": 3564.62,
-      "entered_at": "2026-11-25T02:25:38.169270+00:00",
-      "closed": "sl"
-    },
     {
       "side": "BUY",
       "entry_low": 3526.53,
@@ -124,5 +102,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-25T14:18:57.353165+00:00"
+  "last_check": "2026-11-25T14:33:36.203040+00:00"
 }
