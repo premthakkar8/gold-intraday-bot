@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-11-25T03:37:56.734736+00:00",
-  "atr": 5.934999999999978,
-  "price": 3550.63,
+  "updated_at": "2026-11-25T03:52:32.342408+00:00",
+  "atr": 4.87071428571429,
+  "price": 3544.43,
   "stance": "Strategy: the SELL plan from 02:39 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3533.8,
-      "entry_high": 3535.54,
-      "sl": 3530.54,
-      "tp1": 3550.84,
-      "tp2": null,
-      "rr": 3.9,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.28,
-      "style": "dollar_lead",
-      "favored": false,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-25T01:11:31.022543+00:00",
-      "checked_at": "2026-11-25T03:51:06.468342+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3573.46,
-      "entry_high": 3575.2,
-      "sl": 3578.46,
-      "tp1": 3557.8,
+      "entry_high": 3536.12,
+      "sl": 3531.12,
+      "tp1": 3550.32,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
       "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-25T01:11:31.022543+00:00",
+      "checked_at": "2026-11-25T04:05:38.570100+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3572.88,
+      "entry_high": 3575.2,
+      "sl": 3577.88,
+      "tp1": 3558.68,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.12,
+      "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "reason": "Strategy score is only 0.12. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-25T02:39:10.590814+00:00",
-      "checked_at": "2026-11-25T03:51:06.468342+00:00"
+      "checked_at": "2026-11-25T04:05:38.570100+00:00"
     }
   ],
   "research": [
-    "Gold 3550.57 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3550.84, ATR 5.93, day range 3533.80-3575.20.",
-    "DXY 103.91 (+0.04% today, flat), gold-dollar corr -0.30.",
-    "WTI 80.88 (-0.91% today, down), gold-oil corr -0.12.",
-    "Headlines: dollar -0.55, oil -1.00, fresh shock.",
+    "Gold 3549.05 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3550.81, ATR 4.87, day range 3533.80-3575.20.",
+    "DXY 103.95 (+0.08% today, up), gold-dollar corr -0.28.",
+    "WTI 80.75 (-1.07% today, down), gold-oil corr -0.10.",
+    "Headlines: dollar -0.54, oil -1.00, fresh shock.",
     "Dollar: US Dollar Weakens Against Canada's Loonie as Treasury Yields Edge Down - marketscreener.com",
     "Oil: Palm Oil Slips As Soyoil And Crude Oil Weigh - Finimize",
     "Next high-impact US release: Core PCE Price Index m/m Wed 13:30 UTC."
@@ -208,5 +208,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-25T03:51:06.468342+00:00"
+  "last_check": "2026-11-25T04:05:38.570100+00:00"
 }
