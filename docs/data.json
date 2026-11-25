@@ -1,86 +1,85 @@
 {
-  "updated": "2026-11-25 01:40 UTC",
+  "updated": "2026-11-25 01:55 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3547.9,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.42). Take an entry only if price reaches it.",
+  "price": 3551.96,
+  "stance": "Strategy: SELL is the trade (Trade with the intraday trend, confidence 58%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3533.8,
-      "entry_high": 3534.21,
-      "sl": 3529.21,
-      "tp1": 3545.26,
-      "tp2": 3553.19,
-      "rr": 2.3,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.42,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.42 (Trade with the dollar).",
-      "created_at": "2026-11-25T01:11:31.022543+00:00",
-      "checked_at": "2026-11-25T01:40:45.933729+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3557.94,
-      "entry_high": 3558.35,
-      "sl": 3562.94,
-      "tp1": 3545.26,
-      "tp2": 3538.96,
-      "rr": 2.7,
+      "entry_high": 3534.11,
+      "sl": 3529.11,
+      "tp1": 3546.06,
+      "tp2": 3553.33,
+      "rr": 2.5,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "status": "invalid",
+      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
+      "created_at": "2026-11-25T01:11:31.022543+00:00",
+      "checked_at": "2026-11-25T01:55:18.235848+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3558.04,
+      "entry_high": 3558.35,
+      "sl": 3563.04,
+      "tp1": 3546.06,
+      "tp2": 3538.82,
+      "rr": 2.5,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.65,
+      "style": "trend_align",
+      "favored": true,
+      "ready": true,
+      "status": "valid",
+      "reason": "Score 0.65 (Trade with the intraday trend), price above VWAP.",
       "created_at": "2026-11-25T00:56:55.667635+00:00",
-      "checked_at": "2026-11-25T01:40:45.933729+00:00"
+      "checked_at": "2026-11-25T01:55:18.235848+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "down",
     "htf": "down",
     "session": "asia",
-    "vwap": 3545.2599357024437,
-    "atr": 8.350714285714341,
+    "vwap": 3546.062525389837,
+    "atr": 8.525000000000025,
     "day_low": 3533.8,
     "day_high": 3558.35,
-    "range_pos": 0.5743380855397175
+    "range_pos": 0.7397148676171102
   },
   "dxy": {
     "ok": true,
-    "last": 103.9000015258789,
-    "pct": 0.03466370767836017,
+    "last": 103.88400268554688,
+    "pct": 0.01926006389757583,
     "state": "flat",
-    "corr": -0.16414678302505065
+    "corr": -0.1873710681144883
   },
   "oil": {
     "ok": true,
-    "last": 81.52999877929688,
-    "pct": -0.110271948366144,
+    "last": 81.47000122070312,
+    "pct": -0.18378034897234527,
     "state": "flat",
-    "corr": 0.10267722415073906
+    "corr": 0.054782521452949616
   },
   "news": {
-    "usd": -1.0,
-    "oil": 0.0,
+    "usd": -0.28728401405253967,
+    "oil": -1.0,
     "shock": true,
     "usd_headlines": [
+      "Brace for a tightening cycle! Eight regional Federal Reserve Banks advocate raising the discount rate; Wall Street bets on continued Fed rate hikes into next...",
       "US Dollar Weakens Against Canada's Loonie as Treasury Yields Edge Down - marketscreener.com",
-      "US Dollar Falls Early Tuesday Before Philadelphia Fed Nonmanufacturing Index, Redbook - Moomoo",
-      "US Dollar Falls Early Tuesday Before Philadelphia Fed Nonmanufacturing Index, Redbook - marketscreener.com"
+      "US Dollar Falls Early Tuesday Before Philadelphia Fed Nonmanufacturing Index, Redbook - Moomoo"
     ],
     "oil_headlines": [
-      "COMMENTARY: Middle East crude oil exports trend lower amid fake Iran stalemate - Reuters",
-      "RANKED: The Top Crude Oil Producers in 2025 \u2013 Visual Capitalist \u2013 See How Countries Rank - EnergyNow.com"
+      "Crude oil prices extend losses, drop 23% in November; Brent crude drops 3%; WTI dips below $80 per barrel - Upstox"
     ]
   },
   "events": [
@@ -108,34 +107,34 @@
   ],
   "scorecard": [
     {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.4191003364409092,
-      "trust": 0.7898782433369895
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.6470913137010039,
+      "trust": 0.9629335025312555
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.38132272161209957,
-      "trust": 0.5777616994122721
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.1108797566233101,
-      "trust": 1.1087975662331009
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.09721073730230412,
-      "trust": 0.9721073730230412
+      "score": 0.34300384870733697,
+      "trust": 0.6125068726916731
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07929961132774063,
-      "trust": 0.9912451415967578
+      "score": 0.11895088637500359,
+      "trust": 0.9912573864583633
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "flat",
+      "score": 0.11383992296275218,
+      "trust": 0.9486660246896015
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
     }
   ],
   "record": {
