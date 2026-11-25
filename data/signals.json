@@ -1,14 +1,53 @@
 {
-  "updated_at": "2026-11-25T19:44:12.180699+00:00",
-  "atr": 9.77714285714293,
-  "price": 3547.66,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.26). Take an entry only if price reaches it.",
-  "setups": [],
+  "updated_at": "2026-11-25T19:58:47.712218+00:00",
+  "atr": 9.068571428571497,
+  "price": 3560.55,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.37). Take an entry only if price reaches it.",
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3426.66,
+      "entry_high": 3426.67,
+      "sl": 3421.67,
+      "tp1": 3446.64,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.37,
+      "style": "oil_shock",
+      "favored": true,
+      "ready": false,
+      "status": "far",
+      "reason": "Price is 120.85 away from the entry (13.3 ATR). Unlikely to fill soon.",
+      "created_at": "2026-11-25T19:58:47.712218+00:00",
+      "checked_at": "2026-11-25T20:11:54.119919+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3575.19,
+      "entry_high": 3575.2,
+      "sl": 3580.19,
+      "tp1": 3555.22,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-25T19:58:47.712218+00:00",
+      "checked_at": "2026-11-25T20:11:54.119919+00:00"
+    }
+  ],
   "research": [
-    "Gold 3538.83 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3517.15, ATR 9.78, day range 3426.66-3575.20.",
-    "DXY 103.61 (-0.24% today, down), gold-dollar corr -0.20.",
-    "WTI 83.65 (+2.49% today, up), gold-oil corr +0.20.",
-    "Headlines: dollar +0.53, oil -0.18, fresh shock.",
+    "Gold 3547.52 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3517.49, ATR 9.07, day range 3426.66-3575.20.",
+    "DXY 103.64 (-0.22% today, down), gold-dollar corr -0.22.",
+    "WTI 83.52 (+2.33% today, up), gold-oil corr +0.20.",
+    "Headlines: dollar +0.42, oil +0.10, fresh shock.",
     "Dollar: Fed survey shows continued growth and sticky inflation in recent weeks - Reuters",
     "Oil: CME : WTI Crude Oil futures top $83 as EIA reports inventory build. - www.marketscreener.com",
     "No high-impact US release in the next 24 hours."
@@ -37,5 +76,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-25T19:57:19.937809+00:00"
+  "last_check": "2026-11-25T20:11:54.119919+00:00"
 }

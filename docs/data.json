@@ -1,38 +1,77 @@
 {
-  "updated": "2026-11-25 19:44 UTC",
+  "updated": "2026-11-25 19:58 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3538.83,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.26). Take an entry only if price reaches it.",
-  "setups": [],
+  "price": 3547.52,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.37). Take an entry only if price reaches it.",
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3426.66,
+      "entry_high": 3426.67,
+      "sl": 3421.67,
+      "tp1": 3446.64,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.37,
+      "style": "oil_shock",
+      "favored": true,
+      "ready": false,
+      "status": "far",
+      "reason": "Price is 120.85 away from the entry (13.3 ATR). Unlikely to fill soon.",
+      "created_at": "2026-11-25T19:58:47.712218+00:00",
+      "checked_at": "2026-11-25T19:58:47.712218+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3575.19,
+      "entry_high": 3575.2,
+      "sl": 3580.19,
+      "tp1": 3555.22,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-25T19:58:47.712218+00:00",
+      "checked_at": "2026-11-25T19:58:47.712218+00:00"
+    }
+  ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "down",
     "session": "newyork",
-    "vwap": 3517.1486232562984,
-    "atr": 9.77714285714293,
+    "vwap": 3517.4907855647366,
+    "atr": 9.068571428571497,
     "day_low": 3426.66,
     "day_high": 3575.2,
-    "range_pos": 0.7551501279116744
+    "range_pos": 0.8136528881109476
   },
   "dxy": {
     "ok": true,
-    "last": 103.61100006103516,
-    "pct": -0.2435861857008056,
+    "last": 103.63999938964844,
+    "pct": -0.2156657040552351,
     "state": "down",
-    "corr": -0.1988484446621739
+    "corr": -0.22306928061679665
   },
   "oil": {
     "ok": true,
-    "last": 83.6500015258789,
-    "pct": 2.487133926716125,
+    "last": 83.5199966430664,
+    "pct": 2.3278532621269,
     "state": "up",
-    "corr": 0.2037468095833789
+    "corr": 0.19860527521548246
   },
   "news": {
-    "usd": 0.5271616415559679,
-    "oil": -0.18034330709965354,
+    "usd": 0.4192434425023852,
+    "oil": 0.10409910701763748,
     "shock": true,
     "usd_headlines": [
       "Fed survey shows continued growth and sticky inflation in recent weeks - Reuters",
@@ -42,7 +81,7 @@
     "oil_headlines": [
       "CME : WTI Crude Oil futures top $83 as EIA reports inventory build. - www.marketscreener.com",
       "U.S. Crude Oil Stockpiles Rise for Third Straight Week - WSJ",
-      "Crude Oil Inventories Fall Short of Forecast, Indicating Strong Demand By Investing.com - Investing.com India"
+      "Crude Oil Inventories Fall Short of Forecast, Indicating Strong Demand By Investing.com - Investing.com Canada"
     ]
   },
   "events": [],
@@ -50,25 +89,25 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6001552234793244,
-      "trust": 0.8825812109990063
+      "score": 0.5134997650216279,
+      "trust": 0.9169638661100497
     },
     {
-      "style": "Trade with the intraday trend",
+      "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.2631200000000001,
-      "trust": 1.0
+      "score": 0.3716547942977048,
+      "trust": 1.165482446069325
     },
     {
       "style": "Trade with the dollar",
       "bias": "long",
-      "score": 0.13951713414868006,
+      "score": 0.13046837920324694,
       "trust": 1.0
     },
     {
-      "style": "Trade the oil shock",
+      "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.12,
+      "score": 0.1,
       "trust": 1.0
     },
     {
