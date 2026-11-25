@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-25 08:00 UTC",
+  "updated": "2026-11-25 08:14 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3524.1,
+  "price": 3522.18,
   "stance": "Strategy: the BUY plan from 07:16 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3512.6,
-      "entry_high": 3514.91,
-      "sl": 3509.91,
-      "tp1": 3529.13,
+      "entry_high": 3514.66,
+      "sl": 3509.66,
+      "tp1": 3529.52,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.14,
+      "score": 0.2,
       "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "weak",
-      "reason": "Strategy score is only 0.14. Take it only with a clear reaction at the entry.",
+      "reason": "Strategy score is only 0.20. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-25T07:01:56.622684+00:00",
-      "checked_at": "2026-11-25T08:00:13.953627+00:00"
+      "checked_at": "2026-11-25T08:14:51.232865+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3572.89,
+      "entry_low": 3573.14,
       "entry_high": 3575.2,
-      "sl": 3577.89,
-      "tp1": 3558.67,
+      "sl": 3578.14,
+      "tp1": 3558.28,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.11,
+      "score": 0.1,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-25T02:39:10.590814+00:00",
-      "checked_at": "2026-11-25T08:00:13.953627+00:00"
+      "checked_at": "2026-11-25T08:14:51.232865+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "up",
     "htf": "sideways",
     "session": "london",
-    "vwap": 3541.737284836593,
-    "atr": 4.883571428571486,
+    "vwap": 3541.122753294504,
+    "atr": 5.35357142857148,
     "day_low": 3512.6,
     "day_high": 3575.2,
-    "range_pos": 0.1837060702875402
+    "range_pos": 0.1530351437699671
   },
   "dxy": {
     "ok": true,
-    "last": 104.01000213623047,
-    "pct": 0.14057202242864558,
+    "last": 104.04900360107422,
+    "pct": 0.17812253602300396,
     "state": "up",
-    "corr": -0.14158315071479527
+    "corr": -0.0827989028730532
   },
   "oil": {
     "ok": true,
-    "last": 80.27999877929688,
-    "pct": -1.6417592773742846,
+    "last": 80.18000030517578,
+    "pct": -1.7642763942035673,
     "state": "down",
-    "corr": 0.022686840223599777
+    "corr": 0.015170276039084158
   },
   "news": {
-    "usd": -0.17912389434164838,
-    "oil": 0.07538490154109617,
+    "usd": -0.6227444029381349,
+    "oil": 0.07649664736354955,
     "shock": true,
     "usd_headlines": [
-      "Pound to Dollar Forecast: GBP Climbs as BoE Turns Hawkish - CurrencyNews.co.uk",
       "Treasury yields fall as investors await key inflation signal - CNBC",
-      "U.S. Treasury Yields Fall Ahead of PCE Inflation Data - WSJ"
+      "U.S. Treasury Yields Fall Ahead of PCE Inflation Data - WSJ",
+      "Dollar rallies before key inflation reading; Aussie and sterling slump - Reuters"
     ],
     "oil_headlines": [
       "Oil Slips 1% as Supply Glut Prospect Offsets Middle East Disruption Fears - Business Post Nigeria",
@@ -111,13 +111,13 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.8238045036055188,
-      "trust": 1.0839532942177879
+      "score": 0.720515271044734,
+      "trust": 0.9480464092693869
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.13551930006513024,
+      "score": 0.1990175268360904,
       "trust": 1.0
     },
     {
@@ -127,16 +127,16 @@
       "trust": 1.0
     },
     {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.11149444356535526,
-      "trust": 1.0
-    },
-    {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.09831688921774931,
+      "trust": 0.9997840970435632
     }
   ],
   "record": {
