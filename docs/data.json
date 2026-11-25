@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-25 14:35 UTC",
+  "updated": "2026-11-25 14:49 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3466.06,
-  "stance": "Strategy: wait. A setup cleared the bar, but it does not fit the risk limit. Take an entry only if price reaches it.",
+  "price": 3463.37,
+  "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
   "blackout": null,
@@ -10,34 +10,34 @@
     "structure": "down",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3529.0022696015294,
-    "atr": 11.32285714285724,
-    "day_low": 3460.24,
+    "vwap": 3527.485167101905,
+    "atr": 10.59500000000006,
+    "day_low": 3454.21,
     "day_high": 3575.2,
-    "range_pos": 0.05062630480167155
+    "range_pos": 0.07570873625919392
   },
   "dxy": {
     "ok": true,
     "last": 103.9260025024414,
     "pct": 0.05969738340793242,
     "state": "flat",
-    "corr": -0.24138532519770706
+    "corr": -0.2506071034670392
   },
   "oil": {
     "ok": true,
-    "last": 82.81999969482422,
-    "pct": 1.470224096865078,
+    "last": 82.87000274658203,
+    "pct": 1.5314873290081406,
     "state": "up",
-    "corr": -0.05805349975092073
+    "corr": -0.05412220986142614
   },
   "news": {
-    "usd": 0.32680711250745725,
-    "oil": 0.2659662881352092,
+    "usd": 0.22273444416521013,
+    "oil": 0.2674974075093243,
     "shock": true,
     "usd_headlines": [
       "US Dollar Rebounds Near 20-Month High as Markets Anticipate December Fed Rate Hike - Cura\u00e7ao Chronicle",
-      "Why Is Gold Falling Today? Gold Drops Below $3,500 as Dollar Strengthens - Coinpaper",
-      "Treasury yields fall in bull steepening as growth fears drive haven demand ahead of PCE data - Investing.com"
+      "Treasury yields fall in bull steepening as growth fears drive haven demand ahead of PCE data - Investing.com",
+      "Goldman Sachs: The market has already priced in four Federal Reserve rate hikes, but Warsh will continue to raise rates in December. - \u5bcc\u9014\u725b\u725b"
     ],
     "oil_headlines": [
       "WTI Oil returns above $81.00 as attacks in the Strait of Hormuz increase - FXStreet",
@@ -50,32 +50,32 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.5132314366203274,
-      "trust": 0.9331480665824134
+      "score": 0.5307248628660588,
+      "trust": 0.9649542961201069
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.37485062625633625,
-      "trust": 0.6693761183148861
+      "score": 0.48435501757014154,
+      "trust": 0.8649196742323956
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.3696000000000001,
-      "trust": 1.0
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.11387681138975053,
-      "trust": 1.1387681138975052
+      "score": 0.29391553771667844,
+      "trust": 0.7952260219607099
     },
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.11122628635909328,
-      "trust": 0.9268857196591107
+      "score": 0.11123855021449906,
+      "trust": 0.9269879184541588
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.10971734022093266,
+      "trust": 1.0971734022093265
     }
   ],
   "record": {
