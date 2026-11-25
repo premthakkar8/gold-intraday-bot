@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-25 06:18 UTC",
+  "updated": "2026-11-25 06:32 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3522.73,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.37). Take an entry only if price reaches it.",
+  "price": 3525.4,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.30). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3515.9,
-      "entry_high": 3517.51,
-      "sl": 3512.51,
-      "tp1": 3533.49,
+      "entry_high": 3517.33,
+      "sl": 3512.33,
+      "tp1": 3533.75,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.16,
+      "score": 0.3,
       "style": "oil_shock",
       "favored": true,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.16. Take it only with a clear reaction at the entry.",
+      "status": "valid",
+      "reason": "Score 0.30 (Trade the oil shock), oil supply news +0.54, price below VWAP.",
       "created_at": "2026-11-25T06:03:41.346540+00:00",
-      "checked_at": "2026-11-25T06:18:13.961202+00:00"
+      "checked_at": "2026-11-25T06:32:50.138830+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3573.59,
+      "entry_low": 3573.77,
       "entry_high": 3575.2,
-      "sl": 3578.59,
-      "tp1": 3557.61,
+      "sl": 3578.77,
+      "tp1": 3557.35,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.37,
-      "style": "trend_align",
+      "score": 0.14,
+      "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-25T02:39:10.590814+00:00",
-      "checked_at": "2026-11-25T06:18:13.961202+00:00"
+      "checked_at": "2026-11-25T06:32:50.138830+00:00"
     }
   ],
   "active": [
@@ -72,39 +72,39 @@
     "structure": "down",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3546.985808469416,
-    "atr": 6.1707142857142765,
+    "vwap": 3546.1225001022435,
+    "atr": 6.487857142857105,
     "day_low": 3515.9,
     "day_high": 3575.2,
-    "range_pos": 0.1151770657672843
+    "range_pos": 0.16020236087689788
   },
   "dxy": {
     "ok": true,
-    "last": 104.0459976196289,
-    "pct": 0.17522838454487852,
+    "last": 104.0989990234375,
+    "pct": 0.22625800464268908,
     "state": "up",
-    "corr": -0.18341463932674235
+    "corr": -0.010083119966575337
   },
   "oil": {
     "ok": true,
-    "last": 81.12999725341797,
-    "pct": -0.6003497631401173,
+    "last": 80.9800033569336,
+    "pct": -0.7841207646556205,
     "state": "down",
-    "corr": -0.03141228863304354
+    "corr": -0.003279283396895689
   },
   "news": {
-    "usd": -0.49999999999999994,
-    "oil": 0.38074279912927345,
+    "usd": -0.33333333333333337,
+    "oil": 0.5428217811795177,
     "shock": true,
     "usd_headlines": [
       "US Dollar Weakens Against Canada's Loonie as Treasury Yields Edge Down - marketscreener.com",
-      "US Dollar Falls Early Tuesday Before Philadelphia Fed Nonmanufacturing Index, Redbook - marketscreener.com",
-      "U.S. Treasury Yields, European Bond Yields Fall as Oil Prices Remain Under Pressure -- Update - marketscreener.com"
+      "U.S. Treasury Yields, European Bond Yields Fall as Oil Prices Remain Under Pressure -- Update - marketscreener.com",
+      "US dollar gains as renewed AI euphoria fuels Fed hike bets - The Business Times"
     ],
     "oil_headlines": [
       "Crude Oil Prices Rise as Shipping Risks Persist in the Key Strait of Hormuz By Kedia Advisory - Investing.com India",
-      "Crude oil futures fall despite attacks on vessels in Strait of Hormuz - BusinessLine",
-      "Palm Oil Slips As Soyoil And Crude Oil Weigh - Finimize"
+      "Crude Oil Prices Slip As Brent Falls Below $91 Amid Rising Supply, Strait Of Hormuz Attacks And US-Iran - Free Press Journal",
+      "Crude oil futures fall despite attacks on vessels in Strait of Hormuz - BusinessLine"
     ]
   },
   "events": [
@@ -134,32 +134,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.43813544393938225,
-      "trust": 0.7823847213203253
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.3710501765552657,
-      "trust": 0.9166259302254585
+      "score": 0.41269288476275817,
+      "trust": 0.7369515799334967
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.16418398144553006,
-      "trust": 0.6464085649696172
+      "score": 0.30145785467006747,
+      "trust": 0.7321498155267256
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.10680268663852316,
-      "trust": 0.9822626542624918
+      "score": 0.1379532993360291,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.09595636039341195,
+      "trust": 0.7979788225248672
     }
   ],
   "record": {
