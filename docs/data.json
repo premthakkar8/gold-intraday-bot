@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-25 05:49 UTC",
+  "updated": "2026-11-25 06:03 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3528.84,
-  "stance": "Strategy: BUY is the trade (Trade the oil shock, confidence 52%).",
+  "price": 3519.8,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.24). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3526.53,
-      "entry_high": 3528.92,
-      "sl": 3523.92,
-      "tp1": 3542.95,
+      "entry_low": 3515.9,
+      "entry_high": 3517.89,
+      "sl": 3512.89,
+      "tp1": 3532.91,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.52,
+      "score": 0.24,
       "style": "oil_shock",
       "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.52 (Trade the oil shock), oil supply news +0.38, price below VWAP.",
-      "created_at": "2026-11-25T05:49:02.587323+00:00",
-      "checked_at": "2026-11-25T05:49:02.587323+00:00"
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.24. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-25T06:03:41.346540+00:00",
+      "checked_at": "2026-11-25T06:03:41.346540+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3572.81,
+      "entry_low": 3573.21,
       "entry_high": 3575.2,
-      "sl": 3577.81,
-      "tp1": 3558.78,
+      "sl": 3578.21,
+      "tp1": 3558.19,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.08,
+      "score": 0.09,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-25T02:39:10.590814+00:00",
-      "checked_at": "2026-11-25T05:49:02.587323+00:00"
+      "checked_at": "2026-11-25T06:03:41.346540+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3549.249767363751,
-    "atr": 4.752142857142839,
-    "day_low": 3526.53,
+    "vwap": 3548.0723616719115,
+    "atr": 5.472142857142834,
+    "day_low": 3515.9,
     "day_high": 3575.2,
-    "range_pos": 0.04746250256831649
+    "range_pos": 0.06576728499157013
   },
   "dxy": {
     "ok": true,
-    "last": 104.01000213623047,
-    "pct": 0.14057202242864558,
+    "last": 104.01100158691406,
+    "pct": 0.14153429106731166,
     "state": "up",
-    "corr": -0.2868850748199156
+    "corr": -0.23244752267337276
   },
   "oil": {
     "ok": true,
-    "last": 80.5,
-    "pct": -1.3722160118757571,
+    "last": 80.93000030517578,
+    "pct": -0.8453839967986829,
     "state": "down",
-    "corr": -0.22212799979551215
+    "corr": -0.12356768637433466
   },
   "news": {
-    "usd": -0.5877042122810531,
-    "oil": 0.37934485894685854,
+    "usd": -0.3020667669918996,
+    "oil": 0.38003582159611304,
     "shock": true,
     "usd_headlines": [
+      "Canadian Dollar strengthens on BoC Governor\u2019s warning over persistent inflation risks - www.tmgm.com",
       "US Dollar Weakens Against Canada's Loonie as Treasury Yields Edge Down - marketscreener.com",
-      "Gold falls as Fed rate hike bets outweigh weaker US Dollar - www.tmgm.com",
-      "US Dollar Falls Early Tuesday Before Philadelphia Fed Nonmanufacturing Index, Redbook - Moomoo"
+      "Gold falls as Fed rate hike bets outweigh weaker US Dollar - www.tmgm.com"
     ],
     "oil_headlines": [
       "Crude Oil Prices Rise as Shipping Risks Persist in the Key Strait of Hormuz By Kedia Advisory - Investing.com India",
@@ -109,41 +109,41 @@
   ],
   "scorecard": [
     {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.521563682522824,
-      "trust": 0.9482976045869528
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4412233842200295,
-      "trust": 0.7878989003929098
+      "score": 0.4204996440616522,
+      "trust": 0.7508922215386645
     },
     {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.09559824582874833,
-      "trust": 0.9559824582874833
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.23847210266660587,
+      "trust": 0.666751837874975
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.09163913119001858,
-      "trust": 0.9163913119001857
+      "score": 0.1,
+      "trust": 1.0
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.09560444782151746,
+      "trust": 0.9560444782151746
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.08239164383505458,
-      "trust": 0.7774415493885224
+      "score": 0.09378095323925306,
+      "trust": 0.7495081113676277
     }
   ],
   "record": {
-    "graded": 257,
+    "graded": 258,
     "wins": 66,
-    "losses": 140,
+    "losses": 141,
     "scratches": 51,
-    "avg_r": -0.19589359186994582
+    "avg_r": -0.19901028337432589
   }
 }
