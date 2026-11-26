@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-26 10:40 UTC",
+  "updated": "2026-11-26 10:55 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3556.97,
-  "stance": "Strategy: SELL is the trade (Trade with the intraday trend, confidence 51%).",
+  "price": 3560.61,
+  "stance": "Strategy: the SELL plan from 10:40 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3554.42,
-      "sl": 3549.42,
-      "tp1": 3566.8,
+      "entry_high": 3554.18,
+      "sl": 3549.18,
+      "tp1": 3567.16,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.27,
+      "score": 0.44,
       "style": "oil_shock",
-      "favored": false,
+      "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T10:40:38.145043+00:00"
+      "checked_at": "2026-11-26T10:55:13.376519+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3604.18,
+      "entry_low": 3604.42,
       "entry_high": 3607.23,
-      "sl": 3609.18,
-      "tp1": 3591.8,
+      "sl": 3609.42,
+      "tp1": 3591.44,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.51,
-      "style": "trend_align",
-      "favored": true,
-      "ready": true,
+      "score": 0.13,
+      "style": "dollar_lead",
+      "favored": false,
+      "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T10:40:38.145043+00:00"
+      "checked_at": "2026-11-26T10:55:13.376519+00:00"
     }
   ],
   "active": [],
@@ -49,11 +49,11 @@
     "structure": "down",
     "htf": "sideways",
     "session": "london",
-    "vwap": 3576.178492761806,
-    "atr": 3.5500000000000846,
+    "vwap": 3575.7732439463484,
+    "atr": 3.982142857142922,
     "day_low": 3551.37,
     "day_high": 3607.23,
-    "range_pos": 0.10025062656641419
+    "range_pos": 0.16541353383459032
   },
   "dxy": {
     "ok": true,
@@ -67,47 +67,47 @@
     "last": 84.41999816894531,
     "pct": 0.4880324036297427,
     "state": "up",
-    "corr": 0.3490345718365689
+    "corr": 0.35190344041263416
   },
   "news": {
-    "usd": 0.22835524521341094,
-    "oil": 0.4082688051535244,
-    "shock": false,
+    "usd": 0.16546758221746308,
+    "oil": 0.576111370904116,
+    "shock": true,
     "usd_headlines": [
       "DXY Forecast: Trump Tariffs, Inflation & Fed Rate Hikes - www.equiti.com",
       "US Dollar Strengthens as Markets Assess the Fed\u2019s December Policy Outlook - Investing.com",
       "US Dollar Price Forecast: Yields Slide, DXY Eyes 104.08 as EUR/USD, GBP/USD Stall - FXEmpire"
     ],
     "oil_headlines": [
+      "Crude Oil Prices Fall Despite Strait of Hormuz Mine Strikes and Saudi Refinery Attack | Business News - www.businesstimes-bd.com",
       "Crude Oil Rises on Fresh Middle East Supply Concerns - Business Post Nigeria",
-      "Crude Oil Rises as Escalating Middle East Tensions Heighten Supply Disruption Risks By Kedia Advisory - Investing.com India",
-      "WTI Crude Oil futures top $83 as EIA reports inventory build. - CME Group"
+      "Crude Oil Rises as Escalating Middle East Tensions Heighten Supply Disruption Risks By Kedia Advisory - Investing.com India"
     ]
   },
   "events": [],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.5060000000000001,
-      "trust": 1.0
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.4536983501360401,
+      "trust": 0.8101756252429286
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.26825010120965687,
-      "trust": 0.9687510554012163
-    },
-    {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.1782386375534443,
-      "trust": 0.8101756252429286
+      "score": 0.43561550122074927,
+      "trust": 0.9687949079750675
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.1745585674420736,
+      "score": 0.1257306933843895,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.10120000000000003,
       "trust": 1.0
     },
     {
