@@ -1,17 +1,36 @@
 {
-  "updated_at": "2026-11-26T01:10:52.075368+00:00",
-  "atr": 8.032857142857145,
-  "price": 3572.93,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-26T01:25:27.585873+00:00",
+  "atr": 8.831428571428562,
+  "price": 3558.04,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.00). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3551.95,
-      "sl": 3546.95,
-      "tp1": 3570.5,
+      "entry_high": 3551.51,
+      "sl": 3546.51,
+      "tp1": 3571.16,
       "tp2": null,
       "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-26T01:10:52.075368+00:00",
+      "checked_at": "2026-11-26T01:38:35.405339+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3584.0,
+      "entry_high": 3584.14,
+      "sl": 3589.0,
+      "tp1": 3571.64,
+      "tp2": 3564.35,
+      "rr": 2.5,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
@@ -20,34 +39,15 @@
       "ready": false,
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-26T01:10:52.075368+00:00",
-      "checked_at": "2026-11-26T01:24:01.492789+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3580.79,
-      "entry_high": 3581.37,
-      "sl": 3585.79,
-      "tp1": 3570.82,
-      "tp2": 3562.24,
-      "rr": 2.2,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.4,
-      "style": "trend_align",
-      "favored": true,
-      "ready": false,
-      "status": "valid",
-      "reason": "Score 0.40 (Trade with the intraday trend).",
       "created_at": "2026-11-26T00:56:17.324084+00:00",
-      "checked_at": "2026-11-26T01:24:01.492789+00:00"
+      "checked_at": "2026-11-26T01:38:35.405339+00:00"
     }
   ],
   "research": [
-    "Gold 3569.57 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3570.82, ATR 8.03, day range 3551.37-3581.37.",
-    "DXY 103.69 (-0.03% today, flat), gold-dollar corr -0.32.",
-    "WTI 84.17 (+0.19% today, flat), gold-oil corr +0.23.",
-    "Headlines: dollar +0.23, oil +0.04, fresh shock.",
+    "Gold 3568.96 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3571.64, ATR 8.83, day range 3551.37-3584.14.",
+    "DXY 103.71 (-0.01% today, flat), gold-dollar corr -0.33.",
+    "WTI 84.34 (+0.39% today, flat), gold-oil corr +0.20.",
+    "Headlines: dollar +0.21, oil +0.05, fresh shock.",
     "Dollar: U.S. Dollar Gains Ground As GDP Growth Rate Rises To 4.3%: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
     "Oil: WTI Crude Oil futures top $83 as EIA reports inventory build. - CME Group",
     "No high-impact US release in the next 24 hours."
@@ -142,5 +142,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-26T01:24:01.492789+00:00"
+  "last_check": "2026-11-26T01:38:35.405339+00:00"
 }
