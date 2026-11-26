@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-26 13:51 UTC",
+  "updated": "2026-11-26 14:06 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3570.46,
+  "price": 3575.12,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.22). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3553.64,
-      "sl": 3548.64,
-      "tp1": 3567.96,
+      "entry_high": 3553.53,
+      "sl": 3548.53,
+      "tp1": 3568.13,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T13:51:30.385852+00:00"
+      "checked_at": "2026-11-26T14:06:03.402776+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3604.96,
+      "entry_low": 3605.07,
       "entry_high": 3607.23,
-      "sl": 3609.96,
-      "tp1": 3590.64,
+      "sl": 3610.07,
+      "tp1": 3590.47,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.11,
+      "score": 0.19,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T13:51:30.385852+00:00"
+      "checked_at": "2026-11-26T14:06:03.402776+00:00"
     }
   ],
   "active": [],
@@ -49,11 +49,11 @@
     "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3574.111542092506,
-    "atr": 4.962142857142875,
+    "vwap": 3574.063608865934,
+    "atr": 5.160000000000082,
     "day_low": 3551.37,
     "day_high": 3607.23,
-    "range_pos": 0.34174722520587364
+    "range_pos": 0.4251700680272099
   },
   "dxy": {
     "ok": true,
@@ -67,16 +67,16 @@
     "last": 84.41999816894531,
     "pct": 0.4880324036297427,
     "state": "up",
-    "corr": 0.35190344041263416
+    "corr": 0.3490345718365689
   },
   "news": {
-    "usd": 0.05121511780954161,
-    "oil": 0.3862521712806168,
+    "usd": -0.08116768794381736,
+    "oil": 0.38262251945210823,
     "shock": true,
     "usd_headlines": [
+      "Shafaq News..US dollar drops in Baghdad and Erbil - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
       "Why has the Federal Reserve turned so hawkish? Nomura: It may be seeking to avoid repeating the mistake of falling behind the curve in 2022. - \u5bcc\u9014\u725b\u725b",
-      "Only the US Dollar Falls at the Belarusian Currency and Stock Exchange - REFORM.news",
-      "DXY Forecast: Trump Tariffs, Inflation & Fed Rate Hikes - www.equiti.com"
+      "Only the US Dollar Falls at the Belarusian Currency and Stock Exchange - REFORM.news"
     ],
     "oil_headlines": [
       "Crude Oil Inventories Rise Less Than Forecast - IndexBox",
@@ -95,20 +95,20 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.21814897758210952,
-      "trust": 0.8225077845010064
+      "score": 0.21621834042480995,
+      "trust": 0.8227562348158244
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.10887102987138426,
-      "trust": 0.9360831965642152
+      "score": 0.1907743175670284,
+      "trust": 0.9361726661214639
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.10850682944068696,
-      "trust": 1.0850682944068695
+      "score": 0.10849492173844377,
+      "trust": 1.0849492173844377
     },
     {
       "style": "Trade with the intraday trend",
