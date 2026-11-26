@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-26 04:20 UTC",
+  "updated": "2026-11-26 04:35 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3586.84,
+  "price": 3598.08,
   "stance": "Strategy: the BUY plan from 03:07 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3553.8,
-      "sl": 3548.8,
-      "tp1": 3567.72,
+      "entry_high": 3553.77,
+      "sl": 3548.77,
+      "tp1": 3567.76,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -18,29 +18,29 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "far",
-      "reason": "Price is 33.04 away from the entry (7.1 ATR). Unlikely to fill soon.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T04:20:38.507129+00:00"
+      "checked_at": "2026-11-26T04:35:12.548622+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3604.8,
+      "entry_low": 3604.83,
       "entry_high": 3607.23,
-      "sl": 3609.8,
-      "tp1": 3590.88,
+      "sl": 3609.83,
+      "tp1": 3590.84,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.24,
-      "style": "dollar_lead",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": true,
       "ready": false,
       "status": "weak",
-      "reason": "Strategy score is only 0.24. Take it only with a clear reaction at the entry.",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T04:20:38.507129+00:00"
+      "checked_at": "2026-11-26T04:35:12.548622+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "sideways",
     "htf": "up",
     "session": "asia",
-    "vwap": 3576.699967899777,
-    "atr": 4.6678571428571685,
+    "vwap": 3577.2624551640647,
+    "atr": 4.72000000000006,
     "day_low": 3551.37,
     "day_high": 3607.23,
-    "range_pos": 0.6349803079126418
+    "range_pos": 0.8361976369495154
   },
   "dxy": {
     "ok": true,
-    "last": 103.82499694824219,
-    "pct": 0.09544282573137405,
-    "state": "up",
-    "corr": -0.37844420783496935
+    "last": 103.79900360107422,
+    "pct": 0.07038319970896412,
+    "state": "flat",
+    "corr": -0.3927550563749865
   },
   "oil": {
     "ok": true,
-    "last": 84.38999938964844,
-    "pct": 0.4523238230630751,
-    "state": "up",
-    "corr": 0.370652815470547
+    "last": 84.33999633789062,
+    "pct": 0.3928034677645148,
+    "state": "flat",
+    "corr": 0.35919493987217366
   },
   "news": {
-    "usd": 0.5385767836332787,
-    "oil": 0.015047020629645297,
+    "usd": 0.2932089945982588,
+    "oil": -0.19974762247881261,
     "shock": true,
     "usd_headlines": [
-      "Treasury Yields Rise After Huang Returns as Nvidia CEO; European Bond Yields Slip - WSJ",
       "Treasury Yield Slide Limits Dollar Gains Ahead Of Thanksgiving - BusinessToday Malaysia",
-      "Gold edges lower as US inflation data fuels bets for rate hikes - The Business Times"
+      "Commodity Corner: Crude oil holds gains for second day on Middle East tensions; gold slips on rate hike concerns - TradingView",
+      "DXY Forecast: Trump Tariffs, Inflation & Fed Rate Hikes - www.equiti.com"
     ],
     "oil_headlines": [
       "WTI Crude Oil futures top $83 as EIA reports inventory build. - CME Group",
@@ -89,32 +89,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4003163431586267,
-      "trust": 0.7148506127832619
+      "score": 0.33615546431576016,
+      "trust": 0.6002776148495717
     },
     {
       "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.235614078978165,
-      "trust": 0.7797600762689334
-    },
-    {
-      "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.08310159522412987,
+      "trust": 0.6925132935344156
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.07212340425561968,
-      "trust": 0.7212340425561967
+      "score": 0.08297531010963503,
+      "trust": 0.8297531010963503
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.05872972575596363,
-      "trust": 0.7341215719495453
+      "score": 0.07940043030059572,
+      "trust": 0.9925053787574465
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.0786995357291755,
+      "trust": 0.786995357291755
     }
   ],
   "record": {
