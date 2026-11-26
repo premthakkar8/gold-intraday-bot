@@ -1,36 +1,17 @@
 {
-  "updated": "2026-11-26 00:56 UTC",
+  "updated": "2026-11-26 01:10 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3562.4,
-  "stance": "Strategy: BUY is the trade (Fade the session range, confidence 58%).",
+  "price": 3569.57,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3561.29,
-      "entry_high": 3562.86,
-      "sl": 3557.86,
-      "tp1": 3573.48,
-      "tp2": 3578.94,
-      "rr": 2.7,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.79,
-      "style": "range_fade",
-      "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.79 (Fade the session range), price below VWAP.",
-      "created_at": "2026-11-26T00:56:17.324084+00:00",
-      "checked_at": "2026-11-26T00:56:17.324084+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3579.8,
-      "entry_high": 3581.37,
-      "sl": 3584.8,
-      "tp1": 3573.48,
-      "tp2": 3563.72,
-      "rr": 1.7,
+      "entry_low": 3551.37,
+      "entry_high": 3551.95,
+      "sl": 3546.95,
+      "tp1": 3570.5,
+      "tp2": null,
+      "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.0,
@@ -39,85 +20,108 @@
       "ready": false,
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-26T01:10:52.075368+00:00",
+      "checked_at": "2026-11-26T01:10:52.075368+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3580.79,
+      "entry_high": 3581.37,
+      "sl": 3585.79,
+      "tp1": 3570.82,
+      "tp2": 3562.24,
+      "rr": 2.2,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.4,
+      "style": "trend_align",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.40 (Trade with the intraday trend).",
       "created_at": "2026-11-26T00:56:17.324084+00:00",
-      "checked_at": "2026-11-26T00:56:17.324084+00:00"
+      "checked_at": "2026-11-26T01:10:52.075368+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
-    "htf": "down",
+    "structure": "down",
+    "htf": "sideways",
     "session": "asia",
-    "vwap": 3573.4843911717444,
-    "atr": 6.2407142857143105,
-    "day_low": 3561.29,
+    "vwap": 3570.818873891062,
+    "atr": 8.032857142857145,
+    "day_low": 3551.37,
     "day_high": 3581.37,
-    "range_pos": 0.05527888446215794
+    "range_pos": 0.6066666666666758
   },
   "dxy": {
     "ok": true,
-    "last": 103.72599792480469,
-    "pct": 0.06076990770142479,
+    "last": 103.69300079345703,
+    "pct": -0.03181182346548957,
     "state": "flat",
-    "corr": -0.3499011280836433
+    "corr": -0.3179528277952356
   },
   "oil": {
     "ok": true,
-    "last": 84.05999755859375,
-    "pct": 0.059511273767388746,
+    "last": 84.16999816894531,
+    "pct": 0.1904487901992842,
     "state": "flat",
-    "corr": 0.29656545991376043
+    "corr": 0.22633541546930624
   },
   "news": {
-    "usd": 0.23374783174727845,
-    "oil": 0.0,
-    "shock": false,
+    "usd": 0.2265252945566577,
+    "oil": 0.03697390407387165,
+    "shock": true,
     "usd_headlines": [
       "U.S. Dollar Gains Ground As GDP Growth Rate Rises To 4.3%: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
       "Are Fed Rate Hikes Already Priced Into the U.S. Dollar Rally? - StoneX",
       "US Equity Indexes Mixed, Treasury Yields Drop as Investors Rotate Out of Chipmakers While Assessing Trade Tariffs - marketscreener.com"
     ],
-    "oil_headlines": []
+    "oil_headlines": [
+      "WTI Crude Oil futures top $83 as EIA reports inventory build. - CME Group",
+      "Oil edges higher over supply woes triggered by possible OPEC output cut - Yeni Safak English",
+      "CME : WTI Crude Oil futures top $83 as EIA reports inventory build. - www.marketscreener.com"
+    ]
   },
   "events": [],
   "scorecard": [
     {
-      "style": "Fade the session range",
-      "bias": "long",
-      "score": 0.7916338645214734,
-      "trust": 1.0988474316497314
+      "style": "Trade with the intraday trend",
+      "bias": "short",
+      "score": 0.39997752241478635,
+      "trust": 0.8268431891500935
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.13706396176560026,
-      "trust": 0.6230180080254557
+      "score": 0.3354392931585031,
+      "trust": 0.5989987377830412
     },
     {
       "style": "Trade with the dollar",
       "bias": "flat",
-      "score": 0.08310159522412987,
-      "trust": 0.6925132935344156
+      "score": 0.0880864099072695,
+      "trust": 0.7340534158939125
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.0793876599320652,
-      "trust": 0.992345749150815
+      "score": 0.08,
+      "trust": 1.0
     },
     {
-      "style": "Trade with the intraday trend",
+      "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.07824585239781322,
-      "trust": 0.7824585239781321
+      "score": 0.06817578950813068,
+      "trust": 0.6817578950813067
     }
   ],
   "record": {
-    "graded": 264,
+    "graded": 265,
     "wins": 68,
-    "losses": 141,
+    "losses": 142,
     "scratches": 55,
-    "avg_r": -0.18691156481278817
+    "avg_r": -0.18997982305877764
   }
 }
