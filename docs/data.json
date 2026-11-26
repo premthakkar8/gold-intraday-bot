@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-26 16:31 UTC",
+  "updated": "2026-11-26 16:46 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3570.54,
+  "price": 3572.01,
   "stance": "Strategy: the SELL plan from 16:17 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3554.55,
-      "sl": 3549.55,
-      "tp1": 3566.61,
+      "entry_high": 3554.71,
+      "sl": 3549.71,
+      "tp1": 3566.35,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.31,
+      "score": 0.3,
       "style": "oil_shock",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T16:31:29.856818+00:00"
+      "checked_at": "2026-11-26T16:46:09.630523+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3604.05,
+      "entry_low": 3603.89,
       "entry_high": 3607.23,
-      "sl": 3609.05,
-      "tp1": 3591.99,
+      "sl": 3608.89,
+      "tp1": 3592.25,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.11,
+      "score": 0.19,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T16:31:29.856818+00:00"
+      "checked_at": "2026-11-26T16:46:09.630523+00:00"
     }
   ],
   "active": [],
@@ -49,11 +49,11 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3574.2641202003297,
-    "atr": 3.3178571428570973,
+    "vwap": 3574.235805434133,
+    "atr": 3.009999999999926,
     "day_low": 3551.37,
     "day_high": 3607.23,
-    "range_pos": 0.343179377013964
+    "range_pos": 0.36949516648765274
   },
   "dxy": {
     "ok": true,
@@ -70,13 +70,13 @@
     "corr": 0.3490345718365689
   },
   "news": {
-    "usd": -0.0682999869934716,
-    "oil": 0.432107686847561,
+    "usd": 0.015671086218340294,
+    "oil": 0.4290849234249282,
     "shock": true,
     "usd_headlines": [
+      "U.S. Dollar Gains Ground In Holiday-Thinned Trading: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
       "Shafaq News..US dollar drops in Baghdad and Erbil - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
-      "Why has the Federal Reserve turned so hawkish? Nomura: It may be seeking to avoid repeating the mistake of falling behind the curve in 2022. - \u5bcc\u9014\u725b\u725b",
-      "Only the US Dollar Falls at the Belarusian Currency and Stock Exchange - REFORM.news"
+      "Why has the Federal Reserve turned so hawkish? Nomura: It may be seeking to avoid repeating the mistake of falling behind the curve in 2022. - \u5bcc\u9014\u725b\u725b"
     ],
     "oil_headlines": [
       "WTI Crude Oil Gains 0.76% to $85.66 a Barrel on Nov. 26 - www.tokenpost.com",
@@ -95,20 +95,20 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.30534353430001904,
-      "trust": 0.8252206485076657
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.10837680756149891,
-      "trust": 1.083768075614989
+      "score": 0.3040624039084876,
+      "trust": 0.8254671935793284
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.10502534096831655,
-      "trust": 0.9370601272705799
+      "score": 0.19317617899692396,
+      "trust": 0.9371489107298387
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.10836499117356223,
+      "trust": 1.0836499117356222
     },
     {
       "style": "Trade with the intraday trend",
