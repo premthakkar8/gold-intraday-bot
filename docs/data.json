@@ -1,59 +1,59 @@
 {
-  "updated": "2026-11-26 11:54 UTC",
+  "updated": "2026-11-26 12:08 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3568.35,
+  "price": 3573.79,
   "stance": "Strategy: the SELL plan from 10:40 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3554.14,
-      "sl": 3549.14,
-      "tp1": 3567.21,
+      "entry_high": 3554.19,
+      "sl": 3549.19,
+      "tp1": 3567.14,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.57,
-      "style": "oil_shock",
+      "score": 0.26,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T11:54:16.422330+00:00"
+      "checked_at": "2026-11-26T12:08:50.611914+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3604.46,
+      "entry_low": 3604.41,
       "entry_high": 3607.23,
-      "sl": 3609.46,
-      "tp1": 3591.39,
+      "sl": 3609.41,
+      "tp1": 3591.46,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.12,
+      "score": 0.23,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T11:54:16.422330+00:00"
+      "checked_at": "2026-11-26T12:08:50.611914+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "up",
-    "htf": "sideways",
-    "session": "london",
-    "vwap": 3574.9947017990407,
-    "atr": 4.052142857142859,
+    "htf": "down",
+    "session": "overlap",
+    "vwap": 3574.908402279208,
+    "atr": 3.965714285714252,
     "day_low": 3551.37,
     "day_high": 3607.23,
-    "range_pos": 0.303974221267454
+    "range_pos": 0.40136054421768746
   },
   "dxy": {
     "ok": true,
@@ -70,8 +70,8 @@
     "corr": 0.3490345718365689
   },
   "news": {
-    "usd": 0.15656555749931497,
-    "oil": 0.8044948181555852,
+    "usd": 0.15380433032389051,
+    "oil": 0.2485217131757133,
     "shock": true,
     "usd_headlines": [
       "Why has the Federal Reserve turned so hawkish? Nomura: It may be seeking to avoid repeating the mistake of falling behind the curve in 2022. - \u5bcc\u9014\u725b\u725b",
@@ -79,35 +79,29 @@
       "DXY Forecast: Trump Tariffs, Inflation & Fed Rate Hikes - www.equiti.com"
     ],
     "oil_headlines": [
+      "Crude Oil Inventories Rise Less Than Forecast - IndexBox",
       "Crude Oil Prices Fall Despite Strait of Hormuz Mine Strikes and Saudi Refinery Attack | Business News - https://www.businesstimes-bd.com/",
-      "Crude Oil Rises on Fresh Middle East Supply Concerns - Business Post Nigeria",
-      "Crude Oil Rises as Escalating Middle East Tensions Heighten Supply Disruption Risks By Kedia Advisory - Investing.com India"
+      "Crude Oil Rises on Fresh Middle East Supply Concerns - Business Post Nigeria"
     ]
   },
   "events": [],
   "scorecard": [
     {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.5748273357610572,
-      "trust": 1.0
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5696201823432764,
-      "trust": 0.7495002399253636
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.12499627634514228,
-      "trust": 1.0
+      "score": 0.7113277075567739,
+      "trust": 0.8083269404054249
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.1,
+      "score": 0.26,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.2268517729148541,
       "trust": 1.0
     },
     {
@@ -115,6 +109,12 @@
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.07520729059138466,
+      "trust": 0.9400911323923082
     }
   ],
   "record": {
