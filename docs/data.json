@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-26 17:15 UTC",
+  "updated": "2026-11-26 17:29 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3570.5,
+  "price": 3568.43,
   "stance": "Strategy: the SELL plan from 16:17 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3555.05,
-      "sl": 3550.05,
-      "tp1": 3565.85,
+      "entry_high": 3555.12,
+      "sl": 3550.12,
+      "tp1": 3565.74,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T17:15:10.427365+00:00"
+      "checked_at": "2026-11-26T17:29:42.561812+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3603.55,
+      "entry_low": 3603.48,
       "entry_high": 3607.23,
-      "sl": 3608.55,
-      "tp1": 3592.75,
+      "sl": 3608.48,
+      "tp1": 3592.86,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T17:15:10.427365+00:00"
+      "checked_at": "2026-11-26T17:29:42.561812+00:00"
     }
   ],
   "active": [],
@@ -49,11 +49,11 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "newyork",
-    "vwap": 3574.194577274354,
-    "atr": 2.394999999999982,
+    "vwap": 3574.163315017799,
+    "atr": 2.267857142857143,
     "day_low": 3551.37,
     "day_high": 3607.23,
-    "range_pos": 0.34246330110991885
+    "range_pos": 0.30540637307554436
   },
   "dxy": {
     "ok": true,
@@ -67,11 +67,11 @@
     "last": 84.41999816894531,
     "pct": 0.4880324036297427,
     "state": "up",
-    "corr": 0.3490345718365689
+    "corr": 0.35190344041263416
   },
   "news": {
-    "usd": 0.026623770436913337,
-    "oil": 0.4247376425043157,
+    "usd": 0.029634354840691515,
+    "oil": 0.42361049340531504,
     "shock": true,
     "usd_headlines": [
       "U.S. Dollar Gains Ground In Holiday-Thinned Trading: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
@@ -95,13 +95,13 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.3197337432116594,
-      "trust": 0.8736828242815563
+      "score": 0.3196327004954163,
+      "trust": 0.8738594621164075
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.11427607891249414,
+      "score": 0.11452445212580585,
       "trust": 1.0
     },
     {
