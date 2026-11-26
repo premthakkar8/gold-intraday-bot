@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-26 14:20 UTC",
+  "updated": "2026-11-26 14:35 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3575.4,
+  "price": 3582.1,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.19). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3553.93,
-      "sl": 3548.93,
-      "tp1": 3567.54,
+      "entry_high": 3553.78,
+      "sl": 3548.78,
+      "tp1": 3567.76,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T14:20:38.499068+00:00"
+      "checked_at": "2026-11-26T14:35:18.856452+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3604.67,
+      "entry_low": 3604.82,
       "entry_high": 3607.23,
-      "sl": 3609.67,
-      "tp1": 3591.06,
+      "sl": 3609.82,
+      "tp1": 3590.84,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T14:20:38.499068+00:00"
+      "checked_at": "2026-11-26T14:35:18.856452+00:00"
     }
   ],
   "active": [],
@@ -49,11 +49,11 @@
     "structure": "sideways",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3574.0705098907424,
-    "atr": 4.443571428571496,
+    "vwap": 3574.12742500737,
+    "atr": 4.714285714285746,
     "day_low": 3551.37,
     "day_high": 3607.23,
-    "range_pos": 0.43018259935553427
+    "range_pos": 0.5501253132832071
   },
   "dxy": {
     "ok": true,
@@ -70,8 +70,8 @@
     "corr": 0.3490345718365689
   },
   "news": {
-    "usd": -0.03476591976127079,
-    "oil": 0.20840163759237956,
+    "usd": -0.08411417444223424,
+    "oil": 0.20312900431299147,
     "shock": true,
     "usd_headlines": [
       "Shafaq News..US dollar drops in Baghdad and Erbil - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
@@ -95,14 +95,14 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.19079256758739288,
-      "trust": 0.9362622230934887
+      "score": 0.19081090148899596,
+      "trust": 0.9363521916896973
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.10848300240197375,
-      "trust": 1.0848300240197375
+      "score": 0.10847102828152617,
+      "trust": 1.0847102828152617
     },
     {
       "style": "Trade with the intraday trend",
@@ -113,8 +113,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.06584039422999861,
-      "trust": 0.8230049278749826
+      "score": 0.06586038111871396,
+      "trust": 0.8232547639839245
     }
   ],
   "record": {
