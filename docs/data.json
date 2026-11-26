@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-26 08:00 UTC",
+  "updated": "2026-11-26 08:14 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3564.62,
+  "price": 3564.94,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3554.3,
-      "sl": 3549.3,
-      "tp1": 3566.97,
+      "entry_high": 3554.09,
+      "sl": 3549.09,
+      "tp1": 3567.29,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T08:00:22.911584+00:00"
+      "checked_at": "2026-11-26T08:14:54.958952+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3604.3,
+      "entry_low": 3604.51,
       "entry_high": 3607.23,
-      "sl": 3609.3,
-      "tp1": 3591.63,
+      "sl": 3609.51,
+      "tp1": 3591.31,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T08:00:22.911584+00:00"
+      "checked_at": "2026-11-26T08:14:54.958952+00:00"
     }
   ],
   "active": [],
@@ -49,11 +49,11 @@
     "structure": "down",
     "htf": "sideways",
     "session": "london",
-    "vwap": 3578.1335988851006,
-    "atr": 3.7585714285714533,
+    "vwap": 3577.8378815131414,
+    "atr": 4.142857142857143,
     "day_low": 3551.37,
     "day_high": 3607.23,
-    "range_pos": 0.23720014321518026
+    "range_pos": 0.24292875044754983
   },
   "dxy": {
     "ok": true,
@@ -70,8 +70,8 @@
     "corr": 0.3490345718365689
   },
   "news": {
-    "usd": 0.16224102941171425,
-    "oil": 0.208679907704696,
+    "usd": 0.2101340775964666,
+    "oil": 0.34586585690034516,
     "shock": true,
     "usd_headlines": [
       "US Dollar Strengthens as Markets Assess the Fed\u2019s December Policy Outlook - Investing.com",
@@ -80,8 +80,8 @@
     ],
     "oil_headlines": [
       "Crude Oil Rises on Fresh Middle East Supply Concerns - Business Post Nigeria",
-      "Crude Oil Rises as Escalating Middle East Tensions Heighten Supply Disruption Risks By Kedia Advisory - Investing.com India",
-      "WTI Crude Oil futures top $83 as EIA reports inventory build. - CME Group"
+      "Oil rises on supply concerns as Iran claims mine strikes on ships - cfo.economictimes.indiatimes.com",
+      "Oil rises on supply concerns as Iran claims mine strikes on ships - CNBC"
     ]
   },
   "events": [],
@@ -95,13 +95,13 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.40434416617054336,
-      "trust": 0.7220431538759702
+      "score": 0.3762068079469056,
+      "trust": 0.6717978713337599
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.1254645027779152,
+      "score": 0.12941567925315728,
       "trust": 1.0
     },
     {
@@ -113,15 +113,15 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07746121740876871,
-      "trust": 0.9682652176096089
+      "score": 0.07746476720564681,
+      "trust": 0.9683095900705851
     }
   ],
   "record": {
-    "graded": 271,
+    "graded": 272,
     "wins": 69,
-    "losses": 146,
+    "losses": 147,
     "scratches": 56,
-    "avg_r": -0.19684373841540986
+    "avg_r": -0.19979651878888263
   }
 }
