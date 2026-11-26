@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-26 03:36 UTC",
+  "updated": "2026-11-26 03:51 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3578.25,
+  "price": 3580.94,
   "stance": "Strategy: the BUY plan from 03:07 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3552.2,
-      "sl": 3547.2,
-      "tp1": 3570.13,
+      "entry_high": 3553.02,
+      "sl": 3548.02,
+      "tp1": 3568.89,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T03:36:42.072198+00:00"
+      "checked_at": "2026-11-26T03:51:16.639069+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3606.4,
+      "entry_low": 3605.58,
       "entry_high": 3607.23,
-      "sl": 3611.4,
-      "tp1": 3588.47,
+      "sl": 3610.58,
+      "tp1": 3589.71,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.22,
+      "score": 0.21,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "weak",
-      "reason": "Strategy score is only 0.22. Take it only with a clear reaction at the entry.",
+      "reason": "Strategy score is only 0.21. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T03:36:42.072198+00:00"
+      "checked_at": "2026-11-26T03:51:16.639069+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "up",
     "session": "asia",
-    "vwap": 3576.226608657129,
-    "atr": 7.582142857142799,
+    "vwap": 3576.375322863054,
+    "atr": 6.0821428571428315,
     "day_low": 3551.37,
     "day_high": 3607.23,
-    "range_pos": 0.48120300751879785
+    "range_pos": 0.5293591120658807
   },
   "dxy": {
     "ok": true,
-    "last": 103.80699920654297,
-    "pct": 0.07809159068973477,
-    "state": "flat",
-    "corr": -0.3883577009039691
+    "last": 103.83399963378906,
+    "pct": 0.10412212091964634,
+    "state": "up",
+    "corr": -0.37928028904335503
   },
   "oil": {
     "ok": true,
-    "last": 84.25,
-    "pct": 0.2856777260645121,
+    "last": 84.27999877929688,
+    "pct": 0.3213863066311797,
     "state": "flat",
-    "corr": 0.36172519655365354
+    "corr": 0.35974244852998566
   },
   "news": {
-    "usd": 0.43074600326521545,
-    "oil": 0.06784988848834683,
+    "usd": 0.50349672026634,
+    "oil": 0.07213621351570916,
     "shock": true,
     "usd_headlines": [
       "Treasury Yield Slide Limits Dollar Gains Ahead Of Thanksgiving - BusinessToday Malaysia",
@@ -89,32 +89,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.3361554643157601,
-      "trust": 0.6002776148495715
+      "score": 0.38320642530165333,
+      "trust": 0.6842971880386666
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.21601745354366153,
-      "trust": 0.6925132935344156
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.08297531010963502,
-      "trust": 0.8297531010963501
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.07939704364427831,
-      "trust": 0.9924630455534789
+      "score": 0.20879123166797597,
+      "trust": 0.6834655004300482
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.07857922052318995,
-      "trust": 0.7857922052318995
+      "score": 0.1,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.07233972108233172,
+      "trust": 0.9042465135291464
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.06866346550802893,
+      "trust": 0.6866346550802893
     }
   ],
   "record": {
