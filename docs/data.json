@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-26 04:35 UTC",
+  "updated": "2026-11-26 04:49 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3598.08,
+  "price": 3599.0,
   "stance": "Strategy: the BUY plan from 03:07 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3553.77,
-      "sl": 3548.77,
-      "tp1": 3567.76,
+      "entry_high": 3553.8,
+      "sl": 3548.8,
+      "tp1": 3567.73,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T04:35:12.548622+00:00"
+      "checked_at": "2026-11-26T04:49:40.280054+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3604.83,
+      "entry_low": 3604.8,
       "entry_high": 3607.23,
-      "sl": 3609.83,
-      "tp1": 3590.84,
+      "sl": 3609.8,
+      "tp1": 3590.87,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "weak",
       "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T04:35:12.548622+00:00"
+      "checked_at": "2026-11-26T04:49:40.280054+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "sideways",
     "htf": "up",
     "session": "asia",
-    "vwap": 3577.2624551640647,
-    "atr": 4.72000000000006,
+    "vwap": 3577.9524188818964,
+    "atr": 4.6807142857143,
     "day_low": 3551.37,
     "day_high": 3607.23,
-    "range_pos": 0.8361976369495154
+    "range_pos": 0.8526673827425707
   },
   "dxy": {
     "ok": true,
-    "last": 103.79900360107422,
-    "pct": 0.07038319970896412,
+    "last": 103.79399871826172,
+    "pct": 0.06555810001107713,
     "state": "flat",
-    "corr": -0.3927550563749865
+    "corr": -0.3950184890719628
   },
   "oil": {
     "ok": true,
-    "last": 84.33999633789062,
-    "pct": 0.3928034677645148,
+    "last": 84.33000183105469,
+    "pct": 0.38090666192974,
     "state": "flat",
-    "corr": 0.35919493987217366
+    "corr": 0.35594233822543536
   },
   "news": {
-    "usd": 0.2932089945982588,
-    "oil": -0.19974762247881261,
+    "usd": 0.22934983476564444,
+    "oil": -0.06208750153965094,
     "shock": true,
     "usd_headlines": [
-      "Treasury Yield Slide Limits Dollar Gains Ahead Of Thanksgiving - BusinessToday Malaysia",
       "Commodity Corner: Crude oil holds gains for second day on Middle East tensions; gold slips on rate hike concerns - TradingView",
-      "DXY Forecast: Trump Tariffs, Inflation & Fed Rate Hikes - www.equiti.com"
+      "DXY Forecast: Trump Tariffs, Inflation & Fed Rate Hikes - www.equiti.com",
+      "U.S. Dollar Gains Ground As GDP Growth Rate Rises To 4.3%: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire"
     ],
     "oil_headlines": [
       "WTI Crude Oil futures top $83 as EIA reports inventory build. - CME Group",
@@ -107,14 +107,14 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07940043030059572,
-      "trust": 0.9925053787574465
+      "score": 0.07940126448953126,
+      "trust": 0.9925158061191407
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.0786995357291755,
-      "trust": 0.786995357291755
+      "score": 0.07872917133556841,
+      "trust": 0.787291713355684
     }
   ],
   "record": {

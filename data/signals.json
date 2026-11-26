@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-26T04:35:12.548622+00:00",
-  "atr": 4.72000000000006,
-  "price": 3599.72,
+  "updated_at": "2026-11-26T04:49:40.280054+00:00",
+  "atr": 4.6807142857143,
+  "price": 3595.99,
   "stance": "Strategy: the BUY plan from 03:07 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3553.77,
-      "sl": 3548.77,
-      "tp1": 3567.76,
+      "entry_high": 3553.8,
+      "sl": 3548.8,
+      "tp1": 3567.73,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,14 +21,14 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T04:48:18.398017+00:00"
+      "checked_at": "2026-11-26T05:02:47.459384+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3604.83,
+      "entry_low": 3604.8,
       "entry_high": 3607.23,
-      "sl": 3609.83,
-      "tp1": 3590.84,
+      "sl": 3609.8,
+      "tp1": 3590.87,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -37,18 +37,18 @@
       "style": "range_fade",
       "favored": true,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T04:48:18.398017+00:00"
+      "checked_at": "2026-11-26T05:02:47.459384+00:00"
     }
   ],
   "research": [
-    "Gold 3598.08 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3577.26, ATR 4.72, day range 3551.37-3607.23.",
-    "DXY 103.80 (+0.07% today, flat), gold-dollar corr -0.39.",
-    "WTI 84.34 (+0.39% today, flat), gold-oil corr +0.36.",
-    "Headlines: dollar +0.29, oil -0.20, fresh shock.",
-    "Dollar: Treasury Yield Slide Limits Dollar Gains Ahead Of Thanksgiving - BusinessToday Malaysia",
+    "Gold 3599.00 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3577.95, ATR 4.68, day range 3551.37-3607.23.",
+    "DXY 103.79 (+0.07% today, flat), gold-dollar corr -0.40.",
+    "WTI 84.33 (+0.38% today, flat), gold-oil corr +0.36.",
+    "Headlines: dollar +0.23, oil -0.06, fresh shock.",
+    "Dollar: Commodity Corner: Crude oil holds gains for second day on Middle East tensions; gold slips on rate hike concerns - TradingView",
     "Oil: WTI Crude Oil futures top $83 as EIA reports inventory build. - CME Group",
     "No high-impact US release in the next 24 hours."
   ],
@@ -186,5 +186,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-26T04:48:18.398017+00:00"
+  "last_check": "2026-11-26T05:02:47.459384+00:00"
 }
