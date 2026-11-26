@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-26 11:10 UTC",
+  "updated": "2026-11-26 11:24 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3563.29,
+  "price": 3566.12,
   "stance": "Strategy: the SELL plan from 10:40 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3553.97,
-      "sl": 3548.97,
-      "tp1": 3567.47,
+      "entry_high": 3553.84,
+      "sl": 3548.84,
+      "tp1": 3567.67,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.41,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T11:10:01.824896+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3604.63,
-      "entry_high": 3607.23,
-      "sl": 3609.63,
-      "tp1": 3591.13,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.4,
-      "style": "trend_align",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-26T02:23:45.230459+00:00",
+      "checked_at": "2026-11-26T11:24:47.907597+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3604.76,
+      "entry_high": 3607.23,
+      "sl": 3609.76,
+      "tp1": 3590.93,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.51,
+      "style": "trend_align",
+      "favored": true,
+      "ready": true,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T11:10:01.824896+00:00"
+      "checked_at": "2026-11-26T11:24:47.907597+00:00"
     }
   ],
   "active": [],
@@ -49,11 +49,11 @@
     "structure": "down",
     "htf": "sideways",
     "session": "london",
-    "vwap": 3575.44289972486,
-    "atr": 4.368571428571419,
+    "vwap": 3575.271751184697,
+    "atr": 4.607857142857158,
     "day_low": 3551.37,
     "day_high": 3607.23,
-    "range_pos": 0.21339061940565782
+    "range_pos": 0.26405298961689877
   },
   "dxy": {
     "ok": true,
@@ -67,47 +67,33 @@
     "last": 84.41999816894531,
     "pct": 0.4880324036297427,
     "state": "up",
-    "corr": 0.35190344041263416
+    "corr": 0.3490345718365689
   },
   "news": {
-    "usd": 0.1708114512672858,
-    "oil": 0.5268275078126466,
-    "shock": true,
-    "usd_headlines": [
-      "DXY Forecast: Trump Tariffs, Inflation & Fed Rate Hikes - www.equiti.com",
-      "US Dollar Strengthens as Markets Assess the Fed\u2019s December Policy Outlook - Investing.com",
-      "US Dollar Price Forecast: Yields Slide, DXY Eyes 104.08 as EUR/USD, GBP/USD Stall - FXEmpire"
-    ],
-    "oil_headlines": [
-      "Crude Oil Prices Fall Despite Strait of Hormuz Mine Strikes and Saudi Refinery Attack | Business News - https://www.businesstimes-bd.com/",
-      "Crude Oil Rises on Fresh Middle East Supply Concerns - Business Post Nigeria",
-      "Oil rises on supply concerns as Iran claims mine strikes on ships - CNBC"
-    ]
+    "usd": 0.0,
+    "oil": 0.0,
+    "shock": false,
+    "usd_headlines": [],
+    "oil_headlines": []
   },
   "events": [],
   "scorecard": [
     {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.4536983501360401,
-      "trust": 0.8101756252429286
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.4093740083507798,
-      "trust": 0.9688393598280018
-    },
-    {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.4048000000000001,
+      "score": 0.5060000000000001,
       "trust": 1.0
+    },
+    {
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.19137446779193507,
+      "trust": 0.8698839445087957
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.12617156258099987,
+      "score": 0.14943949046859836,
       "trust": 1.0
     },
     {
@@ -115,6 +101,12 @@
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.07751069041995366,
+      "trust": 0.9688836302494207
     }
   ],
   "record": {
