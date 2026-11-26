@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-26T08:14:54.958952+00:00",
-  "atr": 4.142857142857143,
-  "price": 3563.54,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.40). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-26T08:29:26.190544+00:00",
+  "atr": 4.119285714285719,
+  "price": 3568.94,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.13). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3554.09,
-      "sl": 3549.09,
-      "tp1": 3567.29,
+      "entry_high": 3554.1,
+      "sl": 3549.1,
+      "tp1": 3567.27,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,33 +21,33 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T08:28:02.847974+00:00"
+      "checked_at": "2026-11-26T08:42:32.177071+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3604.51,
+      "entry_low": 3604.5,
       "entry_high": 3607.23,
-      "sl": 3609.51,
-      "tp1": 3591.31,
+      "sl": 3609.5,
+      "tp1": 3591.33,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.4,
-      "style": "trend_align",
+      "score": 0.13,
+      "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T08:28:02.847974+00:00"
+      "checked_at": "2026-11-26T08:42:32.177071+00:00"
     }
   ],
   "research": [
-    "Gold 3564.94 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3577.84, ATR 4.14, day range 3551.37-3607.23.",
+    "Gold 3565.67 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3577.51, ATR 4.12, day range 3551.37-3607.23.",
     "DXY 103.81 (+0.08% today, up), gold-dollar corr -0.36.",
     "WTI 84.42 (+0.49% today, up), gold-oil corr +0.35.",
-    "Headlines: dollar +0.21, oil +0.35, fresh shock.",
+    "Headlines: dollar +0.16, oil +0.20, fresh shock.",
     "Dollar: US Dollar Strengthens as Markets Assess the Fed\u2019s December Policy Outlook - Investing.com",
     "Oil: Crude Oil Rises on Fresh Middle East Supply Concerns - Business Post Nigeria",
     "No high-impact US release in the next 24 hours."
@@ -164,5 +164,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-26T08:28:02.847974+00:00"
+  "last_check": "2026-11-26T08:42:32.177071+00:00"
 }
