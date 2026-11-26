@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-25 23:57 UTC",
+  "updated": "2026-11-26 00:12 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3580.11,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.41). Take an entry only if price reaches it.",
+  "price": 3573.67,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.10). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
-      "entry_low": 3426.66,
-      "entry_high": 3427.5,
-      "sl": 3422.5,
-      "tp1": 3445.39,
+      "entry_low": 3448.59,
+      "entry_high": 3449.27,
+      "sl": 3444.27,
+      "tp1": 3467.57,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.41,
-      "style": "oil_shock",
+      "score": 0.1,
+      "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 152.61 away from the entry (20.2 ATR). Unlikely to fill soon.",
-      "created_at": "2026-11-25T22:01:29.009084+00:00",
-      "checked_at": "2026-11-25T23:57:49.658301+00:00"
+      "reason": "Price is 124.40 away from the entry (15.8 ATR). Unlikely to fill soon.",
+      "created_at": "2026-11-26T00:12:30.029980+00:00",
+      "checked_at": "2026-11-26T00:12:30.029980+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3590.4,
+      "entry_low": 3590.56,
       "entry_high": 3591.24,
-      "sl": 3595.4,
-      "tp1": 3572.51,
+      "sl": 3595.56,
+      "tp1": 3572.26,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -37,23 +37,23 @@
       "style": "range_fade",
       "favored": false,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-25T22:01:29.009084+00:00",
-      "checked_at": "2026-11-25T23:57:49.658301+00:00"
+      "checked_at": "2026-11-26T00:12:30.029980+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "down",
-    "session": "late",
-    "vwap": 3523.498761323386,
-    "atr": 7.5557142857143,
-    "day_low": 3426.66,
+    "session": "asia",
+    "vwap": 3542.5597586193185,
+    "atr": 7.850000000000039,
+    "day_low": 3448.59,
     "day_high": 3591.24,
-    "range_pos": 0.9323733138899036
+    "range_pos": 0.8768314055380318
   },
   "dxy": {
     "ok": true,
@@ -64,14 +64,14 @@
   },
   "oil": {
     "ok": true,
-    "last": 84.04000091552734,
-    "pct": 2.9649572255701178,
-    "state": "up",
-    "corr": 0.34038465327068507
+    "last": 84.0,
+    "pct": 0.17889269959283507,
+    "state": "flat",
+    "corr": 0.28240741354112625
   },
   "news": {
-    "usd": 0.2086121295495458,
-    "oil": 0.24492009355956063,
+    "usd": 0.2697330204429623,
+    "oil": -0.024821026253216864,
     "shock": true,
     "usd_headlines": [
       "Are Fed Rate Hikes Already Priced Into the U.S. Dollar Rally? - StoneX",
@@ -89,39 +89,39 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6199898066933003,
-      "trust": 1.1071246548094646
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.4126273252645474,
-      "trust": 1.2481854953178297
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "long",
-      "score": 0.13681430713424603,
-      "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.1,
-      "trust": 1.0
+      "score": 0.44984786229064194,
+      "trust": 0.6615409739568263
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "long",
+      "score": 0.09720007680061649,
+      "trust": 0.7104525750018311
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.08791475031420828,
+      "trust": 1.0989343789276036
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.06421578882386719,
+      "trust": 0.9762205658842684
     }
   ],
   "record": {
-    "graded": 263,
+    "graded": 264,
     "wins": 68,
     "losses": 141,
-    "scratches": 54,
-    "avg_r": -0.18762225517329306
+    "scratches": 55,
+    "avg_r": -0.18691156481278817
   }
 }
