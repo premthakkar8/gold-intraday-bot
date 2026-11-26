@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-26 05:18 UTC",
+  "updated": "2026-11-26 05:33 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3592.9,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.21). Take an entry only if price reaches it.",
+  "price": 3598.87,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.19). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3553.93,
-      "sl": 3548.93,
-      "tp1": 3567.53,
+      "entry_high": 3553.54,
+      "sl": 3548.54,
+      "tp1": 3568.11,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T05:18:54.828295+00:00"
+      "checked_at": "2026-11-26T05:33:33.397592+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3604.67,
+      "entry_low": 3605.06,
       "entry_high": 3607.23,
-      "sl": 3609.67,
-      "tp1": 3591.07,
+      "sl": 3610.06,
+      "tp1": 3590.49,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.21,
+      "score": 0.19,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T05:18:54.828295+00:00"
+      "checked_at": "2026-11-26T05:33:33.397592+00:00"
     }
   ],
   "active": [],
@@ -49,11 +49,11 @@
     "structure": "sideways",
     "htf": "up",
     "session": "asia",
-    "vwap": 3579.0367773255925,
-    "atr": 4.430714285714332,
+    "vwap": 3579.8336755665155,
+    "atr": 5.143571428571444,
     "day_low": 3551.37,
     "day_high": 3607.23,
-    "range_pos": 0.7434658073755837
+    "range_pos": 0.8503401360544198
   },
   "dxy": {
     "ok": true,
@@ -70,18 +70,18 @@
     "corr": 0.35190344041263416
   },
   "news": {
-    "usd": 0.46112401755545,
-    "oil": 0.08844422139970509,
+    "usd": 0.23649870286279492,
+    "oil": 0.16255606279776488,
     "shock": true,
     "usd_headlines": [
-      "Treasury Yields Rise After Huang Returns as Nvidia CEO; European Bond Yields Slip - WSJ",
-      "Treasury Yield Slide Limits Dollar Gains Ahead Of Thanksgiving - BusinessToday Malaysia",
-      "Gold edges lower as US inflation data fuels bets for rate hikes - The Business Times"
+      "Commodity Corner: Crude oil holds gains for second day on Middle East tensions; gold slips on rate hike concerns - TradingView",
+      "DXY Forecast: Trump Tariffs, Inflation & Fed Rate Hikes - www.equiti.com",
+      "U.S. Dollar Gains Ground As GDP Growth Rate Rises To 4.3%: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire"
     ],
     "oil_headlines": [
       "Crude Oil Rises as Escalating Middle East Tensions Heighten Supply Disruption Risks By Kedia Advisory - Investing.com India",
-      "WTI Crude Oil futures top $83 as EIA reports inventory build. - CME Group",
-      "Oil edges higher over supply woes triggered by possible OPEC output cut - Yeni Safak English"
+      "Oil rises on supply concerns as Iran claims mine strikes on ships - Fort Worth Star-Telegram",
+      "WTI Crude Oil futures top $83 as EIA reports inventory build. - CME Group"
     ]
   },
   "events": [],
@@ -89,14 +89,14 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.40031634315862663,
-      "trust": 0.7148506127832618
+      "score": 0.4003163431586267,
+      "trust": 0.7148506127832619
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.21317158931172053,
-      "trust": 0.7809921352038371
+      "score": 0.18693081189917793,
+      "trust": 0.7813006467179573
     },
     {
       "style": "Trade with the intraday trend",
@@ -107,14 +107,14 @@
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.07227935059032464,
-      "trust": 0.7227935059032464
+      "score": 0.0723184000533644,
+      "trust": 0.723184000533644
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.05884871522429552,
-      "trust": 0.7356089403036941
+      "score": 0.05887851056930659,
+      "trust": 0.7359813821163323
     }
   ],
   "record": {

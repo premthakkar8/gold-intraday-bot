@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-26T05:18:54.828295+00:00",
-  "atr": 4.430714285714332,
-  "price": 3593.7,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.21). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-26T05:33:33.397592+00:00",
+  "atr": 5.143571428571444,
+  "price": 3583.44,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.19). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3553.93,
-      "sl": 3548.93,
-      "tp1": 3567.53,
+      "entry_high": 3553.54,
+      "sl": 3548.54,
+      "tp1": 3568.11,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,34 +21,34 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T05:32:03.071613+00:00"
+      "checked_at": "2026-11-26T05:46:40.248055+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3604.67,
+      "entry_low": 3605.06,
       "entry_high": 3607.23,
-      "sl": 3609.67,
-      "tp1": 3591.07,
+      "sl": 3610.06,
+      "tp1": 3590.49,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.21,
+      "score": 0.19,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T05:32:03.071613+00:00"
+      "checked_at": "2026-11-26T05:46:40.248055+00:00"
     }
   ],
   "research": [
-    "Gold 3592.90 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3579.04, ATR 4.43, day range 3551.37-3607.23.",
+    "Gold 3598.87 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3579.83, ATR 5.14, day range 3551.37-3607.23.",
     "DXY 103.81 (+0.08% today, up), gold-dollar corr -0.36.",
     "WTI 84.42 (+0.49% today, up), gold-oil corr +0.35.",
-    "Headlines: dollar +0.46, oil +0.09, fresh shock.",
-    "Dollar: Treasury Yields Rise After Huang Returns as Nvidia CEO; European Bond Yields Slip - WSJ",
+    "Headlines: dollar +0.24, oil +0.16, fresh shock.",
+    "Dollar: Commodity Corner: Crude oil holds gains for second day on Middle East tensions; gold slips on rate hike concerns - TradingView",
     "Oil: Crude Oil Rises as Escalating Middle East Tensions Heighten Supply Disruption Risks By Kedia Advisory - Investing.com India",
     "No high-impact US release in the next 24 hours."
   ],
@@ -186,5 +186,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-26T05:32:03.071613+00:00"
+  "last_check": "2026-11-26T05:46:40.248055+00:00"
 }
