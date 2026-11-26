@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-26 06:02 UTC",
+  "updated": "2026-11-26 06:17 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3580.19,
+  "price": 3562.88,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.45). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3552.61,
-      "sl": 3547.61,
-      "tp1": 3569.51,
+      "entry_high": 3552.0,
+      "sl": 3547.0,
+      "tp1": 3570.42,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T06:02:55.989886+00:00"
+      "checked_at": "2026-11-26T06:17:42.952516+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3605.99,
+      "entry_low": 3606.6,
       "entry_high": 3607.23,
-      "sl": 3610.99,
-      "tp1": 3589.09,
+      "sl": 3611.6,
+      "tp1": 3588.18,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.22,
+      "score": 0.12,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "invalid",
       "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T06:02:55.989886+00:00"
+      "checked_at": "2026-11-26T06:17:42.952516+00:00"
     }
   ],
   "active": [],
@@ -49,11 +49,11 @@
     "structure": "up",
     "htf": "up",
     "session": "asia",
-    "vwap": 3580.5210703264456,
-    "atr": 6.842142857142887,
+    "vwap": 3580.163095886056,
+    "atr": 7.938571428571387,
     "day_low": 3551.37,
     "day_high": 3607.23,
-    "range_pos": 0.5159326888650214
+    "range_pos": 0.2060508413891907
   },
   "dxy": {
     "ok": true,
@@ -70,8 +70,8 @@
     "corr": 0.35190344041263416
   },
   "news": {
-    "usd": 0.26746185693486496,
-    "oil": 0.1597608853689793,
+    "usd": 0.2691565540474948,
+    "oil": 0.24761264600961877,
     "shock": true,
     "usd_headlines": [
       "Korean treasury yields fall across the board ahead of BOK rate decision - \ub9e4\uc77c\uacbd\uc81c",
@@ -89,8 +89,8 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5646590423266492,
-      "trust": 0.7429724241140121
+      "score": 0.564659042326649,
+      "trust": 0.7429724241140119
     },
     {
       "style": "Trade with the intraday trend",
@@ -101,8 +101,8 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.21989896797648376,
-      "trust": 0.9015932989761226
+      "score": 0.12108927916042678,
+      "trust": 0.901733245693324
     },
     {
       "style": "Fade the session range",
@@ -113,8 +113,8 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07766185761854093,
-      "trust": 0.9707732202317615
+      "score": 0.07766518275135434,
+      "trust": 0.9708147843919291
     }
   ],
   "record": {
