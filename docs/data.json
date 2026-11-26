@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26 19:41 UTC",
+  "updated": "2026-11-26 19:55 UTC",
   "symbol": "VANTAGE:XAUUSD",
   "price": 3566.39,
   "stance": "Strategy: wait. Standing aside. The headline shock is larger than the lead of the best trade. Take an entry only if price reaches it.",
@@ -14,14 +14,14 @@
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.51,
+      "score": 0.52,
       "style": "oil_shock",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T19:41:18.285934+00:00"
+      "checked_at": "2026-11-26T19:55:48.976816+00:00"
     },
     {
       "side": "SELL",
@@ -40,7 +40,7 @@
       "status": "invalid",
       "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T19:41:18.285934+00:00"
+      "checked_at": "2026-11-26T19:55:48.976816+00:00"
     }
   ],
   "active": [],
@@ -67,11 +67,11 @@
     "last": 84.41999816894531,
     "pct": 0.4880324036297427,
     "state": "up",
-    "corr": 0.3490345718365689
+    "corr": 0.35190344041263416
   },
   "news": {
-    "usd": -0.13605058083739519,
-    "oil": 0.6954297810866786,
+    "usd": -0.13516739688410578,
+    "oil": 0.698306941474045,
     "shock": true,
     "usd_headlines": [
       "US Dollar Rises Against Canada's Loonie, Treasury Yields Fall - marketscreener.com",
@@ -95,7 +95,7 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.5148415653731586,
+      "score": 0.5168543338726199,
       "trust": 1.0
     },
     {
