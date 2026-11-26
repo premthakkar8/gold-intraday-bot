@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-26 02:38 UTC",
+  "updated": "2026-11-26 02:52 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3598.93,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.28). Take an entry only if price reaches it.",
+  "price": 3589.16,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.24). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3551.78,
-      "sl": 3546.78,
-      "tp1": 3570.75,
+      "entry_high": 3551.62,
+      "sl": 3546.62,
+      "tp1": 3571.0,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.28,
+      "score": 0.15,
       "style": "trend_align",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.28. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T02:38:13.286596+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3600.55,
-      "entry_high": 3600.96,
-      "sl": 3605.55,
-      "tp1": 3581.58,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-26T02:38:13.286596+00:00",
-      "checked_at": "2026-11-26T02:38:13.286596+00:00"
+      "reason": "Strategy score is only 0.15. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-26T02:23:45.230459+00:00",
+      "checked_at": "2026-11-26T02:52:51.542068+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3606.98,
+      "entry_high": 3607.23,
+      "sl": 3611.98,
+      "tp1": 3587.6,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.24,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.24. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-26T02:52:51.542068+00:00",
+      "checked_at": "2026-11-26T02:52:51.542068+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3572.5538811353895,
-    "atr": 8.343571428571456,
+    "vwap": 3574.9478134186656,
+    "atr": 8.636428571428562,
     "day_low": 3551.37,
-    "day_high": 3600.96,
-    "range_pos": 0.9590643274853762
+    "day_high": 3607.23,
+    "range_pos": 0.6765127103472947
   },
   "dxy": {
     "ok": true,
-    "last": 103.74199676513672,
-    "pct": 0.015424137296446622,
+    "last": 103.73899841308594,
+    "pct": 0.012533490678657628,
     "state": "flat",
-    "corr": -0.3604817213000334
+    "corr": -0.363883304594999
   },
   "oil": {
     "ok": true,
-    "last": 83.83999633789062,
-    "pct": -0.20236375909640217,
+    "last": 83.94000244140625,
+    "pct": -0.08332304849928152,
     "state": "flat",
-    "corr": 0.38663623580169815
+    "corr": 0.4160298263471497
   },
   "news": {
-    "usd": 0.31036662613198324,
-    "oil": 0.058819026768998285,
+    "usd": 0.4546621174013283,
+    "oil": 0.06300889472511037,
     "shock": true,
     "usd_headlines": [
+      "Treasury Yield Slide Limits Dollar Gains Ahead Of Thanksgiving - BusinessToday Malaysia",
       "Gold edges lower as US inflation data fuels bets for rate hikes - The Business Times",
-      "Commodity Corner: Crude oil holds gains for second day on Middle East tensions; gold slips on rate hike... - Moneycontrol.com",
-      "DXY Forecast: Trump Tariffs, Inflation & Fed Rate Hikes - www.equiti.com"
+      "Commodity Corner: Crude oil holds gains for second day on Middle East tensions; gold slips on rate hike concerns - TradingView"
     ],
     "oil_headlines": [
       "WTI Crude Oil futures top $83 as EIA reports inventory build. - CME Group",
@@ -89,32 +89,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.3236759487645375,
-      "trust": 0.5779927656509597
+      "score": 0.32367594876453754,
+      "trust": 0.5779927656509598
+    },
+    {
+      "style": "Trade with the dollar",
+      "bias": "short",
+      "score": 0.23924603861045043,
+      "trust": 0.7543216214062267
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.2758425626613466,
+      "score": 0.14887467522621292,
       "trust": 0.8037370706915692
-    },
-    {
-      "style": "Trade with the dollar",
-      "bias": "flat",
-      "score": 0.0905185945687472,
-      "trust": 0.7543216214062266
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07998502754352345,
-      "trust": 0.9998128442940432
+      "score": 0.07998504862736176,
+      "trust": 0.999813107842022
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.06844229501156888,
-      "trust": 0.6844229501156889
+      "score": 0.068486733781553,
+      "trust": 0.6848673378155299
     }
   ],
   "record": {
