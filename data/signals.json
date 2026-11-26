@@ -1,50 +1,50 @@
 {
-  "updated_at": "2026-11-26T16:02:37.407430+00:00",
-  "atr": 3.619999999999988,
-  "price": 3577.15,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.35). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-26T16:17:04.227522+00:00",
+  "atr": 3.4257142857142235,
+  "price": 3572.19,
+  "stance": "Strategy: SELL is the trade (Trade with the intraday trend, confidence 58%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3554.38,
-      "sl": 3549.38,
-      "tp1": 3566.86,
+      "entry_high": 3554.49,
+      "sl": 3549.49,
+      "tp1": 3566.7,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.35,
       "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T16:15:43.549686+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3604.22,
-      "entry_high": 3607.23,
-      "sl": 3609.22,
-      "tp1": 3591.74,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.25,
-      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-26T02:23:45.230459+00:00",
+      "checked_at": "2026-11-26T16:30:12.116861+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3604.11,
+      "entry_high": 3607.23,
+      "sl": 3609.11,
+      "tp1": 3591.9,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.74,
+      "style": "trend_align",
+      "favored": true,
+      "ready": true,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T16:15:43.549686+00:00"
+      "checked_at": "2026-11-26T16:30:12.116861+00:00"
     }
   ],
   "research": [
-    "Gold 3572.90 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3574.25, ATR 3.62, day range 3551.37-3607.23.",
+    "Gold 3576.70 (VANTAGE:XAUUSD). 5m down, 1h sideways. VWAP 3574.27, ATR 3.43, day range 3551.37-3607.23.",
     "DXY 103.81 (+0.08% today, up), gold-dollar corr -0.36.",
     "WTI 84.42 (+0.49% today, up), gold-oil corr +0.35.",
     "Headlines: dollar -0.26, oil +0.44, fresh shock.",
@@ -53,5 +53,5 @@
     "No high-impact US release in the next 24 hours."
   ],
   "active": [],
-  "last_check": "2026-11-26T16:15:43.549686+00:00"
+  "last_check": "2026-11-26T16:30:12.116861+00:00"
 }
