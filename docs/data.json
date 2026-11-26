@@ -1,120 +1,120 @@
 {
-  "updated": "2026-11-26 03:22 UTC",
+  "updated": "2026-11-26 03:36 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3576.85,
+  "price": 3578.25,
   "stance": "Strategy: the BUY plan from 03:07 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3551.93,
-      "sl": 3546.93,
-      "tp1": 3570.53,
+      "entry_high": 3552.2,
+      "sl": 3547.2,
+      "tp1": 3570.13,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.54,
-      "style": "trend_align",
-      "favored": true,
-      "ready": true,
-      "status": "valid",
-      "reason": "Score 0.54 (Trade with the intraday trend).",
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T03:22:08.923374+00:00"
+      "checked_at": "2026-11-26T03:36:42.072198+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3606.67,
+      "entry_low": 3606.4,
       "entry_high": 3607.23,
-      "sl": 3611.67,
-      "tp1": 3588.07,
+      "sl": 3611.4,
+      "tp1": 3588.47,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.21,
+      "score": 0.22,
       "style": "dollar_lead",
-      "favored": false,
+      "favored": true,
       "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
+      "status": "weak",
+      "reason": "Strategy score is only 0.22. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T03:22:08.923374+00:00"
+      "checked_at": "2026-11-26T03:36:42.072198+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "up",
+    "structure": "sideways",
     "htf": "up",
     "session": "asia",
-    "vwap": 3576.1637184656624,
-    "atr": 8.07857142857139,
+    "vwap": 3576.226608657129,
+    "atr": 7.582142857142799,
     "day_low": 3551.37,
     "day_high": 3607.23,
-    "range_pos": 0.4561403508771923
+    "range_pos": 0.48120300751879785
   },
   "dxy": {
     "ok": true,
-    "last": 103.79199981689453,
-    "pct": 0.06363100226588447,
+    "last": 103.80699920654297,
+    "pct": 0.07809159068973477,
     "state": "flat",
-    "corr": -0.36710023161590216
+    "corr": -0.3883577009039691
   },
   "oil": {
     "ok": true,
-    "last": 84.08000183105469,
-    "pct": 0.08332304849928152,
+    "last": 84.25,
+    "pct": 0.2856777260645121,
     "state": "flat",
-    "corr": 0.36149231654778524
+    "corr": 0.36172519655365354
   },
   "news": {
-    "usd": 0.3690944789758944,
-    "oil": -0.2186828934181011,
+    "usd": 0.43074600326521545,
+    "oil": 0.06784988848834683,
     "shock": true,
     "usd_headlines": [
       "Treasury Yield Slide Limits Dollar Gains Ahead Of Thanksgiving - BusinessToday Malaysia",
-      "Gold edges lower as US inflation data fuels bets for rate hikes - The Business Times",
-      "Commodity Corner: Crude oil holds gains for second day on Middle East tensions; gold slips on rate hike concerns - TradingView"
+      "Commodity Corner: Crude oil holds gains for second day on Middle East tensions; gold slips on rate hike concerns - TradingView",
+      "DXY Forecast: Trump Tariffs, Inflation & Fed Rate Hikes - www.equiti.com"
     ],
     "oil_headlines": [
+      "Oil rises on supply concerns as Iran claims mine strikes on ships - The State",
       "WTI Crude Oil futures top $83 as EIA reports inventory build. - CME Group",
-      "Oil edges higher over supply woes triggered by possible OPEC output cut - Yeni Safak English",
-      "CME : WTI Crude Oil futures top $83 as EIA reports inventory build. - www.marketscreener.com"
+      "Oil edges higher over supply woes triggered by possible OPEC output cut - Yeni Safak English"
     ]
   },
   "events": [],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.5401113115047346,
-      "trust": 0.8037370706915692
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.3236759487645374,
-      "trust": 0.5779927656509596
+      "score": 0.3361554643157601,
+      "trust": 0.6002776148495715
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.20841707960059283,
-      "trust": 0.7543216214062267
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.07998509072683184,
-      "trust": 0.999813634085398
+      "score": 0.21601745354366153,
+      "trust": 0.6925132935344156
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.06857546756141232,
-      "trust": 0.6857546756141232
+      "score": 0.08297531010963502,
+      "trust": 0.8297531010963501
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.07939704364427831,
+      "trust": 0.9924630455534789
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.07857922052318995,
+      "trust": 0.7857922052318995
     }
   ],
   "record": {
