@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-26 16:46 UTC",
+  "updated": "2026-11-26 17:00 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3572.01,
+  "price": 3571.4,
   "stance": "Strategy: the SELL plan from 16:17 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3554.71,
-      "sl": 3549.71,
-      "tp1": 3566.35,
+      "entry_high": 3554.78,
+      "sl": 3549.78,
+      "tp1": 3566.26,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.3,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
-      "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T16:46:09.630523+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3603.89,
-      "entry_high": 3607.23,
-      "sl": 3608.89,
-      "tp1": 3592.25,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.19,
-      "style": "dollar_lead",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-26T02:23:45.230459+00:00",
+      "checked_at": "2026-11-26T17:00:41.477735+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3603.82,
+      "entry_high": 3607.23,
+      "sl": 3608.82,
+      "tp1": 3592.34,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.2,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T16:46:09.630523+00:00"
+      "checked_at": "2026-11-26T17:00:41.477735+00:00"
     }
   ],
   "active": [],
@@ -48,12 +48,12 @@
   "chart": {
     "structure": "sideways",
     "htf": "sideways",
-    "session": "overlap",
-    "vwap": 3574.235805434133,
-    "atr": 3.009999999999926,
+    "session": "newyork",
+    "vwap": 3574.215553358179,
+    "atr": 2.8978571428571223,
     "day_low": 3551.37,
     "day_high": 3607.23,
-    "range_pos": 0.36949516648765274
+    "range_pos": 0.35857500895095157
   },
   "dxy": {
     "ok": true,
@@ -70,8 +70,8 @@
     "corr": 0.3490345718365689
   },
   "news": {
-    "usd": 0.015671086218340294,
-    "oil": 0.4290849234249282,
+    "usd": -0.04548792427169283,
+    "oil": 0.027746398574584746,
     "shock": true,
     "usd_headlines": [
       "U.S. Dollar Gains Ground In Holiday-Thinned Trading: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
@@ -79,9 +79,9 @@
       "Why has the Federal Reserve turned so hawkish? Nomura: It may be seeking to avoid repeating the mistake of falling behind the curve in 2022. - \u5bcc\u9014\u725b\u725b"
     ],
     "oil_headlines": [
-      "WTI Crude Oil Gains 0.76% to $85.66 a Barrel on Nov. 26 - www.tokenpost.com",
       "Crude Oil Inventories Rise Less Than Forecast - IndexBox",
-      "Crude Oil Prices Fall Despite Strait of Hormuz Mine Strikes and Saudi Refinery Attack | Business News - https://www.businesstimes-bd.com/"
+      "Crude Oil Rises on Fresh Middle East Supply Concerns - Business Post Nigeria",
+      "WTI Crude Oil futures top $83 as EIA reports inventory build. - CME Group"
     ]
   },
   "events": [],
@@ -89,32 +89,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5646916990210183,
-      "trust": 1.0083780339661041
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.3040624039084876,
-      "trust": 0.8254671935793284
+      "score": 0.5659319718612046,
+      "trust": 1.010592806895008
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.19317617899692396,
-      "trust": 0.9371489107298387
-    },
-    {
-      "style": "Fade the session range",
-      "bias": "flat",
-      "score": 0.10836499117356223,
-      "trust": 1.0836499117356222
+      "score": 0.2037811233662705,
+      "trust": 1.0
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
+    },
+    {
+      "style": "Fade the session range",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "flat",
+      "score": 0.07762123006588804,
+      "trust": 0.9702653758236005
     }
   ],
   "record": {
