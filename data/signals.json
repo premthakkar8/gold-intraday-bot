@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-11-26T12:23:44.501194+00:00",
-  "atr": 3.9342857142856764,
-  "price": 3572.6,
+  "updated_at": "2026-11-26T12:38:23.837628+00:00",
+  "atr": 4.018571428571412,
+  "price": 3566.96,
   "stance": "Strategy: the SELL plan from 10:40 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3554.21,
-      "sl": 3549.21,
-      "tp1": 3567.12,
+      "entry_high": 3554.16,
+      "sl": 3549.16,
+      "tp1": 3567.19,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.33,
+      "score": 0.29,
       "style": "oil_shock",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T12:36:51.459273+00:00"
+      "checked_at": "2026-11-26T12:51:30.634246+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3604.39,
+      "entry_low": 3604.44,
       "entry_high": 3607.23,
-      "sl": 3609.39,
-      "tp1": 3591.48,
+      "sl": 3609.44,
+      "tp1": 3591.41,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.12,
+      "score": 0.21,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T12:36:51.459273+00:00"
+      "checked_at": "2026-11-26T12:51:30.634246+00:00"
     }
   ],
   "research": [
-    "Gold 3565.94 (VANTAGE:XAUUSD). 5m up, 1h down. VWAP 3574.82, ATR 3.93, day range 3551.37-3607.23.",
+    "Gold 3572.15 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3574.72, ATR 4.02, day range 3551.37-3607.23.",
     "DXY 103.81 (+0.08% today, up), gold-dollar corr -0.36.",
     "WTI 84.42 (+0.49% today, up), gold-oil corr +0.35.",
-    "Headlines: dollar +0.10, oil +0.41, fresh shock.",
+    "Headlines: dollar +0.15, oil +0.40, fresh shock.",
     "Dollar: Why has the Federal Reserve turned so hawkish? Nomura: It may be seeking to avoid repeating the mistake of falling behind the curve in 2022. - \u5bcc\u9014\u725b\u725b",
     "Oil: Crude Oil Inventories Rise Less Than Forecast - IndexBox",
     "No high-impact US release in the next 24 hours."
@@ -142,5 +142,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-26T12:36:51.459273+00:00"
+  "last_check": "2026-11-26T12:51:30.634246+00:00"
 }
