@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-26T13:36:51.921907+00:00",
-  "atr": 4.829999999999992,
-  "price": 3571.7,
+  "updated_at": "2026-11-26T13:51:30.385852+00:00",
+  "atr": 4.962142857142875,
+  "price": 3573.58,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.22). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3553.71,
-      "sl": 3548.71,
-      "tp1": 3567.85,
+      "entry_high": 3553.64,
+      "sl": 3548.64,
+      "tp1": 3567.96,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,30 +21,30 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T13:49:57.643264+00:00"
+      "checked_at": "2026-11-26T14:04:38.665385+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3604.89,
+      "entry_low": 3604.96,
       "entry_high": 3607.23,
-      "sl": 3609.89,
-      "tp1": 3590.75,
+      "sl": 3609.96,
+      "tp1": 3590.64,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.2,
+      "score": 0.11,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T13:49:57.643264+00:00"
+      "checked_at": "2026-11-26T14:04:38.665385+00:00"
     }
   ],
   "research": [
-    "Gold 3571.23 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3574.19, ATR 4.83, day range 3551.37-3607.23.",
+    "Gold 3570.46 (VANTAGE:XAUUSD). 5m sideways, 1h down. VWAP 3574.11, ATR 4.96, day range 3551.37-3607.23.",
     "DXY 103.81 (+0.08% today, up), gold-dollar corr -0.36.",
     "WTI 84.42 (+0.49% today, up), gold-oil corr +0.35.",
     "Headlines: dollar +0.05, oil +0.39, fresh shock.",
@@ -98,5 +98,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-26T13:49:57.643264+00:00"
+  "last_check": "2026-11-26T14:04:38.665385+00:00"
 }
