@@ -1,59 +1,59 @@
 {
-  "updated": "2026-11-26 15:48 UTC",
+  "updated": "2026-11-26 16:02 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3570.45,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.43). Take an entry only if price reaches it.",
+  "price": 3572.9,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.35). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3554.05,
-      "sl": 3549.05,
-      "tp1": 3567.34,
+      "entry_high": 3554.38,
+      "sl": 3549.38,
+      "tp1": 3566.86,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending down on both the 5-minute and 1-hour charts.",
-      "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T15:48:06.970994+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3604.55,
-      "entry_high": 3607.23,
-      "sl": 3609.55,
-      "tp1": 3591.26,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.43,
-      "style": "trend_align",
+      "score": 0.35,
+      "style": "oil_shock",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "created_at": "2026-11-26T02:23:45.230459+00:00",
+      "checked_at": "2026-11-26T16:02:37.407430+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3604.22,
+      "entry_high": 3607.23,
+      "sl": 3609.22,
+      "tp1": 3591.74,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.25,
+      "style": "trend_align",
+      "favored": false,
+      "ready": false,
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T15:48:06.970994+00:00"
+      "checked_at": "2026-11-26T16:02:37.407430+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "down",
-    "htf": "down",
+    "htf": "sideways",
     "session": "overlap",
-    "vwap": 3574.2830401894294,
-    "atr": 4.2114285714285415,
+    "vwap": 3574.24956299663,
+    "atr": 3.619999999999988,
     "day_low": 3551.37,
     "day_high": 3607.23,
-    "range_pos": 0.3415682062298583
+    "range_pos": 0.3854278553526701
   },
   "dxy": {
     "ok": true,
@@ -70,8 +70,8 @@
     "corr": 0.3490345718365689
   },
   "news": {
-    "usd": -0.0786787943215483,
-    "oil": 0.17386935608669946,
+    "usd": -0.2621440493347059,
+    "oil": 0.44106449126315245,
     "shock": true,
     "usd_headlines": [
       "Shafaq News..US dollar drops in Baghdad and Erbil - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
@@ -79,9 +79,9 @@
       "Only the US Dollar Falls at the Belarusian Currency and Stock Exchange - REFORM.news"
     ],
     "oil_headlines": [
+      "WTI Crude Oil Gains 0.76% to $85.66 a Barrel on Nov. 26 - www.tokenpost.com",
       "Crude Oil Inventories Rise Less Than Forecast - IndexBox",
-      "Crude Oil Prices Fall Despite Strait of Hormuz Mine Strikes and Saudi Refinery Attack | Business News - https://www.businesstimes-bd.com/",
-      "Crude Oil Rises on Fresh Middle East Supply Concerns - Business Post Nigeria"
+      "Crude Oil Prices Fall Despite Strait of Hormuz Mine Strikes and Saudi Refinery Attack | Business News - https://www.businesstimes-bd.com/"
     ]
   },
   "events": [],
@@ -89,19 +89,25 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6008212152264999,
-      "trust": 1.0728950271901783
+      "score": 0.5303764647274973,
+      "trust": 0.9471008298705309
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.35297827746886384,
+      "trust": 0.9414243876953696
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "short",
-      "score": 0.4312,
+      "score": 0.2532194876946065,
       "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.11207961785144878,
+      "score": 0.2037811233662705,
       "trust": 1.0
     },
     {
@@ -109,12 +115,6 @@
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.07530740180575132,
-      "trust": 0.9413425225718914
     }
   ],
   "record": {
