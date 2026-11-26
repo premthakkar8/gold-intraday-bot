@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-26 12:08 UTC",
+  "updated": "2026-11-26 12:23 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3573.79,
+  "price": 3565.94,
   "stance": "Strategy: the SELL plan from 10:40 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3554.19,
-      "sl": 3549.19,
-      "tp1": 3567.14,
+      "entry_high": 3554.21,
+      "sl": 3549.21,
+      "tp1": 3567.12,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.26,
-      "style": "trend_align",
+      "score": 0.33,
+      "style": "oil_shock",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T12:08:50.611914+00:00"
+      "checked_at": "2026-11-26T12:23:44.501194+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3604.41,
+      "entry_low": 3604.39,
       "entry_high": 3607.23,
-      "sl": 3609.41,
-      "tp1": 3591.46,
+      "sl": 3609.39,
+      "tp1": 3591.48,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.23,
+      "score": 0.12,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T12:08:50.611914+00:00"
+      "checked_at": "2026-11-26T12:23:44.501194+00:00"
     }
   ],
   "active": [],
@@ -49,11 +49,11 @@
     "structure": "up",
     "htf": "down",
     "session": "overlap",
-    "vwap": 3574.908402279208,
-    "atr": 3.965714285714252,
+    "vwap": 3574.815678320823,
+    "atr": 3.9342857142856764,
     "day_low": 3551.37,
     "day_high": 3607.23,
-    "range_pos": 0.40136054421768746
+    "range_pos": 0.2608306480486955
   },
   "dxy": {
     "ok": true,
@@ -67,11 +67,11 @@
     "last": 84.41999816894531,
     "pct": 0.4880324036297427,
     "state": "up",
-    "corr": 0.3490345718365689
+    "corr": 0.35190344041263416
   },
   "news": {
-    "usd": 0.15380433032389051,
-    "oil": 0.2485217131757133,
+    "usd": 0.09636532401037394,
+    "oil": 0.40581021763809055,
     "shock": true,
     "usd_headlines": [
       "Why has the Federal Reserve turned so hawkish? Nomura: It may be seeking to avoid repeating the mistake of falling behind the curve in 2022. - \u5bcc\u9014\u725b\u725b",
@@ -89,19 +89,25 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.7113277075567739,
-      "trust": 0.8083269404054249
+      "score": 0.711327707556774,
+      "trust": 0.808326940405425
+    },
+    {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.3346852745737301,
+      "trust": 0.9401769952121783
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.26,
+      "score": 0.12436125965538834,
       "trust": 1.0
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2268517729148541,
+      "score": 0.12002975708230464,
       "trust": 1.0
     },
     {
@@ -109,12 +115,6 @@
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade the oil shock",
-      "bias": "flat",
-      "score": 0.07520729059138466,
-      "trust": 0.9400911323923082
     }
   ],
   "record": {
