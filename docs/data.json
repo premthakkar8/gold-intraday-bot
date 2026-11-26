@@ -1,77 +1,38 @@
 {
-  "updated": "2026-11-26 01:25 UTC",
+  "updated": "2026-11-26 01:39 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3568.96,
+  "price": 3558.3,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.00). Take an entry only if price reaches it.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 3551.37,
-      "entry_high": 3551.51,
-      "sl": 3546.51,
-      "tp1": 3571.16,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-26T01:10:52.075368+00:00",
-      "checked_at": "2026-11-26T01:25:27.585873+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3584.0,
-      "entry_high": 3584.14,
-      "sl": 3589.0,
-      "tp1": 3571.64,
-      "tp2": 3564.35,
-      "rr": 2.5,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-26T00:56:17.324084+00:00",
-      "checked_at": "2026-11-26T01:25:27.585873+00:00"
-    }
-  ],
+  "setups": [],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3571.64252612296,
-    "atr": 8.831428571428562,
+    "vwap": 3570.2016557454745,
+    "atr": 9.607857142857158,
     "day_low": 3551.37,
     "day_high": 3584.14,
-    "range_pos": 0.5367714372902092
+    "range_pos": 0.21147390906317654
   },
   "dxy": {
     "ok": true,
-    "last": 103.71099853515625,
-    "pct": -0.014460588423850292,
+    "last": 103.74400329589844,
+    "pct": 0.0173585903765446,
     "state": "flat",
-    "corr": -0.3255957266407398
+    "corr": -0.32276088190424096
   },
   "oil": {
     "ok": true,
-    "last": 84.33999633789062,
-    "pct": 0.3928034677645148,
+    "last": 84.19000244140625,
+    "pct": 0.21426056493117698,
     "state": "flat",
-    "corr": 0.19780734578268844
+    "corr": 0.30435925829375066
   },
   "news": {
-    "usd": 0.2059947686393423,
-    "oil": 0.0468094863749812,
+    "usd": 0.23095723755881614,
+    "oil": 0.043694888920985886,
     "shock": true,
     "usd_headlines": [
       "U.S. Dollar Gains Ground As GDP Growth Rate Rises To 4.3%: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
@@ -89,8 +50,8 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.34278885220243466,
-      "trust": 0.6121229503614904
+      "score": 0.33615546431576016,
+      "trust": 0.6002776148495717
     },
     {
       "style": "Trade with the dollar",
@@ -107,21 +68,21 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07938937715915194,
-      "trust": 0.9923672144893992
+      "score": 0.07939022697101,
+      "trust": 0.992377837137625
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.0783068590401475,
-      "trust": 0.7830685904014749
+      "score": 0.07833704967042357,
+      "trust": 0.7833704967042356
     }
   ],
   "record": {
-    "graded": 266,
+    "graded": 267,
     "wins": 68,
-    "losses": 143,
+    "losses": 144,
     "scratches": 55,
-    "avg_r": -0.19302501169389502
+    "avg_r": -0.1960473899272512
   }
 }

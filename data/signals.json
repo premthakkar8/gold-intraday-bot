@@ -1,53 +1,14 @@
 {
-  "updated_at": "2026-11-26T01:25:27.585873+00:00",
-  "atr": 8.831428571428562,
-  "price": 3558.04,
+  "updated_at": "2026-11-26T01:39:55.567254+00:00",
+  "atr": 9.607857142857158,
+  "price": 3561.13,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.00). Take an entry only if price reaches it.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 3551.37,
-      "entry_high": 3551.51,
-      "sl": 3546.51,
-      "tp1": 3571.16,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-26T01:10:52.075368+00:00",
-      "checked_at": "2026-11-26T01:38:35.405339+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3584.0,
-      "entry_high": 3584.14,
-      "sl": 3589.0,
-      "tp1": 3571.64,
-      "tp2": 3564.35,
-      "rr": 2.5,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-26T00:56:17.324084+00:00",
-      "checked_at": "2026-11-26T01:38:35.405339+00:00"
-    }
-  ],
+  "setups": [],
   "research": [
-    "Gold 3568.96 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3571.64, ATR 8.83, day range 3551.37-3584.14.",
-    "DXY 103.71 (-0.01% today, flat), gold-dollar corr -0.33.",
-    "WTI 84.34 (+0.39% today, flat), gold-oil corr +0.20.",
-    "Headlines: dollar +0.21, oil +0.05, fresh shock.",
+    "Gold 3558.30 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3570.20, ATR 9.61, day range 3551.37-3584.14.",
+    "DXY 103.74 (+0.02% today, flat), gold-dollar corr -0.32.",
+    "WTI 84.19 (+0.21% today, flat), gold-oil corr +0.30.",
+    "Headlines: dollar +0.23, oil +0.04, fresh shock.",
     "Dollar: U.S. Dollar Gains Ground As GDP Growth Rate Rises To 4.3%: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
     "Oil: WTI Crude Oil futures top $83 as EIA reports inventory build. - CME Group",
     "No high-impact US release in the next 24 hours."
@@ -142,5 +103,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-26T01:38:35.405339+00:00"
+  "last_check": "2026-11-26T01:53:00.820005+00:00"
 }
