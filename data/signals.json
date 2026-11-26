@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-26T01:39:55.567254+00:00",
-  "atr": 9.607857142857158,
-  "price": 3561.13,
+  "updated_at": "2026-11-26T01:54:29.338128+00:00",
+  "atr": 9.912857142857158,
+  "price": 3578.54,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.00). Take an entry only if price reaches it.",
   "setups": [],
   "research": [
-    "Gold 3558.30 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3570.20, ATR 9.61, day range 3551.37-3584.14.",
-    "DXY 103.74 (+0.02% today, flat), gold-dollar corr -0.32.",
-    "WTI 84.19 (+0.21% today, flat), gold-oil corr +0.30.",
-    "Headlines: dollar +0.23, oil +0.04, fresh shock.",
-    "Dollar: U.S. Dollar Gains Ground As GDP Growth Rate Rises To 4.3%: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
+    "Gold 3561.58 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3568.83, ATR 9.91, day range 3551.37-3584.14.",
+    "DXY 103.76 (+0.04% today, flat), gold-dollar corr -0.42.",
+    "WTI 83.89 (-0.14% today, flat), gold-oil corr +0.37.",
+    "Headlines: dollar +0.31, oil +0.05, fresh shock.",
+    "Dollar: DXY Forecast: Trump Tariffs, Inflation & Fed Rate Hikes - www.equiti.com",
     "Oil: WTI Crude Oil futures top $83 as EIA reports inventory build. - CME Group",
     "No high-impact US release in the next 24 hours."
   ],
@@ -103,5 +103,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-26T01:53:00.820005+00:00"
+  "last_check": "2026-11-26T02:07:35.608571+00:00"
 }

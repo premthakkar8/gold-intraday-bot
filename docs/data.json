@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-26 01:39 UTC",
+  "updated": "2026-11-26 01:54 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3558.3,
+  "price": 3561.58,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.00). Take an entry only if price reaches it.",
   "setups": [],
   "active": [],
@@ -10,34 +10,34 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3570.2016557454745,
-    "atr": 9.607857142857158,
+    "vwap": 3568.830542351415,
+    "atr": 9.912857142857158,
     "day_low": 3551.37,
     "day_high": 3584.14,
-    "range_pos": 0.21147390906317654
+    "range_pos": 0.3115654562099494
   },
   "dxy": {
     "ok": true,
-    "last": 103.74400329589844,
-    "pct": 0.0173585903765446,
+    "last": 103.76399993896484,
+    "pct": 0.03663692316337655,
     "state": "flat",
-    "corr": -0.32276088190424096
+    "corr": -0.4172700929044882
   },
   "oil": {
     "ok": true,
-    "last": 84.19000244140625,
-    "pct": 0.21426056493117698,
+    "last": 83.88999938964844,
+    "pct": -0.14284340379784186,
     "state": "flat",
-    "corr": 0.30435925829375066
+    "corr": 0.3738025474356372
   },
   "news": {
-    "usd": 0.23095723755881614,
-    "oil": 0.043694888920985886,
+    "usd": 0.3107877622576718,
+    "oil": 0.04725874348009413,
     "shock": true,
     "usd_headlines": [
+      "DXY Forecast: Trump Tariffs, Inflation & Fed Rate Hikes - www.equiti.com",
       "U.S. Dollar Gains Ground As GDP Growth Rate Rises To 4.3%: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
-      "Are Fed Rate Hikes Already Priced Into the U.S. Dollar Rally? - StoneX",
-      "US Equity Indexes Mixed, Treasury Yields Drop as Investors Rotate Out of Chipmakers While Assessing Trade Tariffs - marketscreener.com"
+      "Are Fed Rate Hikes Already Priced Into the U.S. Dollar Rally? - StoneX"
     ],
     "oil_headlines": [
       "WTI Crude Oil futures top $83 as EIA reports inventory build. - CME Group",
@@ -68,14 +68,14 @@
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07939022697101,
-      "trust": 0.992377837137625
+      "score": 0.07939108125661919,
+      "trust": 0.9923885157077398
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.07833704967042357,
-      "trust": 0.7833704967042356
+      "score": 0.07836739923631005,
+      "trust": 0.7836739923631004
     }
   ],
   "record": {
