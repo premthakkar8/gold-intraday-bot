@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-26 04:49 UTC",
+  "updated": "2026-11-26 05:04 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3599.0,
+  "price": 3596.07,
   "stance": "Strategy: the BUY plan from 03:07 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
@@ -9,7 +9,7 @@
       "entry_low": 3551.37,
       "entry_high": 3553.8,
       "sl": 3548.8,
-      "tp1": 3567.73,
+      "tp1": 3567.72,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T04:49:40.280054+00:00"
+      "checked_at": "2026-11-26T05:04:11.197808+00:00"
     },
     {
       "side": "SELL",
       "entry_low": 3604.8,
       "entry_high": 3607.23,
       "sl": 3609.8,
-      "tp1": 3590.87,
+      "tp1": 3590.88,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
+      "score": 0.22,
+      "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T04:49:40.280054+00:00"
+      "checked_at": "2026-11-26T05:04:11.197808+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "sideways",
     "htf": "up",
     "session": "asia",
-    "vwap": 3577.9524188818964,
-    "atr": 4.6807142857143,
+    "vwap": 3578.571684778748,
+    "atr": 4.667857142857201,
     "day_low": 3551.37,
     "day_high": 3607.23,
-    "range_pos": 0.8526673827425707
+    "range_pos": 0.8002148227712168
   },
   "dxy": {
     "ok": true,
-    "last": 103.79399871826172,
-    "pct": 0.06555810001107713,
-    "state": "flat",
-    "corr": -0.3950184890719628
+    "last": 103.81500244140625,
+    "pct": 0.08580733700541074,
+    "state": "up",
+    "corr": -0.3353330764258859
   },
   "oil": {
     "ok": true,
-    "last": 84.33000183105469,
-    "pct": 0.38090666192974,
-    "state": "flat",
-    "corr": 0.35594233822543536
+    "last": 84.41999816894531,
+    "pct": 0.4880324036297427,
+    "state": "up",
+    "corr": 0.3490345718365689
   },
   "news": {
-    "usd": 0.22934983476564444,
-    "oil": -0.06208750153965094,
+    "usd": 0.458553806807447,
+    "oil": -0.42837427452369,
     "shock": true,
     "usd_headlines": [
-      "Commodity Corner: Crude oil holds gains for second day on Middle East tensions; gold slips on rate hike concerns - TradingView",
-      "DXY Forecast: Trump Tariffs, Inflation & Fed Rate Hikes - www.equiti.com",
-      "U.S. Dollar Gains Ground As GDP Growth Rate Rises To 4.3%: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire"
+      "Treasury Yields Rise After Huang Returns as Nvidia CEO; European Bond Yields Slip - WSJ",
+      "Treasury Yield Slide Limits Dollar Gains Ahead Of Thanksgiving - BusinessToday Malaysia",
+      "Gold edges lower as US inflation data fuels bets for rate hikes - The Business Times"
     ],
     "oil_headlines": [
       "WTI Crude Oil futures top $83 as EIA reports inventory build. - CME Group",
@@ -89,32 +89,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.33615546431576016,
-      "trust": 0.6002776148495717
+      "score": 0.4856305307976894,
+      "trust": 0.8671973764244453
     },
     {
       "style": "Trade with the dollar",
-      "bias": "flat",
-      "score": 0.08310159522412987,
-      "trust": 0.6925132935344156
+      "bias": "short",
+      "score": 0.22008934315846176,
+      "trust": 0.8165041580516872
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.08297531010963503,
-      "trust": 0.8297531010963503
+      "score": 0.10894983068883826,
+      "trust": 1.0894983068883826
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07940126448953126,
-      "trust": 0.9925158061191407
+      "score": 0.10642269183559686,
+      "trust": 0.8868557652966405
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.07872917133556841,
-      "trust": 0.787291713355684
+      "score": 0.1,
+      "trust": 1.0
     }
   ],
   "record": {
