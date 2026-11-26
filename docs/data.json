@@ -1,43 +1,82 @@
 {
-  "updated": "2026-11-26 02:09 UTC",
+  "updated": "2026-11-26 02:23 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3576.39,
+  "price": 3585.59,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.28). Take an entry only if price reaches it.",
-  "setups": [],
+  "setups": [
+    {
+      "side": "BUY",
+      "entry_low": 3551.37,
+      "entry_high": 3551.94,
+      "sl": 3546.94,
+      "tp1": 3570.51,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.28,
+      "style": "trend_align",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.28. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-26T02:23:45.230459+00:00",
+      "checked_at": "2026-11-26T02:23:45.230459+00:00"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3590.63,
+      "entry_high": 3591.2,
+      "sl": 3595.63,
+      "tp1": 3572.06,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-26T02:23:45.230459+00:00",
+      "checked_at": "2026-11-26T02:23:45.230459+00:00"
+    }
+  ],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3569.0832979558822,
-    "atr": 10.194285714285732,
+    "vwap": 3570.6155864562716,
+    "atr": 8.054285714285763,
     "day_low": 3551.37,
-    "day_high": 3584.14,
-    "range_pos": 0.7635032041501372
+    "day_high": 3591.2,
+    "range_pos": 0.8591513934220516
   },
   "dxy": {
     "ok": true,
-    "last": 103.76699829101562,
-    "pct": 0.03952756978116555,
+    "last": 103.74600219726562,
+    "pct": 0.019285688121737265,
     "state": "flat",
-    "corr": -0.3746409127886439
+    "corr": -0.37033869471447434
   },
   "oil": {
     "ok": true,
-    "last": 83.97000122070312,
-    "pct": -0.047614467932613945,
+    "last": 84.12000274658203,
+    "pct": 0.13093751643189547,
     "state": "flat",
-    "corr": 0.41049054356638215
+    "corr": 0.41999321795967515
   },
   "news": {
-    "usd": 0.3112488594086492,
-    "oil": -0.23108734670543563,
+    "usd": 0.24302936071093778,
+    "oil": -0.22882324729659462,
     "shock": true,
     "usd_headlines": [
+      "Commodity Corner: Crude oil holds gains for second day on Middle East tensions; gold slips on rate hike... - Moneycontrol.com",
       "DXY Forecast: Trump Tariffs, Inflation & Fed Rate Hikes - www.equiti.com",
-      "U.S. Dollar Gains Ground As GDP Growth Rate Rises To 4.3%: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
-      "Are Fed Rate Hikes Already Priced Into the U.S. Dollar Rally? - StoneX"
+      "U.S. Dollar Gains Ground As GDP Growth Rate Rises To 4.3%: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire"
     ],
     "oil_headlines": [
       "WTI Crude Oil futures top $83 as EIA reports inventory build. - CME Group",
@@ -50,32 +89,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.3236759487645374,
-      "trust": 0.5779927656509596
+      "score": 0.32367594876453754,
+      "trust": 0.5779927656509598
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.2758425626613466,
-      "trust": 0.8037370706915692
+      "score": 0.27584256266134666,
+      "trust": 0.8037370706915693
     },
     {
       "style": "Trade with the dollar",
       "bias": "flat",
       "score": 0.0905185945687472,
-      "trust": 0.7543216214062267
+      "trust": 0.7543216214062266
     },
     {
       "style": "Trade the oil shock",
       "bias": "flat",
-      "score": 0.07998498561765406,
-      "trust": 0.9998123202206757
+      "score": 0.07998500667531994,
+      "trust": 0.9998125834414991
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.06835392713284892,
-      "trust": 0.6835392713284891
+      "score": 0.06839831073874937,
+      "trust": 0.6839831073874937
     }
   ],
   "record": {
