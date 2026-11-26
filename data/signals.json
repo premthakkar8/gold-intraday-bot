@@ -1,55 +1,53 @@
 {
-  "updated_at": "2026-11-26T02:52:51.542068+00:00",
-  "atr": 8.636428571428562,
-  "price": 3583.27,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.24). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-26T03:07:29.422487+00:00",
+  "atr": 8.552142857142858,
+  "price": 3576.53,
+  "stance": "Strategy: BUY is the trade (Trade with the intraday trend, confidence 68%).",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3551.37,
-      "entry_high": 3551.62,
-      "sl": 3546.62,
-      "tp1": 3571.0,
+      "entry_high": 3551.67,
+      "sl": 3546.67,
+      "tp1": 3570.93,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.15,
+      "score": 0.68,
       "style": "trend_align",
-      "favored": false,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.15. Take it only with a clear reaction at the entry.",
+      "favored": true,
+      "ready": true,
+      "status": "valid",
+      "reason": "Score 0.68 (Trade with the intraday trend).",
       "created_at": "2026-11-26T02:23:45.230459+00:00",
-      "checked_at": "2026-11-26T03:05:59.118065+00:00"
+      "checked_at": "2026-11-26T03:20:47.987182+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3606.98,
+      "entry_low": 3606.93,
       "entry_high": 3607.23,
-      "sl": 3611.98,
-      "tp1": 3587.6,
+      "sl": 3611.93,
+      "tp1": 3587.67,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.24,
-      "style": "dollar_lead",
-      "favored": true,
+      "score": 0.0,
+      "style": "range_fade",
+      "favored": false,
       "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.24. Take it only with a clear reaction at the entry.",
+      "status": "invalid",
+      "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-26T02:52:51.542068+00:00",
-      "checked_at": "2026-11-26T03:05:59.118065+00:00"
+      "checked_at": "2026-11-26T03:20:47.987182+00:00"
     }
   ],
   "research": [
-    "Gold 3589.16 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3574.95, ATR 8.64, day range 3551.37-3607.23.",
-    "DXY 103.74 (+0.01% today, flat), gold-dollar corr -0.36.",
-    "WTI 83.94 (-0.08% today, flat), gold-oil corr +0.42.",
-    "Headlines: dollar +0.45, oil +0.06, fresh shock.",
-    "Dollar: Treasury Yield Slide Limits Dollar Gains Ahead Of Thanksgiving - BusinessToday Malaysia",
-    "Oil: WTI Crude Oil futures top $83 as EIA reports inventory build. - CME Group",
+    "Gold 3582.95 (VANTAGE:XAUUSD). 5m up, 1h up. VWAP 3575.83, ATR 8.55, day range 3551.37-3607.23.",
+    "DXY 103.77 (+0.04% today, flat), gold-dollar corr -0.38.",
+    "WTI 83.97 (-0.05% today, flat), gold-oil corr +0.42.",
+    "Headlines: dollar +0.00, oil +0.00.",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
@@ -186,5 +184,5 @@
       "closed": "sl"
     }
   ],
-  "last_check": "2026-11-26T03:05:59.118065+00:00"
+  "last_check": "2026-11-26T03:20:47.987182+00:00"
 }
