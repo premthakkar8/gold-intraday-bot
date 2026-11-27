@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-27 10:58 UTC",
+  "updated": "2026-11-27 11:12 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3679.76,
+  "price": 3677.37,
   "stance": "Strategy: the SELL plan from 10:29 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3560.87,
-      "sl": 3555.87,
-      "tp1": 3573.04,
+      "entry_high": 3561.17,
+      "sl": 3556.17,
+      "tp1": 3572.6,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,26 +21,26 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T10:58:19.849615+00:00"
+      "checked_at": "2026-11-27T11:12:54.208666+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3682.11,
+      "entry_low": 3681.81,
       "entry_high": 3685.24,
-      "sl": 3687.11,
-      "tp1": 3669.94,
+      "sl": 3686.81,
+      "tp1": 3670.38,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.28,
+      "score": 0.29,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "weak",
-      "reason": "Strategy score is only 0.28. Take it only with a clear reaction at the entry.",
+      "reason": "Strategy score is only 0.29. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-27T09:15:36.767221+00:00",
-      "checked_at": "2026-11-27T10:58:19.849615+00:00"
+      "checked_at": "2026-11-27T11:12:54.208666+00:00"
     }
   ],
   "active": [
@@ -72,11 +72,11 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "london",
-    "vwap": 3634.479189455594,
-    "atr": 3.3949999999999494,
+    "vwap": 3635.190566626658,
+    "atr": 2.8599999999999,
     "day_low": 3557.74,
     "day_high": 3685.24,
-    "range_pos": 0.9570196078431407
+    "range_pos": 0.9382745098039225
   },
   "dxy": {
     "ok": true,
@@ -90,16 +90,16 @@
     "last": 84.41999816894531,
     "pct": 0.4880324036297427,
     "state": "up",
-    "corr": 0.3490345718365689
+    "corr": 0.35190344041263416
   },
   "news": {
-    "usd": 0.6235878934140875,
-    "oil": 0.5547125514572627,
+    "usd": 0.6707484701793077,
+    "oil": 0.5538111948220577,
     "shock": true,
     "usd_headlines": [
+      "Crypto on notice as hawkish Fed risks December \u2018meltdown\u2019 - Cryptonews.net",
       "U.S. Treasury Yields Rise in Shortened Post-Thanksgiving Trade - WSJ",
-      "Is the U.S. stock market crash the Federal Reserve\u2019s fault? Former Goldman Sachs strategist urges prompt dovish signals - \u5bcc\u9014\u725b\u725b",
-      "US Treasury Yields Jump Early Friday as Demand Likely Under Pressure Amid Premarket Gains in Mega-Cap Technology - marketscreener.com"
+      "Is the U.S. stock market crash the Federal Reserve\u2019s fault? Former Goldman Sachs strategist urges prompt dovish signals - \u5bcc\u9014\u725b\u725b"
     ],
     "oil_headlines": [
       "Oil rises as WTI jumps nearly 3%, Gulf attacks threaten crude supply recovery - Investing.com",
@@ -118,13 +118,13 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2807993385997381,
-      "trust": 0.944436945840112
+      "score": 0.28750407817407586,
+      "trust": 0.9445148414586866
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.2254834724998094,
+      "score": 0.22544975368831535,
       "trust": 0.9371875141853072
     },
     {
