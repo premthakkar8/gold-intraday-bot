@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-27T04:07:09.199864+00:00",
-  "atr": 5.49571428571429,
-  "price": 3632.54,
+  "updated_at": "2026-11-27T04:21:53.233855+00:00",
+  "atr": 3.791428571428566,
+  "price": 3631.98,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.25). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3559.72,
-      "sl": 3554.72,
-      "tp1": 3574.77,
+      "entry_high": 3560.65,
+      "sl": 3555.65,
+      "tp1": 3573.37,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.18,
+      "score": 0.21,
       "style": "oil_shock",
       "favored": false,
       "ready": false,
       "status": "far",
-      "reason": "Price is 68.66 away from the entry (12.5 ATR). Unlikely to fill soon.",
+      "reason": "Price is 73.60 away from the entry (19.4 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T04:20:18.440034+00:00"
+      "checked_at": "2026-11-27T04:35:00.904370+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3635.11,
+      "entry_low": 3634.18,
       "entry_high": 3637.09,
-      "sl": 3640.11,
-      "tp1": 3620.06,
+      "sl": 3639.18,
+      "tp1": 3621.46,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,14 +40,14 @@
       "status": "weak",
       "reason": "Strategy score is only 0.25. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T04:20:18.440034+00:00"
+      "checked_at": "2026-11-27T04:35:00.904370+00:00"
     }
   ],
   "research": [
-    "Gold 3628.38 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3599.81, ATR 5.50, day range 3557.74-3637.09.",
+    "Gold 3634.25 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3600.85, ATR 3.79, day range 3557.74-3637.09.",
     "DXY 103.81 (+0.08% today, up), gold-dollar corr -0.36.",
     "WTI 84.42 (+0.49% today, up), gold-oil corr +0.35.",
-    "Headlines: dollar +0.43, oil +0.56, fresh shock.",
+    "Headlines: dollar +0.43, oil +0.70, fresh shock.",
     "Dollar: The Federal Reserve May Be Forced to Abandon Rate Hikes in December! Former Goldman Sachs Strategist Issues Major Warning: Risk Assets Could Face a Comprehen...",
     "Oil: Asian stocks rise for second day, crude oil gains - Moneycontrol.com",
     "No high-impact US release in the next 24 hours."
@@ -140,7 +140,29 @@
       "entry": 3571.93,
       "entered_at": "2026-11-27T01:12:23.228942+00:00",
       "closed": "tp"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3634.18,
+      "entry_high": 3637.09,
+      "sl": 3639.18,
+      "tp1": 3621.46,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.25,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "weak",
+      "reason": "Strategy score is only 0.25. Take it only with a clear reaction at the entry.",
+      "created_at": "2026-11-27T03:23:06.383802+00:00",
+      "checked_at": "2026-11-27T04:22:57.400576+00:00",
+      "entry": 3634.18,
+      "entered_at": "2026-11-27T04:22:57.400576+00:00",
+      "closed": null
     }
   ],
-  "last_check": "2026-11-27T04:20:18.440034+00:00"
+  "last_check": "2026-11-27T04:35:00.904370+00:00"
 }

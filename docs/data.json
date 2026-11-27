@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-27 04:07 UTC",
+  "updated": "2026-11-27 04:21 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3628.38,
+  "price": 3634.25,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.25). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3559.72,
-      "sl": 3554.72,
-      "tp1": 3574.77,
+      "entry_high": 3560.65,
+      "sl": 3555.65,
+      "tp1": 3573.37,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.18,
+      "score": 0.21,
       "style": "oil_shock",
       "favored": false,
       "ready": false,
       "status": "far",
-      "reason": "Price is 68.66 away from the entry (12.5 ATR). Unlikely to fill soon.",
+      "reason": "Price is 73.60 away from the entry (19.4 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T04:07:09.199864+00:00"
+      "checked_at": "2026-11-27T04:21:53.233855+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3635.11,
+      "entry_low": 3634.18,
       "entry_high": 3637.09,
-      "sl": 3640.11,
-      "tp1": 3620.06,
+      "sl": 3639.18,
+      "tp1": 3621.46,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "weak",
       "reason": "Strategy score is only 0.25. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T04:07:09.199864+00:00"
+      "checked_at": "2026-11-27T04:21:53.233855+00:00"
     }
   ],
   "active": [],
@@ -49,11 +49,11 @@
     "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3599.810080105787,
-    "atr": 5.49571428571429,
+    "vwap": 3600.850474836849,
+    "atr": 3.791428571428566,
     "day_low": 3557.74,
     "day_high": 3637.09,
-    "range_pos": 0.8902331442974165
+    "range_pos": 0.9642091997479505
   },
   "dxy": {
     "ok": true,
@@ -70,8 +70,8 @@
     "corr": 0.35190344041263416
   },
   "news": {
-    "usd": 0.4302238667027518,
-    "oil": 0.5592462111292764,
+    "usd": 0.4290951664965611,
+    "oil": 0.6957568920779383,
     "shock": true,
     "usd_headlines": [
       "The Federal Reserve May Be Forced to Abandon Rate Hikes in December! Former Goldman Sachs Strategist Issues Major Warning: Risk Assets Could Face a Comprehen...",
@@ -80,8 +80,8 @@
     ],
     "oil_headlines": [
       "Asian stocks rise for second day, crude oil gains - Moneycontrol.com",
-      "Crude Oil Rises as Escalating Middle East Tensions Heighten Supply Disruption Risks By Kedia Advisory - Investing.com India",
-      "Crude Oil Inventories Rise Less Than Forecast - IndexBox"
+      "Brent Crude Rises Above $96 as Middle East Conflict Threatens Global Oil Flows - FinanceFeeds",
+      "Crude Oil Rises as Escalating Middle East Tensions Heighten Supply Disruption Risks By Kedia Advisory - Investing.com India"
     ]
   },
   "events": [],
@@ -95,26 +95,26 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2533972560248626,
-      "trust": 0.9444031685205255
+      "score": 0.2532584949653263,
+      "trust": 0.9444819733340702
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.1810038003381592,
-      "trust": 0.7473195770784791
+      "score": 0.21196551157512575,
+      "trust": 0.7476777347843205
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.1263909536728351,
+      "trust": 0.9359419393072292
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.05147180568094125,
-      "trust": 0.9358510123807499
     }
   ],
   "record": {
