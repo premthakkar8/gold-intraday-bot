@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-27 12:26 UTC",
+  "updated": "2026-11-27 12:41 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3669.46,
-  "stance": "Strategy: the SELL plan from 10:29 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3669.92,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.26). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3560.44,
-      "sl": 3555.44,
-      "tp1": 3573.7,
+      "entry_high": 3560.53,
+      "sl": 3555.53,
+      "tp1": 3573.56,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.2,
+      "score": 0.21,
       "style": "oil_shock",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T12:26:18.113847+00:00"
+      "checked_at": "2026-11-27T12:41:04.962260+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3682.54,
+      "entry_low": 3682.45,
       "entry_high": 3685.24,
-      "sl": 3687.54,
-      "tp1": 3669.28,
+      "sl": 3687.45,
+      "tp1": 3669.42,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.25,
+      "score": 0.26,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T09:15:36.767221+00:00",
-      "checked_at": "2026-11-27T12:26:18.113847+00:00"
+      "checked_at": "2026-11-27T12:41:04.962260+00:00"
     }
   ],
   "active": [],
@@ -49,11 +49,11 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3638.6734624537225,
-    "atr": 4.190000000000022,
+    "vwap": 3639.204601760594,
+    "atr": 4.020714285714348,
     "day_low": 3557.74,
     "day_high": 3685.24,
-    "range_pos": 0.8762352941176491
+    "range_pos": 0.8798431372549043
   },
   "dxy": {
     "ok": true,
@@ -70,8 +70,8 @@
     "corr": 0.35190344041263416
   },
   "news": {
-    "usd": 0.723818225056483,
-    "oil": 0.4549974613786602,
+    "usd": 0.7966340710907087,
+    "oil": 0.48177568123354747,
     "shock": true,
     "usd_headlines": [
       "New Zealand Dollar gains against US Dollar as NZ election outcome eases political uncertainty - FXStreet",
@@ -95,14 +95,14 @@
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.24704236598332177,
-      "trust": 0.7909054437725797
+      "score": 0.255680933336528,
+      "trust": 0.7909054437725795
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.19834418407489462,
-      "trust": 0.9414978211246603
+      "score": 0.20598890255654234,
+      "trust": 0.941581007881835
     },
     {
       "style": "Fade the session range",
@@ -118,10 +118,10 @@
     }
   ],
   "record": {
-    "graded": 284,
+    "graded": 285,
     "wins": 75,
     "losses": 151,
-    "scratches": 58,
-    "avg_r": -0.17946644249648785
+    "scratches": 59,
+    "avg_r": -0.1788367356807107
   }
 }

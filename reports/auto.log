@@ -2016,3 +2016,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-27 11:57 UTC  live: gold 3670.33 | holding short trend_align b14cb6ef | new read short range_fade not opened
 2026-11-27 12:11 UTC  live: gold 3672.71 | holding short trend_align b14cb6ef | new read flat stand_aside not opened
 2026-11-27 12:26 UTC  live: gold 3669.46 | holding short trend_align b14cb6ef | new read flat stand_aside not opened
+2026-11-27 12:41 UTC  live: gold 3669.92 | graded: b14cb6ef short trend_align -> scratch (price never reached the entry zone) | opened stand aside d44e2043
