@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-27T12:41:04.962260+00:00",
-  "atr": 4.020714285714348,
-  "price": 3664.26,
+  "updated_at": "2026-11-27T12:55:54.008374+00:00",
+  "atr": 4.071428571428636,
+  "price": 3668.17,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.26). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3560.53,
-      "sl": 3555.53,
-      "tp1": 3573.56,
+      "entry_high": 3560.5,
+      "sl": 3555.5,
+      "tp1": 3573.6,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.21,
+      "score": 0.2,
       "style": "oil_shock",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T12:54:14.720193+00:00"
+      "checked_at": "2026-11-27T13:09:01.407917+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3682.45,
+      "entry_low": 3682.48,
       "entry_high": 3685.24,
-      "sl": 3687.45,
-      "tp1": 3669.42,
+      "sl": 3687.48,
+      "tp1": 3669.38,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,63 +40,19 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T09:15:36.767221+00:00",
-      "checked_at": "2026-11-27T12:54:14.720193+00:00"
+      "checked_at": "2026-11-27T13:09:01.407917+00:00"
     }
   ],
   "research": [
-    "Gold 3669.92 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3639.20, ATR 4.02, day range 3557.74-3685.24.",
+    "Gold 3665.25 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3639.68, ATR 4.07, day range 3557.74-3685.24.",
     "DXY 103.81 (+0.08% today, up), gold-dollar corr -0.36.",
     "WTI 84.42 (+0.49% today, up), gold-oil corr +0.35.",
-    "Headlines: dollar +0.80, oil +0.48, fresh shock.",
-    "Dollar: New Zealand Dollar gains against US Dollar as NZ election outcome eases political uncertainty - FXStreet",
+    "Headlines: dollar +0.81, oil +0.45, fresh shock.",
+    "Dollar: US Dollar Index stalls below 104.00 as hawkish Fed bets cushion downside - FXStreet",
     "Oil: Oil rises as WTI jumps nearly 3%, Gulf attacks threaten crude supply recovery - Investing.com",
     "No high-impact US release in the next 24 hours."
   ],
   "active": [
-    {
-      "side": "BUY",
-      "entry_low": 3558.3,
-      "entry_high": 3561.03,
-      "sl": 3556.03,
-      "tp1": 3567.36,
-      "tp2": 3574.18,
-      "rr": 2.1,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.0,
-      "style": "range_fade",
-      "favored": false,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.00. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-27T00:56:46.803076+00:00",
-      "checked_at": "2026-11-27T00:57:51.674047+00:00",
-      "entry": 3561.03,
-      "entered_at": "2026-11-27T00:57:51.674047+00:00",
-      "closed": "tp"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3571.45,
-      "entry_high": 3574.18,
-      "sl": 3576.45,
-      "tp1": 3567.36,
-      "tp2": 3558.3,
-      "rr": 1.5,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.11,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.11. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-27T00:56:46.803076+00:00",
-      "checked_at": "2026-11-27T01:06:54.190772+00:00",
-      "entry": 3571.45,
-      "entered_at": "2026-11-27T01:06:54.190772+00:00",
-      "closed": "tp"
-    },
     {
       "side": "SELL",
       "entry_low": 3571.93,
@@ -296,5 +252,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-27T12:54:14.720193+00:00"
+  "last_check": "2026-11-27T13:09:01.407917+00:00"
 }
