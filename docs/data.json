@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-27 19:32 UTC",
+  "updated": "2026-11-27 19:46 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3643.65,
+  "price": 3654.14,
   "stance": "Strategy: the BUY plan from 18:48 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3561.25,
-      "sl": 3556.25,
-      "tp1": 3572.47,
+      "entry_high": 3561.14,
+      "sl": 3556.14,
+      "tp1": 3572.64,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.63,
+      "score": 0.35,
       "style": "oil_shock",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T19:32:01.300545+00:00"
+      "checked_at": "2026-11-27T19:46:52.053033+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3681.73,
+      "entry_low": 3681.84,
       "entry_high": 3685.24,
-      "sl": 3686.73,
-      "tp1": 3670.51,
+      "sl": 3686.84,
+      "tp1": 3670.34,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "invalid",
       "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-27T09:15:36.767221+00:00",
-      "checked_at": "2026-11-27T19:32:01.300545+00:00"
+      "checked_at": "2026-11-27T19:46:52.053033+00:00"
     }
   ],
   "active": [],
@@ -49,11 +49,11 @@
     "structure": "up",
     "htf": "up",
     "session": "newyork",
-    "vwap": 3638.8164235990516,
-    "atr": 2.705714285714326,
+    "vwap": 3638.8527775584203,
+    "atr": 2.910000000000017,
     "day_low": 3557.74,
     "day_high": 3685.24,
-    "range_pos": 0.6738039215686299
+    "range_pos": 0.7560784313725497
   },
   "dxy": {
     "ok": true,
@@ -71,7 +71,7 @@
   },
   "news": {
     "usd": 1.0,
-    "oil": 0.5474246257143113,
+    "oil": 0.5392346094617105,
     "shock": true,
     "usd_headlines": [
       "U.S. Dollar Gains Ground Amid Rising Treasury Yields: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
@@ -87,34 +87,34 @@
   "events": [],
   "scorecard": [
     {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.629906899735004,
-      "trust": 0.9998522218015937
-    },
-    {
       "style": "Stand aside",
       "bias": "flat",
       "score": 0.5277541993725037,
       "trust": 0.7996275748068238
     },
     {
+      "style": "Trade the oil shock",
+      "bias": "long",
+      "score": 0.34644886798534297,
+      "trust": 0.9998524328581326
+    },
+    {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.461694233631954,
-      "trust": 0.9218034290549851
+      "score": 0.34073982437781075,
+      "trust": 0.9219151092473232
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
       "score": 0.2924645111754413,
-      "trust": 0.857038860587374
+      "trust": 0.8570388605873739
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.10840728079613415,
-      "trust": 1.0840728079613415
+      "score": 0.10839527353385903,
+      "trust": 1.0839527353385903
     }
   ],
   "record": {
