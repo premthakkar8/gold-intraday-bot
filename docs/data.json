@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-27 17:05 UTC",
+  "updated": "2026-11-27 17:20 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3632.52,
+  "price": 3631.7,
   "stance": "Strategy: the SELL plan from 16:06 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3560.31,
-      "sl": 3555.31,
-      "tp1": 3573.89,
+      "entry_high": 3560.5,
+      "sl": 3555.5,
+      "tp1": 3573.6,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.62,
-      "style": "trend_align",
+      "score": 0.63,
+      "style": "oil_shock",
       "favored": true,
       "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T17:05:31.338914+00:00"
+      "checked_at": "2026-11-27T17:20:13.072825+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3682.67,
+      "entry_low": 3682.48,
       "entry_high": 3685.24,
-      "sl": 3687.67,
-      "tp1": 3669.09,
+      "sl": 3687.48,
+      "tp1": 3669.38,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.26,
+      "score": 0.29,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "invalid",
       "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-27T09:15:36.767221+00:00",
-      "checked_at": "2026-11-27T17:05:31.338914+00:00"
+      "checked_at": "2026-11-27T17:20:13.072825+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "up",
     "htf": "up",
     "session": "newyork",
-    "vwap": 3638.696490710405,
-    "atr": 4.422142857142911,
+    "vwap": 3638.610516471623,
+    "atr": 4.075000000000013,
     "day_low": 3557.74,
     "day_high": 3685.24,
-    "range_pos": 0.5865098039215701
+    "range_pos": 0.5800784313725493
   },
   "dxy": {
     "ok": true,
-    "last": 103.97799682617188,
-    "pct": 0.027897651070624654,
+    "last": 104.00199890136719,
+    "pct": 0.05098789318274914,
     "state": "flat",
-    "corr": 0.3322814719870496
+    "corr": 0.33718844842745505
   },
   "oil": {
     "ok": true,
-    "last": 82.79000091552734,
-    "pct": -1.6044669407107,
+    "last": 83.04000091552734,
+    "pct": -1.3073430973383442,
     "state": "down",
-    "corr": -0.3685357973931589
+    "corr": -0.37288312735698015
   },
   "news": {
-    "usd": 0.8746823076418483,
-    "oil": 0.371416579270864,
+    "usd": 1.0,
+    "oil": 0.6249654826317461,
     "shock": true,
     "usd_headlines": [
       "U.S. Dollar Gains Ground Amid Rising Treasury Yields: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
@@ -79,18 +79,18 @@
       "Hawkish Fed Tempers U.S. Dollar Pullback Hopes Despite Seasonality - StoneX"
     ],
     "oil_headlines": [
+      "WTI crude rises as OPEC+ meeting nears amid Mid... - Pluang",
       "Oil rises as WTI jumps nearly 3%, Gulf attacks threaten crude supply recovery - Investing.com Nigeria",
-      "Singapore fuel oil inventories rise 9% this month - https://www.engine.online/",
-      "$85.00 cleared as WTI extends gains to over one-week high on renewed supply disruption fears - www.tmgm.com"
+      "Singapore fuel oil inventories rise 9% this month - https://www.engine.online/"
     ]
   },
   "events": [],
   "scorecard": [
     {
-      "style": "Trade with the intraday trend",
+      "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.618705538365572,
-      "trust": 0.9206927654249581
+      "score": 0.6299057108768212,
+      "trust": 0.9998503347251131
     },
     {
       "style": "Stand aside",
@@ -99,22 +99,22 @@
       "trust": 0.8357512911665896
     },
     {
-      "style": "Trade the oil shock",
-      "bias": "long",
-      "score": 0.5499175675600932,
-      "trust": 0.9998501228365331
-    },
-    {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2558135335382802,
+      "score": 0.2924645111754413,
       "trust": 0.857038860587374
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.1878441967216402,
+      "trust": 0.9208048858903931
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.1085266934621225,
-      "trust": 1.085266934621225
+      "score": 0.10851463886401783,
+      "trust": 1.0851463886401782
     }
   ],
   "record": {
