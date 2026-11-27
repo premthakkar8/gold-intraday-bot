@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-27T05:05:53.211910+00:00",
-  "atr": 3.212142857142843,
-  "price": 3638.68,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.48). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-27T05:20:36.600281+00:00",
+  "atr": 3.419285714285739,
+  "price": 3653.11,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.49). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3560.97,
-      "sl": 3555.97,
-      "tp1": 3572.89,
+      "entry_high": 3560.86,
+      "sl": 3555.86,
+      "tp1": 3573.06,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -18,33 +18,33 @@
       "style": "oil_shock",
       "favored": false,
       "ready": false,
-      "status": "far",
-      "reason": "Price is 76.64 away from the entry (23.9 ATR). Unlikely to fill soon.",
+      "status": "expired",
+      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T05:19:01.596205+00:00"
+      "checked_at": "2026-11-27T05:33:46.424296+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3635.5,
-      "entry_high": 3638.73,
-      "sl": 3640.5,
-      "tp1": 3623.58,
+      "entry_low": 3639.05,
+      "entry_high": 3642.17,
+      "sl": 3644.05,
+      "tp1": 3626.85,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.48,
+      "score": 0.49,
       "style": "range_fade",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.48 (Fade the session range), dollar firmer +0.08%, hawkish dollar news +0.46, price above VWAP.",
-      "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T05:19:01.596205+00:00"
+      "reason": "Score 0.49 (Fade the session range), dollar firmer +0.08%, hawkish dollar news +0.46, price above VWAP.",
+      "created_at": "2026-11-27T05:20:36.600281+00:00",
+      "checked_at": "2026-11-27T05:33:46.424296+00:00"
     }
   ],
   "research": [
-    "Gold 3637.61 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3604.09, ATR 3.21, day range 3557.74-3638.73.",
+    "Gold 3641.79 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3605.51, ATR 3.42, day range 3557.74-3642.17.",
     "DXY 103.81 (+0.08% today, up), gold-dollar corr -0.36.",
     "WTI 84.42 (+0.49% today, up), gold-oil corr +0.35.",
     "Headlines: dollar +0.46, oil +0.53.",
@@ -184,7 +184,29 @@
       "entry": 3635.5,
       "entered_at": "2026-11-27T05:07:57.864866+00:00",
       "closed": "sl"
+    },
+    {
+      "side": "SELL",
+      "entry_low": 3639.05,
+      "entry_high": 3642.17,
+      "sl": 3644.05,
+      "tp1": 3626.85,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.49,
+      "style": "range_fade",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.49 (Fade the session range), dollar firmer +0.08%, hawkish dollar news +0.46, price above VWAP.",
+      "created_at": "2026-11-27T05:20:36.600281+00:00",
+      "checked_at": "2026-11-27T05:21:41.538198+00:00",
+      "entry": 3639.05,
+      "entered_at": "2026-11-27T05:21:41.538198+00:00",
+      "closed": "sl"
     }
   ],
-  "last_check": "2026-11-27T05:19:01.596205+00:00"
+  "last_check": "2026-11-27T05:33:46.424296+00:00"
 }

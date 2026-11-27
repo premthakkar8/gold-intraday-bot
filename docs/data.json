@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-27 05:05 UTC",
+  "updated": "2026-11-27 05:20 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3637.61,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.48). Take an entry only if price reaches it.",
+  "price": 3641.79,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.49). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3560.97,
-      "sl": 3555.97,
-      "tp1": 3572.89,
+      "entry_high": 3560.86,
+      "sl": 3555.86,
+      "tp1": 3573.06,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,64 +19,41 @@
       "favored": false,
       "ready": false,
       "status": "far",
-      "reason": "Price is 76.64 away from the entry (23.9 ATR). Unlikely to fill soon.",
+      "reason": "Price is 80.93 away from the entry (23.7 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T05:05:53.211910+00:00"
+      "checked_at": "2026-11-27T05:20:36.600281+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3635.5,
-      "entry_high": 3638.73,
-      "sl": 3640.5,
-      "tp1": 3623.58,
+      "entry_low": 3639.05,
+      "entry_high": 3642.17,
+      "sl": 3644.05,
+      "tp1": 3626.85,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.48,
+      "score": 0.49,
       "style": "range_fade",
       "favored": true,
       "ready": false,
       "status": "valid",
-      "reason": "Score 0.48 (Fade the session range), dollar firmer +0.08%, hawkish dollar news +0.46, price above VWAP.",
-      "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T05:05:53.211910+00:00"
+      "reason": "Score 0.49 (Fade the session range), dollar firmer +0.08%, hawkish dollar news +0.46, price above VWAP.",
+      "created_at": "2026-11-27T05:20:36.600281+00:00",
+      "checked_at": "2026-11-27T05:20:36.600281+00:00"
     }
   ],
-  "active": [
-    {
-      "side": "SELL",
-      "entry_low": 3634.18,
-      "entry_high": 3637.09,
-      "sl": 3639.18,
-      "tp1": 3621.46,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.25,
-      "style": "dollar_lead",
-      "favored": true,
-      "ready": false,
-      "status": "weak",
-      "reason": "Strategy score is only 0.25. Take it only with a clear reaction at the entry.",
-      "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T04:22:57.400576+00:00",
-      "entry": 3634.18,
-      "entered_at": "2026-11-27T04:22:57.400576+00:00",
-      "closed": null
-    }
-  ],
+  "active": [],
   "blackout": null,
   "chart": {
     "structure": "sideways",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3604.0927888787733,
-    "atr": 3.212142857142843,
+    "vwap": 3605.511832170558,
+    "atr": 3.419285714285739,
     "day_low": 3557.74,
-    "day_high": 3638.73,
-    "range_pos": 0.9861711322385494
+    "day_high": 3642.17,
+    "range_pos": 0.9954992301314686
   },
   "dxy": {
     "ok": true,
@@ -93,8 +70,8 @@
     "corr": 0.35190344041263416
   },
   "news": {
-    "usd": 0.4576834775662441,
-    "oil": 0.5331882379121076,
+    "usd": 0.45684661534580123,
+    "oil": 0.5289054307526548,
     "shock": false,
     "usd_headlines": [
       "The Federal Reserve May Be Forced to Abandon Rate Hikes in December! Former Goldman Sachs Strategist Issues Major Warning: Risk Assets Could Face a Comprehen...",
@@ -112,13 +89,13 @@
     {
       "style": "Fade the session range",
       "bias": "short",
-      "score": 0.4841009941123095,
-      "trust": 1.0779000495667899
+      "score": 0.4891386262061838,
+      "trust": 1.0777897120064028
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.29659093858221713,
+      "score": 0.29645427828567555,
       "trust": 0.8165041580516872
     },
     {
@@ -130,7 +107,7 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.16878769807517216,
+      "score": 0.16763873282831532,
       "trust": 0.8868557652966405
     },
     {
