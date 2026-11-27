@@ -1993,3 +1993,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-27 08:16 UTC  live: gold 3673.60 | opened short range_fade ecb4c4ce zone 3671.79-3673.91 stop 3676.79 target 3657.10 units 1 risk 5.00 USD tier normal conf 0.61
 2026-11-27 08:17 UTC  live: SELL entry reached at 3672.96
 2026-11-27 08:19 UTC  live: SELL SL hit
+2026-11-27 08:31 UTC  live: gold 3673.97 | graded: ecb4c4ce short range_fade -> loss (-1.00R) invalidation hit | opened stand aside 8585c273
