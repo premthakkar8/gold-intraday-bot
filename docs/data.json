@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-27 15:22 UTC",
+  "updated": "2026-11-27 15:37 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3626.48,
-  "stance": "Strategy: the SELL plan from 13:25 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
+  "price": 3630.96,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.36). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3558.44,
-      "sl": 3553.44,
-      "tp1": 3576.69,
+      "entry_high": 3558.42,
+      "sl": 3553.42,
+      "tp1": 3576.72,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.29,
+      "score": 0.36,
       "style": "oil_shock",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T15:22:34.929021+00:00"
+      "checked_at": "2026-11-27T15:37:04.274139+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3684.54,
+      "entry_low": 3684.56,
       "entry_high": 3685.24,
-      "sl": 3689.54,
-      "tp1": 3666.29,
+      "sl": 3689.56,
+      "tp1": 3666.26,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.22,
+      "score": 0.24,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T09:15:36.767221+00:00",
-      "checked_at": "2026-11-27T15:22:34.929021+00:00"
+      "checked_at": "2026-11-27T15:37:04.274139+00:00"
     }
   ],
   "active": [],
@@ -49,34 +49,34 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3640.226931042803,
-    "atr": 7.812857142857118,
+    "vwap": 3640.003475221026,
+    "atr": 7.859999999999998,
     "day_low": 3557.74,
     "day_high": 3685.24,
-    "range_pos": 0.5391372549019626
+    "range_pos": 0.5742745098039236
   },
   "dxy": {
     "ok": true,
-    "last": 104.00199890136719,
-    "pct": 0.05098789318274914,
+    "last": 103.98500061035156,
+    "pct": 0.03463536316818673,
     "state": "flat",
-    "corr": 0.3100695409621683
+    "corr": 0.3012683119226931
   },
   "oil": {
     "ok": true,
-    "last": 83.63999938964844,
-    "pct": -0.5942476867447113,
-    "state": "down",
-    "corr": -0.35406666766621797
+    "last": 83.80999755859375,
+    "pct": -0.39220564945153413,
+    "state": "flat",
+    "corr": -0.3495539473801219
   },
   "news": {
-    "usd": 0.8449024583694555,
-    "oil": 0.5763671801907279,
+    "usd": 0.85565292241029,
+    "oil": 0.5784842577382449,
     "shock": true,
     "usd_headlines": [
       "US Treasury Yields Rise as Investors Reduce Safe-Haven Demand - kalkine.ca",
       "Hawkish Fed Tempers U.S. Dollar Pullback Hopes Despite Seasonality - StoneX",
-      "Can hawkish Fed bets limit losses as the US Dollar Index stalls below 104.00? - www.tmgm.com"
+      "US Dollar Index stalls below 104.00 as hawkish Fed bets cushion downside - FXStreet"
     ],
     "oil_headlines": [
       "WTI crude rises as OPEC+ meeting nears amid Mid... - Pluang",
@@ -89,39 +89,39 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5178985093933121,
-      "trust": 0.784694711201988
+      "score": 0.42497456716367926,
+      "trust": 0.643900859338908
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.28975530108328734,
-      "trust": 0.7298586360509904
+      "score": 0.3634920680307847,
+      "trust": 0.9129151058516751
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.21640799518096832,
-      "trust": 0.7505749533085495
+      "score": 0.23686736371638623,
+      "trust": 0.8112130497913292
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11837050088471959,
-      "trust": 1.1837050088471959
+      "score": 0.10778502668591523,
+      "trust": 1.0778502668591523
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.09400402375455019,
-      "trust": 0.9400402375455018
+      "score": 0.09998494759542252,
+      "trust": 0.9998494759542251
     }
   ],
   "record": {
-    "graded": 288,
+    "graded": 289,
     "wins": 75,
     "losses": 154,
-    "scratches": 59,
-    "avg_r": -0.18739051968403664
+    "scratches": 60,
+    "avg_r": -0.1867421095813237
   }
 }
