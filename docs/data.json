@@ -1,59 +1,59 @@
 {
-  "updated": "2026-11-27 12:11 UTC",
+  "updated": "2026-11-27 12:26 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3672.71,
+  "price": 3669.46,
   "stance": "Strategy: the SELL plan from 10:29 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3560.58,
-      "sl": 3555.58,
-      "tp1": 3573.48,
+      "entry_high": 3560.44,
+      "sl": 3555.44,
+      "tp1": 3573.7,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.19,
+      "score": 0.2,
       "style": "oil_shock",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T12:11:34.476009+00:00"
+      "checked_at": "2026-11-27T12:26:18.113847+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3682.4,
+      "entry_low": 3682.54,
       "entry_high": 3685.24,
-      "sl": 3687.4,
-      "tp1": 3669.5,
+      "sl": 3687.54,
+      "tp1": 3669.28,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.35,
-      "style": "trend_align",
+      "score": 0.25,
+      "style": "dollar_lead",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T09:15:36.767221+00:00",
-      "checked_at": "2026-11-27T12:11:34.476009+00:00"
+      "checked_at": "2026-11-27T12:26:18.113847+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "down",
+    "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3638.044249424546,
-    "atr": 3.9299999999999664,
+    "vwap": 3638.6734624537225,
+    "atr": 4.190000000000022,
     "day_low": 3557.74,
     "day_high": 3685.24,
-    "range_pos": 0.9017254901960804
+    "range_pos": 0.8762352941176491
   },
   "dxy": {
     "ok": true,
@@ -67,16 +67,16 @@
     "last": 84.41999816894531,
     "pct": 0.4880324036297427,
     "state": "up",
-    "corr": 0.3490345718365689
+    "corr": 0.35190344041263416
   },
   "news": {
-    "usd": 0.7090437189840204,
-    "oil": 0.48250989378172515,
+    "usd": 0.723818225056483,
+    "oil": 0.4549974613786602,
     "shock": true,
     "usd_headlines": [
       "New Zealand Dollar gains against US Dollar as NZ election outcome eases political uncertainty - FXStreet",
-      "US Dollar vs South African Rand slides slightly after South Africa rate hike speculation and political uncertainty - Traders Union",
-      "U.S. Treasury Yields Rise in Shortened Post-Thanksgiving Trade - WSJ"
+      "Crypto on notice as hawkish Fed risks December \u2018meltdown\u2019 - Cryptonews.net",
+      "US Dollar vs South African Rand slides slightly after South Africa rate hike speculation and political uncertainty - Traders Union"
     ],
     "oil_headlines": [
       "Oil rises as WTI jumps nearly 3%, Gulf attacks threaten crude supply recovery - Investing.com",
@@ -89,32 +89,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5459780748270346,
-      "trust": 0.9749608479054189
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "short",
-      "score": 0.35242192921585325,
-      "trust": 1.0
+      "score": 0.4960359856407643,
+      "trust": 0.885778545787079
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2927139282249805,
-      "trust": 0.9438192968984073
+      "score": 0.24704236598332177,
+      "trust": 0.7909054437725797
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.1935941241777491,
-      "trust": 0.884983120640242
+      "score": 0.19834418407489462,
+      "trust": 0.9414978211246603
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.10738570969240664,
-      "trust": 1.0738570969240664
+      "score": 0.10723323973779449,
+      "trust": 1.0723323973779448
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "flat",
+      "score": 0.1,
+      "trust": 1.0
     }
   ],
   "record": {
