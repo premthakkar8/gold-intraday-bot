@@ -1994,3 +1994,5 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-27 08:17 UTC  live: SELL entry reached at 3672.96
 2026-11-27 08:19 UTC  live: SELL SL hit
 2026-11-27 08:31 UTC  live: gold 3673.97 | graded: ecb4c4ce short range_fade -> loss (-1.00R) invalidation hit | opened stand aside 8585c273
+2026-11-27 08:46 UTC  live: gold 3677.95 | holding flat stand_aside 8585c273 | new read flat stand_aside not opened
+2026-11-27 08:47 UTC  live: SELL entry reached at 3677.85
