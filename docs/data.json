@@ -1,59 +1,59 @@
 {
-  "updated": "2026-11-27 05:35 UTC",
+  "updated": "2026-11-27 05:49 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3656.21,
-  "stance": "Strategy: SELL is the trade (Fade the session range, confidence 58%).",
+  "price": 3644.71,
+  "stance": "Strategy: the SELL plan from 05:35 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3560.05,
-      "sl": 3555.05,
-      "tp1": 3574.27,
+      "entry_high": 3559.28,
+      "sl": 3554.28,
+      "tp1": 3575.42,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.17,
-      "style": "oil_shock",
+      "score": 0.23,
+      "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T05:35:14.840028+00:00"
+      "checked_at": "2026-11-27T05:49:54.616292+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3664.38,
+      "entry_low": 3665.15,
       "entry_high": 3666.69,
-      "sl": 3669.38,
-      "tp1": 3650.16,
+      "sl": 3670.15,
+      "tp1": 3649.01,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.8,
-      "style": "range_fade",
+      "score": 0.36,
+      "style": "dollar_lead",
       "favored": true,
-      "ready": true,
+      "ready": false,
       "status": "valid",
-      "reason": "Score 0.80 (Fade the session range), dollar firmer +0.08%, hawkish dollar news +0.46, price above VWAP.",
+      "reason": "Score 0.36 (Trade with the dollar), dollar firmer +0.08%, hawkish dollar news +0.57, price above VWAP.",
       "created_at": "2026-11-27T05:35:14.840028+00:00",
-      "checked_at": "2026-11-27T05:35:14.840028+00:00"
+      "checked_at": "2026-11-27T05:49:54.616292+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
+    "structure": "up",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3607.8924271113583,
-    "atr": 4.887142857142862,
+    "vwap": 3610.190597960679,
+    "atr": 6.283571428571447,
     "day_low": 3557.74,
     "day_high": 3666.69,
-    "range_pos": 0.9038090867370354
+    "range_pos": 0.7982560807709962
   },
   "dxy": {
     "ok": true,
@@ -67,11 +67,11 @@
     "last": 84.41999816894531,
     "pct": 0.4880324036297427,
     "state": "up",
-    "corr": 0.3490345718365689
+    "corr": 0.35190344041263416
   },
   "news": {
-    "usd": 0.4584601480387554,
-    "oil": 0.5245689675462553,
+    "usd": 0.572296796412294,
+    "oil": 0.5201441279254503,
     "shock": false,
     "usd_headlines": [
       "The Federal Reserve May Be Forced to Abandon Rate Hikes in December! Former Goldman Sachs Strategist Issues Major Warning: Risk Assets Could Face a Comprehen...",
@@ -87,31 +87,31 @@
   "events": [],
   "scorecard": [
     {
-      "style": "Fade the session range",
-      "bias": "short",
-      "score": 0.7983449321003485,
-      "trust": 1.077680172441689
-    },
-    {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.29671776951626544,
-      "trust": 0.8165041580516872
+      "score": 0.36490917393716327,
+      "trust": 0.9449504463087048
     },
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.19079733794137674,
-      "trust": 0.867260627006258
+      "score": 0.33296818727343325,
+      "trust": 0.7927813982700791
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.22616312583327047,
+      "trust": 0.9364824749142068
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.16626547057363233,
-      "trust": 0.8868557652966406
+      "score": 0.1397457322793488,
+      "trust": 0.7498068839859555
     },
     {
-      "style": "Trade with the intraday trend",
+      "style": "Fade the session range",
       "bias": "flat",
       "score": 0.1,
       "trust": 1.0
