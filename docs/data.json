@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-27 03:23 UTC",
+  "updated": "2026-11-27 03:37 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3626.78,
+  "price": 3626.9,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.25). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3558.0,
-      "sl": 3553.0,
-      "tp1": 3577.35,
+      "entry_high": 3558.15,
+      "sl": 3553.15,
+      "tp1": 3577.12,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,28 +19,28 @@
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 68.78 away from the entry (8.0 ATR). Unlikely to fill soon.",
+      "reason": "Price is 68.75 away from the entry (8.2 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T03:23:06.383802+00:00"
+      "checked_at": "2026-11-27T03:37:43.896541+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3636.83,
+      "entry_low": 3636.68,
       "entry_high": 3637.09,
-      "sl": 3641.83,
-      "tp1": 3617.48,
+      "sl": 3641.68,
+      "tp1": 3617.71,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.24,
+      "score": 0.22,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "weak",
-      "reason": "Strategy score is only 0.24. Take it only with a clear reaction at the entry.",
+      "reason": "Strategy score is only 0.22. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T03:23:06.383802+00:00"
+      "checked_at": "2026-11-27T03:37:43.896541+00:00"
     }
   ],
   "active": [],
@@ -49,11 +49,11 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "asia",
-    "vwap": 3595.0183908961194,
-    "atr": 8.618571428571451,
+    "vwap": 3597.0612409037367,
+    "atr": 8.337142857142908,
     "day_low": 3557.74,
     "day_high": 3637.09,
-    "range_pos": 0.8700693131695035
+    "range_pos": 0.8715816005040957
   },
   "dxy": {
     "ok": true,
@@ -70,8 +70,8 @@
     "corr": 0.3490345718365689
   },
   "news": {
-    "usd": 0.2707037025097838,
-    "oil": 0.7159173617677745,
+    "usd": 0.1225161199631111,
+    "oil": 0.711155124846731,
     "shock": true,
     "usd_headlines": [
       "U.S. Dollar Gains Ground In Holiday-Thinned Trading: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
@@ -89,20 +89,20 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5632425258526721,
-      "trust": 1.0057902247369144
+      "score": 0.5852100480155105,
+      "trust": 1.04501794288484
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.24895804275504904,
-      "trust": 0.8603737147049396
+      "score": 0.24777517089379175,
+      "trust": 0.8605701667824567
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.23859297267643584,
-      "trust": 0.9762928728517107
+      "score": 0.21689921079847232,
+      "trust": 0.9763262284220492
     },
     {
       "style": "Trade with the intraday trend",
@@ -118,10 +118,10 @@
     }
   ],
   "record": {
-    "graded": 278,
-    "wins": 73,
+    "graded": 279,
+    "wins": 74,
     "losses": 147,
     "scratches": 58,
-    "avg_r": -0.18109587449847508
+    "avg_r": -0.17686255595188557
   }
 }
