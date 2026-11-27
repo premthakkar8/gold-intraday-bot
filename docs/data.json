@@ -1,28 +1,49 @@
 {
-  "updated": "2026-11-27 09:15 UTC",
+  "updated": "2026-11-27 09:30 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3681.55,
+  "price": 3678.97,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.32). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3560.09,
-      "sl": 3555.09,
-      "tp1": 3574.22,
+      "entry_high": 3560.59,
+      "sl": 3555.59,
+      "tp1": 3573.46,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.22,
-      "style": "trend_align",
+      "score": 0.24,
+      "style": "oil_shock",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T09:15:36.767221+00:00"
+      "checked_at": "2026-11-27T09:30:24.545614+00:00"
     },
+    {
+      "side": "SELL",
+      "entry_low": 3682.39,
+      "entry_high": 3685.24,
+      "sl": 3687.39,
+      "tp1": 3669.52,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.32,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.32 (Trade with the dollar), dollar firmer +0.08%, hawkish dollar news +0.85, price above VWAP.",
+      "created_at": "2026-11-27T09:15:36.767221+00:00",
+      "checked_at": "2026-11-27T09:30:24.545614+00:00"
+    }
+  ],
+  "active": [
     {
       "side": "SELL",
       "entry_low": 3682.89,
@@ -40,20 +61,22 @@
       "status": "valid",
       "reason": "Score 0.32 (Trade with the dollar), dollar firmer +0.08%, hawkish dollar news +0.84, price above VWAP.",
       "created_at": "2026-11-27T09:15:36.767221+00:00",
-      "checked_at": "2026-11-27T09:15:36.767221+00:00"
+      "checked_at": "2026-11-27T09:16:41.526707+00:00",
+      "entry": 3682.89,
+      "entered_at": "2026-11-27T09:16:41.526707+00:00",
+      "closed": null
     }
   ],
-  "active": [],
   "blackout": null,
   "chart": {
     "structure": "up",
     "htf": "sideways",
     "session": "london",
-    "vwap": 3628.623533178987,
-    "atr": 4.821428571428474,
+    "vwap": 3629.6697338310023,
+    "atr": 3.906428571428478,
     "day_low": 3557.74,
     "day_high": 3685.24,
-    "range_pos": 0.9710588235294149
+    "range_pos": 0.9508235294117648
   },
   "dxy": {
     "ok": true,
@@ -70,8 +93,8 @@
     "corr": 0.35190344041263416
   },
   "news": {
-    "usd": 0.8419105480509635,
-    "oil": 0.41572570892682004,
+    "usd": 0.8513602074261596,
+    "oil": 0.6054383853700704,
     "shock": true,
     "usd_headlines": [
       "South Korea's KOSPI Settles Above 4,900 as Mid- and Short-Term Treasury Yields Rise Across the Board; 3-Year at 3.685% - BigGo Finance",
@@ -79,9 +102,9 @@
       "The Federal Reserve May Be Forced to Abandon Rate Hikes in December! Former Goldman Sachs Strategist Issues Major Warning: Risk Assets Could Face a Comprehen..."
     ],
     "oil_headlines": [
+      "Oil rises as WTI jumps nearly 3%, Gulf attacks threaten crude supply recovery - Investing.com",
       "Singapore fuel oil inventories rise 9% this month - https://www.engine.online/",
-      "Crude Oil Rises As Middle East Attacks Revive Concerns Over Supply Disruptions By Kedia Advisory - Investing.com India",
-      "$85.00 cleared as WTI extends gains to over one-week high on renewed supply disruption fears - www.tmgm.com"
+      "Crude Oil Rises As Middle East Attacks Revive Concerns Over Supply Disruptions By Kedia Advisory - Investing.com India"
     ]
   },
   "events": [],
@@ -89,32 +112,32 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6487469313538354,
-      "trust": 0.8536143833603097
+      "score": 0.6487469313538353,
+      "trust": 0.8536143833603096
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.3223417098201506,
-      "trust": 0.9765926940948959
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.22000000000000003,
-      "trust": 1.0
+      "score": 0.32373702473060517,
+      "trust": 0.9766260128248
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.1825149890402207,
-      "trust": 0.9181339673321635
+      "score": 0.23523479138303816,
+      "trust": 0.9182504981384785
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.0926046728383625,
-      "trust": 0.926046728383625
+      "score": 0.0926151995905334,
+      "trust": 0.9261519959053339
+    },
+    {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.07679648930334797,
+      "trust": 1.0
     }
   ],
   "record": {
