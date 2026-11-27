@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-27T03:37:43.896541+00:00",
-  "atr": 8.337142857142908,
-  "price": 3631.76,
+  "updated_at": "2026-11-27T03:52:22.513805+00:00",
+  "atr": 6.03642857142862,
+  "price": 3628.79,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.25). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3558.15,
-      "sl": 3553.15,
-      "tp1": 3577.12,
+      "entry_high": 3559.42,
+      "sl": 3554.42,
+      "tp1": 3575.22,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -19,16 +19,16 @@
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 68.75 away from the entry (8.2 ATR). Unlikely to fill soon.",
+      "reason": "Price is 70.57 away from the entry (11.7 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T03:50:50.352528+00:00"
+      "checked_at": "2026-11-27T04:05:29.292315+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3636.68,
+      "entry_low": 3635.41,
       "entry_high": 3637.09,
-      "sl": 3641.68,
-      "tp1": 3617.71,
+      "sl": 3640.41,
+      "tp1": 3619.61,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,11 +40,11 @@
       "status": "weak",
       "reason": "Strategy score is only 0.22. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T03:50:50.352528+00:00"
+      "checked_at": "2026-11-27T04:05:29.292315+00:00"
     }
   ],
   "research": [
-    "Gold 3626.90 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3597.06, ATR 8.34, day range 3557.74-3637.09.",
+    "Gold 3629.99 (VANTAGE:XAUUSD). 5m sideways, 1h sideways. VWAP 3598.50, ATR 6.04, day range 3557.74-3637.09.",
     "DXY 103.81 (+0.08% today, up), gold-dollar corr -0.36.",
     "WTI 84.42 (+0.49% today, up), gold-oil corr +0.35.",
     "Headlines: dollar +0.12, oil +0.71, fresh shock.",
@@ -142,5 +142,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-27T03:50:50.352528+00:00"
+  "last_check": "2026-11-27T04:05:29.292315+00:00"
 }
