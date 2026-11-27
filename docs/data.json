@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27 19:46 UTC",
+  "updated": "2026-11-27 20:01 UTC",
   "symbol": "VANTAGE:XAUUSD",
   "price": 3654.14,
   "stance": "Strategy: the BUY plan from 18:48 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
@@ -14,14 +14,14 @@
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.35,
-      "style": "oil_shock",
+      "score": 0.43,
+      "style": "trend_align",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T19:46:52.053033+00:00"
+      "checked_at": "2026-11-27T20:01:32.129611+00:00"
     },
     {
       "side": "SELL",
@@ -33,14 +33,14 @@
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.29,
-      "style": "dollar_lead",
+      "score": 0.0,
+      "style": "range_fade",
       "favored": false,
       "ready": false,
       "status": "invalid",
       "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-27T09:15:36.767221+00:00",
-      "checked_at": "2026-11-27T19:46:52.053033+00:00"
+      "checked_at": "2026-11-27T20:01:32.129611+00:00"
     }
   ],
   "active": [],
@@ -60,61 +60,57 @@
     "last": 104.01399993896484,
     "pct": 0.06253301423881139,
     "state": "flat",
-    "corr": 0.2767547484000287
+    "corr": 0.27675474840002867
   },
   "oil": {
     "ok": true,
     "last": 82.81999969482422,
     "pct": -1.5688135303060335,
     "state": "down",
-    "corr": -0.318722513459228
+    "corr": -0.31872251345922803
   },
   "news": {
-    "usd": 1.0,
-    "oil": 0.5392346094617105,
-    "shock": true,
-    "usd_headlines": [
-      "U.S. Dollar Gains Ground Amid Rising Treasury Yields: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
-      "US Dollar Strengthens Against Canada's Loonie Even as Treasury Yields, Gold Prices, Rise - marketscreener.com",
-      "US Treasury Yields Rise as Investors Reduce Safe-Haven Demand - kalkine.ca"
-    ],
+    "usd": 0.0,
+    "oil": 0.38604694546615753,
+    "shock": false,
+    "usd_headlines": [],
     "oil_headlines": [
-      "WTI crude rises as OPEC+ meeting nears amid Mid... - Pluang",
       "Oil rises as WTI jumps nearly 3%, Gulf attacks threaten crude supply recovery - Investing.com Canada",
-      "Singapore fuel oil inventories rise 9% this month - https://www.engine.online/"
+      "Singapore fuel oil inventories rise 9% this month - https://www.engine.online/",
+      "$85.00 cleared as WTI extends gains to over one-week high on renewed supply disruption fears - www.tmgm.com"
     ]
   },
   "events": [],
   "scorecard": [
     {
-      "style": "Stand aside",
-      "bias": "flat",
-      "score": 0.5277541993725037,
-      "trust": 0.7996275748068238
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.42631631917104357,
+      "trust": 0.9227625956083193
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.34644886798534297,
-      "trust": 0.9998524328581326
+      "score": 0.2774591674237636,
+      "trust": 0.9172203881777307
     },
     {
-      "style": "Trade with the intraday trend",
-      "bias": "long",
-      "score": 0.34073982437781075,
-      "trust": 0.9219151092473232
+      "style": "Stand aside",
+      "bias": "flat",
+      "score": 0.18613022730860948,
+      "trust": 0.8460464877664067
     },
     {
       "style": "Trade with the dollar",
-      "bias": "short",
-      "score": 0.2924645111754413,
-      "trust": 0.8570388605873739
+      "bias": "flat",
+      "score": 0.12,
+      "trust": 1.0
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.10839527353385903,
-      "trust": 1.0839527353385903
+      "score": 0.1,
+      "trust": 1.0
     }
   ],
   "record": {
