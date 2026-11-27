@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-11-27T08:46:13.616921+00:00",
-  "atr": 5.653571428571403,
-  "price": 3677.85,
-  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.41). Take an entry only if price reaches it.",
+  "updated_at": "2026-11-27T09:00:54.528550+00:00",
+  "atr": 5.275714285714197,
+  "price": 3683.36,
+  "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.31). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3559.63,
-      "sl": 3554.63,
-      "tp1": 3574.9,
+      "entry_high": 3559.84,
+      "sl": 3554.84,
+      "tp1": 3574.59,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.28,
-      "style": "trend_align",
+      "score": 0.18,
+      "style": "oil_shock",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T08:59:20.150341+00:00"
+      "checked_at": "2026-11-27T09:14:01.761288+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3678.04,
-      "entry_high": 3679.93,
-      "sl": 3683.04,
-      "tp1": 3662.77,
+      "entry_low": 3678.86,
+      "entry_high": 3680.96,
+      "sl": 3683.86,
+      "tp1": 3664.11,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.41,
+      "score": 0.31,
       "style": "dollar_lead",
       "favored": true,
       "ready": false,
-      "status": "valid",
-      "reason": "Score 0.41 (Trade with the dollar), dollar firmer +0.08%, hawkish dollar news +0.73, price above VWAP.",
+      "status": "invalid",
+      "reason": "Price 3684.06 broke above the SL 3683.86 before the entry triggered.",
       "created_at": "2026-11-27T08:31:30.207583+00:00",
-      "checked_at": "2026-11-27T08:59:20.150341+00:00"
+      "checked_at": "2026-11-27T09:14:01.761288+00:00"
     }
   ],
   "research": [
-    "Gold 3677.95 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3626.07, ATR 5.65, day range 3557.74-3679.93.",
+    "Gold 3678.51 (VANTAGE:XAUUSD). 5m up, 1h sideways. VWAP 3627.30, ATR 5.28, day range 3557.74-3680.96.",
     "DXY 103.81 (+0.08% today, up), gold-dollar corr -0.36.",
     "WTI 84.42 (+0.49% today, up), gold-oil corr +0.35.",
-    "Headlines: dollar +0.73, oil +0.49.",
+    "Headlines: dollar +0.76, oil +0.42, fresh shock.",
     "Dollar: U.S. Treasury Yields Rise in Shortened Post-Thanksgiving Trade - WSJ",
     "Oil: Singapore fuel oil inventories rise 9% this month - https://www.engine.online/",
     "No high-impact US release in the next 24 hours."
@@ -293,8 +293,8 @@
       "checked_at": "2026-11-27T08:47:17.944147+00:00",
       "entry": 3678.04,
       "entered_at": "2026-11-27T08:47:17.944147+00:00",
-      "closed": null
+      "closed": "sl"
     }
   ],
-  "last_check": "2026-11-27T08:59:20.150341+00:00"
+  "last_check": "2026-11-27T09:14:01.761288+00:00"
 }
