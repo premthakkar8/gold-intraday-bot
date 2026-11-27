@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-27 16:36 UTC",
+  "updated": "2026-11-27 16:50 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3629.23,
+  "price": 3630.95,
   "stance": "Strategy: the SELL plan from 16:06 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3559.51,
-      "sl": 3554.51,
-      "tp1": 3575.08,
+      "entry_high": 3559.74,
+      "sl": 3554.74,
+      "tp1": 3574.74,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.37,
+      "score": 0.46,
       "style": "oil_shock",
       "favored": true,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T16:36:08.623345+00:00"
+      "checked_at": "2026-11-27T16:50:51.094940+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3683.47,
+      "entry_low": 3683.24,
       "entry_high": 3685.24,
-      "sl": 3688.47,
-      "tp1": 3667.9,
+      "sl": 3688.24,
+      "tp1": 3668.24,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T09:15:36.767221+00:00",
-      "checked_at": "2026-11-27T16:36:08.623345+00:00"
+      "checked_at": "2026-11-27T16:50:51.094940+00:00"
     }
   ],
   "active": [],
@@ -49,29 +49,29 @@
     "structure": "sideways",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3638.9200062608006,
-    "atr": 5.8642857142857725,
+    "vwap": 3638.7711432132865,
+    "atr": 5.4485714285714755,
     "day_low": 3557.74,
     "day_high": 3685.24,
-    "range_pos": 0.560705882352943
+    "range_pos": 0.5741960784313729
   },
   "dxy": {
     "ok": true,
-    "last": 104.01599884033203,
-    "pct": 0.06445597782221145,
+    "last": 103.9990005493164,
+    "pct": 0.04810344780764904,
     "state": "flat",
-    "corr": 0.32301989863906605
+    "corr": 0.32433354898073485
   },
   "oil": {
     "ok": true,
-    "last": 83.30000305175781,
-    "pct": -0.9983317613310654,
+    "last": 83.05000305175781,
+    "pct": -1.2954556047034211,
     "state": "down",
-    "corr": -0.44155980244973153
+    "corr": -0.3588898642977013
   },
   "news": {
-    "usd": 0.8582706640165524,
-    "oil": 0.6164029682396228,
+    "usd": 0.8589803048039789,
+    "oil": 0.6191268378739391,
     "shock": true,
     "usd_headlines": [
       "US Treasury Yields Rise as Investors Reduce Safe-Haven Demand - kalkine.ca",
@@ -95,26 +95,26 @@
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.36761759292705687,
-      "trust": 0.7317649664260457
+      "score": 0.45984339308893973,
+      "trust": 0.7321445002790451
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.21983204319337224,
+      "score": 0.22001380611592547,
       "trust": 0.7505749533085495
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11824086415182691,
-      "trust": 1.182408641518269
+      "score": 0.11821505460204014,
+      "trust": 1.1821505460204014
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "flat",
-      "score": 0.09404633608864711,
-      "trust": 0.9404633608864711
+      "score": 0.09405476010758913,
+      "trust": 0.9405476010758913
     }
   ],
   "record": {
