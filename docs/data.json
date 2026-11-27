@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-27 14:09 UTC",
+  "updated": "2026-11-27 14:23 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3635.62,
+  "price": 3638.49,
   "stance": "Strategy: the SELL plan from 13:25 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3558.8,
-      "sl": 3553.8,
-      "tp1": 3576.15,
+      "entry_high": 3559.18,
+      "sl": 3554.18,
+      "tp1": 3575.58,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.35,
+      "score": 0.34,
       "style": "oil_shock",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T14:09:11.796131+00:00"
+      "checked_at": "2026-11-27T14:23:51.852169+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3684.18,
+      "entry_low": 3683.8,
       "entry_high": 3685.24,
-      "sl": 3689.18,
-      "tp1": 3666.83,
+      "sl": 3688.8,
+      "tp1": 3667.4,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -40,7 +40,7 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T09:15:36.767221+00:00",
-      "checked_at": "2026-11-27T14:09:11.796131+00:00"
+      "checked_at": "2026-11-27T14:23:51.852169+00:00"
     }
   ],
   "active": [],
@@ -49,11 +49,11 @@
     "structure": "down",
     "htf": "sideways",
     "session": "overlap",
-    "vwap": 3640.8939637787184,
-    "atr": 7.160714285714188,
+    "vwap": 3640.821020996391,
+    "atr": 6.476428571428512,
     "day_low": 3557.74,
     "day_high": 3685.24,
-    "range_pos": 0.6108235294117655
+    "range_pos": 0.6333333333333333
   },
   "dxy": {
     "ok": true,
@@ -67,16 +67,16 @@
     "last": 84.41999816894531,
     "pct": 0.4880324036297427,
     "state": "up",
-    "corr": 0.35190344041263416
+    "corr": 0.3490345718365689
   },
   "news": {
-    "usd": 0.8181048913528141,
-    "oil": 0.47916381682360687,
+    "usd": 0.7975480732738884,
+    "oil": 0.4628685036842012,
     "shock": true,
     "usd_headlines": [
       "US Dollar Index stalls below 104.00 as hawkish Fed bets cushion downside - FXStreet",
       "New Zealand Dollar gains against US Dollar as NZ election outcome eases political uncertainty - FXStreet",
-      "Crypto on notice as hawkish Fed risks December \u2018meltdown\u2019 - Cryptonews.net"
+      "US Dollar vs South African Rand slides slightly after South Africa rate hike speculation and political uncertainty - Traders Union"
     ],
     "oil_headlines": [
       "Oil rises as WTI jumps nearly 3%, Gulf attacks threaten crude supply recovery - Investing.com",
@@ -95,26 +95,26 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.4875539199138318,
-      "trust": 0.8706319998461282
+      "score": 0.4875539199138319,
+      "trust": 0.8706319998461283
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.3512547413479974,
-      "trust": 0.8862781707130564
+      "score": 0.3429922402969331,
+      "trust": 0.8864386390272277
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.30836056788807326,
-      "trust": 0.944451872082567
+      "score": 0.30547367878897896,
+      "trust": 0.9445302538189335
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.10730254916911493,
-      "trust": 1.0730254916911492
+      "score": 0.10729224483474334,
+      "trust": 1.0729224483474333
     }
   ],
   "record": {
