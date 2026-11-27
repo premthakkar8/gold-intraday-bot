@@ -1,28 +1,49 @@
 {
-  "updated": "2026-11-27 07:03 UTC",
+  "updated": "2026-11-27 07:17 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3661.74,
+  "price": 3659.78,
   "stance": "Strategy: the SELL plan from 05:35 UTC is still running (Fade the session range). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3559.68,
-      "sl": 3554.68,
-      "tp1": 3574.83,
+      "entry_high": 3559.79,
+      "sl": 3554.79,
+      "tp1": 3574.66,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.22,
+      "score": 0.28,
       "style": "trend_align",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T07:03:23.452858+00:00"
+      "checked_at": "2026-11-27T07:17:57.283265+00:00"
     },
+    {
+      "side": "SELL",
+      "entry_low": 3664.64,
+      "entry_high": 3666.69,
+      "sl": 3669.64,
+      "tp1": 3649.77,
+      "tp2": null,
+      "rr": 4.0,
+      "risk_usd": 5.0,
+      "units": 1.0,
+      "score": 0.35,
+      "style": "dollar_lead",
+      "favored": true,
+      "ready": false,
+      "status": "valid",
+      "reason": "Score 0.35 (Trade with the dollar), dollar firmer +0.08%, hawkish dollar news +0.44, price above VWAP.",
+      "created_at": "2026-11-27T05:35:14.840028+00:00",
+      "checked_at": "2026-11-27T07:17:57.283265+00:00"
+    }
+  ],
+  "active": [
     {
       "side": "SELL",
       "entry_low": 3664.75,
@@ -40,20 +61,22 @@
       "status": "weak",
       "reason": "Strategy score is only 0.25. Take it only with a clear reaction at the entry.",
       "created_at": "2026-11-27T05:35:14.840028+00:00",
-      "checked_at": "2026-11-27T07:03:23.452858+00:00"
+      "checked_at": "2026-11-27T07:06:26.632419+00:00",
+      "entry": 3664.75,
+      "entered_at": "2026-11-27T07:06:26.632419+00:00",
+      "closed": null
     }
   ],
-  "active": [],
   "blackout": null,
   "chart": {
     "structure": "up",
     "htf": "sideways",
     "session": "london",
-    "vwap": 3617.1307950314344,
-    "atr": 5.562857142857118,
+    "vwap": 3618.4581561099003,
+    "atr": 5.355714285714287,
     "day_low": 3557.74,
     "day_high": 3666.69,
-    "range_pos": 0.954566314823311
+    "range_pos": 0.9365764111977987
   },
   "dxy": {
     "ok": true,
@@ -70,18 +93,18 @@
     "corr": 0.3490345718365689
   },
   "news": {
-    "usd": 0.35394782094247096,
-    "oil": 0.5351113871734295,
-    "shock": true,
+    "usd": 0.4377594835851399,
+    "oil": 0.4801173938390131,
+    "shock": false,
     "usd_headlines": [
       "The Federal Reserve May Be Forced to Abandon Rate Hikes in December! Former Goldman Sachs Strategist Issues Major Warning: Risk Assets Could Face a Comprehen...",
       "U.S. Dollar Gains Ground In Holiday-Thinned Trading: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
       "US Dollar Rises Against Canada's Loonie, Treasury Yields Fall - marketscreener.com"
     ],
     "oil_headlines": [
-      "Singapore fuel oil inventories rise 9% this month - www.engine.online",
+      "Singapore fuel oil inventories rise 9% this month - https://www.engine.online/",
       "Crude Oil Rises As Middle East Attacks Revive Concerns Over Supply Disruptions By Kedia Advisory - Investing.com India",
-      "Silver Surges 7% as Gold Gains $100 and WTI Crude Rises 2% - www.tokenpost.com"
+      "$85.00 cleared as WTI extends gains to over one-week high on renewed supply disruption fears - www.tmgm.com"
     ]
   },
   "events": [],
@@ -89,26 +112,26 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6772069321874568,
+      "score": 0.3742459362088577,
       "trust": 0.8910617528782325
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.2507835593096575,
-      "trust": 0.9762928366600284
+      "score": 0.35075495734459783,
+      "trust": 0.9763260524082347
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.22000000000000003,
+      "score": 0.275,
       "trust": 1.0
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.2152092238114667,
-      "trust": 0.9170852290169524
+      "score": 0.15962135187128773,
+      "trust": 0.9172013996492654
     },
     {
       "style": "Fade the session range",
