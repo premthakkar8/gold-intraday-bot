@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-27T19:02:46.283310+00:00",
-  "atr": 4.657142857142909,
-  "price": 3643.97,
+  "updated_at": "2026-11-27T19:17:26.914416+00:00",
+  "atr": 3.2928571428572013,
+  "price": 3642.84,
   "stance": "Strategy: the BUY plan from 18:48 UTC is still running (Trade the oil shock). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3560.18,
-      "sl": 3555.18,
-      "tp1": 3574.08,
+      "entry_high": 3560.93,
+      "sl": 3555.93,
+      "tp1": 3572.96,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
@@ -21,33 +21,33 @@
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T19:15:55.186665+00:00"
+      "checked_at": "2026-11-27T19:30:33.486047+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3682.8,
+      "entry_low": 3682.05,
       "entry_high": 3685.24,
-      "sl": 3687.8,
-      "tp1": 3668.9,
+      "sl": 3687.05,
+      "tp1": 3670.02,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.27,
+      "score": 0.24,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T09:15:36.767221+00:00",
-      "checked_at": "2026-11-27T19:15:55.186665+00:00"
+      "checked_at": "2026-11-27T19:30:33.486047+00:00"
     }
   ],
   "research": [
-    "Gold 3640.71 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3638.78, ATR 4.66, day range 3557.74-3685.24.",
+    "Gold 3644.96 (VANTAGE:XAUUSD). 5m sideways, 1h up. VWAP 3638.80, ATR 3.29, day range 3557.74-3685.24.",
     "DXY 104.01 (+0.06% today, flat), gold-dollar corr +0.28.",
     "WTI 82.82 (-1.57% today, down), gold-oil corr -0.32.",
-    "Headlines: dollar +1.00, oil +0.41, fresh shock.",
+    "Headlines: dollar +0.88, oil +0.41, fresh shock.",
     "Dollar: U.S. Dollar Gains Ground Amid Rising Treasury Yields: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
     "Oil: Oil rises as WTI jumps nearly 3%, Gulf attacks threaten crude supply recovery - Investing.com Canada",
     "No high-impact US release in the next 24 hours."
@@ -120,5 +120,5 @@
       "closed": "time"
     }
   ],
-  "last_check": "2026-11-27T19:15:55.186665+00:00"
+  "last_check": "2026-11-27T19:30:33.486047+00:00"
 }
