@@ -1,59 +1,20 @@
 {
-  "updated": "2026-11-27 02:24 UTC",
+  "updated": "2026-11-27 02:39 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3614.46,
+  "price": 3629.33,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.25). Take an entry only if price reaches it.",
-  "setups": [
-    {
-      "side": "BUY",
-      "entry_low": 3557.74,
-      "entry_high": 3557.98,
-      "sl": 3552.98,
-      "tp1": 3577.38,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.25,
-      "style": "oil_shock",
-      "favored": true,
-      "ready": false,
-      "status": "far",
-      "reason": "Price is 56.48 away from the entry (6.5 ATR). Unlikely to fill soon.",
-      "created_at": "2026-11-27T00:56:46.803076+00:00",
-      "checked_at": "2026-11-27T02:24:34.292755+00:00"
-    },
-    {
-      "side": "SELL",
-      "entry_low": 3627.17,
-      "entry_high": 3627.41,
-      "sl": 3632.17,
-      "tp1": 3607.77,
-      "tp2": null,
-      "rr": 4.0,
-      "risk_usd": 5.0,
-      "units": 1.0,
-      "score": 0.23,
-      "style": "dollar_lead",
-      "favored": false,
-      "ready": false,
-      "status": "invalid",
-      "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
-      "created_at": "2026-11-27T02:24:34.292755+00:00",
-      "checked_at": "2026-11-27T02:24:34.292755+00:00"
-    }
-  ],
+  "setups": [],
   "active": [],
   "blackout": null,
   "chart": {
     "structure": "up",
     "htf": "up",
     "session": "asia",
-    "vwap": 3579.6876035612086,
-    "atr": 8.65142857142853,
+    "vwap": 3584.6163532110095,
+    "atr": 10.037142857142824,
     "day_low": 3557.74,
-    "day_high": 3627.41,
-    "range_pos": 0.8141237261375082
+    "day_high": 3637.01,
+    "range_pos": 0.9031159328875962
   },
   "dxy": {
     "ok": true,
@@ -70,8 +31,8 @@
     "corr": 0.3490345718365689
   },
   "news": {
-    "usd": 0.23376574660240354,
-    "oil": 0.5827792100170646,
+    "usd": 0.2570747935251443,
+    "oil": 0.5759267848732176,
     "shock": true,
     "usd_headlines": [
       "U.S. Dollar Gains Ground In Holiday-Thinned Trading: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
@@ -89,26 +50,26 @@
     {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.6852647692650592,
-      "trust": 0.9016641700856042
+      "score": 0.6852647692650591,
+      "trust": 0.9016641700856041
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.24904542662200374,
-      "trust": 0.9998368572526616
+      "score": 0.24697296294284982,
+      "trust": 0.9998370870177545
     },
     {
       "style": "Trade with the intraday trend",
       "bias": "long",
-      "score": 0.2412533835492132,
-      "trust": 0.9791127579107676
+      "score": 0.24126063188128086,
+      "trust": 0.9791421748428604
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.23302957690835205,
-      "trust": 0.9756478701553462
+      "score": 0.23644910176589914,
+      "trust": 0.9756821669259248
     },
     {
       "style": "Fade the session range",
