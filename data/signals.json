@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-11-27T02:10:00.137855+00:00",
-  "atr": 7.992857142857149,
-  "price": 3615.99,
+  "updated_at": "2026-11-27T02:24:34.292755+00:00",
+  "atr": 8.65142857142853,
+  "price": 3625.71,
   "stance": "Strategy: wait. No side clears the 0.50 bar (best 0.25). Take an entry only if price reaches it.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3558.34,
-      "sl": 3553.34,
-      "tp1": 3574.85,
-      "tp2": 3576.83,
-      "rr": 3.6,
+      "entry_high": 3557.98,
+      "sl": 3552.98,
+      "tp1": 3577.38,
+      "tp2": null,
+      "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
       "score": 0.25,
@@ -19,35 +19,35 @@
       "favored": true,
       "ready": false,
       "status": "far",
-      "reason": "Price is 58.37 away from the entry (7.3 ATR). Unlikely to fill soon.",
+      "reason": "Price is 56.48 away from the entry (6.5 ATR). Unlikely to fill soon.",
       "created_at": "2026-11-27T00:56:46.803076+00:00",
-      "checked_at": "2026-11-27T02:23:10.460589+00:00"
+      "checked_at": "2026-11-27T02:37:39.592711+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3616.86,
-      "entry_high": 3617.46,
-      "sl": 3621.86,
-      "tp1": 3598.37,
+      "entry_low": 3627.17,
+      "entry_high": 3627.41,
+      "sl": 3632.17,
+      "tp1": 3607.77,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.24,
+      "score": 0.23,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
       "status": "invalid",
       "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
-      "created_at": "2026-11-27T02:10:00.137855+00:00",
-      "checked_at": "2026-11-27T02:23:10.460589+00:00"
+      "created_at": "2026-11-27T02:24:34.292755+00:00",
+      "checked_at": "2026-11-27T02:37:39.592711+00:00"
     }
   ],
   "research": [
-    "Gold 3616.71 (VANTAGE:XAUUSD). 5m up, 1h up. VWAP 3574.85, ATR 7.99, day range 3557.74-3617.46.",
+    "Gold 3614.46 (VANTAGE:XAUUSD). 5m up, 1h up. VWAP 3579.69, ATR 8.65, day range 3557.74-3627.41.",
     "DXY 103.81 (+0.08% today, up), gold-dollar corr -0.36.",
     "WTI 84.42 (+0.49% today, up), gold-oil corr +0.35.",
-    "Headlines: dollar +0.26, oil +0.59, fresh shock.",
+    "Headlines: dollar +0.23, oil +0.58, fresh shock.",
     "Dollar: U.S. Dollar Gains Ground In Holiday-Thinned Trading: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
     "Oil: Brent Crude Rises Above $96 as Middle East Conflict Threatens Global Oil Flows - FinanceFeeds",
     "No high-impact US release in the next 24 hours."
@@ -142,5 +142,5 @@
       "closed": "tp"
     }
   ],
-  "last_check": "2026-11-27T02:23:10.460589+00:00"
+  "last_check": "2026-11-27T02:37:39.592711+00:00"
 }
