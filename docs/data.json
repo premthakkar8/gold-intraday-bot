@@ -1,120 +1,120 @@
 {
-  "updated": "2026-11-27 16:50 UTC",
+  "updated": "2026-11-27 17:05 UTC",
   "symbol": "VANTAGE:XAUUSD",
-  "price": 3630.95,
+  "price": 3632.52,
   "stance": "Strategy: the SELL plan from 16:06 UTC is still running (Trade with the intraday trend). It stays in charge until SL, TP, or 120 minutes.",
   "setups": [
     {
       "side": "BUY",
       "entry_low": 3557.74,
-      "entry_high": 3559.74,
-      "sl": 3554.74,
-      "tp1": 3574.74,
+      "entry_high": 3560.31,
+      "sl": 3555.31,
+      "tp1": 3573.89,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.46,
-      "style": "oil_shock",
+      "score": 0.62,
+      "style": "trend_align",
       "favored": true,
-      "ready": false,
+      "ready": true,
       "status": "expired",
       "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
       "created_at": "2026-11-27T03:23:06.383802+00:00",
-      "checked_at": "2026-11-27T16:50:51.094940+00:00"
+      "checked_at": "2026-11-27T17:05:31.338914+00:00"
     },
     {
       "side": "SELL",
-      "entry_low": 3683.24,
+      "entry_low": 3682.67,
       "entry_high": 3685.24,
-      "sl": 3688.24,
-      "tp1": 3668.24,
+      "sl": 3687.67,
+      "tp1": 3669.09,
       "tp2": null,
       "rr": 4.0,
       "risk_usd": 5.0,
       "units": 1.0,
-      "score": 0.22,
+      "score": 0.26,
       "style": "dollar_lead",
       "favored": false,
       "ready": false,
-      "status": "expired",
-      "reason": "Signal is 120 minutes old without an entry. Waiting for a fresh one.",
+      "status": "invalid",
+      "reason": "Gold is trending up on both the 5-minute and 1-hour charts.",
       "created_at": "2026-11-27T09:15:36.767221+00:00",
-      "checked_at": "2026-11-27T16:50:51.094940+00:00"
+      "checked_at": "2026-11-27T17:05:31.338914+00:00"
     }
   ],
   "active": [],
   "blackout": null,
   "chart": {
-    "structure": "sideways",
-    "htf": "sideways",
-    "session": "overlap",
-    "vwap": 3638.7711432132865,
-    "atr": 5.4485714285714755,
+    "structure": "up",
+    "htf": "up",
+    "session": "newyork",
+    "vwap": 3638.696490710405,
+    "atr": 4.422142857142911,
     "day_low": 3557.74,
     "day_high": 3685.24,
-    "range_pos": 0.5741960784313729
+    "range_pos": 0.5865098039215701
   },
   "dxy": {
     "ok": true,
-    "last": 103.9990005493164,
-    "pct": 0.04810344780764904,
+    "last": 103.97799682617188,
+    "pct": 0.027897651070624654,
     "state": "flat",
-    "corr": 0.32433354898073485
+    "corr": 0.3322814719870496
   },
   "oil": {
     "ok": true,
-    "last": 83.05000305175781,
-    "pct": -1.2954556047034211,
+    "last": 82.79000091552734,
+    "pct": -1.6044669407107,
     "state": "down",
-    "corr": -0.3588898642977013
+    "corr": -0.3685357973931589
   },
   "news": {
-    "usd": 0.8589803048039789,
-    "oil": 0.6191268378739391,
+    "usd": 0.8746823076418483,
+    "oil": 0.371416579270864,
     "shock": true,
     "usd_headlines": [
+      "U.S. Dollar Gains Ground Amid Rising Treasury Yields: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
       "US Treasury Yields Rise as Investors Reduce Safe-Haven Demand - kalkine.ca",
-      "Hawkish Fed Tempers U.S. Dollar Pullback Hopes Despite Seasonality - StoneX",
-      "US Dollar Index stalls below 104.00 as hawkish Fed bets cushion downside - FXStreet"
+      "Hawkish Fed Tempers U.S. Dollar Pullback Hopes Despite Seasonality - StoneX"
     ],
     "oil_headlines": [
-      "WTI crude rises as OPEC+ meeting nears amid Mid... - Pluang",
       "Oil rises as WTI jumps nearly 3%, Gulf attacks threaten crude supply recovery - Investing.com Nigeria",
-      "Singapore fuel oil inventories rise 9% this month - https://www.engine.online/"
+      "Singapore fuel oil inventories rise 9% this month - https://www.engine.online/",
+      "$85.00 cleared as WTI extends gains to over one-week high on renewed supply disruption fears - www.tmgm.com"
     ]
   },
   "events": [],
   "scorecard": [
     {
+      "style": "Trade with the intraday trend",
+      "bias": "long",
+      "score": 0.618705538365572,
+      "trust": 0.9206927654249581
+    },
+    {
       "style": "Stand aside",
       "bias": "flat",
-      "score": 0.5178985093933121,
-      "trust": 0.784694711201988
+      "score": 0.5515958521699492,
+      "trust": 0.8357512911665896
     },
     {
       "style": "Trade the oil shock",
       "bias": "long",
-      "score": 0.45984339308893973,
-      "trust": 0.7321445002790451
+      "score": 0.5499175675600932,
+      "trust": 0.9998501228365331
     },
     {
       "style": "Trade with the dollar",
       "bias": "short",
-      "score": 0.22001380611592547,
-      "trust": 0.7505749533085495
+      "score": 0.2558135335382802,
+      "trust": 0.857038860587374
     },
     {
       "style": "Fade the session range",
       "bias": "flat",
-      "score": 0.11821505460204014,
-      "trust": 1.1821505460204014
-    },
-    {
-      "style": "Trade with the intraday trend",
-      "bias": "flat",
-      "score": 0.09405476010758913,
-      "trust": 0.9405476010758913
+      "score": 0.1085266934621225,
+      "trust": 1.085266934621225
     }
   ],
   "record": {
