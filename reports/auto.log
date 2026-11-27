@@ -2042,3 +2042,4 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-27 18:18 UTC  live: gold 3646.20 | graded: edff4a0b short trend_align -> scratch (price never reached the entry zone) | opened stand aside 7d4fb47d
 2026-11-27 18:33 UTC  live: gold 3639.97 | graded: 7d4fb47d stand aside -> loss (-1.00R) | opened stand aside c8a3bcca
 2026-11-27 18:48 UTC  live: gold 3640.76 | opened long oil_shock fb5f8b54 zone 3557.74-3559.88 stop 3554.88 target 3574.52 units 1 risk 5.00 USD tier normal conf 0.58
+2026-11-27 19:02 UTC  live: gold 3640.71 | holding long oil_shock fb5f8b54 | new read flat stand_aside not opened
