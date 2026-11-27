@@ -1950,3 +1950,7 @@ websocket._exceptions.WebSocketConnectionClosedException: Connection to remote h
 2026-11-27 01:12 UTC  live: SELL TP hit
 2026-11-27 01:25 UTC  live: gold 3575.23 | graded: b45dd0de stand aside -> win (+1.00R) | opened stand aside 00c40bc5
 2026-11-27 01:40 UTC  live: gold 3574.70 | holding flat stand_aside 00c40bc5 | new read flat stand_aside not opened
+2026-11-27 01:55 UTC  live: gold 3581.08 | holding flat stand_aside 00c40bc5 | new read flat stand_aside not opened
+2026-11-27 02:01 UTC  live: BUY now far: Price is 38.06 away from the entry (6.2 ATR). Unlikely to fill soon.
+2026-11-27 02:02 UTC  live: BUY valid again
+2026-11-27 02:03 UTC  live: BUY now far: Price is 41.50 away from the entry (6.7 ATR). Unlikely to fill soon.
